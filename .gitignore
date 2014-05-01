@@ -1,1 +1,6 @@
 _site/
+*~
+*.pyc
+#*
+*.out
+.DS_Store
