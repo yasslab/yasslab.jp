@@ -1,7 +1,7 @@
 YasuLab & Co.
 =====================
 
-### This repository has codes that build [YasuLab & Co.](http://yasulab.com) website.
+This repository includes source codes to build [YasuLab & Co.](http://yasulab.com) website.
 
 ## License
 
