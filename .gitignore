@@ -96,5 +96,5 @@ build/
 ### https://raw.github.com/github/gitignore/master/Jekyll.gitignore
 
 _site/
-
+vendor/
 
