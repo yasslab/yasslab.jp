@@ -3,7 +3,7 @@ author:
   name:  YasuLab & Co.
   email: yohei@yasulab.com
 
-pygments: true
+highlighter: pygments
 markdown: redcarpet
 exclude: ["vendor", "Gemfile", "Gemfile.lock"]
 
