@@ -1,0 +1,9 @@
+permalink: /:title
+author:
+  name:  YasuLab & Co.
+  email: yohei@yasulab.com
+
+pygments: true
+markdown: redcarpet
+exclude: ["vendor", "Gemfile", "Gemfile.lock"]
+
