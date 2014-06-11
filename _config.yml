@@ -6,4 +6,3 @@ author:
 highlighter: pygments
 markdown: redcarpet
 exclude: ["vendor", "Gemfile", "Gemfile.lock"]
-

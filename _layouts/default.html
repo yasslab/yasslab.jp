@@ -1,52 +1,33 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang }}">
+{% include header.html %}
 
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="YasuLab & Co.: Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource." />
-    <meta name="google-site-verification" content="yDbQDXQZ6tC4VzzqH511E5wFuDQqzYuvMFytfYtyUsc" />
-    <meta name="google-site-verification" content="_5DHY3tGdFZ7kKhnFfr95n5UKOpnpJsinGJCmcwfjHs" />
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+  <header class="inner">
+    {% if page.lang == "ja" %}
+    <a id="header_to_en" href="/en">English</a>
+    {% else %}
+    <a id="header_to_ja" href="/ja">日本語</a>
+    {% endif %}
+    <h1 id="project_title">YasuLab & Co.</h1>
+    <h2 id="project_tagline">Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource.</h2>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
+  </header>
+</div>
 
-    <title>{{ page.title }} - YasuLab & Co.</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-	  <a id="header_to_{{ page.lang }}" href="/{{ page.lang }}">English</a>
-
-          <h1 id="project_title">YasuLab & Co.</h1>
-          <h2 id="project_tagline">Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource.</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+  <section id="main_content" class="inner">
     {{ content }}
-    
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>
-	  Copyright &copy; 2014 YasuLab All Rights Reserved.
-	</p>
-      </footer>
-    </div>
+  </section>
+</div>
 
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-      var pageTracker = _gat._getTracker("UA-50163209-2");
-      pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
-  </body>
-</html>
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+    <p>
+      Copyright &copy; 2014 YasuLab All Rights Reserved.
+    </p>
+  </footer>
+</div>
+
+{% include footer.html %}
