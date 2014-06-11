@@ -15,7 +15,7 @@ Main Works and Contribution
 - Education, Workshops, and Materials:
    - [Lexues Academy](http://academy.lexues.co.jp/), project-based learning course in Okinawa, Japan.
    - [Digi-Lab Okinawa](http://digilab.drupalgardens.com/): Teach kids in Okinawa to code with [Scratch & Raspberry Pi](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/)
-   - [ODEN](https://sites.google.com/site/okidigedunet/home)>ODEN</a>: Okinawa Digital Educators Network</li>
+   - [ODEN](https://sites.google.com/site/okidigedunet/home)ODEN: Okinawa Digital Educators Network.
    - [Rails Tutorial in Japanese](http://railstutorial.jp), one of most famous Rails books in Japan.
 - Open-source Communities:
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): Okinawa Ruby User Group that we found and support.
