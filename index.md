@@ -40,7 +40,7 @@ lang:   ja
 また，2014年には，[Railsチュートリアル](http://railstutorial.jp/)によるRuby/Railsコミュニティへの貢献が評価され，
 [フクオカRuby大賞にて優秀賞](http://www.digitalfukuoka.jp/topics/28)を受賞した．
 
-現在は，東京と沖縄に拠点を置き，リモートで開発および事業運営できる体制を整えている．
+現在は，東京と沖縄に拠点を置き，リモートで開発・運営できる体制を整えている．
 
 参考: [GitHub](http://github.com/yasulab), [Twitter](https://twitter.com/yasulab), [Facebook](https://facebook.com/yasulab/).
 
