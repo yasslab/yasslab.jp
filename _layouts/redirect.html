@@ -1,0 +1,21 @@
+{% include header.html %}
+
+<script type="text/javascript">
+  function getBrowserLanguage() {
+    try {
+      return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
+    }
+    catch(e) {
+      return undefined;
+    }
+  }
+   
+  if (getBrowserLanguage().indexOf("ja") != -1) {
+      location.replace("/ja");
+  }
+  else {
+      location.replace("/en");
+  }   
+</script>
+
+{% include footer.html %}
