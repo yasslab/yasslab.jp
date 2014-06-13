@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  code
+title:  ヤスラボ
 lang:   ja
 ---
 
