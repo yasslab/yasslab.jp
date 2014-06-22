@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  ヤスラボ
+title:  YasuLab (ヤスラボ) – 沖縄で教育、東京で開発。Ruby/Railsの開発案件を支援します。
 lang:   ja
 ---
 
@@ -8,7 +8,7 @@ lang:   ja
 開発・貢献
 ==========
 
-- ウェブサービス/モバイルアプリ
+- 自社サービス/アプリ
    - [Snapwhim](http://www.snapwhim.com/): PBL(プロジェクト型学習)の支援ツール
    - [ScreenX TV](http://screenx.tv/): リアルタイム端末配信サービス
    - [ホイッスル on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle): 震災対策アプリ

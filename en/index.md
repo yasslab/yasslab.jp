@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YasuLab
+title:  YasuLab | We support Rails Web Development, Programming Education, and OpenSource Communities in Japan.
 lang:   en
 ---
 
