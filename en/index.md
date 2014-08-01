@@ -52,10 +52,10 @@ Links: [GitHub](http://github.com/yasulab), [Twitter](https://twitter.com/yasula
 
 ## Contact
 
-As with [this website published under MIT License](htttps://github.com/yasulab-co/yasulab-co.github.io), we love open-source minds. If you're interested in us, feel free to contact us from <i>yohei@yasulab.com</i>.
+As with [this website published under MIT License](htttps://github.com/yasulab-co/yasulab-co.github.io), we love open-source minds. If you're interested in us, feel free to contact us from <i>yohei@yasulab.jp</i>.
 
 Related websites: 
-[GitHub](https://github.com/yasulab-co),
+[GitHub](https://github.com/yasslab),
 [Facebook](https://www.facebook.com/yasulab.jp),
 [Google+](https://plus.google.com/+YasuLab).  
 
