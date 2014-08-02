@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YasuLab | We support Rails Web Development, Programming Education, and OpenSource Communities in Japan.
+title:  YassLab | We support Rails Web Development, Education, and OpenSource Communities in Japan.
 lang:   en
 ---
 
@@ -32,23 +32,23 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
 [![Photo of Yohei Yasukawa](https://dl.dropboxusercontent.com/u/2819285/self_osscafe_without_text_300x300.png)](http://facebook.com/yasulab)
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, 
-and studied at Monmouth College in Illinois state, USA. He founded YasuLab in 2012, 
+and studied at Monmouth College in Illinois state, USA. He founded YassLab in 2012, 
 a small distributed company that focues on Ruby/Rails web development and education with open-source mind 
 (see [LinkedIn](https://www.linkedin.com/in/yasulab) for details).
 
-Not only such businesses, but also YasuLab contributes to opensource communities by
+Not only such businesses, but also we contribute to opensource communities by
 founding [Okinawa.rb](https://www.facebook.com/groups/okinawarb/),
 organizing [Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01),
 and translating [Rails Tutorial into Japanese](http://railstutorial.jp/").
 For such enthusiastic contribution to IT and Education fields in Japan,
-YasuLab's works were 
+Our works were 
 accepted by [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html) (and one of us is accredited as Super Creator) in 2012,
 seleted as one of [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) talks in 2013,
 and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-fukuoka-ruby-award-winners.html) at Fukuoka Ruby Award in 2014.
 
-Now, with welcoming co-workers to YasuLab, we have two offices in Tokyo and Okinawa, Japan, and we work remotely.
+Now, with welcoming co-workers to YassLab, we have two offices in Tokyo and Okinawa, Japan, and we work remotely.
 
-Links: [GitHub](http://github.com/yasulab), [Twitter](https://twitter.com/yasulab), [Web](http://yasulab.jp/).
+Links: [GitHub](http://github.com/yasslab), [Twitter](https://twitter.com/yasslab), [Web](http://yasslab.jp/).
 
 ## Contact
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YasuLab (ヤスラボ) – 沖縄で教育、東京で開発。Ruby/Railsの開発案件を支援します。
+title:  ヤスラボ – 沖縄で教育、東京で開発。Ruby/Railsの開発案件を支援します。
 lang:   ja
 ---
 
@@ -29,7 +29,7 @@ lang:   ja
 [![Photo of Yohei Yasukawa](https://dl.dropboxusercontent.com/u/2819285/self_osscafe_without_text_300x300.png)](http://facebook.com/yasulab)
 
 早稲田大学大学院 基幹理工学研究科(情報理工学)卒．在学中に米国イリノイ州のリベラルアーツカレッジに留学．
-帰国後，東京と沖縄を拠点にした個人事務所 YasuLab (ヤスラボ) を開業し，
+帰国後，東京と沖縄を拠点にした個人事務所ヤスラボを開業し，
 主に教育事業・受託開発・製品開発の３つの事業を展開している ([詳細](https://www.linkedin.com/in/yasulab))．
 
 上記事業を行う傍らで，[Okinawa.rb](https://www.facebook.com/groups/okinawarb/) や [CoderDojo](https://coderdojo.jp)，
