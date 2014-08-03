@@ -42,11 +42,11 @@ lang:   ja
 
 現在は，東京と沖縄に拠点を置き，リモートで開発・運営できる体制を整えている．
 
-参考: [GitHub](http://github.com/yasulab), [Twitter](https://twitter.com/yasulab), [Facebook](https://facebook.com/yasulab/).
+詳細: [GitHub](http://github.com/yasulab), [Twitter](https://twitter.com/yasulab), [Facebook](https://facebook.com/yasulab/).
 
 ## 連絡先・所在地
 
-連絡先: yohei@yasulab.jp   
+連絡先: hi@yasslab.jp   
 関連サイト: [GitHub](https://github.com/yasslab), [Facebook](https://www.facebook.com/yasulab.jp), [Google+](https://plus.google.com/+YasuLab).  
 東京オフィス: [CASE Shinjuku](http://case-shinjuku.com/access/) (〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F)  
 沖縄オフィス: [GeekHouse沖縄](http://text.geeoki.com/info) (〒900-0024 沖縄県那覇市古波蔵2-18-14)  

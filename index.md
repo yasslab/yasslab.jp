@@ -1,4 +1,4 @@
 ---
 layout: redirect
-title:  YasuLab
+title:  YassLab
 ---

@@ -14,7 +14,7 @@ Main Works and Contribution
    - [Whistle on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle), Android app developed for [2011 Tōhoku earthquake and tsunami](http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami).
 - Education, Workshops, and Materials:
    - [Lexues Academy](http://academy.lexues.co.jp/), project-based learning course in Okinawa, Japan.
-   - [Digi-Lab Okinawa](http://digilab.drupalgardens.com/): Teach kids in Okinawa to code with [Scratch & Raspberry Pi](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/)
+   - [Digi-Lab Okinawa](http://digilab.drupalgardens.com/): Teach kids in Okinawa to code with [Scratch & Raspberry Pi](http://yasslab.jp/Scratch-Raspberry-Pi-Workshop/)
    - [ODEN](https://sites.google.com/site/okidigedunet/home)ODEN: Okinawa Digital Educators Network.
    - [Rails Tutorial in Japanese](http://railstutorial.jp), one of most famous Rails books in Japan.
 - Open-source Communities:
@@ -50,15 +50,7 @@ Now, with welcoming co-workers to YassLab, we have two offices in Tokyo and Okin
 
 Links: [GitHub](http://github.com/yasslab), [Twitter](https://twitter.com/yasslab), [Web](http://yasslab.jp/).
 
-## Contact
-
-As with [this website published under MIT License](htttps://github.com/yasulab-co/yasulab-co.github.io), we love open-source minds. If you're interested in us, feel free to contact us from <i>yohei@yasulab.jp</i>.
-
-Related websites: 
-[GitHub](https://github.com/yasslab),
-[Facebook](https://www.facebook.com/yasulab.jp),
-[Google+](https://plus.google.com/+YasuLab).  
-
-## Access
+## Contact / Access
+- Contact: <i>hi@yasslab.jp</i>
 - Tokyo: [CASE Shinjuku](https://www.google.com/maps/place/CASE+Shinjuku%EF%BC%88%E3%82%B1%E3%82%A4%E3%82%B9%E3%82%B7%E3%83%B3%E3%82%B8%E3%83%A5%E3%82%AF%EF%BC%89/@35.712188,139.704646,17z/data=!3m1!4b1!4m2!3m1!1s0x60188d3964eee5f9:0xecce6846d52c067f) (Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075)
 - Okinawa: [GeekHouse Okinawa](http://text.geeoki.com/info) (Kohagura 2-18-14, Naha-shi, Okinawa, 900-0024)
