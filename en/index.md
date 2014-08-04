@@ -51,6 +51,6 @@ Now, with welcoming co-workers to YassLab, we have two offices in Tokyo and Okin
 Links: [GitHub](http://github.com/yasslab), [Twitter](https://twitter.com/yasslab), [Web](http://yasslab.jp/).
 
 ## Contact / Access
-- Contact: <i>hi@yasslab.jp</i>
-- Tokyo: [CASE Shinjuku](https://www.google.com/maps/place/CASE+Shinjuku%EF%BC%88%E3%82%B1%E3%82%A4%E3%82%B9%E3%82%B7%E3%83%B3%E3%82%B8%E3%83%A5%E3%82%AF%EF%BC%89/@35.712188,139.704646,17z/data=!3m1!4b1!4m2!3m1!1s0x60188d3964eee5f9:0xecce6846d52c067f) (Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075)
-- Okinawa: [GeekHouse Okinawa](http://text.geeoki.com/info) (Kohagura 2-18-14, Naha-shi, Okinawa, 900-0024)
+Contact: <i>hi@yasslab.jp</i>    
+Tokyo: [CASE Shinjuku](https://www.google.com/maps/place/CASE+Shinjuku%EF%BC%88%E3%82%B1%E3%82%A4%E3%82%B9%E3%82%B7%E3%83%B3%E3%82%B8%E3%83%A5%E3%82%AF%EF%BC%89/@35.712188,139.704646,17z/data=!3m1!4b1!4m2!3m1!1s0x60188d3964eee5f9:0xecce6846d52c067f) (Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075)    
+Okinawa: [GeekHouse Okinawa](http://text.geeoki.com/info) (Kohagura 2-18-14, Naha-shi, Okinawa, 900-0024)
