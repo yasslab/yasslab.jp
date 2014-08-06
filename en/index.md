@@ -13,9 +13,9 @@ Main Works and Contribution
    - [ScreenX TV](http://screenx.tv/), Real-time Terminal Broadcasting Tools.
    - [Whistle on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle), Android app developed for [2011 Tōhoku earthquake and tsunami](http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami).
 - Education, Workshops, and Materials:
-   - [Lexues Academy](http://academy.lexues.co.jp/), project-based learning course in Okinawa, Japan.
+   - [Lexues Academy](http://academy.lexues.co.jp/), providing project-based learning course with students in Okinawa, Japan.
    - [Digi-Lab Okinawa](http://digilab.drupalgardens.com/): Teach kids in Okinawa to code with [Scratch & Raspberry Pi](http://yasslab.jp/Scratch-Raspberry-Pi-Workshop/)
-   - [ODEN](https://sites.google.com/site/okidigedunet/home)ODEN: Okinawa Digital Educators Network.
+   - [ODEN](https://sites.google.com/site/okidigedunet/home): Okinawa Digital Educators Network.
    - [Rails Tutorial in Japanese](http://railstutorial.jp), one of most famous Rails books in Japan.
 - Open-source Communities:
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): Okinawa Ruby User Group that we found and support.
