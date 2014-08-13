@@ -46,7 +46,7 @@ lang:   ja
 
 ## 連絡先・所在地
 
-連絡先: hi@yasslab.jp   
+連絡先: _yohei@yasulab.jp_   
 関連サイト: [GitHub](https://github.com/yasslab), [Facebook](https://www.facebook.com/yasulab.jp), [Google+](https://plus.google.com/+YasuLab).  
 東京オフィス: [CASE Shinjuku](http://case-shinjuku.com/access/) (〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F)  
 沖縄オフィス: [GeekHouse沖縄](http://text.geeoki.com/info) (〒900-0024 沖縄県那覇市古波蔵2-18-14)  
