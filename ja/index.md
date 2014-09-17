@@ -47,6 +47,14 @@ lang:   ja
 ## 連絡先・所在地
 
 連絡先: _yohei@yasulab.jp_   
-関連サイト: [GitHub](https://github.com/yasslab), [Facebook](https://www.facebook.com/yasulab.jp), [Google+](https://plus.google.com/+YasuLab).  
+関連サイト: 
+[GitHub](https://github.com/yasslab), 
+[Facebook](https://www.facebook.com/yasulab.jp), 
+[Twitter](https://twitter.com/YassLab), 
+[Google+](https://plus.google.com/+YasuLab).   
 東京オフィス: [CASE Shinjuku](http://case-shinjuku.com/access/) (〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F)  
-沖縄オフィス: [GeekHouse沖縄](http://text.geeoki.com/info) (〒900-0024 沖縄県那覇市古波蔵2-18-14)  
+沖縄オフィス: [GeekHouse沖縄](http://text.geeoki.com/info) (〒900-0024 沖縄県那覇市古波蔵2-18-14)
+
+Ruby/Rails開発の依頼や、教育事業に関するお問い合わせ、また、運営・制作している教材に関するご相談などについては下記のフォームをご利用ください。  
+
+メールでの連絡をご希望される場合は、yohei@yasulab.jp までご連絡ください。
