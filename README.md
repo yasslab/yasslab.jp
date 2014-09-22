@@ -1,7 +1,12 @@
-YasuLab & Co.
+Website for YassLab
 =====================
 
-This repository includes source codes to build [YasuLab & Co.](http://yasulab.com) website.
+This repository includes source code to build a website of [YassLab](http://yasslab.jp).
+
+YassLab   
+Distributed Company that Works Remotely, focusing on   
+Ruby/Rails Web Development, Education, and OpenSource.   
+http://yasslab.jp/
 
 ## License
 
