@@ -27,14 +27,23 @@ Main Works and Contribution
 We're mainly working on Ruby/Rails web development, education, and open-source activities. 
 We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Google Hangout, IRC, etc.
 
-### Yohei Yasukawa (Founder, Software Engineer)
+### Founder: Yohei Yasukawa
 
 ![Photo of Yohei Yasukawa](/img/yohei_300x300.png)
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, 
 and studied at Monmouth College in Illinois state, USA. He founded YassLab in 2012, 
-a small distributed company that focues on Ruby/Rails web development and education with open-source mind 
-(see [LinkedIn](https://www.linkedin.com/in/yasulab) for details).
+a small distributed company that focues on Ruby/Rails web development and education with open-source mind.
+
+Now, with welcoming co-workers who also have open-source mind to YassLab, we have two official offices in Tokyo and Okinawa, Japan, and we work remotely like what we did in open-source communities.
+
+SNS:
+[GitHub](http://github.com/yasulab), 
+[Twitter](https://twitter.com/yasulab), 
+[Facebook](https://facebook.com/yasulab/), 
+[LinkedIn](https://www.linkedin.com/in/yasulab).
+
+### Achievements
 
 Not only such businesses, but also his company contributes to opensource communities by
 founding and organizing [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01),
@@ -42,23 +51,33 @@ taking part in CoderDojo Community Committee as representative of [CoderDojo Jap
 and translating [Rails Tutorial into Japanese](http://railstutorial.jp/")/[Ruby Hacking Guide into English](http://ruby-hacking-guide.github.io/).
 
 For such enthusiastic contribution to IT and Education fields in Japan,
-our works were 
-accepted by [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html) in 2012,
+our works were accepted by [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html) in 2012,
 seleted as one of [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) talks in 2013,
 and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-fukuoka-ruby-award-winners.html) at Fukuoka Ruby Award in 2014.
 
-Now, with welcoming co-workers who also have open-source mind to YassLab, we have two official offices in Tokyo and Okinawa, Japan, and we work remotely like what we did in open-source communities.
+### Company Profile
 
-## Contact / Access
+![YassLab Logo](/img/logo_rect.png)
+
+- Form: Small Business
+- Size: 4 people (including part-timers)
+- Date: June 1, 2011
+- Repr: Yohei Yasukawa
+- Name: YassLab & Co.
+- Member of: 
+    - [Rails Programmer Certification Test Steering Committee](http://www.railscp.org/)
+    - [Business OSS Consortium Japan Certified Rails Integrator](http://www.boss-con.jp/railspartner/)
+
+### Contact
+
 Mail: _yohei@yasslab.jp_     
 SNS:
 [GitHub](https://github.com/yasslab), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YasuLab).   
-Member: [Business OSS Consortium Japan](http://www.boss-con.jp/jov2ibitn-18/)   
 Address:    
 - Tokyo: [CASE Shinjuku](https://www.google.com/maps/place/CASE+Shinjuku%EF%BC%88%E3%82%B1%E3%82%A4%E3%82%B9%E3%82%B7%E3%83%B3%E3%82%B8%E3%83%A5%E3%82%AF%EF%BC%89/@35.712188,139.704646,17z/data=!3m1!4b1!4m2!3m1!1s0x60188d3964eee5f9:0xecce6846d52c067f) (Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075)    
 - Okinawa: [GeekHouse Okinawa](http://text.geeoki.com/info) (Kohagura 2-18-14, Naha-shi, Okinawa, 900-0024)
 
-If interested in our Ruby/Rails development, education, or opensource activities, feel free to contact us.
+If interested, feel free to contact us.

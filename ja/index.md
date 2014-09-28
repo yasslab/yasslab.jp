@@ -54,7 +54,7 @@ lang:   ja
 - 屋号: ヤスラボ
 - 参加団体: 
     - [Rails技術者認定試験運営委員会](http://www.railscp.org/)
-    - [BOSS-CON JAPAN　Rails認定ゴールドインテグレーター](http://www.boss-con.jp/jov2ibitn-18/)
+    - [BOSS-CON JAPAN　Rails認定ゴールドインテグレーター](http://www.boss-con.jp/railspartner/)
 
 ### 連絡先・所在地
 
