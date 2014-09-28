@@ -47,14 +47,14 @@ lang:   ja
 
 ![YassLab Logo](/img/logo_rect.png)
 
-- 組織体: 個人事業主 (給与支払い事務所)
+- 組織体: 給与支払事務所
 - 従業員数: 4人 (アルバイト含む)
 - 創業年日: 2011年6月1日
 - 代表: 安川 要平
 - 屋号: ヤスラボ
 - 参加団体: 
     - [Rails技術者認定試験運営委員会](http://www.railscp.org/)
-    - [BOSS-CON JAPAN　Rails認定ゴールドインテグレーター](http://www.boss-con.jp/railspartner/)
+    - [BOSS-CON JAPAN Rails認定ゴールドインテグレーター](http://www.boss-con.jp/railspartner/)
 
 ### 連絡先・所在地
 
