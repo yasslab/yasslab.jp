@@ -25,7 +25,7 @@ Main Works and Contribution
 ## About us
 
 We're mainly working on Ruby/Rails web development, education, and open-source activities. 
-We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Google Hangout, IRC, etc.
+We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Sqwiggle, IRC, etc.
 
 ### Founder: Yohei Yasukawa
 
