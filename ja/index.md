@@ -63,7 +63,7 @@ SNS:
 [GitHub](https://github.com/yasslab), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
-[Google+](https://plus.google.com/+YasuLab).   
+[Google+](https://plus.google.com/+YassLab).   
 東京オフィス: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F ([CASE Shinjuku](http://case-shinjuku.com/access/))  
 沖縄オフィス: 〒900-0024 沖縄県那覇市古波蔵2-18-14 ([GeekHouse沖縄](http://text.geeoki.com/info))
 
