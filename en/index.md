@@ -17,6 +17,7 @@ Main Works and Contribution
    - [Digi-Lab Okinawa](http://digilab.drupalgardens.com/): Teach kids in Okinawa to code with [Scratch & Raspberry Pi](http://yasslab.jp/Scratch-Raspberry-Pi-Workshop/)
    - [ODEN](https://sites.google.com/site/okidigedunet/home): Okinawa Digital Educators Network.
    - [Rails Tutorial in Japanese](http://railstutorial.jp), one of the most famous Rails books in Japan.
+   - [Rails Guides in Japanese](http://railsguides.jp), one of the most famous Rails references in Japan.
 - Open-source Communities:
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): Okinawa Ruby User Group that we found and support.
    - [OpenSource Cafe](http://osscafe.net/): Open-source Cafe in Japan that we love.
