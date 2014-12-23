@@ -61,7 +61,7 @@ and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-
 ![YassLab Logo](/img/logo_rect.png)
 
 - Form: Small Business
-- Size: 4 people (including part-timers)
+- Size: 3 people (including part-timers)
 - Date: June 1, 2012
 - Repr: Yohei Yasukawa
 - Name: YassLab & Co.
