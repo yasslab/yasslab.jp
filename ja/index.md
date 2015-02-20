@@ -17,7 +17,7 @@ lang:   ja
    - [デジラボ沖縄](http://digilab.drupalgardens.com/): 沖縄型子供向けモノづくりワークショップ
    - [ODEN](https://sites.google.com/site/okidigedunet/home): Okinawa Digital Educators Network
    - [Ruby on Railsチュートリアル](http://railstutorial.jp): 実例を使ってRailsを学ぼう
-   - [Ruby on Railsガイド](http://railsguides.jp): 日本語版Railsリファレンスガイド
+   - [Ruby on Railsガイド](http://railsguides.jp): 体系的にRailsを学ぼう
 - コミュニティ貢献
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): 沖縄Rubyユーザグループ
    - [下北沢オープンソースCafe](http://osscafe.net/): 図書館のあるコワーキングカフェ
