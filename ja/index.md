@@ -15,6 +15,8 @@ lang:   ja
 - 教育・ワークショップ・教材開発
    - [レキサスアカデミー](http://academy.lexues.co.jp/): 沖縄型若年層向け高度IT人材育成事業
    - [デジラボ沖縄](http://digilab.drupalgardens.com/): 沖縄型子供向けモノづくりワークショップ
+   - [1.5時間で学ぶ Scratch & Raspberry Pi ワークショップ](/ja/workshops/raspi)
+   - [スクラッチでピタゴラ装置を作ろう!](http://pegpeg.jp/tool/2014/09/09/686)
    - [ODEN](https://sites.google.com/site/okidigedunet/home): Okinawa Digital Educators Network
    - [Ruby on Railsガイド](http://railsguides.jp): 体系的にRailsを学ぼう
    - [Ruby on Railsチュートリアル](http://railstutorial.jp): 実例を使ってRailsを学ぼう
