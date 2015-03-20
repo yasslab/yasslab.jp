@@ -1,7 +1,7 @@
 permalink: /:title
 author:
-  name:  YasuLab & Co.
-  email: yohei@yasulab.com
+  name:  YassLab & Co.
+  email: yohei@yasslab.jp
 
 highlighter: pygments
 markdown: redcarpet
