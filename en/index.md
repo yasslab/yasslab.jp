@@ -63,10 +63,11 @@ and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-
 
 ![YassLab Logo](/img/logo_rect.png)
 
-- Form: Software Development
-- Size: 3 people
-- Date: June 1, 2012
-- Repr: Yohei Yasukawa
+- Style: Small Business
+- Owner: Yohei Yasukawa
+- Size:  3 people
+- Date:  Since June 1, 2012
+
 - Name: YassLab & Co.
 - Member of: 
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.org/)
