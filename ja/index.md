@@ -20,7 +20,7 @@ lang:   ja
    - [ODEN](https://sites.google.com/site/okidigedunet/home): Okinawa Digital Educators Network
    - [Ruby on Railsガイド](http://railsguides.jp): 体系的にRailsを学ぼう
    - [Ruby on Railsチュートリアル](http://railstutorial.jp): 実例を使ってRailsを学ぼう
-      - [Railsハンズオンセミナー](http://railstutorial.jp/seminars): 対話形式でRailsを学ぼう
+      - [Rails解説セミナー](http://railstutorial.jp/seminars): 対話形式でRailsを学ぼう
 	  - [Railsスクリーンキャスト](http://railstutorial.jp/screencasts): 実演動画でRailsを学ぼう
 - コミュニティ貢献
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): 沖縄Rubyユーザグループ

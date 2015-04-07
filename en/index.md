@@ -19,7 +19,7 @@ Main Works and Contribution
    - [ODEN](https://sites.google.com/site/okidigedunet/home): Okinawa Digital Educators Network.
    - [Rails Guides in Japanese](http://railsguides.jp), one of the most famous Rails references in Japan.
    - [Rails Tutorial in Japanese](http://railstutorial.jp), one of the most famous Rails books in Japan.
-      - [Rails Hands-on Seminar](http://railstutorial.jp/seminars): Learn Rails by Seminar
+      - [Rails Seminar](http://railstutorial.jp/seminars): Learn Rails by Seminar
 	  - [Rails Screencast](http://railstutorial.jp/screencasts): Learn Rails by Screencast
 - Open-source Communities:
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): Okinawa Ruby User Group that we found and support.
@@ -51,7 +51,7 @@ SNS:
 
 Not only such businesses, but also his company contributes to opensource communities by
 founding and organizing [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01),
-taking part in CoderDojo Community Committee as representative of [CoderDojo Japan](http://coderdojo.jp/), 
+taking part in CoderDojo Community Committee as a representative of [CoderDojo Japan](http://coderdojo.jp/), 
 and translating [Rails Tutorial into Japanese](http://railstutorial.jp/")/[Ruby Hacking Guide into English](http://ruby-hacking-guide.github.io/).
 
 For such enthusiastic contribution to IT and Education fields in Japan,
