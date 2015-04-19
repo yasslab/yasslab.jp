@@ -68,7 +68,7 @@ SNS:
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YassLab).   
-オフィス: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F ([CASE Shinjuku](http://case-shinjuku.com/access/))  
+オフィス: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
 
 Ruby/Rails開発の依頼や教育事業に関するお問い合わせ，また，運営・制作している教材/製品に関するご相談などについては，下記のフォームをご利用ください．  
