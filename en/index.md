@@ -67,7 +67,6 @@ and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-
 - Owner: Yohei Yasukawa
 - Size:  3 people
 - Date:  Since June 1, 2012
-
 - Name: YassLab & Co.
 - Member of: 
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.org/)
