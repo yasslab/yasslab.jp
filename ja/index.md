@@ -60,6 +60,8 @@ lang:   ja
     - [Rails技術者認定試験運営委員会](http://www.railscp.org/)
     - [BOSS-CON JAPAN Rails認定ゴールドインテグレーター](http://www.boss-con.jp/railspartner/)
 
+詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください.
+
 ### 連絡先・所在地
 
 メール: _yohei@yasslab.jp_   
@@ -67,7 +69,8 @@ SNS:
 [GitHub](https://github.com/yasslab), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
-[Google+](https://plus.google.com/+YassLab).   
+[Google+](https://plus.google.com/+YassLab), 
+[Wantedly](https://www.wantedly.com/companies/YassLab).   
 オフィス: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
 

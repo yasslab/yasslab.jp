@@ -72,6 +72,7 @@ and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.org/)
     - [Business OSS Consortium Japan Certified Rails Integrator](http://www.boss-con.jp/railspartner/)
 
+See [Wantedly](https://www.wantedly.com/companies/YassLab) for details (Sorry in Japanese).
 ### Contact
 
 Mail: _yohei@yasslab.jp_     
@@ -79,7 +80,8 @@ SNS:
 [GitHub](https://github.com/yasslab), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
-[Google+](https://plus.google.com/+YassLab).   
+[Google+](https://plus.google.com/+YassLab), 
+[Wantedly](https://www.wantedly.com/companies/YassLab).   
 Address: [CASE Shinjuku](https://www.google.com/maps/place/CASE+Shinjuku%EF%BC%88%E3%82%B1%E3%82%A4%E3%82%B9%E3%82%B7%E3%83%B3%E3%82%B8%E3%83%A5%E3%82%AF%EF%BC%89/@35.712188,139.704646,17z/data=!3m1!4b1!4m2!3m1!1s0x60188d3964eee5f9:0xecce6846d52c067f) (Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075)  900-0024)
 
 If interested, feel free to contact us.
