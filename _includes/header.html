@@ -34,5 +34,11 @@
     <![endif]-->
 
     <title>{{ page.title }}</title>
+    {% if page.lang == "ja" %}
+    <meta name="apple-mobile-web-app-title" content="ヤスラボ" />
+    {% else %}
+    <meta name="apple-mobile-web-app-title" content="YassLab" />
+    {% endif %}
+    
   </head>
   <body>
