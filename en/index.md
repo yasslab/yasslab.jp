@@ -24,7 +24,7 @@ Main Works and Contribution
 	  - [Rails Screencast](http://railstutorial.jp/screencasts): Learn Rails by Screencast
 - Open-source Communities:
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): Okinawa Ruby User Group that we found and support.
-   - [OpenSource Cafe](http://osscafe.net/): Open-source Cafe in Japan that we love.
+   - [OpenSource Cafe](http://www.osscafe.net/): Open-source Cafe in Japan that we love.
    - [CoderDojo Japan](http://coderdojo.jp/): Open-source Programming Clubs for Kids in Japan that we support.
 
 ## About us

@@ -24,7 +24,7 @@ lang:   ja
 	  - [Railsスクリーンキャスト](http://railstutorial.jp/screencasts): 実演動画でRailsを学ぼう
 - コミュニティ貢献
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): 沖縄Rubyユーザグループ
-   - [下北沢オープンソースCafe](http://osscafe.net/): 図書館のあるコワーキングカフェ
+   - [下北沢オープンソースCafe](http://www.osscafe.net/): 図書館のあるコワーキングカフェ
    - [コーダー道場](http://coderdojo.jp/): 子供のための無料プログラミング教室
 
 ## 代表・実績
