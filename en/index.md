@@ -60,6 +60,8 @@ our works were accepted by [The MITOH Program](https://www.ipa.go.jp/english/hum
 seleted as one of [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) talks in 2013,
 and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-fukuoka-ruby-award-winners.html) at Fukuoka Ruby Award in 2014.
 
+Since 2015, in order to bridge the knowledge of teaching kids to code between Japan and the world, also working as a [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) at CoderDojo, a world-wide programming club for young people. And now, he is developing continuous translation system that translates documents in real time using Git and Translation Memory technique. Its outcomes include [Japanese Rails Tutorial](http://railstutorial.jp) and [Rails Guides in Japanese](http://railsguides.jp/).
+
 ### Company Profile
 
 ![YassLab Logo](/img/logo_rect.png)
