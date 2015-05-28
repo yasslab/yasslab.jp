@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  ヤスラボ – 沖縄で教育、東京で開発。Ruby/Railsの開発案件を支援します。
+title:  ヤスラボ – 子供向けIT教育から，Ruby/Railsアジャイル開発まで.
 lang:   ja
 ---
 
