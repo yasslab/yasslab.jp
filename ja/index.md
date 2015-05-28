@@ -45,7 +45,9 @@ lang:   ja
 
 上記事業を行う傍らで，[Okinawa.rb](https://www.facebook.com/groups/okinawarb/) や [CoderDojo Japan](http://coderdojo.jp)，[下北沢オープンソースCafe](http://osscafe.net/)などのオープンソース活動に積極的に貢献．
 
-2012年にGoogle所属(当時)のPMに推薦され，[IPA未踏スーパークリエータ](http://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に認定される．2013年には，沖縄型若年層向け高度IT人材育成事業で実施している「[週末ものづくり講座](http://academy.lexues.co.jp/seminar/making.php)」が高く評価され，[TEDxRyukyu 2013](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c)に登壇．また，2014年には，[Railsチュートリアル](http://railstutorial.jp/)によるRuby/Railsコミュニティへの貢献が評価され，[フクオカRuby大賞にて優秀賞](http://www.digitalfukuoka.jp/topics/28)を受賞した．2015年より，世界的な子供向けプログラミング教育機関である CoderDojo の [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) に就任．現在は継続的に翻訳する仕組みを整備しながら，[Railsガイド](http://railsguides.jp/)の制作に携わっている．
+2012年にGoogle所属(当時)のPMに推薦され，[IPA未踏スーパークリエータ](http://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に認定される．2013年には，沖縄型若年層向け高度IT人材育成事業で実施している「[週末ものづくり講座](http://academy.lexues.co.jp/seminar/making.php)」が高く評価され，[TEDxRyukyu 2013](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c)に登壇．また，2014年には，[Railsチュートリアル](http://railstutorial.jp/)によるRuby/Railsコミュニティへの貢献が評価され，[フクオカRuby大賞にて優秀賞](http://www.digitalfukuoka.jp/topics/28)を受賞した．
+
+2015年より，世界的な子供向けプログラミング教育機関である CoderDojo の [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) に就任．現在は継続的に翻訳する仕組みを整備しながら，[Railsガイド](http://railsguides.jp/)の制作に携わっている．
 
 ## 組織情報
 
