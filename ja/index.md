@@ -58,9 +58,10 @@ lang:   ja
 - 創業年日: 2012年6月1日
 - 代表: 安川 要平
 - 屋号: ヤスラボ
-- 参加団体: 
+- 参加団体 (協賛含む): 
     - [Rails技術者認定試験運営委員会](http://www.railscp.org/)
     - [BOSS-CON JAPAN Rails認定ゴールドインテグレーター](http://www.boss-con.jp/railspartner/)
+	- [Ryukyu Frogs](http://www.ryukyu-frogs.com/)
 
 詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください.
 
