@@ -27,6 +27,8 @@ lang:   ja
    - [下北沢オープンソースCafe](http://www.osscafe.net/): 図書館のあるコワーキングカフェ
    - [コーダー道場](http://coderdojo.jp/): 子供のための無料プログラミング教室
 
+__* 各事業の詳細は[コチラ](/ja/works.html).__
+
 ## 代表・実績
 
 ### 代表: [安川 要平](https://facebook.com/yasulab)
