@@ -1,0 +1,85 @@
+{% include header.html %}
+
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+  <header class="inner">
+    {% if page.lang == "ja" %}
+    <a id="header_to_en" href="/en">English</a>
+    <h1 id="project_title">ヤスラボ</h1>
+    <h2 id="project_tagline">子供向けIT教育から，Ruby/Railsアジャイル開発まで.<br />
+	    オープンソースと共に活きる小規模分散型のチームです.</h2>
+    {% else %}
+    <a id="header_to_ja" href="/ja">日本語</a>
+    <h1 id="project_title">YassLab</h1>
+    <h2 id="project_tagline">Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource.</h2>
+    {% endif %}
+  </header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+  <section id="main_content" class="inner">
+
+    <h1>ヤスラボ社 業務内容まとめ</h1>
+
+<h1>概要</h1>
+
+<p><a href="http://yasslab.jp/">ヤスラボ</a>社では、沖縄と東京を主な拠点として、次の３つの事業を展開しています。</p>
+
+<ol>
+<li>受託開発</li>
+<li>教育事業</li>
+<li>製品開発</li>
+</ol>
+
+<h2>代表</h2>
+
+<h3>安川 要平 (YASUKAWA, Yohei)</h3>
+
+<p><a href="http://facebook.com/yasulab"><img src="https://dl.dropboxusercontent.com/u/2819285/self_osscafe_without_text_300x300.png" alt="Photo of Yohei Yasukawa"></a></p>
+
+<p>早稲田大学大学院 基幹理工学研究科卒 (情報理工学修士)．米国留学中に開発した<a href="https://play.google.com/store/apps/details?id=org.sorarier.whistle">震災対策アプリ</a>のヒットを契機に、帰国後、個人事務所を開設。主に、教育事業やアジャイル開発、教材開発などに従事。2012年にGoogle所属(当時)のPMに推薦され、IPA未踏スーパークリエータに認定。2013年には、沖縄型若年層向け高度IT人材育成事業で実施している「<a href="http://academy.lexues.co.jp/">週末ものづくり講座</a>」が高く評価され、TEDxRyukyuに登壇。2014年には<a href="http://railstutorial.jp/">Railsチュートリアル</a>の功績が評価され、フクオカRuby大賞にて優秀賞を受賞。2015年より、世界的な子供向けプログラミング教育機関である CoderDojo の <a href="http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee">Community Committee</a> に就任。現在は継続的に翻訳するシステムを開発しながら、<a href="http://railsguides.jp/">Railsガイド</a>の制作に携わっています。</p>
+
+<p>代表詳細: <a href="http://github.com/yasulab">GitHub</a>, <a href="https://twitter.com/yasulab">Twitter</a>, <a href="https://facebook.com/yasulab/">Facebook</a>, <a href="https://www.linkedin.com/in/yasulab">LinkedIn</a>.</p>
+
+<h2>事業概要</h2>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<!--<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/yasulab/works-of-yasslab" title="Works of YassLab" target="_blank">Works of YassLab</a> </strong> from <strong><a href="//www.slideshare.net/yasulab" target="_blank">Yohei Yasukawa</a></strong> </div>-->
+
+    {{ content }}
+
+    <!-- Contact Form via Wufoo -->
+    <div id="wufoo-zdk8f280mkdut0" style="margin-top: -50px" >
+	    Fill out my <a href="https://yasslab.wufoo.com/forms/zdk8f280mkdut0">online form</a>.
+    </div>
+    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+    <script type="text/javascript">var zdk8f280mkdut0;(function(d, t) {
+	    var s = d.createElement(t), options = {
+	    'userName':'yasslab',
+	    'formHash':'zdk8f280mkdut0',
+	    'autoResize':true,
+	    'height':'497',
+	    'async':true,
+	    'host':'wufoo.com',
+	    'header':'show',
+	    'ssl':true};
+	    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+	    s.onload = s.onreadystatechange = function() {
+	    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+	    try { zdk8f280mkdut0 = new WufooForm();zdk8f280mkdut0.initialize(options);zdk8f280mkdut0.display(); } catch (e) {}};
+	    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+	    })(document, 'script');</script>
+  </section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+    <p>
+      Copyright &copy; 2015 YassLab All Rights Reserved.
+    </p>
+  </footer>
+</div>
+
+{% include footer.html %}
