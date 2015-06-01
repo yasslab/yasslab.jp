@@ -44,3 +44,19 @@
 
   </head>
   <body>
+
+    <!-- HEADER -->
+<div id="header_wrap" class="outer">
+  <header class="inner">
+    {% if page.lang == "ja" %}
+    <a id="header_to_en" href="/en">English</a>
+    <h1 id="project_title"><a href="/ja" style="color:white;">ヤスラボ</a></h1>
+    <h2 id="project_tagline">子供向けIT教育から，Ruby/Railsアジャイル開発まで.<br />
+	    オープンソースと共に活きる小規模分散型のチームです.</h2>
+    {% else %}
+    <a id="header_to_ja" href="/ja">日本語</a>
+    <h1 id="project_title"><a href="/en" style="color:white;">YassLab</a></h1>
+    <h2 id="project_tagline">Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource.</h2>
+    {% endif %}
+  </header>
+</div>
