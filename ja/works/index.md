@@ -24,8 +24,8 @@ lang:   ja
 - 12月: (株)ネクスウェイ パートナーMVP賞 受賞
 - 12月: 動画でRailsが学べる「[Railsスクリーンキャスト](http://railstutorial.jp/screencasts)」を公開
 - 11月: Co-Edoと共同で[Rails解説セミナー](http://railstutorial.jp/seminars)を開講
-- 9月: RubyHiroba 2014にて、体系的にRailsを学べる「[Railsガイド](http://railsguides.jp/)」を公開。
-- 9月: RubyKaigi 2014に[シルバースポンサー](http://rubykaigi.org/2014/sponsors#silver07)として協賛。また、スタッフとしても主に翻訳や司会に協力した。
+- 9月: RubyHiroba 2014にて、体系的にRailsを学べる「[Railsガイド](http://railsguides.jp/)」を公開
+- 9月: RubyKaigi 2014に[シルバースポンサー](http://rubykaigi.org/2014/sponsors#silver07)として協賛。また、スタッフとして翻訳や司会にも務める。
 - 8月: [デジラボおきなわ](http://digilab.drupalgardens.com/)にて子供向けプログラミングの成果報告会を実施。RBCにて、特集番組として放映される。
 - 4月: 世界中のインターナショナルスクールが集まる国際会議「[#beyondlaptops](http://blogs.yis.ac.jp/beyondlaptops/)」にて、Guest Speaker として Scratch + Raspberry Pi のワークショップを実施。
 - 3月: [沖縄Ruby会議01](regional.rubykaigi.org/okrk01/) を開催。安川が実行委員長を努め、Ruby開発者のまつもとゆきひろ氏をゲストとして招聘。
@@ -51,19 +51,21 @@ lang:   ja
 ## 2012年
 
 - IPA 未踏人材育成事業: [思いを叶える視覚駆動バケットリストの開発](http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html)
-  - 代表(安川)が、未踏スーパークリエイタに認定される。
-- 沖縄型若年層向けIT高度人材育成事業([第２期レキサスアカデミー](http://academy.lexues.co.jp/)) 常任講師 (10月〜３月).
+  - 代表の安川が、未踏スーパークリエイタに認定される。
+- 沖縄型若年層向けIT高度人材育成事業([第2期レキサスアカデミー](http://academy.lexues.co.jp/)) 常任講師 (10月〜３月).
 - [Nifty Cloud C4SA](http://c4sa.nifty.com/) における [Ruby/Rails/Perl などのコンテキスト](http://c4sa.nifty.com/about.htm)の開発.
 - シリコンバレー (Belmont, California) でシェアオフィスを立ち上げる.
 - 他，CMSを使ったECサイトの構築，ソーシャルiOSアプリの開発，など.
 
 ## 2011年
 
-- 沖縄型若年層向けIT高度人材育成事業([第１期レキサスアカデミー](http://academy.lexues.co.jp/))の立ち上げ・運営に参画.
-  - 2011年〜現在まで，[常任講師](http://academy.lexues.co.jp/teacher/)も兼任.
-- 米国留学を終え，日本に帰国．その後，個人事業所 (YasuLab) を立ち上げる.
+- 沖縄型若年層向けIT高度人材育成事業([第1期レキサスアカデミー](http://academy.lexues.co.jp/))の立ち上げ・運営に参画:
+  - [週末ものづくり講座](https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1)が同事業のカリキュラムに採用される
+  - 2011年〜2014年まで，同講座の[常任講師](http://academy.lexues.co.jp/teacher/)も兼任.
+- 自身のプロジェクト実践型学習(Project-Based Learning)の経験を元に[週末ものづくり講座](https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1)のカリキュラムを制作し，ITカレッジにおいて実施する
+- 米国留学を終え，日本に帰国．その後，個人事業所 (ヤスラボ) を立ち上げる.
 - 震災の直後に震災対策アプリ ([ホイッスル on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en))を開発・公開
-  - 2014年2月現在，25万回以上ダウンロードされる.
+  - 30万ダウンロードを達成.
 
 ## 2010年度より過去の活動について.
 
