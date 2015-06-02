@@ -6,22 +6,23 @@ lang:   ja
 
 ## 事業実績
 
-以下は、2015年5月までの活動実績です。
+以下，2015年5月までの実績を箇条書きにしてあります．
+ご参考になれば幸いです．
 
-## 2015年
+### 2015年
 
 - 6月: 沖縄からシリコンバレーに派遣する[RyukyuFrogs](http://www.ryukyu-frogs.com/)において、Railsチュートリアルを軸にした技術的支援(協賛)をを開始
 - 5月: Co-Edoと共同でGW集中Rails解説セミナーを実施。[全てのセミナーがキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)になる。
+- 4月: オンプレミス環境で稼働しているRailsアプリケーションを Heroku (PaaS) 環境に移行する業務を支援
 - 4月: 世界的な子ども向けプログラミング教室「[CoderDojo](https://coderdojo.com/)」の日本代表として、安川が[CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)に就任
-- 3月: リクルートホールディングス主催の[Application Developer Festival 2015](http://recruit-jinji.jp/adf_fes2015/)にゲストスピーカーとして登壇
 - 3月: [未踏会議+未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)のブースに置いて「[継続的翻訳システム](https://dl.dropboxusercontent.com/u/2819285/%E7%B6%99%E7%B6%9A%E7%9A%84%E7%BF%BB%E8%A8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E3%83%81%E3%83%A9%E3%82%B7.jpg)」を展示
 - 2月: 立ち上げ時期から参画していた沖縄のシェアハウス「[ギークハウス沖縄](http://text.geeoki.com/post/112124574627)」を解散
 - 1月: [Nilquebe](http://nilquebe.com/)と共同で[Rails解説セミナー](http://railstutorial.jp/seminars)@神戸を開講
 
 
-## 2014年
+### 2014年
 
-- 12月: (株)ネクスウェイ パートナーMVP賞 受賞
+- 12月: (株)ネクスウェイよりパートナーMVP賞を受賞
 - 12月: 動画でRailsが学べる「[Railsスクリーンキャスト](http://railstutorial.jp/screencasts)」を公開
 - 11月: Co-Edoと共同で[Rails解説セミナー](http://railstutorial.jp/seminars)を開講
 - 9月: RubyHiroba 2014にて、体系的にRailsを学べる「[Railsガイド](http://railsguides.jp/)」を公開
@@ -34,21 +35,21 @@ lang:   ja
 - 2月: 第6回フクオカRuby大賞にて[優秀賞を受賞](http://www.digitalfukuoka.jp/events/21?locale=ja)
 
 
-## 2013年
+### 2013年
 
 - 12月: 子供向け学習支援コンテンツのタブレット端末対応変換器の開発
 - 11月: 達人出版会より[Ruby on Rails チュートリアル: 実例を使ってRailsを学ぼう](http://tatsu-zine.com/books/railstutorial)を出版
 - ビジネスプロセス支援アプリケーションの開発支援:
   - テストの高速化: 2時間 → 15分
   - 各種機能の開発
-- 沖縄型若年層向けIT高度人材育成事業([第３期レキサスアカデミー](http://academy.lexues.co.jp/)) 常任講師 (10月〜３月).
+- 沖縄型若年層向けIT高度人材育成事業 ([第３期レキサスアカデミー](http://academy.lexues.co.jp/)) 常任講師 (10月〜3月).
 - [Rails チュートリアル](http://railstutorial.jp/)の公開、[継続的翻訳システムの構築](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) ([RubyWorld Conference 2013](http://www.rubyworld-conf.org/) にて講演)。
 - オンライン郵送サービスの開発およびコンサルティングに従事:
   - 大規模処理のリファクタリングおよび高速化
   - テスト環境の整備および高速化
   - 他，Integration Testのサポート，Ruby/CoffeeScriptなどのコーディング作法の指導，など.
 
-## 2012年
+### 2012年
 
 - IPA 未踏人材育成事業: [思いを叶える視覚駆動バケットリストの開発](http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html)
   - 代表の安川が、未踏スーパークリエイタに認定される。
@@ -57,7 +58,7 @@ lang:   ja
 - シリコンバレー (Belmont, California) でシェアオフィスを立ち上げる.
 - 他，CMSを使ったECサイトの構築，ソーシャルiOSアプリの開発，など.
 
-## 2011年
+### 2011年
 
 - 沖縄型若年層向けIT高度人材育成事業([第1期レキサスアカデミー](http://academy.lexues.co.jp/))の立ち上げ・運営に参画:
   - [週末ものづくり講座](https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1)が同事業のカリキュラムに採用される
@@ -67,12 +68,15 @@ lang:   ja
 - 震災の直後に震災対策アプリ ([ホイッスル on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en))を開発・公開
   - 30万ダウンロードを達成.
 
-## 2010年度より過去の活動について.
+### 2010年度より過去の活動について.
 
 - 2010年度より過去の活動については，[LinkedIn](http://www.linkedin.com/in/yasulab)または[受賞歴まとめ](https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&type=1&l=76c883b04a)をご参照下さい. 
 
 ## 講演活動まとめ
 
+- [とちぎRuby会議06](http://regional.rubykaigi.org/tochigi06/)にてRailsチュートリアル/Railsガイドについて講演, 2015
+- リクルートホールディングス主催[Application Developer Festival 2015](http://recruit-jinji.jp/adf_fes2015/)にゲストスピーカーとして講演
+- 第2回「[ITx災害](http://blog.itxsaigai.org/post/101750784479/2-itx)」会議に登壇し，震災対策アプリの開発風景について講演, 2014
 - "Social Translating: The Way of Translating Rails Tutorial and Ruby Hacking Guide", [RubyWorld Conference 2013](http://www.rubyworld-conf.org/ja/program/)
 - "Experience and Education", [TEDxRyukyu 2013](http://www.tedxryukyu.com/speaker.html)
 - Panelist & Workshop Facilitator, [Okinawa Future School Conference 2013](https://sites.google.com/a/ois-edu.com/okifsc/bios)
