@@ -3,6 +3,15 @@ author:
   name:  YassLab & Co.
   email: yohei@yasslab.jp
 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yasslab.jp" # the base hostname & protocol for your site
+twitter_username: yasslab
+github_username:  yasslab
+source:      ./
+destination: ./_site
+timezone: Asia/Tokyo
+encoding: utf-8
+
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
 exclude: ["vendor", "Gemfile", "Gemfile.lock"]
