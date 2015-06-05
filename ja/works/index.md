@@ -11,7 +11,7 @@ lang:   ja
 
 ### 2015年
 
-- 6月: 沖縄からシリコンバレーに派遣する[RyukyuFrogs](http://www.ryukyu-frogs.com/)において，Railsチュートリアルを軸にした技術的支援(協賛)をを開始
+- 6月: 沖縄からシリコンバレーに派遣する[RyukyuFrogs](http://www.ryukyu-frogs.com/)において，Railsチュートリアルを軸にした技術的支援を開始
 - 5月: Co-Edoと共同でGW集中Rails解説セミナーを実施．[全てのセミナーがキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)になる．
 - 4月: オンプレミス環境で稼働しているRailsアプリケーションを Heroku (PaaS) 環境に移行する業務を支援
 - 4月: 世界的な子ども向けプログラミング教室「[CoderDojo](https://coderdojo.com/)」の日本代表として，安川が[CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)に就任
@@ -92,8 +92,9 @@ lang:   ja
 - ["CoderDojo の成り立ち・紹介・始め方"](https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang), [オープンソースカンファレンス沖縄 2012](http://www.ospn.jp/osc2012-okinawa/modules/eguide/event.php?eid=15)
 - ["震災対策アプリ：ホイッスル on Android -5万DL達成までにやったこと-"](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto), [Android Bazaar and Conference 2011](http://www.android-group.jp/abc2011s/conference.html)
 
-## 他，オープンソース活動・コミュニティ運営など
+## オープンソースコミュニティに対する貢献 (一部抜粋)
 
+- [Ruby on Rails Guides](http://guides.rubyonrails.org/)の和訳 ([GitHub](https://github.com/yasslab/railsguides.jp))
 - [Ruby on Rails Tutorial: Learn Web Development with Rails](http://ruby.railstutorial.org/)の和訳
 - [Ruby Hacking Guide](http://ruby-hacking-guide.github.io/)の英訳
 - [下北沢オープンソースCafe英語ページ](http://osscafe.net/en)の作成
