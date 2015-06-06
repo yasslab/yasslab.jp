@@ -64,7 +64,7 @@ __* 事業実績の詳細は[コチラ](/ja/works).__
     - [Rails技術者認定試験運営委員会](http://www.railscp.org/)
     - [BOSS-CON JAPAN Rails認定ゴールドインテグレーター](http://www.boss-con.jp/railspartner/)
 	- [Ryukyu Frogs](http://www.ryukyu-frogs.com/) (協賛)
-	- [RubyKaigi](http://rubykaigi.org/) (運営・スタッフ・協賛)
+	- [RubyKaigi](http://rubykaigi.org/) (スタッフ・協賛)
 
 詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください.
 
