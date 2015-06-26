@@ -78,6 +78,7 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 	- [RubyKaigi](http://rubykaigi.org/) (Staff/Supporter)
 
 See [Wantedly](https://www.wantedly.com/companies/YassLab) for details (Sorry in Japanese).
+
 ### Contact
 
 Mail: _yohei@yasslab.jp_     
