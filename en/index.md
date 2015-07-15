@@ -64,7 +64,7 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 
 ### Company Profile
 
-![YassLab Logo](/img/logo_rect.png)
+![YassLab Logo](/img/logo_rect_copy.png)
 
 - Style: Small Business
 - Owner: Yohei Yasukawa

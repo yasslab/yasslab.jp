@@ -53,7 +53,7 @@ __* 事業実績の詳細は[コチラ](/ja/works).__
 
 ## 組織情報
 
-![YassLab Logo](/img/logo_rect.png)
+![YassLab Logo](/img/logo_rect_copy.png)
 
 - 組織体: 給与支払事務所
 - 社員数: 3人
