@@ -9,6 +9,7 @@ Main Works and Contribution
 ===========================
 
 - Web Services and Mobile Applications:
+   - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides), Automatic Translation System for Frequently-updated Tech Docs.
    - [Snapwhim](http://www.snapwhim.com/), Visual Bucket List.
    - [ScreenX TV](http://screenx.tv/), Real-time Terminal Broadcasting Tools.
    - [Whistle on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle), Android app developed for [2011 Tōhoku earthquake and tsunami](http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami).
@@ -60,7 +61,7 @@ our works were accepted by [The MITOH Program](https://www.ipa.go.jp/english/hum
 seleted as one of [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) talks in 2013,
 and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-fukuoka-ruby-award-winners.html) at Fukuoka Ruby Award in 2014.
 
-Since 2015, in order to bridge the knowledge of teaching kids to code between Japan and the world, he also works as a [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) at [CoderDojo](http://coderdojo.com/), the global network of free computer programming clubs for young people. For the future, his company is developing continuous translation system that translates documents in real time using Git and Translation Memory technique. Its outcomes include [Japanese Rails Tutorial](http://railstutorial.jp) and [Rails Guides in Japanese](http://railsguides.jp/).
+Since 2015, in order to bridge the knowledge of teaching kids to code between Japan and the world, he also works as a [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) at [CoderDojo](http://coderdojo.com/), the global network of free computer programming clubs for young people. For the future, his company is developing [continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides) that translates documents in real time using Git and Translation Memory technique. Its outcomes include [Japanese Rails Tutorial](http://railstutorial.jp) and [Rails Guides in Japanese](http://railsguides.jp/).
 
 ### Company Profile
 

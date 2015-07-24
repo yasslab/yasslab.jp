@@ -11,6 +11,9 @@ lang:   ja
 
 ### 2015年
 
+- 7月: [Rebuild.fm #100](http://rebuild.fm/100/)でRailsガイドを紹介していただきました
+- 7月: 関西Ruby会議06に登壇しました．また，講演の中で[Railsガイドの出版](http://railsguides.jp/options.html)を公開しました.
+- 6月: とちぎRuby会議06に登壇し，[継続的翻訳システム](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban)について講演しました.
 - 6月: 沖縄からシリコンバレーに派遣する[RyukyuFrogs](http://www.ryukyu-frogs.com/)において，Railsチュートリアルを軸にした技術的支援を開始
 - 5月: Co-Edoと共同でGW集中Rails解説セミナーを実施．[全てのセミナーがキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)になる．
 - 4月: オンプレミス環境で稼働しているRailsアプリケーションを Heroku (PaaS) 環境に移行する業務を支援
