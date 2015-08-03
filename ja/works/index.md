@@ -11,6 +11,9 @@ lang:   ja
 
 ### 2015年
 
+
+- 8月: [Maker Faire Tokyo](http://makezine.jp/event/mft2015/workshops/)でピタゴラ装置のワークショップを開催しました
+- 8月: [CoderDojo Japan](http://coderdojo.jp/)の公式ウェブサイトをリニューアルしました
 - 7月: [Rebuild.fm #100](http://rebuild.fm/100/)でRailsガイドを紹介していただきました
 - 7月: 関西Ruby会議06に登壇しました．また，講演の中で[Railsガイドの出版](http://railsguides.jp/options.html)を公開しました.
 - 6月: とちぎRuby会議06に登壇し，[継続的翻訳システム](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban)について講演しました.
