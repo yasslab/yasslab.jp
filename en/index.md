@@ -9,7 +9,7 @@ Main Works and Contribution
 ===========================
 
 - Web Services and Mobile Applications:
-   - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides), Automatic Translation System for Frequently-updated Tech Docs.
+   - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides), Automatate Translating Frequently-updated Tech Docs.
    - [Snapwhim](http://www.snapwhim.com/), Visual Bucket List.
    - [ScreenX TV](http://screenx.tv/), Real-time Terminal Broadcasting Tools.
    - [Whistle on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle), Android app developed for [2011 Tōhoku earthquake and tsunami](http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami).
