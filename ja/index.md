@@ -69,12 +69,6 @@ __* 事業実績の詳細は[コチラ](/ja/works).__
 
 詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください.
 
-
-<div class="fb-page" data-href="https://www.facebook.com/yasslab.jp"
-     data-width="640" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/yasslab.jp"><a href="https://www.facebook.com/yasslab.jp">ヤスラボ</a></blockquote></div></div>
-
-<br />
-
 ### 連絡先・所在地
 
 メール: _yohei@yasslab.jp_   

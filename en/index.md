@@ -80,10 +80,6 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 
 See [Wantedly](https://www.wantedly.com/companies/YassLab) for details (Sorry in Japanese).
 
-<div class="fb-page" data-href="https://www.facebook.com/yasslab.jp" data-width="640" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/yasslab.jp"><a href="https://www.facebook.com/yasslab.jp">YassLab</a></blockquote></div></div>
-
-<br />
-
 ### Contact
 
 Mail: _yohei@yasslab.jp_     
