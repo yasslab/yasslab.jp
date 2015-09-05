@@ -34,7 +34,7 @@ __* 事業実績の詳細は[コチラ](/ja/works).__
 
 ### 代表: [安川 要平](https://facebook.com/yasulab)
 
-![Photo of Yohei Yasukawa](/img/yohei_300x300.png)
+![写真](/img/yohei_300x300.png)
 
 早稲田大学大学院 基幹理工学研究科卒 (情報理工学修士)．米国イリノイ州のリベラルアーツカレッジ留学中に開発した[震災対策アプリ](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=ja)のヒットを契機に，帰国後，東京と沖縄を拠点にした事務所「ヤスラボ」を開業．主に教育事業・アジャイル開発・教材/製品開発の３つの事業を展開している．現在は，東京と沖縄に拠点を置きながら，リモートで開発・運営できる体制を整えている．
 

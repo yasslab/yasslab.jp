@@ -35,7 +35,7 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
 
 ### Founder: Yohei Yasukawa
 
-![Photo of Yohei Yasukawa](/img/yohei_300x300.png)
+![Photo](/img/yohei_300x300.png)
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, 
 and studied at Monmouth College in Illinois state, USA. He founded YassLab in 2012, 
