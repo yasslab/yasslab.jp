@@ -11,7 +11,7 @@ lang:   ja
 
 ### 2015年
 
-- 9月: iPhone/iPadでプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の日本語版をリリースしました
+- 9月: iPhone/iPadでプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の日本語版をリリース
 - 8月: [Maker Faire Tokyo](http://makezine.jp/event/mft2015/workshops/)でピタゴラ装置のワークショップを開催しました
 - 8月: [CoderDojo Japan](http://coderdojo.jp/)の公式ウェブサイトをリニューアルしました
 - 7月: [Rebuild.fm #100](http://rebuild.fm/100/)でRailsガイドを紹介していただきました
