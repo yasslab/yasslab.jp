@@ -41,7 +41,7 @@ He obtained the degree of Master in Information and Computer Science from Waseda
 and studied at Monmouth College in Illinois, USA. He founded YassLab in 2012, 
 a small distributed company focusing on Ruby/Rails web development, education, and opensource projects.
 
-Now, with welcoming co-workers who also have open-source mind to YassLab, we [work remotely](https://github.com/uiureo/remote-in-japan), challenge to automate translating Japanese [Rails Guides](http://railsguides.jp/) and [Rails Tutorial](http://railstutorial.jp/), and try to apply [the continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides) for other GitHub-based tech docs.
+Now, welcoming co-workers who also have open-source mind into YassLab team, we [work remotely](https://github.com/uiureo/remote-in-japan), challenge to automate translating Japanese [Rails Guides](http://railsguides.jp/) and [Rails Tutorial](http://railstutorial.jp/), and try to apply [the continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides) for other GitHub-based tech docs.
 
 SNS:
 [GitHub](http://github.com/yasulab), 
