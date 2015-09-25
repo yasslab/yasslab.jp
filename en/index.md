@@ -38,10 +38,10 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
 ![Photo](/img/yohei_300x300.png)
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, 
-and studied at Monmouth College in Illinois state, USA. He founded YassLab in 2012, 
-a small distributed company that focues on Ruby/Rails web development and education with open-source mind.
+and studied at Monmouth College in Illinois, USA. He founded YassLab in 2012, 
+a small distributed company focusing on Ruby/Rails web development, education, and opensource projects.
 
-Now, with welcoming co-workers who also have open-source mind to YassLab, we have two official offices in Tokyo and Okinawa, Japan, and we work remotely like what we did in open-source communities.
+Now, with welcoming co-workers who also have open-source mind to YassLab, we [work remotely](https://github.com/uiureo/remote-in-japan), challenge to automate translating Japanese [Rails Guides](http://railsguides.jp/) and [Rails Tutorial](http://railstutorial.jp/), and try to apply these technology for other GitHub-based tech docs.
 
 SNS:
 [GitHub](http://github.com/yasulab), 
