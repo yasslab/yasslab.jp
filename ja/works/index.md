@@ -6,11 +6,13 @@ lang:   ja
 
 ## 実績詳細
 
-以下，2015年5月までの実績を箇条書きにしてあります．
+以下，これまでの実績を箇条書きにしてあります．
 ご参考になれば幸いです．
 
 ### 2015年
 
+- 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「Continuous Translation System: Railsガイドを支える継続的翻訳システム」を講演
+- 10月: [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース
 - 9月: iPhone/iPadでプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の日本語版をリリース
 - 8月: [Maker Faire Tokyo](http://makezine.jp/event/mft2015/workshops/)でピタゴラ装置のワークショップを開催しました
 - 8月: [CoderDojo Japan](http://coderdojo.jp/)の公式ウェブサイトをリニューアルしました
