@@ -13,7 +13,7 @@ lang:   ja
 
 - 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「Continuous Translation System: Railsガイドを支える継続的翻訳システム」を講演
 - 10月: [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース
-- 9月: iPhone/iPadでプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の日本語版をリリース
+- 9月: iPhone/iPadでプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の日本語版をリリース (cf. [公式Facebook](https://www.facebook.com/TickleiPadApp/posts/1641313606121370))
 - 8月: [Maker Faire Tokyo](http://makezine.jp/event/mft2015/workshops/)でピタゴラ装置のワークショップを開催しました
 - 8月: [CoderDojo Japan](http://coderdojo.jp/)の公式ウェブサイトをリニューアルしました
 - 7月: [Rebuild.fm #100](http://rebuild.fm/100/)でRailsガイドを紹介していただきました
