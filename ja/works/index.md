@@ -1,16 +1,35 @@
 ---
-layout: portfolio
+layout: default
 title:  ヤスラボ – 事業実績
 lang:   ja
 ---
 
+# 事業実績
+
+ヤスラボでは，東京と沖縄を拠点として，次の3つの事業を展開しています．
+
+1. 教材制作
+3. アジャイル開発
+3. 翻訳技術研究
+
+本ページでは，上記事業を通して得た実績についてまとめています．
+
+## 代表・実績
+
+{% include profile.html %}
+
+## 実績概要
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
 ## 実績詳細
 
-以下，これまでの実績を箇条書きにしてあります．
+以下，これまでの実績の詳細を箇条書きでまとめております．
 ご参考になれば幸いです．
 
 ### 2015年
 
+- 12月: [RubyKaigi 2015](http://rubykaigi.org/2015)に翻訳スタッフとして参加
 - 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「Continuous Translation System: Railsガイドを支える継続的翻訳システム」を講演
 - 10月: [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース
 - 9月: iPhone/iPadでプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の日本語版をリリース (cf. [公式Facebook](https://www.facebook.com/TickleiPadApp/posts/1641313606121370))

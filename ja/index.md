@@ -4,9 +4,19 @@ title:  ヤスラボ – 子供向けIT教育から，Ruby/Railsアジャイル�
 lang:   ja
 ---
 
+## 事業内容
 
-開発・貢献
-==========
+ヤスラボでは，東京と沖縄を拠点にして，次の3つの事業を展開しています．
+
+1. 教材制作
+3. アジャイル開発
+3. 翻訳技術研究
+
+### 実績
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+### プロジェクト例
 
 - 自社サービス/アプリ
    - [継続的翻訳システム](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban): 技術文書に特化した翻訳の自動化システム
@@ -18,7 +28,6 @@ lang:   ja
    - [デジラボ沖縄](http://digilab.drupalgardens.com/): 沖縄型子供向けモノづくりワークショップ
    - [1.5時間で学ぶ Scratch & Raspberry Pi ワークショップ](/ja/workshops/raspi)
    - [スクラッチでピタゴラ装置を作ろう!](http://pegpeg.jp/tool/2014/09/09/686)
-   - [ODEN](https://sites.google.com/site/okidigedunet/home): Okinawa Digital Educators Network
    - [Ruby on Railsガイド](http://railsguides.jp): 体系的にRailsを学ぼう
    - [Ruby on Railsチュートリアル](http://railstutorial.jp): 実例を使ってRailsを学ぼう
       - [Rails解説セミナー](http://railstutorial.jp/seminars): 対話形式でRailsを学ぼう
@@ -28,29 +37,15 @@ lang:   ja
    - [下北沢オープンソースCafe](http://www.osscafe.net/): 図書館のあるコワーキングカフェ
    - [コーダー道場](http://coderdojo.jp/): 子供のための無料プログラミング教室
 
-__* 事業実績の詳細は[コチラ](/ja/works).__
+詳細は[事業実績](/ja/works)をご参照ください.
+
+<br />
 
 ## 代表・実績
 
-### 代表: [安川 要平](https://facebook.com/yasulab)
+{% include profile.html %}
 
-![写真](/img/yohei_300x300.png)
-
-早稲田大学大学院 基幹理工学研究科卒 (情報理工学修士)．米国イリノイ州のリベラルアーツカレッジ留学中に[震災対策アプリ](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=ja)を開発し，震災の翌日に公開．そのアプリのヒットを契機に，帰国後，東京と沖縄を拠点にした事務所「ヤスラボ」を開業．主に教育/教材制作・アジャイル開発・翻訳技術研究の3つの事業を展開している．現在は，リモートで開発・運営できる体制を整えながら，[継続的翻訳システム](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban)の開発に取り組んでいる．
-
-代表詳細: 
-[GitHub](http://github.com/yasulab), 
-[Twitter](https://twitter.com/yasulab), 
-[Facebook](https://facebook.com/yasulab/), 
-[LinkedIn](https://www.linkedin.com/in/yasulab).
-
-### 主な実績
-
-上記事業を行う傍らで，[Okinawa.rb](https://www.facebook.com/groups/okinawarb/) や [CoderDojo Japan](http://coderdojo.jp)，[下北沢オープンソースCafe](http://osscafe.net/)などのオープンソース活動に積極的に貢献．
-
-2012年にGoogle所属(当時)のPMに推薦され，[IPA未踏スーパークリエータ](http://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に認定される．2013年には，沖縄型若年層向け高度IT人材育成事業で実施している「[週末ものづくり講座](http://academy.lexues.co.jp/seminar/making.php)」が高く評価され，[TEDxRyukyu 2013](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c)に登壇．また，2014年には，[Railsチュートリアル](http://railstutorial.jp/)によるRuby/Railsコミュニティへの貢献が評価され，[フクオカRuby大賞にて優秀賞](http://www.digitalfukuoka.jp/topics/28)を受賞した．
-
-2015年より，世界的な子供向けプログラミング教育機関である CoderDojo の [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) に就任．現在は[継続的翻訳システム](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban)を開発しながら，[Railsガイド](http://railsguides.jp/)などの翻訳の自動化に挑戦している．
+<br />
 
 ## 組織情報
 
@@ -68,6 +63,8 @@ __* 事業実績の詳細は[コチラ](/ja/works).__
 	- [RubyKaigi](http://rubykaigi.org/) (スタッフ・協賛)
 
 詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください.
+
+<br />
 
 ### 連絡先・所在地
 
