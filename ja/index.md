@@ -41,7 +41,7 @@ lang:   ja
 
 <br />
 
-## 代表・実績
+## 代表
 
 {% include profile.html %}
 

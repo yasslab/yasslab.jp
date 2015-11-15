@@ -14,15 +14,15 @@ lang:   ja
 
 本ページでは，上記事業を通して得た実績についてまとめています．
 
-## 代表・実績
+## 代表
 
 {% include profile.html %}
 
-## 実績概要
+## 概要
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
-## 実績詳細
+## 詳細
 
 以下，これまでの実績の詳細を箇条書きでまとめております．
 ご参考になれば幸いです．
@@ -99,7 +99,18 @@ lang:   ja
 
 - 2010年度より過去の活動については，[LinkedIn](http://www.linkedin.com/in/yasulab)または[受賞歴まとめ](https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&type=1&l=76c883b04a)をご参照下さい. 
 
-## 講演活動まとめ
+## オープンソースコミュニティに対する貢献 (一部抜粋)
+
+- [Ruby on Rails Guides](http://guides.rubyonrails.org/)の和訳 ([GitHub](https://github.com/yasslab/railsguides.jp))
+- [Ruby on Rails Tutorial: Learn Web Development with Rails](http://ruby.railstutorial.org/)の和訳
+- [Ruby Hacking Guide](http://ruby-hacking-guide.github.io/)の英訳
+- [下北沢オープンソースCafe英語ページ](http://osscafe.net/en)の作成
+- [ScreenX TV](http://screenx.tv/)の開発 ([GitHub](https://github.com/screenxtv))
+- [CoderDojo Japan](https://www.facebook.com/groups/coderdojo.jp/)の運営
+- [Okinawa.rb](http://qwik.jp/okinawarb/)の立ち上げおよび運営 (2011~現在)
+- [GeekHouse Okinawa](http://text.geeoki.com/) の運営支援
+
+## 他，講演など
 
 - [とちぎRuby会議06](http://regional.rubykaigi.org/tochigi06/)にてRailsチュートリアル/Railsガイドについて講演, 2015
 - リクルートホールディングス主催[Application Developer Festival 2015](http://recruit-jinji.jp/adf_fes2015/)にゲストスピーカーとして講演
@@ -119,16 +130,6 @@ lang:   ja
 - ["CoderDojo の成り立ち・紹介・始め方"](https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang), [オープンソースカンファレンス沖縄 2012](http://www.ospn.jp/osc2012-okinawa/modules/eguide/event.php?eid=15)
 - ["震災対策アプリ：ホイッスル on Android -5万DL達成までにやったこと-"](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto), [Android Bazaar and Conference 2011](http://www.android-group.jp/abc2011s/conference.html)
 
-## オープンソースコミュニティに対する貢献 (一部抜粋)
-
-- [Ruby on Rails Guides](http://guides.rubyonrails.org/)の和訳 ([GitHub](https://github.com/yasslab/railsguides.jp))
-- [Ruby on Rails Tutorial: Learn Web Development with Rails](http://ruby.railstutorial.org/)の和訳
-- [Ruby Hacking Guide](http://ruby-hacking-guide.github.io/)の英訳
-- [下北沢オープンソースCafe英語ページ](http://osscafe.net/en)の作成
-- [ScreenX TV](http://screenx.tv/)の開発 ([GitHub](https://github.com/screenxtv))
-- [CoderDojo Japan](https://www.facebook.com/groups/coderdojo.jp/)の運営
-- [Okinawa.rb](http://qwik.jp/okinawarb/)の立ち上げおよび運営 (2011~現在)
-- [GeekHouse Okinawa](http://text.geeoki.com/) の運営支援
 
 ### 連絡先・所在地
 
