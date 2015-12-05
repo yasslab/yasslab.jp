@@ -22,6 +22,8 @@ lang:   ja
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
+<div id="results"></div>
+
 ## 詳細
 
 以下，これまでの実績の詳細を箇条書きでまとめております．
@@ -30,18 +32,19 @@ lang:   ja
 ### 2015年
 
 - 12月: [RubyKaigi 2015](http://rubykaigi.org/2015)に翻訳スタッフとして参加
-- 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「Continuous Translation System: Railsガイドを支える継続的翻訳システム」を講演
+- 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「[継続的翻訳システム](https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015)」について講演しました
 - 10月: [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース
-- 9月: iPhone/iPadでプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の日本語版をリリース (cf. [公式Facebook](https://www.facebook.com/TickleiPadApp/posts/1641313606121370))
+- 9月: iOS端末でプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の[日本語版をリリース](https://www.facebook.com/TickleiPadApp/posts/1641313606121370)
 - 8月: [Maker Faire Tokyo](http://makezine.jp/event/mft2015/workshops/)でピタゴラ装置のワークショップを開催しました
 - 8月: [CoderDojo Japan](http://coderdojo.jp/)の公式ウェブサイトをリニューアルしました
 - 7月: [Rebuild.fm #100](http://rebuild.fm/100/)でRailsガイドを紹介していただきました
-- 7月: 関西Ruby会議06に登壇しました．また，講演の中で[Railsガイドの出版](http://railsguides.jp/options.html)を公開しました.
-- 6月: とちぎRuby会議06に登壇し，[継続的翻訳システム](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban)について講演しました.
+- 7月: [関西Ruby会議06](http://regional.rubykaigi.org/kansai06/)に登壇．また，講演中に[Railsガイドの出版](http://railsguides.jp/options.html)を発表しました
+- 7月: Railsで作られた匿名性SNSの開発支援を始めました (〜12月まで継続)
+- 6月: とちぎRuby会議06に登壇し，[継続的翻訳システム](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban)について講演しました
 - 6月: 沖縄からシリコンバレーに派遣する[RyukyuFrogs](http://www.ryukyu-frogs.com/)において，Railsチュートリアルを軸にした技術的支援を開始
-- 5月: Co-Edoと共同でGW集中Rails解説セミナーを実施．[全てのセミナーがキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)になる．
-- 4月: オンプレミス環境で稼働しているRailsアプリケーションを Heroku (PaaS) 環境に移行する業務を支援
-- 4月: 世界的な子ども向けプログラミング教室「[CoderDojo](https://coderdojo.com/)」の日本代表として，安川が[CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)に就任
+- 5月: Co-EdoでGW集中Rails解説セミナーを実施．[全セミナーがキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)に．
+- 4月: Railsアプリケーションのオンプレミス環境 → Heroku 環境移行を支援しました
+- 4月: 世界的な子ども向けプログラミング道場「[CoderDojo](https://coderdojo.com/)」の日本代表として，安川が[CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)に就任
 - 3月: [未踏会議+未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)のブースに置いて「[継続的翻訳システム](https://dl.dropboxusercontent.com/u/2819285/%E7%B6%99%E7%B6%9A%E7%9A%84%E7%BF%BB%E8%A8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E3%83%81%E3%83%A9%E3%82%B7.jpg)」を展示
 - 2月: 立ち上げ時期から参画していた沖縄のシェアハウス「[ギークハウス沖縄](http://text.geeoki.com/post/112124574627)」を解散
 - 1月: [Nilquebe](http://nilquebe.com/)と共同で[Rails解説セミナー](http://railstutorial.jp/seminars)@神戸を開講
