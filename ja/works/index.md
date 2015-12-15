@@ -31,7 +31,8 @@ lang:   ja
 
 ### 2015年
 
-- 12月: [RubyKaigi 2015](http://rubykaigi.org/2015)に翻訳スタッフとして参加
+- 12月: Rubyの開発を支援するため，[RubyCI に Mac mini (El Capitan) を提供](https://twitter.com/yasulab/status/673444256279736320)しました
+- 12月: [RubyKaigi 2015](http://rubykaigi.org/2015) にスタッフ (翻訳チーム代表) として参加しました
 - 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「[継続的翻訳システム](https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015)」について講演しました
 - 10月: [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース
 - 9月: iOS端末でプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の[日本語版をリリース](https://www.facebook.com/TickleiPadApp/posts/1641313606121370)
