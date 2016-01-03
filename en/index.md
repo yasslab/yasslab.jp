@@ -5,6 +5,20 @@ lang:   en
 ---
 
 
+Our Business
+============
+
+We are doing our business in the following domains:
+
+1. Agile Web Development with Ruby/Rails
+2. Education and Creation of Teaching Materials
+3. Research and Development to support our works
+
+Summary of Works
+================
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/cEwD6bvg84VeWA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+
 Main Works and Contribution
 ===========================
 
@@ -18,7 +32,6 @@ Main Works and Contribution
    - [Digi-Lab Okinawa](http://digilab.drupalgardens.com/): Teach kids in Okinawa to code with Scratch & Raspberry Pi
    - [1.5-hour Workshop for Kids to learn Programming with Scratch & Raspberry Pi](/en/workshops/raspi)
    - [Physical-Digital Chaing Reactioni using Raspberry Pi (ja)](http://pegpeg.jp/tool/2014/09/09/686)
-   - [ODEN](https://sites.google.com/site/okidigedunet/home): Okinawa Digital Educators Network.
    - [Rails Guides in Japanese](http://railsguides.jp), one of the most famous Rails references in Japan.
    - [Rails Tutorial in Japanese](http://railstutorial.jp), one of the most famous Rails books in Japan.
       - [Rails Seminar](http://railstutorial.jp/seminars): Learn Rails by Seminar
