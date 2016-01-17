@@ -5,8 +5,7 @@ lang:   en
 ---
 
 
-Our Business
-============
+## Our Business
 
 We are doing our business in the following domains:
 
@@ -14,13 +13,16 @@ We are doing our business in the following domains:
 2. Education and Creation of Teaching Materials
 3. Research and Development to support our works
 
-Summary of Works
-================
+<br />
+
+## Summary of Works
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/cEwD6bvg84VeWA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+(NOTE: Please jump to [SlideShare's page](http://www.slideshare.net/yasulab/works-of-yasslab) if you cannot see the slides above.)
 
-Main Works and Contribution
-===========================
+<br />
+
+## Main Works and Contribution
 
 - Web Services and Mobile Applications:
    - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides), Automatate Translating Frequently-updated Tech Docs.
@@ -40,6 +42,8 @@ Main Works and Contribution
    - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): Okinawa Ruby User Group that we found and support.
    - [OpenSource Cafe](http://www.osscafe.net/): Open-source Cafe in Japan that we love.
    - [CoderDojo Japan](http://coderdojo.jp/): Open-source Programming Clubs for Kids in Japan that we support.
+
+<br />
 
 ## About us
 
@@ -93,7 +97,9 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 
 See [Wantedly](https://www.wantedly.com/companies/YassLab) for details (Sorry in Japanese).
 
-### Contact
+<br />
+
+## Contact
 
 Mail: _yohei@yasslab.jp_     
 SNS:
