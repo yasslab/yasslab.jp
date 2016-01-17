@@ -19,7 +19,7 @@ lang:   ja
 ### プロジェクト例
 
 - 自社サービス/アプリ
-   - [継続的翻訳システム](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban): 技術文書に特化した翻訳の自動化システム
+   - [継続的翻訳システム](https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015): 技術文書に特化した翻訳の自動化システム ([発表動画](https://www.youtube.com/watch?v=7cqOJtL5Fvc))
    - [Snapwhim](http://www.snapwhim.com/): PBL(プロジェクト型学習)の支援ツール
    - [ScreenX TV](http://screenx.tv/): リアルタイム端末配信サービス
    - [ホイッスル on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle): 震災対策アプリ

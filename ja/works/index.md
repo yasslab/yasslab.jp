@@ -26,14 +26,19 @@ lang:   ja
 
 ## 詳細
 
-以下，これまでの実績の詳細を箇条書きでまとめております．
+以下，これまでの実績の詳細を箇条書きでまとめております．  
 ご参考になれば幸いです．
+
+### 2016年
+
+- 1月: [Creators MeetUp (新年特番)](http://cmu.connpass.com/event/24504/) で「[OSSドキュメントの翻訳](https://speakerdeck.com/yasulab/ossdokiyumentofalsefan-yi-deben-qi-dasitemita)」について発表しました
+- 1月: 建築系新規事業の開発をサポートしました (〜3月)
 
 ### 2015年
 
 - 12月: Rubyの開発を支援するため，[RubyCI に Mac mini (El Capitan) を提供](https://twitter.com/yasulab/status/673444256279736320)しました
 - 12月: [RubyKaigi 2015](http://rubykaigi.org/2015) にスタッフ (翻訳チーム代表) として参加しました
-- 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「[継続的翻訳システム](https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015)」について講演しました
+- 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「[継続的翻訳システム](https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015)」について[講演](https://www.youtube.com/watch?v=7cqOJtL5Fvc)しました
 - 10月: [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース
 - 9月: iOS端末でプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の[日本語版をリリース](https://www.facebook.com/TickleiPadApp/posts/1641313606121370)
 - 8月: [Maker Faire Tokyo](http://makezine.jp/event/mft2015/workshops/)でピタゴラ装置のワークショップを開催しました
