@@ -1,12 +1,12 @@
 ---
 layout: default
-title:  ヤスラボ – 子供向けIT教育から，Ruby/Railsアジャイル開発まで.
+title:  YassLab – Having a Good Life with OpenSource ;)
 lang:   ja
 ---
 
 ## 事業内容
 
-ヤスラボでは，東京と沖縄を拠点にして，次の3つの事業を展開しています．
+YassLab では，東京と沖縄を拠点にして，次の3つの事業を展開しています．
 
 1. Ruby/Railsのアジャイル開発
 2. 教育事業および教材制作
@@ -60,7 +60,7 @@ lang:   ja
 - 社員数: 3人
 - 創業日: 2012年6月1日
 - 代表: 安川 要平
-- 屋号: ヤスラボ
+- 屋号: YassLab
 - 参加団体: 
     - [Rails技術者認定試験運営委員会](http://www.railscp.org/)
     - [BOSS-CON JAPAN Rails認定ゴールドインテグレーター](http://www.boss-con.jp/railspartner/)
