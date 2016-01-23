@@ -1,12 +1,12 @@
 ---
 layout: default
-title:  ヤスラボ – 事業実績
+title:  YassLab – 事業実績
 lang:   ja
 ---
 
 # 事業実績
 
-ヤスラボでは，東京と沖縄を拠点として，次の3つの事業を展開しています．
+YassLab では，東京と沖縄を拠点として，次の3つの事業を展開しています．
 
 1. Ruby/Railsのアジャイル開発
 2. 教育事業および教材制作
@@ -100,7 +100,7 @@ lang:   ja
   - [週末ものづくり講座](https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1)が同事業のカリキュラムに採用される
   - 2011年〜2014年まで，同講座の[常任講師](http://academy.lexues.co.jp/teacher/)も兼任
 - 自身のプロジェクト実践型学習(Project-Based Learning)の経験を元に[週末ものづくり講座](https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1)のカリキュラムを制作し，ITカレッジにおいて実施する
-- 米国留学を終え，日本に帰国．その後，個人事業所 (ヤスラボ) を立ち上げる
+- 米国留学を終え，日本に帰国．その後，個人事業所 (YassLab) を立ち上げる
 - 震災の直後に震災対策アプリ ([ホイッスル on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en))を開発・公開
   - 30万ダウンロードを達成
 
