@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tickle × BB-8 ワークショップ - ヤスラボ
+title:  Tickle × BB-8 ワークショップ - YassLab
 lang:   ja
 ---
 
