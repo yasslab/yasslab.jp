@@ -31,7 +31,8 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2016年
 
-- 1月: [Creators MeetUp (新年特番)](http://cmu.connpass.com/event/24504/) で「[技術文書の継続的な翻訳](https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita)」について発表しました
+- 1月: 日経ソフトウェアの[1月](http://ec.nikkeibp.co.jp/item/backno/SW1212.html)、[2月](http://ec.nikkeibp.co.jp/item/backno/SW1213.html)、[3月号](http://ec.nikkeibp.co.jp/item/backno/SW1214.html)で「イチからわかるRails」を連載しました
+- 1月: [Creators MeetUp (新年特番)](http://cmu.connpass.com/event/24504/) で「[技術文書の継続的翻訳](https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita)」について発表しました
 - 1月: 建築系新規事業の開発をサポートしました (〜3月)
 
 ### 2015年
