@@ -12,7 +12,6 @@ destination: ./_site
 timezone: Asia/Tokyo
 encoding: utf-8
 
-
 highlighter: rouge
 markdown: kramdown
 exclude: ["vendor", "Gemfile", "Gemfile.lock"]
