@@ -39,7 +39,7 @@ We are doing our business in the following domains:
       - [Rails Seminar](http://railstutorial.jp/seminars): Learn Rails by Seminar
 	  - [Rails Screencast](http://railstutorial.jp/screencasts): Learn Rails by Screencast
 - Open-source Communities:
-   - [Okinawa.rb](https://www.facebook.com/groups/okinawarb/): Okinawa Ruby User Group that we found and support.
+   - [Okinawa.rb](http://ruby.okinawa/): Okinawa Ruby User Group that we found and support.
    - [OpenSource Cafe](http://www.osscafe.net/): Open-source Cafe in Japan that we love.
    - [CoderDojo Japan](http://coderdojo.jp/): Open-source Programming Clubs for Kids in Japan that we support.
 
