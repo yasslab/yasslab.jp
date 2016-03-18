@@ -86,7 +86,7 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 
 - Style: Small Business
 - Owner: Yohei Yasukawa
-- Size:  3 people
+- Size:  5 people
 - Date:  Since June 1, 2012
 - Name: YassLab & Co.
 - Member of: 
