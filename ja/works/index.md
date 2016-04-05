@@ -32,6 +32,12 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2016年
 
+- 4月: [第6期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/41526) を実施します
+- 4月: 海外のCoderDojo公式サイトにて、[CoderDojo Heroes として紹介](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/)されました
+- 4月: 新しいメンバーを迎え、社員数が5人になりました
+- 3月: [第5期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/37506) を実施しました
+- 3月: [未踏会議/未踏ナイト](http://www.meti.go.jp/press/2015/02/20160212002/20160212002.html)において、[CoderDojo Japanの活動について発表](https://www.youtube.com/watch?v=O8ULPyEwDww)しました
+- 2月: 新しいメンバーを迎え、社員数が3人になりました
 - 1月: 日経ソフトウェアの[1月](http://ec.nikkeibp.co.jp/item/backno/SW1212.html)、[2月](http://ec.nikkeibp.co.jp/item/backno/SW1213.html)、[3月号](http://ec.nikkeibp.co.jp/item/backno/SW1214.html)で「イチからわかるRails」を連載しました
 - 1月: [Creators MeetUp (新年特番)](http://cmu.connpass.com/event/24504/) で「[技術文書の継続的翻訳](https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita)」について発表しました
 - 1月: 建築系新規事業の開発をサポートしました (〜3月)
