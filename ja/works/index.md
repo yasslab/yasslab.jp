@@ -32,7 +32,9 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2016年
 
+
 - 4月: [第6期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/41526) を実施します
+- 4月: Railsエンジニア向けCMSを開発しているドイツの [Scrivito](https://scrivito.com/partners) チームと提携しました!
 - 4月: 海外のCoderDojo公式サイトにて、[CoderDojo Heroes として紹介](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/)されました
 - 4月: 新しいメンバーを迎え、社員数が5人になりました
 - 3月: [第5期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/37506) を実施しました
