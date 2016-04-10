@@ -92,8 +92,9 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 - Member of: 
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.org/)
     - [Business OSS Consortium Japan Certified Rails Integrator](http://www.boss-con.jp/railspartner/)
-	- [Ryukyu Frogs](http://www.ryukyu-frogs.com/) (Supporter)
-	- [RubyKaigi](http://rubykaigi.org/) (Staff/Supporter)
+	- [Ryukyu Frogs](http://www.ryukyu-frogs.com/) (Technical Supporter)
+	- [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
+	- [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
 
 See [Wantedly](https://www.wantedly.com/companies/YassLab) for details (Sorry in Japanese).
 

@@ -64,8 +64,9 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 - 参加団体: 
     - [Rails技術者認定試験運営委員会](http://www.railscp.org/)
     - [BOSS-CON JAPAN Rails認定ゴールドインテグレーター](http://www.boss-con.jp/railspartner/)
-	- [Ryukyu Frogs](http://www.ryukyu-frogs.com/) (協賛)
-	- [RubyKaigi](http://rubykaigi.org/) (スタッフ・協賛)
+	- [Ryukyu Frogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター・協賛)
+	- [RubyKaigi](http://rubykaigi.org/) (翻訳スタッフ・協賛)
+	- [Scrivito](https://scrivito.com/partners) (開発パートナー)
 
 詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください.
 
