@@ -54,7 +54,7 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 
 ## 組織情報
 
-![YassLab Logo](/img/logo_rect_copy.png)
+![YassLab](/img/logo_rect_copy.png)
 
 - 組織体: 給与支払事務所
 - 社員数: 5人
