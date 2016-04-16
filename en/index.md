@@ -22,6 +22,16 @@ We are doing our business in the following domains:
 
 <br />
 
+## News
+
+- Become a official partner of the professional cloud-based Rails CMS, [Scrivito](https://scrivito.com/partners)
+- Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
+- Introduced as one of contributoring companies to Ruby by [Matz Keynote](https://www.youtube.com/watch?v=E9bO1uqs4Oc&feature=youtu.be&t=3904) at RubyKaigi 2015
+- Interviewed by [HackerSpace Film](https://www.facebook.com/photo.php?fbid=10153341493740869&set=t.715330868&type=3&theater) for our [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides-short-version)
+- Talk about how we continuously translate RailsTutorial & RailsGuides at [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/en/)
+
+<br />
+
 ## Main Works and Contribution
 
 - Web Services and Mobile Applications:
