@@ -110,7 +110,7 @@ See [Wantedly](https://www.wantedly.com/companies/YassLab) for details (Sorry in
 
 <br />
 
-## Contact
+<h2 id="contact">Contact</h2>
 
 Mail: _yohei@yasslab.jp_     
 SNS:
