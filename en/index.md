@@ -119,6 +119,7 @@ SNS:
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YassLab), 
 [Wantedly](https://www.wantedly.com/companies/YassLab).   
-Address: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
+Tokyo: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
+Okinawa: [Gwave Incubate](http://www.gbic.jp/access/), 558-18 Uchidomari Ginowan-city, Okinawa Japan, 901-2227
 
 If interested, feel free to contact us.
