@@ -100,8 +100,8 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 - Date:  Since June 1, 2012
 - Name: YassLab & Co.
 - Member of: 
-    - [Rails Programmer Certification Test Steering Committee](http://www.railscp.org/)
-    - [Business OSS Consortium Japan Certified Rails Integrator](http://www.boss-con.jp/railspartner/)
+    - [Rails Programmer Certification Test Steering Committee](http://www.railscp.com/aboutus/) (Technical Adviser)
+    - [Business OSS Consortium Japan](http://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
 	- [Ryukyu Frogs](http://www.ryukyu-frogs.com/) (Technical Supporter)
 	- [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
 	- [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
