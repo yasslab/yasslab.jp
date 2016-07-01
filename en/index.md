@@ -58,7 +58,7 @@ We are doing our business in the following domains:
 ## About us
 
 We're mainly working on Ruby/Rails web development, education, and open-source activities. 
-We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Sqwiggle, IRC, etc.
+We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Appear, Idobata, etc.
 
 ### Founder: Yohei Yasukawa
 
@@ -114,7 +114,7 @@ See [Wantedly](https://www.wantedly.com/companies/YassLab) for details (Sorry in
 
 Mail: _yohei@yasslab.jp_     
 SNS:
-[GitHub](https://github.com/yasslab), 
+[GitHub](https://github.com/yasslab) ([Most stars](https://github.com/search?l=&o=desc&q=user%3Ayasslab+user%3Ayasslab+fork%3Atrue&ref=advsearch&s=stars&type=Repositories&utf8=%E2%9C%93)), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YassLab), 

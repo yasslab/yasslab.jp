@@ -76,7 +76,7 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 
 メール: _yohei@yasslab.jp_   
 SNS: 
-[GitHub](https://github.com/yasslab), 
+[GitHub](https://github.com/yasslab) ([人気順](https://github.com/search?l=&o=desc&q=user%3Ayasslab+user%3Ayasslab+fork%3Atrue&ref=advsearch&s=stars&type=Repositories&utf8=%E2%9C%93)), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YassLab), 
