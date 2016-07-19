@@ -34,9 +34,10 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 - 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) に参加します (何かしら関われないか検討中)
 - 8月: 教育xOSSを軸としたカンファレンス「[DojoCon Japan](http://dojocon.coderdojo.jp/)」を開催します
-- 7月: 教育機関向けの新規事業の開発支援を開始しました
+- 7月: 主婦・ママ向けメディア「4yuuu!」から[インタビュー記事が公開](https://4yuuu.com/articles/view/473532)されました
 - 7月: [第7期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/47309)を実施
-- 6月: 代表の安川がPMを務める[未踏ジュニア](http://jr.mitou.org/)が開始しました
+- 7月: 教育機関向けの新規事業の開発支援を開始
+- 6月: 代表の安川がPMを務める[未踏ジュニア](http://jr.mitou.org/)が開始
 - 6月: Rails解説セミナーの[ライブ収録動画 (32時間分)](https://gumroad.com/l/railstutorial_seminars) の販売を開始しました
 - 5月: [第6期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/41526) を実施
 - 5月: CoEdo.rbで[メタプログラミング研究会](https://coedo-rails.doorkeeper.jp/events/42869)を発足しました ([GitHub](https://github.com/yasslab/ruby-metaprogramming-tokyo/tree/master/quizzes))
