@@ -96,7 +96,7 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 
 - Style: [Lifestyle Business](https://en.wikipedia.org/wiki/Lifestyle_business)
 - Owner: Yohei Yasukawa
-- Size:  4 people
+- Size:  5 people
 - Date:  Since June 1, 2012
 - Name: YassLab & Co.
 - Member of: 
