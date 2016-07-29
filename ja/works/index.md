@@ -32,8 +32,9 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2016年
 
-- 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) に参加します (何かしら関われないか検討中)
+- 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) に参加します
 - 8月: 教育xOSSを軸としたカンファレンス「[DojoCon Japan](http://dojocon.coderdojo.jp/)」を開催します
+- 8月: [筑波大学のenPiT](http://www.cs.tsukuba.ac.jp/enPiT/)に対して、Railsチュートリアルおよび動画教材を[提供しました](https://www.evernote.com/shard/s18/sh/a68df4c8-689b-4f69-9d79-af868564134b/6195074c6ec4aaf2129d39e3b3a15ee5)
 - 7月: 主婦・ママ向けメディア「4yuuu!」から[インタビュー記事が公開](https://4yuuu.com/articles/view/473532)されました
 - 7月: [第7期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/47309)を実施
 - 7月: 教育機関向けの新規事業の開発支援を開始
