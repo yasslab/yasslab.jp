@@ -115,7 +115,7 @@ See [Wantedly](https://www.wantedly.com/companies/YassLab) for details (Sorry in
 
 Mail: _yohei@yasslab.jp_     
 SNS:
-[GitHub](https://github.com/yasslab) ([Most stars](https://github.com/search?l=&o=desc&q=user%3Ayasslab+user%3Ayasslab+fork%3Atrue&ref=advsearch&s=stars&type=Repositories&utf8=%E2%9C%93)), 
+[GitHub](https://github.com/yasslab) ([Most stars](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YassLab), 
