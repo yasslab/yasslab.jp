@@ -27,7 +27,7 @@ We are doing our business in the following domains:
 - Become a official partner of the professional cloud-based Rails CMS, [Scrivito](https://scrivito.com/partners)
 - Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
 - Introduced as one of contributoring companies to Ruby by [Matz Keynote](https://www.youtube.com/watch?v=E9bO1uqs4Oc&feature=youtu.be&t=3904) at RubyKaigi 2015
-- Interviewed by [HackerSpace Film](https://www.facebook.com/photo.php?fbid=10153341493740869&set=t.715330868&type=3&theater) for our [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides-short-version)
+- Interviewed by [HackerSpace Film](https://www.facebook.com/photo.php?fbid=10153341493740869&set=t.715330868&type=3&theater) for our [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
 - Talk about how we continuously translate RailsTutorial & RailsGuides at [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/en/)
 
 <br />
@@ -35,7 +35,7 @@ We are doing our business in the following domains:
 ## Main Works and Contribution
 
 - Web Services and Mobile Applications:
-   - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides), Automate Translating Frequently-updated Tech Docs.
+   - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs), Automate Translating Frequently-updated Tech Docs.
    - [Snapwhim](http://www.snapwhim.com/), Visual Bucket List.
    - [ScreenX TV](http://screenx.tv/), Real-time Terminal Broadcasting Tools.
    - [Whistle on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle), Android app developed for [2011 Tōhoku earthquake and tsunami](http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami).
@@ -68,7 +68,7 @@ He obtained the degree of Master in Information and Computer Science from Waseda
 and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 
 a small distributed company focusing on Ruby/Rails web development, education, and opensource projects.
 
-Now, welcoming co-workers who also have open-source mind into YassLab team, we [work remotely](https://github.com/uiureo/remote-in-japan), challenge to automate translating Japanese [Rails Guides](http://railsguides.jp/) and [Rails Tutorial](http://railstutorial.jp/), and try to apply [the continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides) for other GitHub-based tech docs.
+Now, welcoming co-workers who also have open-source mind into YassLab team, we [work remotely](https://github.com/uiureo/remote-in-japan), challenge to automate translating Japanese [Rails Guides](http://railsguides.jp/) and [Rails Tutorial](http://railstutorial.jp/), and try to apply [the continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs) for other GitHub-based tech docs.
 
 SNS:
 [GitHub](http://github.com/yasulab), 
@@ -88,7 +88,7 @@ our works were accepted by [The MITOH Program](https://www.ipa.go.jp/english/hum
 seleted as one of [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) talks in 2013,
 and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-fukuoka-ruby-award-winners.html) at Fukuoka Ruby Award in 2014.
 
-Since 2015, in order to bridge the knowledge of teaching kids to code between Japan and the world, he also works as a [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) at [CoderDojo](http://coderdojo.com/), the global network of free computer programming clubs for young people. For the future, his company is developing [continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-railsguides) that translates documents in real time using Git and Translation Memory technique. Its outcomes include [Japanese Rails Tutorial](http://railstutorial.jp) and [Rails Guides in Japanese](http://railsguides.jp/).
+Since 2015, in order to bridge the knowledge of teaching kids to code between Japan and the world, he also works as a [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) at [CoderDojo](http://coderdojo.com/), the global network of free computer programming clubs for young people. For the future, his company is developing [continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs) that translates documents in real time using Git and Translation Memory technique. Its outcomes include [Japanese Rails Tutorial](http://railstutorial.jp) and [Rails Guides in Japanese](http://railsguides.jp/).
 
 ### Company Profile
 
