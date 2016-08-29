@@ -80,7 +80,7 @@ SNS:
 
 Not only such businesses, but also his company contributes to opensource communities by
 founding and organizing [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01),
-taking part in CoderDojo Community Committee as a representative of [CoderDojo Japan](http://coderdojo.jp/), 
+serving as a chairman of [CoderDojo Japan](http://coderdojo.jp/), 
 and translating [Rails Tutorial into Japanese](http://railstutorial.jp/")/[Ruby Hacking Guide into English](http://ruby-hacking-guide.github.io/).
 
 For such enthusiastic contribution to IT and Education fields in Japan,
