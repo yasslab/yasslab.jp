@@ -32,7 +32,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2016年
 
-- 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) に参加します!
+- 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) の[翻訳スタッフ](http://rubykaigi.org/2016/team/)として、弊社代表の安川が参加しました 💎 ✨
 - 8月: 教育xOSSを軸としたカンファレンス「[DojoCon Japan](http://dojocon.coderdojo.jp/)」を開催します
 - 8月: 「日経Kids+ 親子で始めるプログラミング」で [CoderDojo が紹介されました](https://www.facebook.com/yasulab/posts/10153783123520869?pnref=story)
 - 8月: [Doorkeeperスポンサーシップ](https://github.com/yasslab/doorkeeper_sponsorship)の資料を CC BY-SA で公開しました
