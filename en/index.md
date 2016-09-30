@@ -120,8 +120,6 @@ SNS:
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YassLab), 
 [Wantedly](https://www.wantedly.com/companies/YassLab).   
-Tokyo: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
-Okinawa: [Corporation Kokuba C Building](https://www.google.co.jp/maps/place/%E3%80%92902-0075+%E6%B2%96%E7%B8%84%E7%9C%8C%E9%82%A3%E8%A6%87%E5%B8%82%E5%9B%BD%E5%A0%B4+%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%93%E3%81%8F%E3%81%B0%EF%BC%A3/@26.1929272,127.7035431,17z/data=!3m1!4b1!4m5!3m4!1s0x34e5693c4f0cf9d1:0xd482ae3534c75dd2!8m2!3d26.1929231!4d127.7057207) 216 Room, Kokuba 335-1, Naha-shi, Okinawa, 902-0075
-
+Office: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
 
 If interested, feel free to contact us.

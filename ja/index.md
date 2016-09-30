@@ -82,7 +82,6 @@ SNS:
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YassLab), 
 [Wantedly](https://www.wantedly.com/companies/YassLab).   
-東京: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
-沖縄: 〒902-0075 沖縄県那覇市国場335-1 [コーポレーションこくばC棟](https://www.google.co.jp/maps/place/%E3%80%92902-0075+%E6%B2%96%E7%B8%84%E7%9C%8C%E9%82%A3%E8%A6%87%E5%B8%82%E5%9B%BD%E5%A0%B4+%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%93%E3%81%8F%E3%81%B0%EF%BC%A3/@26.1929272,127.7035431,17z/data=!3m1!4b1!4m5!3m4!1s0x34e5693c4f0cf9d1:0xd482ae3534c75dd2!8m2!3d26.1929231!4d127.7057207) 216号室
+事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
 Ruby/Rails開発の依頼や教育事業に関するお問い合わせ，また，運営・制作している教材/製品に関するご相談などについては，下記のフォームをご利用ください．  
