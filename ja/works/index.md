@@ -32,38 +32,40 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2016年
 
+- 10月: ベネッセ教育総合研究所の[「まなびのかたち」](http://berd.benesse.jp/special/manabi/manabi_10.php)で弊社の安川が載りました
 - 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) の[翻訳スタッフ](http://rubykaigi.org/2016/team/)として、弊社代表の安川が参加しました 💎 ✨
-- 8月: 教育xOSSを軸としたカンファレンス「[DojoCon Japan](http://dojocon.coderdojo.jp/)」を開催します
+- 8月: 弊社の安川が、[一般社団法人 CoderDojo Japan の代表理事](http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)に就任しました
+- 8月: 教育xOSSを軸としたカンファレンス「[DojoCon Japan](http://dojocon.coderdojo.jp/)」を開催サポート
 - 8月: 「日経Kids+ 親子で始めるプログラミング」で [CoderDojo が紹介されました](https://www.facebook.com/yasulab/posts/10153783123520869?pnref=story)
-- 8月: [Doorkeeperスポンサーシップ](https://github.com/yasslab/doorkeeper_sponsorship)の資料を CC BY-SA で公開しました
-- 8月: [大阪電気通信大学と提携](http://www.osakac.ac.jp/news/2016/922)し、Railsチュートリアルの動画教材を提供しました
-- 8月: [筑波大学のenPiT](http://www.cs.tsukuba.ac.jp/enPiT/)に対して、Railsチュートリアルの動画教材を[提供しました](https://www.evernote.com/shard/s18/sh/a68df4c8-689b-4f69-9d79-af868564134b/6195074c6ec4aaf2129d39e3b3a15ee5)
+- 8月: [Doorkeeperスポンサーシップ](https://github.com/yasslab/doorkeeper_sponsorship)の資料を CC BY-SA で公開
+- 8月: [大阪電気通信大学と提携](http://www.osakac.ac.jp/news/2016/922)し、Railsチュートリアルの動画教材を提供
+- 8月: [筑波大学のenPiT](http://www.cs.tsukuba.ac.jp/enPiT/)に対して、Railsチュートリアルの[動画教材を提供](https://www.evernote.com/shard/s18/sh/a68df4c8-689b-4f69-9d79-af868564134b/6195074c6ec4aaf2129d39e3b3a15ee5)
 - 7月: 主婦・ママ向けメディア「4yuuu!」から[インタビュー記事が公開](https://4yuuu.com/articles/view/473532)されました
 - 7月: [第7期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/47309)を実施
 - 7月: 教育機関向けの新規事業の開発支援を開始
 - 6月: 代表の安川がPMを務める[未踏ジュニア](http://jr.mitou.org/)が開始
-- 6月: Rails解説セミナーの[ライブ収録動画 (32時間分)](https://gumroad.com/l/railstutorial_seminars) の販売を開始しました
+- 6月: Rails解説セミナーの[ライブ収録動画 (32時間分)](https://gumroad.com/l/railstutorial_seminars) の販売を開始
 - 5月: [第6期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/41526) を実施
 - 5月: CoEdo.rbで[メタプログラミング研究会](https://coedo-rails.doorkeeper.jp/events/42869)を発足しました ([GitHub](https://github.com/yasslab/ruby-metaprogramming-tokyo/tree/master/quizzes))
-- 4月: 海外向けの新規規事の開発支援を開始しました
-- 4月: Railsエンジニア向けCMSを開発しているドイツの [Scrivito](https://scrivito.com/partners) チームと提携しました!
+- 4月: 海外向けの新規規事の開発支援を開始
+- 4月: Rails-based CMSを開発しているドイツの [Scrivito チームと提携](https://scrivito.com/partners)
 - 4月: 海外のCoderDojo公式サイトにて、[CoderDojo Heroes として紹介](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/)されました
 - 4月: 新しいメンバーを迎え、社員数が4人になりました
-- 3月: [第5期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/37506) を実施しました
-- 3月: [未踏会議/未踏ナイト](http://www.meti.go.jp/press/2015/02/20160212002/20160212002.html)において、[CoderDojo Japanの活動について発表](https://www.youtube.com/watch?v=O8ULPyEwDww)しました
+- 3月: [第5期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/37506)を実施
+- 3月: [未踏会議/未踏ナイト](http://www.meti.go.jp/press/2015/02/20160212002/20160212002.html)において、[CoderDojo Japanの活動について発表](https://www.youtube.com/watch?v=O8ULPyEwDww)
 - 2月: 新しいメンバーを迎え、社員数が3人になりました
-- 1月: 日経ソフトウェアの[1月](http://ec.nikkeibp.co.jp/item/backno/SW1212.html)、[2月](http://ec.nikkeibp.co.jp/item/backno/SW1213.html)、[3月号](http://ec.nikkeibp.co.jp/item/backno/SW1214.html)で「イチからわかるRails」を連載しました
-- 1月: [Creators MeetUp (新年特番)](http://cmu.connpass.com/event/24504/) で「[技術文書の継続的翻訳](https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita)」について発表しました
+- 1月: 日経ソフトウェアの[1月](http://ec.nikkeibp.co.jp/item/backno/SW1212.html)、[2月](http://ec.nikkeibp.co.jp/item/backno/SW1213.html)、[3月号](http://ec.nikkeibp.co.jp/item/backno/SW1214.html)で「イチからわかるRails」を連載
+- 1月: [Creators MeetUp (新年特番)](http://cmu.connpass.com/event/24504/) で「[技術文書の継続的翻訳](https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita)」について発表
 - 1月: 建築系新規事業の開発をサポートしました (〜3月)
 
 
 ### 2015年
 
-- 12月: まつもとゆきひろ氏の基調講演で [Ruby に貢献する企業として紹介](https://youtu.be/E9bO1uqs4Oc?t=3904)されました
+- 12月: まつもとゆきひろ氏の基調講演で [Ruby に貢献する企業として紹介](https://youtu.be/E9bO1uqs4Oc?t=3904)
 - 12月: Rubyの開発を支援するため，[RubyCI に Mac mini (El Capitan) を提供](https://twitter.com/yasulab/status/673444256279736320)しました
 - 12月: [RubyKaigi 2015](http://rubykaigi.org/2015) にスタッフ (翻訳チーム代表) として参加しました
-- 11月: リモートワークを応援するWEBメディア「Anywher」に[取材](https://anywher.net/2015/11/yasslab/)してもらいました
-- 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「[継続的翻訳システム](https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015)」について[講演](https://www.youtube.com/watch?v=7cqOJtL5Fvc)しました
+- 11月: リモートワークを応援するWEBメディア「Anywher」に[紹介して頂きました](https://anywher.net/2015/11/yasslab/)
+- 11月: [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/ja/)にて「[継続的翻訳システム](https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015)」について[講演](https://www.youtube.com/watch?v=7cqOJtL5Fvc)
 - 10月: [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース
 - 9月: iOS端末でプログラミングができるアプリ「[Tickle](https://itunes.apple.com/jp/app/id961319311)」の[日本語版をリリース](https://www.facebook.com/TickleiPadApp/posts/1641313606121370)
 - 8月: [Maker Faire Tokyo](http://makezine.jp/event/mft2015/workshops/)でピタゴラ装置のワークショップを開催しました
@@ -77,7 +79,8 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 4月: Railsアプリケーションのオンプレミス環境 → Heroku 環境移行を支援しました
 - 4月: 世界的な子ども向けプログラミング道場「[CoderDojo](https://coderdojo.com/)」の日本代表として，安川が[CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)に就任
 - 3月: [未踏会議+未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)のブースに置いて「[継続的翻訳システム](https://dl.dropboxusercontent.com/u/2819285/%E7%B6%99%E7%B6%9A%E7%9A%84%E7%BF%BB%E8%A8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E3%83%81%E3%83%A9%E3%82%B7.jpg)」を展示
-- 2月: 立ち上げ時期から参画していた沖縄のシェアハウス「[ギークハウス沖縄](http://text.geeoki.com/post/112124574627)」を解散
+- 2月: 初期から参画していた沖縄のシェアハウス「
+[ギークハウス沖縄](http://text.geeoki.com/post/112124574627)」が解散
 - 1月: [Nilquebe](http://nilquebe.com/)と共同で[Rails解説セミナー](http://railstutorial.jp/seminars)@神戸を開講
 
 
@@ -87,7 +90,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 12月: 動画でRailsが学べる「[Railsスクリーンキャスト](http://railstutorial.jp/screencasts)」を公開
 - 11月: Co-Edoと共同で[Rails解説セミナー](http://railstutorial.jp/seminars)を開講
 - 9月: RubyHiroba 2014にて，体系的にRailsを学べる「[Railsガイド](http://railsguides.jp/)」を公開
-- 9月: RubyKaigi 2014に[シルバースポンサー](http://rubykaigi.org/2014/sponsors#silver07)として協賛．また，スタッフとして翻訳や司会にも務める
+- 9月: RubyKaigi 2014に[シルバースポンサー](http://rubykaigi.org/2014/sponsors#silver07)として協賛 (翻訳および司会も務める)
 - 8月: [デジラボおきなわ](http://digilab.drupalgardens.com/)にて子供向けプログラミングの成果報告会を実施．RBCにて，特集番組として放映される
 - 4月: 世界中のインターナショナルスクールが集まる国際会議「[#beyondlaptops](http://blogs.yis.ac.jp/beyondlaptops/)」にて，Guest Speaker として Scratch + Raspberry Pi のワークショップを実施
 - 3月: [沖縄Ruby会議01](regional.rubykaigi.org/okrk01/) を開催．安川が実行委員長を努め，Ruby開発者のまつもとゆきひろ氏をゲストとして招聘．
@@ -99,29 +102,30 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 ### 2013年
 
 - 12月: 子供向け学習支援コンテンツのタブレット端末対応変換器の開発
-- 11月: 達人出版会より[Ruby on Rails チュートリアル: 実例を使ってRailsを学ぼう](http://tatsu-zine.com/books/railstutorial)を出版
+- 11月: 達人出版会より[Ruby on Rails チュートリアルの電書籍版](http://tatsu-zine.com/books/railstutorial)を出版
 - ビジネスプロセス支援アプリケーションの開発支援:
   - テストの高速化: 2時間 → 15分
   - 各種機能の開発
-- 沖縄型若年層向けIT高度人材育成事業 ([第３期レキサスアカデミー](http://academy.lexues.co.jp/)) 常任講師 (10月〜3月)
-- [Rails チュートリアル](http://railstutorial.jp/)の公開，[継続的翻訳システムの構築](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) ([RubyWorld Conference 2013](http://www.rubyworld-conf.org/) にて講演)
+- 沖縄型若年層向けIT高度人材育成事業 ([第3期レキサスアカデミー](http://academy.lexues.co.jp/)) 常任講師に着任
+- [Rails チュートリアル](http://railstutorial.jp/)の公開，[Social Translating の起案および実施](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide)
+  - 詳細は [RubyWorld Conference 2013](http://www.rubyworld-conf.org/) にて講演 (動画あり)
 - オンライン郵送サービスの開発およびコンサルティングに従事:
   - 大規模処理のリファクタリングおよび高速化
   - テスト環境の整備および高速化
-  - 他，Integration Testのサポート，Ruby/CoffeeScriptなどのコーディング作法の指導など
+  - 他，統合テストのサポート，Ruby/CoffeeScriptなどのコーディング作法の指導等
 
 ### 2012年
 
 - IPA 未踏人材育成事業: [思いを叶える視覚駆動バケットリストの開発](http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html)
   - 代表の安川が，未踏スーパークリエイタに認定される
-- 沖縄型若年層向けIT高度人材育成事業([第2期レキサスアカデミー](http://academy.lexues.co.jp/)) 常任講師 (10月〜３月)
+- 沖縄型若年層向けIT高度人材育成事業 ([第2期レキサスアカデミー](http://academy.lexues.co.jp/)) 常任講師に着任
 - [Nifty Cloud C4SA](http://c4sa.nifty.com/) における [Ruby/Rails/Perl などのコンテキスト](http://c4sa.nifty.com/about.htm)の開発
 - シリコンバレー (Belmont, California) でシェアオフィスを立ち上げる
 - 他，CMSを使ったECサイトの構築，ソーシャルiOSアプリの開発など
 
 ### 2011年
 
-- 沖縄型若年層向けIT高度人材育成事業([第1期レキサスアカデミー](http://academy.lexues.co.jp/))の立ち上げ・運営に参画
+- 沖縄型若年層向けIT高度人材育成事業 ([レキサスアカデミー](http://academy.lexues.co.jp/)) の立ち上げに参画
   - [週末ものづくり講座](https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1)が同事業のカリキュラムに採用される
   - 2011年〜2014年まで，同講座の[常任講師](http://academy.lexues.co.jp/teacher/)も兼任
 - 自身のプロジェクト実践型学習(Project-Based Learning)の経験を元に[週末ものづくり講座](https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1)のカリキュラムを制作し，ITカレッジにおいて実施する
