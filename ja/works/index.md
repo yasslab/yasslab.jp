@@ -173,12 +173,12 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 メール: _yohei@yasslab.jp_   
 SNS: 
-[GitHub](https://github.com/yasslab), 
+[GitHub](https://github.com/yasslab) ([人気順](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
 [Google+](https://plus.google.com/+YassLab), 
 [Wantedly](https://www.wantedly.com/companies/YassLab).   
-オフィス: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
+事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
 
 Ruby/Rails開発の依頼や教育事業に関するお問い合わせ，また，運営・制作している教材/製品に関するご相談などについては，下記のフォームをご利用ください．  
