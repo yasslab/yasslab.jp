@@ -1,3 +1,5 @@
+[![Status Badge](https://travis-ci.org/yasslab/coderdojo.jp.svg?branch=master)](https://travis-ci.org/yasslab/coderdojo.jp)
+
 Website for YassLab
 =====================
 
