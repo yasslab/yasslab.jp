@@ -11,17 +11,8 @@ ap{|c|c.chr('utf-8')}).gsub(/\s|#/,'')).join
 
 __END__
 
+Team YassLab
+https://github.com/orgs/yasslab/people
 
-## Team
-
-Yohei Yasukawa
-https://github.com/yasulab
-
-Seiei Miyagi
-https://github.com/hanachin
-
-Yoshiaki Oshiro
-https://github.com/himajin315
-
-YassLab
-https://github.com/yasslab
+YassLab - Having a Good Life with OpenSource ;)
+http://yasslab.jp/
