@@ -1,0 +1,13 @@
+language: ruby
+dependencies:
+  cache_directories:
+  - public/assets
+  - tmp/cache/assets
+script:
+  - "bundle exec rspec spec/features/"
+deploy:
+  provider: heroku
+  api_key:
+    secure: PxeiBvcW1YQ1iuQUZnFQKuRWcPT5aFkZ5z5EPuadYvkhxzTlQdlHuEuJTYY4HlPEVVZdcb6Ie5KrHN1yk9FxHJiyOUd4t+ASdG/wzZfWNkFeC1DvgQizR54jNGbL2WRh9b8pf4G6Nx8nBzVcxvmrdC650JLIkfBkB4rpl6yxhkw=
+  app:
+    master: yasslab.github.io

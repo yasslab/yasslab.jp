@@ -13,6 +13,18 @@ gem 'acme_challenge'
 gem 'rack-rewrite', '~> 1.5.0'
 gem 'rack-contrib', '~> 1.4'
 
+group :development, :test do
+  gem 'rb-readline'
+  gem 'pry-byebug'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'rspec'
+  gem 'turnip'
+  gem 'wraith'
+end
+
 group :production do
   gem 'puma'
 end

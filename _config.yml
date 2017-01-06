@@ -23,3 +23,5 @@ exclude:
   - config.ru
   - vendor
   - app.json
+  - test
+  - spec
