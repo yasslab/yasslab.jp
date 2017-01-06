@@ -12,11 +12,11 @@ gem 'rake'
 gem 'acme_challenge'
 gem 'rack-rewrite', '~> 1.5.0'
 gem 'rack-contrib', '~> 1.4'
+gem 'html-proofer', '~> 3'
 
 group :development, :test do
   gem 'rb-readline'
   gem 'pry-byebug'
-  gem 'html-proofer'
 end
 
 group :production do

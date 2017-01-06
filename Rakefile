@@ -13,7 +13,7 @@ end
 # cf. How to test a Jekyll site
 # http://joenyland.me/blog/how_to_test_a_jekyll_site/
 require 'html-proofer'
-task :test => [:build] do
+task test: [:build] do
   HTMLProofer.check_directory('./_site', {
                                 check_opengraph: true,
                                 check_favicon: true,
@@ -28,7 +28,7 @@ task :test => [:build] do
                              }).run
 end
 
-task :build => [:clean] do
+task build: [:clean] do
   system 'bundle exec jekyll build'
 end
 
