@@ -8,3 +8,6 @@ gem 'rack-jekyll', '~> 0.5'
 gem 'jekyll-task-i18n'
 gem 'rake'
 
+group :production do
+  gem 'puma'
+end
