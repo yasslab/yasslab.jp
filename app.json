@@ -1,0 +1,13 @@
+{
+    "name": "YassLab | We support Ruby/Rails Web Development, Education, and OpenSource.",
+    "description": "YassLab is a 100% remote company that works remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource.",
+  "keywords": [
+    "Ruby",
+    "Rails",
+    "Remote Work",
+    "OpenSource",
+    "Development"
+  ],
+  "repository": "https://github.com/yasslab/yasslab.github.io",
+  "success_url": "/"
+}

@@ -14,4 +14,12 @@ encoding: utf-8
 
 highlighter: rouge
 markdown: kramdown
-exclude: ["vendor", "Gemfile", "Gemfile.lock"]
+gems:     ['kramdown']
+exclude:
+  - README.md
+  - Procfile
+  - Gemfile
+  - Gemfile.lock
+  - config.ru
+  - vendor
+  - app.json
