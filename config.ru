@@ -19,7 +19,7 @@ use Rack::TryStatic,
       'X-Xss-Protection'          => '1; mode=block',
       'X-Content-Type-Options'    => 'nosniff',
       'X-Frame-Options'           => 'DENY',
-      'Content-Security-Policy'   => "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.dropboxusercontent.com *.google.com *.google-analytics.com *.facebook.net *.facebook.com *.twitter.com *.github.com buttons.github.io *.hatena.ne.jp *.st-hatena.com ;"
+      'Content-Security-Policy'   => "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.dropboxusercontent.com *.google.com *.google-analytics.com *.facebook.net *.facebook.com *.twitter.com *.github.com buttons.github.io *.hatena.ne.jp *.st-hatena.com *.slideshare.net *.wufoo.com;"
     }],
     [['html'],    { 'Content-Type'  => 'text/html; charset=utf-8'}],
     [['css'],     { 'Content-Type'  => 'text/css'}],
