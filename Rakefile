@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "jekyll/task/i18n"
+#require "jekyll/task/i18n"
 
 task default: 'assets:precompile'
 
