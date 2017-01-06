@@ -41,7 +41,7 @@ We are doing our business in the following domains:
    - [Whistle on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle), Android app developed for [2011 Tōhoku earthquake and tsunami](http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami).
 - Education, Workshops, and Materials:
    - [Lexues Academy](http://academy.lexues.co.jp/), providing project-based learning course with students in Okinawa.
-   - [Digi-Lab Okinawa](http://digilab.drupalgardens.com/): Teach kids in Okinawa to code with Scratch & Raspberry Pi
+   - [Digi-Lab Okinawa](https://www.facebook.com/DigiLabOkinawa/): Teach kids in Okinawa to code with Scratch & Raspberry Pi
    - [1.5-hour Workshop for Kids to learn Programming with Scratch & Raspberry Pi](/en/workshops/raspi)
    - [Physical-Digital Chaing Reactioni using Raspberry Pi (ja)](http://pegpeg.jp/tool/2014/09/09/686)
    - [Rails Guides in Japanese](http://railsguides.jp), one of the most famous Rails references in Japan.
@@ -86,7 +86,7 @@ and translating [Rails Tutorial into Japanese](http://railstutorial.jp/")/[Ruby 
 For such enthusiastic contribution to IT and Education fields in Japan,
 our works were accepted by [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html) in 2012,
 seleted as one of [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) talks in 2013,
-and awarded [Outstanding Performance Awards](http://www.myfukuoka.com/news/2014-fukuoka-ruby-award-winners.html) at Fukuoka Ruby Award in 2014.
+and awarded [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award in 2014.
 
 Since 2015, in order to bridge the knowledge of teaching kids to code between Japan and the world, he also works as a [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) at [CoderDojo](http://coderdojo.com/), the global network of free computer programming clubs for young people. For the future, his company is developing [continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs) that translates documents in real time using Git and Translation Memory technique. Its outcomes include [Japanese Rails Tutorial](http://railstutorial.jp) and [Rails Guides in Japanese](http://railsguides.jp/).
 
