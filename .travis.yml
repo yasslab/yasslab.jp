@@ -1,10 +1,6 @@
 language: ruby
-dependencies:
-  cache_directories:
-  - public/assets
-  - tmp/cache/assets
 script:
-  - "bundle exec rspec spec/features/"
+  - "bundle exec rake test"
 deploy:
   provider: heroku
   api_key:
