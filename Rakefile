@@ -1,6 +1,20 @@
 require "bundler/setup"
 require "jekyll/task/i18n"
 
+task default: 'assets:precompile'
+
+namespace :assets do
+  task :precompile do
+    Rake::Task['clean'].invoke
+    sh 'JEKYLL_ENV=production bundle exec jekyll build'
+  end
+end
+
+desc 'Remove compiled files'
+task :clean do
+  sh "rm -rf #{File.dirname(__FILE__)}/_site/*"
+end
+
 Jekyll::Task::I18n.define do |task|
   task.locales = ["ja"]
   task.translator_name  = "Yohei Yasukawa"
