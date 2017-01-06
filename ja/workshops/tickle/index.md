@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  Tickle × BB-8 ワークショップ - YassLab
 lang:   ja
 ---
