@@ -11,6 +11,7 @@ gem 'rake'
 # Gems to enable SSL
 gem 'acme_challenge'
 gem 'rack-rewrite', '~> 1.5.0'
+gem 'rack-contrib', '~> 1.4'
 
 group :production do
   gem 'puma'
