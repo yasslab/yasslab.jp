@@ -15,9 +15,16 @@ end
 require 'html-proofer'
 task :test => [:build] do
   HTMLProofer.check_directory('./_site', {
+                                check_opengraph: true,
                                 check_favicon: true,
                                 check_html: true,
-                                file_ignore: %w(workshops google02f5cc9ed3681f94.html),
+                                file_ignore: %w(
+./_site/ja/workshops/raspi/index.html
+./_site/en/workshops/raspi/index.html
+./_site/ja/workshops/tickle/index.html
+./_site/google02f5cc9ed3681f94.html),
+                                url_ignore:  %w(coderdojo.com linkedin.com),
+                                http_status_ignore: [999],
                              }).run
 end
 
