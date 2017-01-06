@@ -12,7 +12,7 @@ require 'rack/contrib/try_static'
 use Rack::TryStatic,
   urls: %w[/],
   root: '_site',
-  try: ['.html', 'index.html', '/index.html'],
+  try: ['.html', 'index.html', '/index.html', 'humans.txt'],
   header_rules: [
     [:all, {
       'Strict-Transport-Security' => 'max-age=31536000; preload',
@@ -22,6 +22,7 @@ use Rack::TryStatic,
       'Content-Security-Policy'   => "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.dropboxusercontent.com *.google.com *.google-analytics.com *.facebook.net *.facebook.com *.twitter.com *.github.com buttons.github.io *.hatena.ne.jp *.st-hatena.com *.slideshare.net *.wufoo.com;"
     }],
     [['html'],    { 'Content-Type'  => 'text/html; charset=utf-8'}],
+    [['txt'],     { 'Content-Type'  => 'text/plain; charset=utf-8'}],
     [['css'],     { 'Content-Type'  => 'text/css'}],
     [['js'],      { 'Content-Type'  => 'text/javascript' }],
     [['png'],     { 'Content-Type'  => 'image/png' }],
