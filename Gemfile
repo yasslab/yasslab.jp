@@ -8,6 +8,9 @@ gem 'rack-jekyll', '~> 0.5'
 gem 'jekyll-task-i18n'
 gem 'rake'
 
+# Gems to enable SSL
+gem 'acme_challenge'
+
 group :production do
   gem 'puma'
 end
