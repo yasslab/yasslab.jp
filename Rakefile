@@ -24,7 +24,7 @@ task :test => [:build] do
 ./_site/ja/workshops/tickle/index.html
 ./_site/google02f5cc9ed3681f94.html),
                                 url_ignore:  %w(coderdojo.com linkedin.com),
-                                http_status_ignore: [0, 999],
+                                http_status_ignore: [0, 500, 999],
                              }).run
 end
 
