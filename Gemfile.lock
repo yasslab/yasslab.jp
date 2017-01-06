@@ -186,6 +186,7 @@ GEM
       jekyll (>= 1.3)
       listen (>= 1.3)
       rack (~> 1.5)
+    rack-rewrite (1.5.1)
     rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
@@ -218,6 +219,7 @@ DEPENDENCIES
   jekyll-task-i18n
   puma
   rack-jekyll (~> 0.5)
+  rack-rewrite (~> 1.5.0)
   rake
   redcarpet
 
