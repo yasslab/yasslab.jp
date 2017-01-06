@@ -91,7 +91,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 11月: Co-Edoと共同で[Rails解説セミナー](http://railstutorial.jp/seminars)を開講
 - 9月: RubyHiroba 2014にて，体系的にRailsを学べる「[Railsガイド](http://railsguides.jp/)」を公開
 - 9月: RubyKaigi 2014に[シルバースポンサー](http://rubykaigi.org/2014/sponsors#silver07)として協賛 (翻訳および司会も務める)
-- 8月: [デジラボおきなわ](http://digilab.drupalgardens.com/)にて子供向けプログラミングの成果報告会を実施．RBCにて，特集番組として放映される
+- 8月: [デジラボおきなわ](https://www.facebook.com/DigiLabOkinawa/)にて子供向けプログラミングの成果報告会を実施．RBCにて，特集番組として放映される
 - 4月: 世界中のインターナショナルスクールが集まる国際会議「[#beyondlaptops](http://blogs.yis.ac.jp/beyondlaptops/)」にて，Guest Speaker として Scratch + Raspberry Pi のワークショップを実施
 - 3月: [沖縄Ruby会議01](http://ruby.okinawa/okrk01/) を開催．安川が実行委員長を努め，Ruby開発者のまつもとゆきひろ氏をゲストとして招聘．
 - 3月: [レキサスアカデミー第３期 最終成果報告会](http://blog.lexues.co.jp/19489.html)を実施
