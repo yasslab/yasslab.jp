@@ -180,7 +180,7 @@ GEM
     minitest (5.10.1)
     multipart-post (2.0.0)
     net-dns (0.8.0)
-    nokogiri (1.7.0)
+    nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     octokit (4.6.2)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -234,7 +234,7 @@ PLATFORMS
 DEPENDENCIES
   acme_challenge
   github-pages
-  html-proofer (~> 3)
+  html-proofer
   jekyll
   pry-byebug
   puma

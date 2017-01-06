@@ -16,7 +16,7 @@ gem 'rack-contrib', '~> 1.4'
 group :development, :test do
   gem 'rb-readline'
   gem 'pry-byebug'
-  gem 'html-proofer', '~> 3'
+  gem 'html-proofer'
 end
 
 group :production do
