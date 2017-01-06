@@ -14,9 +14,10 @@ end
 # http://joenyland.me/blog/how_to_test_a_jekyll_site/
 require 'html-proofer'
 task :test => [:build] do
-  HTMLProofer.check_directory('./_site',{
-                                 :check_favicon => true,
-                                 :check_html => true
+  HTMLProofer.check_directory('./_site', {
+                                check_favicon: true,
+                                check_html: true,
+                                file_ignore: %w(workshops google02f5cc9ed3681f94.html),
                              }).run
 end
 
