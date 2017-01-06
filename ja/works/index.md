@@ -135,7 +135,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2010年度より過去の活動について.
 
-- 2010年度より過去の活動については，[LinkedIn](https://www.linkedin.com/in/yasulab)または[受賞歴まとめ](https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&type=1&l=76c883b04a)をご参照下さい. 
+- 2010年度より過去の活動については，[Wantedly](https://www.wantedly.com/users/11695)または[受賞歴まとめ](https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&type=1&l=76c883b04a)をご参照下さい. 
 
 ## オープンソースコミュニティに対する貢献 (一部抜粋)
 
