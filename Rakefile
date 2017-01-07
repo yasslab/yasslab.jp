@@ -18,6 +18,7 @@ task test: [:build] do
                                 check_opengraph: true,
                                 check_favicon: true,
                                 check_html: true,
+                                disable_external: true,
                                 file_ignore: %w(
 ./_site/ja/workshops/raspi/index.html
 ./_site/en/workshops/raspi/index.html
