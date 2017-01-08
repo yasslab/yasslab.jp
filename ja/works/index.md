@@ -78,7 +78,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 5月: Co-EdoでGW集中Rails解説セミナーを実施．[全セミナーがキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)に．
 - 4月: Railsアプリケーションのオンプレミス環境 → Heroku 環境移行を支援しました
 - 4月: 世界的な子ども向けプログラミング道場「[CoderDojo](https://coderdojo.com/)」の日本代表として，安川が[CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)に就任
-- 3月: [未踏会議+未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)のブースに置いて「[継続的翻訳システム](https://dl.dropboxusercontent.com/u/2819285/%E7%B6%99%E7%B6%9A%E7%9A%84%E7%BF%BB%E8%A8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E3%83%81%E3%83%A9%E3%82%B7.jpg)」を展示
+- 3月: [未踏会議+未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)のブースに置いて「[継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)」を展示
 - 2月: 初期から参画していた沖縄のシェアハウス「
 [ギークハウス沖縄](http://text.geeoki.com/post/112124574627/%E8%A7%A3%E6%95%A3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F)」が解散
 - 1月: [Nilquebe](http://nilquebe.com/)と共同で[Rails解説セミナー](http://railstutorial.jp/seminars)@神戸を開講
