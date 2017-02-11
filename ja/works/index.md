@@ -44,7 +44,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 12月: 代表の安川が監修した、子ども向けのプログラミング書籍「[CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場](https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517)」が発売されました! 📙
 - 12月: CoderDojo Japan のウェブサイト (coderdojo.jp) を[リニューアル](https://coderdojo.jp/news/2016/12/12/new-backend)しました 🔧
 - 12月: 社員の有志で、[RubyConf Taiwan 2016](https://2016.rubyconf.tw/) に参加しました ✈️  💎 
-- 11月: [神戸ITフェスティバル](http://kobe-it-fes.org/kif2016/)にて「子どもと一緒に作るOSSコミュニティ」を発表
+- 11月: [神戸ITフェスティバル](http://www.city.kobe.lg.jp/information/press/2016/10/20161012041802.html)にて「子どもと一緒に作るOSSコミュニティ」を発表
 - __11月: [Railsチュートリアル (第4版)](https://railstutorial.jp/?version=5.0) と、[計34時間の解説動画](https://railstutorial.jp/seminars#record)をリリースしました!__ 🚀
 - 11月: Railsチュートリアルを題材にした、[Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/52551)を実施しました
 - 10月: 代表の安川がビジュアルプログラミング言語「[Tickle](https://tickleapp.com/)」の Ambassador に着任
