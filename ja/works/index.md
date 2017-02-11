@@ -29,9 +29,25 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 以下，これまでの実績の詳細を箇条書きでまとめております．  
 ご参考になれば幸いです．
 
+### 2017年
+
+- 4月: [技術書典２](https://techbookfest.org/event/tbf02)にてRailsチュートリアル/Railsガイドのブースを出店します
+- 3月: シンガポールで開催される国際カンファレンス [FOSSASIA 2017](http://2017.fossasia.org/) で登壇します
+- 2月: [Ruby Business Users Conference 2017](http://www.rubybusiness-conf.org/) に採択。Rails + CMS について講演します
+- 2月: 名古屋Ruby会議03で「[CoderDojo と Rails CMS](https://speakerdeck.com/yasulab/coderdojo-to-rails-cms)」を発表しました
+- 1月: Co-Edo4周年記念イベントで「📹 [Co-Edo 試聴会のススメ](https://speakerdeck.com/yasulab/co-edo-shi-ting-hui-falsesusume)」を発表しました
+- 1月: RailsチュートリアルやRailsガイドなど各種WebサイトのSSL対応をしました 🔐
+- 1月: CoderDojo Japan の Wiki ページ「[CoderDojo Kata](https://coderdojo.jp/kata)」をリリースしました 📚
 
 ### 2016年
 
+- 12月: 代表の安川が監修した、子ども向けのプログラミング書籍「[CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場](https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517)」が発売されました! 📙
+- 12月: CoderDojo Japan のウェブサイト (coderdojo.jp) を[リニューアル](https://coderdojo.jp/news/2016/12/12/new-backend)しました 🔧
+- 12月: 社員の有志で、[RubyConf Taiwan 2016](https://2016.rubyconf.tw/) に参加しました ✈️  💎 
+- 11月: [神戸ITフェスティバル](http://kobe-it-fes.org/kif2016/)にて「子どもと一緒に作るOSSコミュニティ」を発表
+- __11月: [Railsチュートリアル (第4版)](https://railstutorial.jp/?version=5.0) と、[計34時間の解説動画](https://railstutorial.jp/seminars#record)をリリースしました!__ 🚀
+- 11月: Railsチュートリアルを題材にした、[Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/52551)を実施しました
+- 10月: 代表の安川がビジュアルプログラミング言語「[Tickle](https://tickleapp.com/)」の Ambassador に着任
 - 10月: ベネッセ教育総合研究所の[「まなびのかたち」](http://berd.benesse.jp/special/manabi/manabi_10.php)で弊社の安川が載りました
 - 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) の[翻訳スタッフ](http://rubykaigi.org/2016/team/)として、弊社代表の安川が参加しました 💎 ✨
 - 8月: 弊社の安川が、[一般社団法人 CoderDojo Japan の代表理事](http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)に就任しました
@@ -47,7 +63,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 6月: Rails解説セミナーの[ライブ収録動画 (32時間分)](https://gumroad.com/l/railstutorial_seminars) の販売を開始
 - 5月: [第6期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/41526) を実施
 - 5月: CoEdo.rbで[メタプログラミング研究会](https://coedo-rails.doorkeeper.jp/events/42869)を発足しました ([GitHub](https://github.com/yasslab/ruby-metaprogramming-tokyo/tree/master/quizzes))
-- 4月: 海外向けの新規規事の開発支援を開始
+- 4月: 海外向けの新規規事の開発支援を開始 (〜12月)
 - 4月: Rails-based CMSを開発しているドイツの [Scrivito チームと提携](https://scrivito.com/partners)
 - 4月: 海外のCoderDojo公式サイトにて、[CoderDojo Heroes として紹介](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/)されました
 - 4月: 新しいメンバーを迎え、社員数が4人になりました
