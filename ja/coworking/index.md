@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YassLab – Having a Good Life with OpenSource ;)
+title:  コワーキング×試聴会の提案 – YassLab
 lang:   ja
 ---
 
