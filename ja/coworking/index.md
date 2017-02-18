@@ -4,10 +4,9 @@ title:  YassLab – Having a Good Life with OpenSource ;)
 lang:   ja
 ---
 
-<b><a href="https://speakerdeck.com/yasulab/kowakinkuxshi-ting-hui-falseti-an"><img src="/img/coworking_slides.png" width='100%' alt='Slides' /></a>
-<br /><br />
-スライド詳細: <a href="https://speakerdeck.com/yasulab/kowakinkuxshi-ting-hui-falseti-an">コワーキング×試聴会の提案</a></b>
-<br /><br />
+<script async class="speakerdeck-embed" data-id="a1f6637f449a482794c7c99d1b542ac3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<br />
 
 ## 試聴の仕組み
 
