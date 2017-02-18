@@ -7,3 +7,6 @@ deploy:
     secure: PxeiBvcW1YQ1iuQUZnFQKuRWcPT5aFkZ5z5EPuadYvkhxzTlQdlHuEuJTYY4HlPEVVZdcb6Ie5KrHN1yk9FxHJiyOUd4t+ASdG/wzZfWNkFeC1DvgQizR54jNGbL2WRh9b8pf4G6Nx8nBzVcxvmrdC650JLIkfBkB4rpl6yxhkw=
   app:
     master: yasslab-jp
+notifications:
+  webhooks:
+    - https://idobata.io/hook/travis_ci/ef9a047f-66e6-4471-97db-3e278c70acf8
