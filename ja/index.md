@@ -67,7 +67,7 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター・協賛)
 	- [RubyKaigi](http://rubykaigi.org/) (翻訳スタッフ・協賛)
 	- [Scrivito](https://scrivito.com/partners) (開発協力パートナー)
-	- [未踏社団](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM)
+	- [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM)
 
 詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください.
 
