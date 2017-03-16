@@ -1,13 +1,13 @@
 ---
 layout: default
-title:  コワーキング×試聴会の提案 – YassLab
+title:  Privacy Policy – YassLab
 lang:   ja
 ---
 
 ## Privacy Policy
 
 以下は、YassLab が提供するアプリ「Whistle on Android」のプライバシーポリシーです。   
-何か気になる点があれば、本ページ下部から問い合わせをお願いいたします。
+何か気になる点がありましたら、本ページ下部から問い合わせをお願いいたします。
 
 1. アプリケーション提供者: Yohei Yasukawa (YassLab)
 2. 取得する情報: デバイスの音量情報の取得
@@ -25,6 +25,6 @@ lang:   ja
 メール: _yohei@yasslab.jp_   
 事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
-もしご興味ありましたら、<i>yohei@yasslab.jp</i>または下記のフォームよりご連絡ください。  
+もしご不明な点がありましたら、<i>yohei@yasslab.jp</i>または下記フォームよりご連絡ください。  
 
 <br /><br />
