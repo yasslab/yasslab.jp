@@ -31,13 +31,13 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2017年
 
-- 4月: [技術書典２](https://techbookfest.org/event/tbf02)にてRailsチュートリアル/Railsガイドのブースを出店します
-- 3月: シンガポールで開催される国際カンファレンス [FOSSASIA 2017](http://2017.fossasia.org/) で登壇します
-- 2月: [Ruby Business Users Conference 2017](http://www.rubybusiness-conf.org/) に採択。Rails + CMS について講演します
-- 2月: 名古屋Ruby会議03で「[CoderDojo と Rails CMS](https://speakerdeck.com/yasulab/coderdojo-to-rails-cms)」を発表しました
-- 1月: Co-Edo4周年記念イベントで「📹 [Co-Edo 試聴会のススメ](https://speakerdeck.com/yasulab/co-edo-shi-ting-hui-falsesusume)」を発表しました
-- 1月: RailsチュートリアルやRailsガイドなど各種WebサイトのSSL対応をしました 🔐
-- 1月: CoderDojo Japan の Wiki ページ「[CoderDojo Kata](https://coderdojo.jp/kata)」をリリースしました 📚
+- 4月: [技術書典２](https://techbookfest.org/event/tbf02)にてRailsチュートリアル/Railsガイドのブースを出店
+- 3月: シンガポールで開催される国際カンファレンス [FOSSASIA 2017](http://2017.fossasia.org/) で登壇
+- 2月: [Ruby Business Users Conference 2017](http://www.rubybusiness-conf.org/) に採択。Rails + CMS について講演
+- 2月: 名古屋Ruby会議03で「[CoderDojo と Rails CMS](https://speakerdeck.com/yasulab/coderdojo-to-rails-cms)」を発表
+- 1月: Co-Edo4周年記念イベントで「📹 [Co-Edo 試聴会のススメ](https://speakerdeck.com/yasulab/co-edo-shi-ting-hui-falsesusume)」を発表
+- 1月: RailsチュートリアルやRailsガイドなど各種WebサイトでSSL対応 🔐
+- 1月: CoderDojo Japan の Wiki ページ「[CoderDojo Kata](https://coderdojo.jp/kata)」をリリース 📚
 
 ### 2016年
 
