@@ -9,8 +9,7 @@ lang:   ja
 Ruby/Railsを扱った新規事業の開発支援サービスです。   
 Ruby/Railsに特化して経験を積んだリモートチームが、開発を支援します。
 
-<img src='https://raw.githubusercontent.com/yasslab/yasslab.github.io/master/img/photos/team.jpeg'
-alt='Team Photo' width='100%' />
+<img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
 
 ## 特に慣れているスキル・サービス
 
@@ -27,7 +26,7 @@ alt='Team Photo' width='100%' />
 
 IPAが推奨するアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにした契約をしております。
 
-<a href="https://www.ipa.go.jp/files/000005404.pdf"><img src='https://raw.githubusercontent.com/yasslab/yasslab.github.io/master/img/figures/ipa_agile-model.png'
+<a href="https://www.ipa.go.jp/files/000005404.pdf"><img src="/img/figures/ipa_agile-model.png"
 alt='IPAアジャイル契約モデル案' width='100%' /></a>
 詳細: [https://www.ipa.go.jp/files/000005404.pdf](https://www.ipa.go.jp/files/000005404.pdf)
 
