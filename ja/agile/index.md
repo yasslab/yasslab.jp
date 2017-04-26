@@ -29,7 +29,7 @@ IPAが推奨するアジャイル開発向けのモデル契約 (基本 + 個別
 
 <a href="https://www.ipa.go.jp/files/000005404.pdf"><img src='https://raw.githubusercontent.com/yasslab/yasslab.github.io/master/img/photos/ipa_agile-model.png'
 alt='IPAアジャイル契約モデル案' width='100%' /></a>
-cf. [https://www.ipa.go.jp/files/000005404.pdf](https://www.ipa.go.jp/files/000005404.pdf)
+詳細: [https://www.ipa.go.jp/files/000005404.pdf](https://www.ipa.go.jp/files/000005404.pdf)
 
 この契約の特徴は次の通りです:
 
