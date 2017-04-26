@@ -6,10 +6,12 @@ lang:   ja
 
 # Ruby/Rails の開発支援サービス
 
-Ruby/Railsを扱った新規事業の開発支援サービスです。   
-Ruby/Railsに特化して経験を積んだリモートチームが、開発を支援します。
+Ruby/Rails を扱った新規事業の開発支援サービスです。   
+Ruby/Rails に特化して経験を積んだチームが、開発をサポートします。
 
 <img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
+
+<br />
 
 ## 特に慣れているスキル・サービス
 
@@ -27,7 +29,7 @@ IPAが推奨するアジャイル開発向けのモデル契約 (基本 + 個別
 
 <a href="https://www.ipa.go.jp/files/000005404.pdf"><img src="/img/figures/ipa_agile-model.png"
 alt='IPAアジャイル契約モデル案' width='100%' /></a>
-詳細: [https://www.ipa.go.jp/files/000005404.pdf](https://www.ipa.go.jp/files/000005404.pdf)
+<center>詳細: <a href="https://www.ipa.go.jp/files/000005404.pdf">アジャイル開発向けモデル契約案について</a> (IPA)</center>
 
 この契約の特徴は次の通りです:
 
@@ -35,8 +37,7 @@ alt='IPAアジャイル契約モデル案' width='100%' /></a>
 - 個別契約で１ヶ月〜３ヶ月ごとに更新していきます
 - 準委任契約となり、成果物は作業報告書になります
 
-上記のモデル契約書を具体化した契約書が、次の契約書になります。   
-特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。
+上記のモデル契約書を具体化した契約書が、次の契約書になります。特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。
 
 IPAのモデル契約をベースにした基本/個別契約書 (作成: YassLab)
 [https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a](https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a)
@@ -67,12 +68,12 @@ IPAのモデル契約をベースにした基本/個別契約書 (作成: YassLa
 - Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
 - Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
 
-![YassLab](/img/logo_rect_copy.png)
+![YassLab](/img/logo_rect_copy.png)    
+<br />
 
 ## 問い合わせ
 
-Ruby/Railsアジャイル開発のご依頼・ご相談などについては、    
-下記よりお気軽にお問い合わせください。
+本サービスに関するご依頼・ご相談については、下記よりお問い合わせください。
 
 - メール: _yohei@yasslab.jp_
 - 担当者: 安川 要平 (YassLab代表)
