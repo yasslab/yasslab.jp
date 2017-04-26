@@ -4,12 +4,13 @@ title:  YassLab – アジャイル開発
 lang:   ja
 ---
 
-# Ruby/Rails の開発支援サービス概要 (社外向け資料)
+# Ruby/Rails の開発支援サービス
 
 Ruby/Railsを扱った新規事業の開発支援サービスです。   
 Ruby/Railsに特化して経験を積んだリモートチームが、開発を支援します。
 
-![Team Photo](https://raw.githubusercontent.com/yasslab/yasslab.github.io/master/img/photos/team.jpeg)
+<img src='https://raw.githubusercontent.com/yasslab/yasslab.github.io/master/img/photos/team.jpeg'
+alt='Team Photo' width='100%' />
 
 ## 特に慣れているスキル・サービス
 
@@ -26,8 +27,9 @@ Ruby/Railsに特化して経験を積んだリモートチームが、開発を�
 
 IPAが推奨するアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにした契約をしております。
 
-[![IPAアジャイル契約モデル](https://dl.dropboxusercontent.com/u/2819285/ipa_agile-model.png)](https://www.ipa.go.jp/files/000005404.pdf)
-cf. https://www.ipa.go.jp/files/000005404.pdf
+<a href="https://www.ipa.go.jp/files/000005404.pdf"><img src='https://raw.githubusercontent.com/yasslab/yasslab.github.io/master/img/photos/ipa_agile-model.png'
+alt='IPAアジャイル契約モデル' width='100%' /></a>
+cf. [https://www.ipa.go.jp/files/000005404.pdf](https://www.ipa.go.jp/files/000005404.pdf)
 
 この契約の特徴は次の通りです:
 
@@ -39,7 +41,7 @@ cf. https://www.ipa.go.jp/files/000005404.pdf
 特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。
 
 IPAのモデル契約をベースにした基本/個別契約書 (作成: YassLab)
-https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a
+[https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a](https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a)
 
 
 ## 基本料金: 100万/月〜
@@ -53,7 +55,7 @@ https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a
 
 ## これまでの取引先の例 (敬称略)
 
-- [永和システムマネジメント アジャイル事業部](http://agile.esm.co.jp/) (パートナー会社)
+- [永和システムマネジメント アジャイル事業部](http://agile.esm.co.jp/)
 - [リクルートマーケティングパートナーズ](http://www.recruit-mp.co.jp/)
 - [リクルートホールディングス (Recruit MTL)](https://mtl.recruit.co.jp/)
 - [NTTレゾナント](http://www.nttr.co.jp/)
@@ -61,20 +63,20 @@ https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a
 
 ## 他、参考情報など
 
-- 事業実績: https://yasslab.jp/ja/works/
-- GitHub: https://github.com/yasslab
-- Qiita: https://qiita.com/organizations/yasslab
-- Twitter: https://twitter.com/YassLab
-- Facebook: https://www.facebook.com/yasslab.jp/
+- 事業実績: [https://yasslab.jp/ja/works/](https://yasslab.jp/ja/works/)
+- GitHub: [https://github.com/yasslab](https://github.com/yasslab)
+- Qiita: [https://qiita.com/organizations/yasslab](https://qiita.com/organizations/yasslab)
+- Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
+- Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
 
-[![YassLab Copy](https://dl.dropboxusercontent.com/u/2819285/yasslab_logo_copy.png)](https://yasslab.jp/)
+![YassLab](/img/logo_rect_copy.png)
 
 ## 問い合わせ
 
 Ruby/Railsアジャイル開発のご依頼・ご相談などについては、    
 下記よりお気軽にお問い合わせください。
 
-- メール: _yohei@yasslab.jp _
+- メール: _yohei@yasslab.jp_
 - 担当者: 安川 要平 (YassLab代表)
 - 事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
