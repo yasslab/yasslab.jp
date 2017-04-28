@@ -8,9 +8,11 @@ lang:   ja
 
 YassLab では，東京と沖縄を拠点にして，次の3つの事業を展開しています．
 
-1. Ruby/Railsのアジャイル開発
-2. 教育事業および教材制作
-3. 自社製品の研究開発
+1. Ruby/Railsの新規事業開発支援
+2. 技術書籍の翻訳・組版・出版
+3. 差分翻訳システムの研究開発
+
+<img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
 
 <br />
 

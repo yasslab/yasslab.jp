@@ -9,9 +9,11 @@ lang:   en
 
 We are doing our business in the following domains:
 
-1. Agile Web Development with Ruby/Rails
-2. Education and Creation of Teaching Materials
-3. Research and Development to support our works
+1. Support Agile Web Development with Ruby/Rails
+2. Translate, edit, and publish Tech Documents
+3. R&D of [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
+
+<img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
 
 <br />
 
