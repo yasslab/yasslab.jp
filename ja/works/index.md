@@ -31,6 +31,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2017年
 
+- 5月: [Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/59059) (GW 5日間集中セミナー) を実施しました
 - 4月: [産業技術大学院大学](http://aiit.ac.jp/master_program/isa/lecture/#t03)にてRailsチュートリアルを使った講義が開講しました
 - 4月: [技術書典２](https://techbookfest.org/event/tbf02)にてRailsチュートリアル/Railsガイドのブースを出店
 - 3月: シンガポールで開催される国際カンファレンス [FOSSASIA 2017](http://2017.fossasia.org/) で登壇
