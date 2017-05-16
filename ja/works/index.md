@@ -35,6 +35,8 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 4月: [産業技術大学院大学](http://aiit.ac.jp/master_program/isa/lecture/#t03)にてRailsチュートリアルを使った講義が開講しました
 - 4月: ニコニコ超会議の[超技術書典](http://www.chokaigi.jp/2017/booth/cho_gijutsusyoten.html)にてブースを出展しました
 - 4月: [技術書典２](https://techbookfest.org/event/tbf02)にてRailsチュートリアル/Railsガイドのブースを出展
+- 4月: [Railsガイドの電子書籍版 (5.0対応)](https://gumroad.com/l/railsguidesjp_ebook) の販売を開始しました
+- 4月: [Railsチュートリアルの電子書籍版 (5.0対応)](https://gumroad.com/l/railstutorialjp_ebook) の販売を開始しました
 - 3月: シンガポールで開催される国際カンファレンス [FOSSASIA 2017](http://2017.fossasia.org/) で登壇
 - 2月: [Ruby Business Users Conference 2017](http://www.rubybusiness-conf.org/) に採択。Rails + CMS について講演
 - 2月: 名古屋Ruby会議03で「[CoderDojo と Rails CMS](https://speakerdeck.com/yasulab/coderdojo-to-rails-cms)」を発表
