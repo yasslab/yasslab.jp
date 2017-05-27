@@ -22,7 +22,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
-<div id="results"></div>
+<div id="details"></div>
 
 ## 詳細
 
@@ -31,6 +31,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2017年
 
+- 5月: [関西Ruby会議2017](http://regional.rubykaigi.org/kansai2017/)で[CoderDojoを支えるRails CMS](https://speakerdeck.com/yasulab/coderdojo-wozhi-eru-rails-cms-falsehuo-yong-shi-li)について講演しました
 - 5月: [Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/59059) (GW 5日間集中セミナー) を実施しました
 - 4月: [産業技術大学院大学](http://aiit.ac.jp/master_program/isa/lecture/#t03)にてRailsチュートリアルを使った講義が開講しました
 - 4月: ニコニコ超会議の[超技術書典](http://www.chokaigi.jp/2017/booth/cho_gijutsusyoten.html)にてブースを出展しました
