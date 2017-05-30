@@ -1,10 +1,10 @@
 permalink: /:title
 author:
-  name:  YassLab & Co.
+  name:  YassLab
   email: yohei@yasslab.jp
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yasslab.jp" # the base hostname & protocol for your site
+url: "https://yasslab.jp" # the base hostname & protocol for your site
 twitter_username: yasslab
 github_username:  yasslab
 source:      ./
@@ -25,3 +25,6 @@ exclude:
   - app.json
   - test
   - spec
+
+sass:
+  sass_dir: _sass
