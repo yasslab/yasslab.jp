@@ -3,7 +3,7 @@
 Website for YassLab
 =====================
 
-This repository includes source code to build a website of [YassLab](https://yasslab.jp).
+This repository includes source code to build [YassLab](https://yasslab.jp)'s website.
 
 YassLab   
 Distributed Company that Works Remotely, focusing on   
@@ -14,7 +14,7 @@ https://yasslab.jp/
 
 The MIT License (MIT)
 
-Copyright &copy; 2014-2016 [YassLab](https://yasslab.jp)
+Copyright &copy; 2012-2017 [YassLab](https://yasslab.jp)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
