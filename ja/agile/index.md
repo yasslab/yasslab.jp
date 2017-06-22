@@ -68,7 +68,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 	- [Ruby on Rails Tutorial by Michael Hartl](https://www.railstutorial.org/) (米国)
 	- [Learn Enough to Be Dangerous](https://www.learnenough.com/) (米国)
 	- [Scrivito: The Professional Cloud-Based Rails CMS](https://scrivito.com/partners) (ドイツ)
-	- [Ticle: Programming re-imagined for the connected world](https://tickleapp.com/ambassador/) (台湾)
+	- [Tickle: Programming re-imagined for the connected world](https://tickleapp.com/ambassador/) (台湾)
 
 ## 自社プロダクト
 
