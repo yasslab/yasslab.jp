@@ -51,13 +51,14 @@ IPAのモデル契約をベースにした基本/個別契約書 (作成: YassLa
 	- 価格は基本料金 (5日/週) を基準として算出します
 - リモートでの開発支援を行っており、常駐はできません
 	- オンラインでの定例ミーティングを推奨しております
-	- あらかじめご了承していただけると大変幸いです
+	- あらかじめご了承していただけると幸いです
 
 ## これまでの取引先の例 (敬称略)
 
-- [永和システムマネジメント アジャイル事業部](http://agile.esm.co.jp/)
+- [永和システムマネジメント アジャイル事業部](http://agile.esm.co.jp/) (開発パートナー)
+- [Scrivito: The Professional Cloud-Based Rails CMS](https://scrivito.com/partners) (開発パートナー)
 - [リクルートマーケティングパートナーズ](http://www.recruit-mp.co.jp/)
-- [リクルートホールディングス (Recruit MTL)](https://mtl.recruit.co.jp/)
+- [リクルートホールディングス (Media Technology Lab)](https://mtl.recruit.co.jp/)
 - [NTTレゾナント](http://www.nttr.co.jp/)
 - [Speee](http://speee.jp/)
 
@@ -74,6 +75,10 @@ IPAのモデル契約をベースにした基本/個別契約書 (作成: YassLa
 - Qiita: [https://qiita.com/organizations/yasslab](https://qiita.com/organizations/yasslab)
 - Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
 - Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
+- 参加団体: 
+    - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
+    - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
+	- [RubyKaigi](http://rubykaigi.org/) (翻訳スタッフ)
 
 ![YassLab](/img/logo_rect_copy.png)    
 <br />

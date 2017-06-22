@@ -27,11 +27,11 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 
 - 自社サービス/アプリ
    - [継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs): 技術文書に特化した翻訳の自動化システム ([発表動画](https://www.youtube.com/watch?v=7cqOJtL5Fvc))
+   - [Ruby on Railsガイド](https://railsguides.jp): 体系的にRailsを学ぼう
+   - [Ruby on Railsチュートリアル](https://railstutorial.jp): 実例を使ってRailsを学ぼう
    - [Snapwhim](http://www.snapwhim.com/): PBL (プロジェクト型学習) の支援ツール
    - [ScreenX TV](http://screenx.tv/): リアルタイム端末配信サービス
    - [ホイッスル on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle): 震災対策アプリ
-   - [Ruby on Railsガイド](https://railsguides.jp): 体系的にRailsを学ぼう
-   - [Ruby on Railsチュートリアル](https://railstutorial.jp): 実例を使ってRailsを学ぼう
 
 - 講義・ワークショップ
    - [フレームワーク開発特論](http://aiit.ac.jp/master_program/isa/lecture/pdf/h29/3_2.pdf) @ 産業技術大学院大学
@@ -41,11 +41,10 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
    - [レキサスアカデミー](http://academy.lexues.co.jp/): 沖縄型若年層向け高度IT人材育成事業
    - [1.5時間で学ぶ Scratch & Raspberry Pi ワークショップ](/ja/workshops/raspi)
    - [スクラッチでピタゴラ装置を作ろう!](http://pegpeg.jp/tool/2014/09/09/686)
-- OSSコミュニティ活動
+- コミュニティ活動
    - [Okinawa.rb](http://ruby.okinawa/): 沖縄Rubyユーザグループ
-   - [下北沢オープンソースCafe](http://www.osscafe.net/): 図書館のあるコワーキングカフェ
    - [CoderDojo Japan](https://coderdojo.jp/): 子供のためのプログラミング道場 (非営利)
-   - [未踏ジュニア](http://jr.mitou.org/): 17歳以下を対象とした、ミニ未踏事業
+   - [未踏ジュニア](http://jr.mitou.org/): 小中高生向けミニ未踏事業
 
 詳細は[事業実績](/ja/works#details)をご参照ください.
 
@@ -70,7 +69,7 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
     - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
     - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
 	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター・協賛)
-	- [RubyKaigi](http://rubykaigi.org/) (翻訳スタッフ・協賛)
+	- [RubyKaigi](http://rubykaigi.org/) (翻訳スタッフ)
 	- [Scrivito](https://scrivito.com/partners) (開発協力パートナー)
 	- [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM)
 
