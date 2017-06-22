@@ -6,8 +6,8 @@ lang:   ja
 
 # Ruby/Rails の開発支援サービス
 
-Ruby/Rails を扱った新規事業の開発支援サービスです。   
-Ruby/Rails に特化して経験を積んだチームが、開発をサポートします。
+Ruby/Rails を扱っているプロジェクトの開発支援サービスです。   
+Ruby/Rails の経験豊富なチームで、御社の開発をサポートします。
 
 <img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
 
