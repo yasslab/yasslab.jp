@@ -73,7 +73,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 ## 自社プロダクト
 
 - [Ruby on Rails チュートリアル](https://railstutorial.jp/)
-- [Ruby on Rails ガイド](http://railsguides.jp/) ([GitHub](https://github.com/yasslab/railsguides.jp/issues))
+- [Ruby on Rails ガイド](http://railsguides.jp/) ([GitHub](https://github.com/yasslab/railsguides.jp))
 - [継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
 
 ## 他、参考情報
