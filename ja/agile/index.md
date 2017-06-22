@@ -43,14 +43,15 @@ IPAのモデル契約をベースにした基本/個別契約書 (作成: YassLa
 [https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a](https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a)
 
 
-## 基本料金: 100万/月〜
+## 基本料金: 100万/月 (応相談)
 
 - 対応可能時間: 10:00〜19:00
 	- 休憩1時間、作業報告書の執筆時間なども含まれます
 - 1日/週、3日/週などに按分して対応することは可能です
-	- 価格は、基本料金 (5日/週) を基準として算出します
-- 常駐はお断りしております。あらかじめご了承ください
+	- 価格は基本料金 (5日/週) を基準として算出します
+- リモートでの開発支援を行っており、常駐はできません
 	- オンラインでの定例ミーティングを推奨しております
+	- あらかじめご了承していただけると大変幸いです
 
 ## これまでの取引先の例 (敬称略)
 
@@ -59,6 +60,12 @@ IPAのモデル契約をベースにした基本/個別契約書 (作成: YassLa
 - [リクルートホールディングス (Recruit MTL)](https://mtl.recruit.co.jp/)
 - [NTTレゾナント](http://www.nttr.co.jp/)
 - [Speee](http://speee.jp/)
+
+## 自社プロダクト
+
+- [Ruby on Rails チュートリアル](https://railstutorial.jp/)
+- [Ruby on Rails ガイド](http://railsguides.jp/) ([GitHub](https://github.com/yasslab/railsguides.jp/issues))
+- [継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
 
 ## 他、参考情報など
 
