@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YassLab | We support Rails Web Development, Education, and OpenSource Communities in Japan.
+title:  YassLab - Having a Good Life with OpenSource ;)
 lang:   en
 ---
 

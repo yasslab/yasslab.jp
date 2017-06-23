@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YassLab – 事業実績
+title:  事業実績 – YassLab
 lang:   ja
 ---
 
