@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YassLab – Having a Good Life with OpenSource ;)
+title:  Ruby/Rails 開発支援サービス – YassLab 
 lang:   ja
 ---
 
