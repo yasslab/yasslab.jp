@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YassLab – アジャイル開発
+title:  Ruby/Rails 開発支援サービス – YassLab
 lang:   ja
 ---
 
