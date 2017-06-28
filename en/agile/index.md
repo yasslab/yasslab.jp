@@ -30,7 +30,7 @@ We are familiar with backend technologies, especially Ruby and Rails, but also w
 
 We recommend to have a short-term contract first, and renew it if you think we provide value with your project.
 
-To embody the contract style above, we generall sign two contract, Basic and Order, which includes:
+To embody the contract style above, we generally sign two contract, Basic and Order, which includes:
 
 - Basic contract clarifies NDA, delegating rights of our code, etc.
 - Order contract clarifies how many months we support to develop
