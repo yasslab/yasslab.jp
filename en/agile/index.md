@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Ruby/Rails Web Development – YassLab
+title:  Ruby/Rails Web Development Support – YassLab
 lang:   en
 ---
 
