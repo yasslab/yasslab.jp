@@ -9,6 +9,8 @@ lang:   ja
 Ruby/Rails を扱っているプロジェクトの開発支援サービスです。   
 Ruby/Rails の経験豊富なチームで、御社の開発をサポートします。
 
+_See this in English? [Here](/en/agile/) ;)_
+
 <img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
 
 <br />
