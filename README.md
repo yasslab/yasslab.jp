@@ -10,6 +10,10 @@ Distributed Company that Works Remotely, focusing on
 Ruby/Rails Web Development, Education, and OpenSource.   
 https://yasslab.jp/
 
+## About ICON
+
+The icons used in the website are created by [Font Awesome](http://fontawesome.io/), licensed under SIL OFL 1.1.
+
 ## License
 
 The MIT License (MIT)
