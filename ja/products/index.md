@@ -6,6 +6,8 @@ lang:   ja
 
 # 弊社にご興味のある皆さんへ
 
+<img src="https://yasslab.jp/img/logo-and-photo.png" alt="YassLab Logo & Photo" width="100%" />
+
 転職中の方や、バイト・フリーランスとして弊社をご検討していただいている方向けの情報です。
 
 例えば、次のような方々に向けて社内の情報をまとめています。
@@ -18,7 +20,8 @@ lang:   ja
 
 # YassLab の事業概要
 
-<a href="https://yasslab.jp/ja/works/"><img src="https://yasslab.jp/img/logo-and-photo.png" alt="YassLab Logo & Photo" width="100%" /></a>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+※ 見れない場合は[コチラ](http://www.slideshare.net/yasulab/works-of-yasslab)へ。
 
 詳細: [https://yasslab.jp/ja/works/](https://yasslab.jp/ja/works/)
 
