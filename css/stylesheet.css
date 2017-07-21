@@ -488,12 +488,12 @@ table, td, th {
     background: #ffffff;
 }
 
-h2 a {
+h2 a.anchor {
     text-decoration: none;
     color: black;
 }
 
-h2 a:hover, h2 a:focus {
+h2 a:hover.anchor, h2 a:focus.anchor {
     text-decoration: none;
     color: black;
 }
