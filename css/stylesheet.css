@@ -471,6 +471,24 @@ Small Device Styles
  Custom CSS
 *************/
 
+.snsb {
+    overflow: hidden;
+    clear: left;
+    margin-left: 13px;
+}
+.snsb li {
+    float: left;
+    margin-right: 4px;
+    list-style-type: none;
+}
+.snsb iframe {
+    margin: 0 !important;
+}
+
+.fb_iframe_widget > span {
+  vertical-align: baseline !important;
+}
+
 .tos ol {
     width: 100%;
 
