@@ -487,3 +487,13 @@ table, td, th {
     border: 1px #dddddd solid;
     background: #ffffff;
 }
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 a:hover, h2 a:focus {
+    text-decoration: none;
+    color: black;
+}
