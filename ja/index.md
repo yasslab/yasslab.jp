@@ -45,7 +45,7 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
    - [Okinawa.rb](http://ruby.okinawa/): 沖縄Rubyユーザグループ
    - [CoderDojo Japan](https://coderdojo.jp/): 子供のためのプログラミング道場 (非営利)
    - [未踏ジュニア](http://jr.mitou.org/): 小中高生向けミニ未踏事業
-   - [Doorkeeperスポンサーシップ](http://doorkeeper.yasslab.jp/): OSSコミュニティ支援
+   - [Doorkeeperスポンサーシップ](https://yasslab.jp/ja/doorkeeper/): OSSコミュニティ支援
 
 詳細は[事業実績](/ja/works#details)をご参照ください.
 
