@@ -476,6 +476,17 @@ Small Device Styles
  Custom CSS
 *************/
 
+ol {
+    width: 100%;
+
+}
+ 
+li {
+    margin-bottom: 10px;
+    padding-left:   1em;
+    text-indent:   -1em;
+}
+ 
 table, td, th {
     text-align: center;
     border: 1px #dddddd solid;
