@@ -472,3 +472,12 @@ Small Device Styles
 }
 
 
+/*************
+ Custom CSS
+*************/
+
+table, td, th {
+    text-align: center;
+    border: 1px #dddddd solid;
+    background: #ffffff;
+}
