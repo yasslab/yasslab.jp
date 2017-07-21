@@ -67,8 +67,9 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 - 代表: 安川 要平
 - 屋号: YassLab
 - 参加団体: 
-    - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
     - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
+    - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
+	- [OSS Gate](https://oss-gate.github.io/) (スポンサー)
 	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター・協賛)
 	- [RubyKaigi](http://rubykaigi.org/) (翻訳スタッフ)
 	- [Scrivito](https://scrivito.com/partners) (開発協力パートナー)
