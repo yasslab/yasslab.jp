@@ -88,7 +88,8 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 	- [Scrivito: The Professional Cloud-Based Rails CMS](https://scrivito.com/partners) (ドイツ)
 	- [Tickle: Programming re-imagined for the connected world](https://tickleapp.com/ambassador/) (台湾)
 
-過去の開発実績・事業実績については
+より詳しい実績については、[事業実績の詳細ページ](http://localhost:4000/ja/works/#achievements)をご参照ください。
+
 <br />
 
 
