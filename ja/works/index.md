@@ -24,12 +24,12 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 <div id="details"></div>
 
-## 詳細
+## 詳細 {#achievements}
 
 以下，これまでの実績の詳細を箇条書きでまとめております．  
 ご参考になれば幸いです．
 
-### 2017年
+### 2017年 {#achievements-2017}
 
 - 5月: [関西Ruby会議2017](http://regional.rubykaigi.org/kansai2017/)で[CoderDojoを支えるRails CMS](https://speakerdeck.com/yasulab/coderdojo-wozhi-eru-rails-cms-falsehuo-yong-shi-li)について講演しました
 - 5月: [Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/59059) (GW 5日間集中セミナー) を実施しました
@@ -46,7 +46,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 1月: RailsチュートリアルやRailsガイドなど各種WebサイトでSSL対応 🔐
 - 1月: CoderDojo Japan の Wiki ページ「[CoderDojo Kata](https://coderdojo.jp/kata)」をリリース 📚
 
-### 2016年
+### 2016年 {#achievements-2016}
 
 - 12月: 代表の安川が監修した、子ども向けのプログラミング書籍「[CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場](https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517)」が発売されました! 📙
 - 12月: CoderDojo Japan のウェブサイト (coderdojo.jp) を[リニューアル](https://coderdojo.jp/news/2016/12/12/new-backend)しました 🔧
@@ -82,7 +82,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 1月: 建築系新規事業の開発をサポートしました (〜3月)
 
 
-### 2015年
+### 2015年 {#achievements-2015}
 
 - 12月: まつもとゆきひろ氏の基調講演で [Ruby に貢献する企業として紹介](https://youtu.be/E9bO1uqs4Oc?t=3904)
 - 12月: Rubyの開発を支援するため，[RubyCI に Mac mini (El Capitan) を提供](https://twitter.com/yasulab/status/673444256279736320)しました
@@ -107,7 +107,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 1月: [Nilquebe](http://nilquebe.com/)と共同で[Rails解説セミナー](http://railstutorial.jp/seminars)@神戸を開講
 
 
-### 2014年
+### 2014年 {#achievements-2014}
 
 - 12月: (株)ネクスウェイよりパートナーMVP賞を受賞
 - 12月: 動画でRailsが学べる「[Railsスクリーンキャスト](http://railstutorial.jp/screencasts)」を公開
@@ -122,7 +122,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 2月: 第6回フクオカRuby大賞にて[優秀賞を受賞](http://www.digitalfukuoka.jp/events/21?locale=ja)
 
 
-### 2013年
+### 2013年 {#achievements-2013}
 
 - 12月: 子供向け学習支援コンテンツのタブレット端末対応変換器の開発
 - 11月: 達人出版会より[Ruby on Rails チュートリアルの電書籍版](http://tatsu-zine.com/books/railstutorial)を出版
@@ -137,7 +137,8 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
   - テスト環境の整備および高速化
   - 他，統合テストのサポート，Ruby/CoffeeScriptなどのコーディング作法の指導等
 
-### 2012年
+
+### 2012年 {#achievements-2012}
 
 - IPA 未踏人材育成事業: [思いを叶える視覚駆動バケットリストの開発](http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html)
   - 代表の安川が，未踏スーパークリエイタに認定される
@@ -146,7 +147,8 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - シリコンバレー (Belmont, California) でシェアオフィスを立ち上げる
 - 他，CMSを使ったECサイトの構築，ソーシャルiOSアプリの開発など
 
-### 2011年
+
+### 2011年 {#achievements-2011}
 
 - 沖縄型若年層向けIT高度人材育成事業 ([レキサスアカデミー](http://academy.lexues.co.jp/)) の立ち上げに参画
   - [週末ものづくり講座](https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1)が同事業のカリキュラムに採用される
@@ -156,7 +158,7 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 - 震災の直後に震災対策アプリ ([ホイッスル on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en))を開発・公開
   - 30万ダウンロードを達成
 
-### 2010年度より過去の活動について.
+### 2010年度より過去の活動について {#achievements-2010}
 
 - 2010年度より過去の活動については，[Wantedly](https://www.wantedly.com/users/11695)または[受賞歴まとめ](https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&type=1&l=76c883b04a)をご参照下さい. 
 

@@ -88,6 +88,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 	- [Scrivito: The Professional Cloud-Based Rails CMS](https://scrivito.com/partners) (ドイツ)
 	- [Tickle: Programming re-imagined for the connected world](https://tickleapp.com/ambassador/) (台湾)
 
+過去の開発実績・事業実績については
 <br />
 
 
@@ -109,7 +110,6 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 <a class="anchor" href="#references" aria-hidden="true">
 <span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d1.png">📑</g-emoji> 他、参考情報</a></h2>
 
-- 事業実績: [https://yasslab.jp/ja/works/](https://yasslab.jp/ja/works/)
 - Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
 - Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
 - 参加団体: 
