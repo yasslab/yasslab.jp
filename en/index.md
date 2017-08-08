@@ -5,7 +5,7 @@ lang:   en
 ---
 
 
-## Our Business
+## Our Business {#top}
 
 We are doing our business in the following domains:
 
@@ -17,14 +17,14 @@ We are doing our business in the following domains:
 
 <br />
 
-## Summary of Works
+## Summary of Works {#summary}
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/cEwD6bvg84VeWA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 (NOTE: Please jump to [SlideShare's page](http://www.slideshare.net/yasulab/works-of-yasslab) if you cannot see the slides above.)
 
 <br />
 
-## News
+## News {#news}
 
 - Become a official partner of the professional cloud-based Rails CMS, [Scrivito](https://scrivito.com/partners)
 - Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
@@ -34,7 +34,7 @@ We are doing our business in the following domains:
 
 <br />
 
-## Main Works and Contribution
+## Main Works and Contribution {#works}
 
 - Web Services and Mobile Applications:
    - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs), Automate Translating Frequently-updated Tech Docs.
@@ -57,7 +57,7 @@ We are doing our business in the following domains:
 
 <br />
 
-## About us
+## About us {#about}
 
 We're mainly working on Ruby/Rails web development, education, and open-source activities. 
 We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Appear, Idobata, etc.
@@ -78,7 +78,7 @@ SNS:
 [Facebook](https://facebook.com/yasulab/), 
 [LinkedIn](https://www.linkedin.com/in/yasulab).
 
-### Achievements
+### Achievements {#achievements}
 
 Not only such businesses, but also his company contributes to opensource communities by
 founding and organizing [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01),
@@ -92,7 +92,7 @@ and awarded [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news
 
 Since 2015, in order to bridge the knowledge of teaching kids to code between Japan and the world, he also works as a [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) at [CoderDojo](http://coderdojo.com/), the global network of free computer programming clubs for young people. For the future, his company is developing [continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs) that translates documents in real time using Git and Translation Memory technique. Its outcomes include [Japanese Rails Tutorial](http://railstutorial.jp) and [Rails Guides in Japanese](http://railsguides.jp/).
 
-### Company Profile
+### Company Profile {#company}
 
 ![YassLab](/img/logo_rect_copy.png)
 

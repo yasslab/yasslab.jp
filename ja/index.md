@@ -16,7 +16,7 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 
 <br />
 
-### 実績 {#works}
+### 実績 {#summary}
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 ※ 見れない場合は[コチラ](http://www.slideshare.net/yasulab/works-of-yasslab)へ.
