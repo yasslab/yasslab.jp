@@ -120,6 +120,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 	- [RubyKaigi](http://rubykaigi.org/) (翻訳スタッフ・協力)
 	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター)
 	- [OSS Gate](https://oss-gate.github.io/) (スポンサー)
+	- [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
 
 ![YassLab](/img/logo_rect_copy.png)    
 <br />
