@@ -4,7 +4,7 @@ title:  YassLab – Having a Good Life with OpenSource ;)
 lang:   ja
 ---
 
-## 事業内容
+## 事業内容 {#top}
 
 YassLab では，東京と沖縄を拠点にして，次の3つの事業を展開しています．
 
@@ -16,14 +16,14 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 
 <br />
 
-### 実績
+### 実績 {#works}
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 ※ 見れない場合は[コチラ](http://www.slideshare.net/yasulab/works-of-yasslab)へ.
 
 <br />
 
-### プロジェクト例
+### プロジェクト例 {#projects}
 
 - 自社サービス/アプリ
    - [継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs): 技術文書に特化した翻訳の自動化システム ([発表動画](https://www.youtube.com/watch?v=7cqOJtL5Fvc))
@@ -51,13 +51,13 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 
 <br />
 
-## 代表
+## 代表 {#profile}
 
 {% include profile.html %}
 
 <br />
 
-## 組織情報
+## 組織情報 {#company}
 
 ![YassLab](/img/logo_rect_copy.png)
 
