@@ -101,6 +101,7 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 - Size:  5 people
 - Date:  Since June 1, 2012
 - Name: YassLab & Co.
+- Legal Advisor: [Tokyo Sanno Law Office](http://www.ynmlaw.com/english/) Rie Nojima
 - Member of: 
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.com/aboutus/) (Technical Adviser)
     - [Business OSS Consortium Japan](http://www.boss-con.jp/railspartner/) (Certified Rails Integrator)

@@ -113,6 +113,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 
 - Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
 - Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
+- 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
 - 参加団体: 
     - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
     - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)

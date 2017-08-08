@@ -72,6 +72,7 @@ Our basic price is **1,000,000 yen/month.**
 - Web: [https://yasslab.jp/en/](https://yasslab.jp/en/)
 - Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
 - Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
+- Legal Advisor: [Tokyo Sanno Law Office](http://www.ynmlaw.com/english/) Rie Nojima
 - Member of: 
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.com/aboutus/) (Technical Adviser)
     - [Business OSS Consortium Japan](http://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
