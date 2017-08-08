@@ -31,13 +31,20 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2017年 {#achievements-2017}
 
-- 5月: [関西Ruby会議2017](http://regional.rubykaigi.org/kansai2017/)で[CoderDojoを支えるRails CMS](https://speakerdeck.com/yasulab/coderdojo-wozhi-eru-rails-cms-falsehuo-yong-shi-li)について講演しました
-- 5月: [Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/59059) (GW 5日間集中セミナー) を実施しました
-- 4月: [産業技術大学院大学](http://aiit.ac.jp/master_program/isa/lecture/#t03)にてRailsチュートリアルを使った講義が開講しました
-- 4月: ニコニコ超会議の[超技術書典](http://www.chokaigi.jp/2017/booth/cho_gijutsusyoten.html)にてブースを出展しました
+- 8月: クラウドサービスの開発支援を開始しました
+- 8月: [東京山王法律事務所](http://www.ynmlaw.com/)の「野島 梨恵」氏が顧問弁護士になりました
+- 8月: Railsチュートリアルの[夏季集中セミナー](https://coedo-rails.doorkeeper.jp/events/62596)を実施
+- 7月: [未踏ジュニア](http://jr.mitou.org/#sponsor)のスポンサー企業になりました
+- 7月: [OSS Gate](https://oss-gate.github.io/) のスポンサー企業になりました
+- 7月: 副業として弊社で働ける制度を整えました (一般非公開)
+- 6月: [Hackers Champloo](http://hackers-champloo.org/2017/) で [Okinawa.rb](http://ruby.okinawa/) の発表をしました
+- 5月: [関西Ruby会議2017](http://regional.rubykaigi.org/kansai2017/)で[CoderDojoを支えるRails CMS](https://speakerdeck.com/yasulab/coderdojo-wozhi-eru-rails-cms-falsehuo-yong-shi-li)について講演
+- 5月: [Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/59059) (GW 5日間集中セミナー) を実施
+- 4月: [産業技術大学院大学](http://aiit.ac.jp/master_program/isa/lecture/#t03)にてRailsチュートリアルを使った講義が開講
+- 4月: ニコニコ超会議の[超技術書典](http://www.chokaigi.jp/2017/booth/cho_gijutsusyoten.html)にてブースを出展
 - 4月: [技術書典２](https://techbookfest.org/event/tbf02)にてRailsチュートリアル/Railsガイドのブースを出展
-- 4月: [Railsガイドの電子書籍版 (5.0対応)](https://gumroad.com/l/railsguidesjp_ebook) の販売を開始しました
-- 4月: [Railsチュートリアルの電子書籍版 (5.0対応)](https://gumroad.com/l/railstutorialjp_ebook) の販売を開始しました
+- 4月: [Railsガイドの電子書籍版 (5.0対応)](https://gumroad.com/l/railsguidesjp_ebook) の販売を開始
+- 4月: [Railsチュートリアルの電子書籍版 (5.0対応)](https://gumroad.com/l/railstutorialjp_ebook) の販売を開始
 - 4月: 新たなエンジニアが弊社にjoinし、社員数が5名になりました
 - 3月: シンガポールで開催される国際カンファレンス [FOSSASIA 2017](http://2017.fossasia.org/) で登壇
 - 2月: [Ruby Business Users Conference 2017](http://www.rubybusiness-conf.org/) に採択。Rails + CMS について講演
@@ -48,28 +55,28 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2016年 {#achievements-2016}
 
-- 12月: 代表の安川が監修した、子ども向けのプログラミング書籍「[CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場](https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517)」が発売されました! 📙
-- 12月: CoderDojo Japan のウェブサイト (coderdojo.jp) を[リニューアル](https://coderdojo.jp/news/2016/12/12/new-backend)しました 🔧
-- 12月: 社員の有志で、[RubyConf Taiwan 2016](https://2016.rubyconf.tw/) に参加しました ✈️  💎 
+- 12月: 代表の安川が監修した、子ども向けのプログラミング書籍「[CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場](https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517)」を刊行 📙
+- 12月: CoderDojo Japan のウェブサイト (coderdojo.jp) を[リニューアル](https://coderdojo.jp/news/2016/12/12/new-backend) 🔧
+- 12月: 社員の有志で、[RubyConf Taiwan 2016](https://2016.rubyconf.tw/) に参加 ✈️  💎 
 - 11月: [神戸ITフェスティバル](http://www.city.kobe.lg.jp/information/press/2016/10/20161012041802.html)にて「子どもと一緒に作るOSSコミュニティ」を発表
-- __11月: [Railsチュートリアル (第4版)](https://railstutorial.jp/?version=5.0) と、[計34時間の解説動画](https://railstutorial.jp/seminars#record)をリリースしました!__ 🚀
-- 11月: Railsチュートリアルを題材にした、[Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/52551)を実施しました
+- __11月: [Railsチュートリアル (第4版)](https://railstutorial.jp/?version=5.0) と、[計34時間の解説動画](https://railstutorial.jp/seminars#record)をリリース__ 🚀
+- 11月: Railsチュートリアルを題材にした、[Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/52551)を実施
 - 10月: 代表の安川がビジュアルプログラミング言語「[Tickle](https://tickleapp.com/)」の Ambassador に着任
 - 10月: ベネッセ教育総合研究所の[「まなびのかたち」](http://berd.benesse.jp/special/manabi/manabi_10.php)で弊社の安川が載りました
-- 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) の[翻訳スタッフ](http://rubykaigi.org/2016/team/)として、弊社代表の安川が参加しました 💎 ✨
-- 8月: 弊社の安川が、[一般社団法人 CoderDojo Japan の代表理事](http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)に就任しました
+- 9月: [RubyKaigi 2016](http://rubykaigi.org/2016) の[翻訳スタッフ](http://rubykaigi.org/2016/team/)として参加 💎 ✨
+- 8月: 弊社の安川が、[一般社団法人 CoderDojo Japan の代表理事](http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)に就任
 - 8月: 教育xOSSを軸としたカンファレンス「[DojoCon Japan](http://dojocon.coderdojo.jp/)」を開催サポート
 - 8月: 「日経Kids+ 親子で始めるプログラミング」で [CoderDojo が紹介されました](https://www.facebook.com/yasulab/posts/10153783123520869?pnref=story)
-- 8月: [Doorkeeperスポンサーシップ](https://github.com/yasslab/doorkeeper_sponsorship)の資料を CC BY-SA で公開
+- 8月: [Doorkeeperスポンサーシップ](/ja/doorkeeper/)の資料を CC BY-SA で公開
 - 8月: [大阪電気通信大学と提携](http://www.osakac.ac.jp/news/2016/922)し、Railsチュートリアルの動画教材を提供
 - 8月: [筑波大学のenPiT](http://www.cs.tsukuba.ac.jp/enPiT/)に対して、Railsチュートリアルの[動画教材を提供](https://www.evernote.com/shard/s18/sh/a68df4c8-689b-4f69-9d79-af868564134b/6195074c6ec4aaf2129d39e3b3a15ee5)
-- 7月: 主婦・ママ向けメディア「4yuuu!」から[インタビュー記事が公開](https://4yuuu.com/articles/view/473532)されました
+- 7月: 主婦・ママ向けメディア「4yuuu!」から[インタビュー記事に掲載](https://4yuuu.com/articles/view/473532)
 - 7月: [第7期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/47309)を実施
 - 7月: 教育機関向けの新規事業の開発支援を開始
 - 6月: 代表の安川がPMを務める[未踏ジュニア](http://jr.mitou.org/)が開始
 - 6月: Rails解説セミナーの[ライブ収録動画 (32時間分)](https://gumroad.com/l/railstutorial_seminars) の販売を開始
 - 5月: [第6期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/41526) を実施
-- 5月: CoEdo.rbで[メタプログラミング研究会](https://coedo-rails.doorkeeper.jp/events/42869)を発足しました ([GitHub](https://github.com/yasslab/ruby-metaprogramming-tokyo/tree/master/quizzes))
+- 5月: CoEdo.rbで[メタプログラミング研究会](https://coedo-rails.doorkeeper.jp/events/42869)を発足 ([GitHub](https://github.com/yasslab/ruby-metaprogramming-tokyo/tree/master/quizzes))
 - 4月: 海外向けの新規規事の開発支援を開始 (〜12月)
 - 4月: Rails-based CMSを開発しているドイツの [Scrivito チームと提携](https://scrivito.com/partners)
 - 4月: 海外のCoderDojo公式サイトにて、[CoderDojo Heroes として紹介](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/)されました
