@@ -64,8 +64,8 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 - 組織体: 給与支払事務所
 - 社員数: 5人
 - 創業日: 2012年6月1日
-- 代表: 安川 要平
 - 屋号: YassLab
+- 代表: 安川 要平
 - 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
 - 参加団体: 
     - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
