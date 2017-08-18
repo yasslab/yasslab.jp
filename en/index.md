@@ -9,7 +9,7 @@ lang:   en
 
 We are doing our business in the following domains:
 
-1. Support Agile Web Development with Ruby/Rails
+1. [**Support Agile Web Development with Ruby/Rails**](/en/agile/)
 2. Translate, Compose, and Publish Tech Documents
 3. Research and Develop [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
 
