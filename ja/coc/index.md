@@ -11,15 +11,15 @@ YassLab 代表　安川要平<br />
 最終更新日: 2017/09/03
 </div>
 
-本規範は、別段の定めがある場合を除き、YassLab 社が [GitHub Organization](https://github.com/yasslab) 上から公開しているあらゆるリポジトリに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。本規範の変更履歴は [GitHub](https://github.com/yasslab/yasslab.github.io/commits/master/en/coc/index.md) からご確認できます。
+本規範は、別段の定めがある場合を除き、YassLab 社 (以下、当社) が [GitHub Organization](https://github.com/yasslab) 上から公開しているあらゆるリポジトリに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。本規範の変更履歴は [GitHub](https://github.com/yasslab/yasslab.github.io/commits/master/en/coc/index.md) からご確認できます。
 
 内容について気になる点などありましたら、本ページ下部にある[フォーム](#contact)よりお問い合わせください。
 
-## 私たちの約束
+## 約束
 
-私たちはオープンかつ友好的なコミュニティーを育成するために、コントリビューターやメンテナーとして、年齢、体型、障碍、民族性、性自認および性別表現、経験レベル、国籍、個人の容姿、人種、信仰、性的同一性および指向に関わりなく、私たちのプロジェクトやコミュニティーへの参加を誰にとっても嫌がらせのない体験にすることを誓います。
+当社はオープンかつ友好的なコミュニティーを育成するために、コントリビューターやメンテナーとして、年齢、体型、障碍、民族性、性自認および性別表現、経験レベル、国籍、個人の容姿、人種、信仰、性的同一性および指向に関わりなく、当社のプロジェクトやコミュニティーへの参加を誰にとっても嫌がらせのない体験にすることを誓います。
 
-## 私たちの標準
+## 標準
 
 前向きな環境を作り上げることに貢献する振る舞いの例：
 
@@ -37,7 +37,7 @@ YassLab 代表　安川要平<br />
 * 住所、メールアドレスなど、他者のプライベート情報の明示的な許可なき公開
 * 職場において合理的に不適切であると考えられる他の行為
 
-## 私たちの責任
+## 責任
 
 プロジェクトのメンテナーは、許容できる行動の基準を明確にすることに責任があります。また、何かしらの許容できない行動に対応する、適切かつ公平な是正処置をとることが期待されています。
 
@@ -57,7 +57,7 @@ YassLab 代表　安川要平<br />
 
 この行動規範は
 [https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct/) にある
-[Contributor Covenant][homepage] バージョン 1.4 に適合しています。
+[Contributor Covenant][homepage] バージョン 1.4 を参考に作成されました。
 
 [homepage]: https://www.contributor-covenant.org
 
