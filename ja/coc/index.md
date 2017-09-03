@@ -11,7 +11,11 @@ YassLab 代表　安川要平<br />
 最終更新日: 2017/09/03
 </div>
 
-本規範は、別段の定めがある場合を除き、YassLab 社が [GitHub](https://github.com/yasslab) 上から公開しているあらゆるコードに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。内容について気になる点などありましたら、本ページ下部にある[フォーム](#contact)よりお問い合わせください。
+本規範は、別段の定めがある場合を除き、YassLab 社が [GitHub](https://github.com/yasslab) 上から公開しているあらゆるコードに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。本規約の変更履歴は、下記URLよりご確認できます。
+
+[https://github.com/yasslab/yasslab.github.io/commits/master/en/coc/index.md](https://github.com/yasslab/yasslab.github.io/commits/master/en/coc/index.md)
+
+内容について気になる点などありましたら、本ページ下部にある[フォーム](#contact)よりお問い合わせください。
 
 ## 私たちの約束
 

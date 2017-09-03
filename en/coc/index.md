@@ -11,7 +11,12 @@ Yohei Yasukawa, YassLab CEO <br />
 Updated: 2017/09/03
 </div>
 
-This conduct is applied to all repositories published from [GitHub organization of YassLab](https://github.com/yasslab), except that we put another conduct. This conduct can be updated if necessary, and we will notify it from this page. If you have any question on this conduct, feel free to ask us via the [form](#contact) on the bottom of this page.
+This conduct is applied to all repositories published from [GitHub organization of YassLab](https://github.com/yasslab), except that we put another conduct. This conduct can be updated if necessary, and we will notify it from this page. You can check the change history from the following URL.
+
+[https://github.com/yasslab/yasslab.github.io/commits/master/en/coc/index.md](https://github.com/yasslab/yasslab.github.io/commits/master/en/coc/index.md)
+
+
+If you have any question on this conduct, feel free to ask us via the [form](#contact) on the bottom of this page.
 
 ## Our Pledge
 
