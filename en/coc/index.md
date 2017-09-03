@@ -1,14 +1,15 @@
 ---
 layout: default
-title:  Contributor Covenant Code of Conduct – YassLab
+title:  Contributor Code of Conduct – YassLab
 lang:   en
 ---
 
-# Contributor Covenant Code of Conduct
+# Contributor Code of Conduct
 
 <div align="right">
 Yohei Yasukawa, YassLab CEO <br />
-Updated: 2017/09/03
+Updated: 2017/09/03 <br />
+See <a href="/ja/coc">Japanese version</a>.
 </div>
 
 This conduct is applied to all repositories published from [GitHub organization of YassLab](https://github.com/yasslab), except that we put another conduct. This conduct can be updated if necessary, and we will notify it from this page, and you can check the change history from [GitHub](https://github.com/yasslab/yasslab.github.io/commits/master/en/coc/index.md).

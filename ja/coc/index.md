@@ -8,7 +8,8 @@ lang:   ja
 
 <div align="right">
 YassLab 代表　安川要平<br />
-最終更新日: 2017/09/03
+最終更新日: 2017/09/03<br />
+See <a href="/en/coc">English version</a>.
 </div>
 
 本規範は、別段の定めがある場合を除き、YassLab 社 (以下、当社) が [GitHub Organization](https://github.com/yasslab) 上から公開しているあらゆるリポジトリに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。本規範の変更履歴は [GitHub](https://github.com/yasslab/yasslab.github.io/commits/master/en/coc/index.md) からご確認できます。
