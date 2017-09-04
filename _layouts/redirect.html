@@ -9,8 +9,11 @@
       return undefined;
     }
   }
-   
-  if (getBrowserLanguage().indexOf("ja") != -1) {
+
+  if ("{{ page.redirect_to }}" != ""){
+    location.replace("{{ page.redirect_to }}");
+  }
+  else if (getBrowserLanguage().indexOf("ja") != -1) {
       location.replace("/ja");
   }
   else {
