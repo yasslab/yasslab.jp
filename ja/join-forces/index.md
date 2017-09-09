@@ -8,11 +8,11 @@ lang:   ja
 
 <img src="https://yasslab.jp/img/logo-and-photo.png" alt="YassLab Logo & Photo" width="100%" />
 
-転職中の方や、バイト・フリーランスとして弊社をご検討していただいている方向けの情報です。
+転職中の方や、バイトや複業 (副業) として弊社をご検討していただいている方向けの情報です。
 
 例えば、次のような方々に向けて社内の情報をまとめています。
 
-- 🏢 現在転職/就職活動中、バイト先、案件を探している
+- 🏢 現在転職/就職活動中、バイト先、複業先を探している
 - 🤔 YassLab 社での働き方やプロダクトに興味・関心がある
 - 🔧 YassLab 社を通して、OSSコミュニティに貢献したい
 
@@ -88,6 +88,9 @@ lang:   ja
 - 関連情報: 
 	- [https://yasslab.jp/](https://yasslab.jp/)
 	- [yasslab/yasslab.github.io](https://github.com/yasslab/yasslab.github.io) (OSS)
+
+上記の他にも、多様なOSSプロダクトをGitHub上から公開しております。   
+もしご興味あれば、[GitHubで公開しているリポジトリ](https://github.com/yasslab)もご参照ください。
 
 <br />
 
