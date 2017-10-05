@@ -82,6 +82,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 	- [リクルートホールディングス (Media Technology Lab)](https://mtl.recruit.co.jp/)
 	- [NTTレゾナント](http://www.nttr.co.jp/)
 	- [Speee](http://speee.jp/)
+	- [fpeee](https://www.freee.co.jp/)
 - 海外
 	- [Ruby on Rails Tutorial by Michael Hartl](https://www.railstutorial.org/) (米国)
 	- [Learn Enough to Be Dangerous](https://www.learnenough.com/) (米国)
