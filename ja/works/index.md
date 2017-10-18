@@ -31,7 +31,16 @@ YassLab では，東京と沖縄を拠点として，次の3つの事業を展�
 
 ### 2017年 {#achievements-2017}
 
-- 8月: クラウドサービスの開発支援を開始しました
+- 11月: [Edvation x Summit 2017](http://www.edvationxsummit.jp/) に弊社の安川が登壇します
+- 11月: [DojoCon Japan 2017](https://dojocon2017.coderdojo.jp/) にスポンサーとして協賛しました
+- 10月: [Dive into Code 主催のセミナー](https://diveintocode.doorkeeper.jp/events/65888)で弊社の安川が基調講演をします
+- 10月: 弊社が協賛している[未踏ジュニア](http://jr.mitou.org/)の最終成果報告会が開催されます
+- 10月: [ShareWis との提携](https://www.value-press.com/pressrelease/190639)を発表しました
+- 10月: [Dive into Code との提携](https://prtimes.jp/main/html/rd/p/000000013.000016641.html)を発表しました
+- 10月: [PCNこどもプロコン](http://pcn.club/contest/)で弊社の安川がゲスト審査員を務めました
+- 9月: [RubyKaigi 2017](http://rubykaigi.org/2017) のスライド翻訳チームとして貢献しました
+- 9月: [DojoBudokai 2017](https://www.coderdojo-hiroshima.com/budokai/2017-fall) にて弊社の安川が登壇しました
+- 8月: クラウド会計サービスの開発支援を開始しました
 - 8月: [東京山王法律事務所](http://www.ynmlaw.com/)の「野島 梨恵」氏が顧問弁護士になりました
 - 8月: Railsチュートリアルの[夏季集中セミナー](https://coedo-rails.doorkeeper.jp/events/62596)を実施
 - 7月: [未踏ジュニア](http://jr.mitou.org/#sponsor)のスポンサー企業になりました
