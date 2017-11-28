@@ -2,13 +2,19 @@
 <div id="footer_wrap" class="outer">
   <footer class="inner">
     <p style="color:white;">
+      {% if page.lang == "ja" %}
       <a href="/ja">トップ</a> |
       <a href="/ja/works">事業実績</a> |
       <a href="/ja/agile">開発支援</a> |
       <a href="/ja/coworking">試聴会提携</a> |
       <a href="/ja/doorkeeper">コミュニティ支援</a> |
-      <a href="/ja/privacy">Privacy Policy</a> |      
+      <a href="/ja/privacy">Privacy</a> |
       <a href="/en">English</a>
+      {% else %}
+      <a href="/en">Top</a> |
+      <a href="/en/agile">Ruby/Rails Web Development</a> |
+      <a href="/ja">日本語</a>
+      {% endif %}
     </p>
 
     <p class="fa-icons">
