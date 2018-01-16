@@ -101,9 +101,6 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 - [Ruby on Rails チュートリアル](https://railstutorial.jp/)
 - [Ruby on Rails ガイド](http://railsguides.jp/) ([GitHub](https://github.com/yasslab/railsguides.jp))
 - [継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
-- 各種OSSと投稿記事:
-	- GitHub: [https://github.com/yasslab](https://github.com/yasslab)
-	- Qiita: [https://qiita.com/organizations/yasslab](https://qiita.com/organizations/yasslab)
 
 <br />
 
@@ -112,15 +109,26 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 <a class="anchor" href="#references" aria-hidden="true">
 <span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d1.png">📑</g-emoji> 他、参考情報</a></h2>
 
-- Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
-- Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
+- 会社名: YassLab 株式会社
+- 社員数: 6人 ([複業採用](/ja/join-forces)含む)
+- 創業日: 2012年6月1日 (2018年1月11日 法人成り)
+- 代表: 安川 要平
+- SNS: 
+[GitHub](https://github.com/yasslab) ([人気順](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), 
+[Qiita](http://qiita.com/organizations/yasslab), 
+[Facebook](https://www.facebook.com/yasslab.jp), 
+[Twitter](https://twitter.com/YassLab), 
+[Google+](https://plus.google.com/+YassLab), 
+[Wantedly](https://www.wantedly.com/companies/YassLab)
 - 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
-- 参加団体: 
-    - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
+- パートナー・関連団体: 
     - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
-	- [RubyKaigi](http://rubykaigi.org/) (翻訳スタッフ・協力)
-	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター)
+    - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
 	- [OSS Gate](https://oss-gate.github.io/) (スポンサー)
+	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター・協賛)
+	- [RubyKaigi](http://rubykaigi.org/) (翻訳協力)
+	- [Scrivito](https://scrivito.com/partners) (開発協力)
+    - [CoderDojo Japan](https://coderdojo.jp/) (開発支援)
 	- [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
 
 ![YassLab](/img/logo_rect_copy.png)    
@@ -135,7 +143,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 本サービスに関するご相談は、下記のメールまたはフォームよりお問い合わせください。
 
 - メール: _yohei@yasslab.jp_
-- 担当者: 安川 要平 (YassLab代表)
+- 担当者: 安川 要平
 - 事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
 <br />

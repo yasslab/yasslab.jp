@@ -96,18 +96,19 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 
 ![YassLab](/img/logo_rect_copy.png)
 
-- Style: [Lifestyle Business](https://en.wikipedia.org/wiki/Lifestyle_business)
+- Name: YassLab Inc.
 - Owner: Yohei Yasukawa
 - Size:  6 people (including part-timers)
-- Date:  Since June 1, 2012
-- Name: YassLab & Co.
+- Date:  Since January 11, 2018
 - Legal Advisor: [Tokyo Sanno Law Office](http://www.ynmlaw.com/english/) Rie Nojima
 - Member of: 
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.com/aboutus/) (Technical Adviser)
     - [Business OSS Consortium Japan](http://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
+	- [OSS Gate](https://oss-gate.github.io/) (Sponsor)
 	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (Technical Supporter)
 	- [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
 	- [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
+	- [CoderDojo Japan](https://coderdojo.jp/) (Web Develpment Sponsor)
 	- [Mitou Foundation](http://www.mitou.org/) (Project Manager at [Mitou Jr.](http://jr.mitou.org/))
 
 <br />
