@@ -100,7 +100,10 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 
 - [Ruby on Rails チュートリアル](https://railstutorial.jp/)
 - [Ruby on Rails ガイド](http://railsguides.jp/) ([GitHub](https://github.com/yasslab/railsguides.jp))
-- [継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
+- [CoderDojo Japan](https://coderdojo.jp/) ([GitHub](https://github.com/coderdojo-japan/coderdojo.jp))
+- 他、各種OSSと記事:
+  - [GitHub](https://github.com/yasslab) ([人気順](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults))
+  - [Qiita](http://qiita.com/organizations/yasslab)
 
 <br />
 
@@ -111,14 +114,11 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 
 - 会社名: YassLab 株式会社
 - 社員数: 6人 ([複業採用](/ja/join-forces)含む)
-- 創業日: 2012年6月1日 (2018年1月11日 法人成り)
+- 開業日: 2012年6月1日 (2018年1月11日 法人成り)
 - 代表: 安川 要平
 - SNS: 
-[GitHub](https://github.com/yasslab) ([人気順](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), 
-[Qiita](http://qiita.com/organizations/yasslab), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
-[Google+](https://plus.google.com/+YassLab), 
 [Wantedly](https://www.wantedly.com/companies/YassLab)
 - 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
 - パートナー・関連団体: 
