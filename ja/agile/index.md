@@ -35,7 +35,7 @@ _See this in English? [Here](/en/agile/) ;)_
 <a class="anchor" href="#contract-style" aria-hidden="true">
 <span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> 契約スタイル</a></h2>
 
-IPAが推奨するアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにした契約をしております。
+弊社では、IPAが公開しているアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにしております。
 
 <a href="https://www.ipa.go.jp/files/000005404.pdf"><img src="/img/figures/ipa_agile-model.png"
 alt='IPAアジャイル契約モデル案' width='100%' /></a>
@@ -52,7 +52,7 @@ alt='IPAアジャイル契約モデル案' width='100%' /></a>
 IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab)
 [https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a](https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a)
 
-なお、本スタイルと似ている契約であれば、上記の契約書でなくても問題ありません。
+なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。
 
 <br />
 
