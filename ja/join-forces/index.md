@@ -8,11 +8,11 @@ lang:   ja
 
 <img src="https://yasslab.jp/img/logo-and-photo.png" alt="YassLab Logo & Photo" width="100%" />
 
-転職中の方や、バイトや複業 (副業) として弊社をご検討していただいている方向けの情報です。
+転職中の方や、バイトや複業先として弊社をご検討していただいている方向けの情報です。
 
 例えば、次のような方々に向けて社内の情報をまとめています。
 
-- 🏢 現在転職/就職活動中、バイト先、複業先を探している
+- 🏢 現在転職/就職活動中、インターン先・複業先を探している
 - 🤔 YassLab 社での働き方やプロダクトに興味・関心がある
 - 🔧 YassLab 社を通して、OSSコミュニティに貢献したい
 
@@ -27,31 +27,30 @@ lang:   ja
 
 ## 💁 Ruby/Rails 開発支援サービス
 
-弊社の主力事業です。他社の新規事業の開発をサポートするため、期待される能力がやや高く、弊社での働き方に慣れていない方が関わることは基本的にありません。なお、本事業に関する情報にはアクセスできない仕組みになっているため、複業希望の方は競業避止を気にせずに安心して働くことができます。
+弊社の主力事業です。他社の新規事業の開発をサポートするため、他社の秘密情報にアクセスする必要があり、複業の方が関わることは基本的にありません。また、フルタイムの社員以外は他社の秘密情報にアクセスできない仕組みになっているため、複業者の方は競業避止を気にせずに安心して働くことができます。
 
-本ページの対象者が関われる範囲は下記のプロダクトのみとなりますが、弊社の主力ビジネスの概要についてもしご興味があれば下記ページをご参照ください。
+<a href="https://speakerdeck.com/yasulab/qiita-team-extensions-for-parallel-working?slide=11"><img src="/img/how-to-protect-nda.jpeg"
+alt='秘密情報を守る仕組み' width='100%' /></a>
+<center>参考: <a href="https://speakerdeck.com/yasulab/qiita-team-extensions-for-parallel-working">Qiita:Team Extensions for Parallel Working</a></center>
 
-詳細: [https://yasslab.jp/ja/agile](https://yasslab.jp/ja/agile)
+フルタイムを希望される方であっても、最初は下記の自社プロダクトで一緒に始めてみることが多いです。もし興味のあるプロダクトがあれば、仕事として一緒にやりませんか? ;)
 
 ## 🛠 自社プロダクトまとめ
 
-- 難易度: 1️⃣〜5️⃣ (高いほど難しい)
 - 開発目的: そのプロダクトで実現したいこと
 - 使用技術: 貢献するために必要な技術
 - 関連情報: 公開している情報など
 
-### 1. Gitlate - 継続的翻訳システム (Rails + Vue.js)
+### 1. Gitlate - 継続的翻訳システム
 
-- 難易度: 5️⃣
-- 開発目的: 大型書籍や巨大ドキュメントの翻訳を完全に自動化する 📚♻️
+- 開発目的: 大型書籍や巨大ドキュメントの翻訳を自動化する 📚♻️
 - 使用技術: Ruby, Rails, Vuejs, Gitメカニズム, アルゴリズム (Jaro-Winklerなど), Gengo API, Google Cloud Computing (Translate API), Engine Yard
 - 関連情報:
 	- スライド: [How We Continuously Translate Tech Docs](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
 	- yasslab/gitlate (Private)
 
-### 2. Railsチュートリアルの自動組版 (Rails + softcover + LaTeX)
+### 2. Railsチュートリアルの自動組版
 
-- 難易度: 4️⃣
 - 開発目的: Gitlateで生成した中間ファイルを使い、HTML/PDF/EPUBを自動組版してビジネス化する 📕💰
 - 使用技術: Ruby, Rails, LaTeX, [softcover](https://github.com/softcover/softcover), Heroku
 - 関連情報: 
@@ -60,9 +59,8 @@ lang:   ja
 	- yasslab/ruby_on_rails_tutorial_book (Private)
 
 
-### 3. Railsガイドの自動組版 (Jekyll + Re:VIEW + LaTeX)
+### 3. Railsガイドの自動組版
 
-- 難易度: 3️⃣
 - 開発目的: Gitlateで生成された中間ファイルを使い、HTML/PDF/EPUBを自動組版してビジネス化する 📙💰
 - 使用技術: Ruby, [Re:VIEW](https://github.com/kmuto/review), Shell Script, Heroku
 - 関連情報: 
@@ -71,19 +69,17 @@ lang:   ja
 	- yasslab/railsguides.jp_ebook (Private)
 
 
-### 4. CoderDojo Japan (Rails + CMS) 
+### 4. CoderDojo Japan
 
-- 難易度: 2️⃣
 - 開発目的: CoderDojo Japan の活動支援 (主にバックエンド部分を実装)
-- 使用技術: Ruby, Rails, モデリング/設計, [Scrivito](https://scrivito.com/), Heroku
+- 使用技術: Ruby, Rails, DB設計, [Scrivito](https://scrivito.com/), Heroku
 - 関連情報: 
 	- [https://coderdojo.jp/](https://coderdojo.jp/)
 	- [coderdojo-japan/coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp) (OSS)
 
-### 5. YassLab Homepage (Jekyll + Heroku)
+### 5. YassLab Website
 
-- 難易度: 1️⃣
-- 開発目的: 会社情報や実績紹介を分かりやすく掲載する (日英対応必須)
+- 開発目的: 会社情報や実績紹介を分かりやすく掲載する (日英対応)
 - 使用技術: Ruby, Jekyll, Web Design, GitHub Pages
 - 関連情報: 
 	- [https://yasslab.jp/](https://yasslab.jp/)
@@ -96,7 +92,7 @@ lang:   ja
 
 ## お問い合わせ
 
-何か気になることや、ご相談したいことがあれば下記フォームまたはメールにでお問い合わせください。
+以上が弊社が関わっている事業・プロダクトになります。お気軽にご連絡ください!
 
 - メール: _yohei@yasslab.jp_
 - 担当者: 安川 要平 (YassLab代表)
