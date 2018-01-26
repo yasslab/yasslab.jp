@@ -33,7 +33,7 @@ lang:   ja
 alt='秘密情報を守る仕組み' width='100%' /></a>
 <center>参考: <a href="https://speakerdeck.com/yasulab/qiita-team-extensions-for-parallel-working">Qiita:Team Extensions for Parallel Working</a></center>
 
-フルタイムを希望される方であっても、最初は下記の自社プロダクトで一緒に始めてみることが多いです。もし興味のあるプロダクトがあれば、仕事として一緒にやりませんか? ;)
+フルタイムを希望される方であっても、最初は下記の自社プロダクトで一緒に始めてみることが多いです。もし興味があれば仕事として一緒にやってみませんか?
 
 ## 🛠 自社プロダクトまとめ
 
