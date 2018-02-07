@@ -1,18 +1,18 @@
 source 'http://rubygems.org'
-ruby '2.3.3'
+ruby '2.5.0'
 
 gem 'github-pages'
 gem 'redcarpet'
 gem 'jekyll'
-gem 'rack-jekyll', '~> 0.5'
+gem 'rack-jekyll'
 #gem 'jekyll-task-i18n'
 gem 'rake'
 
 # Gems to enable SSL
 gem 'acme_challenge'
-gem 'rack-rewrite', '~> 1.5.0'
-gem 'rack-contrib', '~> 1.4'
-gem 'html-proofer', '~> 3'
+gem 'rack-rewrite'
+gem 'rack-contrib'
+gem 'html-proofer'
 
 group :development, :test do
   gem 'rb-readline'
