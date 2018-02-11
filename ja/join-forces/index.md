@@ -18,7 +18,7 @@ lang:   ja
 
 ご参考になれば幸いです 🙏
 
-# YassLab の事業概要
+# YassLab 社の事業概要
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 ※ 見れない場合は[コチラ](http://www.slideshare.net/yasulab/works-of-yasslab)へ。
@@ -95,7 +95,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 以上が弊社が関わっている事業・プロダクトになります。お気軽にご連絡ください!
 
 - メール: _yohei@yasslab.jp_
-- 担当者: 安川 要平 (YassLab代表)
+- 担当者: 安川 要平
 - 事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
 <br />
