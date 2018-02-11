@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Calendar – YassLab
+title:  予定表 – YassLab
 lang:   ja
 ---
 
