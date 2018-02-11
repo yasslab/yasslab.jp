@@ -112,14 +112,13 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 <a class="anchor" href="#references" aria-hidden="true">
 <span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d1.png">📑</g-emoji> 他、参考情報</a></h2>
 
-- 会社名: YassLab 株式会社
-- 社員数: 6人 ([複業採用](/ja/join-forces)含む)
-- 開業日: 2012年6月1日 (2018年1月11日 法人成り)
-- 代表: 安川 要平
-- SNS: 
-[Facebook](https://www.facebook.com/yasslab.jp), 
+- 会社名: YassLab 株式会社 ([Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
-[Wantedly](https://www.wantedly.com/companies/YassLab)
+[Wantedly](https://www.wantedly.com/companies/YassLab))
+- 社員数: 6人 ([複業採用](/ja/join-forces)含む)
+- 設立日: 2012年6月1日 (2018年1月11日 法人成り)
+- 代表取締役: 安川 要平
+- 顧問税理士: [Hay未来の税理士法人](http://www.hay-kaikei.com/) 林 寛之
 - 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
 - パートナー・関連団体: 
     - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
