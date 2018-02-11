@@ -100,7 +100,9 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 - Owner: Yohei Yasukawa
 - Size:  6 people (including part-timers)
 - Date:  Since January 11, 2018
-- Legal Advisor: [Tokyo Sanno Law Office](http://www.ynmlaw.com/english/) Rie Nojima
+- Trademark: [No. 5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
+- Tax Advisor: Hiroyuki Hayahi ([hay-kaikei.com](http://www.hay-kaikei.com/))
+- Legal Advisor: Rie Nojima ([Tokyo Sanno Law Office](http://www.ynmlaw.com/english/))
 - Member of: 
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.com/aboutus/) (Technical Adviser)
     - [Business OSS Consortium Japan](http://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
