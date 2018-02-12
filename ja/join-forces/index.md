@@ -57,6 +57,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 	- [https://railstutorial.jp/](https://railstutorial.jp/)
 	- yasslab/railstutorial.jp_web (Private)
 	- yasslab/ruby_on_rails_tutorial_book (Private)
+	- スライド: [Railsチュートリアルを支える継続的組版技術](https://speakerdeck.com/yasulab/continuous-integration-for-ebook)
 
 
 ### 3. Railsガイドの自動組版
