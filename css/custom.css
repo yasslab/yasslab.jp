@@ -11,7 +11,7 @@
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
-    height: 200px;
+    height: 215px;
     overflow: hidden;
 }
 .responsive-iframe-container iframe,   
@@ -21,13 +21,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    //height: 100%;
 }
- 
 @media (max-width: 600px) {
     .small-container {
-       padding-bottom: 200%;   /* 高さ */
+       padding-bottom: 120%;   /* 高さ */
     }
 }
 @media (min-width: 600px) {
-}
+} 
