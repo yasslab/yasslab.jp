@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  弊社にご検討されている皆さんへ – YassLab
+title:  弊社をご検討されている皆さんへ – YassLab
 lang:   ja
 ---
 
