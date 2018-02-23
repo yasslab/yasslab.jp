@@ -55,7 +55,7 @@ YassLab 株式会社では、東京と沖縄を拠点にして次の3つの事�
    - [未踏ジュニア](http://jr.mitou.org/): 小中高生向けミニ未踏事業
    - [Doorkeeperスポンサーシップ](https://yasslab.jp/ja/doorkeeper/): OSSコミュニティ支援
 
-詳細は[事業実績](/ja/works#details)をご参照ください。
+詳細は[事業実績](/ja/works#achievements)をご参照ください。
 
 <br />
 

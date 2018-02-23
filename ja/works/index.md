@@ -20,7 +20,7 @@ YassLab 株式会社では、東京と沖縄を拠点にして次の3つの事�
 {% include profile.html %}
 <br><br>
 
-## [🔖  概要](summary) {#summary}
+## [🔖  概要](#summary) {#summary}
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 <br><br>
