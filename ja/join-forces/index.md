@@ -87,7 +87,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 - 使用技術: Ruby, Jekyll, Web Design, GitHub Pages
 - 関連情報: 
 	- [https://yasslab.jp/](https://yasslab.jp/)
-	- [yasslab/yasslab.github.io](https://github.com/yasslab/yasslab.github.io) (OSS)
+	- [yasslab/yasslab.jp](https://github.com/yasslab/yasslab.jp) (OSS)
 
 上記の他にも、多様なOSSプロダクトをGitHub上から公開しております。   
 もしご興味あれば、[GitHubで公開しているリポジトリ](https://github.com/yasslab)もご参照ください。
