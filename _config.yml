@@ -1,7 +1,9 @@
 permalink: /:title
-author:
+company:
   name:  YassLab
   email: yohei@yasslab.jp
+  size: 7
+  
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://yasslab.jp" # the base hostname & protocol for your site

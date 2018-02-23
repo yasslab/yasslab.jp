@@ -4,19 +4,19 @@ title:  YassLab – Having a Good Life with OpenSource ;)
 lang:   ja
 ---
 
-## 事業内容 {#top}
-
-YassLab では，東京と沖縄を拠点にして，次の3つの事業を展開しています．
+YassLab 株式会社では、東京と沖縄を拠点にして次の3つの事業を展開しています。
 
 1. **[Ruby/Railsの開発支援サービス](/ja/agile)**
 2. 技術書籍の翻訳・組版・出版
 3. 継続的翻訳システムの研究開発
 
+本ページでは、YassLab 社で行なっている事業および会社情報などをまとめています。
+
 <img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
 
 <br />
 
-### 実績 {#summary}
+## [🛠 事業内容](#services) {#services}
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="640" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 ※ 見れない場合は[コチラ](http://www.slideshare.net/yasulab/works-of-yasslab)へ.
@@ -31,7 +31,7 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
 <br />
 -->
 
-### プロジェクト例 {#projects}
+### [🚀 プロジェクト例](#projects) {#projects}
 
 - 自社サービス/アプリ
    - [継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs): 技術文書に特化した翻訳の自動化システム ([発表動画](https://www.youtube.com/watch?v=7cqOJtL5Fvc))
@@ -55,22 +55,22 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
    - [未踏ジュニア](http://jr.mitou.org/): 小中高生向けミニ未踏事業
    - [Doorkeeperスポンサーシップ](https://yasslab.jp/ja/doorkeeper/): OSSコミュニティ支援
 
-詳細は[事業実績](/ja/works#details)をご参照ください.
+詳細は[事業実績](/ja/works#details)をご参照ください。
 
 <br />
 
-## 代表 {#profile}
+## [👤 代表者情報](#profile) {#profile}
 
 {% include profile.html %}
 
 <br />
 
-## 組織情報 {#company}
+## [🏢 会社情報](#company) {#company}
 
 ![YassLab](/img/logo_rect_copy.png)
 
 - 会社名: YassLab 株式会社
-- 社員数: 6人 ([複業採用](/ja/join-forces)含む)
+- 社員数: {{ site.company.size }}人 ([複業採用](/ja/join-forces)含む)
 - 設立日: 2012年6月1日 (2018年1月11日 法人成り)
 - 商標登録: [商標公報5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
 - 代表取締役: 安川 要平
@@ -86,11 +86,11 @@ YassLab では，東京と沖縄を拠点にして，次の3つの事業を展�
     - [CoderDojo Japan](https://coderdojo.jp/) (開発支援)
 	- [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
 
-詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください.
+詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください。
 
 <br />
 
-<h3 id="contact">連絡先・所在地</h3>
+## [📮 連絡先・所在地](#contact) {#contact}
 
 メール: _yohei@yasslab.jp_   
 SNS: 
@@ -102,4 +102,4 @@ SNS:
 [Wantedly](https://www.wantedly.com/companies/YassLab).   
 事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
-Ruby/Rails開発の依頼や教育事業に関するお問い合わせ，また，運営・制作している教材/製品に関するご相談などについては，下記のフォームをご利用ください．  
+Ruby/Rails 開発依頼や各種事業に関するお問い合わせ・ご相談の際は下記のフォームをご利用ください。

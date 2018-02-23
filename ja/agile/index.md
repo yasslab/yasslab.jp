@@ -4,8 +4,7 @@ title:  Ruby/Rails 開発支援サービス – YassLab
 lang:   ja
 ---
 
-
-# Ruby/Rails の開発支援サービス {#top}
+# [Ruby/Rails の開発支援サービス](#top) {#top}
 
 Ruby/Rails を扱っているプロジェクトの開発支援サービスです。   
 Ruby/Rails の経験豊富なチームで、御社の開発をサポートします。
@@ -16,9 +15,7 @@ _See this in English? [Here](/en/agile/) ;)_
 
 <br />
 
-<h2 id="skills">
-<a class="anchor" href="#skills" aria-hidden="true">
-<span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f48e.png">💎</g-emoji> 得意なスキル・サービス</a></h2>
+## [💎 得意なスキル・サービス](#skills) {#skills}
 
 - Ruby / Rails
 - Git / GitHub
@@ -31,9 +28,7 @@ _See this in English? [Here](/en/agile/) ;)_
 
 <br />
 
-<h2 id="contract-style">
-<a class="anchor" href="#contract-style" aria-hidden="true">
-<span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> 契約スタイル</a></h2>
+## [📝 契約スタイル](#style) {#style}
 
 弊社では、IPAが公開しているアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにしております。
 
@@ -56,10 +51,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 
 <br />
 
-
-<h2 id="basic-price">
-<a class="anchor" href="#basic-price" aria-hidden="true">
-<span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3c3.png">💹</g-emoji> 基本料金: 100万/月 (応相談)</a></h2>
+## [💹 基本料金: 100万/月 (応相談)](price) {#price}
 
 - 対応可能時間: 10:00〜19:00
 	- 休憩1時間、作業報告書の執筆時間なども含まれます
@@ -71,10 +63,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 
 <br />
 
-
-<h2 id="our-clients">
-<a class="anchor" href="#our-clients" aria-hidden="true">
-<span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3c3.png">👥</g-emoji> これまでの取引先</a></h2>
+## [🤝  これまでの取引先](#clients) {#clients}
 
 - 国内
 	- [永和システムマネジメント アジャイル事業部](http://agile.esm.co.jp/) (開発パートナー)
@@ -94,9 +83,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 <br />
 
 
-<h2 id="our-products">
-<a class="anchor" href="#our-products" aria-hidden="true">
-<span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png">🛠</g-emoji> 自社プロダクト</a></h2>
+## [🛠 自社プロダクト](#products) {#products}
 
 - [Ruby on Rails チュートリアル](https://railstutorial.jp/)
 - [Ruby on Rails ガイド](http://railsguides.jp/) ([GitHub](https://github.com/yasslab/railsguides.jp))
@@ -107,15 +94,12 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
 
 <br />
 
-
-<h2 id="references">
-<a class="anchor" href="#references" aria-hidden="true">
-<span aria-hidden="true" class="octicon octicon-link"></span><g-emoji alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d1.png">📑</g-emoji> 他、参考情報</a></h2>
+## [📑 他、参考情報](#references) {#references}
 
 - 会社名: YassLab 株式会社 ([Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
 [Wantedly](https://www.wantedly.com/companies/YassLab))
-- 社員数: 6人 ([複業採用](/ja/join-forces)含む)
+- 社員数: {{ site.company.size }}人 ([複業採用](/ja/join-forces)含む)
 - 設立日: 2012年6月1日 (2018年1月11日 法人成り)
 - 代表取締役: 安川 要平
 - 顧問税理士: [Hay未来の税理士法人](http://www.hay-kaikei.com/) 林 寛之

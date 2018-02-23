@@ -1,6 +1,14 @@
 .fa-icons i { color: grey }
 .fa-icons i:hover{ color: white }
 
+// Disable to color anchor
+{}
+#services a,#support a,#products a,#references a,#contact a,#skills a,#style a,#price a,#clients a,#top a,#projects a,#profile a,#company a,#address a,#summary a,#achievements a{
+    text-decoration: none;
+    color: #222222;
+}
+
+
 // Google Calendar
 .gc_wrapper {
   max-width: 800px; 
