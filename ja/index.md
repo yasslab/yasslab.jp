@@ -4,7 +4,7 @@ title:  YassLab – Having a Good Life with OpenSource ;)
 lang:   ja
 ---
 
-YassLab 株式会社では、東京と沖縄を拠点にして次の3つの事業を展開しています。
+YassLab 株式会社では、沖縄と東京を拠点にして次の3つの事業を展開しています。
 
 1. **[Ruby/Railsの開発支援サービス](/ja/agile)**
 2. 技術書籍の翻訳・組版・出版
