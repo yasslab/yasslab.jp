@@ -85,8 +85,8 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 例えば2018年2月21日にパートタイムで入社した [@AnaTofuZ](https://twitter.com/AnaTofuZ) さんの場合、まずは CoderDojo Japan の開発を１ヶ月ほど一緒に進めてみて、その後、契約を更新するかどうか判断するというステップを踏みました。
 
 - [@AnaTofuZ さんの最初のPR](https://github.com/coderdojo-japan/coderdojo.jp/pull/261)
-- [１ヶ月ほど経過したあとのPR](https://github.com/coderdojo-japan/coderdojo.jp/pull/287)
-- [他、OSSリポジトリ上で行われた各種PRの例](https://github.com/coderdojo-japan/coderdojo.jp/pulls?q=is%3Apr+author%3AAnaTofuZ+created%3A%3E2018-02-21+sort%3Acreated-asc)
+- [１ヶ月ほど経ち、チーム開発に慣れてきたPR](https://github.com/coderdojo-japan/coderdojo.jp/pull/287)
+- [他、当該OSSリポジトリ上で行われた各種PRの一覧](https://github.com/coderdojo-japan/coderdojo.jp/pulls?q=is%3Apr+author%3AAnaTofuZ+created%3A%3E2018-02-21+sort%3Acreated-asc)
 
 弊社は完全リモートワーク制で開発を進めていることもあり、実際に体験してみないと伝えきれない雰囲気も多いです。一緒に何かを進める過程でそれぞれの長所/短所を知り、その上で継続するのであれば、お互いに納得感を持って働くことにも繋がると思います。
 
