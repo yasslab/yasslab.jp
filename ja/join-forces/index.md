@@ -6,7 +6,7 @@ lang:   ja
 
 # [弊社をご検討されている皆さんへ](#top) {#top}
 
-<img src="https://yasslab.jp/img/logo-and-photo.png" alt="YassLab Logo & Photo" width="100%" />
+<img src="/img/logo-and-photo.png" alt="YassLab Logo & Photo" width="100%" />
 
 転職中の方や、バイトや複業先として弊社をご検討していただいている方向けの情報です。
 
@@ -44,7 +44,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 - 使用技術: 開発で使われているテクノロジー
 - 関連情報: 参考になる公開情報など
 
-### 1. Railsチュートリアルの自動更新
+### 1. Railsチュートリアルの自動更新 {#railstutorial}
 
 - 開発目的: Railsチュートリアルの品質を保ちつつ、なるべく低コストで更新したい 📕💰
 - 使用技術: Ruby, Rails, LaTeX, [softcover](https://github.com/softcover/softcover), Heroku
@@ -55,7 +55,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 	- スライド: [Railsチュートリアルを支える継続的組版技術](https://speakerdeck.com/yasulab/continuous-integration-for-ebook)
 
 
-### 2. Railsガイドの自動更新
+### 2. Railsガイドの自動更新 {#railsguides}
 
 - 開発目的: Railsガイドの品質を保ちつつ、なるべく低コストで更新したい 📙💰
 - 使用技術: Ruby, [Re:VIEW](https://github.com/kmuto/review), Shell Script, Heroku
@@ -65,7 +65,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 	- yasslab/railsguides.jp_ebook (Private)
 
 
-### 3. CoderDojo Japan の開発 (オススメ)
+### 3. CoderDojo Japan の開発 {#coderdojo-japan}
 
 - 開発目的: CoderDojo コミュニティの活動を支援するシステムの開発
 - 使用技術: Ruby on Rails, DB設計, [Scrivito](https://scrivito.com/) (Rails CMS), Haml, Heroku
@@ -73,22 +73,24 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 	- [https://coderdojo.jp/](https://coderdojo.jp/), [統計情報](https://coderdojo.jp/stats)など
 	- [coderdojo-japan/coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp) (OSS)
 	- スライド: [CoderDojo を支える Rails CMS の活用事例](https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo)
-
 <br><br>
 
-## 🤝 応募から採用までの流れ
+## 🤝 応募から採用までの流れ {#flow}
 
-会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは一緒にチーム開発をするスタイルを採用しています。
+会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっているOSSで一緒に開発するスタイルを採用しています。
+
+<a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" /></a>
+<center>OSSリポジトリ上でチーム開発する例 (<a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287">詳細</a>)</center>
 
 例えば2018年2月21日にパートタイムで入社した [@AnaTofuZ](https://twitter.com/AnaTofuZ) さんの場合、まずは CoderDojo Japan の開発を１ヶ月ほど一緒に進めてみて、その後、契約を更新するかどうか判断するというステップを踏みました。
 
 - [@AnaTofuZ さんの最初のPR](https://github.com/coderdojo-japan/coderdojo.jp/pull/261)
 - [１ヶ月ほど経過したあとのPR](https://github.com/coderdojo-japan/coderdojo.jp/pull/287)
-- [他、公開リポジトリで行われた各種チーム開発の例](https://github.com/coderdojo-japan/coderdojo.jp/pulls?q=is%3Apr+author%3AAnaTofuZ+created%3A%3E2018-02-21+sort%3Acreated-asc)
+- [他、OSSリポジトリ上で行われた各種PRの例](https://github.com/coderdojo-japan/coderdojo.jp/pulls?q=is%3Apr+author%3AAnaTofuZ+created%3A%3E2018-02-21+sort%3Acreated-asc)
 
-弊社は完全リモートワーク制で開発を進めていることもあり、実際に体験してみないと伝えきれない雰囲気も多いです。一緒に何かを進める過程でそれぞれの長所/短所が分かり、そういった良し悪しを踏まえて継続するのであれば、お互いに納得感を持って働くことにも繋がると思います。
+弊社は完全リモートワーク制で開発を進めていることもあり、実際に体験してみないと伝えきれない雰囲気も多いです。一緒に何かを進める過程でそれぞれの長所/短所を知り、その上で継続するのであれば、お互いに納得感を持って働くことにも繋がると思います。
 
-もちろん、結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、その後の就職/転職活動で開発に貢献した実績が活かせるように、できるだけ Private ではなく Public な OSS プロジェクトを題材にすることが多いです (特に `3. CoderDojo Japan の開発` が人気です)。
+もちろん、結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、なるべく OSS プロジェクトを題材にしているので、その後の就職/転職活動で開発に貢献した実績を活かすこともできます (Railsアプリケーションである [3. CoderDojo Japan の開発](#coderdojo-japan) が特に人気です)。
 
 上記の他にも、多様なOSSプロダクトをGitHub上から公開しております。   
 もしご興味あれば、[GitHubで公開しているリポジトリ](https://github.com/yasslab)もご参照ください。
