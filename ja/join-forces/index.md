@@ -41,20 +41,12 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 ## [🛠 自社プロダクトまとめ](#products) {#products}
 
 - 開発目的: そのプロダクトで実現したいこと
-- 使用技術: 貢献するために必要な技術
-- 関連情報: 公開している情報など
+- 使用技術: 開発で使われているテクノロジー
+- 関連情報: 参考になる公開情報など
 
-### 1. Gitlate - 継続的翻訳システム
+### 1. Railsチュートリアルの自動更新
 
-- 開発目的: 大型書籍や巨大ドキュメントの翻訳を自動化する 📚♻️
-- 使用技術: Ruby, Rails, Vuejs, Gitメカニズム, アルゴリズム (Jaro-Winklerなど), Gengo API, Google Cloud Computing (Translate API), Engine Yard
-- 関連情報:
-	- スライド: [How We Continuously Translate Tech Docs](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
-	- yasslab/gitlate (Private)
-
-### 2. Railsチュートリアルの自動組版
-
-- 開発目的: Gitlateで生成した中間ファイルを使い、HTML/PDF/EPUBを自動組版してビジネス化する 📕💰
+- 開発目的: Railsチュートリアルの品質を保ちつつ、なるべく低コストで更新したい 📕💰
 - 使用技術: Ruby, Rails, LaTeX, [softcover](https://github.com/softcover/softcover), Heroku
 - 関連情報: 
 	- [https://railstutorial.jp/](https://railstutorial.jp/)
@@ -63,9 +55,9 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 	- スライド: [Railsチュートリアルを支える継続的組版技術](https://speakerdeck.com/yasulab/continuous-integration-for-ebook)
 
 
-### 3. Railsガイドの自動組版
+### 2. Railsガイドの自動更新
 
-- 開発目的: Gitlateで生成された中間ファイルを使い、HTML/PDF/EPUBを自動組版してビジネス化する 📙💰
+- 開発目的: Railsガイドの品質を保ちつつ、なるべく低コストで更新したい 📙💰
 - 使用技術: Ruby, [Re:VIEW](https://github.com/kmuto/review), Shell Script, Heroku
 - 関連情報: 
 	- [https://railsguides.jp/](https://railsguides.jp/)
@@ -73,13 +65,44 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 	- yasslab/railsguides.jp_ebook (Private)
 
 
-### 4. CoderDojo Japan
+### 3. CoderDojo Japan の開発 (オススメ)
 
-- 開発目的: CoderDojo Japan の活動支援 (主にバックエンド部分を実装)
-- 使用技術: Ruby, Rails, DB設計, [Scrivito](https://scrivito.com/), Heroku
+- 開発目的: CoderDojo コミュニティの活動を支援するシステムの開発
+- 使用技術: Ruby on Rails, DB設計, [Scrivito](https://scrivito.com/) (Rails CMS), Haml, Heroku
 - 関連情報: 
-	- [https://coderdojo.jp/](https://coderdojo.jp/)
+	- [https://coderdojo.jp/](https://coderdojo.jp/), [統計情報](https://coderdojo.jp/stats)など
 	- [coderdojo-japan/coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp) (OSS)
+	- スライド: [CoderDojo を支える Rails CMS の活用事例](https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo)
+
+<br><br>
+
+## 🤝 応募から採用までの流れ
+
+会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは一緒にチーム開発をするスタイルを採用しています。
+
+例えば2018年2月21日にパートタイムで入社した [@AnaTofuZ](https://twitter.com/AnaTofuZ) さんの場合、まずは CoderDojo Japan の開発を１ヶ月ほど一緒に進めてみて、その後、契約を更新するかどうか判断するというステップを踏みました。
+
+- [@AnaTofuZ さんの最初のPR](https://github.com/coderdojo-japan/coderdojo.jp/pull/261)
+- [１ヶ月ほど経過したあとのPR](https://github.com/coderdojo-japan/coderdojo.jp/pull/287)
+- [他、公開リポジトリで行われた各種チーム開発の例](https://github.com/coderdojo-japan/coderdojo.jp/pulls?q=is%3Apr+author%3AAnaTofuZ+created%3A%3E2018-02-21+sort%3Acreated-asc)
+
+弊社は完全リモートワーク制で開発を進めていることもあり、実際に体験してみないと伝えきれない雰囲気も多いです。一緒に何かを進める過程でそれぞれの長所/短所が分かり、そういった良し悪しを踏まえて継続するのであれば、お互いに納得感を持って働くことにも繋がると思います。
+
+もちろん、結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、その後の就職/転職活動で開発に貢献した実績が活かせるように、できるだけ Private ではなく Public な OSS プロジェクトを題材にすることが多いです (特に `3. CoderDojo Japan の開発` が人気です)。
+
+上記の他にも、多様なOSSプロダクトをGitHub上から公開しております。   
+もしご興味あれば、[GitHubで公開しているリポジトリ](https://github.com/yasslab)もご参照ください。
+<br><br>
+
+
+<!--
+### 1. Gitlate - 継続的翻訳システム
+
+- 開発目的: 大型書籍や巨大ドキュメントの翻訳を自動化する 📚♻️
+- 使用技術: Ruby, Rails, Vuejs, Gitメカニズム, アルゴリズム (Jaro-Winklerなど), Gengo API, Google Cloud Computing (Translate API), Engine Yard
+- 関連情報:
+	- スライド: [How We Continuously Translate Tech Docs](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
+	- yasslab/gitlate (Private)
 
 ### 5. YassLab Website
 
@@ -88,10 +111,8 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 - 関連情報: 
 	- [https://yasslab.jp/](https://yasslab.jp/)
 	- [yasslab/yasslab.jp](https://github.com/yasslab/yasslab.jp) (OSS)
+-->
 
-上記の他にも、多様なOSSプロダクトをGitHub上から公開しております。   
-もしご興味あれば、[GitHubで公開しているリポジトリ](https://github.com/yasslab)もご参照ください。
-<br><br>
 
 
 ## [📑  他、参考情報](#references) {#references}
