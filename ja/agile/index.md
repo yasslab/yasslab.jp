@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Ruby/Rails 開発支援サービス – YassLab
+title:  Ruby/Rails 開発支援サービス – YassLab 株式会社
 lang:   ja
 ---
 
@@ -44,7 +44,7 @@ alt='IPAアジャイル契約モデル案' width='100%' /></a>
 
 上記のモデル契約書を具体化した契約書が、次の契約書になります。特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。
 
-IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab)
+IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)
 [https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a](https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a)
 
 なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。
@@ -114,7 +114,7 @@ IPAのモデル契約をベースにした基本/個別契約書の例 (作成: 
     - [CoderDojo Japan](https://coderdojo.jp/) (開発支援)
 	- [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
 
-![YassLab](/img/logo_rect_copy.png)    
+![YassLab Logo](/img/logo_rect_copy.png)    
 <br />
 
 <h2 id="contact">

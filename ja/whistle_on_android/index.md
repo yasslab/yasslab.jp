@@ -1,12 +1,12 @@
 ---
 layout: default
-title:  Privacy Policy – YassLab
+title:  Privacy Policy – YassLab 株式会社
 lang:   ja
 ---
 
 ## Privacy Policy
 
-以下は、YassLab が提供するアプリ「Whistle on Android」のプライバシーポリシーです。   
+以下は、YassLab 株式会社が提供するアプリ「Whistle on Android」のプライバシーポリシーです。   
 何か気になる点がありましたら、本ページ下部から問い合わせをお願いいたします。
 
 1. アプリケーション提供者: Yohei Yasukawa (YassLab)
@@ -21,7 +21,7 @@ lang:   ja
 
 <h3 id="contact">お問い合わせ</h3>
 
-運営者: YassLab (代表: 安川 要平)  
+運営者: YassLab 株式会社 (代表: 安川 要平)  
 メール: _yohei@yasslab.jp_   
 事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 

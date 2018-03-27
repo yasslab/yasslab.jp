@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YassLab - Having a Good Life with OpenSource ;)
+title:  YassLab Inc. - Having a Good Life with OpenSource ;)
 lang:   en
 ---
 

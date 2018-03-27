@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  行動規範 – YassLab
+title:  行動規範 – YassLab 株式会社
 lang:   ja
 ---
 

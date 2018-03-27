@@ -1,13 +1,13 @@
 ---
 layout: default
-title:  Contributor Code of Conduct – YassLab
+title:  Contributor Code of Conduct – YassLab Inc.
 lang:   en
 ---
 
 # Contributor Code of Conduct
 
 <div align="right">
-Yohei Yasukawa, YassLab CEO <br />
+Yohei Yasukawa, CEO of YassLab Inc.<br />
 Updated: 2017/09/03 <br />
 See <a href="/ja/code-of-conduct">Japanese version</a>.
 </div>

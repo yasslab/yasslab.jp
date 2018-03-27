@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Ruby/Rails Web Development Support – YassLab
+title:  Ruby/Rails Web Development Support – YassLab Inc.
 lang:   en
 ---
 
@@ -81,7 +81,7 @@ Our basic price is **1,000,000 yen/month.**
 	- [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
 	- [Mitou Foundation](http://www.mitou.org/) (Project Manager at [Mitou Jr.](http://jr.mitou.org/))
 
-![YassLab](/img/logo_rect_copy.png)    
+![YassLab Logo](/img/logo_rect_copy.png)    
 <br />
 
 ## Contact

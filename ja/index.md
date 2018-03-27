@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  YassLab – Having a Good Life with OpenSource ;)
+title:  YassLab 株式会社 – Having a Good Life with OpenSource ;)
 lang:   ja
 ---
 
@@ -67,7 +67,7 @@ YassLab 株式会社では、沖縄と東京を拠点にして次の3つの事�
 
 ## [🏢 会社情報](#company) {#company}
 
-![YassLab](/img/logo_rect_copy.png)
+![YassLab Logo](/img/logo_rect_copy.png)
 
 - 会社名: YassLab 株式会社
 - 社員数: {{ site.company.size }}人 ([複業採用](/ja/join-forces)含む)
