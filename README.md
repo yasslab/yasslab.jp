@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.org/yasslab/yasslab.github.io.svg?branch=master)](https://travis-ci.org/yasslab/yasslab.github.io)
 
-Website for YassLab
-=====================
+Website for YassLab Inc.
+========================
 
 This repository includes source code to build [YassLab](https://yasslab.jp)'s website.
 
-YassLab   
+YassLab Inc.   
 Distributed Company that Works Remotely, focusing on   
 Ruby/Rails Web Development, Education, and OpenSource.   
 https://yasslab.jp/
@@ -18,7 +18,7 @@ The icons used in the website are created by [Font Awesome](http://fontawesome.i
 
 The MIT License (MIT)
 
-Copyright &copy; 2012-2017 [YassLab](https://yasslab.jp)
+Copyright &copy; 2012-2018 [YassLab Inc.](https://yasslab.jp)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
