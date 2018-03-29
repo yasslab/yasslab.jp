@@ -74,8 +74,9 @@ YassLab 株式会社では、沖縄と東京を拠点にして次の3つの事�
 - 設立日: 2012年6月1日 (2018年1月11日 法人成り)
 - 商標登録: [商標公報5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
 - 代表取締役: 安川 要平
-- 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
+- 顧問社労士: [社会保険労務士 岡 佳伸事務所](http://oka-sr.jp/) 岡 佳伸
 - 顧問税理士: [Hay未来の税理士法人](http://www.hay-kaikei.com/) 林 寛之
+- 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
 - パートナー・関連団体: 
     - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
     - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)

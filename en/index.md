@@ -101,6 +101,7 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 - Size:  {{ site.company.size }} people (including part-timers)
 - Date:  Since January 11, 2018
 - Trademark: [No. 5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
+- HR Advisor: Yoshinobu Oka ([oka-sr.jp](http://oka-sr.jp/))
 - Tax Advisor: Hiroyuki Hayahi ([hay-kaikei.com](http://www.hay-kaikei.com/))
 - Legal Advisor: Rie Nojima ([Tokyo Sanno Law Office](http://www.ynmlaw.com/english/))
 - Member of: 
