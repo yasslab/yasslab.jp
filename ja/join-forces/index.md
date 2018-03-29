@@ -14,7 +14,7 @@ lang:   ja
 
 - 🏢 現在転職/就職活動中、インターン先・複業先を探している
 - 🤔 YassLab 社での働き方やプロダクトに興味・関心がある
-- 🔧 YassLab 社を通して、OSSコミュニティに貢献したい
+- 🔧 YassLab 社を通して、OS Sコミュニティに貢献したい
 
 ご参考になれば幸いです 🙏
 <br><br>
@@ -77,7 +77,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 
 ## 🤝 応募から採用までの流れ {#flow}
 
-会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっているOSSで一緒に開発するスタイルを採用しています。
+会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっている OSS で一緒に開発するスタイルを採用しています。
 
 <a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" /></a>
 <center>OSSリポジトリ上でチーム開発する例 (<a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287">詳細</a>)</center>
