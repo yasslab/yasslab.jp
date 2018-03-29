@@ -124,18 +124,23 @@ Ruby on Rails アプリケーションである [3. CoderDojo Japan の開発](#
 - 社員数: {{ site.company.size }}人 ([複業採用](/ja/join-forces)含む)
 - 設立日: 2012年6月1日 (2018年1月11日 法人成り)
 - 代表取締役: 安川 要平
+- 福利厚生など:
+   - 労働保険、雇用保険、社会保険、昇給あり (パートタイムの場合、条件による)
+   - 完全週休２日制、夏季/冬季休暇、年末年始休暇、年次有給休暇、慶弔休暇あり 
+   - 詳細は[雇用契約書のサンプル](https://www.dropbox.com/s/vjq5p1thwxj5l4f/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0)または[業務委託契約書のサンプル](https://www.dropbox.com/s/rdz75lqwt3bsw1y/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97_%E5%9F%BA%E6%9C%AC%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0)をご参照ください
+
 - 顧問社労士: [社会保険労務士 岡 佳伸事務所](http://oka-sr.jp/) 岡 佳伸
 - 顧問税理士: [Hay未来の税理士法人](http://www.hay-kaikei.com/) 林 寛之
 - 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
 - パートナー・関連団体: 
-    - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
-    - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
-	- [OSS Gate](https://oss-gate.github.io/) (スポンサー)
-	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター・協賛)
-	- [RubyKaigi](http://rubykaigi.org/) (翻訳協力)
-	- [Scrivito](https://scrivito.com/partners) (開発協力)
-    - [CoderDojo Japan](https://coderdojo.jp/) (開発支援)
-	- [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
+   - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
+   - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
+   - [OSS Gate](https://oss-gate.github.io/) (スポンサー)
+   - [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター・協賛)
+   - [RubyKaigi](http://rubykaigi.org/) (翻訳協力)
+   - [Scrivito](https://scrivito.com/partners) (開発協力)
+   - [CoderDojo Japan](https://coderdojo.jp/) (開発支援)
+   - [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
 
 ![YassLab](/img/logo_rect_copy.png)    
 <br />
