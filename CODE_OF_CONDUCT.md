@@ -9,6 +9,6 @@ Japanese: https://yasslab.jp/ja/code-of-conduct/
 
 For a history of updates, see the page history here:
 
-English : https://github.com/yasslab/yasslab.github.io/commits/master/en/code-of-conduct/index.md   
-Japanese: https://github.com/yasslab/yasslab.github.io/commits/master/ja/code-of-conduct/index.md
+English : https://github.com/yasslab/yasslab.jp/commits/master/en/code-of-conduct/index.md   
+Japanese: https://github.com/yasslab/yasslab.jp/commits/master/ja/code-of-conduct/index.md
 
