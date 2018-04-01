@@ -118,9 +118,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 
 ## [📑  他、参考情報](#references) {#references}
 
-- 会社名: YassLab 株式会社 ([Facebook](https://www.facebook.com/yasslab.jp), 
-[Twitter](https://twitter.com/YassLab), 
-[Wantedly](https://www.wantedly.com/companies/YassLab))
+- 会社名: YassLab 株式会社
 - 社員数: {{ site.company.size }}人 ([複業採用](/ja/join-forces)含む)
 - 設立日: 2012年6月1日 (2018年1月11日 法人成り)
 - 代表取締役: 安川 要平
@@ -141,6 +139,14 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
    - [Scrivito](https://scrivito.com/partners) (開発協力)
    - [CoderDojo Japan](https://coderdojo.jp/) (開発支援)
    - [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
+
+- SNS: 
+[GitHub](https://github.com/yasslab) ([人気順](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), 
+[Qiita](http://qiita.com/organizations/yasslab), 
+[Facebook](https://www.facebook.com/yasslab.jp), 
+[Twitter](https://twitter.com/YassLab), 
+[YouTube](https://www.youtube.com/c/YassLab), 
+[Wantedly](https://www.wantedly.com/companies/YassLab).
 
 ![YassLab](/img/logo_rect_copy.png)    
 <br />

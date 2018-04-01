@@ -99,7 +99,7 @@ SNS:
 [Qiita](http://qiita.com/organizations/yasslab), 
 [Facebook](https://www.facebook.com/yasslab.jp), 
 [Twitter](https://twitter.com/YassLab), 
-[Google+](https://plus.google.com/+YassLab), 
+[YouTube](https://www.youtube.com/c/YassLab), 
 [Wantedly](https://www.wantedly.com/companies/YassLab).   
 事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
