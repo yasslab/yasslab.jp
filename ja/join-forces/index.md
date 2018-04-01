@@ -67,11 +67,11 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 
 ### 3. CoderDojo Japan の開発 ☯️ {#coderdojo-japan}
 
-- 開発目的: 全国の CoderDojo コミュニティの活動をテクノロジーで支援したい
+- 開発目的: 全国の [CoderDojo コミュニティ](https://coderdojo.jp/)の活動をテクノロジーで支援したい
 - 使用技術: Ruby, Rails, DB設計, [Scrivito](https://scrivito.com/) (Rails CMS), Haml, Heroku
 - 関連情報: 
-	- [https://coderdojo.jp/](https://coderdojo.jp/), [統計情報](https://coderdojo.jp/stats)など
 	- [coderdojo-japan/coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp) (OSS)
+	- [coderdojo-japan/dojopaas](https://github.com/coderdojo-japan/dojopaas) (OSS)
 	- スライド: [CoderDojo を支える Rails CMS の活用事例](https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo)
 <br><br>
 
