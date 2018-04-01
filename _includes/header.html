@@ -3,11 +3,17 @@
   <head>
     <title>{{ page.title }}</title>
     {% if page.lang == "ja" %}
-    <meta name="apple-mobile-web-app-title" content="YassLab Inc." />
-    <meta name="application-name"           content="YassLab Inc." />
+    <meta name="apple-mobile-web-app-title" content="YassLab 株式会社" />
+    <meta name="application-name"           content="YassLab 株式会社" />
+    <meta name="keywords"    content="アジャイル リモートワーク Ruby Rails 教育 オープンソース" />
+    <meta name="author"      content="YassLab 株式会社" />
+
     {% else %}
     <meta name="apple-mobile-web-app-title" content="YassLab Inc." />
     <meta name="application-name"           content="YassLab Inc." />
+    <meta name="keywords"    content="Agile RemoteWork Ruby Rails Education OpenSource" />
+    <meta name="author"      content="YassLab Inc." />
+
     {% endif %}
 
     <meta charset="utf-8" />
@@ -16,7 +22,7 @@
     <meta name="google-site-verification" content="_5DHY3tGdFZ7kKhnFfr95n5UKOpnpJsinGJCmcwfjHs" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="/css/custom.css"       media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css"           media="screen">
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css"       media="screen">
     <link rel="stylesheet" type="text/css" href="/css/pygment_trac.css"     media="screen">
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" media="screen">
@@ -24,22 +30,28 @@
     
     <meta name="title"       content="{{ page.title }}" />
     <meta name="description" content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource." />
-    <meta name="keywords"    content="アジャイル リモートワーク Ruby Rails 教育 オープンソース" />
-    <meta name="author"      content="YassLab Inc." />
 
     <meta property="fb:admins"      content="715330868" />
+    <meta property="fb:app_id"      content="680598798739780" />
     <meta property="og:title"       content="{{ page.title }}"/>
     <meta property="og:site_name"   content="{{ page.title }}"/>
-    <meta property="og:image"       content="https://yasslab.jp/img/logo_square.png"/>
-    <meta property="og:url"         content="https://yasslab.jp/">
-    <meta property="og:type"        content="company" />
     <meta property="og:description" content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource." />
+    <meta property="og:image"       content="https://yasslab.jp/img/logo_rect_copy.png"/>
+    <meta property="og:url"         content="https://yasslab.jp/">
+    <meta property="og:type"        content="business.business" />
+    
+    <meta property="business:contact_data:street_address" content="CASE Shinjuku, Sankei Bldg 4F" />
+    <meta property="business:contact_data:locality"       content="Takadanobaba 1-28-10, Shinjuku-ku, Tokyo" /> 
+    <meta property="business:contact_data:postal_code"    content="169-0075" />
+    <meta property="business:contact_data:country_name"   content="Japan" />
+    <meta property="place:location:latitude"              content="35.712252" />
+    <meta property="place:location:longitude"             content="139.704743" />
 
     <meta name="twitter:card"  content="summary" />
     <meta name="twitter:site"  content="@YassLab" />
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource." />
-    <meta name="twitter:image" content="https://yasslab.jp/img/logo_square.png" />
+    <meta name="twitter:image" content="https://yasslab.jp/img/logo_rect_copy.png" />
     <meta name="twitter:url"   content="https://yasslab.jp/" />
 
     <link rel="author" type="text/plain" href="https://yasslab.jp/humans.txt" />
