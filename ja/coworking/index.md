@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  コワーキング×試聴会の提案 – YassLab株式会社
+title:  コワーキング×試聴会の提案 – YassLab 株式会社
 lang:   ja
 ---
 
@@ -18,7 +18,7 @@ lang:   ja
 	- 例えば、[ReadyMedia](http://minidlna.sourceforge.net/) (旧MiniDLNA) でUPnP対応ができます
 	- cf. [ReadyMedia - archlinux wiki](https://wiki.archlinuxjp.org/index.php/ReadyMedia)
 	- cf. [MiniDLNA - Ubuntu Community Wiki](https://help.ubuntu.com/community/MiniDLNA)
-3. YassLab 側が所有する解説動画を当該サーバーにコピーします
+3. YassLab 社が所有する解説動画を当該サーバーにコピーします
     - 準備ができたら yohei@yasslab.jp までご連絡ください :)
 4. [Kodi](https://kodi.tv/) をインストールして、Kodi を通して動画を試聴できるかどうか確認します
 	- 参考: [Railsライブ収録動画の試聴方法 - YassLab](https://yasslab.wistia.com/projects/ebtpo9ofbd)
