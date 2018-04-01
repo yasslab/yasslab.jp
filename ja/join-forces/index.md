@@ -40,35 +40,35 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 
 ## [🛠 自社プロダクトまとめ](#products) {#products}
 
+```
 - 開発目的: そのプロダクトで実現したいこと
 - 使用技術: 開発で使われているテクノロジー
 - 関連情報: 参考になる公開情報など
+```
 
-### 1. Railsチュートリアルの自動更新 {#railstutorial}
+### 1. Railsチュートリアルの自動更新 📕  {#railstutorial}
 
-- 開発目的: Railsチュートリアルの品質を保ちつつ、なるべく低コストで更新したい 📕💰
+- 開発目的: [Railsチュートリアル](https://railstutorial.jp/)の品質を保ちつつ、なるべく低コストで更新したい
 - 使用技術: Ruby, Rails, LaTeX, [softcover](https://github.com/softcover/softcover), Heroku
 - 関連情報: 
-	- [https://railstutorial.jp/](https://railstutorial.jp/)
 	- yasslab/railstutorial.jp_web (Private)
 	- yasslab/ruby_on_rails_tutorial_book (Private)
 	- スライド: [Railsチュートリアルを支える継続的組版技術](https://speakerdeck.com/yasulab/continuous-integration-for-ebook)
 
 
-### 2. Railsガイドの自動更新 {#railsguides}
+### 2. Railsガイドの自動更新 📙 {#railsguides}
 
-- 開発目的: Railsガイドの品質を保ちつつ、なるべく低コストで更新したい 📙💰
-- 使用技術: Ruby, [Re:VIEW](https://github.com/kmuto/review), Shell Script, Heroku
+- 開発目的: [Railsガイド](https://railsguides.jp/)の品質を保ちつつ、なるべく低コストで更新したい
+- 使用技術: Ruby, Rails, Jekyll, [Re:VIEW](https://github.com/kmuto/review), Heroku
 - 関連情報: 
-	- [https://railsguides.jp/](https://railsguides.jp/)
 	- [yasslab/railsguides.jp](https://github.com/yasslab/railsguides.jp) (OSS)
 	- yasslab/railsguides.jp_ebook (Private)
+	- スライド: [OSS入門としてのRailsガイド](https://speakerdeck.com/yasulab/railsguides-as-an-oss-gate)
 
+### 3. CoderDojo Japan の開発 ☯️ {#coderdojo-japan}
 
-### 3. CoderDojo Japan の開発 {#coderdojo-japan}
-
-- 開発目的: 全国の CoderDojo コミュニティの活動をテクノロジーで支援したい ☯️
-- 使用技術: Ruby on Rails, DB設計, [Scrivito](https://scrivito.com/) (Rails CMS), Haml, Heroku
+- 開発目的: 全国の CoderDojo コミュニティの活動をテクノロジーで支援したい
+- 使用技術: Ruby, Rails, DB設計, [Scrivito](https://scrivito.com/) (Rails CMS), Haml, Heroku
 - 関連情報: 
 	- [https://coderdojo.jp/](https://coderdojo.jp/), [統計情報](https://coderdojo.jp/stats)など
 	- [coderdojo-japan/coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp) (OSS)
@@ -90,9 +90,9 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 
 弊社は完全リモートワーク制で開発を進めていることもあり、実際に体験してみないと伝えきれない雰囲気も多いです。一緒に何かを進める過程でそれぞれの長所/短所を知り、その上で継続するのであれば、お互いに納得感を持って働くことにも繋がると思います。
 
-もちろん、結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、なるべく OSS プロジェクトを題材にしているので、その後の就職/転職活動で開発に貢献した実績を活かすこともできます。
+もちろん結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、なるべく OSS のプロジェクトを題材にしているので、その後の就職/転職活動で OSS に貢献した実績を活かすこともできます。
 
-Ruby on Rails アプリケーションである [3. CoderDojo Japan の開発](#coderdojo-japan) が題材として特に人気ですが、それ以外にも多様な OSS プロダクトを GitHub 上から公開しております。他のプロダクトについては [GitHub から公開しているリポジトリ](https://github.com/yasslab)をご参照ください ;)
+題材としては Ruby on Rails アプリケーションである [CoderDojo Japan の開発](#coderdojo-japan) が特に人気ですが、それ以外にも多様な OSS プロダクトを GitHub 上から公開しております。他のプロダクトについては [GitHub から公開しているリポジトリ](https://github.com/yasslab)をご参照ください ;)
 <br><br>
 
 
