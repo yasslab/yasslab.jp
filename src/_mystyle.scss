@@ -30,7 +30,6 @@ html {
   }
 }
 
-
 // front-page
 
 .mainVisual > .jumbotron {
@@ -38,4 +37,14 @@ html {
   color: #ffffff;
   padding: 300px 0;
   margin-bottom: 0;
+}
+
+.catchCopy {
+  text-align: center;
+  padding: 200px 0;
+  background: url("https://picsum.photos/1200/516?image=949");
+  & > p {
+	max-width: 200px;
+  }
+
 }
