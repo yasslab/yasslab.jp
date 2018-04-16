@@ -2,7 +2,7 @@
 
 - `npm install`
     - 初回のnpmのインストール
-- `npm run scripts`
+- `npm run css`
     - cssのコンパイル
 - `npm run watch`
     - sassファイルの監視
