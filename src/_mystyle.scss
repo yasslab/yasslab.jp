@@ -49,22 +49,7 @@ html {
 
 }
 
-.service {
-  text-align: center;
-  h3 {
-	margin: 100px 0;
-  }
-  img {
-	margin-bottom: 20px;
-  }
-  button {
-	border-radius: 0px;
-	margin-bottom: 20px;
-  }
-}
-
-.developmentSupport {
-  background-color: #EAEAEA;
+.service,.developmentSupport,.aboutVisual,.okinawaMember {
   text-align: center;
   padding: 50px 0;
   h3 {
@@ -73,4 +58,28 @@ html {
   img {
 	margin-bottom: 20px;
   }
+}
+
+
+.service {
+  button {
+	border-radius: 0px;
+	margin-bottom: 20px;
+  }
+}
+
+.developmentSupport {
+  background-color: #EAEAEA;
+}
+
+.aboutVisual {
+   h2 {
+	 padding: 50px 0 50px 0;
+   }
+   img {
+	 margin-bottom: 20px;
+   }
+ }
+
+.okinawaMember {
 }
