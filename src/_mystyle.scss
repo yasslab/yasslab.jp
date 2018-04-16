@@ -1,7 +1,31 @@
-*{
+* {
   box-sizing: border-box;
 }
-img{
+
+img {
   max-width: 100%;
   height: auto;
+}
+
+// font setting
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700);
+
+@mixin link() {
+  background: linear-gradient(transparent 60%, #ff6 60%);
+  box-shadow: none;
+}
+
+html {
+  font-size: 15px;
+
+  &[lang="ja"] {
+	body,
+	button,
+	input,
+	select,
+	textarea {
+	  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif;
+	}
+  }
 }
