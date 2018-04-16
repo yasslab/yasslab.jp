@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>YassLab 株式会社 – Having a Good Life with OpenSource ;)</title>
+
+    <meta name="apple-mobile-web-app-title" content="YassLab 株式会社"/>
+    <meta name="application-name" content="YassLab 株式会社"/>
+    <meta name="keywords" content="アジャイル リモートワーク Ruby Rails 教育 オープンソース"/>
+    <meta name="author" content="YassLab 株式会社"/>
+
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <meta name="google-site-verification" content="yDbQDXQZ6tC4VzzqH511E5wFuDQqzYuvMFytfYtyUsc"/>
+    <meta name="google-site-verification" content="_5DHY3tGdFZ7kKhnFfr95n5UKOpnpJsinGJCmcwfjHs"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" type="text/css" href="./css/custom.css"           media="screen"> -->
+    <!--<link rel="stylesheet" type="text/css" href="./css/stylesheet.css" media="screen">-->
+    <link rel="stylesheet" type="text/css" href="./css/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./dist/css/custom.min.css" media="screen">
+
+
+    <meta name="title" content="YassLab 株式会社 – Having a Good Life with OpenSource ;)"/>
+    <meta name="description"
+          content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource."/>
+
+    <meta property="fb:admins" content="715330868"/>
+    <meta property="fb:app_id" content="680598798739780"/>
+    <meta property="og:title" content="YassLab 株式会社 – Having a Good Life with OpenSource ;)"/>
+    <meta property="og:site_name" content="YassLab 株式会社 – Having a Good Life with OpenSource ;)"/>
+    <meta property="og:description"
+          content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource."/>
+    <meta property="og:image" content="https://yasslab.jp/img/logo_square.png"/>
+    <meta property="og:url" content="https://yasslab.jp/">
+    <meta property="og:type" content="business.business"/>
+
+    <meta property="business:contact_data:street_address" content="CASE Shinjuku, Sankei Bldg 4F"/>
+    <meta property="business:contact_data:locality" content="Takadanobaba 1-28-10, Shinjuku-ku, Tokyo"/>
+    <meta property="business:contact_data:postal_code" content="169-0075"/>
+    <meta property="business:contact_data:country_name" content="Japan"/>
+    <meta property="place:location:latitude" content="35.712252"/>
+    <meta property="place:location:longitude" content="139.704743"/>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@YassLab"/>
+    <meta name="twitter:title" content="YassLab 株式会社 – Having a Good Life with OpenSource ;)"/>
+    <meta name="twitter:description"
+          content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource."/>
+    <meta name="twitter:image" content="https://yasslab.jp/img/logo_square.png"/>
+    <meta name="twitter:url" content="https://yasslab.jp/"/>
+
+    <link rel="author" type="text/plain" href="https://yasslab.jp/humans.txt"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon-96x96.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="./img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header class="siteHeader">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</header>
+<section class="mainVisual">
+    <div class="jumbotron">
+        <h1 class="display-4 text-center">Hello, world!</h1>
+    </div>
+</section>
+<section class="catchCopy">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Ruby on Railsの技術力をベースにした事業</h2>
+                <p>僕たちはオープンソースソフトウェアと、そのコミュニティによって支えられて育ちました。そのため、オープンソースやそのコミュニティと共に活きるビジネスに挑戦しています。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>技術書の翻訳・動画制作・ライセンス販売</h3>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                        <button class="btn btn-primary">初級・中級者向け</button>
+                        <h4>Ruby on Rails チュートリアル</h4>
+                        <p>Michael Hartl (マイケル・ハートル)による <a href="#">Ruby on Rails Tutorial</a> を日本語に翻訳した書籍です。</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                        <button class="btn btn-primary">上級者向け</button>
+                        <h4>Ruby on Rails ガイド</h4>
+                        <p><a href="">Ruby on Rails Guides</a>
+                            に基づいた公式の大型リファレンス。Rails開発の生産性を高めたいとき・Railsの各機能を体系的に学びたいときに。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="developmentSupport">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>他社の事業をRuby/Railsで開発支援</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <figure id="freee">
+                            <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                            <figcaption>freee</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-4">
+                        <figure id="freee">
+                            <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                            <figcaption>freee</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-4">
+                        <figure id="freee">
+                            <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                            <figcaption>freee</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="aboutVisual">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>沖縄と東京のリモートワーク</h2>
+                <p>現在、沖縄在住＆技術力で勝負したいソフトウェアエンジニアを募集しています。フルタイム勤務ですが、副業も可。Iターンも相談に応じます。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="okinawaMember">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>沖縄メンバー</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tokyoMember">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>東京メンバー</h3>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card cardMember">
+                            <div class="cardMember__thumbnail">
+                                <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                            </div>
+                            <div class="cardMember__content">
+                                <a href="#" class="cardMember__account">@aaaa</a>
+                                <p class="cardMember_summary">紹介文がここに入ります。３行程度でおさめます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="">
+                        <button class="btn btn-primary">会社概要を見る</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sns">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card card__qiita">
+                    <dl>
+                        <dt>投稿数</dt>
+                        <dr>141</dr>
+                        <dt>いいね</dt>
+                        <dr>6148</dr>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card card__qithub">
+                    <dl>
+                        <dt>リポジトリ数</dt>
+                        <dr>141</dr>
+                        <dt>スター数</dt>
+                        <dr>6148</dr>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="commutySupport">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>コミュニティ支援</h2>
+                <p>YassLab では、能力や素質のある人を育成・発掘するために教育事業を展開し、さらに様々なコミュニティのオープンソース活動を支援しています。</p>
+                <div class="row">
+                    <div class="col-4">
+                        <figure>
+                            <img src="https://dummyimage.com/600x200/000/fff" alt="">
+                            <figcaption>Rubyコミュニティの運営支援</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-4">
+                        <figure>
+                            <img src="https://dummyimage.com/600x200/000/fff" alt="">
+                            <figcaption>Rubyコミュニティの運営支援</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-4">
+                        <figure>
+                            <img src="https://dummyimage.com/600x200/000/fff" alt="">
+                            <figcaption>Rubyコミュニティの運営支援</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="https://dummyimage.com/600x200/000/fff" alt="">
+            </div>
+            <div class="col-4">
+                <img src="https://dummyimage.com/600x200/000/fff" alt="">
+            </div>
+            <div class="col-4">
+                <img src="https://dummyimage.com/600x200/000/fff" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="whatsNew">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>What's New</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                        <p>オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                        <p>オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                        <p>オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="https://dummyimage.com/400x400/000/fff" alt="">
+                        <p>オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>お問い合わせ</h2>
+                
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
