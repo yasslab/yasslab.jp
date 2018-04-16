@@ -7,6 +7,10 @@ img {
   height: auto;
 }
 
+.btn {
+  padding: 15px 60px;
+}
+
 // font setting
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700);
@@ -49,9 +53,12 @@ html {
 
 }
 
-.service,.developmentSupport,.aboutVisual,.okinawaMember {
+.service, .developmentSupport, .aboutVisual, .okinawaMember, .tokyoMember, .commutySupport, .partner, .whatsNew {
   text-align: center;
   padding: 50px 0;
+  h2 {
+	padding: 50px 0 50px 0;
+  }
   h3 {
 	padding: 50px 0 100px 0;
   }
@@ -68,6 +75,12 @@ html {
   }
 }
 
+.btn-ruby {
+  background-color: $ruby;
+  color: #ffffff;
+  font-weight: normal;
+}
+
 .developmentSupport {
   background-color: #EAEAEA;
 }
@@ -82,4 +95,13 @@ html {
  }
 
 .okinawaMember {
+}
+
+.cardMember {
+  border: none;
+  padding: 50px;
+}
+
+.commutySupport {
+  background-color: #EAEAEA;
 }
