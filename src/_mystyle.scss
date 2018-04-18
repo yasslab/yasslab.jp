@@ -160,3 +160,14 @@ html {
 .whatsNew {
   border-top: #EAEAEA 3px solid;
 }
+
+
+.siteHeader {
+  .navbar {
+	.navbar-nav {
+	  .nav-item {
+		padding: 0 25px;
+	  }
+	}
+  }
+}
