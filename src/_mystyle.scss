@@ -53,7 +53,14 @@ html {
 
 }
 
-.service, .developmentSupport, .aboutVisual, .okinawaMember, .tokyoMember, .commutySupport, .partner, .whatsNew {
+.service,
+.developmentSupport,
+.aboutVisual,
+.okinawaMember,
+.tokyoMember,
+.commutySupport,
+.partner,
+.whatsNew {
   text-align: center;
   padding: 50px 0;
   h2 {
@@ -66,7 +73,6 @@ html {
 	margin-bottom: 20px;
   }
 }
-
 
 .service {
   button {
@@ -86,13 +92,13 @@ html {
 }
 
 .aboutVisual {
-   h2 {
-	 padding: 50px 0 50px 0;
-   }
-   img {
-	 margin-bottom: 20px;
-   }
- }
+  h2 {
+	padding: 50px 0 50px 0;
+  }
+  img {
+	margin-bottom: 20px;
+  }
+}
 
 .okinawaMember {
 }
