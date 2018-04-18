@@ -58,6 +58,7 @@ html {
 .aboutVisual,
 .okinawaMember,
 .tokyoMember,
+.sns,
 .commutySupport,
 .partner,
 .whatsNew {
@@ -100,14 +101,62 @@ html {
   }
 }
 
-.okinawaMember {
-}
-
 .cardMember {
   border: none;
   padding: 50px;
 }
 
+
+.sns {
+  .card {
+	border-radius: 12px;
+	border: 2px #EAEAEA solid;
+	dl {
+	  padding: 20px 0;
+	  dt {
+	  }
+	  dr {
+		font-size: 2rem;
+		text-align: left;
+	  }
+	}
+	&__icon {
+	  padding: 20px 0;
+	  border-bottom: 2px #EAEAEA solid;
+	  border-top-left-radius: 12px;
+	  border-top-right-radius: 12px;
+	  img {
+		height: 70px;
+		margin-bottom: 0;
+	  }
+	}
+	&__qiita {
+	  .card__icon {
+		background-color: #72C13A;
+	  }
+	}
+	&__github {
+	  .card__icon {
+		background-color: #000000;
+	  }
+	}
+  }
+}
+
 .commutySupport {
   background-color: #EAEAEA;
+  p {
+	margin-bottom: 50px;
+  }
+}
+
+.partner {
+  padding: 100px 0;
+  img {
+	margin-bottom: 0;
+  }
+}
+
+.whatsNew {
+  border-top: #EAEAEA 3px solid;
 }
