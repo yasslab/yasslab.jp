@@ -1,9 +1,11 @@
 var retry = 0;
 const MAX_RETRY = 3;
 
-const modifyDom = function (statistics) {
+var statistics;
+
+const modifyDom = function (stat) {
   // write to modify dom code
-  console.log(statistics);
+  console.log(stat);
 }
 
 function calcGithubStatistics(result) {
@@ -17,6 +19,7 @@ function calcGithubStatistics(result) {
     github_statistics.stars += github_json_data[i].stargazers_count;
   }
 
+  statistics = github_statistics;
   return github_statistics;
 }
 
@@ -45,3 +48,4 @@ function getGithubData() {
 }
 
 getGithubData();
+console.log(statistics); // すぐには反映されない
