@@ -168,7 +168,6 @@ html {
   border-top: #EAEAEA 3px solid;
 }
 
-
 .siteHeader {
   .navbar {
 	.navbar-nav {
@@ -187,4 +186,46 @@ html {
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
+}
+
+
+.content {
+  ul {
+	list-style: none;
+  }
+  .profile {
+	text-align: center;
+	&__sns {
+	  &__icon {
+		display: inline-block;
+		padding: 0 5px;
+	  }
+	}
+  }
+}
+
+.blue-text {
+  color: $blue;
+}
+
+.company {
+  table {
+  }
+  tr {
+	height: 100px;
+  }
+  th,td {
+	vertical-align: top;
+  }
+  th {
+	width: 100px;
+  }
+  img {
+	margin-right: 20px;
+  }
+}
+
+footer {
+  padding: 100px;
+  text-align: center;
 }
