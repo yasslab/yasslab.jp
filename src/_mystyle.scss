@@ -37,16 +37,20 @@ html {
 // front-page
 
 .mainVisual > .jumbotron {
-  background: url("https://picsum.photos/1467/815?image=817");
+  background: url("../img/IMG_104_kako.jpg");
   color: #ffffff;
   padding: 300px 0;
   margin-bottom: 0;
+  background-position: center center;
+  background-size: cover;
 }
 
 .catchCopy {
   text-align: center;
   padding: 200px 0;
-  background: url("https://picsum.photos/1200/516?image=949");
+  background: url(../img/IMG_012_kako.jpg);
+  background-position: center center;
+  background-size: cover;
   & > p {
 	max-width: 200px;
   }
