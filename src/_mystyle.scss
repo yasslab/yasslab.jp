@@ -106,6 +106,13 @@ html {
   padding: 50px;
 }
 
+.okinawaMember,
+.tokyoMember {
+  padding: 0;
+  h3 {
+	padding: 20px;
+  }
+}
 
 .sns {
   .card {
@@ -170,4 +177,14 @@ html {
 	  }
 	}
   }
+}
+
+
+// page
+
+.pageVisual > .jumbotron {
+  background: url("https://picsum.photos/1467/815?image=817");
+  color: #ffffff;
+  padding: 100px 0;
+  margin-bottom: 0;
 }
