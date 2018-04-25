@@ -24,13 +24,13 @@ html {
   font-size: 15px;
 
   &[lang="ja"] {
-	body,
-	button,
-	input,
-	select,
-	textarea {
-	  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif;
-	}
+    body,
+    button,
+    input,
+    select,
+    textarea {
+      font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif;
+    }
   }
 }
 
@@ -52,7 +52,7 @@ html {
   background-position: center center;
   background-size: cover;
   & > p {
-	max-width: 200px;
+    max-width: 200px;
   }
 
 }
@@ -69,26 +69,26 @@ html {
   text-align: center;
   padding: 50px 0;
   h2 {
-	padding: 50px 0 50px 0;
+    padding: 50px 0 50px 0;
   }
   h3 {
-	padding: 50px 0 100px 0;
+    padding: 50px 0 100px 0;
   }
   img {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
 .service {
   button {
-	border-radius: 0px;
-	margin-bottom: 20px;
+    border-radius: 0px;
+    margin-bottom: 20px;
   }
-  .books{
+  .books {
     display: block;
-    margin:0 auto;
-    margin-bottom:20px;
-    width:133px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 133px;
   }
 }
 
@@ -104,10 +104,10 @@ html {
 
 .aboutVisual {
   h2 {
-	padding: 50px 0 50px 0;
+    padding: 50px 0 50px 0;
   }
   img {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -120,57 +120,57 @@ html {
 .tokyoMember {
   padding: 0;
   h3 {
-	padding: 20px;
+    padding: 20px;
   }
 }
 
 .sns {
   .card {
-	border-radius: 12px;
-	border: 2px #EAEAEA solid;
-	dl {
-	  padding: 20px 0;
-	  dt {
-	  }
-	  dr {
-		font-size: 2rem;
-		text-align: left;
-	  }
-	}
-	&__icon {
-	  padding: 20px 0;
-	  border-bottom: 2px #EAEAEA solid;
-	  border-top-left-radius: 12px;
-	  border-top-right-radius: 12px;
-	  img {
-		height: 70px;
-		margin-bottom: 0;
-	  }
-	}
-	&__qiita {
-	  .card__icon {
-		background-color: #72C13A;
-	  }
-	}
-	&__github {
-	  .card__icon {
-		background-color: #000000;
-	  }
-	}
+    border-radius: 12px;
+    border: 2px #EAEAEA solid;
+    dl {
+      padding: 20px 0;
+      dt {
+      }
+      dr {
+        font-size: 2rem;
+        text-align: left;
+      }
+    }
+    &__icon {
+      padding: 20px 0;
+      border-bottom: 2px #EAEAEA solid;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      img {
+        height: 70px;
+        margin-bottom: 0;
+      }
+    }
+    &__qiita {
+      .card__icon {
+        background-color: #72C13A;
+      }
+    }
+    &__github {
+      .card__icon {
+        background-color: #000000;
+      }
+    }
   }
 }
 
 .commutySupport {
   background-color: #EAEAEA;
   p {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
 .partner {
   padding: 100px 0;
   img {
-	margin-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -180,14 +180,17 @@ html {
 
 .siteHeader {
   .navbar {
-	.navbar-nav {
-	  .nav-item {
-		padding: 0 25px;
-	  }
-	}
+    .navbar-nav {
+      .nav-item {
+        padding: 0 15px;
+
+      }
+      .nav-link {
+        font-size: $font-size-sm;
+      }
+    }
   }
 }
-
 
 // page
 
@@ -198,19 +201,18 @@ html {
   margin-bottom: 0;
 }
 
-
 .content {
   ul {
-	list-style: none;
+    list-style: none;
   }
   .profile {
-	text-align: center;
-	&__sns {
-	  &__icon {
-		display: inline-block;
-		padding: 0 5px;
-	  }
-	}
+    text-align: center;
+    &__sns {
+      &__icon {
+        display: inline-block;
+        padding: 0 5px;
+      }
+    }
   }
 }
 
@@ -222,16 +224,16 @@ html {
   table {
   }
   tr {
-	height: 100px;
+    height: 100px;
   }
-  th,td {
-	vertical-align: top;
+  th, td {
+    vertical-align: top;
   }
   th {
-	width: 100px;
+    width: 100px;
   }
   img {
-	margin-right: 20px;
+    margin-right: 20px;
   }
 }
 
