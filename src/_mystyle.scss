@@ -11,6 +11,10 @@ img {
   padding: 15px 60px;
 }
 
+.bd{
+  border : 1px solid #cc0000; 
+}
+
 // font setting
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700);
@@ -72,8 +76,31 @@ html {
 	padding: 50px 0 50px 0;
   }
   h3 {
-	padding: 50px 0 100px 0;
+	padding: 50px 0 40px 0;
   }
+  /*h3:after{
+  width:20%;
+  content: "";
+  border-bottom: 1px solid #000;
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  bottom: -20px;
+  }*/
+  /*h3:after{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+  }*/
   img {
 	margin-bottom: 20px;
   }
