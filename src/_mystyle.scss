@@ -235,6 +235,7 @@ html {
   .profile {
     text-align: center;
     &__sns {
+      padding: 0;
       &__icon {
         display: inline-block;
         padding: 0 5px;
@@ -267,4 +268,17 @@ html {
 footer {
   padding: 100px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .siteHeader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  body {
+    padding-top: 49px;
+  }
 }
