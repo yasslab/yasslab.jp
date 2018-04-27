@@ -47,6 +47,22 @@ html {
   margin-bottom: 0;
   background-position: center center;
   background-size: cover;
+  h1{
+    text-shadow: 1px 1px 1px #444;
+    font-size: 2rem;
+  }
+  h1 img{
+    display: block;
+    margin:0 auto;
+    padding-bottom:30px;
+  }
+}
+@media screen and (min-width: 768px) {
+   .mainVisual > .jumbotron {
+     h1{
+      font-size: 3rem;
+    }
+  }
 }
 
 .catchCopy {
