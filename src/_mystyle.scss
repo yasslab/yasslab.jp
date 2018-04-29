@@ -128,8 +128,11 @@ html {
 
 .service {
   button {
-    border-radius: 0px;
+    /*border-radius: 0px;*/
     margin-bottom: 20px;
+  }
+  button:hover{
+    opacity:0.9;
   }
   .books {
     display: block;
