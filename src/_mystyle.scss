@@ -164,6 +164,7 @@ html {
 .aboutVisual {
   text-align: center;
   padding: 150px 0;
+  margin-bottom:20px;
   background: url(../img/remote-img.jpg);
   background-position: center center;
   background-size: cover;
@@ -180,7 +181,7 @@ html {
 
 .cardMember {
   border: none;
-  padding: 50px;
+  padding: 50px 50px 0 50px;
 }
 
 .okinawaMember,
