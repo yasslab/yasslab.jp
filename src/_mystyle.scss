@@ -158,7 +158,19 @@ html {
 }
 
 .developmentSupport {
-  background-color: #EAEAEA;
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  background: -moz-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  background: -ms-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  background: -o-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  background: linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  
+  h3{
+    color:#fff;
+  }
+  figcaption{
+    color:#b3dce6;
+  }
 }
 
 .aboutVisual {
