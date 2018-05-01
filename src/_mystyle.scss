@@ -15,6 +15,13 @@ img {
   border: 1px solid #cc0000;
 }
 
+br.pc-hidden{
+	display:none;
+@media screen and (max-width: 768px) {
+  display:inline;
+  }
+}
+
 // font setting
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700);
