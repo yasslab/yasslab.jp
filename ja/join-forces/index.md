@@ -125,7 +125,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 - 福利厚生など:
    - 労働保険、雇用保険、社会保険、昇給あり (パートタイムの場合、条件による)
    - 完全週休２日制、夏季/冬季休暇、年末年始休暇、年次有給休暇、慶弔休暇あり 
-   - 詳細は[雇用契約書のサンプル](https://www.dropbox.com/s/vjq5p1thwxj5l4f/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0)または[業務委託契約書のサンプル](https://www.dropbox.com/s/rdz75lqwt3bsw1y/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97_%E5%9F%BA%E6%9C%AC%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0)をご参照ください
+   - 詳細は[雇用契約書](https://www.dropbox.com/s/vjq5p1thwxj5l4f/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0)/[業務委託契約書](https://www.dropbox.com/s/rdz75lqwt3bsw1y/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97_%E5%9F%BA%E6%9C%AC%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0)/[秘密保持契約書](https://www.dropbox.com/s/puh54vxf2pf4rg1/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_NDA.pdf?dl=0)のサンプルをご参照ください
 
 - 顧問社労士: [社会保険労務士 岡 佳伸事務所](http://oka-sr.jp/) 岡 佳伸
 - 顧問税理士: [Hay未来の税理士法人](http://www.hay-kaikei.com/) 林 寛之
