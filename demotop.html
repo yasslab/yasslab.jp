@@ -93,12 +93,14 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <h1>
+          <a href="#">
+            <img src="img/logo-home.svg" width="150" alt="ホーム">
+          </a>
+        </h1>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">ホーム <span class="sr-only">(current)</span></a>
-                </li>
+           <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#tech">YassLab. の技術</a>
                 </li>
@@ -114,21 +116,28 @@
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#contact">お問い合わせ</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">English</a>
+                </li>
             </ul>
+
+             
+            <!--div class="d-flex justify-content-end">ああああ</div-->
         </div>
     </nav>
 </header>
 <section class="mainVisual">
     <div class="jumbotron">
-        <h1 class="display-4 text-center" style="text-shadow: 1px 1px 1px #444;">Having a Good Life with OpenSource
-            ;)</h1>
+        <h1 class="display-4 text-center">
+          <img src="img/logo-yasslab.svg" width="270" alt="YassLab.">
+          Having a Good Life with OpenSource ;)</h1>
     </div>
 </section>
 <section class="catchCopy" id="tech">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Ruby on Railsの技術力をベースにした事業</h2>
+                <h2>Ruby on Railsの<br class="pc-hidden">技術力をベースにした事業</h2>
                 <p>僕たちはオープンソースソフトウェアと、そのコミュニティによって支えられて育ちました。<br>そのため、オープンソースやそのコミュニティと共に活きるビジネスに挑戦しています。</p>
             </div>
         </div>
@@ -171,23 +180,23 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3>他社の事業をRuby/Railsで開発支援</h3>
+                <h3>他社の事業を<br class="pc-hidden">Ruby/Railsで開発支援</h3>
                 <div class="row">
                     <div class="col-md-4">
                         <figure id="freee">
-                            <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                            <img src="https://dummyimage.com/600x400/fff/000" alt="">
                             <figcaption>freee</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-4">
                         <figure id="freee">
-                            <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                            <img src="https://dummyimage.com/600x400/fff/000" alt="">
                             <figcaption>リクルート</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-4">
                         <figure id="freee">
-                            <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                            <img src="https://dummyimage.com/600x400/fff/000" alt="">
                             <figcaption>永和システムマネジメント</figcaption>
                         </figure>
                     </div>
@@ -200,8 +209,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>沖縄と東京のリモートワーク</h2>
-                <p>現在、沖縄在住＆技術力で勝負したいソフトウェアエンジニアを募集しています。フルタイム勤務ですが、副業も可。Iターンも相談に応じます。</p>
+                <h2>沖縄と東京の<br class="pc-hidden">リモートワーク</h2>
+                <p>現在、沖縄在住＆技術力で勝負したいソフトウェアエンジニアを募集しています。<br />フルタイム勤務ですが、副業も可。Iターンも相談に応じます。</p>
             </div>
         </div>
     </div>
@@ -374,20 +383,26 @@
                 <div class="row">
                     <div class="col-md-4">
                         <figure>
-                            <img src="https://dummyimage.com/600x200/000/fff" alt="">
+                            <a href="http://ruby.okinawa/" target="_blank">
+                              <img src="img/comu-okinawa-rb.gif" alt="Okinawa.rb">
+                            </a>
                             <figcaption>Rubyコミュニティの運営支援</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-4">
                         <figure>
-                            <img src="https://dummyimage.com/600x200/000/fff" alt="">
-                            <figcaption>Rubyコミュニティの運営支援</figcaption>
+                            <a href="https://www.doorkeeper.jp/" target="_blank">
+                              <img src="img/comu-doorkeeper.gif" alt="Doorkeeper">
+                            </a>
+                            <figcaption>イベント管理サービスの運営支援</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-4">
                         <figure>
-                            <img src="https://dummyimage.com/600x200/000/fff" alt="">
-                            <figcaption>Rubyコミュニティの運営支援</figcaption>
+                            <a href="https://coderdojo.jp/" target="_blank">
+                              <img src="img/comu-corder-dojo.gif" alt="CorderDojo Japan">
+                            </a>
+                            <figcaption>Webサービスの運営支援</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -399,13 +414,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="https://dummyimage.com/600x200/000/fff" alt="">
+                <a href="https://jr.mitou.org/" target="_blank">
+                  <img src="img/logo-mitoujr.png" alt="未踏ジュニア">
+                </a>
             </div>
             <div class="col-md-4">
-                <img src="https://dummyimage.com/600x200/000/fff" alt="">
+                <a href="https://franliber.co.jp/" target="_blank">
+                  <img src="img/partner-franliber.png" alt="FranLiber" class="bd-bk">
+                </a>
             </div>
             <div class="col-md-4">
-                <img src="https://dummyimage.com/600x200/000/fff" alt="">
+                <a href="https://railscp.com/" target="_blank">
+                  <img src="img/partner-railstest.png" alt="（社）Rails技術者認定試験運営委員会" class="bd-bk">
+                </a>
             </div>
         </div>
     </div>
@@ -447,6 +468,11 @@
         </div>
     </div>
 </section>
+<footer>
+    <section class="mainForm">
+        aaa
+    </section>
+</footer>
 </body>
 </html>
 
