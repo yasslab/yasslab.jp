@@ -24,7 +24,7 @@ br.pc-hidden{
 
 // font setting
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700');
 
 @mixin link() {
   background: linear-gradient(transparent 60%, #ff6 60%);
@@ -346,5 +346,39 @@ footer {
   }
   body {
     padding-top: 49px;
+  }
+}
+
+
+.entry_content{
+  a{
+    text-decoration: underline;
+  }
+  line-height: 1.5;
+  h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  h2{
+    border-left: 6px solid #ccc;
+    padding: 6px 0px 6px 12px;
+    margin: 30px 0px 10px 0;
+    font-weight: bold;
+  }
+  h3{
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+  }
+  p,ul{
+    margin-bottom: 40px;
+  }
+  ul>li{
+    margin-top: 10px;
+  }
+  li{
+    margin-bottom: 10px;
   }
 }
