@@ -6,7 +6,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: SfD/maxqOYQKLMWyT+N/iQAK0xpOuUxvJaCfC3djbvFISRs/ApTZ8OpckQrq/QDSam8E9dBlVkoyr2aqwRde4LM12sKR1/LAu8pY46e8AbGJXUYe86F958bN9cObncyI2jy5K4Cm8Nls8mv1K/9sWXlS3Z/UEYUSt83raJIGBdE=
+    secure: "evUEw6mJ9g2ryIChUI7rb5DNozrBjhC536gaNHUPZhshyxrJTkErK//rY+gGk0ETo6dVD2vMBi0fpq8+M30XfV7ew5IiZv42yuuRdsamnhkQzlxaK5D4IddK7Z47KvNXtPGW28nIBvSJ42EnCdHqwSLTLvuUUaTMa7QXMX6bO9M="
   app:
     master: yasslab-jp
 notifications:
