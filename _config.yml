@@ -6,7 +6,7 @@ company:
   
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://yasslab-jp-pr-10.herokuapp.com" # the base hostname & protocol for your site
+url: "https://yasslab.jp" # the base hostname & protocol for your site
 twitter_username: yasslab
 github_username:  yasslab
 source:      ./
