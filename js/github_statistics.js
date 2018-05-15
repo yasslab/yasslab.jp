@@ -1,14 +1,14 @@
-var retry_count = 0;
+let retry_count = 0;
 const MAX_RETRY = 3;
 
-var error_stats = {
+const error_stats = {
   repositories: "🙏",
   stars: "🙇"
 };
 
 const modifyDom = function (stats) {
-  var repositories = document.getElementById("github__repositories");
-  var stars = document.getElementById("github__stars");
+  const repositories = document.getElementById("github__repositories");
+  const stars = document.getElementById("github__stars");
 
   if (repositories && stars) {
     repositories.textContent = stats.repositories;
@@ -17,15 +17,15 @@ const modifyDom = function (stats) {
 }
 
 function calcGithubStatistics(result) {
-  var github_json_data = JSON.parse(result.target.responseText);
-  var repo_count = github_json_data.length;
+  const github_json_data = JSON.parse(result.target.responseText);
+  const repo_count = github_json_data.length;
 
-  var github_statistics = {
+  const github_statistics = {
     repositories: repo_count,
     stars: 0
   };
 
-  for (var i = 0; i < repo_count; i++) {
+  for (let i = 0; i < repo_count; i++) {
     github_statistics.stars += github_json_data[i].stargazers_count;
   }
 
@@ -33,7 +33,7 @@ function calcGithubStatistics(result) {
 }
 
 function githubSuccessCallback(result) {
-  var is_succeed = false;
+  let is_succeed = false;
   if (result.target.status != 200) {
     if (retry_count < MAX_RETRY) {
       retry_count++;
@@ -42,7 +42,7 @@ function githubSuccessCallback(result) {
       modifyDom(error_stats);
     }
   } else {
-    var github_statistics = calcGithubStatistics(result);
+    const github_statistics = calcGithubStatistics(result);
     modifyDom(github_statistics);
     is_succeed = true;
   }
@@ -51,7 +51,7 @@ function githubSuccessCallback(result) {
 }
 
 function githubErrorCallback(result) {
-  var is_retried = true;
+  let is_retried = true;
   if (retry_count < MAX_RETRY) {
     retry_count++;
     getGithubData();
