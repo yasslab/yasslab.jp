@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
-  <head>
+<head>
     <title>{{ page.title }}</title>
+
     {% if page.lang == "ja" %}
-    <meta name="apple-mobile-web-app-title" content="YassLab 株式会社" />
-    <meta name="application-name"           content="YassLab 株式会社" />
-    <meta name="keywords"    content="アジャイル リモートワーク Ruby Rails 教育 オープンソース" />
-    <meta name="author"      content="YassLab 株式会社" />
+    <meta name="apple-mobile-web-app-title" content="YassLab 株式会社"/>
+    <meta name="application-name" content="YassLab 株式会社"/>
+    <meta name="keywords" content="アジャイル リモートワーク Ruby Rails 教育 オープンソース"/>
+    <meta name="author" content="YassLab 株式会社"/>
 
     {% else %}
-    <meta name="apple-mobile-web-app-title" content="YassLab Inc." />
-    <meta name="application-name"           content="YassLab Inc." />
-    <meta name="keywords"    content="Agile RemoteWork Ruby Rails Education OpenSource" />
-    <meta name="author"      content="YassLab Inc." />
+    <meta name="apple-mobile-web-app-title" content="YassLab Inc."/>
+    <meta name="application-name" content="YassLab Inc."/>
+    <meta name="keywords" content="Agile RemoteWork Ruby Rails Education OpenSource"/>
+    <meta name="author" content="YassLab Inc."/>
 
     {% endif %}
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="google-site-verification" content="yDbQDXQZ6tC4VzzqH511E5wFuDQqzYuvMFytfYtyUsc" />
-    <meta name="google-site-verification" content="_5DHY3tGdFZ7kKhnFfr95n5UKOpnpJsinGJCmcwfjHs" />
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <meta name="google-site-verification" content="yDbQDXQZ6tC4VzzqH511E5wFuDQqzYuvMFytfYtyUsc"/>
+    <meta name="google-site-verification" content="_5DHY3tGdFZ7kKhnFfr95n5UKOpnpJsinGJCmcwfjHs"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="/dist/css/custom.min.css"  media="screen">
-    <!-- <link rel="stylesheet" type="text/css" href="/css/custom.css"           media="screen"> -->
-    <link rel="stylesheet" type="text/css" href="/css/stylesheet.css"       media="screen">
-    <link rel="stylesheet" type="text/css" href="/css/pygment_trac.css"     media="screen">
+    <!-- <link rel="stylesheet" type="text/css" href="css/custom.css"           media="screen"> -->
+    <!--<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">-->
+    <link rel="stylesheet" type="text/css" href="/css/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/dist/css/custom.min.css" media="screen">
 
-    
-    <meta name="title"       content="{{ page.title }}" />
-    <meta name="description" content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource." />
 
-    <meta property="fb:admins"      content="715330868" />
-    <meta property="fb:app_id"      content="680598798739780" />
-    <meta property="og:title"       content="{{ page.title }}"/>
-    <meta property="og:site_name"   content="{{ page.title }}"/>
-    <meta property="og:description" content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource." />
-    <meta property="og:image"       content="https://yasslab.jp/img/logo_square.png" />
-    <meta property="og:url"         content="https://yasslab.jp/">
-    <meta property="og:type"        content="business.business" />
-    
-    <meta property="business:contact_data:street_address" content="CASE Shinjuku, Sankei Bldg 4F" />
-    <meta property="business:contact_data:locality"       content="Takadanobaba 1-28-10, Shinjuku-ku, Tokyo" /> 
-    <meta property="business:contact_data:postal_code"    content="169-0075" />
-    <meta property="business:contact_data:country_name"   content="Japan" />
-    <meta property="place:location:latitude"              content="35.712252" />
-    <meta property="place:location:longitude"             content="139.704743" />
+    <meta name="title" content="YassLab 株式会社 – Having a Good Life with OpenSource ;)"/>
+    <meta name="description"
+          content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource."/>
 
-    <meta name="twitter:card"  content="summary" />
-    <meta name="twitter:site"  content="@YassLab" />
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource." />
-    <meta name="twitter:image" content="https://yasslab.jp/img/logo_square.png" />
-    <meta name="twitter:url"   content="https://yasslab.jp/" />
+    <meta property="fb:admins" content="715330868"/>
+    <meta property="fb:app_id" content="680598798739780"/>
+    <meta property="og:title" content="YassLab 株式会社 – Having a Good Life with OpenSource ;)"/>
+    <meta property="og:site_name" content="YassLab 株式会社 – Having a Good Life with OpenSource ;)"/>
+    <meta property="og:description"
+          content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource."/>
+    <meta property="og:image" content="https://yasslab.jp/img/logo_square.png"/>
+    <meta property="og:url" content="https://yasslab.jp/">
+    <meta property="og:type" content="business.business"/>
 
-    <link rel="author" type="text/plain" href="https://yasslab.jp/humans.txt" />
-    
+    <meta property="business:contact_data:street_address" content="CASE Shinjuku, Sankei Bldg 4F"/>
+    <meta property="business:contact_data:locality" content="Takadanobaba 1-28-10, Shinjuku-ku, Tokyo"/>
+    <meta property="business:contact_data:postal_code" content="169-0075"/>
+    <meta property="business:contact_data:country_name" content="Japan"/>
+    <meta property="place:location:latitude" content="35.712252"/>
+    <meta property="place:location:longitude" content="139.704743"/>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@YassLab"/>
+    <meta name="twitter:title" content="YassLab 株式会社 – Having a Good Life with OpenSource ;)"/>
+    <meta name="twitter:description"
+          content="Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource."/>
+    <meta name="twitter:image" content="https://yasslab.jp/img/logo_square.png"/>
+    <meta name="twitter:url" content="https://yasslab.jp/"/>
+
+    <link rel="author" type="text/plain" href="https://yasslab.jp/humans.txt"/>
+
     <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
@@ -66,8 +71,8 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">    
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
     <link rel="manifest" href="/manifest.json">
@@ -77,37 +82,58 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
 
-  </head>
-  <body>
-    <!-- Facebook Plugin -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-    {% if page.lang == "ja" %}
-      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4&appId=680598798739780";
-    {% else %}
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=680598798739780";
-    {% endif %}
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+</head>
+<body>
 
-    <!-- HEADER -->
-<div id="header_wrap" class="outer">
-  <header class="inner">
-    {% if page.lang == "ja" %}
-    <a id="header_to_en" href="/en">English</a>
-    <h1 id="project_title"><a href="/ja" style="color:white;">YassLab 株式会社</a></h1>
-    <h2 id="project_tagline">Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource.</h2>
-    {% else %}
-    <a id="header_to_ja" href="/ja">日本語</a>
-    <h1 id="project_title"><a href="/en" style="color:white;">YassLab Inc.</a></h1>
-    <h2 id="project_tagline">Distributed Company that Works Remotely, focusing on Ruby/Rails Web Development, Education, and OpenSource.</h2>
-    {% endif %}
-  </header>
-</div>
+{% assign top = "YassLab 株式会社 – Having a Good Life with OpenSource ;)" %}
+<header class="siteHeader bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1>
+            <a href="/ja/">
+                <img src="/img/logo-home.svg" width="150" alt="ホーム">
+            </a>
+        </h1>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#tech">YassLab. の技術</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#remote">リモートワーク</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#community">コミュニティ支援活動</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ja/about">会社概要</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#contact">お問い合わせ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/en">English</a>
+                </li>
+            </ul>
+
+
+            <!--div class="d-flex justify-content-end">ああああ</div-->
+        </div>
+    </nav>
+</header>

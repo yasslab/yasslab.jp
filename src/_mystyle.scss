@@ -11,9 +11,20 @@ img {
   padding: 15px 60px;
 }
 
+.bd {
+  border: 1px solid #cc0000;
+}
+
+br.pc-hidden{
+	display:none;
+@media screen and (max-width: 768px) {
+  display:inline;
+  }
+}
+
 // font setting
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700');
 
 @mixin link() {
   background: linear-gradient(transparent 60%, #ff6 60%);
@@ -24,33 +35,55 @@ html {
   font-size: 15px;
 
   &[lang="ja"] {
-	body,
-	button,
-	input,
-	select,
-	textarea {
-	  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif;
-	}
+    body,
+    button,
+    input,
+    select,
+    textarea {
+      font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif;
+    }
   }
 }
 
 // front-page
 
 .mainVisual > .jumbotron {
-  background: url("https://picsum.photos/1467/815?image=817");
+  background: url("../img/IMG_104_kako.jpg");
   color: #ffffff;
   padding: 300px 0;
   margin-bottom: 0;
+  background-position: center center;
+  background-size: cover;
+  h1{
+    text-shadow: 1px 1px 1px #444;
+    font-size: 2rem;
+  }
+  h1 img{
+    display: block;
+    margin:0 auto;
+    padding-bottom:30px;
+  }
+}
+@media screen and (min-width: 768px) {
+   .mainVisual > .jumbotron {
+     h1{
+      font-size: 3rem;
+    }
+  }
 }
 
 .catchCopy {
   text-align: center;
   padding: 200px 0;
-  background: url("https://picsum.photos/1200/516?image=949");
+  background: url(../img/IMG_012_kako.jpg);
+  background-position: center center;
+  background-size: cover;
   & > p {
-	max-width: 200px;
+    max-width: 200px;
   }
-
+@media screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
 }
 
 .service,
@@ -65,20 +98,56 @@ html {
   text-align: center;
   padding: 50px 0;
   h2 {
-	padding: 50px 0 50px 0;
+    padding: 50px 0 50px 0;
   }
   h3 {
-	padding: 50px 0 100px 0;
+    padding: 50px 0 40px 0;
+  }
+  /*h3:after{
+  width:20%;
+  content: "";
+  border-bottom: 1px solid #000;
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  bottom: -20px;
+  }*/
+  /*h3:after{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+  }*/
+  h4{
+    font-weight: bold;
+    font-size: 1.3rem;
   }
   img {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
 .service {
   button {
-	border-radius: 0px;
-	margin-bottom: 20px;
+    /*border-radius: 0px;*/
+    margin-bottom: 20px;
+  }
+  button:hover{
+    opacity:0.9;
+  }
+  .books {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 133px;
   }
 }
 
@@ -89,85 +158,239 @@ html {
 }
 
 .developmentSupport {
-  background-color: #EAEAEA;
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  background: -moz-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  background: -ms-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  background: -o-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  background: linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
+  
+  h3{
+    color:#fff;
+  }
+  figcaption{
+    color:#b3dce6;
+  }
 }
 
 .aboutVisual {
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom:20px;
+  background: url(../img/remote-img.jpg);
+  background-position: center center;
+  background-size: cover;
+  @media screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
   h2 {
-	padding: 50px 0 50px 0;
+    padding: 50px 0 50px 0;
   }
   img {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
 .cardMember {
   border: none;
-  padding: 50px;
+  padding: 50px 50px 0 50px;
 }
 
+.okinawaMember,
+.tokyoMember {
+  padding: 0;
+  h3 {
+    padding: 20px;
+  }
+}
 
 .sns {
   .card {
-	border-radius: 12px;
-	border: 2px #EAEAEA solid;
-	dl {
-	  padding: 20px 0;
-	  dt {
-	  }
-	  dr {
-		font-size: 2rem;
-		text-align: left;
-	  }
-	}
-	&__icon {
-	  padding: 20px 0;
-	  border-bottom: 2px #EAEAEA solid;
-	  border-top-left-radius: 12px;
-	  border-top-right-radius: 12px;
-	  img {
-		height: 70px;
-		margin-bottom: 0;
-	  }
-	}
-	&__qiita {
-	  .card__icon {
-		background-color: #72C13A;
-	  }
-	}
-	&__github {
-	  .card__icon {
-		background-color: #000000;
-	  }
-	}
+    border-radius: 12px;
+    border: 2px #EAEAEA solid;
+    dl {
+      padding: 20px 0;
+      dt {
+      }
+      dr {
+        font-size: 2rem;
+        text-align: left;
+      }
+    }
+    &__icon {
+      padding: 20px 0;
+      border-bottom: 2px #EAEAEA solid;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      img {
+        height: 70px;
+        margin-bottom: 0;
+      }
+    }
+    &__qiita {
+      .card__icon {
+        background-color: #72C13A;
+      }
+    }
+    &__github {
+      .card__icon {
+        background-color: #000000;
+      }
+    }
   }
 }
 
 .commutySupport {
   background-color: #EAEAEA;
   p {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
 .partner {
   padding: 100px 0;
   img {
-	margin-bottom: 0;
+    margin-bottom: 0;
   }
+  img.bd-bk{
+      border : 1px solid #000;
+      margin-top:50px;
+    }
 }
 
 .whatsNew {
   border-top: #EAEAEA 3px solid;
 }
 
-
 .siteHeader {
+  h1{
+    padding:0;
+    margin:0 auto;
+  }
   .navbar {
-	.navbar-nav {
-	  .nav-item {
-		padding: 0 25px;
-	  }
-	}
+    @media screen and (min-width: 769px) {
+    .navbar-collapse{
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+    .navbar-nav {
+      .nav-item {
+        padding: 0 5px;
+      }
+      .nav-link {
+        font-size: $font-size-sm;
+      }
+    }
+  }
+}
+
+// page
+
+.pageVisual > .jumbotron {
+  background: url("../img/IMG_104_kako.jpg");
+  color: #ffffff;
+  padding: 100px 0;
+  margin-bottom: 0;
+}
+
+.content {
+  ul {
+    list-style: none;
+  }
+  .profile {
+    text-align: center;
+    &__sns {
+      padding: 0;
+      &__icon {
+        display: inline-block;
+        padding: 0 5px;
+      }
+    }
+  }
+}
+
+.blue-text {
+  color: $blue;
+}
+
+.company {
+  table {
+  }
+  tr {
+    height: 100px;
+  }
+  th, td {
+    vertical-align: top;
+  }
+  th {
+    width: 100px;
+  }
+  img {
+    margin-right: 20px;
+  }
+}
+
+footer {
+  padding: 100px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .siteHeader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  body {
+    padding-top: 49px;
+  }
+}
+
+
+.entry_content{
+  a{
+    text-decoration: underline;
+  }
+  line-height: 1.5;
+  h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  h2{
+    border-left: 6px solid #ccc;
+    padding: 6px 0px 6px 12px;
+    margin: 30px 0px 10px 0;
+    font-weight: bold;
+  }
+  h3{
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+  }
+  p,ul{
+    margin-bottom: 40px;
+  }
+  ul>li{
+    margin-top: 10px;
+  }
+  li{
+    margin-bottom: 10px;
+  }
+}
+
+footer{
+  background-color: #366fbc;
+  color:#fff;
+}
+
+h1,h2,h3,h4,h5{
+  a{
+    color: #212529;
+    text-decoration: none;
   }
 }
