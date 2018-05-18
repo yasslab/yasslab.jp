@@ -2,7 +2,7 @@ permalink: /:title
 company:
   name:  YassLab
   email: yohei@yasslab.jp
-  size: 9
+  size: 10
   
 
 baseurl: "" # the subpath of your site, e.g. /blog/
