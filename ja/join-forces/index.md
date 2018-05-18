@@ -133,7 +133,7 @@ alt='秘密情報を守る仕組み' width='100%' /></a>
 - パートナー・関連団体: 
    - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
    - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
-   - [OSS Gate](https://oss-gate.github.io/) (スポンサー)
+   - [OSS Gate](https://oss-gate.github.io/) ([Doorkeeper スポンサー](https://yasslab.jp/ja/doorkeeper/))
    - [Ryukyufrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター、協賛)
    - [日本Rubyの会](http://ruby-no-kai.org/) ([CIサーバー](https://bugs.ruby-lang.org/projects/ruby/wiki/Contributions)提供、[RubyKaigi](http://rubykaigi.org/)翻訳協力)
    - [Scrivito](https://scrivito.com/partners) (開発パートナー)
