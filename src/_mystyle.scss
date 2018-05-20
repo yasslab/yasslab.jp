@@ -171,6 +171,9 @@ html {
   figcaption{
     color:#b3dce6;
   }
+  .btn{
+    border:1px solid #e8e8e8;
+  }
 }
 
 .aboutVisual {
@@ -295,9 +298,9 @@ html {
 }
 
 .content {
-  ul {
+  /*ul {
     list-style: none;
-  }
+  }*/
   .profile {
     text-align: center;
     &__sns {
