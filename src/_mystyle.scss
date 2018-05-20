@@ -300,21 +300,7 @@ html {
   margin-bottom: 0;
 }
 
-.content {
-  /*ul {
-    list-style: none;
-  }*/
-  .profile {
-    text-align: center;
-    &__sns {
-      padding: 0;
-      &__icon {
-        display: inline-block;
-        padding: 0 5px;
-      }
-    }
-  }
-}
+
 
 .blue-text {
   color: $blue;
@@ -358,36 +344,95 @@ footer {
 
 .entry_content{
   a{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
   }
   line-height: 1.5;
-  h1{
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
+  h1 {
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 1em;
+  margin-bottom:3rem;
+  display: inline-block;
+  top:0;
   }
-  h2{
-    border-left: 6px solid #ccc;
+  
+  h1:before,h1:after{ 
+    position: absolute;
+    top: 0;
+    content:'';
+  width: 8px;
+  height: 100%;
+  display: inline-block;
+  }
+  h1:before{
+  border-left: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+    left: 0;
+  }
+  h1:after{
+    content: '';
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    right: 0;
+  }
+  /*h2{
+
     padding: 6px 0px 6px 12px;
     margin: 30px 0px 10px 0;
-    font-weight: bold;
+
+  }*/
+  h2{
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+  margin-bottom:3rem;
   }
+  
+  h2:before, h2:after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+  }
+  
+  h2:before {left:0;}
+  h2:after {right: 0;}
+
   h3{
     margin: 20px 0 10px 0;
-    font-weight: bold;
+    /*font-weight: bold;*/
   }
   p,ul{
     margin-bottom: 40px;
+    text-align: left;
   }
-  ul>li{
+  ul>li{ 
     margin-top: 10px;
   }
   li{
     margin-bottom: 10px;
+    text-align: left;
+  }
+  .profile {
+    text-align: center;
+    &__sns {
+      padding: 0;
+      text-align: center;
+      &__icon {
+        display: inline-block;
+        padding: 0 5px;
+      }
+    }
   }
 }
+
+
+
 
 footer{
   background-color: #366fbc;
