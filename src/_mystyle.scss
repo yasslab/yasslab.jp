@@ -330,8 +330,29 @@ html {
 }
 
 footer {
-  padding: 100px;
   text-align: center;
+  padding-bottom: 50px;
+  #contact{
+    padding: 100px;
+  }
+  ul{
+    list-style: none;
+    padding-left:0;
+    /*display: flex;*/
+    li{
+      display: inline-block;
+      padding:5px 20px;
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      a{
+        color:#fff;
+      }
+    }
+  }
+  small{
+    color:#6491cd;
+  }
 }
 
 @media screen and (min-width: 768px) {
