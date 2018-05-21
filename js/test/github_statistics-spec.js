@@ -37,9 +37,9 @@ describe('github_statistics.js', function() {
       });
     });
 
-    describe('#githubSuccessCallback', function() {
+    describe('#successCallback', function() {
       it('should return true when status is 200', function() {
-        const is_succeed = githubSuccessCallback(mock_http_result);
+        const is_succeed = successCallback(mock_http_result);
         if (is_succeed == false) {
           throw new Error("success call back should return true but return "+is_succeed);
         }
@@ -47,17 +47,17 @@ describe('github_statistics.js', function() {
 
       it('should return false data when status is not 200', function() {
         mock_http_result.target.status = 404;
-        const is_succeed = githubSuccessCallback(mock_http_result);
+        const is_succeed = successCallback(mock_http_result);
         if (is_succeed == true) {
           throw new Error("success call back should return false but return "+is_succeed);
         }
       });
     });
 
-    describe('#githubErrorCallback', function() {
+    describe('#errorCallback', function() {
       it('should retry when retry_count < MAX_RETRY', function() {
         retry_count = 0;
-        const is_retried = githubErrorCallback(mock_http_result);
+        const is_retried = errorCallback(mock_http_result);
         console.log("is retried = "+is_retried);
         if (is_retried == false) {
           throw new Error("error call back should return true but return "+is_retried);
@@ -66,7 +66,7 @@ describe('github_statistics.js', function() {
 
       it('should not retry when retry_count >= MAX_RETRY', function() {
         retry_count = MAX_RETRY;
-        const is_retried = githubErrorCallback(mock_http_result);
+        const is_retried = errorCallback(mock_http_result);
         if (is_retried == true) {
           throw new Error("error call back should return false but return "+is_retried);
         }

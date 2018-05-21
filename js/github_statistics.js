@@ -32,7 +32,7 @@ function calcGithubStatistics(result) {
   return github_statistics;
 }
 
-function githubSuccessCallback(result) {
+function successCallback(result) {
   let is_succeed = false;
   if (result.target.status != 200) {
     if (retry_count < MAX_RETRY) {
@@ -50,7 +50,7 @@ function githubSuccessCallback(result) {
   return is_succeed;
 }
 
-function githubErrorCallback(result) {
+function errorCallback(result) {
   let is_retried = true;
   if (retry_count < MAX_RETRY) {
     retry_count++;
@@ -69,8 +69,8 @@ function getGithubData() {
 
   request.open('GET', uri);
   request.setRequestHeader('Accept', 'application/vnd.github.preview')
-  request.addEventListener('load', githubSuccessCallback, false);
-  request.addEventListener('error', githubErrorCallback, false);
+  request.addEventListener('load', successCallback, false);
+  request.addEventListener('error', errorCallback, false);
   request.send();
 }
 
