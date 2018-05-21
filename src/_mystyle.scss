@@ -429,6 +429,12 @@ footer {
   
   h2:before {left:0;}
   h2:after {right: 0;}
+  
+  /*h2の装飾を消す*/
+  h2.h2deco-none:before,
+  h2.h2deco-none:after{
+     background-color:#fff;
+  }
 
   h3{
     margin: 20px 0 10px 0;
