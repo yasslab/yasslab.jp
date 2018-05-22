@@ -89,7 +89,20 @@ html {
 .bg-gray{
   background-color: #EAEAEA;
 }
- 
+
+.bg-dark{
+   text-align: center;
+  padding: 0;
+  background: url(../../img/bg-dark.jpg);
+  background-position: center center;
+  background-size: cover;
+  & > p {
+    max-width: 200px;
+  }
+@media screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
+}
 
 .service,
 .developmentSupport,
@@ -306,6 +319,12 @@ html {
   margin-bottom: 0;
 }
 
+.pageVisual > .bg-dark {
+  background: url("../../img/bg-dark.jpg");
+  color: #ffffff;
+  padding: 100px 0;
+  margin-bottom: 0;
+}
 
 
 .blue-text {
