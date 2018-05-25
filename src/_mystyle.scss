@@ -284,6 +284,12 @@ html {
 
 .whatsNew {
   border-top: #EAEAEA 3px solid;
+  ul{
+    text-align: left;
+    li{
+      padding-bottom:10px;
+    }
+  }
 }
 
 .siteHeader {
