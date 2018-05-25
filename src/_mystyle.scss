@@ -313,14 +313,14 @@ html {
 // page
 
 .pageVisual > .jumbotron {
-  background: url("../img/IMG_104_kako.jpg");
+  background: url("../img/IMG_104_kako.jpg");//空の画像
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
 }
 
 .pageVisual > .bg-dark {
-  background: url("../../img/bg-dark.jpg");
+  background: url("../../img/bg-dark.jpg");//0と1が並んだ画像
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
