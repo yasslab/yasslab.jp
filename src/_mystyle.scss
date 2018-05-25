@@ -235,10 +235,12 @@ html {
     dl {
       padding: 20px 0;
       dt {
+        padding:10px 0;
+        font-size: 1.2rem;
       }
-      dr {
+      dd {
         font-size: 2rem;
-        text-align: left;
+        /*text-align: left;*/
       }
     }
     &__icon {
