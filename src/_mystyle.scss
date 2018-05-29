@@ -376,7 +376,10 @@ footer {
   background-position: center center;
   color:#fff;
   #contact{
-    padding: 100px;
+      padding: 20px 0;
+    @media screen and (min-width: 768px) {
+      padding: 20px 100px;
+    }
   }
   ul{
     list-style: none;
