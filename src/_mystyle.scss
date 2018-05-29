@@ -17,7 +17,7 @@ img {
 
 br.pc-hidden{
 	display:none;
-@media screen and (max-width: 768px) {
+@include media-breakpoint-down(sm) {
   display:inline;
   }
 }
@@ -46,7 +46,7 @@ html {
 }
 
 // dropdown-menu
-@media screen and (max-width: 768px) {
+@include media-breakpoint-down(sm) {
    .dropdown-menu{
      background-color:#9ab7e0;
    }
@@ -71,7 +71,7 @@ html {
     padding-bottom:30px;
   }
 }
-@media screen and (min-width: 768px) {
+@include media-breakpoint-up(sm) {
    .mainVisual > .jumbotron {
      h1{
       font-size: 3rem;
@@ -88,7 +88,7 @@ html {
   & > p {
     max-width: 200px;
   }
-@media screen and (max-width: 768px) {
+@include media-breakpoint-down(sm) {
     padding: 50px 0;
   }
 }
@@ -108,7 +108,7 @@ html {
   & > p {
     max-width: 200px;
   }
-@media screen and (max-width: 768px) {
+@include media-breakpoint-down(sm) {
     padding: 50px 0;
   }
 }
@@ -129,7 +129,7 @@ html {
   }
   h3 {
     padding: 0 0 10px 0;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(sm) {
       padding: 50px 0 40px 0;
     }
   }
@@ -214,7 +214,7 @@ html {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  @media screen and (max-width: 768px) {
+  @include media-breakpoint-down(sm) {
     padding: 50px 0;
   }
   h2 {
@@ -234,7 +234,7 @@ html {
 .cardMember {
   border: none;
   padding: 0;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
     padding: 50px 50px 0 50px;
   }
 }
@@ -326,7 +326,7 @@ html {
     margin-bottom:10px;
   }
   .navbar {
-    @media screen and (min-width: 768px) {
+    @include media-breakpoint-up(sm) {
     .navbar-collapse{
       /*display: flex;*/
       justify-content: flex-end;
@@ -401,7 +401,7 @@ footer {
   color:#fff;
   #contact{
       padding: 20px 0;
-    @media screen and (min-width: 768px) {
+    @include media-breakpoint-up(sm) {
       padding: 20px 100px;
     }
   }
@@ -429,7 +429,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 768px) {
+@include media-breakpoint-up(sm) {
   .siteHeader {
     position: fixed;
     top: 0;
@@ -488,7 +488,7 @@ footer {
   position: relative;
   display: inline-block;
     padding: 0 25px;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
     padding: 0 55px;
   }
   margin-bottom:3rem;
@@ -500,7 +500,7 @@ footer {
   top: 50%;
   display: inline-block;
   width: 15px;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
     width: 45px;
   }
   height: 1px;
@@ -522,7 +522,7 @@ footer {
   }
   p,ul{
     margin-bottom: 30px;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(sm) {
       margin-bottom: 40px;
     }
     text-align: left;
@@ -566,7 +566,7 @@ h1,h2,h3,h4,h5{
 }
 
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
   h1 {
     font-size: $font-size-base * 2.5;
   }
