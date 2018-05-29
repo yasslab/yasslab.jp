@@ -74,7 +74,7 @@ html {
 
 .catchCopy {
   text-align: center;
-  padding: 200px 0;
+  padding: 100px 0;
   background: url(../../img/bg-cording.jpg);
   background-position: center center;
   background-size: cover;
@@ -86,6 +86,8 @@ html {
   }
 }
 
+ 
+  
 .bg-gray{
   background-color: #EAEAEA;
 }
@@ -201,6 +203,10 @@ html {
   background: url(../img/remote-img.jpg);
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
+
+  
+  
   @media screen and (max-width: 768px) {
     padding: 50px 0;
   }
@@ -235,10 +241,12 @@ html {
     dl {
       padding: 20px 0;
       dt {
+        padding:10px 0;
+        font-size: 1.2rem;
       }
-      dr {
+      dd {
         font-size: 2rem;
-        text-align: left;
+        /*text-align: left;*/
       }
     }
     &__icon {
@@ -265,7 +273,13 @@ html {
 }
 
 .commutySupport {
-  background-color: #EAEAEA;
+  background: url(../../img/bg-community.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  h2,p{
+    color:#fff;
+  }
   p {
     margin-bottom: 50px;
   }
@@ -284,6 +298,12 @@ html {
 
 .whatsNew {
   border-top: #EAEAEA 3px solid;
+  ul{
+    text-align: left;
+    li{
+      padding-bottom:10px;
+    }
+  }
 }
 
 .siteHeader {
@@ -313,14 +333,14 @@ html {
 // page
 
 .pageVisual > .jumbotron {
-  background: url("../img/IMG_104_kako.jpg");
+  background: url("../img/IMG_104_kako.jpg");//空の画像
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
 }
 
 .pageVisual > .bg-dark {
-  background: url("../../img/bg-dark.jpg");
+  background: url("../../img/bg-dark.jpg");//0と1が並んだ画像
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
@@ -348,9 +368,13 @@ html {
   }
 }
 
-footer {
+footer { 
   text-align: center;
   padding-bottom: 50px;
+  background-color: #366fbc;
+  background: url("../img/form-bg.jpg");//砂浜の写真
+  background-position: center center;
+  color:#fff;
   #contact{
       padding: 20px 0;
     @media screen and (min-width: 768px) {
@@ -360,6 +384,7 @@ footer {
   ul{
     list-style: none;
     padding-left:0;
+    margin-top:50px;
     /*display: flex;*/
     li{
       display: inline-block;
@@ -370,10 +395,13 @@ footer {
       a{
         color:#fff;
       }
+      a:hover{
+        text-decoration: underline;
+      }
     }
   }
   small{
-    color:#6491cd;
+    color:#c0c6ce;
   }
 }
 
@@ -489,10 +517,7 @@ footer {
 
 
 
-footer{
-  background-color: #366fbc;
-  color:#fff;
-}
+
 
 h1,h2,h3,h4,h5{
   a{
