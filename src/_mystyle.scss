@@ -368,15 +368,20 @@ html {
   }
 }
 
-footer {
+footer { 
   text-align: center;
   padding-bottom: 50px;
+  background-color: #366fbc;
+  background: url("../img/form-bg.jpg");//砂浜の写真
+  background-position: center center;
+  color:#fff;
   #contact{
     padding: 100px;
   }
   ul{
     list-style: none;
     padding-left:0;
+    margin-top:50px;
     /*display: flex;*/
     li{
       display: inline-block;
@@ -387,10 +392,13 @@ footer {
       a{
         color:#fff;
       }
+      a:hover{
+        text-decoration: underline;
+      }
     }
   }
   small{
-    color:#6491cd;
+    color:#c0c6ce;
   }
 }
 
@@ -506,10 +514,7 @@ footer {
 
 
 
-footer{
-  background-color: #366fbc;
-  color:#fff;
-}
+
 
 h1,h2,h3,h4,h5{
   a{
