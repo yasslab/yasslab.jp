@@ -573,6 +573,11 @@ h1,h2,h3,h4,h5{
   }
 }
 
+//画像下のcaptionの調整
+center {
+  margin: -20px 0 40px 0;
+  font-size: 12px;
+}
 
 //YouTubeレスポンシブ対応
 .video {
