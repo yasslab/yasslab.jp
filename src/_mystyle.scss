@@ -211,9 +211,6 @@ html {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-
-  
-  
   @media screen and (max-width: 768px) {
     padding: 50px 0;
   }
@@ -227,6 +224,9 @@ html {
     margin-bottom:50px;
   }
 }
+
+
+
 
 .cardMember {
   border: none;
@@ -363,20 +363,31 @@ html {
 
 .company {
   table {
+
   }
   tr {
-    height: 100px;
+    border-bottom:1px solid #e8e8e8;
   }
   th, td {
-    vertical-align: top;
+    vertical-align: middle;
+    padding:20px;
   }
   th {
-    width: 100px;
+    width: 30%;
+  }
+  td{
+    width:70%;
   }
   img {
     margin-right: 20px;
   }
+  .sigyo-name{
+  font-size:1.5rem;
+  padding-bottom:20px;
+  }
 }
+
+
 
 footer { 
   text-align: center;
