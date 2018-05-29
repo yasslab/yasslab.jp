@@ -45,6 +45,13 @@ html {
   }
 }
 
+// dropdown-menu
+@media screen and (max-width: 768px) {
+   .dropdown-menu{
+     background-color:#9ab7e0;
+   }
+}
+
 // front-page
 
 .mainVisual > .jumbotron {
