@@ -16,7 +16,12 @@ encoding: utf-8
 
 highlighter: rouge
 markdown: kramdown
-gems:     ['kramdown']
+plugins: 
+  - kramdown
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - qiita
 exclude:
   - README.md
   - Procfile
