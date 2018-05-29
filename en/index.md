@@ -64,7 +64,7 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
 
 ### CEO: Yohei Yasukawa
 
-![Photo](/img/yohei_300x300.png)
+![Photo](/img/photos/ph_yasulab.jpg)
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, 
 and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 
