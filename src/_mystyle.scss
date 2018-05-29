@@ -128,7 +128,10 @@ html {
     padding: 50px 0 50px 0;
   }
   h3 {
-    padding: 50px 0 40px 0;
+    padding: 0 0 10px 0;
+    @include media-breakpoint-up(md) {
+      padding: 50px 0 40px 0;
+    }
   }
   /*h3:after{
   width:20%;
@@ -473,7 +476,10 @@ footer {
   h2{
   position: relative;
   display: inline-block;
-  padding: 0 55px;
+    padding: 0 25px;
+  @include media-breakpoint-up(md) {
+    padding: 0 55px;
+  }
   margin-bottom:3rem;
   }
   
@@ -482,7 +488,10 @@ footer {
   position: absolute;
   top: 50%;
   display: inline-block;
-  width: 45px;
+  width: 15px;
+  @include media-breakpoint-up(md) {
+    width: 45px;
+  }
   height: 1px;
   background-color: black;
   }
@@ -535,6 +544,26 @@ h1,h2,h3,h4,h5{
     text-decoration: none;
   }
 }
+
+
+@include media-breakpoint-up(md) {
+  h1 {
+    font-size: $font-size-base * 2.5;
+  }
+  h2 {
+    font-size: $font-size-base * 2;
+  }
+  h3 {
+    font-size: $font-size-base * 1.75;
+  }
+  h4 {
+    font-size: $font-size-base * 1.5;
+  }
+  h5 {
+    font-size: $font-size-base * 1.25;
+  }
+}
+
 
 //YouTubeレスポンシブ対応
 .video {
