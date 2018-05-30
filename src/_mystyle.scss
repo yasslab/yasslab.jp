@@ -399,8 +399,9 @@ footer {
   text-align: center;
   padding-bottom: 50px;
   background-color: #366fbc;
-  background: url("../img/form-bg.jpg");//砂浜の写真
-  background-position: center center;
+  background-image: url("../img/form-bg.jpg");//砂浜の写真
+  background-position: center bottom;
+  background-repeat: no-repeat;
   color:#fff;
   #contact-form{
       padding: 20px 0;
