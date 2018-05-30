@@ -1,53 +1,30 @@
-<!-- FOOTER  -->
-<div id="footer_wrap" class="outer">
-  <footer class="inner">
-    <p style="color:white;">
-      {% if page.lang == "ja" %}
-      <a href="/ja">ホーム</a> |
-      <a href="/ja/works">事業実績</a> |
-      <a href="/ja/agile">開発支援</a> |
-      <a href="/ja/doorkeeper">コミュニティ支援</a> |
-      <a href="/ja/coworking">試聴会提携</a> |
-      <a href="/ja/join-forces">採用</a> |      
-      <a href="/ja/privacy">Privacy</a> |
-      <a href="/en">English</a>
-      {% else %}
-      <a href="/en">Top</a> |
-      <a href="/en/agile">Ruby/Rails Web Development</a> |
-      <a href="/ja">日本語</a>
-      {% endif %}
-    </p>
+<footer>
+  <section id="contact-form">
+    {% include contact-form.html %}
+  </section>
+  <ul>    
+    <li><a href="/ja">HOME</a></li>
+    <li><a href="/ja/about">会社概要</a></li>
+    <li><a href="/ja/works">事業実績</a></li>
+    <li><a href="/ja/join-forces">採用情報</a></li>
+    <li><a href="/ja/agile">開発支援</a></li>
+    <li><a href="/ja/index.html#contact">お問合せ</a></li>
+    <li><a href="/ja/privacy">プライバシーポリシー</a></li>
+    <li><a href="/en">English</a></li>
+  </ul>
+    <p><small>Copyright &copy; 2012-2018 YassLab Inc. All Rights Reserved.</small></p>
+</footer>
 
-    <p class="fa-icons">
-      <a href="https://github.com/YassLab"><i class="fa fa-github fa-3x fa-fw"
-					      title="GitHub - Our code to opensource"
-					      aria-hidden="true"></i></a>
-      <a href="https://www.youtube.com/c/YassLab"><i class="fa fa-youtube fa-3x fa-fw"
-						     title="YouTube - Our records to speak"
-						     aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/yasslab.jp/"><i class="fa fa-facebook fa-3x fa-fw"
-							title="Facebook - Our releases to tell"
-							aria-hidden="true"></i></a>
-      <a href="https://twitter.com/YassLab"><i class="fa fa-twitter fa-3x fa-fw"
-					       title="Twitter - Our activities to show"
-					       aria-hidden="true"></i></a>
-      <a href="/ja/join-forces"><i class="fa fa-heart fa-3x fa-fw"
-				   title="採用 - 弊社をご検討されている皆さんへ"
-				   aria-hidden="true"></i></a>
-    </p>
-
-    <p>Copyright &copy; 2012-2018 YassLab Inc. All Rights Reserved.</p>
-  </footer>
-</div>
-
-  <script>
+<script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-50163209-2', 'auto');
     ga('send', 'pageview');
-  </script>
-  </body>
+</script>
+<script type='text/javascript' src='/js/github_statistics.js'></script>
+</body>
 </html>
+

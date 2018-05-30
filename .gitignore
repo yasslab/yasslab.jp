@@ -8,7 +8,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -101,3 +102,10 @@ build/
 _site/
 vendor/
 
+## phpstorm
+
+/.idea/
+
+
+## node
+/node_modules/

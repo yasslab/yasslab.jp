@@ -2,7 +2,8 @@ language: ruby
 before_install:
 - gem install bundler
 script:
-- bundle exec rake test
+  - bundle exec rake test
+  - bundle exec rspec spec/qiita.rb
 deploy:
   provider: heroku
   api_key:
