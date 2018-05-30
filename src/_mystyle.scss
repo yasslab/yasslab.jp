@@ -16,9 +16,15 @@ img {
 }
 
 br.pc-hidden{
-	display:none;
-@include media-breakpoint-down(sm) {
+  display:none;
+  @include media-breakpoint-down(sm) {
+    display:inline;
+  }
+}
+br.mobile-hidden{
   display:inline;
+  @include media-breakpoint-down(sm) {
+    display:none;
   }
 }
 
