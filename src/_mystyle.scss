@@ -258,14 +258,24 @@ html {
     border-radius: 12px;
     border: 2px #EAEAEA solid;
     dl {
-      padding: 20px 0;
+      @include media-breakpoint-up(sm) {
+        padding: 20px 0;
+      }
       dt {
-        padding:10px 0;
-        font-size: 1.2rem;
+        padding: 10px 0 0 0;
+        @include media-breakpoint-up(sm) {
+          padding: 10px 0;
+        }
+        font-size: $font-size-base;
+        @include media-breakpoint-up(sm) {
+          font-size: 1.2rem;
+        }
       }
       dd {
-        font-size: 2rem;
-        /*text-align: left;*/
+        font-size: $font-size-lg;
+        @include media-breakpoint-up(sm) {
+          font-size: 2rem;
+        }
       }
     }
     &__icon {
@@ -274,19 +284,34 @@ html {
       border-top-left-radius: 12px;
       border-top-right-radius: 12px;
       img {
-        height: 70px;
+        height: 40px;
+
+        @include media-breakpoint-up(sm) {
+          height: 70px;
+        }
         margin-bottom: 0;
       }
     }
     &__qiita {
       .card__icon {
-        background-color: #72C13A;
+        background-color: #54c502;
       }
     }
     &__github {
       .card__icon {
         background-color: #000000;
       }
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    /*溝幅 10pxにする*/
+    .gutter-10 {
+      margin-left: -5px;
+      margin-right: -5px;
+    }
+    .gutter-10 > [class*='col-'] {
+      padding-left: 5px;
+      padding-right: 5px;
     }
   }
 }
