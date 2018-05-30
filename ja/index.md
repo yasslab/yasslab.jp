@@ -70,7 +70,7 @@ YassLab 株式会社では、沖縄と東京を拠点にして次の3つの事�
 ![YassLab Logo](/img/logo_rect_copy.png)
 
 - 会社名: YassLab 株式会社
-- 社員数: {{ site.company.size }}人 ([複業採用](/ja/join-forces)含む)
+- 社員数: {{ site.company.size }}名 ([複業採用](/ja/join-forces)含む)
 - 設立日: 2012年6月1日 (2018年1月11日 法人成り)
 - 商標登録: [商標公報5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
 - 代表取締役: 安川 要平
@@ -78,14 +78,14 @@ YassLab 株式会社では、沖縄と東京を拠点にして次の3つの事�
 - 顧問税理士: [Hay未来の税理士法人](http://www.hay-kaikei.com/) 林 寛之
 - 顧問弁護士: [東京山王法律事務所](http://www.ynmlaw.com/) 野島 梨恵
 - パートナー・関連団体: 
-    - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
-    - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
-	- [OSS Gate](https://oss-gate.github.io/) ([Doorkeeper スポンサー](https://yasslab.jp/ja/doorkeeper/))
-	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター・協賛)
-	- [RubyKaigi](http://rubykaigi.org/) (翻訳協力)
-	- [Scrivito](https://scrivito.com/partners) (開発協力)
-    - [CoderDojo Japan](https://coderdojo.jp/) (開発支援)
-	- [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
+   - [BOSS-CON JAPAN](http://www.boss-con.jp/railspartner/) (Rails認定ゴールドインテグレーター)
+   - [Rails技術者認定試験運営委員会](http://www.railscp.com/aboutus/) (テクニカルアドバイザー)
+   - [OSS Gate](https://oss-gate.github.io/) ([Doorkeeper スポンサー](https://yasslab.jp/ja/doorkeeper/))
+   - [Ryukyufrogs](http://www.ryukyu-frogs.com/) (テクニカルサポーター、協賛)
+   - [日本Rubyの会](http://ruby-no-kai.org/) ([CIサーバー](https://bugs.ruby-lang.org/projects/ruby/wiki/Contributions)提供、[RubyKaigi](http://rubykaigi.org/)翻訳協力)
+   - [Scrivito](https://scrivito.com/partners) (開発パートナー)
+   - [CoderDojo Japan](https://coderdojo.jp/) (開発支援)
+   - [Mitou Foundation](http://www.mitou.org/) ([未踏ジュニア](http://jr.mitou.org/)PM・スポンサー)
 
 詳細は [Wantedly](https://www.wantedly.com/companies/YassLab) をご参照ください。
 
