@@ -6,8 +6,8 @@ lang:   ja
 
 # プライバシーポリシー
 
-<div align="right">
-YassLab 株式会社<br />
+<div align="right" style="padding-bottom: 40px;">
+YassLab 株式会社<br>
 最終更新日: 2017/09/03
 </div>
 
