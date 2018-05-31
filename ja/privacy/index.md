@@ -66,8 +66,8 @@ YassLab 株式会社 (以下、当社) では、利用者の個人情報をお�
 
 当社事業で収集する個人情報の定義の変更、利用目的の変更、またはその他プライバシーポリシーの変更を行う際は、当ページでの変更を持って公表とさせていただきます。本プライバシーポリシーの変更履歴は、下記URLよりご確認することができます。
 
-[https://github.com/yasslab/yasslab.jp/commits/master/ja/privacy/index.md](https://github.com/yasslab/yasslab.jp/commits/master/ja/privacy/index.md)
+<a href="https://github.com/yasslab/yasslab.jp/commits/master/ja/privacy/index.md">https://github.com/yasslab/yasslab.jp/commits/<br class="pc-hidden">master/ja/privacy/index.md</a>
 
-<br /><br />
+<br><br>
 
 <div id="contact"></div>
