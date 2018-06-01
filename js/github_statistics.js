@@ -8,17 +8,17 @@ const error_stats = {
 
 const modifyDom = function (stats) {
   const repositories = document.getElementById("github__repositories");
-  const stars = document.getElementById("github__stars");
+  const stars        = document.getElementById("github__stars");
 
   if (repositories && stars) {
     repositories.textContent = stats.repositories;
-    stars.textContent = stats.stars;
+    stars.textContent        = stats.stars;
   }
 }
 
 function calcGithubStatistics(result) {
   const github_json_data = JSON.parse(result.target.responseText);
-  const repo_count = github_json_data.length;
+  const repo_count       = github_json_data.length;
 
   const github_statistics = {
     repositories: repo_count,
@@ -65,12 +65,12 @@ function errorCallback(result) {
 
 function getGithubData() {
   const request = new XMLHttpRequest();
-  const uri = 'https://api.github.com/orgs/yasslab/repos?per_page=100';
+  const uri     = 'https://api.github.com/orgs/yasslab/repos?per_page=100';
 
   request.open('GET', uri);
   request.setRequestHeader('Accept', 'application/vnd.github.preview')
-  request.addEventListener('load', successCallback, false);
-  request.addEventListener('error', errorCallback, false);
+  request.addEventListener('load',  successCallback, false);
+  request.addEventListener('error',   errorCallback, false);
   request.send();
 }
 
