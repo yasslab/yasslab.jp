@@ -2,8 +2,8 @@ let retry_count = 0;
 const MAX_RETRY = 3;
 
 const error_stats = {
-  repositories: "🙏",
-  stars: "🙇"
+  repositories:  "65",
+  stars:        "408"
 };
 
 const modifyDom = function (stats) {
