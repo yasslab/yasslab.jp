@@ -65,7 +65,7 @@ function errorCallback(result) {
 
 function getGithubData() {
   const request = new XMLHttpRequest();
-  const uri = 'https://api.github.com/orgs/yasslab/repos';
+  const uri = 'https://api.github.com/orgs/yasslab/repos?per_page=100';
 
   request.open('GET', uri);
   request.setRequestHeader('Accept', 'application/vnd.github.preview')
