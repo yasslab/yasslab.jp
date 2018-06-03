@@ -15,10 +15,10 @@ end
 require 'html-proofer'
 task test: [:build] do
   HTMLProofer.check_directory('./_site', {
-                                allow_hash_href: true,
-                                check_opengraph: true,
-                                check_favicon: true,
-                                check_html: true,
+                                allow_hash_href:  true,
+                                check_opengraph:  true,
+                                check_favicon:    true,
+                                check_html:       true,
                                 disable_external: true,
                                 file_ignore: [
                                   /node_modules/,
