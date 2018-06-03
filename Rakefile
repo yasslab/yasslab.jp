@@ -20,11 +20,13 @@ task test: [:build] do
                                 check_favicon: true,
                                 check_html: true,
                                 disable_external: true,
-                                file_ignore: %w(
-./_site/ja/workshops/raspi/index.html
-./_site/en/workshops/raspi/index.html
-./_site/ja/workshops/tickle/index.html
-./_site/google02f5cc9ed3681f94.html),
+                                file_ignore: [
+                                  /node_modules/,
+                                  "./_site/ja/workshops/raspi/index.html",
+                                  "./_site/en/workshops/raspi/index.html",
+                                  "./_site/ja/workshops/tickle/index.html",
+                                  "./_site/google02f5cc9ed3681f94.html"
+                                ],
                                 url_ignore:  %w(coderdojo.com linkedin.com),
                                 http_status_ignore: [0, 500, 999],
                              }).run
