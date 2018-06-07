@@ -61,7 +61,7 @@ html {
 // front-page
 
 .mainVisual > .jumbotron {
-  background: url("../img/IMG_104_kako.jpg");
+  background: url("../img/top-image-large.jpg");
   color: #ffffff;
   padding: 300px 0;
   margin-bottom: 0;
@@ -69,7 +69,7 @@ html {
   background-size: cover;
   h1{
     text-shadow: 1px 1px 1px #444;
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   h1 img{
     display: block;
@@ -81,7 +81,7 @@ html {
    .mainVisual > .jumbotron {
      background: url("../img/top-image-small.jpg");
      padding: 100px 0;
-     h1{border : 1px solid #cc0000; 
+     h1{
       font-size: 2rem;
     }
   }
