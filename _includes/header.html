@@ -99,53 +99,58 @@
 
 {% assign top = "YassLab 株式会社 – Having a Good Life with OpenSource ;)" %}
 <header class="siteHeader bg-primary">
-    <nav class="navbar navbar-expand-lg navbar-dark container">
-        <h1>
-            <a href="/">
-                <img src="/img/logo-home.svg" width="150" alt="ホーム">
-            </a>
-        </h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-dark container">
+    <h1>
+      <a href="/">
+        <img src="/img/logo-home.svg" width="150" alt="ホーム">
+      </a>
+    </h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-technology" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">YassLab の技術</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-technology">
-                      <li><a href="/ja/index.html#tech" class="dropdown-item">技術書の翻訳・動画制作・ライセンス販売</a></li>
-                      <li><a href="/ja/agile" class="dropdown-item">Ruby/Railsの開発支援</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#remote">リモートワーク</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#community">コミュニティ支援活動</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-about" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
-                      <li><a href="/ja/about" class="dropdown-item">会社概要</a></li>
-                      <li><a href="/ja/works" class="dropdown-item">事業実績</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    {% if page.lang == "ja" %}
-                    <a class="nav-link" href="/en">English</a>
-                    {% else %}
-                    <a class="nav-link" href="/ja">日本語</a>
-                    {% endif %}
-                </li>
-            </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-technology" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">YassLab の技術</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-technology">
+            <li><a href="/ja/index.html#tech" class="dropdown-item">技術書の翻訳・動画制作・ライセンス販売</a></li>
+            <li><a href="/ja/agile" class="dropdown-item">Ruby/Railsの開発支援</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#remote">リモートワーク</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#community">コミュニティ支援</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link" href="/ja/about">会社概要</a>
+        </li>
+	<!--
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-about" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
+            <li><a href="/ja/about" class="dropdown-item">会社概要</a></li>
+            <li><a href="/ja/works" class="dropdown-item">事業実績</a></li>
+          </ul>
+        </li>
+	-->
+        <li class="nav-item">
+          <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          {% if page.lang == "ja" %}
+          <a class="nav-link" href="/en">English</a>
+          {% else %}
+          <a class="nav-link" href="/ja">日本語</a>
+          {% endif %}
+        </li>
+      </ul>
 
 
-            <!--div class="d-flex justify-content-end">ああああ</div-->
-        </div>
-    </nav>
+      <!--div class="d-flex justify-content-end"></div-->
+    </div>
+  </nav>
 </header>
