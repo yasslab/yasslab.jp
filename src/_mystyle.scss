@@ -555,6 +555,7 @@ footer {
     margin: 20px 0 10px 0;
     /*font-weight: bold;*/
   }
+  p{ line-height: 2.2em; }
   p,ul{
     margin-bottom: 30px;
     @include media-breakpoint-up(sm) {
