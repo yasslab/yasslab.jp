@@ -69,7 +69,7 @@ html {
   background-size: cover;
   h1{
     text-shadow: 1px 1px 1px #444;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   h1 img{
     display: block;
@@ -77,10 +77,12 @@ html {
     padding-bottom:30px;
   }
 }
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-down(sm) {
    .mainVisual > .jumbotron {
-     h1{
-      font-size: 3rem;
+     background: url("../img/top-image-small.jpg");
+     padding: 100px 0;
+     h1{border : 1px solid #cc0000; 
+      font-size: 2rem;
     }
   }
 }
