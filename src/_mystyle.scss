@@ -61,32 +61,44 @@ html {
 // front-page
 
 .mainVisual > .jumbotron {
-  background: url("../img/top-image-large.jpg");
+  position: relative;
+  padding:0;
+  margin-bottom: 0;
+  /*background: url("../img/top-image-large.jpg");
   color: #ffffff;
   padding: 300px 0;
   margin-bottom: 0;
   background-position: center center;
-  background-size: cover;
-  h1{
-    text-shadow: 1px 1px 1px #444;
-    font-size: 2.8rem;
-  }
-  h1 img{
-    display: block;
-    margin:0 auto;
-    padding-bottom:30px;
-  }
-}
-@include media-breakpoint-down(sm) {
-   .mainVisual > .jumbotron {
-     background: url("../img/top-image-small.jpg");
-     padding: 100px 0;
-     h1{
-      font-size: 2rem;
+  background-size: cover;*/
+  .logo-catch{
+    width: 80vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    img{
+      max-width: 100%;
+      @include media-breakpoint-down(sm) {
+        max-width: 80%;
+      }
+    }
+    h1{
+      text-shadow: 1px 1px 1px #444;
+      font-size: 2.8rem;
+      color:#fff;
+      padding-top: 30px;
+      @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+        padding-top: 15px;
+      }
     }
   }
 }
-
 .catchCopy {
   text-align: center;
   padding: 100px 0;
