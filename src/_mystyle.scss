@@ -598,7 +598,7 @@ footer {
   }
 }
 
-pre{
+pre{border : 1px solid #cc0000; 
   padding: 20px;
   text-align: left;
   border: 1px solid #ccc;
@@ -608,15 +608,15 @@ pre{
 }
 
 .community-icon{
-  border-top: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  /*border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;*/
   margin-bottom: 20px;
   th,
   td{
     font-size: $font-size-sm;
     padding: 10px;
-    border-left:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+    /*border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;*/
     img{
       max-width:80%;
     }
@@ -626,6 +626,7 @@ pre{
 
 
 h1,h2,h3,h4,h5{
+  margin-bottom:20px; 
   a{
     color: #212529;
     text-decoration: none;
