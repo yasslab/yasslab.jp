@@ -38,4 +38,4 @@ The icons used in the website are created by [Font Awesome](http://fontawesome.i
 
 Copyright &copy; 2012-2018 [YassLab Inc.](https://yasslab.jp)
 
-<a href="https://yasslab.jp/"><img src="https://yasslab.jp/img/logo_800x200.png" alt="YassLab Logo" /></a>
+[![YassLab Logo](https://yasslab.jp/img/logo_rect.png)](https://yasslab.jp/)
