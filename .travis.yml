@@ -1,15 +1,25 @@
-language: ruby
-before_install:
-- gem install bundler
-script:
-  - bundle exec rake test
-  - bundle exec rspec spec/qiita.rb
-deploy:
-  provider: heroku
-  api_key:
-    secure: "evUEw6mJ9g2ryIChUI7rb5DNozrBjhC536gaNHUPZhshyxrJTkErK//rY+gGk0ETo6dVD2vMBi0fpq8+M30XfV7ew5IiZv42yuuRdsamnhkQzlxaK5D4IddK7Z47KvNXtPGW28nIBvSJ42EnCdHqwSLTLvuUUaTMa7QXMX6bO9M="
-  app:
-    master: yasslab-jp
-notifications:
-  webhooks:
-  - https://idobata.io/hook/travis_ci/ef9a047f-66e6-4471-97db-3e278c70acf8
+matrix:
+  include:
+    language: node_js
+    node_js:
+      - "10.3.0"
+    install:
+      - npm install
+
+    language: ruby
+    before_install:
+    - gem install bundler
+    script:
+      - npm run css
+      - bundle install
+      - bundle exec rake test
+      - bundle exec rspec spec/qiita.rb
+    deploy:
+      provider: heroku
+      api_key:
+        secure: "evUEw6mJ9g2ryIChUI7rb5DNozrBjhC536gaNHUPZhshyxrJTkErK//rY+gGk0ETo6dVD2vMBi0fpq8+M30XfV7ew5IiZv42yuuRdsamnhkQzlxaK5D4IddK7Z47KvNXtPGW28nIBvSJ42EnCdHqwSLTLvuUUaTMa7QXMX6bO9M="
+      app:
+        master: yasslab-jp
+    notifications:
+      webhooks:
+      - https://idobata.io/hook/travis_ci/ef9a047f-66e6-4471-97db-3e278c70acf8
