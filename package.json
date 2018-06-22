@@ -2,6 +2,9 @@
   "name": "yasslab.jp",
   "version": "1.0.0",
   "description": "[![Build Status](https://travis-ci.org/yasslab/yasslab.github.io.svg?branch=master)](https://travis-ci.org/yasslab/yasslab.github.io)",
+  "engines": {
+    "npm": "6.1.0"
+  },
   "main": "index.js",
   "scripts": {
     "css": "npm-run-all css-compile css-prefix css-minify",
