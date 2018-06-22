@@ -14,6 +14,7 @@ matrix:
       - bundle install
       - bundle exec rake test
       - bundle exec rspec spec/qiita.rb
+    before_deploy: "npm run css"
     deploy:
       provider: heroku
       api_key:
