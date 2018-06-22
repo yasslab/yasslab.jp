@@ -16,6 +16,7 @@ matrix:
       - bundle exec rspec spec/qiita.rb
     deploy:
       provider: heroku
+      strategy: git
       api_key:
         secure: "evUEw6mJ9g2ryIChUI7rb5DNozrBjhC536gaNHUPZhshyxrJTkErK//rY+gGk0ETo6dVD2vMBi0fpq8+M30XfV7ew5IiZv42yuuRdsamnhkQzlxaK5D4IddK7Z47KvNXtPGW28nIBvSJ42EnCdHqwSLTLvuUUaTMa7QXMX6bO9M="
       app:
