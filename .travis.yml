@@ -27,3 +27,4 @@ matrix:
     notifications:
       webhooks:
       - https://idobata.io/hook/travis_ci/ef9a047f-66e6-4471-97db-3e278c70acf8
+    after_deploy: "npm run css"
