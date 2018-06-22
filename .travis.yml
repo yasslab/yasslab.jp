@@ -20,6 +20,10 @@ matrix:
         secure: "evUEw6mJ9g2ryIChUI7rb5DNozrBjhC536gaNHUPZhshyxrJTkErK//rY+gGk0ETo6dVD2vMBi0fpq8+M30XfV7ew5IiZv42yuuRdsamnhkQzlxaK5D4IddK7Z47KvNXtPGW28nIBvSJ42EnCdHqwSLTLvuUUaTMa7QXMX6bO9M="
       app:
         master: yasslab-jp
+      skip_cleanup: true
+      script: npm run css
+      run:
+        - "npm run css"
     notifications:
       webhooks:
       - https://idobata.io/hook/travis_ci/ef9a047f-66e6-4471-97db-3e278c70acf8
