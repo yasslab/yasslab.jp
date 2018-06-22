@@ -7,6 +7,8 @@ namespace :assets do
   task :precompile do
     Rake::Task['clean'].invoke
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
+    sh 'JEKYLL_ENV=production npm run css'
+    #sh 'cp dist/css/custom*css _site/dist/css/' # この時点でそもそも存在しない
   end
 end
 
@@ -33,6 +35,7 @@ task test: [:build] do
 end
 
 task build: [:clean] do
+  #system 'npm run css'
   system 'bundle exec jekyll build'
 end
 
