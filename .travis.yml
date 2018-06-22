@@ -1,7 +1,15 @@
+language: node_js
+node_js:
+  - "10.3.0"
+install:
+  - npm install
+
 language: ruby
 before_install:
-- gem install bundler
+  - gem install bundler
 script:
+  - npm run css
+  - bundle install
   - bundle exec rake test
   - bundle exec rspec spec/qiita.rb
 deploy:
