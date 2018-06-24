@@ -34,5 +34,8 @@
     "popper.js": "^1.14.3",
     "postcss-cli": "^5.0.1",
     "watch": "1.0.2"
+  },
+  "dependencies": {
+    "npm": "^6.1.0"
   }
 }
