@@ -2,7 +2,6 @@
 layout: default
 title:  Privacy Policy – YassLab 株式会社
 lang:   ja
-thumbnail: demo.png
 ---
 
 # プライバシーポリシー
