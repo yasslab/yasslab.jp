@@ -249,7 +249,7 @@ src="/img/logos/coderdojo-chofu.png" alt="CoderDojo 調布"></a></td>
     <tr>
       <td><a href="https://coderdojo-masuda.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-masuda.png" alt="CoderDojo 増田" /></a></td>
       <td><a href="https://coderdojo-inagi.doorkeeper.jp/"  rel="nofollow"><img width="200px" src="/img/logos/coderdojo-inagi.jpg" alt="CoderDojo 稲城" /></a></td>
-      <td><a href="https://63a4ffa19c713218e96b7e2037.doorkeeper.jp/"  rel="nofollow"><img width="200px" src="/img/logos/coderdojo-tama-center.png" alt="CoderDojo 多摩センター"></td>
+      <td><a href="https://63a4ffa19c713218e96b7e2037.doorkeeper.jp/"  rel="nofollow"><img width="200px" src="/img/logos/coderdojo-tama-center.png" alt="CoderDojo 多摩センター"></a></td>
     </tr>
   </tbody>
 </table>
