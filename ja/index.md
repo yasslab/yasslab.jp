@@ -292,8 +292,8 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>コミュニティ支援</h2>
-        <p class="text-md-center">YassLab では、能力や素質のある人を育成・発掘するために教育事業を展開し、<br class="mobile-hidden">さらに様々なコミュニティのオープンソース活動を支援しています。</p>
+        <h2>コミュニティ活動</h2>
+        <p class="text-md-center">YassLab ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="mobile-hidden">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
         <div class="row">
           <div class="col-md-4">
             <figure>
