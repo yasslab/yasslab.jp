@@ -1,23 +1,24 @@
-language: node_js
-node_js:
-  - "10.3.0"
-install:
-  - npm install
-
 language: ruby
+node_js:
+- 10.3.0
+install:
+- npm install
 before_install:
-  - gem install bundler
+- gem install bundler
 script:
-  - npm run css
-  - bundle install
-  - bundle exec rake test
-  - bundle exec rspec spec/qiita.rb
+- npm run css
+- bundle install
+- bundle exec rake test
+- bundle exec rspec spec/qiita.rb
 deploy:
   provider: heroku
   api_key:
-    secure: "evUEw6mJ9g2ryIChUI7rb5DNozrBjhC536gaNHUPZhshyxrJTkErK//rY+gGk0ETo6dVD2vMBi0fpq8+M30XfV7ew5IiZv42yuuRdsamnhkQzlxaK5D4IddK7Z47KvNXtPGW28nIBvSJ42EnCdHqwSLTLvuUUaTMa7QXMX6bO9M="
+    secure: OZx3MibvcBTp1MbqahLYCuu63UGnQPR0ImgglYwq7LpigcJK78ZNkgDIKptQC1FrHWLpaLCBlb4SLoLy+7WDxPxBo3UrNrWkdRt5qZdLMybE7gbC5a40T0CNDMQ2IsrYtLNAjR2TAdYkk2pD7sEnGWy0/jOAlUVQV7Qkwo00Yw5lYcclatJh3FMK1cDlqHE9SIuXRahYk78gTEQSG5Pw2F4XFZship1OTHvNIl+qgaakTuetaOOTCeSEu67Yf4CFL7payfAWObStgudb3AekA8EMswNF1UF5lunQdbjxKvBLGfZEAAmEfrV/jyK6i5+cNVPpFqeooKYGld6PN0HXvCSWBkv4teThRTSlILLoM2U60jnFfnCf7RBl83y1Giyk4jAD0qEGZnPktCZe62HBElzN50S1D4QtHfz6ymM61eZCQIrM61mBWYiPYtbO4cHYvBcjNukGa514IuPV6aw/idV0XGCMoIrTzJ65iMJGjoE5zUxSaShgPV6+/uDXeL55nztKqhMrH9+aYFssczLgEPjb0svwpnAW3ESsiINc1kZchHfGUA5iJWhRAYNIRivDJ+HxVxNZgK/DqfATjKZ8GjxFo6Y/NnTXBDcMj0V6Tnsi6N64JOnKAiEmHnRpc2TvweVmhsWHA8qbWkBozVB5UrGeIUvy0ejN4SfTlQysYOQ=
   app:
     master: yasslab-jp
 notifications:
   webhooks:
   - https://idobata.io/hook/travis_ci/ef9a047f-66e6-4471-97db-3e278c70acf8
+env:
+  global:
+    secure: hlBaiwz5ocr+r/P/Tfhks1uLr1E/FMEMSOH+C7EEhIOVry4YK9CXI7ESdQ8f4CtLCPjRZ1z/eqzB7UPvLx5S7tbJCcx65GuMfdMjLhLb8BhctgSsPk+AbJU2WMYNZw9k/eyBeKkE1Y9VzWkZsl1boSh0T7TM29IyxRI9gyc5Sbo=
