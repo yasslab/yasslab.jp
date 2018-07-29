@@ -14,7 +14,7 @@ lang:   ja
     
     <!--h1 class="display-4 text-center"-->
       <div class="logo-catch">
-        <img src="../img/logo-yasslab.svg" width="270" alt="YassLab">
+        <img src="../img/logo-yasslab.svg" width="270" alt="YassLab Logo">
         <h1>Having a Good Life with OpenSource ;)</h1>
       </div><!--//logo-catch-->
   </div>
