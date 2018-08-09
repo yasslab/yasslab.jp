@@ -356,6 +356,9 @@ lang:   ja
         <h2>What's New</h2>
           <ul>
             <li>
+              <a href="https://www.members.co.jp/company/news/2018/0806_2.html" target="_blank">常駐型デジタルプロフェッショナルサービスのメンバーズキャリア、技術顧問体制を強化～新たに2名が技術顧問に就任、社員育成によるサービス向上を目指す～</a>
+            </li>
+            <li>
               <a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html" target="_blank">オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</a>
             </li>
             <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html" target="_blank">転職特化型Rubyプログラミングスクールの「ポテパンキャンプ」、Railsチュートリアルと業務提携しエンジニア創出を促す</a></li>
