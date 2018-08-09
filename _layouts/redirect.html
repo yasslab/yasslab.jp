@@ -1,5 +1,13 @@
 {% include header.html %}
 
+<div id="main_content_wrap" class="outer container">
+  <section id="main_content" class="inner row justify-content-md-center pt-5">
+    <div class="col-12 col-md-9 entry_content text-center">
+      {{ content }}
+    </div>
+  </section>
+</div>
+
 <script type="text/javascript">
   function getBrowserLanguage() {
     try {
@@ -20,5 +28,3 @@
       location.replace("/en");
   }   
 </script>
-
-{% include footer.html %}
