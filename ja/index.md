@@ -353,7 +353,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>What's New</h2>
+        <h2>プレスリリース</h2>
           <ul>
             <li>
               <a href="https://www.members.co.jp/company/news/2018/0806_2.html" target="_blank">常駐型デジタルプロフェッショナルサービスのメンバーズキャリア、技術顧問体制を強化～新たに2名が技術顧問に就任、社員育成によるサービス向上を目指す～</a>
