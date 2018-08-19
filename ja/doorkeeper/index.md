@@ -13,7 +13,7 @@ lang:   ja
             <div class="col-md-12">
               <div class="text-center">
                 <h1 class="mb-5">Doorkeeper スポンサーシップ</h1>
-                  <h3 class="mb-5">コミュニティ運営者向け「Doorkeeper スポンサーシップ」の資料です。<br class="mobile-hidden">CC BY-SA で公開しています。<br class="mobile-hidden">(提供: <a href="/ja">YassLab 株式会社</a>)</h3>		
+                  <h3 class="mb-5">コミュニティ運営者向け「Doorkeeper スポンサーシップ」の資料です。CC BY-SA で公開しています。<br class="mobile-hidden">(提供: <a href="/ja">YassLab 株式会社</a>)</h3>		
               </div>
             </div><!--//col-->
         </div><!--//row-->
