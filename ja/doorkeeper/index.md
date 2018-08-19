@@ -257,14 +257,14 @@ src="/img/logos/coderdojo-chofu.png" alt="CoderDojo 調布"></a></td>
 <table class="community-icon"><thead>
     <tr>
       <th><a href="https://coderdojo-shirakawa.doorkeeper.jp/">CoderDojo 白河</a></th>
-      <th></th>
+      <th><a href="https://coderdojo-nagaokakyo.doorkeeper.jp/">CoderDojo 長岡京</a></th>
       <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="https://coderdojo-shirakawa.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-shirakawa.png" alt="CoderDojo 白河"></a></td>
-      <td><img width="200px" src="/img/logos/empty.png" alt="Empty Logo"></td>
+      <td><a href="https://coderdojo-nagaokakyo.doorkeeper.jp/"><img width="200px" src="/img/logos/coderdojo-nagaokakyo.png" alt="CoderDojo 長岡京"></a></td>
       <td><img width="200px" src="/img/logos/empty.png" alt="Empty Logo"></td>
     </tr>
   </tbody>
