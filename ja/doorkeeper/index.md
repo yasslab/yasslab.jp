@@ -13,7 +13,7 @@ lang:   ja
             <div class="col-md-12">
               <div class="text-center">
                 <h1 class="mb-5">Doorkeeper スポンサーシップ</h1>
-                  <h3 class="mb-5">コミュニティ運営者向け「Doorkeeper スポンサーシップ」の資料です。CC BY-SA で公開しています。<br class="mobile-hidden">(提供: <a href="/ja">YassLab 株式会社</a>)</h3>		
+                  <h3 class="mb-5">コミュニティ運営者に「Doorkeeper」のイベント枠を提供</h3>		
               </div>
             </div><!--//col-->
         </div><!--//row-->
@@ -27,7 +27,6 @@ lang:   ja
         <div class="row text-center">
           <div class="col-md-12">
               <p><a href="https://yasslab.jp/">YassLab 株式会社</a>が提供する Doorkeeper スポンサーシップに興味を持って頂きありがとうございます! 本資料では、弊社が Doorkeeper の枠を提供する目的や条件、手続き、利用規約などをまとめています。コミュニティ運営者の皆さまが本スポンサーシップを検討する際のご参考になれば幸いです。</p>
-            スポンサーシップ提供例
 <p><em>(※ 本スポンサーシップは、Doorkeeper 株式会社の代表取締役 Paul McMahon から事前の承諾を得て実施しております.)</em></p>
 
 <h2 id="background">
@@ -39,11 +38,10 @@ lang:   ja
 
 <p class="imgfit"><img src="/img/doorkeeper_sample.gif" alt="スポンサーシップ提供例" width="100%"></p>
 
-<p align="center">図. Okinawa Ruby User Group (<a href="http://ruby.okinawa/">Okinawa.rb</a>) に対するスポンサーシップの提供例</p>
+<p class="text-center">図. Okinawa Ruby User Group (<a href="http://ruby.okinawa/">Okinawa.rb</a>) に対するスポンサーシップの提供例</p>
 
 <p>上記の形で支援することで、将来にわたって長期的に良いサービスを提供したい Doorkeeper にとっても、引き続き Doorkeeper を利用したいコミュニティにとっても、また、コミュニティを支援する企業として周知していきたい弊社にとっても良い関係性を築けるのではないかと考えております。</p>
 
-<p>実験的な形のため試行錯誤もあるかと思いますが、より継続的なコミュニティ支援の一例となれば嬉しいなと考えております。</p>
 <br>
 <h2 id="prospectives">
 <a class="anchor" href="#prospectives" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>対象となるコミュニティ</a></h2>
@@ -61,13 +59,13 @@ lang:   ja
 <h2 id="proposal">
 <a class="anchor" href="#proposal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>スポンサー紹介のお願い</a></h2>
 
-<p>特に厳しくチェックするつもりはありませんが、イベントページ下部などに次のようなスポンサー紹介を入れて頂けると助かります! 細かな文言やレイアウトなどは適宜修正して頂いて大丈夫です <g-emoji alias="ok_hand" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44c.png">👌</g-emoji> また、弊社のロゴデータは<a href="https://www.dropbox.com/sh/mvjm7ascrn85awb/AADIoBdfQN7YUv3O3jAGfpVGa?dl=0">コチラ</a>からダウンロードできます。</p>
+<p>特に厳しくチェックするつもりはありませんが、イベントページ下部などに次のようなスポンサー紹介を入れて頂けると助かります! 細かな文言やレイアウトなどは適宜修正して頂いて大丈夫です <g-emoji alias="ok_hand" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44c.png">👌</g-emoji> 弊社ロゴデータは<a href="/ja/brand-assets">ブランドガイドライン</a>からダウンロードできます。</p>
 
 <h3>
 <a id="page_facing_up-紹介例-httpsotona-programmingdoorkeeperjpevents47739" class="anchor" href="#page_facing_up-%E7%B4%B9%E4%BB%8B%E4%BE%8B-httpsotona-programmingdoorkeeperjpevents47739" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>スポンサー紹介の例</h3>
 
-<p class="imgfit"><img src="/img/doorkeeper-sponsor-example.gif" alt="紹介例" width="100%">
-   <a href="https://otona-programming.doorkeeper.jp/events/47739">ex)「大人のためのプログラミング教室」でのスポンサー紹介例を見る</a>
+<p class="imgfit text-center"><img src="/img/doorkeeper-sponsor-example.gif" alt="紹介例" width="100%">
+   <a href="https://okinawarb.doorkeeper.jp/events/77519">事例:「Okinawa Ruby User Group」でのスポンサー紹介例を見る</a>
 </p>
 
 <h4>
@@ -79,8 +77,7 @@ lang:   ja
 [![<span class="pl-e">YassLab 株式会社</span>](https://yasslab.jp/img/logo_800x200.png)](https://yasslab.jp/)</pre>
 </div>
 
-
-<h2 id="howto">
+<h2 id="howto" style="margin-top: 50px;">
 <a class="anchor" href="#howto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>イベント枠提供までの手続き</a></h2>
 <p>イベント枠を提供するまでの手続きは大きく分けて２つあります。</p>
 
@@ -179,7 +176,7 @@ lang:   ja
 <tr>
   <th><a href="https://coderdojonakano.doorkeeper.jp/">CoderDojo 中野</a></th>
   <th><a href="https://coderdojookinawa.doorkeeper.jp/">CoderDojo 沖縄</a></th>
-  <th style="text-align: center"><a href="https://coderdojo-chofu.doorkeeper.jp/">CoderDojo 調布</a></th>
+  <th><a href="https://coderdojo-chofu.doorkeeper.jp/">CoderDojo 調布</a></th>
 </tr>
 </thead><tbody>
 <tr>
@@ -290,7 +287,7 @@ src="/img/logos/coderdojo-chofu.png" alt="CoderDojo 調布"></a></td>
 -->
 
 
-<h3>
+<h3 style="margin-top: 50px; margin-bottom: 10px;">
 <a id="newspaper-関連記事" class="anchor" href="#newspaper-%E9%96%A2%E9%80%A3%E8%A8%98%E4%BA%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>関連記事</h3>
 
 <ul>
@@ -310,9 +307,8 @@ src="/img/logos/coderdojo-chofu.png" alt="CoderDojo 調布"></a></td>
 <ul>
 <li>メール: yohei@yasslab.jp
 </li>
-<li>ウェブ: <a href="https://yasslab.jp/">https://yasslab.jp/</a>
-</li>
 <li>担当者: YassLab (株) 安川 要平</li>
+<li>所在地: 東京都新宿区高田馬場1-28-10 三慶ビル4階 CASE Shinjuku</li>
 </ul>
 <br>
 <h2 id="license">
