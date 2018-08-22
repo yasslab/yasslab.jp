@@ -13,7 +13,7 @@ lang:   ja
             <div class="col-md-12">
               <div class="text-center">
                 <h1 class="mb-5">Doorkeeper スポンサーシップ</h1>
-                  <h3 class="mb-5">コミュニティ運営者に「Doorkeeper」のイベント枠を提供</h3>		
+                  <h3 class="mb-5">コミュニティ運営者に「Doorkeeper」イベント枠を提供</h3>		
               </div>
             </div><!--//col-->
         </div><!--//row-->
