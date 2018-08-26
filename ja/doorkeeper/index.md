@@ -46,12 +46,12 @@ lang:   ja
 <h2 id="prospectives">
 <a class="anchor" href="#prospectives" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>対象となるコミュニティ</a></h2>
 
-<p>弊社では <a href="https://www.doorkeeper.jp/pricing">Doorkeeper の Plus プラン</a>に契約しているため、提供できるイベント枠には限りがあります。そのため、下記のコミュニティを優先的に支援いたします。</p>
+<p>弊社では <a href="https://www.doorkeeper.jp/pricing">Doorkeeper の Plus プラン</a>に契約しているため、提供できるイベント枠には限りがあります。枠数が限定されているため、下記にあげるような弊社との関連性が高いコミュニティに優先的に提供しております。</p>
 
 <ul>
 <li>沖縄のIT系コミュニティ (例: <a href="https://okinawarb.doorkeeper.jp/">Okinawa.rb</a>, <a href="https://okinawa-frontend.doorkeeper.jp/">Okinawa Frontend</a>)</li>
 <li>CoderDojo コミュニティ (例: <a href="https://coderdojo.doorkeeper.jp/">CoderDojo さいたま</a>, <a href="https://coderdojohanno.doorkeeper.jp/">CoderDojo 飯能</a>)</li>
-<li>他、弊社が関わっているコミュニティ (例: <a href="https://otona-programming.doorkeeper.jp/">大人のためのプログラミング勉強会</a>)</li>
+<li>他、弊社との関連性が高いコミュニティ (例: <a href="https://oss-gate.github.io/">OSS Gate</a>, <a href="https://nilquebe.com/">Nilquebe</a>)</li>
 </ul>
 
 <p>もし枠が余っていれば上記以外のコミュニティも支援できると思いますが、枠の数には限りがあるため、基本的には上記のコミュニティを優先して支援していけたらと考えております。ご理解して頂けると幸いです <g-emoji alias="bow" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f647.png">🙇</g-emoji> </p>
