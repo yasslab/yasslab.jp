@@ -37,12 +37,11 @@ lang:   ja
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
-            <h2 id="services" class="mt-5 mb-5"><a href="#services">YassLab 社の事業概要</a></h2>
-            
-            <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
-            <center>※ 見れない場合は <a href="http://www.slideshare.net/yasulab/works-of-yasslab">コチラ</a>へ。</center>
-            
-            <p class="text-center">事業実績の詳細は<a href="/ja/works/">コチラ</a>をご参照ください。</p>
+            <h2 id="services" class="mt-5 mb-5"><a href="#services">YassLab 社のカタチ</a></h2>
+			<script async class="speakerdeck-embed"
+			data-id="ba5d69d07474453eaf7e34a8b924851e" data-ratio="1.33333333333333"
+			src="//speakerdeck.com/assets/embed.js"></script>
+            <p class="text-center">(これまでの事業実績は<a href="/ja/works/">コチラ</a>をご参照ください)</p>
           </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
