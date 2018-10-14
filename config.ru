@@ -22,7 +22,7 @@ use Rack::TryStatic,
       'X-Xss-Protection'          => '1; mode=block',
       'X-Content-Type-Options'    => 'nosniff',
       'X-Frame-Options'           => 'DENY',
-      'Content-Security-Policy'   => "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.google-analytics.com *.facebook.net *.facebook.com *.twitter.com *.github.com buttons.github.io *.hatena.ne.jp *.st-hatena.com *.wufoo.com speakerdeck.com coderdojo.jp code.jquery.com fonts.googleapis.com fonts.gstatic.com cdnjs.cloudflare.com stackpath.bootstrapcdn.com public.slidesharecdn.com www.slideshare.net www.youtube.com www.w3.org; img-src * 'self' data: https:;"
+      'Content-Security-Policy'   => "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.google-analytics.com *.facebook.net *.facebook.com *.twitter.com *.github.com buttons.github.io *.hatena.ne.jp *.st-hatena.com *.wufoo.com speakerdeck.com speakerd.herokuapp.com coderdojo.jp code.jquery.com fonts.googleapis.com fonts.gstatic.com cdnjs.cloudflare.com stackpath.bootstrapcdn.com public.slidesharecdn.com www.slideshare.net www.youtube.com www.w3.org; img-src * 'self' data: https:;"
     }],
     [['html'],    { 'Content-Type'  => 'text/html; charset=utf-8'}],
     [['txt'],     { 'Content-Type'  => 'text/plain; charset=utf-8'}],
