@@ -255,14 +255,14 @@ src="/img/logos/coderdojo-chofu.png" alt="CoderDojo 調布"></a></td>
     <tr>
       <th><a href="https://coderdojo-shirakawa.doorkeeper.jp/">CoderDojo 白河</a></th>
       <th><a href="https://coderdojo-nagaokakyo.doorkeeper.jp/">CoderDojo 長岡京</a></th>
-      <th></th>
+      <th><a href="https://coderdojo-gotanda.doorkeeper.jp/">CoderDojo 五反田</a></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="https://coderdojo-shirakawa.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-shirakawa.png" alt="CoderDojo 白河"></a></td>
       <td><a href="https://coderdojo-nagaokakyo.doorkeeper.jp/"><img width="200px" src="/img/logos/coderdojo-nagaokakyo.png" alt="CoderDojo 長岡京"></a></td>
-      <td><img width="200px" src="/img/logos/empty.png" alt="Empty Logo"></td>
+      <td><a href="https://coderdojo-gotanda.doorkeeper.jp/"><img width="200px" src="/img/logos/coderdojo.png" alt="CoderDojo 五反田"></a></td>
     </tr>
   </tbody>
 </table>
@@ -271,14 +271,14 @@ src="/img/logos/coderdojo-chofu.png" alt="CoderDojo 調布"></a></td>
 <!--
 <table><thead>
     <tr>
-      <th><a href="https://coderdojo-masuda.doorkeeper.jp/">CoderDojo 増田</a></th>
+      <th><a href="https://coderdojo-japan.doorkeeper.jp/">CoderDojo Japan</a></th>
       <th></th>
       <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://coderdojo-masuda.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-masuda.png" alt="CoderDojo 増田"></a></td>
+      <td><a href="https://coderdojo-japan.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-masuda.png" alt="CoderDojo Japan"></a></td>
       <td><img width="200px" src="/img/logos/empty.png" alt="Empty Logo"></td>
       <td><img width="200px" src="/img/logos/empty.png" alt="Empty Logo"></td>
     </tr>
