@@ -23,8 +23,8 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>Ruby/Railsの<br class="pc-hidden">技術力をベースにした事業</h2>
-        <p class="text-md-center">オープンソースソフトウェアやコミュニティへの還元を前提としつつ、<br class="mobile-hidden">オープンソースやコミュニティと共に成長できるビジネスに取り組んでいます。</p>
+        <h2>新しいサービスを、Ruby で</h2>
+        <p class="text-md-center">オープンソースソフトウェアやコミュニティへの還元を大切にしつつ、<br class="mobile-hidden">事業としても共に成長できる、そんなビジネスに関わり続けている会社です。</p>
       </div>
     </div>
   </div>
@@ -33,7 +33,9 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3>継続的翻訳/組版システム・<br class="pc-hidden">動画制作・ライセンス</h3>
+        <h3 style="line-height: 2.0em;">《継続的翻訳/組版システム》<br>
+		Web 開発の学びを Ruby で支える</h3>
+
         <div class="row">
           <div class="col-md-4 offset-md-1">
             <a href="https://railstutorial.jp/" target="_blank"><img src="../img/logo-rails-tutrial.png"
@@ -42,8 +44,8 @@ lang:   ja
             <a href="https://railstutorial.jp/" target="_blank">
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
-            <a href="https://railstutorial.jp/" target="_blank"><h4>Rails チュートリアル</h4></a>
-            <p>SNSの開発を題材にした大型チュートリアルで、Webサービスの開発から公開までの流れを実例を通して学べます。解説動画や質問対応サービスも提供。</p>
+            <a href="https://railstutorial.jp/" target="_blank"><h4>Railsチュートリアル</h4></a>
+            <p>SNSのWeb開発を題材にした大型チュートリアルで、Webサービスの開発から公開までの流れを実例を通して学べます。解説動画や質問対応サービスも提供。</p>
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank">
@@ -64,7 +66,8 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3>あなたの事業を <br class="pc-hidden">Ruby/Rails で開発支援</h3>
+        <h3 style="line-height: 2.0em;">《月単位の Ruby/Rails 開発支援》<br>
+		開発事業を月単位でサポートします</h3>
         <div class="row mb-5">
           <div class="col-4">
             <figure id="ruby">
@@ -107,8 +110,10 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2> 沖縄×東京 <br class="pc-hidden">の開発チーム</h2>
-        <p class="text-md-center">技術で勝負したいソフトウェアエンジニアのチームです。<br class="mobile-hidden">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
+        <h2>沖縄
+		×
+		東京</h2>
+        <p class="text-md-center">YassLab 社は技術で勝負したいソフトウェアエンジニアのリモートチームです。<br class="mobile-hidden">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
         <div class="text-center">
             <a href="/ja/join-forces" class="btn btn-primary">採用情報</a>
           </div>
@@ -293,7 +298,7 @@ lang:   ja
     <div class="row">
       <div class="col-12">
         <h2>コミュニティ活動</h2>
-        <p class="text-md-center">YassLab ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="mobile-hidden">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
+        <p class="text-md-center">YassLab 社ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="mobile-hidden">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
         <div class="row">
           <div class="col-md-4">
             <figure>
