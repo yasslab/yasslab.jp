@@ -1,6 +1,6 @@
 ---
 layout: plain
-title:  Ruby/Rails の開発支援サービス – YassLab 株式会社
+title:  月額制の Ruby/Rails 開発支援サービス – YassLab 株式会社
 lang:   ja
 ---
 <section class="pageVisual">
@@ -12,7 +12,7 @@ lang:   ja
         <div class="row">
             <div class="col-md-12">
               <div class="text-center">
-                <h1 class="mb-5">Ruby/Rails の開発支援サービス</h1>
+                <h1 class="mb-5">月額制の Ruby/Rails 開発支援サービス</h1>
 		<h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
 		<!--
                 <h2 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h2>

@@ -66,7 +66,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3 style="line-height: 2.0em;">《月単位の Ruby/Rails 開発支援》<br>
+        <h3 style="line-height: 2.0em;">《月額制の Ruby/Rails 開発支援》<br>
 		開発事業を月単位でサポートします</h3>
         <div class="row mb-5">
           <div class="col-4">
