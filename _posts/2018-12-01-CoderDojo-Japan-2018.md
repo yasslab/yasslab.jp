@@ -22,7 +22,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 動画もなるべく小分けしていて、動画で説明している内容や詳細へのリンクも箇条書きでまとめているので、興味あるトピックから気軽に眺めてみていただければ ;) 
 
 <ol class="snsb" style="margin-left: 0px">
-	  <li><div class="fb-like" data-href="https://yasslab.jp/ja/posts/coderdojo-japan-2018" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li>
+	  <li><div class="fb-like" data-href="https://yasslab.jp/ja/posts/coderdojo-japan-2018" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></li>
 	  <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://yasslab.jp/ja/posts/coderdojo-japan-2018" data-text="開発目線で見る最近の CoderDojo Japan 2018 - YassLab" data-lang="en" data-hashtags="CoderDojo" data-via="YassLab" width="100">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
           <li><a href="https://b.hatena.ne.jp/entry/s/yasslab.jp/ja/posts/coderdojo-japan-2018" class="hatena-bookmark-button" data-hatena-bookmark-title="開発目線で見る最近の CoderDojo Japan 2018 - YassLab" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></li>          
       </ol>
@@ -122,3 +122,12 @@ CoderDojo 五反田の会場スポンサーでもある[freee株式会社](https
 
 cf. [コミュニティと共に成長する: 全国150ヶ所ある CoderDojo と企業の共創](https://speakerdeck.com/…/growing-up-together-with-community)   
 cf. [パートナーシップのご案内 - CoderDojo Japan](https://coderdojo.jp/docs/about-partnership)
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2&appId=680598798739780&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
