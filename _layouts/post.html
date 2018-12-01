@@ -1,0 +1,26 @@
+{% include header.html %}
+
+{% if page.thumbnail %}
+<div style="color: #fff;padding: 100px 0;margin-bottom: 0; background: url(../../img/{{ page.thumbnail }});">
+</div>
+{% else %}
+<div style="color: #fff;padding: 100px 0;margin-bottom: 0; background: url(../../img/bg-sky.jpg);">
+</div>
+{% endif %}
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer container">
+  <section id="main_content" class="inner row justify-content-md-center pt-5">
+    <div class="col-12 col-md-9 entry_content text-center">
+    <h1>{{ page.title}}</h1>
+    {{ content }}
+    </div>
+  </section>
+  
+  <div class="text-xs-right text-right" text-align="right">
+    日時: {{ page.date | date: "%Y/%m/%d" }}<br>
+    執筆: {{ page.author }}
+  </div>
+</div>
+
+{% include footer_without_contact.html %}
