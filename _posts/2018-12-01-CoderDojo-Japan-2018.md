@@ -8,7 +8,7 @@ tags: [coderdojo, ruby, rails]
 permalink: /ja/posts/coderdojo-japan-2018
 ---
 
-どうも、安川です。開発支援パートナーとして YassLab 株式会社が CoderDojo Japan の Web 開発を継続的にサポートしているのですが、毎年少しずつ、様々な部分がアップデートされています。
+どうも、[安川](https://twitter.com/yasulab)です。開発支援パートナーとして YassLab 株式会社が CoderDojo Japan の Web 開発を継続的にサポートしているのですが、毎年少しずつ、様々な部分がアップデートされています。
 
 cf. [CoderDojo Japan の各種機能と実装について【2017年版】](https://qiita.com/yasulab/items/1d12e6b295c0a9e577f1)   
 cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】](https://coderdojo.jp/news/2016/12/12/new-backend)
