@@ -9,7 +9,7 @@ permalink: /ja/posts/coderdojo-japan-2018
 ---
 
 <div class="video" style="margin-bottom: 30px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fts1ogmYJ6M?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fts1ogmYJ6M?rel=0&autoplay=0&showinfo=0&controls=1&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
 </div>
 
 どうも、[安川](https://twitter.com/yasulab)です。開発支援パートナーとして YassLab 株式会社が CoderDojo Japan の Web 開発を継続的にサポートしているのですが、毎年少しずつ、様々な部分がアップデートされています。
@@ -25,7 +25,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 ## 1. README・トップページ改善
 
 <div class="video" style="margin-bottom: 30px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pHFRHN-wGYU?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pHFRHN-wGYU?rel=0&autoplay=0&showinfo=0&controls=1&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
 </div>
 
 - [README の日本語化](https://github.com/coderdojo-japan/coderdojo.jp/commit/6e459fa1e9c322fbafa77cd293c3e2276dbe4b1f)
@@ -42,7 +42,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 ## 2. 統計情報の改善・見える化
 
 <div class="video" style="margin-bottom: 30px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K85x6tAHC10?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K85x6tAHC10?rel=0&autoplay=0&showinfo=0&controls=1&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
 </div>
 
 - [統計情報 - CoderDojo Japan](https://coderdojo.jp/stats)
@@ -54,7 +54,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 ## 3. ドキュメントの整備・充実
 
 <div class="video" style="margin-bottom: 30px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9NAlTauTrwQ?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9NAlTauTrwQ?rel=0&autoplay=0&showinfo=0&controls=1&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
 </div>
 
 - [パートナーシップのご案内](https://coderdojo.jp/docs/about-partnership)
@@ -69,7 +69,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 ## 4. システム・インフラ環境改善
 
 <div class="video" style="margin-bottom: 30px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zs1H7dXR_9c?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zs1H7dXR_9c?rel=0&autoplay=0&showinfo=0&controls=1&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
 </div>
 
 - [アクティブではない Dojo の非表示化 #310](https://github.com/coderdojo-japan/coderdojo.jp/issues/310)
@@ -84,7 +84,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 ## 5. 今後、実装してみたい機能
 
 <div class="video" style="margin-bottom: 30px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k2tKZkVDkEM?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k2tKZkVDkEM?rel=0&autoplay=0&showinfo=0&controls=1&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
 </div>
 
 - [直近の CoderDojo 開催情報を表示したい #258](https://github.com/coderdojo-japan/coderdojo.jp/issues/258)
