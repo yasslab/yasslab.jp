@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  開発目線で見る最近の CoderDojo Japan 2018
+thumbnail: coderdojo-japan.png
 author: 安川 要平
 categories: [blog]
 tags: [coderdojo, ruby, rails]
