@@ -43,7 +43,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 
 - [パートナーシップのご案内](https://coderdojo.jp/docs/about-partnership)
 - [パートナーシップの存続期間について](https://coderdojo.jp/docs/term-of-partnership)
-- [CoderDojo Japan 決算報告書]()
+- [CoderDojo Japan 決算報告書](https://coderdojo.jp/financial-report)
 - [CoderDojo ブランドガイドライン](https://coderdojo.jp/docs/brand-guidelines) / [報道関係者向け資料
 ](https://coderdojo.jp/docs/for-press)
 - [CoderDojo の運営が難しくなったときのガイドライン](https://coderdojo.jp/docs/how-to-suspend-your-dojo)
