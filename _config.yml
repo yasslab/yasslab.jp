@@ -1,18 +1,20 @@
 permalink: /:title
 company:
-  name:  YassLab
+  name:  YassLab Inc.
   email: yohei@yasslab.jp
-  size: 11
+  size: 12
   
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://yasslab.jp" # the base hostname & protocol for your site
-twitter_username: yasslab
-github_username:  yasslab
+twitter_username: YassLab
+github_username:  YassLab
 source:      ./
 destination: ./_site
 timezone: Asia/Tokyo
 encoding: utf-8
+
+excerpt_separator: "続きを読む"
 
 highlighter: rouge
 markdown: kramdown
