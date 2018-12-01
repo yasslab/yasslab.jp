@@ -90,7 +90,7 @@ lang:   ja
                     </tr>
                     <tr>
                         <th>社員数</th>
-                        <td>11名 (パート・複業採用含む)</td>
+                        <td>12名 (パート・複業採用含む)</td>
                     </tr>
 		    <tr>
                         <th>資本金</th>
@@ -130,7 +130,7 @@ lang:   ja
                             RubyKaigi (翻訳協力)<br>
                             Scrivito (開発協力)<br>
                             CoderDojo Japan (開発支援)<br>
-                            Mitou Foundation (未踏ジュニアPM・スポンサー)
+                            Mitou Foundation (未踏ジュニアPM・教材スポンサー)
                         </td>
                     </tr>
                     </tbody>
