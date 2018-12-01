@@ -17,9 +17,9 @@ permalink: /ja/posts/coderdojo-japan-2018
 cf. [CoderDojo Japan の各種機能と実装について【2017年版】](https://qiita.com/yasulab/items/1d12e6b295c0a9e577f1)   
 cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】](https://coderdojo.jp/news/2016/12/12/new-backend)
 
-上記の流れに続けて、本記事でも2018年に行われたアップデートを紹介していきます。ただ今回はちょっとアプローチを変えて、 **スクリーンキャスト風に [GitHub 上のコミットログ](https://github.com/coderdojo-japan/coderdojo.jp/commits/master)や、[README で説明されている動かし方](https://github.com/coderdojo-japan/coderdojo.jp#readme)などを説明** してみようかなと思います。
+上記の流れに続けて、本記事でも2018年に行われたアップデートを紹介していきます。ただ今回は少しアプローチを変えて、 **スクリーンキャスト風に GitHub 上の[コミットログ](https://github.com/coderdojo-japan/coderdojo.jp/commits/master)や[開発背景](https://github.com/coderdojo-japan/coderdojo.jp#readme)などを説明** してみようかなと思います。
 
-動画もなるべく小分けしていて、動画で説明している内容や詳細へのリンクも箇条書きでまとめているので、興味あるトピックから気軽に眺めてみていただければ ;) 
+動画もなるべく小分けしていて、説明している内容や詳細へのリンクも箇条書きでまとめているので、興味あるトピックから気軽に眺めてみていただければ ;) 
 
 <ol class="snsb" style="margin-left: 0px">
 	  <li><div class="fb-like" data-href="https://yasslab.jp/ja/posts/coderdojo-japan-2018" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></li>
@@ -104,11 +104,13 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 
 ## まとめ
 
-いかがでしたでしょうか? 毎年少しずつですが、 CoderDojo Japan のシステムも改善されていますね ;) 
+いかがでしたでしょうか? 毎年少しずつですが CoderDojo Japan のシステムも改善されていますね ;) 
 
 ソースコードは OSS として公開されているので、もし興味あれば GitHub 上の [coderdojo-japan/coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp) を見てみてください！
 
 YassLab 株式会社では、CoderDojo Japan の開発支援パートナーとして引き続き裏側から支援していきます 💪
+
+[![開発パートナー](https://coderdojo.jp/img/partners-on-web.png)](https://coderdojo.jp/#partners)
 
 <br>
 
