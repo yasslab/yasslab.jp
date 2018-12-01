@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  開発目線で見る最近の CoderDojo Japan 2018
-author: 安川 要平　
+author: 安川 要平
 categories: [blog]
 tags: [coderdojo, ruby, rails]
 permalink: /ja/posts/coderdojo-japan-2018
