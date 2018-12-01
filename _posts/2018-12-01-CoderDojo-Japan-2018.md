@@ -20,6 +20,10 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 
 ## 1. README・トップページ改善
 
+<div class="video" style="margin-bottom: 30px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-Y2Z1rFUsU?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+</div>
+
 - [README の日本語化](https://github.com/coderdojo-japan/coderdojo.jp/commit/6e459fa1e9c322fbafa77cd293c3e2276dbe4b1f)
    - Dojo 情報の修正方法
    - Kata の執筆・編集方法
@@ -29,18 +33,25 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 - Twitter 仕様変更に伴う [最近の CoderDojo](https://coderdojo.jp/#timeline) の対応
 - [問い合わせフォーム](https://coderdojo.jp/#contact)の改善
 
-<br><br>
+<br>
 
 ## 2. 統計情報の改善・見える化
+
+<div class="video" style="margin-bottom: 30px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-Y2Z1rFUsU?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+</div>
 
 - [統計情報 - CoderDojo Japan](https://coderdojo.jp/stats)
 - [開発者向けドキュメント](https://github.com/coderdojo-japan/coderdojo.jp/blob/master/docs/how-to-add-dojo.md)の整備
 - [Add 'dumper' gem to backup database #326](https://github.com/coderdojo-japan/coderdojo.jp/pull/326)
 
-<br><br>
+<br>
 
 ## 3. ドキュメントの充実
 
+<div class="video" style="margin-bottom: 30px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-Y2Z1rFUsU?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+</div>
 
 - [パートナーシップのご案内](https://coderdojo.jp/docs/about-partnership)
 - [パートナーシップの存続期間について](https://coderdojo.jp/docs/term-of-partnership)
@@ -49,9 +60,13 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 ](https://coderdojo.jp/docs/for-press)
 - [CoderDojo の運営が難しくなったときのガイドライン](https://coderdojo.jp/docs/how-to-suspend-your-dojo)
 
-<br><br>
+<br>
 
 ## 4. システム・インフラ環境改善
+
+<div class="video" style="margin-bottom: 30px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-Y2Z1rFUsU?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+</div>
 
 - [アクティブではない Dojo の非表示化 #310](https://github.com/coderdojo-japan/coderdojo.jp/issues/310)
 - [Zen API 連携の調査 #330](https://github.com/coderdojo-japan/coderdojo.jp/issues/330)
@@ -60,9 +75,13 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 - [Trailing Slash などのバグ対応](https://github.com/coderdojo-japan/coderdojo.jp/issues/290)
 - [他、各種バグ対応](https://github.com/coderdojo-japan/coderdojo.jp/issues?q=label%3ABug+is%3Aclosed)
 
-<br><br>
+<br>
 
 ## 5. 今後、実装してみたい機能
+
+<div class="video" style="margin-bottom: 30px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-Y2Z1rFUsU?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media;"></iframe>
+</div>
 
 - [直近の CoderDojo 開催情報を表示したい #258](https://github.com/coderdojo-japan/coderdojo.jp/issues/258)
 - [トップページにCoderDojo Mapを埋め込む #32](https://github.com/coderdojo-japan/coderdojo.jp/issues/32)
@@ -70,7 +89,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 - 統計情報の対応可能サービスを増やす
 - デザインの改善
 
-<br><br>
+<br>
 
 ## まとめ
 
