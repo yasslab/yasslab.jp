@@ -8,9 +8,87 @@ tags: [coderdojo, ruby, rails]
 permalink: /ja/posts/coderdojo-japan-2018
 ---
 
-**Hello world**, this is my first Jekyll blog post.
-
-I hope you like it!
+どうも、安川です。開発支援パートナーとして YassLab 株式会社が CoderDojo Japan の Web 開発を継続的にサポートしているのですが、毎年少しずつ、様々な部分がアップデートされています。
 
 cf. [CoderDojo Japan の各種機能と実装について【2017年版】](https://qiita.com/yasulab/items/1d12e6b295c0a9e577f1)   
-cf. [CoderDojo Japan のバックエンドを更新しました](https://coderdojo.jp/news/2016/12/12/new-backend)
+cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】](https://coderdojo.jp/news/2016/12/12/new-backend)
+
+上記の流れに続けて、本記事でも2018年に行われたアップデートを紹介していきます。ただ今回はちょっとアプローチを変えて、 **スクリーンキャスト風に [GitHub 上のコミットログ](https://github.com/coderdojo-japan/coderdojo.jp/commits/master)や、[README で説明されている動かし方](https://github.com/coderdojo-japan/coderdojo.jp#readme)などを説明** してみようかなと思います。
+
+動画もなるべく小分けしていて、動画で説明している内容や詳細へのリンクも箇条書きでまとめているので、興味あるトピックから気軽に眺めてみていただければ ;) 
+<br><br>
+
+## 1. README・トップページ改善
+
+- [README の日本語化](https://github.com/coderdojo-japan/coderdojo.jp/commit/6e459fa1e9c322fbafa77cd293c3e2276dbe4b1f)
+   - Dojo 情報の修正方法
+   - Kata の執筆・編集方法
+   - Web 開発に関わるための手順
+- [CoderDojo ガイダンス](https://coderdojo.jp/#welcome)
+- [Google Map 検索できるページ](https://zen.coderdojo.com/find)への導線設置
+- Twitter 仕様変更に伴う [最近の CoderDojo](https://coderdojo.jp/#timeline) の対応
+- [問い合わせフォーム](https://coderdojo.jp/#contact)の改善
+
+<br><br>
+
+## 2. 統計情報の改善・見える化
+
+- [統計情報 - CoderDojo Japan](https://coderdojo.jp/stats)
+- [開発者向けドキュメント](https://github.com/coderdojo-japan/coderdojo.jp/blob/master/docs/how-to-add-dojo.md)の整備
+- [Add 'dumper' gem to backup database #326](https://github.com/coderdojo-japan/coderdojo.jp/pull/326)
+
+<br><br>
+
+## 3. ドキュメントの充実
+
+
+- [パートナーシップのご案内](https://coderdojo.jp/docs/about-partnership)
+- [パートナーシップの存続期間について](https://coderdojo.jp/docs/term-of-partnership)
+- [CoderDojo Japan 決算報告書]()
+- [CoderDojo ブランドガイドライン](https://coderdojo.jp/docs/brand-guidelines) / [報道関係者向け資料
+](https://coderdojo.jp/docs/for-press)
+- [CoderDojo の運営が難しくなったときのガイドライン](https://coderdojo.jp/docs/how-to-suspend-your-dojo)
+
+<br><br>
+
+## 4. システム・インフラ環境改善
+
+- [アクティブではない Dojo の非表示化 #310](https://github.com/coderdojo-japan/coderdojo.jp/issues/310)
+- [Zen API 連携の調査 #330](https://github.com/coderdojo-japan/coderdojo.jp/issues/330)
+- [Docker 環境の整備 #347](https://github.com/coderdojo-japan/coderdojo.jp/pull/347)
+- [テスト環境の整備 #352](https://github.com/coderdojo-japan/coderdojo.jp/pull/352)
+- [Trailing Slash などのバグ対応](https://github.com/coderdojo-japan/coderdojo.jp/issues/290)
+- [他、各種バグ対応](https://github.com/coderdojo-japan/coderdojo.jp/issues?q=label%3ABug+is%3Aclosed)
+
+<br><br>
+
+## 5. 今後、実装してみたい機能
+
+- [直近の CoderDojo 開催情報を表示したい #258](https://github.com/coderdojo-japan/coderdojo.jp/issues/258)
+- [トップページにCoderDojo Mapを埋め込む #32](https://github.com/coderdojo-japan/coderdojo.jp/issues/32)
+- 統計情報の登録フローを簡略化したい
+- 統計情報の対応可能サービスを増やす
+- デザインの改善
+
+<br><br>
+
+## まとめ
+
+いかがでしたでしょうか? 毎年少しずつですが、 CoderDojo Japan のシステムも改善されていますね ;) 
+
+ソースコードは OSS として公開されているので、もし興味あれば GitHub 上の [coderdojo-japan/coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp) を見てみてください！
+
+YassLab 株式会社では、CoderDojo Japan の開発支援パートナーとして引き続き裏側から支援していきます 💪
+
+<br>
+
+### オマケ
+
+CoderDojo 五反田の会場スポンサーでもある[freee株式会社](https://www.freee.co.jp/)にご招待されて、「[ミッション・ビジョン・理念ナイト](https://jobs.freee.co.jp/recruitblog/aboutus/freee_club_5/)」で上記の YassLab × CoderDojo Japan 開発支援パートナーの取り組みについて発表させていただきました。
+
+法人として CoderDojo Japan と提携を検討している方がいらっしゃれば、ぜひこちらもご参考にしていただければ ;)
+
+<script async class="speakerdeck-embed" data-id="ba5d69d07474453eaf7e34a8b924851e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+cf. [コミュニティと共に成長する: 全国150ヶ所ある CoderDojo と企業の共創](https://speakerdeck.com/…/growing-up-together-with-community)   
+cf. [パートナーシップのご案内 - CoderDojo Japan](https://coderdojo.jp/docs/about-partnership)
