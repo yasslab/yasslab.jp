@@ -28,7 +28,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
    - Dojo 情報の修正方法
    - Kata の執筆・編集方法
    - Web 開発に関わるための手順
-- [CoderDojo ガイダンス](https://coderdojo.jp/#welcome)
+- [CoderDojo ガイダンス](https://coderdojo.jp/#welcome)のリニューアル
 - [Google Map 検索できるページ](https://zen.coderdojo.com/find)への導線設置
 - Twitter 仕様変更に伴う [最近の CoderDojo](https://coderdojo.jp/#timeline) の対応
 - [問い合わせフォーム](https://coderdojo.jp/#contact)の改善
