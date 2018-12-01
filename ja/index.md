@@ -45,7 +45,7 @@ lang:   ja
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
             <a href="https://railstutorial.jp/" target="_blank"><h4>Railsチュートリアル</h4></a>
-            <p>SNSのWeb開発を題材にした大型チュートリアルで、Webサービスの開発から公開までの流れを実例を通して学べます。解説動画や質問対応サービスも提供。</p>
+            <p>SNS の開発を題材にした大型チュートリアル。Web サービスの開発から公開までの流れを実例を通して学べます。解説動画や質問対応サービスも提供。</p>
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank">
@@ -54,8 +54,8 @@ lang:   ja
             <a href="https://railsguides.jp/" target="_blank">
               <button class="btn btn-ruby">上級者向け</button>
             </a>
-            <a href="https://railsguides.jp/" target="_blank"><h4>Rails ガイド</h4></a>
-            <p>Ruby on Rails 公式の大型リファレンスガイドです。Rails 開発の生産性を高めたいときや、Rails の各機能を体系的に学びたいときに。電子書籍版あり。</p>
+            <a href="https://railsguides.jp/" target="_blank"><h4>Railsガイド</h4></a>
+            <p>Ruby on Rails 公式の大型リファレンスガイド。Rails の各機能を体系的に学び、Web 開発の生産性を高めたいときに。検索可能な電子書籍版も提供。</p>
           </div>
         </div>
       </div>
