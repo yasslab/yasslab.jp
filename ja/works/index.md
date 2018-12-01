@@ -12,14 +12,17 @@ lang:   ja
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1>事業実績</h1>
-                <h2>沖縄と東京を拠点にして次の3つの事業を展開しています。</h2>
-                <div class="col-md-8 offset-md-2">
+				<br>
+                <h2>沖縄と東京を拠点に<br class="ignore-sp">次の3つの事業を展開</h2>
+                <div class="col-md-8 offset-md-3">
                   <ol>
                     <li><strong><a href="/ja/agile">Ruby/Railsの開発支援サービス</a></strong></li>
                     <li>技術書籍の翻訳・組版・出版</li>
                     <li>継続的翻訳システムの研究開発</li>
                   </ol>
-                
+                </div>
+				
+				<div class="col-md-8 offset-md-2">
                   <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; max-width: 100%;" allowfullscreen=""> </iframe>
                 </div><!--//col-md-8  offset-md--->
               </div><!--//col12-->
