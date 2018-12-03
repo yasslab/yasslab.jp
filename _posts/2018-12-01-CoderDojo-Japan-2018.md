@@ -17,7 +17,7 @@ permalink: /ja/posts/coderdojo-japan-2018
 cf. [CoderDojo Japan の各種機能と実装について【2017年版】](https://qiita.com/yasulab/items/1d12e6b295c0a9e577f1)   
 cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】](https://coderdojo.jp/news/2016/12/12/new-backend)
 
-上記の流れに続けて、本記事でも2018年に行われたアップデートを紹介していきます。ただ今回は少しアプローチを変えて、 **スクリーンキャスト風に GitHub 上の[コミットログ](https://github.com/coderdojo-japan/coderdojo.jp/commits/master)や[開発背景](https://github.com/coderdojo-japan/coderdojo.jp/pulls?utf8=%E2%9C%93&q=is%3Aclosed+)などを説明** してみようかなと思います。
+上記の流れに続けて、本記事でも2018年に行われたアップデートを紹介していきます。ただ今回は少しアプローチを変えて、**スクリーンキャスト風に GitHub 上の[コミットログ](https://github.com/coderdojo-japan/coderdojo.jp/commits/master)や[開発背景](https://github.com/coderdojo-japan/coderdojo.jp/pulls?utf8=%E2%9C%93&q=is%3Aclosed+)などを説明**してみようかなと思います。
 
 動画もなるべく小分けしていて、説明している内容や詳細へのリンクも箇条書きでまとめているので、興味あるトピックから気軽に眺めてみていただければ ;) 
 
