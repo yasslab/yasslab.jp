@@ -130,12 +130,3 @@ cf. [パートナーシップのご案内 - CoderDojo Japan](https://coderdojo.j
 	  <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://yasslab.jp/ja/posts/coderdojo-japan-2018" data-text="開発目線で見る最近の CoderDojo Japan 2018 - YassLab" data-lang="en" data-hashtags="CoderDojo" data-via="YassLab" width="100">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
           <li><a href="https://b.hatena.ne.jp/entry/s/yasslab.jp/ja/posts/coderdojo-japan-2018" class="hatena-bookmark-button" data-hatena-bookmark-title="開発目線で見る最近の CoderDojo Japan 2018 - YassLab" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></li>          
 </ol>
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2&appId=680598798739780&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
