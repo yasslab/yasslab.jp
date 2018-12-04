@@ -12,7 +12,8 @@ lang:   ja
         <div class="row">
             <div class="col-md-12">
               <div class="text-center">
-                <h1 class="mb-5">月額制の Ruby/Rails 開発支援サービス</h1>
+                <h1 class="mb-5">月額制の<br class="ignore-sp">
+				Ruby/Rails 開発支援</h1>
 		<h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
 		<!--
                 <h2 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h2>
@@ -95,6 +96,29 @@ lang:   ja
 </section>
 
 <section class="entry_content pt-5">
+  <div class="container">
+      <div class="row">
+         <div class="col-md-12 text-center">
+          <h2 class="mb-5">基本料金: 100万/月〜</h2>          
+          <ul>
+            <li>対応可能時間: 10:00〜19:00
+			  <ul><li>休憩1時間、作業報告書の執筆時間なども含まれます</li></ul>
+			</li>
+            <li>1日/週、3日/週などに按分して対応することは可能です
+			  <ul><li>価格は基本料金 (5日/週) を基準として算出します</li></ul>
+            </li>
+			<li>リモートでの開発支援を行っており、常駐はできません
+			  <ul><li>オンラインでの定例ミーティングを推奨しております</li></ul>
+			</li>
+          </ul>
+          <p>上記の点をあらかじめご了承していただけると幸いです。</p>
+        </div><!--//col-->
+      </div><!--//row-->
+    </div><!--//container-->
+</section>
+
+
+<section class="entry_content pt-5 catchCopy">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -128,29 +152,6 @@ lang:   ja
     </div><!--//container-->
 </section>
 
-
-<section class="entry_content catchCopy pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-              <h2 id="products" class="text-center mb-5"><a href="#products">自社プロダクト</a></h2>
-              <ul>
-                <li><a href="https://railstutorial.jp/">Ruby on Rails チュートリアル</a></li>
-                <li><a href="http://railsguides.jp/">Ruby on Rails ガイド</a> (<a href="https://github.com/yasslab/railsguides.jp">GitHub</a>)</li>
-                <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://github.com/coderdojo-japan/coderdojo.jp">GitHub</a>)</li>
-                <li>他、各種OSSと記事:
-                  <ul>
-                    <li><a href="https://github.com/yasslab">GitHub</a> (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Ayasslab+fork%3Atrue&amp;type=Repositories&amp;ref=searchresults">人気順</a>)</li>
-                    <li><a href="http://qiita.com/organizations/yasslab">Qiita</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--//col-->
-        </div><!--//row-->
-    </div><!--//container-->
-</section>
-
-
 <section class="entry_content pt-5">
     <div class="container">
         <div class="row">
@@ -178,14 +179,19 @@ lang:   ja
                   </ul>
                 </li>
                 <li>SNS: 
-              <a href="https://github.com/yasslab">GitHub</a> (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Ayasslab+fork%3Atrue&amp;type=Repositories&amp;ref=searchresults">人気順</a>), 
-              <a href="http://qiita.com/organizations/yasslab">Qiita</a>, 
-              <a href="https://www.facebook.com/yasslab.jp">Facebook</a>, 
-              <a href="https://twitter.com/YassLab">Twitter</a>, 
-              <a href="https://www.youtube.com/c/YassLab">YouTube</a>, 
-              <a href="https://www.wantedly.com/companies/YassLab">Wantedly</a>.</li>
-              </ul>
-              <p>本サービスに関するご相談は、下記のフォームよりお問い合わせください。</p>
+				<a href="https://github.com/yasslab">GitHub</a> (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Ayasslab+fork%3Atrue&amp;type=Repositories&amp;ref=searchresults">人気順</a>), 
+				<a href="http://qiita.com/organizations/yasslab">Qiita</a>, 
+				<a href="https://www.facebook.com/yasslab.jp">Facebook</a>, 
+				<a href="https://twitter.com/YassLab">Twitter</a>, 
+				<a href="https://www.youtube.com/c/YassLab">YouTube</a>, 
+				<a href="https://www.wantedly.com/companies/YassLab">Wantedly</a>.</li>
+              <li>自社運営サービス:
+			  <ul>
+                <li><a href="https://railstutorial.jp/">Ruby on Rails チュートリアル</a></li>
+                <li><a href="http://railsguides.jp/">Ruby on Rails ガイド</a> (<a href="https://github.com/yasslab/railsguides.jp">GitHub</a>)</li>
+                <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://github.com/coderdojo-japan/coderdojo.jp">GitHub</a>)</li>
+			  </ul></li>
+			  </ul>
 
             </div><!--//col-->
         </div><!--//row-->
