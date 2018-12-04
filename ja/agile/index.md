@@ -159,7 +159,7 @@ lang:   ja
               <h2 id="references" class="text-center mb-5"><a href="#references">他、参考情報</a></h2>
               <ul>
                 <li>会社名: YassLab 株式会社</li>
-                <li>社員数: 10人 (パート・複業採用含む)</li>
+                <li>社員数: 12人 (パート・複業採用含む)</li>
 		<li>資本金: 500万円</li>
                 <li>創業日: 2012年6月1日 (2018年1月11日 法人成り)</li>
                 <li>代表取締役: 安川 要平</li>
