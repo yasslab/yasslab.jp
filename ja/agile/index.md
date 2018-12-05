@@ -14,14 +14,9 @@ lang:   ja
               <div class="text-center">
                 <h1 class="mb-5">月額制の<br class="ignore-sp">
 				Ruby/Rails 開発支援</h1>
-		<h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
-		<!--
-                <h2 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h2>
-                <p class="text-center mb-4">See this in English? <a href="/en/agile/">Here</a> ;)</p>
-		-->
-                <!--img src="../../img/agile_image.jpg" alt="チーム開発イメージ" class="mt-3 mb-5"-->
-		
+		<h3 id="skills" class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
               </div>
+			  <img src="../../img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
             </div><!--//col-->
         </div><!--//row-->
     </div><!--//container-->
