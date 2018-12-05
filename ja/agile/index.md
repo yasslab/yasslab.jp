@@ -25,7 +25,7 @@ lang:   ja
     <div class="container">         
         <div class="row text-center">
           <div class="col-md-12">
-            <h2 class="mb-5">得意なスキル・サービス</h2>
+            <h2 class="mb-5"><a href="#skills">得意なスキル・サービス</a></h2>
           </div>
           <div class="col">
 	    <a href="https://www.ruby-lang.org/" target="_blank">
@@ -52,7 +52,7 @@ lang:   ja
             </div>  <!--//col-->  
             
             <div class="col-md-12">
-              <p class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
+              <p id="style" class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
             </div>
                 
         </div><!--//row-->
@@ -63,7 +63,7 @@ lang:   ja
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
-          <h2 class="mb-5">契約スタイル</h2>
+          <h2 class="mb-5"><a href="#style">契約スタイル</a></h2>
           <p>弊社では、IPAが公開しているアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにしております。</p>
                  
           <div>
@@ -84,7 +84,7 @@ lang:   ja
           
           <p><a href="https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a" target="_blank">IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)</a></p>
           
-          <p>なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
+          <p id="price">なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
         </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
@@ -94,7 +94,7 @@ lang:   ja
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
-          <h2 class="mb-5">基本料金: 100万/月〜</h2>          
+          <h2 class="mb-5"><a href="#price">基本料金: 100万/月〜</a></h2>
           <ul>
             <li>対応可能時間: 10:00〜19:00
 			  <ul><li>休憩1時間、作業報告書の執筆時間なども含まれます</li></ul>
@@ -106,18 +106,17 @@ lang:   ja
 			  <ul><li>オンラインでの定例ミーティングを推奨しております</li></ul>
 			</li>
           </ul>
-          <p>上記の点をあらかじめご了承していただけると幸いです。</p>
+          <p id="clients">上記の点をあらかじめご了承していただけると幸いです。</p>
         </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
 </section>
 
-
 <section class="entry_content pt-5 catchCopy">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-              <h2 id="clients" class="text-center mb-5"><a href="#clients">これまでの取引先</a></h2>
+              <h2 class="text-center mb-5"><a href="#clients">これまでの取引先</a></h2>
 
               <ul>
                 <li>国内
@@ -140,7 +139,7 @@ lang:   ja
                 </li>
               </ul>
               
-              <p>より詳しい実績については、<a href="/ja/works/">事業実績ページ</a>をご参照ください。</p>
+              <p id="references">より詳しい実績については、<a href="/ja/works/">事業実績ページ</a>をご参照ください。</p>
 
             </div><!--//col-->
         </div><!--//row-->
@@ -151,7 +150,7 @@ lang:   ja
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-              <h2 id="references" class="text-center mb-5"><a href="#references">他、参考情報</a></h2>
+              <h2 class="text-center mb-5"><a href="#references">他、参考情報</a></h2>
               <ul>
                 <li>会社名: YassLab 株式会社</li>
                 <li>社員数: 12人 (パート・複業採用含む)</li>
