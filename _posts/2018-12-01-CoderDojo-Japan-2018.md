@@ -29,7 +29,7 @@ cf. [CoderDojo Japan のバックエンドを更新しました 【2016年版】
 
 <br><br>
 
-## 1. README・トップページ改善
+## 1. README・<br class="pc-hidden">トップページ改善
 
 <div class="video" style="margin-bottom: 30px;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pHFRHN-wGYU?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
