@@ -173,11 +173,11 @@ lang:   ja
                   <ul>
                     <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>
                     <li><a href="http://www.railscp.com/aboutus/">Rails技術者認定試験運営委員会</a> (テクニカルアドバイザー)</li>
-                    <li><a href="https://oss-gate.github.io/">OSS Gate</a> (スポンサー)</li>
+                    <li><a href="https://oss-gate.github.io/">OSS Gate</a> (<a href="/ja/doorkeeper">Doorkeeper スポンサー</a>)</li>
                     <li><a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a> (テクニカルサポーター・協賛)</li>
-                    <li><a href="http://rubykaigi.org/">RubyKaigi</a> (翻訳協力)</li>
-                    <li><a href="https://scrivito.com/partners">Scrivito</a> (開発協力)</li>
-                    <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (開発支援)</li>
+                    <li><a href="http://rubykaigi.org/">RubyKaigi</a> (翻訳協力・スポンサー)</li>
+                    <li><a href="https://scrivito.com/partners">Scrivito</a> (開発協力パートナー)</li>
+                    <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="/ja/posts/coderdojo-japan-2018">開発支援パートナー</a>)</li>
                     <li><a href="http://www.mitou.org/">Mitou Foundation</a> (<a href="http://jr.mitou.org/">未踏ジュニア</a>PM・スポンサー)</li>
                   </ul>
                 </li>
