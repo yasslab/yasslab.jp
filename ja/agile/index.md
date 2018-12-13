@@ -76,8 +76,10 @@ lang:   ja
           
           <ul>
             <li>基本契約でNDAや著作権の譲渡などを取り扱います</li>
-            <li>個別契約を１ヶ月〜３ヶ月ごとに更新していきます</li>
             <li>準委任契約となり、成果物は作業報告書になります</li>
+            <li>個別契約を１ヶ月〜６ヶ月ごとに更新していきます
+			<ul><li>初月は１ヶ月のみ、その後３ヶ月、６ヶ月</li></ul>
+			</li>
           </ul>
           
           <p>上記のモデル契約書を具体化した契約書が、次の契約書になります。特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。</p>
@@ -177,7 +179,7 @@ lang:   ja
                     <li><a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a> (テクニカルサポーター・協賛)</li>
                     <li><a href="http://rubykaigi.org/">RubyKaigi</a> (翻訳協力・スポンサー)</li>
                     <li><a href="https://scrivito.com/partners">Scrivito</a> (開発協力パートナー)</li>
-                    <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="/ja/posts/coderdojo-japan-2018">開発支援パートナー</a>)</li>
+                    <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://yasslab.jp/ja/posts/coderdojo-japan-2018">開発支援パートナー</a>)</li>
                     <li><a href="http://www.mitou.org/">Mitou Foundation</a> (<a href="http://jr.mitou.org/">未踏ジュニア</a>PM・スポンサー)</li>
                   </ul>
                 </li>
