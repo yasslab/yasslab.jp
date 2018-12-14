@@ -14,14 +14,14 @@ lang:   ja
               <div class="text-center">
                 <h1 class="mb-5">月額制の<br class="ignore-sp">
 				Ruby/Rails 開発支援</h1>
-		<h3 id="skills" class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
+				<h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
               </div>
 			  <img src="../../img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
             </div><!--//col-->
         </div><!--//row-->
     </div><!--//container-->
 </section>
-<section class="entry_content pt-5">
+<section id="skills" class="entry_content pt-5">
     <div class="container">         
         <div class="row text-center">
           <div class="col-md-12">
@@ -52,14 +52,14 @@ lang:   ja
             </div>  <!--//col-->  
             
             <div class="col-md-12">
-              <p id="style" class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
+              <p class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
             </div>
                 
         </div><!--//row-->
     </div><!--//container-->
 </section>
 
-<section class="entry_content pt-5 bg-gray">
+<section id="style" class="entry_content pt-5 bg-gray">
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
@@ -83,7 +83,7 @@ lang:   ja
           
           <p><a href="https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a" target="_blank">IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)</a></p>
           
-          <p id="price">なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
+          <p>なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
         </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
@@ -91,7 +91,7 @@ lang:   ja
 
 
 
-<section class="entry_content pt-5">
+<section id="price" class="entry_content pt-5">
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
@@ -110,11 +110,11 @@ lang:   ja
 </section>
 
 
-<section class="entry_content pt-5 pb-5">
+<section id="schedule" class="entry_content pt-5 pb-5">
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
-         <h2 class="mb-5"><a href="#monthly-schedule">現在の受付可能月</a></h2>
+         <h2 class="mb-5"><a href="#schedule">現在の受付可能月</a></h2>
          <table class="month-sche">
           <tr>
             <th>１月</th>
@@ -146,11 +146,11 @@ lang:   ja
     </div><!--//container-->
 </section>
 
-<section class="entry_content pt-5 pb-5 frequently-asked-questions">
+<section id="faq" class="entry_content pt-5 pb-5 frequently-asked-questions">
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
-         <h2 class="mb-5"><a href="#monthly-schedule">よくある質問</a></h2>
+         <h2 class="mb-5"><a href="#faq">よくある質問</a></h2>
          <dl class="faq">
          <dt>１ヶ月だけの個別契約も可能ですか？</dt>
          <dd>可能です。ただし翌月以降の契約の更新は保証されません。<br>一定期間の継続した開発支援をご希望の場合は、２〜６ヶ月単位でお申し込みください。まずは１ヶ月のみ、その後に３ヶ月または６ヶ月単位で更新していく事例が多いです。</dd>
@@ -162,11 +162,12 @@ lang:   ja
          </dd>
          </dl>
          </div><!--//col-->
+
       </div><!--//row-->
     </div><!--//container-->
 </section>
 
-<section class="entry_content pt-5 catchCopy">
+<section id="clients" class="entry_content pt-5 catchCopy">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -193,14 +194,14 @@ lang:   ja
                 </li>
               </ul>
               
-              <p id="references">より詳しい実績については、<a href="/ja/works/">事業実績ページ</a>をご参照ください。</p>
+              <p>より詳しい実績については、<a href="/ja/works/">事業実績ページ</a>をご参照ください。</p>
 
             </div><!--//col-->
         </div><!--//row-->
     </div><!--//container-->
 </section>
 
-<section class="entry_content pt-5">
+<section id="references" class="entry_content pt-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
