@@ -705,3 +705,16 @@ height: 100%;
 table.community-icon{
   width:100%;
 }
+//開発支援ページの月別稼働状況（WaitingList）
+table.month-sche{
+  width:100%;
+  border : 1px solid #869dad; 
+  th{
+    background-color:#e9f4fc;
+    padding:30px;
+    width:16%;
+  }
+  td{
+    padding:10px 28px; 
+  }
+}
