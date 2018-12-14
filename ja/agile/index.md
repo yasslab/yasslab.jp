@@ -124,20 +124,12 @@ lang:   ja
             <th>６月</th>
           </tr>
           <tr>
-            <td><img src="../../img/waiting-hifun.png" alt="ハイフン" /></td>
-            <td><img src="../../img/waiting-triangle.png" alt="三角" /></td>
-            <td><img src="../../img/waiting-circle.png" alt="丸" /></td>
-            <td><img src="../../img/waiting-circle.png" alt="丸" /></td>
-            <td><img src="../../img/waiting-circle.png" alt="丸" /></td>
-            <td><img src="../../img/waiting-circle.png" alt="丸" /></td>
-          </tr>
-          <tr>
-            <td>ありがとう<br>ございました</td>
-            <td>お問い合わせください</td>
-            <td>ご相談お待ちしております</td>
-            <td>ご相談お待ちしております</td>
-            <td>ご相談お待ちしております</td>
-            <td>ご相談お待ちしております</td>
+            <td><img src="../../img/waiting-hifun.png" alt="ハイフン" /><br><div class="caption">ありがとう<br>ございました</div></td>
+            <td><img src="../../img/waiting-triangle.png" alt="三角" /><br><div class="caption">お問い合わせください</div></td>
+            <td><img src="../../img/waiting-circle.png" alt="丸" /><br><div class="caption">ご相談お待ちしております</div></td>
+            <td><img src="../../img/waiting-circle.png" alt="丸" /><br><div class="caption">ご相談お待ちしております</div></td>
+            <td><img src="../../img/waiting-circle.png" alt="丸" /><br><div class="caption">ご相談お待ちしております</div></td>
+            <td><img src="../../img/waiting-circle.png" alt="丸" /><br><div class="caption">ご相談お待ちしております</div></td>
           </tr>
          </table>
          </div><!--//col-->

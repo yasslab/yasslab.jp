@@ -715,7 +715,13 @@ table.month-sche{
     width:16%;
   }
   td{
-    padding:10px 28px; 
+    padding:10px 28px;
+    .caption{
+      padding-top:10px; 
+        @include media-breakpoint-down(md) {
+        display:none;
+      }
+    } 
   }
 }
 //開発支援ページのFAQ
