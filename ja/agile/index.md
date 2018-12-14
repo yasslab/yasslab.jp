@@ -7,6 +7,7 @@ lang:   ja
     <div class="bg-dark">
     </div>
 </section>
+
 <section class="entry_content pt-5">
     <div class="container">
         <div class="row">
@@ -21,6 +22,7 @@ lang:   ja
         </div><!--//row-->
     </div><!--//container-->
 </section>
+
 <section id="skills" class="entry_content pt-5">
     <div class="container">         
         <div class="row text-center">
@@ -89,8 +91,6 @@ lang:   ja
     </div><!--//container-->
 </section>
 
-
-
 <section id="price" class="entry_content pt-5">
   <div class="container">
       <div class="row">
@@ -108,7 +108,6 @@ lang:   ja
       </div><!--//row-->
     </div><!--//container-->
 </section>
-
 
 <section id="schedule" class="entry_content pt-5 pb-5">
   <div class="container">
