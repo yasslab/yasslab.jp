@@ -21,9 +21,10 @@ lang:   ja
             </div><!--//col-->
         </div><!--//row-->
     </div><!--//container-->
+	<div id="skills"><br></div>
 </section>
 
-<section id="skills" class="entry_content pt-5">
+<section class="entry_content pt-5">
     <div class="container">         
         <div class="row text-center">
           <div class="col-md-12">
@@ -54,14 +55,14 @@ lang:   ja
             </div>  <!--//col-->  
             
             <div class="col-md-12">
-              <p class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
+              <p id="style" class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
             </div>
                 
         </div><!--//row-->
     </div><!--//container-->
 </section>
 
-<section id="style" class="entry_content pt-5 bg-gray">
+<section class="entry_content pt-5 bg-gray">
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
@@ -85,13 +86,13 @@ lang:   ja
           
           <p><a href="https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a" target="_blank">IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)</a></p>
           
-          <p>なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
+          <p id="price">なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
         </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
 </section>
 
-<section id="price" class="entry_content pt-5">
+<section class="entry_content pt-5">
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
@@ -107,9 +108,10 @@ lang:   ja
         </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
+	<div id="schedule"></div>
 </section>
 
-<section id="schedule" class="entry_content pt-5 pb-5">
+<section class="entry_content pt-5 pb-5">
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
@@ -135,9 +137,10 @@ lang:   ja
          </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
+	<div id="faq"></div>
 </section>
 
-<section id="faq" class="entry_content pt-5 pb-5 frequently-asked-questions">
+<section class="entry_content pt-5 pb-5 frequently-asked-questions">
   <div class="container">
       <div class="row">
          <div class="col-md-12 text-center">
@@ -153,12 +156,12 @@ lang:   ja
          </dd>
          </dl>
          </div><!--//col-->
-
       </div><!--//row-->
     </div><!--//container-->
+	<div id="clients"></div>
 </section>
 
-<section id="clients" class="entry_content pt-5 catchCopy">
+<section class="entry_content pt-5 catchCopy">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -186,13 +189,13 @@ lang:   ja
               </ul>
               
               <p>より詳しい実績については、<a href="/ja/works/">事業実績ページ</a>をご参照ください。</p>
-
             </div><!--//col-->
         </div><!--//row-->
     </div><!--//container-->
+	<div id="references"></div>
 </section>
 
-<section id="references" class="entry_content pt-5">
+<section class="entry_content pt-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
