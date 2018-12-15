@@ -177,9 +177,9 @@ lang:   ja
       <li>詳細は<a href="https://www.dropbox.com/s/vjq5p1thwxj5l4f/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0">雇用契約書</a> (<a href="https://www.dropbox.com/s/tdwntl4qn0tmm18/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_NDA_%E9%9B%87%E7%94%A8.pdf?dl=0">NDA</a>) / <a href="https://www.dropbox.com/s/rdz75lqwt3bsw1y/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97_%E5%9F%BA%E6%9C%AC%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0">業務委託契約書</a> (<a href="https://www.dropbox.com/s/puh54vxf2pf4rg1/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_NDA_%E6%A5%AD%E5%8B%99.pdf?dl=0">NDA</a>) / <a href="https://www.dropbox.com/sh/hsf1vxa8el0ru3t/AAAPYc5BJEuf5Oom88Rcqj6ma?dl=0">就業規則・賃金規定</a>をご参照ください</li>
     </ul>
   </li>
-  <li>顧問社労士: <a href="http://oka-sr.jp/">社会保険労務士 岡 佳伸事務所</a> 岡 佳伸</li>
+  <li>顧問社労士: <a href="http://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a> 岡 佳伸</li>
   <li>顧問税理士: <a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a> 林 寛之</li>
-  <li>顧問弁護士: <a href="http://www.ynmlaw.com/">東京山王法律事務所</a> 野島 梨恵</li>
+  <li>顧問弁護士: <a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a> 野島 梨恵</li>
   <li>パートナー・関連団体:
     <ul>
       <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>

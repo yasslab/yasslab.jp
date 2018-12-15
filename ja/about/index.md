@@ -90,7 +90,7 @@ lang:   ja
                     </tr>
                     <tr>
                         <th>社員数</th>
-                        <td>12名 (パート・複業採用含む)</td>
+                        <td>12名 (パート・<a href="/ja/join-forces">複業採用</a>含む)</td>
                     </tr>
 		    <tr>
                         <th>資本金</th>
