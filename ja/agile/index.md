@@ -220,7 +220,7 @@ lang:   ja
           <li>代表取締役: 安川 要平</li>
           <li>顧問社労士: <a href="http://oka-sr.jp/">社会保険労務士 岡 佳伸事務所</a> 岡 佳伸</li>
           <li>顧問税理士: <a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a> 林 寛之</li>
-          <li>顧問弁護士: <a href="http://www.ynmlaw.com/">東京山王法律事務所</a> 野島 梨恵</li>
+          <li>顧問弁護士: <a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a> 野島 梨恵</li>
           <li>パートナー・関連団体:
           <ul>
             <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>

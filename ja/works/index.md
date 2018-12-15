@@ -49,7 +49,7 @@ lang:   ja
                   <li>9月: <a href="http://rubykaigi.org/2017">RubyKaigi 2017</a> のスライド翻訳チームとして貢献しました</li>
                   <li>9月: <a href="https://www.coderdojo-hiroshima.com/budokai/2017-fall">DojoBudokai 2017</a> にて弊社の安川が登壇しました</li>
                   <li>8月: クラウド会計サービスの開発支援を開始しました</li>
-                  <li>8月: <a href="http://www.ynmlaw.com/">東京山王法律事務所</a>の「野島 梨恵」氏が顧問弁護士になりました</li>
+                  <li>8月: <a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a>の「野島 梨恵」氏が顧問弁護士になりました</li>
                   <li>8月: Railsチュートリアルの<a href="https://coedo-rails.doorkeeper.jp/events/62596">夏季集中セミナー</a>を実施</li>
                   <li>7月: <a href="http://jr.mitou.org/#sponsor">未踏ジュニア</a>のスポンサー企業になりました</li>
                   <li>7月: <a href="https://oss-gate.github.io/">OSS Gate</a> のスポンサー企業になりました</li>

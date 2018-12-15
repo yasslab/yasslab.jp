@@ -118,7 +118,7 @@ lang:   ja
                     </tr>
                     <tr>
                         <th>顧問弁護士</th>
-                        <td><img src="../../img/photos/ph_nojima.jpg" alt="東京山王法律事務所 野島 梨恵"><br>東京山王法律事務所<br><span class="sigyo-name">野島 梨恵</span></td>
+                        <td><img src="../../img/photos/ph_nojima.jpg" alt=">新都心法律事務所 野島 梨恵"><br>新都心法律事務所<br><span class="sigyo-name">野島 梨恵</span></td>
                     </tr>
                     <tr>
                         <th>関連団体</th>
