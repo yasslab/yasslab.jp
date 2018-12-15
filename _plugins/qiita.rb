@@ -3,13 +3,8 @@ module Jekyll
   class QiitaItems < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      @items = 0
       page = Mechanize.new.get('https://qiita.com/organizations/yasslab')
-      page.search('div.organizationHeader_stats_value').each do |element|
-        if element.children.at_css('.fa.fa-file-o')
-           @items = element.text.strip.to_i
-        end
-      end
+      @items = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first.children.text.strip.to_i
     end
 
     def render(_text)
@@ -20,13 +15,8 @@ module Jekyll
   class QiitaLikes < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      @likes = 0
       page = Mechanize.new.get('https://qiita.com/organizations/yasslab')
-      page.search('div.organizationHeader_stats_value').each do |element|
-        if element.children.at_css('.fa.fa-thumbs-up')
-           @likes = element.text.strip.to_i
-        end
-      end
+      @likes = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first.children.text.strip.to_i
     end
 
     def render(_text)
