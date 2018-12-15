@@ -92,6 +92,35 @@ lang:   ja
     </div><!--//container-->
 </section>
 
+<section class="entry_content pt-5 pb-5">
+  <div class="container">
+      <div class="row">
+         <div class="col-md-12 text-center">
+         <h2 class="mb-5"><a href="#schedule">現在のスケジュール</a></h2>
+         <table class="month-sche">
+          <tr>
+            <th>11月</th>
+            <th>12月</th>
+            <th>1月</th>
+            <th>2月</th>
+            <th>3月</th>
+            <th>4月</th>
+          </tr>
+          <tr>
+            <td><img src="../../img/waiting-hyphen.png" alt="Reserved" /><br><div class="caption">ありがとう<br>ございました</div></td>
+            <td><img src="../../img/waiting-hyphen.png" alt="Available" /><br><div class="caption">ありがとう<br>ございました</div></td>
+            <td><img src="../../img/waiting-triangle.png" alt="Need to contact" /><br><div class="caption">お問い合わせください</div></td>
+            <td><img src="../../img/waiting-circle.png" alt="Available" /><br><div class="caption">ご相談お待ちしております</div></td>
+            <td><img src="../../img/waiting-circle.png" alt="Available" /><br><div class="caption">ご相談お待ちしております</div></td>
+            <td><img src="../../img/waiting-circle.png" alt="Available" /><br><div class="caption">ご相談お待ちしております</div></td>
+          </tr>
+         </table>
+         </div><!--//col-->
+      </div><!--//row-->
+    </div><!--//container-->
+	<div id="price"></div>
+</section>
+
 <section class="entry_content pt-5">
   <div class="container">
       <div class="row">
@@ -106,35 +135,6 @@ lang:   ja
             </li>
           </ul>
         </div><!--//col-->
-      </div><!--//row-->
-    </div><!--//container-->
-	<div id="schedule"></div>
-</section>
-
-<section class="entry_content pt-5 pb-5">
-  <div class="container">
-      <div class="row">
-         <div class="col-md-12 text-center">
-         <h2 class="mb-5"><a href="#schedule">現在の受付可能月</a></h2>
-         <table class="month-sche">
-          <tr>
-            <th>１月</th>
-            <th>２月</th>
-            <th>３月</th>
-            <th>４月</th>
-            <th>５月</th>
-            <th>６月</th>
-          </tr>
-          <tr>
-            <td><img src="../../img/waiting-hifun.png" alt="ハイフン" /><br><div class="caption">ありがとう<br>ございました</div></td>
-            <td><img src="../../img/waiting-triangle.png" alt="三角" /><br><div class="caption">お問い合わせください</div></td>
-            <td><img src="../../img/waiting-circle.png" alt="丸" /><br><div class="caption">ご相談お待ちしております</div></td>
-            <td><img src="../../img/waiting-circle.png" alt="丸" /><br><div class="caption">ご相談お待ちしております</div></td>
-            <td><img src="../../img/waiting-circle.png" alt="丸" /><br><div class="caption">ご相談お待ちしております</div></td>
-            <td><img src="../../img/waiting-circle.png" alt="丸" /><br><div class="caption">ご相談お待ちしております</div></td>
-          </tr>
-         </table>
-         </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
 	<div id="faq"></div>
