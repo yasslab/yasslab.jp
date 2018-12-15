@@ -110,15 +110,15 @@ lang:   ja
                     </tr>
                     <tr>
                         <th>顧問社労士</th>
-                        <td><img src="../../img/photos/ph_oka.jpg" alt="社会保険労務士 岡 佳伸事務所 岡 佳伸"><br>社会保険労務士 岡 佳伸事務所<br><span class="sigyo-name">岡 佳伸</span></td>
+                        <td><img src="../../img/photos/ph_oka.jpg" alt="社会保険労務士 岡 佳伸事務所 岡 佳伸"><br><a href="https://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a><br><span class="sigyo-name">岡 佳伸</span></td>
                     </tr>
                     <tr>
                         <th>顧問税理士</th>
-                        <td><img src="../../img/photos/ph_hayasi.jpg" alt="Hay未来の税理士法人 林 寛之"><br>Hay未来の税理士法人<br><span class="sigyo-name">林 寛之</span></td>
+                        <td><img src="../../img/photos/ph_hayasi.jpg" alt="Hay未来の税理士法人 林 寛之"><br><a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a><br><span class="sigyo-name">林 寛之</span></td>
                     </tr>
                     <tr>
                         <th>顧問弁護士</th>
-                        <td><img src="../../img/photos/ph_nojima.jpg" alt=">新都心法律事務所 野島 梨恵"><br>新都心法律事務所<br><span class="sigyo-name">野島 梨恵</span></td>
+                        <td><img src="../../img/photos/ph_nojima.jpg" alt=">新都心法律事務所 野島 梨恵"><br><a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a><br><span class="sigyo-name">野島 梨恵</span></td>
                     </tr>
                     <tr>
                         <th>関連団体</th>
