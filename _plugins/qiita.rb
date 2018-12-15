@@ -1,9 +1,10 @@
 require 'mechanize'
 module Jekyll
+  QIITA_ORGANIZATION_URL = 'https://qiita.com/organizations/yasslab'
   class QiitaItems < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      page = Mechanize.new.get('https://qiita.com/organizations/yasslab')
+      page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
       @items = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first.children.text.strip.to_i
     end
 
@@ -15,7 +16,7 @@ module Jekyll
   class QiitaLikes < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      page = Mechanize.new.get('https://qiita.com/organizations/yasslab')
+      page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
       @likes = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first.children.text.strip.to_i
     end
 
