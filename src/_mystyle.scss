@@ -705,3 +705,50 @@ height: 100%;
 table.community-icon{
   width:100%;
 }
+//開発支援ページの月別稼働状況（WaitingList）
+table.month-sche{
+  width:100%;
+  border : 1px solid #869dad; 
+  th{
+    background-color:#e9f4fc;
+    padding:30px;
+    width:16%;
+    font-size:1.3rem;
+  }
+  td{
+    padding:10px 28px;
+    .caption{
+      padding-top:10px; 
+        @include media-breakpoint-down(md) {
+        display:none;
+      }
+    } 
+  }
+}
+//開発支援ページのFAQ
+.frequently-asked-questions{
+  dl {
+     overflow: hidden;
+     _zoom: 1;
+     }
+  dt,
+  dd{
+     text-align: left;
+     font-size:1.2em;
+     color:#444;
+     margin:0 0 10px 0;
+     padding-left:4.5em;
+     line-height:1.8em;
+     background:none no-repeat left top;
+     min-width: 60px;
+     min-height:60px;
+     } 
+  dd{
+     background: url(../../img/faq-a.gif) no-repeat;
+     overflow: hidden;
+     }  
+  dt{
+     background: url(../../img/faq-q.gif) no-repeat;
+     padding-top: 12px;
+  }
+}
