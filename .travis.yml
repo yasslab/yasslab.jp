@@ -9,7 +9,7 @@ script:
 - npm run css
 - bundle install
 - bundle exec rake test
-- bundle exec rspec spec/qiita.rb
+#- bundle exec rspec spec/qiita.rb
 deploy:
   provider: heroku
   api_key:
