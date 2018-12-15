@@ -705,7 +705,7 @@ height: 100%;
 table.community-icon{
   width:100%;
 }
-//開発支援ページの月別稼働状況（WaitingList）
+//開発支援ページの現在のスケジュール（WaitingList）
 table.month-sche{
   width:100%;
   border : 1px solid #869dad; 
@@ -723,6 +723,14 @@ table.month-sche{
         display:none;
       }
     } 
+  }
+}
+table.caption{
+  text-align: left;
+  margin-top:10px;
+  th,td{
+    padding:5px 10px;
+    vertical-align: top;
   }
 }
 //開発支援ページのFAQ
