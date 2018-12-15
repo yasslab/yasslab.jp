@@ -110,7 +110,7 @@ lang:   ja
                     </tr>
                     <tr>
                         <th>顧問社労士</th>
-                        <td><img src="../../img/photos/ph_oka.jpg" alt="社会保険労務士 岡 佳伸事務所 岡 佳伸"><br><a href="https://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a><br><span class="sigyo-name">岡 佳伸</span></td>
+                        <td><img src="../../img/photos/ph_oka.jpg" alt="社会保険労務士法人 岡佳伸事務所"><br><a href="https://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a><br><span class="sigyo-name">岡 佳伸</span></td>
                     </tr>
                     <tr>
                         <th>顧問税理士</th>
