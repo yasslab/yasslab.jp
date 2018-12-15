@@ -92,6 +92,22 @@ lang:   ja
     </div><!--//container-->
 </section>
 
+<section class="entry_content pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="mb-5"><a href="#price">基本料金: 100万/月〜</a></h2>
+        <ul>
+          <li>基本料金は週30〜40時間相当の稼働に対する金額となります</li>
+      	  <li>安定的に価値を出すため、基本的に２名以上のチームで対応します</li>
+          <li>これまでの事例では、常時２〜３名の稼働による開発支援が多いです</li>
+        </ul>
+      </div><!--//col-->
+    </div><!--//row-->
+  </div><!--//container-->
+  <div id="schedule"></div>
+</section>
+
 <section class="entry_content pt-5 pb-5">
   <div class="container">
       <div class="row">
@@ -107,34 +123,25 @@ lang:   ja
             <th>4月</th>
           </tr>
           <tr>
-            <td><img src="../../img/waiting-hyphen.png" alt="Reserved" /><br><div class="caption">ありがとう<br>ございました</div></td>
-            <td><img src="../../img/waiting-hyphen.png" alt="Available" /><br><div class="caption">ありがとう<br>ございました</div></td>
-            <td><img src="../../img/waiting-triangle.png" alt="Need to contact" /><br><div class="caption">お問い合わせください</div></td>
-            <td><img src="../../img/waiting-circle.png" alt="Available" /><br><div class="caption">ご相談お待ちしております</div></td>
-            <td><img src="../../img/waiting-circle.png" alt="Available" /><br><div class="caption">ご相談お待ちしております</div></td>
-            <td><img src="../../img/waiting-circle.png" alt="Available" /><br><div class="caption">ご相談お待ちしております</div></td>
+            <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
+            <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
+            <td><img src="../../img/agile-adjusting.png" alt="お問い合わせください" /><br></td>
+            <td><img src="../../img/agile-available.png" alt="ご相談お待ちしております" /><br></td>
+            <td><img src="../../img/agile-available.png" alt="ご相談お待ちしております" /><br></td>
+            <td><img src="../../img/agile-available.png"  alt="ご相談お待ちしております" /><br></td>
           </tr>
          </table>
-         </div><!--//col-->
-      </div><!--//row-->
-    </div><!--//container-->
-	<div id="price"></div>
-</section>
-
-<section class="entry_content pt-5">
-  <div class="container">
-      <div class="row">
-         <div class="col-md-12 text-center">
-          <h2 class="mb-5"><a href="#price">基本料金: 100万/月〜</a></h2>
-          <ul>
-            <li>基本料金は週30〜40時間相当の稼働に対する金額となります
-      			  <ul>
-        			  <li>安定的に価値を出すため、基本的に２名以上のチームで対応します</li>
-        			  <li>これまでの事例では、常時２〜３名の稼働による開発支援が多いです</li>
-      			  </ul>
-            </li>
+		 
+		 <ul style="list-style: none;">
+            <li><img width="30px" src="../../img/agile-available.png" alt="Available" />
+			　現在ご対応が可能です。ご相談お待ちしております。</li>
+        	<li><img width="30px" src="../../img/agile-adjusting.png" alt="Adjusting" />
+			　各社と予定調整中です。まだ間に合いますので、まずはお問い合わせください。</li>
+        	<li><img width="30px" src="../../img/agile-reserved.png"  alt="Reserved" />
+			　契約が締結されました。様々なお問い合わせ、ありがとうございました。</li>
           </ul>
-        </div><!--//col-->
+		  
+         </div><!--//col-->
       </div><!--//row-->
     </div><!--//container-->
 	<div id="faq"></div>
@@ -147,13 +154,18 @@ lang:   ja
          <h2 class="mb-5"><a href="#faq">よくある質問</a></h2>
          <dl class="faq">
          <dt>１ヶ月だけの個別契約も可能ですか？</dt>
-         <dd>可能です。ただし翌月以降の契約の更新は保証されません。<br>一定期間の継続した開発支援をご希望の場合は、２〜６ヶ月単位でお申し込みください。まずは１ヶ月のみ、その後に３ヶ月または６ヶ月単位で更新していく事例が多いです。</dd>
-         <dt>オフィス常駐はできますか？</dt>
-         <dd>リモートでの開発支援を行っており、オフィス常駐はできません。オンラインでの定例ミーティングを推奨しております。東京近辺であれば、導入のご説明をしに伺うことも可能です。</dd>
-         <dt>勤務時間は１日何時間ですか？</dt>
-         <dd>対応可能時間は 10:00〜19:00 となります (応相談可)。<br>
-         休憩1時間、打ち合わせや作業報告書の作成時間なども含まれます。複数名で対応した場合、人数分の作業報告書を納品いたします。
+        <dd>はい、可能です。ただし翌月以降の契約の更新は保証されません。<br>一定期間の継続した開発支援をご希望の場合は、２〜６ヶ月単位でお申し込みください。まずは１ヶ月のみ、その後に３ヶ月または６ヶ月単位で更新していく事例が多いです。</dd>
+		 <br><br>
+		 
+        <dt>対応可能な時間帯は決まっていますか？</dt>
+         <dd>基本的には 10:00〜19:00 としております (休憩１時間、打ち合わせや作業報告書の作成時間なども含まれます)。朝会がこの時間帯より早く始まるなどの理由で、対応時間を変更したい場合はお問い合わせください。<br>
+         
          </dd>
+		 <br><br>
+		 
+         <dt>弊社のオフィスに常駐できますか？</dt>
+		<dd>リモートでの開発支援を基本としており、オフィス常駐は行っておりません。代わりに、オンラインでの定期的なミーティングを推奨しております。東京近辺であれば、具体的な進め方をご説明しに伺うことも可能です。</dd>
+		 
          </dl>
          </div><!--//col-->
       </div><!--//row-->
