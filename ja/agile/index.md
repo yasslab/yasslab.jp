@@ -134,16 +134,21 @@ lang:   ja
             <td><img src="../../img/agile-available.png"  alt="ご相談お待ちしております" /><br></td>
           </tr>
         </table>
-		 
-		<ul style="list-style: none;">
-          <li><img width="30px" src="../../img/agile-available.png" alt="Available" />
-		  　現在ご対応が可能です。ご相談お待ちしております。</li>
-          <li><img width="30px" src="../../img/agile-adjusting.png" alt="Adjusting" />
-		  　各社と予定調整中です。まだ間に合いますので、まずはお問い合わせください。</li>
-          <li><img width="30px" src="../../img/agile-reserved.png"  alt="Reserved" />
-		  　契約が締結されました。様々なお問い合わせ、ありがとうございました。</li>
-        </ul>
-		  
+        
+        <table class="caption">
+          <tr>
+            <td><img width="30px" src="../../img/agile-available.png" alt="Available" /></td>
+            <td>現在ご対応が可能です。ご相談お待ちしております。</td>
+          </tr>
+          <tr>
+            <td><img width="30px" src="../../img/agile-adjusting.png" alt="Adjusting" /></td>
+            <td>各社と予定調整中です。まだ間に合いますので、まずはお問い合わせください。</td>
+          </tr>
+          <tr>
+            <td><img width="30px" src="../../img/agile-reserved.png"  alt="Reserved" /></td>
+            <td>契約が締結されました。様々なお問い合わせ、ありがとうございました。</td>
+          </tr>
+        </table>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
