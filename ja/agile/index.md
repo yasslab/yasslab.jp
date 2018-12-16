@@ -137,15 +137,15 @@ lang:   ja
         
         <table class="caption">
           <tr>
-            <td><img width="30px" src="../../img/agile-available.png" alt="Available" /></td>
+            <th><img src="../../img/agile-available.png" alt="Available" /></th>
             <td>現在ご対応が可能です。ご相談お待ちしております。</td>
           </tr>
           <tr>
-            <td><img width="30px" src="../../img/agile-adjusting.png" alt="Adjusting" /></td>
+            <th><img src="../../img/agile-adjusting.png" alt="Adjusting" /></th>
             <td>各社と予定調整中です。まだ間に合いますので、まずはお問い合わせください。</td>
           </tr>
           <tr>
-            <td><img width="30px" src="../../img/agile-reserved.png"  alt="Reserved" /></td>
+            <th><img src="../../img/agile-reserved.png"  alt="Reserved" /></th>
             <td>契約が締結されました。様々なお問い合わせ、ありがとうございました。</td>
           </tr>
         </table>
