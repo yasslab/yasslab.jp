@@ -187,7 +187,7 @@ lang:   ja
         <ul>
           <li>国内
           <ul>
-          <!--<li><a href="https://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a></li>-->
+          <li><a href="https://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a> (共同開発支援)</li>
           <li><a href="http://www.recruit-mp.co.jp/">リクルートマーケティングパートナーズ</a> (新機能の開発支援)</li>
           <li><a href="https://mtl.recruit.co.jp/">リクルートホールディングス - Media Technology Lab</a> (同上)</li>
 		  <li><a href="https://coderdojo.jp">CoderDojo Japan</a> (公式サイトの開発・運営)</li>
