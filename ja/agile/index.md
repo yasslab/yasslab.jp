@@ -99,10 +99,10 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="mb-5"><a href="#price">基本料金: 100万/月〜</a></h2>
+        <h2 class="mb-5"><a href="#price">基本料金: 80〜120万/月 × 対応人数</a></h2>
         <ul>
           <li>基本料金は週30〜40時間相当の稼働に対する金額となります</li>
-      	  <li>安定的に価値を出すため、基本的に２名以上のチームで対応します</li>
+      	  <li>安定的に価値を出すため、２名以上のチームでの支援を推奨しています</li>
           <li>これまでの事例では、常時２〜３名の稼働による開発支援が多いです</li>
         </ul>
       </div><!--//col-->
@@ -142,7 +142,7 @@ lang:   ja
           </tr>
           <tr>
             <th><img src="../../img/agile-adjusting.png" alt="Adjusting" /></th>
-            <td>各社と予定調整中です。まだ間に合いますので、まずはお問い合わせください。</td>
+            <td>各社と予定調整中です。まだ間に合いますので、まずは<a href="#contact">お問い合わせ</a>ください。</td>
           </tr>
           <tr>
             <th><img src="../../img/agile-reserved.png"  alt="Reserved" /></th>
@@ -251,9 +251,12 @@ lang:   ja
             <li><a href="https://railstutorial.jp/">Ruby on Rails チュートリアル</a></li>
             <li><a href="http://railsguides.jp/">Ruby on Rails ガイド</a> (<a href="https://github.com/yasslab/railsguides.jp">GitHub</a>)</li>
             <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://github.com/coderdojo-japan/coderdojo.jp">GitHub</a>)</li>
+			<div id="contact"></div>
 		  </ul>
 		</li>
 	  </ul>
+	  <br>
+	  <br>
 
       </div><!--//col-->
     </div><!--//row-->
