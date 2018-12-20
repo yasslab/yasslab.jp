@@ -187,11 +187,12 @@ lang:   ja
         <ul>
           <li>国内
           <ul>
-          <li><a href="http://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a></li>
+          <li><a href="https://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a></li>
           <li><a href="http://www.recruit-mp.co.jp/">リクルートマーケティングパートナーズ</a></li>
           <li><a href="https://mtl.recruit.co.jp/">リクルートホールディングス (Media Technology Lab)</a></li>
-          <li><a href="http://www.nttr.co.jp/">NTTレゾナント</a></li>
-          <li><a href="http://speee.jp/">Speee</a></li>
+		  <li><a href="https://coderdojo.jp">CoderDojo Japan</a></li>
+		  <li><a href="https://www.nttr.co.jp/">NTTレゾナント</a></li>
+          <li><a href="https://speee.jp/">Speee</a></li>
           <li><a href="https://www.freee.co.jp/">freee</a></li>
           </ul>
           </li>
@@ -201,7 +202,7 @@ lang:   ja
           <li><a href="https://www.railstutorial.org/">Ruby on Rails Tutorial by Michael Hartl</a> (米国)</li>
           <li><a href="https://www.learnenough.com/">Learn Enough to Be Dangerous</a> (米国)</li>
           <li><a href="https://scrivito.com/partners">Scrivito: The Professional Cloud-Based Rails CMS</a> (ドイツ)</li>
-          <li><a href="https://tickleapp.com/ambassador/">Tickle: Programming re-imagined for the connected world</a> (台湾)</li>
+          <!--<li><a href="https://tickleapp.com/ambassador/">Tickle: Programming re-imagined for the connected world</a> (台湾)</li>-->
           </ul>
           </li>
         </ul>
