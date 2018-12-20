@@ -186,7 +186,7 @@ lang:   ja
         <ul>
           <li>国内
           <ul>
-          <li><a href="http://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a> (開発パートナー)</li>
+          <li><a href="http://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a></li>
           <li><a href="http://www.recruit-mp.co.jp/">リクルートマーケティングパートナーズ</a></li>
           <li><a href="https://mtl.recruit.co.jp/">リクルートホールディングス (Media Technology Lab)</a></li>
           <li><a href="http://www.nttr.co.jp/">NTTレゾナント</a></li>
@@ -218,9 +218,9 @@ lang:   ja
       <div class="col-md-12 text-center">
         <h2 class="text-center mb-5"><a href="#references">他、参考情報</a></h2>
         <ul>
-          <li>会社名: YassLab 株式会社</li>
-          <li>社員数: 12人 (パート・複業採用含む)</li>
-		  <li>資本金: 500万円</li>
+          <li>会社名: {{ site.company.name }} 株式会社</li>
+          <li>社員数: {{ site.company.size }}名 (パート・複業採用含む)</li>
+		  <li>資本金: {{ site.company.capital}}万円</li>
           <li>創業日: 2012年6月1日 (2018年1月11日 法人成り)</li>
           <li>代表取締役: 安川 要平</li>
           <li>顧問社労士: <a href="https://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a> 岡 佳伸</li>

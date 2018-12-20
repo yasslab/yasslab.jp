@@ -86,15 +86,15 @@ lang:   ja
                     <tbody>
                     <tr>
                         <th>会社名</th>
-                        <td>YassLab株式会社</td>
+                        <td>{{ site.company.name }} 株式会社</td>
                     </tr>
                     <tr>
                         <th>社員数</th>
-                        <td>12名 (パート・<a href="/ja/join-forces">複業採用</a>含む)</td>
+                        <td>{{ site.company.size }}名 (パート・<a href="/ja/join-forces">複業採用</a>含む)</td>
                     </tr>
 		    <tr>
                         <th>資本金</th>
-                        <td>500万円</td>
+                        <td>{{ site.company.capital }}万円</td>
                     </tr>
                     <tr>
                       <th>創業日</th>
