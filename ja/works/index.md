@@ -39,9 +39,21 @@ lang:   ja
 
         <h3 id="achievements-2018">2018年</h3>
         <ul>
-	  <li>8月: 株式会社メンバーズ (東証1部) グループ会社の<a href="https://www.members.co.jp/company/news/2018/0806_2.html">技術顧問に就任</a>しました</li>
+	  <li>8月: 株式会社メンバーズ (東証1部) グループ会社<a href="https://www.members.co.jp/company/news/2018/0806_2.html">技術顧問就任</a></li>
+	  <li>4月: freee主催のイベントで<a href="https://www.freee.co.jp/blog/freeebu_2018meetup01.html">社員10名、事務員0名の事例</a>を講演</li>
+	  <li>4月: <a href="https://aiit.ac.jp/">AIIT</a> で弊社初の試み<a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h30/3_2_m.pdf">Railsチュートリアルの反転授業</a>が開講</li>
+	  <li>4月: Mixiが運営する「COSMiKA」に<a href="https://cosmika.jp/spaces/25/interview">インタビュー記事</a>が掲載</li>
 	  <li>4月: 株式会社Progateとの<a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html">業務提携をプレスリリース</a></li>
 	  <li>3月: 株式会社ポテパンとの<a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html">業務提携をプレスリリース</a></li>
+	  <li>3月: 経産省主催「<a href="http://www.meti.go.jp/press/2018/06/20180625003/20180625003-3.pdf">未来の教室WS</a>」に招待参加</li>
+	  <li>3月: 弊社安川が<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議02</a>を実行委員長として主催</li>
+	  <li>2月: <a href="https://www.doyukai.or.jp/">経済同友会</a>DC育成分科会にてアドバイザーとして参加</li>
+	  <li>2月: 社員数増加に伴い、<a href="/ja/regulations">就業規則と賃金規定</a>を制定・公開</li>
+	  <li>2月: <a href="https://event.shoeisha.jp/devsumi/20180215/session/1663">Developers Summit 2018</a> (U-30 代表枠) として登壇</li>
+	  <li>1月: <a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">IPA未踏事業</a>中間合宿にOB・OGとして招待参加</li>
+	  <li>1月: <a href="https://oka-sr.jp/">社会保険労務士法人</a>代表の岡氏が<a href="/ja/about/#company">顧問社労士</a>に就任</li>
+	  <li>1月: <a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a>代表の林氏が<a href="/ja/about/#company">顧問税理士</a>に就任</li>
+	  <li><b>1月: 個人事業から法人成りし、<a href="https://twitter.com/yasulab/status/958189005194985472">YassLab 株式会社</a>を設立</b></li>
 	</ul>
 	
         <h3 id="achievements-2017">2017年</h3>        

@@ -78,7 +78,7 @@ lang:   ja
         </div>
 
         <div class="row">
-            <div class="col-md-8 offset-md-2 company">
+            <div class="col-md-8 offset-md-2 company" id="company">
               <div class="text-center">
                 <h1 class="text-center mt-5 mb-5">会社概要</h1>
               </div>
