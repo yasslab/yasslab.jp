@@ -14,9 +14,9 @@ lang:   ja
       <div class="col-md-12">
         <div class="text-center">
           <h1 class="mb-5">月額制の<br class="ignore-sp">Ruby/Rails 開発支援</h1>
-		  <h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
+	  <h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
         </div>
-		<img src="../../img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+	<img src="../../img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
@@ -31,9 +31,9 @@ lang:   ja
       </div>
       
       <div class="col">
-	    <a href="https://www.ruby-lang.org/" target="_blank">
-        <img src="../../img/icon-ruby.png" width="80%" alt="Ruby logo" /></a><br>
-        Ruby / Rails
+	<a href="https://www.ruby-lang.org/" target="_blank">
+          <img src="../../img/icon-ruby.png" width="80%" alt="Ruby logo" /></a><br>
+          Ruby / Rails
       </div> <!--//col-->
       
       <div class="col">
@@ -42,27 +42,27 @@ lang:   ja
       
       <div class="col">
         <a href="https://github.com/" target="_blank">
-        <img src="../../img/icon-git.png" width="80%" alt="Git logo" /></a><br>Git / GitHub
+          <img src="../../img/icon-git.png" width="80%" alt="Git logo" /></a><br>Git / GitHub
       </div>  <!--//col--> 
-            
+      
       <div class="w-100"></div> 
 
       <div class="col">
         <img src="../../img/icon-cloud.png" width="80%" alt="cloud icon" /><br>Heroku / AWS
       </div> <!--//col-->
-        
-	  <div class="col">
+      
+      <div class="col">
         <img src="../../img/icon-gear.png" width="80%" alt="Continuous Integration image" /><br>Continuous Integration
       </div>  <!--//col--> 
-        
-	  <div class="col">
+      
+      <div class="col">
         <img src="../../img/icon-agile.png" width="80%" alt="Agile Web Development image" /><br>Agile Web Development
       </div>  <!--//col-->  
-            
+      
       <div class="col-md-12">
         <p id="style" class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
       </div>
-                
+      
     </div><!--//row-->
   </div><!--//container-->
 </section>
@@ -73,13 +73,13 @@ lang:   ja
       <div class="col-md-12 text-center">
         <h2 class="mb-5"><a href="#style">契約スタイル</a></h2>
         <p>弊社では、IPAが公開しているアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにしております。</p>
-                 
+        
         <div>
-	      <img src="../../img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" />
-	      <br><br>
+	  <img src="../../img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" />
+	  <br><br>
           <center>参考: <a href="https://www.ipa.go.jp/files/000005404.pdf">アジャイル開発向けモデル契約案について</a> (IPA)</center>
-	    </div>
-          
+	</div>
+        
         <p>この契約の特徴は次の通りです:</p>
         <ul>
           <li>基本契約でNDAや著作権の譲渡などを取り扱います</li>
@@ -87,9 +87,9 @@ lang:   ja
           <li>準委任契約となり、成果物は作業報告書になります</li>
         </ul>
 	<p>上記のモデル契約書を具体化した契約書が、次の契約書になります。特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。</p>
-          
+        
         <p><a href="https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a" target="_blank">IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)</a></p>
-          
+        
         <p id="price">なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
       </div><!--//col-->
     </div><!--//row-->
@@ -101,7 +101,7 @@ lang:   ja
     <div class="row">
       <div class="col-md-12 text-center">
         <h2 class="mb-5"><a href="#price">基本料金: 80〜120万/月 ×
-		稼働数</a></h2>
+	  稼働数</a></h2>
         <ul>
           <li>週30〜40時間相当の稼働数を「１」とした金額が基本料金となります</li>
       	  <li>安定的に価値を出すため、２名以上のチームによる稼働を推奨しています</li>
@@ -165,14 +165,14 @@ lang:   ja
         <dl class="faq">
           <dt>１ヶ月だけの個別契約も可能ですか？</dt>
           <dd>はい、可能です。ただし翌月以降の契約の更新は保証されません。<br>一定期間の継続した開発支援をご希望の場合は、２〜６ヶ月単位でお申し込みください。まずは１ヶ月のみ、その後に３ヶ月または６ヶ月単位で更新していく事例が多いです。</dd>
-		  <br><br>
-		  
-		  <dt>対応可能な時間帯は決まっていますか？</dt>
-		  <dd>基本的には 10:00〜19:00 としております (休憩１時間、打ち合わせや作業報告書の作成時間なども含まれます)。朝会がこの時間帯より早く始まるなどの理由で、対応時間を変更したい場合は<a href="#contact">お問い合わせ</a>ください。</dd>
-		  <br><br>
-		  
-		  <dt>弊社のオフィスに常駐できますか？</dt>
-		  <dd>オンラインでの開発支援を基本としており、オフィス常駐は行っておりません。代わりに、定期的なオンラインミーティングを推奨しております。東京近辺であれば、具体的な進め方をご説明しに伺うことも可能です。</dd>
+	  <br><br>
+	  
+	  <dt>対応可能な時間帯は決まっていますか？</dt>
+	  <dd>基本的には 10:00〜19:00 としております (休憩１時間、打ち合わせや作業報告書の作成時間なども含まれます)。朝会がこの時間帯より早く始まるなどの理由で、対応時間を変更したい場合は<a href="#contact">お問い合わせ</a>ください。</dd>
+	  <br><br>
+	  
+	  <dt>弊社のオフィスに常駐できますか？</dt>
+	  <dd>オンラインでの開発支援を基本としており、オフィス常駐は行っておりません。代わりに、定期的なオンラインミーティングを推奨しております。東京近辺であれば、具体的な進め方をご説明しに伺うことも可能です。</dd>
         </dl>
       </div><!--//col-->
     </div><!--//row-->
@@ -189,29 +189,29 @@ lang:   ja
 
         <ul>
           <li>開発支援サービス事業
-          <ul>
-          <li><a href="https://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a> (共同開発支援)</li>
-          <li><a href="http://www.recruit-mp.co.jp/">リクルートマーケティングパートナーズ</a> (新機能の開発支援)</li>
-          <li><a href="https://mtl.recruit.co.jp/">リクルートホールディングス - Media Technology Lab</a> (同上)</li>
-	  <li><a href="https://coderdojo.jp">CoderDojo Japan</a> (公式サイトの開発・運営)</li>
-	  <li><a href="https://www.nttr.co.jp/">NTTレゾナント</a> (新サービス開発支援)</li>
-          <li><a href="https://speee.jp/">Speee</a> (コードレビュー支援)</li>
-          <li><a href="https://www.freee.co.jp/">クラウド会計ソフトfreee</a> (新機能の開発支援)</li>
-          </ul>
+            <ul>
+              <li><a href="https://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a> (共同開発支援)</li>
+              <li><a href="http://www.recruit-mp.co.jp/">リクルートマーケティングパートナーズ</a> (新機能の開発支援)</li>
+              <li><a href="https://mtl.recruit.co.jp/">リクルートホールディングス - Media Technology Lab</a> (同上)</li>
+	      <li><a href="https://coderdojo.jp">CoderDojo Japan</a> (公式サイトの開発・運営)</li>
+	      <li><a href="https://www.nttr.co.jp/">NTTレゾナント</a> (新サービス開発支援)</li>
+              <li><a href="https://speee.jp/">Speee</a> (コードレビュー支援)</li>
+              <li><a href="https://www.freee.co.jp/">クラウド会計ソフトfreee</a> (新機能の開発支援)</li>
+            </ul>
           </li>
-		  
+	  
           <li>Railsチュートリアル・Railsガイド事業
-          <ul>
-          <li><a href="https://www.railstutorial.org/">Ruby on Rails Tutorial by Michael Hartl</a> (コンテンツ提携)</li>
-          <li><a href="https://www.learnenough.com/">Learn Enough to Be Dangerous</a> (コンテンツ提携)</li>
-          <li><a href="https://scrivito.com/partners">Scrivito: The Professional Cloud-Based Rails CMS</a> (開発パートナー)</li>
-	  <li><a href="https://prtimes.jp/main/html/rd/p/000000013.000016641.html">DIVE INTO CODE</a> (コンテンツ提携)</li>
-	  <li><a href="https://www.value-press.com/pressrelease/190639">ShareWis</a> (コンテンツ提携)</li>
-	  <li><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html">Progate</a> (コンテンツ提携)</li>
-	  <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html">ポテパンキャンプ</a> (業務提携)</li>
-	  <li><a href="https://www.members.co.jp/company/news/2018/0806_2.html">メンバーズキャリア</a> (技術顧問)</li>
-          <!--<li><a href="https://tickleapp.com/ambassador/">Tickle: Programming re-imagined for the connected world</a> (台湾)</li>-->
-          </ul>
+            <ul>
+              <li><a href="https://www.railstutorial.org/">Ruby on Rails Tutorial by Michael Hartl</a> (コンテンツ提携)</li>
+              <li><a href="https://www.learnenough.com/">Learn Enough to Be Dangerous</a> (コンテンツ提携)</li>
+              <li><a href="https://scrivito.com/partners">Scrivito: The Professional Cloud-Based Rails CMS</a> (開発パートナー)</li>
+	      <li><a href="https://prtimes.jp/main/html/rd/p/000000013.000016641.html">DIVE INTO CODE</a> (コンテンツ提携)</li>
+	      <li><a href="https://www.value-press.com/pressrelease/190639">ShareWis</a> (コンテンツ提携)</li>
+	      <li><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html">Progate</a> (コンテンツ提携)</li>
+	      <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html">ポテパンキャンプ</a> (業務提携)</li>
+	      <li><a href="https://www.members.co.jp/company/news/2018/0806_2.html">メンバーズキャリア</a> (技術顧問)</li>
+              <!--<li><a href="https://tickleapp.com/ambassador/">Tickle: Programming re-imagined for the connected world</a> (台湾)</li>-->
+            </ul>
           </li>
         </ul>
         
@@ -229,44 +229,44 @@ lang:   ja
         <h2 class="text-center mb-5"><a href="#references">他、参考情報</a></h2>
         <ul>
           <li>会社名: {{ site.company.name }} 株式会社</li>
-          <li>社員数: {{ site.company.size }}名 (パート・複業採用含む)</li>
-		  <li>資本金: {{ site.company.capital}}万円</li>
+          <li>社員数: {{ site.company.size }}名 (パート・<a href="/ja/join-forces">複業採用</a>含む)</li>
+	  <li>資本金: {{ site.company.capital}}万円</li>
           <li>創業日: 2012年6月1日 (2018年1月11日 法人成り)</li>
           <li>代表取締役: 安川 要平</li>
           <li>顧問社労士: <a href="https://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a> 岡 佳伸</li>
           <li>顧問税理士: <a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a> 林 寛之</li>
           <li>顧問弁護士: <a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a> 野島 梨恵</li>
           <li>パートナー・関連団体:
-          <ul>
-            <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>
-            <li><a href="http://www.railscp.com/aboutus/">Rails技術者認定試験運営委員会</a> (テクニカルアドバイザー)</li>
-            <li><a href="https://oss-gate.github.io/">OSS Gate</a> (<a href="/ja/doorkeeper">Doorkeeper スポンサー</a>)</li>
-            <li><a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a> (テクニカルサポーター・協賛)</li>
-            <li><a href="http://rubykaigi.org/">RubyKaigi</a> (翻訳協力・スポンサー)</li>
-            <li><a href="https://scrivito.com/partners">Scrivito</a> (開発協力パートナー)</li>
-            <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://yasslab.jp/ja/posts/coderdojo-japan-2018">開発支援パートナー</a>)</li>
-            <li><a href="http://www.mitou.org/">Mitou Foundation</a> (<a href="http://jr.mitou.org/">未踏ジュニア</a>PM・スポンサー)</li>
-          </ul>
-        </li>
-		
-        <li>SNS: 
-		  <a href="https://github.com/yasslab">GitHub</a> (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Ayasslab+fork%3Atrue&amp;type=Repositories&amp;ref=searchresults">人気順</a>), 
-		  <a href="http://qiita.com/organizations/yasslab">Qiita</a>, 
-		  <a href="https://www.facebook.com/yasslab.jp">Facebook</a>, 
-		  <a href="https://twitter.com/YassLab">Twitter</a>, 
-		  <a href="https://www.youtube.com/c/YassLab">YouTube</a>, 
-		  <a href="https://www.wantedly.com/companies/YassLab">Wantedly</a>.</li>
-        <li>自社運営サービス:
-		  <ul>
-            <li><a href="https://railstutorial.jp/">Ruby on Rails チュートリアル</a></li>
-            <li><a href="http://railsguides.jp/">Ruby on Rails ガイド</a> (<a href="https://github.com/yasslab/railsguides.jp">GitHub</a>)</li>
-            <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://github.com/coderdojo-japan/coderdojo.jp">GitHub</a>)</li>
-			<div id="contact"></div>
-		  </ul>
-		</li>
-	  </ul>
-	  <br>
-	  <br>
+            <ul>
+              <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>
+              <li><a href="http://www.railscp.com/aboutus/">Rails技術者認定試験運営委員会</a> (テクニカルアドバイザー)</li>
+              <li><a href="https://oss-gate.github.io/">OSS Gate</a> (<a href="/ja/doorkeeper">Doorkeeper スポンサー</a>)</li>
+              <li><a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a> (テクニカルサポーター・協賛)</li>
+              <li><a href="http://rubykaigi.org/">RubyKaigi</a> (翻訳協力・スポンサー)</li>
+              <li><a href="https://scrivito.com/partners">Scrivito</a> (開発協力パートナー)</li>
+              <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://yasslab.jp/ja/posts/coderdojo-japan-2018">開発支援パートナー</a>)</li>
+              <li><a href="http://www.mitou.org/">Mitou Foundation</a> (<a href="http://jr.mitou.org/">未踏ジュニア</a>PM・スポンサー)</li>
+            </ul>
+          </li>
+	  
+          <li>SNS: 
+	    <a href="https://github.com/yasslab">GitHub</a> (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Ayasslab+fork%3Atrue&amp;type=Repositories&amp;ref=searchresults">人気順</a>), 
+	    <a href="http://qiita.com/organizations/yasslab">Qiita</a>, 
+	    <a href="https://www.facebook.com/yasslab.jp">Facebook</a>, 
+	    <a href="https://twitter.com/YassLab">Twitter</a>, 
+	    <a href="https://www.youtube.com/c/YassLab">YouTube</a>, 
+	    <a href="https://www.wantedly.com/companies/YassLab">Wantedly</a>.</li>
+          <li>自社運営サービス:
+	    <ul>
+              <li><a href="https://railstutorial.jp/">Ruby on Rails チュートリアル</a></li>
+              <li><a href="http://railsguides.jp/">Ruby on Rails ガイド</a> (<a href="https://github.com/yasslab/railsguides.jp">GitHub</a>)</li>
+              <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://github.com/coderdojo-japan/coderdojo.jp">GitHub</a>)</li>
+	      <div id="contact"></div>
+	    </ul>
+	  </li>
+	</ul>
+	<br>
+	<br>
 
       </div><!--//col-->
     </div><!--//row-->
