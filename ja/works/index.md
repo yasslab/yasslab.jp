@@ -47,6 +47,18 @@ lang:   ja
 
         <h3 id="achievements-2018">2018年</h3>
         <ul>
+	  <li>12月: Podcast「<a href="https://coderdojo.jp/podcasts/10">DojoCast #10</a>」に出演 (司会役として<a href="https://twitter.com/CoderDojo/status/1075677404419506176">英語収録</a>)</li>
+	  <li>12月: <a href="https://techplay.jp/event/702297">Rails DM Day 4</a> に司会進行スポンサーとして協賛・参加</li>
+	  <li>12月: NPO法人<a href="http://canvas.ws/workshop/19877">CANVASフェロー会</a>でコミュニティ運営を発表</li>
+	  <li>11月: 技術顧問として <a href="https://memberscareer.connpass.com/event/106254/">MC Open Lab. #6</a> で反転学習を発表</li>
+	  <li>11月: <a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">IPA未踏事業</a>八合目合宿にOB・OGとして招待参加</li>
+          <li>11月: 未踏ジュニアPMとして安川が <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lcEV1hwnEGMDEujOwYCjEAz&disable_polymer=true">Edvation×Summit に登壇</a></li>
+	  <li><b>11月: Railsチュートリアルの<a href="https://railstutorial.jp/business">法人プラン</a>をリリース</b></li>
+	  <li><b>11月: <a href="https://2018.rubyworld-conf.org/program/">RubyWorld Conference</a> で<a href="https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails">動画を用いた反転学習</a>を講演</b></li>
+	  <li>10月: 2018年度の未踏ジュニア<a href="https://www.watch.impress.co.jp/kodomo_it/news/1153935.html">最終成果報告会</a>を実施</li>
+	  <li>10月: <a href="https://sites.google.com/view/scratch2018tokyo/home">Scratch2018Tokyo</a>に弊社安川がポスター発表枠で参加</li>
+	  <li>10月: <a href="https://techbookfest.org/event/tbf05">技術書典５</a>に参加。YassLab社のブースを出展</li>
+	  <li>9月: <a href="https://jobs.freee.co.jp/recruitblog/aboutus/freee_club_5/">freee主催イベント</a>で<a href="https://speakerdeck.com/yasulab/growing-up-together-with-community">コミュニティとの共創</a>について発表</li>
 	  <li>9月: 工学院大学で<a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2018/1J13/3H11.html">Railsチュートリアルの反転授業</a>が開講</li>
 	  <li>9月: <a href="https://hackclub.com/">Hack Club</a> 創業者 <a href="https://zachlatta.com/">Zach Latta</a> と<a href="https://case-shinjuku.com/2018/09/25/20622">共同イベント</a>を主催</li>
 	  <li>8月: <a href="https://dojocon2018.coderdojo.jp/">DojoCon Japan 2018</a> にブロンズスポンサーとして協賛</li>
@@ -58,6 +70,7 @@ lang:   ja
 	  <li>7月: <a href="https://pepabo.com/">GMOペパボ</a>でRailsチュートリアル翻訳・組版技術を講演</li>
 	  <li>6月: <a href="http://hackers-champloo.org/2018/">Hackers Champloo 2018</a> に協賛 (ゴールドスポンサー)</li>
 	  <li>6月: <a href="https://railsgirls-osaka.doorkeeper.jp/events/73914">RailsGirls Osaka #5</a> にコーチ枠として参加</li>
+	  <li>6月: <a href="https://www.freee.co.jp/blog/freeebu_2018meetup03.html">freee主催イベント</a>で<a href="https://speakerdeck.com/yasulab/check-list-for-incorporation-with-freee">法人成りの注意点</a>について発表</li>
 	  <li>6月: <a href="https://www.m-g-n.me/">株式会社mgn</a>と業務提携。デザイン改善チームを発足</li>
 	  <li><b>6月: <a href="http://rubykaigi.org/2018">RubyKaigi 2018</a> に参加。全社員を招待 (任意参加)</b></li>
 	  <li>5月: 弊社コーポレートサイトをリニューアル。<b><a href="https://www.youtube.com/watch?v=mzOc4iUZtuE&list=PLNLYzHXJU2-_jeyeLbEaXUgqGHGgJPKas">公式PV</a>も公開</b></li>
