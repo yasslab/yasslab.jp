@@ -19,7 +19,7 @@ lang:   ja
       </div><!--//logo-catch-->
   </div>
 </section>
-<section class="catchCopy entry_content" id="tech">
+<section class="catchCopy entry_content" id="vision">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -29,7 +29,7 @@ lang:   ja
     </div>
   </div>
 </section>
-<section class="service entry_content">
+<section class="service entry_content" id="products">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -354,7 +354,7 @@ lang:   ja
 </section>
 -->
 
-<section class="whatsNew">
+<section class="whatsNew" id="press">
   <div class="container">
     <div class="row">
       <div class="col-12">

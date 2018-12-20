@@ -6,7 +6,7 @@
     {% if page.lang == "ja" %}
     <meta name="apple-mobile-web-app-title" content="YassLab 株式会社"/>
     <meta name="application-name" content="YassLab 株式会社"/>
-    <meta name="keywords" content="アジャイル リモートワーク Ruby Rails 教育 オープンソース"/>
+    <meta name="keywords" content="アジャイル リモートワーク Ruby Rails 沖縄 オープンソース"/>
     <meta name="author" content="YassLab 株式会社"/>
 
     {% else %}
@@ -112,31 +112,24 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-technology" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">YassLab の技術</a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-technology">
-            <li><a href="/ja#tech" class="dropdown-item">技術書の翻訳・動画制作・ライセンス販売</a></li>
-            <li><a href="/ja/agile" class="dropdown-item">月額制のRuby/Rails開発支援</a></li>
-          </ul>
+	<li class="nav-item">
+          <a class="nav-link" href="/ja/#products">学びを支える技術</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#remote">リモートワーク</a>
+	<li class="nav-item">
+          <a class="nav-link" href="/ja/agile">月額制の開発支援</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#community">コミュニティ活動</a>
         </li>
-	<li class="nav-item">
-          <a class="nav-link" href="/ja/about">会社概要</a>
-        </li>
-	<!--
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-about" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-about">
-            <li><a href="/ja/about" class="dropdown-item">会社概要</a></li>
-            <li><a href="/ja/works" class="dropdown-item">事業実績</a></li>
+	<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-technology" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">会社情報</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-technology">
+            <li><a href="/ja/about" class="dropdown-item">YassLab 社のやること</a></li>
+            <li><a href="/ja/works" class="dropdown-item">これまでの事業実績</a></li>
+	    <li><a href="/ja/join-forces" class="dropdown-item">採用情報 (複業採用含む)</a></li>
+	    <li><a href="/ja/#press" class="dropdown-item">プレスリリース</a></li>
           </ul>
         </li>
-	-->
         <li class="nav-item">
           <a class="nav-link" href="{% if page.title != top %}/ja{% endif %}#contact">お問い合わせ</a>
         </li>
