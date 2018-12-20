@@ -39,8 +39,23 @@ lang:   ja
 
         <h3 id="achievements-2018">2018年</h3>
         <ul>
+	  <li>9月: 工学院大学で<a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2018/1J13/3H11.html">Railsチュートリアルの反転授業</a>が開講</li>
+	  <li>9月: <a href="https://hackclub.com/">Hack Club</a> 創業者 <a href="https://zachlatta.com/">Zach Latta</a> と<a href="https://case-shinjuku.com/2018/09/25/20622">共同イベント</a>を主催</li>
+	  <li>8月: <a href="https://dojocon2018.coderdojo.jp/">DojoCon Japan 2018</a> にブロンズスポンサーとして協賛</li>
 	  <li>8月: 株式会社メンバーズ (東証1部) グループ会社<a href="https://www.members.co.jp/company/news/2018/0806_2.html">技術顧問就任</a></li>
-	  <li>4月: freee主催のイベントで<a href="https://www.freee.co.jp/blog/freeebu_2018meetup01.html">社員10名、事務員0名の事例</a>を講演</li>
+	  <li>8月: 事業速度向上のため、オフィス隣に役員向け社宅を設置</li>
+	  <li>7月: MIT 主催の <a href="https://scratch.mit.edu/conference">Scratch Conference</a> に参加</li>
+	  <li>7月: <a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">IPA未踏事業</a>ブースト会議にOB・OGとして招待参加</li>
+	  <li>7月: <a href="https://ie.u-ryukyu.ac.jp/enpit/">琉球大学enPiT</a>にRailsチュートリアル解説動画を提供</li>
+	  <li>7月: <a href="https://pepabo.com/">GMOペパボ</a>でRailsチュートリアル翻訳・組版技術を講演</li>
+	  <li>6月: <a href="http://hackers-champloo.org/2018/">Hackers Champloo 2018</a> に協賛 (ゴールドスポンサー)</li>
+	  <li>6月: <a href="https://railsgirls-osaka.doorkeeper.jp/events/73914">RailsGirls Osaka #5</a> にコーチ枠として参加</li>
+	  <li>6月: <a href="https://www.m-g-n.me/">株式会社mgn</a>と業務提携。デザイン改善チームを発足</li>
+	  <li><b>6月: <a href="http://rubykaigi.org/2018">RubyKaigi 2018</a> に参加。全社員を招待 (任意参加)</b></li>
+	  <li>5月: 弊社コーポレートサイトをリニューアル。<b><a href="https://www.youtube.com/watch?v=mzOc4iUZtuE&list=PLNLYzHXJU2-_jeyeLbEaXUgqGHGgJPKas">公式PV</a>も公開</b></li>
+	  <li>5月: <a href="https://prtimes.jp/main/html/rd/p/000000004.000022934.html">2018年度未踏ジュニア開始</a>。PM・協賛として継続参加</li>
+	  <li>5月: Railsチュートリアル<a href="https://coedo-dev.doorkeeper.jp/events/72968">GW集中解説セミナー@Co-Edo</a>を実施</li>
+	  <li>4月: freee主催のイベントで<a href="https://www.freee.co.jp/blog/freeebu_2018meetup01.html">社員10名、事務員0名の事例</a>を公開</li>
 	  <li>4月: <a href="https://aiit.ac.jp/">AIIT</a> で弊社初の試み<a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h30/3_2_m.pdf">Railsチュートリアルの反転授業</a>が開講</li>
 	  <li>4月: Mixiが運営する「COSMiKA」に<a href="https://cosmika.jp/spaces/25/interview">インタビュー記事</a>が掲載</li>
 	  <li>4月: 株式会社Progateとの<a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html">業務提携をプレスリリース</a></li>
