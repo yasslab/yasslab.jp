@@ -35,7 +35,7 @@ lang:   ja
         </div><!--//col-md-8  offset-md--->
       </div><!--//col12-->
     </div><!--//row-->
-    
+
     <div class="row"> 
       <div class="col-md-8 offset-md-2">
         <div class="text-center">
@@ -46,7 +46,7 @@ lang:   ja
 	  取引先として弊社をご検討する際などにお役立てください。</p>
 
         <h3 id="achievements-2018">2018年</h3>
-        <ul>
+        <ul style="list-style: none;">
 	  <li>12月: Podcast「<a href="https://coderdojo.jp/podcasts/10">DojoCast #10</a>」に出演 (司会役として<a href="https://twitter.com/CoderDojo/status/1075677404419506176">英語収録</a>)</li>
 	  <li>12月: <a href="https://techplay.jp/event/702297">Rails DM Day 4</a> に司会進行スポンサーとして協賛・参加</li>
 	  <li>12月: NPO法人<a href="http://canvas.ws/workshop/19877">CANVASフェロー会</a>でコミュニティ運営を発表</li>
@@ -92,10 +92,10 @@ lang:   ja
 	  <li><b>1月: 個人事業から法人成りし、<a href="https://twitter.com/yasulab/status/958189005194985472">YassLab 株式会社</a>を設立</b></li>
 	</ul>
 	
-        <h3 id="achievements-2017">2017年</h3>        
-        <ul>
-	  <li>12月: <a href="https://diveintocode.doorkeeper.jp/events/66896">Ruby on Rails最新動向と教え方のノウハウとキャリア</a>に弊社安川が登壇</li>
-          <li>11月: <a href="http://www.edvationxsummit.jp/">Edvation x Summit 2017</a> に弊社の安川が登壇</li>
+        <h3 id="achievements-2017">2017年</h3>
+	<ul style="list-style: none;">
+	  <li>12月: <a href="https://diveintocode.doorkeeper.jp/events/66896">DIVE INTO CODE 主催のイベント</a>に弊社安川が登壇</li>
+          <li>11月: <a href="http://www.edvationxsummit.jp/">Edvation x Summit 2017</a> に弊社安川が登壇</li>
           <li>11月: <a href="https://dojocon2017.coderdojo.jp/">DojoCon Japan 2017</a> にスポンサーとして協賛</li>
           <li>10月: <a href="https://jr.mitou.org/2017.html">未踏ジュニア最終成果報告会</a>に協賛</li>
           <li>10月: <a href="https://www.value-press.com/pressrelease/190639">ShareWis との提携</a>を発表</li>
@@ -127,8 +127,7 @@ lang:   ja
         </ul>
         
         <h3 id="achievements-2016">2016年</h3>
-        
-        <ul>
+	<ul style="list-style: none;">
           <li>12月: 代表の安川が監修した、子ども向けのプログラミング書籍「<a href="https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517">CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場</a>」を刊行 📙</li>
           <li>12月: CoderDojo Japan のウェブサイト (coderdojo.jp) を<a href="https://coderdojo.jp/news/2016/12/12/new-backend">リニューアル</a> 🔧</li>
           <li>12月: 社員の有志で、<a href="https://2016.rubyconf.tw/">RubyConf Taiwan 2016</a> に参加 ✈️  💎</li>
@@ -164,8 +163,7 @@ lang:   ja
         </ul>
         
         <h3 id="achievements-2015">2015年</h3>
-        
-        <ul>
+        <ul style="list-style: none;">
           <li>12月: まつもとゆきひろ氏の基調講演で <a href="https://youtu.be/E9bO1uqs4Oc?t=3904">Ruby に貢献する企業として紹介</a></li>
           <li>12月: Rubyの開発を支援するため，<a href="https://twitter.com/yasulab/status/673444256279736320">RubyCI に Mac mini (El Capitan) を提供</a>しました</li>
           <li>12月: <a href="http://rubykaigi.org/2015">RubyKaigi 2015</a> にスタッフ (翻訳チーム代表) として参加しました</li>
@@ -190,8 +188,7 @@ lang:   ja
         </ul>
         
         <h3 id="achievements-2014">2014年</h3>
-        
-        <ul>
+	<ul style="list-style: none;">
           <li>12月: (株)ネクスウェイよりパートナーMVP賞を受賞</li>
           <li>12月: 動画でRailsが学べる「<a href="http://railstutorial.jp/screencasts">Railsスクリーンキャスト</a>」を公開</li>
           <li>11月: Co-Edoと共同で<a href="http://railstutorial.jp/seminars">Rails解説セミナー</a>を開講</li>
@@ -206,7 +203,6 @@ lang:   ja
         </ul>
         
         <h3 id="achievements-2013">2013年</h3>
-        
         <ul>
           <li>12月: 子供向け学習支援コンテンツのタブレット端末対応変換器の開発</li>
           <li>11月: 達人出版会より<a href="http://tatsu-zine.com/books/railstutorial">Ruby on Rails チュートリアルの電書籍版</a>を出版</li>
