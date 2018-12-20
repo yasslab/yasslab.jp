@@ -15,16 +15,23 @@ lang:   ja
         <h1>事業実績</h1>
 	<br>
         <h2>沖縄と東京を拠点に<br class="ignore-sp">次の3つの事業を展開</h2>
-        <div class="col-md-8 offset-md-3">
+        <div class="col-md-8 offset-md-3" style="padding-bottom: 50px;">
           <ol>
-            <li><strong><a href="/ja/agile">Ruby/Railsの開発支援サービス</a></strong></li>
-            <li>技術書籍の翻訳・組版・出版</li>
-            <li>継続的翻訳システムの研究開発</li>
+            <li><strong><a href="/ja/agile">月額制の Ruby/Rails開発支援サービス</a></strong></li>
+            <li>書籍出版・動画販売・ライセンス事業</li>
+            <li>継続的翻訳/組版システムの研究開発</li>
           </ol>
         </div>
-	
-	<div class="col-md-8 offset-md-2">
-          <iframe src="//www.slideshare.net/slideshow/embed_code/key/imnwbuxNCHja1H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; max-width: 100%;" allowfullscreen=""> </iframe>
+
+	<h2>創業ストーリー</h2>
+	<div class="col-md-12 text-center" style="padding-bottom: 30px;">
+	  早稲田大学で講演した際のスライドです。<br>
+	  現在〜過去の概要がまとめられています。</div>
+	<div class="col-md-8 offset-md-2" style="padding-bottom: 30px;">
+	  <script async class="speakerdeck-embed"
+	   data-id="1bf283f8ad54483197bae8c62bc63cc9"
+	   data-ratio="1.33333333333333"
+	   src="//speakerdeck.com/assets/embed.js"></script>
         </div><!--//col-md-8  offset-md--->
       </div><!--//col12-->
     </div><!--//row-->
@@ -32,10 +39,11 @@ lang:   ja
     <div class="row"> 
       <div class="col-md-8 offset-md-2">
         <div class="text-center">
-          <h2 id="achievements" class="mb-5 mt-5"><a href="#achievements">実績詳細</a></h2>
+          <h2 id="achievements" class="mb-5 mt-5"><a href="#achievements">活動実績</a></h2>
         </div>
         
-        <p>これまでの実績の詳細を箇条書きでまとめております。ご参考になれば幸いです。</p>
+        <p>以下、これまでの活動実績を箇条書きでまとめております。<br class="mobile-hidden">
+	  取引先として弊社をご検討する際などにお役立てください。</p>
 
         <h3 id="achievements-2018">2018年</h3>
         <ul>
