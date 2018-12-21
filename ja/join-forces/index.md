@@ -51,7 +51,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 id="support" class="mt-5 mb-5">Ruby/Rails 開発支援サービス</h2>
+        <h2 id="support" class="mt-5 mb-5">月額制の Ruby/Rails 開発支援</h2>
         <p>弊社の主力事業の1つです。他社の新規事業の開発をサポートするため、他社の秘密情報にアクセスする必要があり、パートタイムの方や複業の方が関わることはありません。また、フルタイム勤務者以外は他社の秘密情報にアクセスできない仕組みが用意されているため、アクセスできる情報が読んでも問題ない情報となり、競業避止義務などを気にせず安心して働くことができます。開発支援事業の詳細は<a href="/ja/agile/">コチラ</a>を参照してください。</p>
       </div><!--//col-->
       
@@ -72,8 +72,7 @@ lang:   ja
 	<h2 id="products"><a href="#products">自社プロダクトまとめ</a></h2>
 	<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- 開発目的: そのプロダクトで実現したいこと
 - 使用技術: 開発で使われているテクノロジー
-- 関連情報: 参考になる公開情報など
-	</code></pre></div></div>
+- 関連情報: 参考になる公開情報など</code></pre></div></div>
 
 	<h3 id="railstutorial" class="text-center mt-5 mb-5">1. Railsチュートリアルの自動更新</h3>
 	<ul>
