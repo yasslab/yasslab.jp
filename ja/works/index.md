@@ -50,7 +50,7 @@ lang:   ja
 	  <li>12月: Podcast「<a href="https://coderdojo.jp/podcasts/10">DojoCast #10</a>」に出演 (司会役として<a href="https://twitter.com/CoderDojo/status/1075677404419506176">英語収録</a>)</li>
 	  <li>12月: <a href="https://techplay.jp/event/702297">Rails DM Day 4</a> に司会進行スポンサーとして協賛・参加</li>
 	  <li>12月: NPO法人<a href="http://canvas.ws/workshop/19877">CANVASフェロー会</a>でコミュニティ運営を発表</li>
-	  <li>11月: 技術顧問として <a href="https://memberscareer.connpass.com/event/106254/">MC Open Lab. #6</a> で反転学習を発表</li>
+	  <li>11月: 技術顧問として <a href="https://www.memberscareer.co.jp/coworkers/now/detail/?p=821">MC Open Lab. #6</a> で反転学習を発表</li>
 	  <li>11月: <a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">IPA未踏事業</a>八合目合宿にOB・OGとして招待参加</li>
           <li>11月: 未踏ジュニアPMとして安川が <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lcEV1hwnEGMDEujOwYCjEAz&disable_polymer=true">Edvation×Summit に登壇</a></li>
 	  <li><b>11月: Railsチュートリアルの<a href="https://railstutorial.jp/business">法人プラン</a>をリリース</b></li>
