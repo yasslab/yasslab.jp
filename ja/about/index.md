@@ -40,7 +40,7 @@ lang:   ja
         <p class="mb-4">コミュニティを Hub として様々な人達と繋がりながら、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>
       </div>
       <div class="col-md-12 profile mt-5" id="profile">
-	<h2 class="text-center mb-5" id="culture">代表者<br class="pc-hidden">プロフィール</h2>
+	<h2 class="text-center mb-5">代表者<br class="pc-hidden">プロフィール</h2>
         <div class="profile__image text-center mb-2">
           <img src="../../img/yohei_300x300.png" alt="安川 要平" class="rounded-circle">
         </div>
