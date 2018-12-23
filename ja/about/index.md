@@ -13,7 +13,7 @@ lang:   ja
 <section class="entry_content pt-5 mb-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center" id="vision">
 
                 <h1>YassLab 社のやること</h1><br>
 
@@ -27,7 +27,7 @@ lang:   ja
                 <p class="mb-4">このような関係者への感謝と還元が第一にあり、その上で実現可能なビジネスに挑戦するチームが YassLab 社です。</p>
                 <img src="../../img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5">
 		
-                <h2 class="text-center mb-5">YassLab 社の文化</h2>
+                <h2 class="text-center mb-5" id="culture">YassLab 社の文化</h2>
                 <p class="mb-4">YassLab 社ではコミュニティと共に成長できる継続的なカタチを大切にします。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
                 <p class="mb-4">CoderDojo Japan への開発支援はうまく回っているカタチの1つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いに価値を提供し合えるため無償で行なっています。</p>
 		
@@ -41,12 +41,13 @@ lang:   ja
                 <p class="mb-4">チームとして掲げている「Having a Good Life with OpenSource ;)」というフレーズは、こういったコミュニティと会社が一緒に成長できる継続的なカタチを表した言葉です。</p>
                 <p class="mb-4">コミュニティを Hub として様々な人達と繋がりながら、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>
             </div>
-            <div class="col-md-12 profile mt-5">
+            <div class="col-md-12 profile mt-5" id="profile">
+	      <h2 class="text-center mb-5" id="culture">代表者<br class="pc-hidden">プロフィール</h2>
                 <div class="profile__image text-center mb-2">
                     <img src="../../img/yohei_300x300.png" alt="安川 要平" class="rounded-circle">
                 </div>
                 <div class="profile__role text-center mb-2">YassLab (株) 代表取締役</div>
-                <h2 class="text-center mb-3 h2deco-none">安川 要平 <br>(YASUKAWA, Yohei)</h2>
+                <h4 class="text-center mb-3 h3deco-none">安川 要平</h4>
                 <ul class="profile__sns mb-3">
                     <li class="profile__sns__icon">
                         <a href="https://www.facebook.com/yasulab" target="_blank"><img src="../../img/icon-fb.png" alt="Facebook"></a>
@@ -76,6 +77,7 @@ lang:   ja
         <div class="video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/mzOc4iUZtuE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
+	<br><br>
 
         <div class="row">
             <div class="col-md-8 offset-md-2 company" id="company">
