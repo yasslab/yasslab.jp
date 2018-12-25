@@ -68,7 +68,7 @@ Rubyのエコシステムは巨大なので、上記のような課題を解決�
 上記の背景のもと、実際に行った作業が次のPRです。
 
 <div style="text-align: center">
-  <img src="Migration PR" src="https://yasslab.jp/img/migration-pr.png" />
+  <img alt="Migration PR" src="/img/migration-pr.png" />
   <a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/362">Migrate DojoCast to coderdojo.jp #362 - GitHub</a>
   <br><br>
 </div>
