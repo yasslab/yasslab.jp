@@ -23,9 +23,12 @@ permalink: /ja/posts/migrate-dojocast-from-jekyll-to-rails
 
 <br>
 
-[![DojoCast - Highlight people around CoderDojo communities by Podcast](/img/dojocast-cover.jpg)](https://coderdojo.jp/podcasts/10)
-DojoCast #10 - Programming is Beyond a Job For Me
-[https://coderdojo.jp/podcasts/10](https://coderdojo.jp/podcasts/10)
+<div style="text-align: center">
+<img alt="DojoCast - Highlight people around CoderDojo communities by Podcast" src="/img/dojocast-cover.jpg" />
+<a href="https://coderdojo.jp/podcasts/10](https://coderdojo.jp/podcasts/10">DojoCast #10 - Programming is Beyond a Job For Me</a>
+<br><br>
+</div>
+
 
 さて、DojoCast や英語収録の内容については上記リンクから聴いていただくこととして、本記事ではこの収録を公開するために裏側で色々と動いていたので、今回はその技術的な背景と実装したことを軽くまとめておきますね。
 
@@ -37,10 +40,11 @@ DojoCast #10 - Programming is Beyond a Job For Me
 
 DojoCast も「まずはやってみるか🤔」という気持ちで始めたプロジェクトの１つですが、当初は「どういった層が聞くのか」「そもそも価値はあるのか」などが分からなかったので、当初は必要最低限の機能を [GitHub Pages](https://pages.github.com/) (Jekyll) で雑に実装し、dojocast.coderdojo.jp というドメインから公開していました。
 
-<script async class="speakerdeck-embed" data-slide="2" data-id="8e6dae291abd4dc3ad36ca779c0e106e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
-[Outdated] Podcasting by CoderDojo Japan 📻✨   
-[https://github.com/coderdojo-japan/dojocast](https://github.com/coderdojo-japan/dojocast)
+<div style="text-align: center">
+  <script async class="speakerdeck-embed" data-slide="2" data-id="8e6dae291abd4dc3ad36ca779c0e106e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  <a href="https://github.com/coderdojo-japan/dojocast">[Outdated] github.com/coderdojo-japan/dojocast 📻✨   </a>
+  <br><br>
+</div>
 
 実際にやってみるとメンターやチャンピオンを中心に聴きたい人や、CoderDojo コミュニティ同士の知見の共有、[パートナー企業のPR](https://coderdojo.jp/podcasts/6)に繋がったりと、色々な場面で価値を感じることがありました。
 
@@ -63,9 +67,11 @@ Rubyのエコシステムは巨大なので、上記のような課題を解決�
 
 上記の背景のもと、実際に行った作業が次のPRです。
 
-[![Migration PR](/img/migration-pr.png)](https://github.com/coderdojo-japan/coderdojo.jp/pull/362)
-Migrate DojoCast to coderdojo.jp #362 - GitHub   
-[https://github.com/coderdojo-japan/coderdojo.jp/pull/362](https://github.com/coderdojo-japan/coderdojo.jp/pull/362)
+<div style="text-align: center">
+  <img src="Migration PR" src="/img/migration-pr.png" />
+  <a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/362">Migrate DojoCast to coderdojo.jp #362 - GitHub</a>
+  <br><br>
+</div>
 
 具体的には上記PRで次のような作業を行っています。
 
@@ -94,9 +100,11 @@ DojoCastのRSSフィードを実装してiTunesから購読できるようにす
 
 [Railsチュートリアル](https://railstutorial.jp/)や[Railsガイド](https://railsguides.jp/)もそうですが、最初は少人数で始めた開発プロジェクトが少しずつ大きくなっていくのは楽しいですね 📈✨ coderdojo.jp も最初は一人で始めた小さいプロジェクトでしたが、年々より多くの人たちに利用されるようになってきています。
 
-<script async class="speakerdeck-embed" data-slide="44" data-id="0150cf89a4d94bc7ab41c14b851de0bc" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
-<br>
+<div style="text-align: center">
+  <script async class="speakerdeck-embed" data-slide="44" data-id="0150cf89a4d94bc7ab41c14b851de0bc" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  <a href="https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo">CoderDojo を支える Rails CMS の活用事例</a>
+  <br><br>
+</div>
 
 今回実装した Podcast 機能に限らず、やるべき方針を見定め、今後も coderdojo.jp でできることがあれば少しずつ改善していきたいと思います。ただし[次にやるべきことが常に開発であるとは限らない](https://yasslab.jp/ja/posts/coderdojo-japan-2018)ので、開発だけでなく、「CoderDojo コミュニティにとって役立つことは何なのか」から考えて、そこから効果的なアクションを模索・実行していきたいなと考えています。
 
