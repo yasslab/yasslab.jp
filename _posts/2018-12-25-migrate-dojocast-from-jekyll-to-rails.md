@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  DojoCast を Jekyll から Rails に移行しました - YassLab
+title:  DojoCast を Jekyll から Rails に移行しました
 thumbnail: dojocast-cover.jpg
 author: 安川 要平
 categories: [blog]
