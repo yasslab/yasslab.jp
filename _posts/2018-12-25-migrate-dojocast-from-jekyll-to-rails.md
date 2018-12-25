@@ -32,7 +32,7 @@ permalink: /ja/posts/migrate-dojocast-from-jekyll-to-rails
 
 さて、DojoCast や英語収録の内容については上記リンクから聴いていただくこととして、本記事ではこの収録を公開するために裏側で色々と動いていたので、今回はその技術的な背景と実装したことを軽くまとめておきますね。
 
-*NOTE: YassLab 社と CoderDojo Japan との関係性については[前回の記事](/ja/posts/coderdojo-japan-2018)をご参照ください。*
+*NOTE: YassLab 社と CoderDojo Japan との関係性については[前回の記事](https://yasslab.jp/ja/posts/coderdojo-japan-2018)をご参照ください。*
 
 <br>
 
