@@ -151,6 +151,30 @@ lang:   ja
             <td>契約が締結されました。様々なお問い合わせ、ありがとうございました。</td>
           </tr>
         </table>
+	<br><br>
+	
+	<h4>メール購読しませんか?</h4>
+	<p>メール購読すると、次のスケジュールが空き次第メールにてご連絡いたします。ぜひご活用ください。</p>
+	<!-- Begin Mailchimp Signup Form -->
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; text-align: center;}
+	 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+	<div id="mc_embed_signup" style="text-align: center;">
+	  <form action="https://yasslab.us7.list-manage.com/subscribe/post?u=87929ed80d217471e88115dc6&amp;id=bcd0bfb7da" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	    <div id="mc_embed_signup_scroll">
+	      
+	      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+	      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_87929ed80d217471e88115dc6_bcd0bfb7da" tabindex="-1" value=""></div>
+	      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	    </div>
+	  </form>
+	</div>
+	<!--End mc_embed_signup-->
+
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
