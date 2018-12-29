@@ -3,12 +3,14 @@ require 'nokogiri'
 require 'mechanize'
 require 'jekyll'
 
+SUCESS_MOCK_PATH = 'spec/mock.html'.freeze
+FAILED_MOCK_PATH = 'spec/error_mock.html'.freeze
+
 RSpec.describe 'Qiita' do
   require './_plugins/qiita.rb'
   it 'qiita-like-and-items' do
-    mock = 'spec/mock.html'
-    mock_path = File.expand_path(mock)
-    allow_any_instance_of(Mechanize).to receive(:get).and_return(Mechanize.new.get("file://#{mock_path}"))
+    mock = File.expand_path(SUCESS_MOCK_PATH)
+    allow_any_instance_of(Mechanize).to receive(:get).and_return(Mechanize.new.get("file://#{mock}"))
 
     items = Liquid::Template.parse("{% qiita_items %}")
     expect(items.render).to be == '192'
@@ -17,9 +19,8 @@ RSpec.describe 'Qiita' do
   end
 
   it 'not possible to obtain' do
-    mock = 'spec/error_mock.html'
-    mock_path = File.expand_path(mock)
-    allow_any_instance_of(Mechanize).to receive(:get).and_return(Mechanize.new.get("file://#{mock_path}"))
+    mock = File.expand_path(FAILED_MOCK_PATH)
+    allow_any_instance_of(Mechanize).to receive(:get).and_return(Mechanize.new.get("file://#{mock}"))
 
     items = Liquid::Template.parse("{% qiita_items %}")
     expect(items.render).to be == '0'
