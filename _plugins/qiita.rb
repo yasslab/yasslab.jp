@@ -4,8 +4,12 @@ module Jekyll
   class QiitaItems < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
-      element = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first
+      begin
+          page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
+          element = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first
+      rescue
+          element = 0
+      end
       if element.respond_to? :children
           @items = element.children.text.strip.to_i
       else
@@ -21,8 +25,12 @@ module Jekyll
   class QiitaLikes < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
-      element = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first
+      begin
+          page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
+          element = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first
+      rescue
+          element = 0
+      end
       if element.respond_to? :children
           @likes = element.children.text.strip.to_i
       else
