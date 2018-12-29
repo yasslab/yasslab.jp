@@ -1,8 +1,9 @@
 permalink: /:title
 company:
-  name:  YassLab Inc.
+  name:  YassLab
   email: yohei@yasslab.jp
-  size: 12
+  capital: 500
+  size: 13
 description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
 
 baseurl: "" # the subpath of your site, e.g. /blog/

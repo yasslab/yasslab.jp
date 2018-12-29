@@ -714,22 +714,26 @@ table.month-sche{
     padding:30px;
     width:16%;
     font-size:1.3rem;
+    @include media-breakpoint-down(sm) {
+      padding:5px;
+      font-size:1rem;
+    }
   }
   td{
     padding:10px 28px;
-    .caption{
-      padding-top:10px; 
-        @include media-breakpoint-down(md) {
-        display:none;
+    @include media-breakpoint-down(sm) {
+      padding:10px;
       }
-    } 
-  }
+    }
 }
 table.caption{
   text-align: left;
   margin-top:10px;
+  th img{
+    max-width:30px;
+  }
   th,td{
-    padding:5px 10px;
+    padding:5px;
     vertical-align: top;
   }
 }
