@@ -11,9 +11,9 @@ RSpec.describe 'Qiita' do
     allow_any_instance_of(Mechanize).to receive(:get).and_return(Mechanize.new.get("file://#{mock_path}"))
 
     items = Liquid::Template.parse("{% qiita_items %}")
-    expect(items.render).to be == '150'
+    expect(items.render).to be == '192'
     likes = Liquid::Template.parse("{% qiita_likes %}")
-    expect(likes.render).to be == '6289'
+    expect(likes.render).to be == '6938'
   end
 
   it 'not possible to obtain' do
