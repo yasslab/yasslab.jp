@@ -5,7 +5,12 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
-      @items = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first.children.text.strip.to_i
+      element = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first
+      if element.respond_to? :children
+          @items = element.children.text.strip.to_i
+      else
+          @items = 0
+      end
     end
 
     def render(_text)
@@ -17,7 +22,12 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
-      @likes = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first.children.text.strip.to_i
+      element = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first
+      if element.respond_to? :children
+          @likes = element.children.text.strip.to_i
+      else
+          @likes = 0
+      end
     end
 
     def render(_text)
