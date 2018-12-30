@@ -284,9 +284,9 @@ lang:   ja
           </div>
           <dl class="row">
             <dt class="col-md-6">リポジトリ数</dt>
-            <dd id="github__repositories" class="col-md-6">1</dd>
+            <dd id="github__repositories" class="col-md-6">65</dd>
             <dt class="col-md-6">スター数</dt>
-            <dd id="github__stars" class="col-md-6">1</dd>
+            <dd id="github__stars" class="col-md-6">408</dd>
           </dl>
         </div>
       </div>
