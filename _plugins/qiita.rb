@@ -1,6 +1,9 @@
 require 'mechanize'
 module Jekyll
   QIITA_ORGANIZATION_URL = 'https://qiita.com/organizations/yasslab'
+  QIITA_PRESET_ITEMS     = 192
+  QIITA_PRESET_LIKES     = 6941
+
   class QiitaItems < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
@@ -13,7 +16,7 @@ module Jekyll
       if element.respond_to? :children
           @items = element.children.text.strip.to_i
       else
-          @items = 0
+          @items = QIITA_PRESET_ITEMS
       end
     end
 
@@ -34,7 +37,7 @@ module Jekyll
       if element.respond_to? :children
           @likes = element.children.text.strip.to_i
       else
-          @likes = 0
+          @likes = QIITA_PRESET_LIKES
       end
     end
 
