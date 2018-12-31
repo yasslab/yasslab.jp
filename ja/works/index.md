@@ -25,13 +25,14 @@ lang:   ja
 
 	<h2>創業ストーリー</h2>
 	<div class="col-md-12 text-center" style="padding-bottom: 30px;">
-	  早稲田大学で講演した際のスライドです。<br>
-	  現在〜過去の概要がまとめられています。</div>
+	  早稲田大学の講演などで使われた事業紹介スライドです。<br>
+	  過去〜現在までの流れが時系列でまとめられています。</div>
 	<div class="col-md-8 offset-md-2" style="padding-bottom: 30px;">
 	  <script async class="speakerdeck-embed"
-	   data-id="1bf283f8ad54483197bae8c62bc63cc9"
+	   data-id="ee19ff2514724ee2b345068cfd37581c"
 	   data-ratio="1.33333333333333"
 	   src="//speakerdeck.com/assets/embed.js"></script>
+	  (スライドが表示されない場合は<a href="https://speakerdeck.com/yasslab/learn-by-your-own-projects" target="_blank">コチラ</a>から)
         </div><!--//col-md-8  offset-md--->
       </div><!--//col12-->
     </div><!--//row-->
