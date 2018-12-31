@@ -17,9 +17,9 @@ lang:   ja
         <h2>沖縄と東京を拠点に<br class="ignore-sp">次の3つの事業を展開</h2>
         <div class="col-md-8 offset-md-3" style="padding-bottom: 50px;">
           <ol>
-            <li><strong><a href="/ja/agile">月額制の Ruby/Rails開発支援サービス</a></strong></li>
-            <li>書籍出版・動画販売・ライセンス事業</li>
-            <li>継続的翻訳/組版システムの研究開発</li>
+            <li><a href="/ja/agile">月額制 Ruby/Rails 開発支援サービス</a>の提供</li>
+            <li><a href="https://railstutorial.jp/">Railsチュートリアル</a>、<a href="https://railsguides.jp/">Railsガイド</a>の運営</li>
+            <li><a href="https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs">継続的翻訳</a>/<a href="https://speakerdeck.com/yasulab/continuous-integration-for-ebook">継続的組版システム</a>の開発</li>
           </ol>
         </div>
 
