@@ -4,18 +4,6 @@ title:  YassLab Inc. - Having a Good Life with OpenSource ;)
 lang:   en
 ---
 
-## Our Business {#top}
-
-We are doing our business in the following domains:
-
-1. [**Support Agile Web Development with Ruby/Rails**](/en/agile/)
-2. Translate, Compose, and Publish Tech Documents
-3. Research and Develop [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
-
-<img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
-
-<br />
-
 ## Summary of Works {#summary}
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/cEwD6bvg84VeWA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
