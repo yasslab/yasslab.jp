@@ -1,0 +1,119 @@
+{% include header.html %}
+
+<section class="mainVisual">
+  <div class="jumbotron">
+    
+    
+    <picture>
+    	<source media="(min-width: 600px)" srcset="../img/top-image-large.jpg">
+    	<img src="../img/top-image-small.jpg" alt="Having a Good Life with OpenSource">
+    </picture>
+    
+    <!--h1 class="display-4 text-center"-->
+      <div class="logo-catch">
+        <img src="../img/logo-yasslab.svg" width="270" alt="YassLab Logo">
+        <h1>Having a Good Life with OpenSource ;)</h1>
+      </div><!--//logo-catch-->
+  </div>
+</section>
+<section class="catchCopy entry_content" id="vision">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>New web services, with Ruby</h2>
+	<p class="text-md-center">We focus on developing Web services by using Ruby, and<br class="mobile-hidden">keep contributing opensource communities through our businesses.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="service entry_content" id="products">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 style="line-height: 2.0em;">《<a href="">Continuous Translation System</a>》<br></h3>
+	<p class="text-md-center">Improve environments to develop, by automating tech docs translation.</p>
+
+        <div class="row">
+          <div class="col-md-4 offset-md-1">
+            <a href="https://railstutorial.jp/" target="_blank">
+	      <img src="../img/logo-rails-tutrial.png"
+               alt="Ruby on Rails Tutorial in Japanese"
+               class="books"></a>
+            <a href="https://railstutorial.jp/" target="_blank">
+              <button class="btn btn-ruby">Docs to learn</button>
+            </a>
+            <a href="https://railstutorial.jp/" target="_blank"><h4>Japanese Rails Tutorial</h4></a>
+            <p>SNS の開発を題材にした大型チュートリアル。Web サービスの開発から公開までの流れを実例を通して学べます。解説動画や質問対応サービスも提供。</p>
+          </div>
+          <div class="col-md-4 offset-md-2">
+            <a href="https://railsguides.jp/" target="_blank">
+              <img src="../img/rails_guides_ebook.gif"
+	       alt="Ruby on Rails Guides in Japanese"
+	       class="books">
+            </a>
+            <a href="https://railsguides.jp/" target="_blank">
+              <button class="btn btn-ruby">Docs to develop</button>
+            </a>
+            <a href="https://railsguides.jp/" target="_blank"><h4>Japanese Rails Guides</h4></a>
+            <p>Ruby on Rails 公式の大型リファレンスガイド。Rails の各機能を体系的に学び、Web 開発の生産性を高めたいときに。検索可能な電子書籍版も提供。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="developmentSupport entry_content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 style="line-height: 2.0em;">《月額制の Ruby/Rails 開発支援》<br>
+		開発事業を月単位でサポートします</h3>
+        <div class="row mb-5">
+          <div class="col-4">
+            <figure id="ruby">
+              <img src="../../img/icon-ruby-pale.png" width="80%" alt="Ruby logo" />
+               <figcaption>Ruby / Rails</figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure id="cloud">
+              <img src="../../img/icon-cloud-pale.png" width="80%" alt="cloud icon" />
+              <figcaption>Heroku / AWS</figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure id="agile">
+              <img src="../../img/icon-agile-pale.png" width="80%" alt="Agile Web Development image" />
+              <figcaption>Agile Web Development</figcaption>
+            </figure>
+          </div>
+        </div><!--//row-->
+      </div><!--//col-->
+    </div><!--//row-->
+
+   <div class="row">
+      <div class="col-md-6">
+        <div class="developmentSupport__more text-center">
+            <a href="/ja/agile" class="btn btn-primary btn-block mt-2">開発を依頼したい方へ</a>
+          </div>
+        </div><!--//col-->
+        <div class="col-md-6">
+        <div class="developmentSupport__more text-center">
+            <a href="/ja/works" class="btn btn-primary btn-block mt-2">過去の事業実績一覧を見る</a>
+          </div>
+        </div><!--//col-->
+    </div><!--//row-->
+
+  </div><!--//container-->
+</section>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer container">
+  <section id="main_content" class="inner row justify-content-md-center pt-5">
+    <div class="col-12 col-md-9 entry_content text-center">
+    {{ content }}
+    </div>
+  </section>
+</div>
+
+{% include footer.html %}
