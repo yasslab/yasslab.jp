@@ -49,9 +49,12 @@ lang:   en
 We're mainly working on Ruby/Rails web development, education, and open-source activities. 
 We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Appear, Idobata, etc.
 
-### CEO: Yohei Yasukawa
 
-![Photo](/img/photos/ph_yasulab.jpg)
+<h3>
+  CEO: Yohei Yasukawa<br><br>
+  <img src="/img/photos/ph_yasulab.jpg" alt="Photo os Yohei Yasukawa" />
+  <br><br>
+</h3>
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, 
 and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 
