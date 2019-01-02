@@ -81,6 +81,9 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
     <li class="profile__sns__icon">
       <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img src="../../img/icon-li.png" alt="LinkedIn"></a>
     </li>
+    <li class="profile__sns__icon">
+      <a href="https://qiita.com/yasulab" target="_blank"><img src="../../img/icon-qi.png" alt="Qiita"></a>
+    </li>
   </ul>
 </div>
 
