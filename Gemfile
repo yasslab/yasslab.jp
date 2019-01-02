@@ -1,19 +1,19 @@
 source 'http://rubygems.org'
 ruby '2.6.0'
 
-gem 'github-pages'
 gem 'redcarpet'
 gem 'jekyll'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'rspec'
 gem 'mechanize'
+gem 'html-proofer'
 
 # Gems to enable SSL
 gem 'acme_challenge'
 gem 'rack-rewrite'
 gem 'rack-contrib'
-gem 'html-proofer'
+
 
 group :development, :test do
   gem 'pry-byebug'
