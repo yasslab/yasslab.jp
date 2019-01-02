@@ -1,40 +1,27 @@
 ---
-layout: default
+layout: english
 title:  YassLab Inc. - Having a Good Life with OpenSource ;)
 lang:   en
 ---
 
-
-## Our Business {#top}
-
-We are doing our business in the following domains:
-
-1. [**Support Agile Web Development with Ruby/Rails**](/en/agile/)
-2. Translate, Compose, and Publish Tech Documents
-3. Research and Develop [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
-
-<img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
-
-<br />
-
+<!--
 ## Summary of Works {#summary}
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/cEwD6bvg84VeWA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 (NOTE: Please jump to [SlideShare's page](http://www.slideshare.net/yasulab/works-of-yasslab) if you cannot see the slides above.)
+-->
 
-<br />
+## Recent news {#news}
 
-## News {#news}
-
-- Become a official partner of the professional cloud-based Rails CMS, [Scrivito](https://scrivito.com/partners)
+- Become an official partner of [Scrivito](https://scrivito.com/partners), the professional cloud-based Rails CMS.
 - Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
 - Introduced as one of contributoring companies to Ruby by [Matz Keynote](https://www.youtube.com/watch?v=E9bO1uqs4Oc&feature=youtu.be&t=3904) at RubyKaigi
 - Interviewed by [HackerSpace Film](https://www.facebook.com/photo.php?fbid=10153341493740869&set=t.715330868&type=3&theater) for our [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
-- Talk about how we continuously translate RailsTutorial & RailsGuides at [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/en/)
+- Talk about how we continuously translate, compose, and run Japanese RailsTutorial & Japanese RailsGuides at RubyWorld Conference [2013](http://2013.rubyworld-conf.org/en/) / [2015](http://2015.rubyworld-conf.org/en/) / [2018](https://2018.rubyworld-conf.org/program/).
 
-<br />
+<br>
 
-## Main Works and Contribution {#works}
+## Past works {#works}
 
 - Web Services and Mobile Applications:
    - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs), Automate Translating Frequently-updated Tech Docs.
@@ -60,41 +47,54 @@ We are doing our business in the following domains:
 ## About us {#about}
 
 We're mainly working on Ruby/Rails web development, education, and open-source activities. 
-We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Appear, Idobata, etc.
+We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Zoom/Appear, Idobata, etc.
 
-### CEO: Yohei Yasukawa
+<div class="row">
+  <div class="col-md-12">
+    <img src="../../img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+  </div><!--//col12-->
+</div><!--//row-->
 
-![Photo](/img/photos/ph_yasulab.jpg)
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mzOc4iUZtuE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<br><br>
+
+<hr>
+
+<div class="col-md-12 profile mt-5" id="profile">
+  <div class="profile__image text-center mb-2">
+    <img src="../../img/yohei_300x300.png" alt="Photo of Yohei Yasukawa" class="rounded-circle">
+  </div>
+  <div class="profile__role text-center mb-2">CEO of YassLab Inc.</div>
+  <h4 class="text-center mb-3 h3deco-none">Yohei Yasukawa</h4>
+  <ul class="profile__sns mb-3">
+    <li class="profile__sns__icon">
+      <a href="https://www.facebook.com/yasulab" target="_blank"><img src="../../img/icon-fb.png" alt="Facebook"></a>
+    </li>
+    <li class="profile__sns__icon">
+      <a href="https://twitter.com/yasulab" target="_blank"><img src="../../img/icon-tw.png" alt="Twitter"></a>
+    </li>
+    <li class="profile__sns__icon">
+      <a href="https://github.com/yasulab" target="_blank"><img src="../../img/icon-gh.png" alt="GitHub"></a>
+    </li>
+    <li class="profile__sns__icon">
+      <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img src="../../img/icon-li.png" alt="LinkedIn"></a>
+    </li>
+  </ul>
+</div>
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, 
 and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 
-a small distributed company focusing on Ruby/Rails web development, education, and opensource projects.
+100% remote-work company that focuses on Ruby/Rails projects [above](#top).
 
-Now, welcoming co-workers who also have open-source mind into YassLab team, we [work remotely](https://github.com/uiureo/remote-in-japan), challenge to automate translating Japanese [Rails Guides](http://railsguides.jp/) and [Rails Tutorial](http://railstutorial.jp/), and try to apply the [continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs) for other GitHub-based tech docs.
-
-SNS:
-[GitHub](http://github.com/yasulab), 
-[Twitter](https://twitter.com/yasulab), 
-[Facebook](https://facebook.com/yasulab/), 
-[LinkedIn](https://www.linkedin.com/in/yasulab).
-
-### Achievements {#achievements}
-
-Not only such businesses, but also his company contributes to opensource communities by
-founding and organizing [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01),
-serving as a chairman of [CoderDojo Japan](http://coderdojo.jp/), 
-and translating [Rails Tutorial into Japanese](http://railstutorial.jp/")/[Ruby Hacking Guide into English](http://ruby-hacking-guide.github.io/).
-
-For such enthusiastic contribution to IT and Education fields in Japan,
-our works were accepted by [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html) in 2012,
-seleted as one of [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) talks in 2013,
-and awarded [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award in 2014.
-
-Since 2015, in order to bridge the knowledge of teaching kids to code between Japan and the world, he also works as a [Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee) at [CoderDojo](http://coderdojo.com/), the global network of free computer programming clubs for young people. For the future, his company is developing [continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs) that translates documents in real time using Git and Translation Memory technique. Its outcomes include [Japanese Rails Tutorial](http://railstutorial.jp) and [Rails Guides in Japanese](http://railsguides.jp/).
+Beyond the company projects, he is also known as one of co-founders of [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01),
+[CoderDojo Japan](https://coderdojo.jp/), and [MITOU for U-17](https://jr.mitou.org/index_en.html) projects. For such enthusiastic contributions to IT and Education fields in Japan, he was selected as one of persons possessing outstanding capabilities by [METI](http://www.meti.go.jp/english/press/2018/0510_001.html)-launched [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html),
+[TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) speakers, and [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award.
 
 ### Company Profile {#company}
 
-![YassLab](/img/logo_rect_copy.png)
+![YassLab](/img/logo_800x200.png)
 
 - Name: YassLab Inc.
 - Owner: Yohei Yasukawa
@@ -103,16 +103,16 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 - Trademark: [No. 5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
 - HR Advisor: Yoshinobu Oka ([oka-sr.jp](http://oka-sr.jp/))
 - Tax Advisor: Hiroyuki Hayahi ([hay-kaikei.com](http://www.hay-kaikei.com/))
-- Legal Advisor: Rie Nojima ([Tokyo Sanno Law Office](http://www.ynmlaw.com/english/))
+- Legal Advisor: Rie Nojima ([Shin Toshin Law Office](https://www.s-law.jp/))
 - Member of: 
-    - [Rails Programmer Certification Test Steering Committee](http://www.railscp.com/aboutus/) (Technical Adviser)
-    - [Business OSS Consortium Japan](http://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
-	- [OSS Gate](https://oss-gate.github.io/) (Sponsor)
-	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (Technical Supporter)
-	- [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
-	- [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
-	- [CoderDojo Japan](https://coderdojo.jp/) (Web Develpment Sponsor)
-	- [Mitou Foundation](http://www.mitou.org/) (Project Manager at [Mitou Jr.](http://jr.mitou.org/))
+  - [Rails Programmer Certification Test Steering Committee](https://www.railscp.com/aboutus/) (Technical Adviser)
+  - [Business OSS Consortium Japan](https://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
+  - [OSS Gate](https://oss-gate.github.io/) (Doorkeeper sponsor)
+  - [RyukyuFrogs](https://www.ryukyu-frogs.com/) (Technical Supporter)
+  - [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
+  - [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
+  - [CoderDojo Japan](https://coderdojo.jp/) (Web Develpment Sponsor)
+  - [Mitou Foundation](https://www.mitou.org/) (Project Manager at [Mitou Jr.](https://jr.mitou.org/))
 
 <br />
 
