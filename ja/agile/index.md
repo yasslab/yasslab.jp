@@ -130,9 +130,9 @@ lang:   ja
           <tr>
             <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
             <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
+	    <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
+            <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
             <td><img src="../../img/agile-adjusting.png" alt="お問い合わせください" /><br></td>
-            <td><img src="../../img/agile-available.png" alt="ご相談お待ちしております" /><br></td>
-            <td><img src="../../img/agile-available.png" alt="ご相談お待ちしております" /><br></td>
             <td><img src="../../img/agile-available.png"  alt="ご相談お待ちしております" /><br></td>
           </tr>
         </table>
