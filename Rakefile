@@ -14,22 +14,24 @@ end
 # http://joenyland.me/blog/how_to_test_a_jekyll_site/
 require 'html-proofer'
 task test: [:build] do
-  HTMLProofer.check_directory('./_site', {
-                                allow_hash_href:  true,
-                                check_opengraph:  true,
-                                check_favicon:    true,
-                                check_html:       true,
-                                disable_external: true,
-                                file_ignore: [
-                                  /node_modules/,
-                                  "./_site/ja/workshops/raspi/index.html",
-                                  "./_site/en/workshops/raspi/index.html",
-                                  "./_site/ja/workshops/tickle/index.html",
-                                  "./_site/google02f5cc9ed3681f94.html"
-                                ],
-                                url_ignore:  %w(coderdojo.com linkedin.com),
-                                http_status_ignore: [0, 500, 999],
-                             }).run
+  sh "bundle exec rake assets:precompile" unless ENV['SKIP_BUILD'] == '1'
+  options = {
+    allow_hash_href:  true,
+    check_opengraph:  true,
+    check_favicon:    true,
+    check_html:       true,
+    disable_external: true,
+    file_ignore: [
+      /node_modules/,
+      "./_site/ja/workshops/raspi/index.html",
+      "./_site/en/workshops/raspi/index.html",
+      "./_site/ja/workshops/tickle/index.html",
+      "./_site/google02f5cc9ed3681f94.html"
+    ],
+    url_ignore:  %w(coderdojo.com linkedin.com),
+    http_status_ignore: [0, 500, 999],
+  }
+  HTMLProofer.check_directory('./_site', options).run
 end
 
 task build: [:clean] do
