@@ -11,16 +11,6 @@ lang:   en
 
 <br />
 
-## News {#news}
-
-- Become a official partner of the professional cloud-based Rails CMS, [Scrivito](https://scrivito.com/partners)
-- Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
-- Introduced as one of contributoring companies to Ruby by [Matz Keynote](https://www.youtube.com/watch?v=E9bO1uqs4Oc&feature=youtu.be&t=3904) at RubyKaigi
-- Interviewed by [HackerSpace Film](https://www.facebook.com/photo.php?fbid=10153341493740869&set=t.715330868&type=3&theater) for our [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
-- Talk about how we continuously translate RailsTutorial & RailsGuides at [RubyWorld Conference 2015](http://2015.rubyworld-conf.org/en/)
-
-<br />
-
 ## Main Works and Contribution {#works}
 
 - Web Services and Mobile Applications:
@@ -63,7 +53,7 @@ a small distributed company focusing on Ruby/Rails web development, education, a
 Now, welcoming co-workers who also have open-source mind into YassLab team, we [work remotely](https://github.com/uiureo/remote-in-japan), challenge to automate translating Japanese [Rails Guides](http://railsguides.jp/) and [Rails Tutorial](http://railstutorial.jp/), and try to apply the [continuous translation system](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs) for other GitHub-based tech docs.
 
 SNS:
-[GitHub](http://github.com/yasulab), 
+[GitHub](https://github.com/yasulab), 
 [Twitter](https://twitter.com/yasulab), 
 [Facebook](https://facebook.com/yasulab/), 
 [LinkedIn](https://www.linkedin.com/in/yasulab).
@@ -93,16 +83,16 @@ Since 2015, in order to bridge the knowledge of teaching kids to code between Ja
 - Trademark: [No. 5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
 - HR Advisor: Yoshinobu Oka ([oka-sr.jp](http://oka-sr.jp/))
 - Tax Advisor: Hiroyuki Hayahi ([hay-kaikei.com](http://www.hay-kaikei.com/))
-- Legal Advisor: Rie Nojima ([Tokyo Sanno Law Office](http://www.ynmlaw.com/english/))
+- Legal Advisor: Rie Nojima ([Shin Toshin Law Office](https://www.s-law.jp/))
 - Member of: 
-    - [Rails Programmer Certification Test Steering Committee](http://www.railscp.com/aboutus/) (Technical Adviser)
-    - [Business OSS Consortium Japan](http://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
-	- [OSS Gate](https://oss-gate.github.io/) (Sponsor)
-	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (Technical Supporter)
-	- [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
-	- [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
-	- [CoderDojo Japan](https://coderdojo.jp/) (Web Develpment Sponsor)
-	- [Mitou Foundation](http://www.mitou.org/) (Project Manager at [Mitou Jr.](http://jr.mitou.org/))
+  - [Rails Programmer Certification Test Steering Committee](https://www.railscp.com/aboutus/) (Technical Adviser)
+  - [Business OSS Consortium Japan](https://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
+  - [OSS Gate](https://oss-gate.github.io/) (Sponsor)
+  - [RyukyuFrogs](https://www.ryukyu-frogs.com/) (Technical Supporter)
+  - [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
+  - [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
+  - [CoderDojo Japan](https://coderdojo.jp/) (Web Develpment Sponsor)
+  - [Mitou Foundation](https://www.mitou.org/) (Project Manager at [Mitou Jr.](https://jr.mitou.org/))
 
 <br />
 
