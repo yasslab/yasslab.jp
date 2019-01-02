@@ -290,7 +290,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rb-readline (0.5.5)
     redcarpet (3.4.0)
     rouge (2.2.1)
     rspec (3.8.0)
@@ -356,7 +355,6 @@ DEPENDENCIES
   rack-jekyll
   rack-rewrite
   rake
-  rb-readline
   redcarpet
   rspec
 
