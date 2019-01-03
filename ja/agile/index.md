@@ -120,20 +120,20 @@ lang:   ja
         <h2 class="mb-5"><a href="#schedule">現在のスケジュール</a></h2>
         <table class="month-sche">
           <tr>
-            <th>11月</th>
             <th>12月</th>
             <th>1月</th>
             <th>2月</th>
             <th>3月</th>
             <th>4月</th>
+            <th>5月</th>
           </tr>
           <tr>
             <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
             <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
 	    <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
-            <td><img src="../../img/agile-reserved.png"  alt="ありがとうございました" /><br></td>
             <td><img src="../../img/agile-adjusting.png" alt="お問い合わせください" /><br></td>
             <td><img src="../../img/agile-available.png"  alt="ご相談お待ちしております" /><br></td>
+	    <td><img src="../../img/agile-available.png"  alt="ご相談お待ちしております" /><br></td>
           </tr>
         </table>
         
