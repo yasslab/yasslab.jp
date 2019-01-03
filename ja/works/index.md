@@ -55,6 +55,7 @@ lang:   ja
           <li>11月 未踏ジュニアPMとして安川が <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lcEV1hwnEGMDEujOwYCjEAz&disable_polymer=true">Edvation×Summit に登壇</a></li>
 	  <li><b>11月 Railsチュートリアルの<a href="https://railstutorial.jp/business">法人プラン</a>をリリース</b></li>
 	  <li><b>11月 <a href="https://2018.rubyworld-conf.org/program/">RubyWorld Conference</a> で<a href="https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails">動画を用いた反転学習</a>を講演</b></li>
+	  <li>11月 <a href="http://railsgirls.com/okinawa.html">Rails Girls Okinawa 1st</a> にスポンサーとして協賛</li>
 	  <li>10月 2018年度の未踏ジュニア<a href="https://www.watch.impress.co.jp/kodomo_it/news/1153935.html">最終成果報告会</a>を実施</li>
 	  <li>10月 <a href="https://sites.google.com/view/scratch2018tokyo/home">Scratch2018Tokyo</a>に弊社安川がポスター発表枠で参加</li>
 	  <li>10月 <a href="https://techbookfest.org/event/tbf05">技術書典５</a>に参加。YassLab社のブースを出展</li>
@@ -69,7 +70,7 @@ lang:   ja
 	  <li>7月 <a href="https://ie.u-ryukyu.ac.jp/enpit/">琉球大学enPiT</a>にRailsチュートリアル解説動画を提供</li>
 	  <li>7月 <a href="https://pepabo.com/">GMOペパボ</a>でRailsチュートリアル翻訳・組版技術を講演</li>
 	  <li>6月 <a href="http://hackers-champloo.org/2018/">Hackers Champloo 2018</a> に協賛 (ゴールドスポンサー)</li>
-	  <li>6月 <a href="https://railsgirls-osaka.doorkeeper.jp/events/73914">RailsGirls Osaka #5</a> にコーチ枠として参加</li>
+	  <li>6月 <a href="https://railsgirls-osaka.doorkeeper.jp/events/73914">Rails Girls Osaka #5</a> にコーチ枠として参加</li>
 	  <li>6月 <a href="https://www.freee.co.jp/blog/freeebu_2018meetup03.html">freee主催イベント</a>で<a href="https://speakerdeck.com/yasulab/check-list-for-incorporation-with-freee">法人成りの注意点</a>について発表</li>
 	  <li>6月 <a href="https://www.m-g-n.me/">株式会社mgn</a>と業務提携。デザイン改善チームを発足</li>
 	  <li><b>6月 <a href="http://rubykaigi.org/2018">RubyKaigi 2018</a> に参加。全社員を招待 (任意参加)</b></li>
