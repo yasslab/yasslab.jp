@@ -169,7 +169,7 @@ lang:   ja
 	      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="example@your-company.co.jp" required>
 	      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 	      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_87929ed80d217471e88115dc6_bcd0bfb7da" tabindex="-1" value=""></div>
-	      <div class="clear"><input type="submit" value="購読する" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	      <div class="clear"><input type="submit" value="登録する" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 	    </div>
 	  </form>
 	</div>
