@@ -154,7 +154,7 @@ lang:   ja
 	<br><br>
 	
 	<h4>メールでお知らせ</h4>
-	<p>弊社のスケジュールが空き次第、いち早くメールにてお届けします。開発支援サービスを検討中のご担当者さまは、ぜひご登録ください。</p>
+	<p class="text-center">弊社のスケジュールが空き次第、いち早くメールにてお届けします。<br class="mobile-hidden">開発支援サービスを検討中のご担当者さまは、ぜひご登録ください。</p>
 	<!-- Begin Mailchimp Signup Form -->
 	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
