@@ -3,7 +3,7 @@ company:
   name:  YassLab
   email: yohei@yasslab.jp
   capital: 500
-  size: 13
+  size: 14
 description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
 
 baseurl: "" # the subpath of your site, e.g. /blog/
