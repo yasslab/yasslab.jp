@@ -38,9 +38,15 @@ lang:   ja
       <div class="col-md-12 text-center">
         <h2 id="services" class="mt-5 mb-5"><a href="#services">YassLab 社のカタチ</a></h2>
 	<script async class="speakerdeck-embed"
+	 data-id="cf1cd6f115924b4cace9b825fe474198"
+	 data-ratio="1.33333333333333"
+	 src="//speakerdeck.com/assets/embed.js"></script>
+	<!--
+	<script async class="speakerdeck-embed"
 	 data-id="ba5d69d07474453eaf7e34a8b924851e"
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
+	-->
         <p class="text-center">(これまでの事業実績は<a href="/ja/works/">コチラ</a>をご参照ください)</p>
       </div><!--//col-->
     </div><!--//row-->
