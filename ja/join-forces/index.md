@@ -114,6 +114,7 @@ lang:   ja
 	    <ul>
 	      <li><a href="https://github.com/coderdojo-japan/coderdojo.jp">coderdojo-japan/coderdojo.jp</a> (OSS)</li>
 	      <li><a href="https://github.com/coderdojo-japan/dojopaas">coderdojo-japan/dojopaas</a> (OSS)</li>
+	      <li>スライド: <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community">全国150ヶ所ある CoderDojo と企業が共創する世界 </a></li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo">CoderDojo を支える Rails CMS の活用事例</a>
 		<br /><br /></li>
 	    </ul>
