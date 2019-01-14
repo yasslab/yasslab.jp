@@ -175,27 +175,26 @@ lang:   ja
         
         <h3 id="achievements-2015">2015年</h3>
         <ul style="list-style: none;">
-          <li>12月 まつもとゆきひろ氏の基調講演で <a href="https://youtu.be/E9bO1uqs4Oc?t=3904">Ruby に貢献する企業として紹介</a></li>
-          <li>12月 Rubyの開発を支援するため，<a href="https://twitter.com/yasulab/status/673444256279736320">RubyCI に Mac mini (El Capitan) を提供</a>しました</li>
-          <li>12月 <a href="http://rubykaigi.org/2015">RubyKaigi 2015</a> にスタッフ (翻訳チーム代表) として参加しました</li>
-          <li>11月 リモートワークを応援するWEBメディア「Anywher」に<a href="https://anywher.net/2015/11/yasslab/">紹介して頂きました</a></li>
-          <li>11月 <a href="http://2015.rubyworld-conf.org/ja/">RubyWorld Conference 2015</a>にて「<a href="https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015">継続的翻訳システム</a>」について<a href="https://www.youtube.com/watch?v=7cqOJtL5Fvc">講演</a></li>
+          <li><b>12月 <a href="http://rubykaigi.org/2015/">RubyKaigi 2015</a> のまつもとゆきひろ (Matz) 氏の基調講演で <a href="https://youtu.be/E9bO1uqs4Oc?t=3904">Ruby に貢献している企業として紹介して頂きました!</a></b></li>
+          <li>12月 Ruby 開発支援のため <a href="https://twitter.com/yasulab/status/673444256279736320">RubyCI に Mac mini を提供</a></li>
+          <li>12月 <a href="http://rubykaigi.org/2015">RubyKaigi 2015</a> にスタッフ (翻訳チーム代表) として参加</li>
+          <li>11月 リモートワークWebメディア<a href="https://anywher.net/2015/11/yasslab/">「Anywher」に掲載</a></li>
+          <li>11月 <a href="http://2015.rubyworld-conf.org/ja/">RubyWorld Conference </a>で<a href="https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015">継続的翻訳システム</a>を<a href="https://www.youtube.com/watch?v=7cqOJtL5Fvc">講演</a></li>
           <li>10月 <a href="http://railstutorial.jp/?version=4.2">Railsチュートリアルの第3版</a>をリリース</li>
-          <li>9月 iOS端末でプログラミングができるアプリ「<a href="https://itunes.apple.com/jp/app/id961319311">Tickle</a>」の<a href="https://www.facebook.com/TickleiPadApp/posts/1641313606121370">日本語版をリリース</a></li>
-          <li>8月 <a href="http://makezine.jp/event/mft2015/workshops/">Maker Faire Tokyo</a>でピタゴラ装置のワークショップを開催しました</li>
-          <li>8月 <a href="http://coderdojo.jp/">CoderDojo Japan</a>の公式ウェブサイトをリニューアルしました</li>
-          <li>7月 <a href="http://rebuild.fm/100/">Rebuild.fm #100</a>でRailsガイドを紹介していただきました</li>
-          <li>7月 <a href="http://regional.rubykaigi.org/kansai06/">関西Ruby会議06</a>に登壇．また，講演中に<a href="http://railsguides.jp/options.html">Railsガイドの出版</a>を発表しました</li>
-          <li>7月 Railsで作られた匿名性SNSの開発支援を始めました (〜12月まで継続)</li>
-          <li>6月 とちぎRuby会議06に登壇し，<a href="https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban">継続的翻訳システム</a>について講演しました</li>
-          <li>6月 沖縄からシリコンバレーに派遣する<a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a>において，Railsチュートリアルを軸にした技術的支援を開始</li>
-          <li>5月 Co-EdoでGW集中Rails解説セミナーを実施．<a href="https://www.facebook.com/photo.php?fbid=10152810585880869&amp;set=a.10152611345180869.1073741835.715330868&amp;type=1&amp;theater">全セミナーがキャンセル待ち</a>に．</li>
-          <li>4月 Railsアプリケーションのオンプレミス環境 → Heroku 環境移行を支援しました</li>
-          <li>4月 世界的な子ども向けプログラミング道場「<a href="https://coderdojo.com/">CoderDojo</a>」の日本代表として，安川が<a href="http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee">CoderDojo Community Committee</a>に就任</li>
-          <li>3月 <a href="https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html">未踏会議+未踏ナイト</a>のブースに置いて「<a href="https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs">継続的翻訳システム</a>」を展示</li>
-          <li>2月 初期から参画していた沖縄のシェアハウス「
-            <a href="http://text.geeoki.com/post/112124574627/%E8%A7%A3%E6%95%A3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F">ギークハウス沖縄</a>」が解散</li>
-          <li>1月 <a href="http://nilquebe.com/">Nilquebe</a>と共同で<a href="http://railstutorial.jp/seminars">Rails解説セミナー</a>@神戸を開講</li>
+          <li>9月 iOS 向けプログラミングアプリ <a href="https://www.facebook.com/TickleiPadApp/posts/1641313606121370">Tickle 日本語版をリリース</a></li>
+          <li>8月 <a href="http://makezine.jp/event/mft2015/workshops/">Maker Faire Tokyo</a>でピタゴラ装置のワークショップを開催</li>
+          <li>8月 <a href="http://coderdojo.jp/">CoderDojo Japan</a>の公式ウェブサイトをリニューアル</li>
+          <li><b>7月 <a href="http://rebuild.fm/100/">Rebuild.fm #100</a>でRailsガイドを紹介していただきました</b></li>
+          <li>7月 <a href="http://regional.rubykaigi.org/kansai06/">関西Ruby会議06</a>登壇。講演中に<a href="http://railsguides.jp/options.html">Railsガイド出版</a>を発表</li>
+          <li>7月 Railsで作られた匿名性SNSの開発支援を始めました</li>
+          <li>6月 <a href="http://regional.rubykaigi.org/tochigi06/">とちぎRuby会議06</a>で<a href="https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban">Railsガイドを支える技術</a>を発表</li>
+          <li>6月 シリコンバレー派遣事業 <a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a> で、Railsチュートリアルを用いた技術支援を開始</li>
+          <li>5月 Rails集中解説セミナー実施。<a href="https://www.facebook.com/photo.php?fbid=10152810585880869&amp;set=a.10152611345180869.1073741835.715330868&amp;type=1&amp;theater">全枠がキャンセル待ち</a>に。</li>
+          <li>4月 Railsアプリケーションの Heroku 環境移行を支援しました</li>
+          <li>4月 国際的的子どもプログラミング道場「<a href="https://coderdojo.com/">CoderDojo</a>」の日本代表として、安川が<a href="http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee">CoderDojo Community Committee</a>に就任</li>
+          <li>3月 <a href="https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html">未踏会議/未踏ナイト</a>で<a href="https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs">継続的翻訳システム</a>をブース展示</li>
+          <li>2月 初期から参画したシェアハウスの<a href="http://text.geeoki.com/post/112124574627/%E8%A7%A3%E6%95%A3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F">ギークハウス沖縄</a>を解散</li>
+          <li>1月 <a href="http://nilquebe.com/">Nilquebe</a> と共同で<a href="http://railstutorial.jp/seminars">Rails集中解説セミナー@神戸</a>を開講</li>
         </ul>
         
         <h3 id="achievements-2014">2014年</h3>
