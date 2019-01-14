@@ -140,37 +140,37 @@ lang:   ja
         <h3 id="achievements-2016">2016年</h3>
 	<ul style="list-style: none;">
           <li>12月 代表の安川が監修した、子ども向けのプログラミング書籍「<a href="https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517">CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場</a>」を刊行 📙</li>
-          <li>12月 CoderDojo Japan のウェブサイト (coderdojo.jp) を<a href="https://coderdojo.jp/news/2016/12/12/new-backend">リニューアル</a> 🔧</li>
-          <li>12月 社員の有志で、<a href="https://2016.rubyconf.tw/">RubyConf Taiwan 2016</a> に参加 ✈️  💎</li>
-          <li>11月 <a href="http://www.city.kobe.lg.jp/information/press/2016/10/20161012041802.html">神戸ITフェスティバル</a>にて「子どもと一緒に作るOSSコミュニティ」を発表</li>
-          <li><strong>11月 <a href="https://railstutorial.jp/?version=5.0">Railsチュートリアル (第4版)</a> と、<a href="https://railstutorial.jp/seminars#record">計34時間の解説動画</a>をリリース</strong> 🚀</li>
-          <li>11月 Railsチュートリアルを題材にした、<a href="https://coedo-rails.doorkeeper.jp/events/52551">Rails集中解説セミナー</a>を実施</li>
-          <li>10月 代表の安川がビジュアルプログラミング言語「<a href="https://tickleapp.com/">Tickle</a>」の Ambassador に着任</li>
-          <li>10月 ベネッセ教育総合研究所の<a href="http://berd.benesse.jp/special/manabi/manabi_10.php">「まなびのかたち」</a>で弊社の安川が載りました</li>
+          <li>12月 CoderDojo Japan のウェブサイトを<a href="https://coderdojo.jp/news/2016/12/12/new-backend">リニューアル</a></li>
+          <li>12月 社員の有志で、<a href="https://2016.rubyconf.tw/">RubyConf Taiwan 2016</a> に参加</li>
+          <li>11月 <a href="http://www.city.kobe.lg.jp/information/press/2016/10/20161012041802.html">神戸ITフェスティバル</a>にて弊社安川が登壇</li>
+          <li><strong>11月 <a href="https://railstutorial.jp/?version=5.0">Railsチュートリアル (第4版)</a> と<a href="https://railstutorial.jp/seminars#record">解説動画</a>をリリース</strong></li>
+          <li>11月 Railsチュートリアルを題材に<a href="https://coedo-rails.doorkeeper.jp/events/52551">集中解説セミナー</a>を実施</li>
+          <li>10月 弊社安川が台湾発のアプリ <a href="https://tickleapp.com/">Tickle</a> の Ambassador に着任</li>
+          <li>10月 ベネッセ教育総合研究所<a href="http://berd.benesse.jp/special/manabi/manabi_10.php">「まなびのかたち」</a>に載りました</li>
           <li>9月 <a href="http://rubykaigi.org/2016">RubyKaigi 2016</a> の<a href="http://rubykaigi.org/2016/team/">翻訳スタッフ</a>として参加 💎 ✨</li>
-          <li>8月 弊社の安川が、<a href="http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html">一般社団法人 CoderDojo Japan の代表理事</a>に就任</li>
-          <li>8月 教育xOSSを軸としたカンファレンス「<a href="http://dojocon.coderdojo.jp/">DojoCon Japan</a>」を開催サポート</li>
-          <li>8月 「日経Kids+ 親子で始めるプログラミング」で <a href="https://www.facebook.com/yasulab/posts/10153783123520869?pnref=story">CoderDojo が紹介されました</a></li>
+          <li>8月 弊社安川が<a href="http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html">一般社団法人 CoderDojo Japan 代表理事</a>に就任</li>
+          <li>8月 教育xOSSカンファレンス <a href="https://dojocon2016.coderdojo.jp/">DojoCon Japan</a> をスポンサード</li>
+          <li>8月 「日経Kids+ 親子で始めるプログラミング」に<a href="https://www.facebook.com/yasulab/posts/10153783123520869?pnref=story">掲載</a></li>
           <li>8月 <a href="/ja/doorkeeper/">Doorkeeperスポンサーシップ</a>の資料を CC BY-SA で公開</li>
-          <li>8月 <a href="http://www.osakac.ac.jp/news/2016/922">大阪電気通信大学と提携</a>し、Railsチュートリアルの動画教材を提供</li>
-          <li>8月 <a href="http://www.cs.tsukuba.ac.jp/enPiT/">筑波大学のenPiT</a>に対して、Railsチュートリアルの<a href="https://www.evernote.com/shard/s18/sh/a68df4c8-689b-4f69-9d79-af868564134b/6195074c6ec4aaf2129d39e3b3a15ee5">動画教材を提供</a></li>
-          <li>7月 主婦・ママ向けメディア「4yuuu!」から<a href="https://4yuuu.com/articles/view/473532">インタビュー記事に掲載</a></li>
+          <li>8月 <a href="http://www.osakac.ac.jp/news/2016/922">大阪電気通信大学と提携</a>。Railsチュートリアル動画を提供</li>
+          <li>8月 <a href="https://www.evernote.com/shard/s18/sh/a68df4c8-689b-4f69-9d79-af868564134b/6195074c6ec4aaf2129d39e3b3a15ee5">筑波大学のenPiTと提携</a>。Railsチュートリアル動画を提供</li>
+          <li>7月 主婦・ママ向けメディア 4yuuu! に<a href="https://4yuuu.com/articles/view/473532">インタビュー記事掲載</a></li>
           <li>7月 <a href="https://coedo-rails.doorkeeper.jp/events/47309">第7期 Railsチュートリアル解説セミナー</a>を実施</li>
           <li>7月 教育機関向けの新規事業の開発支援を開始</li>
           <li>6月 代表の安川がPMを務める<a href="http://jr.mitou.org/">未踏ジュニア</a>が開始</li>
-          <li>6月 Rails解説セミナーの<a href="https://gumroad.com/l/railstutorial_seminars">ライブ収録動画 (32時間分)</a> の販売を開始</li>
-          <li>5月 <a href="https://coedo-rails.doorkeeper.jp/events/41526">第6期 Railsチュートリアル解説セミナー</a> を実施</li>
+          <li>6月 Rails解説セミナーの<a href="https://gumroad.com/l/railstutorial_seminars">ライブ収録動画 (32時間分)</a> を販売開始</li>
+          <li>5月 <a href="https://coedo-rails.doorkeeper.jp/events/41526">第6期 Railsチュートリアル解説セミナー</a>を実施</li>
           <li>5月 CoEdo.rbで<a href="https://coedo-rails.doorkeeper.jp/events/42869">メタプログラミング研究会</a>を発足 (<a href="https://github.com/yasslab/ruby-metaprogramming-tokyo/tree/master/quizzes">GitHub</a>)</li>
           <li>4月 海外向けの新規規事の開発支援を開始 (〜12月)</li>
-          <li>4月 Rails-based CMSを開発しているドイツの <a href="https://scrivito.com/partners">Scrivito チームと提携</a></li>
-          <li>4月 海外のCoderDojo公式サイトにて、<a href="https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/">CoderDojo Heroes として紹介</a>されました</li>
+          <li>4月 Rails-based CMS を開発する<a href="https://scrivito.com/partners">ドイツの Scrivito と提携</a></li>
+          <li>4月 海外サイトの <a href="https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/">CoderDojo Heroes</a> に弊社安川が掲載</li>
           <li>4月 新しいメンバーを迎え、社員数が4人になりました</li>
           <li>3月 <a href="https://coedo-rails.doorkeeper.jp/events/37506">第5期 Railsチュートリアル解説セミナー</a>を実施</li>
-          <li>3月 <a href="http://www.meti.go.jp/press/2015/02/20160212002/20160212002.html">未踏会議/未踏ナイト</a>において、<a href="https://www.youtube.com/watch?v=O8ULPyEwDww">CoderDojo Japanの活動について発表</a></li>
+          <li>3月 <a href="http://www.meti.go.jp/press/2015/02/20160212002/20160212002.html">未踏会議/未踏ナイト</a>で <a href="https://www.youtube.com/watch?v=O8ULPyEwDww">CoderDojo Japan の活動を紹介</a></li>
           <li>2月 新しいメンバーを迎え、社員数が3人になりました</li>
-          <li>1月 日経ソフトウェアの<a href="http://ec.nikkeibp.co.jp/item/backno/SW1212.html">1月</a>、<a href="http://ec.nikkeibp.co.jp/item/backno/SW1213.html">2月</a>、<a href="http://ec.nikkeibp.co.jp/item/backno/SW1214.html">3月号</a>で「イチからわかるRails」を連載</li>
-          <li>1月 <a href="http://cmu.connpass.com/event/24504/">Creators MeetUp (新年特番)</a> で「<a href="https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita">技術文書の継続的翻訳</a>」について発表</li>
-          <li>1月 建築系新規事業の開発をサポートしました (〜3月)</li>
+          <li>1月 日経SW <a href="http://ec.nikkeibp.co.jp/item/backno/SW1212.html">1月</a>/<a href="http://ec.nikkeibp.co.jp/item/backno/SW1213.html">2月</a>/<a href="http://ec.nikkeibp.co.jp/item/backno/SW1214.html">3月号</a>で「イチからわかるRails」を連載</li>
+          <li>1月 <a href="http://cmu.connpass.com/event/24504/">Creators MeetUp</a> で<a href="https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita">技術文書の継続的翻訳</a>を発表</li>
+          <li>1月 建築系新規Webサービスの開発支援をはじめました</li>
         </ul>
         
         <h3 id="achievements-2015">2015年</h3>
