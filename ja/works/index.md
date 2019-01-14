@@ -45,6 +45,16 @@ lang:   ja
         <p>以下、これまでの活動実績を箇条書きでまとめております。<br class="mobile-hidden">
 	  取引先として弊社をご検討する際などにお役立てください。</p>
 
+	<h3 id="achievements-2019">2019年 (予定含む)</h3>
+	<ul style="list-style: none;">
+	  <li><b>4月 <a href="http://rubykaigi.org/2019">RubyKaigi 2019</a> に参加。全社員を招待 (任意参加)</b></li>
+
+	  <li>4月 DIVE INTO CODE 主催 <a href="https://diveintocode.doorkeeper.jp/events/83984">Demo Day 6th</a> に審査員として参加</li>
+	  <li>3月 <a href="https://railsdm.github.io/">Rails Developers Meetup 2019</a> に弊社宮城が登壇</li>
+	  <li>3月 <a href="https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html">情報処理学会の第81回全国大会</a>に弊社大城が登壇</li>
+	  <li>2月 未踏ジュニア<a href="https://twitter.com/mitoujr/status/1084318286278344705">2019年度オンライン説明会</a>に弊社安川が登壇</li>
+	  <li>1月 <a href="https://meganefes2019.megane.in/">megane Fes 2019</a> で <a href="https://speakerdeck.com/yasslab/remote-first-company">Remote-first Company</a> について講演</li>
+	</ul>
         <h3 id="achievements-2018">2018年</h3>
         <ul style="list-style: none;">
 	  <li>12月 Podcast「<a href="https://coderdojo.jp/podcasts/10">DojoCast #10</a>」に出演 (司会役として<a href="https://twitter.com/CoderDojo/status/1075677404419506176">英語収録</a>)</li>
