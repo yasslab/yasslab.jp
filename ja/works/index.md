@@ -25,7 +25,7 @@ lang:   ja
 
 	<h2>創業ストーリー</h2>
 	<div class="col-md-12 text-center" style="padding-bottom: 30px;">
-	  早稲田大学の講演などで使われた事業紹介スライドです。<br class="mobile-hidden">過去〜現在までの流れが時系列でまとめられています。</div>
+	  早稲田大学の講演で使われたスライド資料です。<br class="mobile-hidden">過去〜現在までの流れが時系列でまとめられています。</div>
 	<div class="col-md-8 offset-md-2" style="padding-bottom: 30px;">
 	  <script async class="speakerdeck-embed"
 	   data-id="ee19ff2514724ee2b345068cfd37581c"
