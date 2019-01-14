@@ -311,9 +311,9 @@ lang:   ja
         </div>
         
         <ul>
-          <li><a href="http://regional.rubykaigi.org/tochigi06/">とちぎRuby会議06</a>にてRailsチュートリアル/Railsガイドについて講演, 2015</li>
+          <li><a href="http://regional.rubykaigi.org/tochigi06/">とちぎRuby会議06</a>にてRailsチュートリアル/Railsガイドについて講演，2015</li>
           <li>リクルートホールディングス主催<a href="http://recruit-jinji.jp/adf_fes2015/">Application Developer Festival 2015</a>にゲストスピーカーとして講演</li>
-          <li>第2回「<a href="http://blog.itxsaigai.org/post/101750784479/%E7%AC%AC2%E5%9B%9Eitx%E7%81%BD%E5%AE%B3%E4%BC%9A%E8%AD%B0-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88">ITx災害</a>」会議に登壇し，震災対策アプリの開発風景について講演, 2014</li>
+          <li>第2回「<a href="http://blog.itxsaigai.org/post/101750784479/%E7%AC%AC2%E5%9B%9Eitx%E7%81%BD%E5%AE%B3%E4%BC%9A%E8%AD%B0-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88">ITx災害</a>」会議に登壇し，震災対策アプリの開発風景について講演，2014</li>
           <li>“Social Translating: The Way of Translating Rails Tutorial and Ruby Hacking Guide”, <a href="http://www.rubyworld-conf.org/ja/program/">RubyWorld Conference 2013</a></li>
           <li>“Experience and Education”, <a href="http://www.tedxryukyu.com/speaker.html">TEDxRyukyu 2013</a></li>
           <li>Panelist &amp; Workshop Facilitator, <a href="https://sites.google.com/a/ois-edu.com/okifsc/bios">Okinawa Future School Conference 2013</a></li>
@@ -326,10 +326,12 @@ lang:   ja
           </li>
           <li><a href="https://speakerdeck.com/yasulab/introducing-remote-pair-programming-in-okinawa-dot-rb">“Introducing Remote Pair Programming in Okinawa.rb”</a>, <a href="http://rubyconf.tw/2012/">RubyConf 台湾 2012</a></li>
           <li><a href="https://speakerdeck.com/yasulab/report-of-rails-hackathon-in-okinawa">“Report of Rails Hackathon in Okinawa”</a>, <a href="http://tokyo10.rubykaigi.info/">Tokyo RubyKaigi 10</a></li>
-          <li>講師@出張CoderDojo, <a href="http://www.phpmatsuri.net/2012/coderdojo.html">PHP Matsuri 2012 (福岡): </a></li>
+          <li>講師@出張CoderDojo, <a href="http://www.phpmatsuri.net/2012/coderdojo.html">PHP Matsuri 2012 (福岡)</a></li>
           <li><a href="http://www.slideshare.net/yasulab/rails-hackathon-in-okinawa">“Rails Hackathon in Okinawa”</a>, <a href="http://sapporo.rubykaigi.org/2012/en/schedule/details/LT09.html">RubyKaigi 札幌 2012</a></li>
-          <li><a href="https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang">“CoderDojo の成り立ち・紹介・始め方”</a>, <a href="https://www.ospn.jp/osc2012-fall/modules/eguide/event.php?eid=61">オープンソースカンファレンス東京 2012</a></li>
-          <li><a href="https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang">“CoderDojo の成り立ち・紹介・始め方”</a>, <a href="http://www.ospn.jp/osc2012-okinawa/modules/eguide/event.php?eid=15">オープンソースカンファレンス沖縄 2012</a></li>
+          <li><a href="https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang">“CoderDojo の成り立ち・紹介・始め方”</a>,<br>
+	    <a href="https://www.ospn.jp/osc2012-fall/modules/eguide/event.php?eid=61">オープンソースカンファレンス 2012 in 東京</a></li>
+          <li><a href="https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang">“CoderDojo の成り立ち・紹介・始め方”</a>,<br>
+	    <a href="http://www.ospn.jp/osc2012-okinawa/modules/eguide/event.php?eid=15">オープンソースカンファレンス 2012 in 沖縄</a></li>
           <li><a href="https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto">“震災対策アプリ：ホイッスル on Android -5万DL達成までにやったこと-“</a>, <a href="http://www.android-group.jp/abc2011s/conference.html">Android Bazaar and Conference 2011</a>
             <br /><br /></li>
         </ul>
