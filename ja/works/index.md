@@ -214,8 +214,8 @@ lang:   ja
         
         <h3 id="achievements-2013">2013年</h3>
         <ul>
-          <li>12月 子供向け学習支援コンテンツのタブレット端末対応変換器の開発</li>
-          <li>11月 達人出版会より<a href="http://tatsu-zine.com/books/railstutorial">Ruby on Rails チュートリアルの電書籍版</a>を出版</li>
+          <li>12月 子ども向け学習コンテンツのタブレット端末変換器を開発</li>
+          <li>11月 達人出版会より<a href="http://tatsu-zine.com/books/railstutorial">Railsチュートリアルの電書籍版</a>を出版</li>
           <li>ビジネスプロセス支援アプリケーションの開発支援:
             <ul>
               <li>テストの高速化: 2時間 → 15分</li>
@@ -223,7 +223,7 @@ lang:   ja
             </ul>
           </li>
           <li>沖縄型若年層向けIT高度人材育成事業 (<a href="http://academy.lexues.co.jp/">第3期レキサスアカデミー</a>) 常任講師に着任</li>
-          <li><a href="http://railstutorial.jp/">Rails チュートリアル</a>の公開，<a href="https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide">Social Translating の起案および実施</a>
+          <li><a href="http://railstutorial.jp/">Railsチュートリアル</a>を公開。<a href="https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide">Social Translating を起案</a>
             <ul>
               <li>詳細は <a href="http://www.rubyworld-conf.org/">RubyWorld Conference 2013</a> にて講演 (動画あり)</li>
             </ul>
@@ -240,9 +240,9 @@ lang:   ja
         <h3 id="achievements-2012">2012年</h3>
         
         <ul>
-          <li>IPA 未踏人材育成事業: <a href="http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html">思いを叶える視覚駆動バケットリストの開発</a>
+          <li>未踏事業に<a href="http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html">思いを叶える視覚駆動バケットリストの開発</a>が採択
             <ul>
-              <li>代表の安川が，未踏スーパークリエイタに認定される</li>
+              <li>代表の安川が<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>に認定される</li>
             </ul>
           </li>
           <li>沖縄型若年層向けIT高度人材育成事業 (<a href="http://academy.lexues.co.jp/">第2期レキサスアカデミー</a>) 常任講師に着任</li>
@@ -270,12 +270,11 @@ lang:   ja
         </ul>
         
         <h3 id="achievements-2010">2010年度より過去の活動について</h3>
-        
         <ul>
-          <li>2010年度より過去の活動については，<a href="https://www.wantedly.com/users/11695">Wantedly</a>または<a href="https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&amp;type=1&amp;l=76c883b04a">受賞歴まとめ</a>をご参照下さい.</li>
+          <li>2010年度より過去の活動については、<a href="https://www.wantedly.com/users/11695">Wantedly</a> または<a href="https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&amp;type=1&amp;l=76c883b04a">受賞歴まとめ</a>をご参照してください</li>
         </ul>
         
-        <h2 id="各種コミュニティに対する貢献-一部抜粋" class="text-center mt-5 mb-5">各種コミュニティに対する貢献 (一部抜粋)</h2>
+        <h2 id="各種コミュニティに対する貢献-一部抜粋" class="text-center mt-5 mb-5">他、各種コミュニティに対する貢献 (一部抜粋)</h2>
         
         <ul>
           <li><a href="http://guides.rubyonrails.org/">Ruby on Rails Guides</a>の和訳 (<a href="https://github.com/yasslab/railsguides.jp">GitHub</a>)</li>
