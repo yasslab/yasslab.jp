@@ -202,13 +202,13 @@ lang:   ja
           <li>12月 (株)ネクスウェイよりパートナーMVP賞を受賞</li>
           <li>12月 動画でRailsが学べる「<a href="http://railstutorial.jp/screencasts">Railsスクリーンキャスト</a>」を公開</li>
           <li>11月 Co-Edoと共同で<a href="http://railstutorial.jp/seminars">Rails解説セミナー</a>を開講</li>
-          <li>9月 RubyHiroba 2014にて，体系的にRailsを学べる「<a href="http://railsguides.jp/">Railsガイド</a>」を公開</li>
-          <li>9月 RubyKaigi 2014に<a href="http://rubykaigi.org/2014/sponsors#silver07">シルバースポンサー</a>として協賛 (翻訳および司会も務める)</li>
-          <li>8月 <a href="https://www.facebook.com/DigiLabOkinawa/">デジラボおきなわ</a>にて子供向けプログラミングの成果報告会を実施．RBCにて，特集番組として放映される</li>
-          <li>4月 世界中のインターナショナルスクールが集まる国際会議「<a href="http://blogs.yis.ac.jp/beyondlaptops/">#beyondlaptops</a>」にて，Guest Speaker として Scratch + Raspberry Pi のワークショップを実施</li>
-          <li>3月 <a href="http://ruby.okinawa/okrk01/">沖縄Ruby会議01</a> を開催．安川が実行委員長を努め，Ruby開発者のまつもとゆきひろ氏をゲストとして招聘．</li>
-          <li>3月 <a href="http://blog.lexues.co.jp/19489.html">レキサスアカデミー第３期 最終成果報告会</a>を実施</li>
-          <li>2月 代表の安川が修士論文「<a href="https://www.dropbox.com/s/zr4k9b5rkgff2of/%E4%BF%AE%E5%A3%AB%E8%AB%96%E6%96%87_%E6%A6%82%E8%A6%81%E6%9B%B8.pdf?dl=0">Project Based Learning using Visual Bucket List</a>」を早稲田大学に提出し，修士号を取得</li>
+          <li>9月 <a href="http://rubyhiroba.org/2014/">RubyHiroba 2014</a>で新サイト「<a href="http://railsguides.jp/">Railsガイド</a>」の公開を発表</li>
+          <li>9月 <a href="http://rubykaigi.org/2014/sponsors#silver07">RubyKaigi 2014 シルバースポンサー</a>。翻訳・司会も務める</li>
+          <li>8月 <a href="https://www.facebook.com/DigiLabOkinawa/">デジラボおきなわ</a>にて子供向けプログラミングの成果報告会を実施。RBCにて、特集番組として放映される</li>
+          <li>4月 世界中のインターナショナルスクールが集まる国際会議「<a href="http://blogs.yis.ac.jp/beyondlaptops/">#beyondlaptops</a>」にて、Guest Speaker として Scratch + Raspberry Pi のワークショップを実施</li>
+          <li>3月 <a href="http://ruby.okinawa/okrk01/">沖縄Ruby会議01</a> を開催。安川が実行委員長を努め、Ruby開発者のまつもとゆきひろ氏をゲストとして招聘</li>
+          <li>3月 <a href="http://blog.lexues.co.jp/19489.html">レキサスアカデミー第3期 最終成果報告会</a>を実施</li>
+          <li>2月 代表の安川が修士論文「<a href="https://www.dropbox.com/s/zr4k9b5rkgff2of/%E4%BF%AE%E5%A3%AB%E8%AB%96%E6%96%87_%E6%A6%82%E8%A6%81%E6%9B%B8.pdf?dl=0">Project Based Learning using Visual Bucket List</a>」を早稲田大学に提出し、修士号を取得</li>
           <li>2月 第6回フクオカRuby大賞にて<a href="http://www.digitalfukuoka.jp/events/21?locale=ja">優秀賞を受賞</a></li>
         </ul>
         
