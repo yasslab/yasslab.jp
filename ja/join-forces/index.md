@@ -26,6 +26,7 @@ lang:   ja
           <li>YassLab 社での働き方やプロダクトに興味・関心がある</li>
           <li>YassLab 社を通して、OSSコミュニティに貢献したい</li>
         </ul>
+	<p>以下、弊社の特徴や活動の雰囲気、事業内容などについてご紹介していきます。弊社をご検討されている方々のご参考になれば幸いです。</p>
       </div><!--//col-->
     </div><!--//row-->
 
@@ -36,7 +37,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 id="services" class="mt-5 mb-5"><a href="#services">YassLab 社のカタチ</a></h2>
+        <h2 id="remote-work" class="mt-5 mb-5"><a href="#remote-work">YassLab 社の特徴</a></h2>
 	<script async class="speakerdeck-embed"
 	 data-id="cf1cd6f115924b4cace9b825fe474198"
 	 data-ratio="1.33333333333333"
@@ -47,7 +48,16 @@ lang:   ja
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
 	-->
-        <p class="text-center">(これまでの事業実績は<a href="/ja/works/">コチラ</a>をご参照ください)</p>
+        <p class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。</p>
+	
+	<h2 id="daily-life" class="text-center mt-5 mb-5"><a href="#daily-life">YassLab 社の日常</a></h2>
+	<div class="daily-life">
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
+	   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+	<p class="text-center">YassLab 社の雰囲気を30秒で紹介する動画です。</p>
+	<br>
+	<br>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
@@ -159,9 +169,8 @@ lang:   ja
 	   - [https://yasslab.jp/](https://yasslab.jp/)
 	   - [yasslab/yasslab.jp](https://github.com/yasslab/yasslab.jp) (OSS)
 	-->
-	
-	<h2 id="references" class="text-center mt-5 mb-5"><a href="#references">他、参考情報</a></h2>
 
+	<h2 id="references" class="text-center mt-5 mb-5"><a href="#references">他、参考情報</a></h2>
 	<ul>
 	  <li>会社名: {{ site.company.name }} 株式会社</li>
 	  <li>社員数: {{ site.company.size }}名 (パート・複業採用含む)</li>
