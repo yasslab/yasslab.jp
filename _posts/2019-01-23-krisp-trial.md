@@ -18,8 +18,8 @@ permalink: /ja/posts/krisp-trial
 <br>
 
 <ol class="snsb" style="margin-left: 0px">
-  <li><div class="fb-like" data-href="{{ page.path }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></li>
-  <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.path }}" data-text="{{ page.title }}" data-lang="ja" data-hashtags="YassLab" data-via="YassLab" width="100">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+  <li><div class="fb-like" data-href="{{ page.url }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></li>
+  <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://yasslab.jp/ja/posts/krisp-trial" data-text="{{ page.title }}" data-lang="ja" data-hashtags="YassLab" data-via="YassLab" width="100">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
   <li><a href="https://b.hatena.ne.jp/entry/s/{{ page.url }}" class="hatena-bookmark-button" data-hatena-bookmark-title="{{ page.title }} - YassLab" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></li>          
 </ol>
 
@@ -61,8 +61,8 @@ Mute Background Noise | krisp
 
 
 <ol class="snsb" style="margin-left: 0px">
-  <li><div class="fb-like" data-href="{{ page.path }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></li>
-  <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.path }}" data-text="{{ page.title }}" data-lang="ja" data-hashtags="YassLab" data-via="YassLab" width="100">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+  <li><div class="fb-like" data-href="{{ page.url }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></li>
+  <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://yasslab.jp/ja/posts/krisp-trial" data-text="{{ page.title }}" data-lang="ja" data-hashtags="YassLab" data-via="YassLab" width="100">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
   <li><a href="https://b.hatena.ne.jp/entry/s/{{ page.url }}" class="hatena-bookmark-button" data-hatena-bookmark-title="{{ page.title }} - YassLab" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></li>          
 </ol>
 
