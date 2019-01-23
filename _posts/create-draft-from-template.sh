@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TEMPLATE_FILENAME="2019-xx-xx-template.md"
+TEMPLATE_FILENAME="20xx-xx-xx-template.md"
 
 if [ $# -eq 0 ]
 then
