@@ -57,9 +57,6 @@ permalink: /ja/posts/krisp-trial
 Mute Background Noise | krisp   
 [https://krisp.ai/](https://krisp.ai/)
 
-[![YassLab Inc.](/img/logo_800x200.png)](/)
-
-
 <ol class="snsb" style="margin-left: 0px">
   <li><div class="fb-like" data-href="{{ page.url }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></li>
   <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://yasslab.jp/ja/posts/krisp-trial" data-text="{{ page.title }}" data-lang="ja" data-hashtags="YassLab" data-via="YassLab" width="100">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
