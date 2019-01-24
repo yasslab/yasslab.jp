@@ -41,8 +41,8 @@
     <meta property="og:site_name" content="{{ page.title }}"/>
     <meta property="og:description"
           content="{{ site.description }}"/>
-    <meta property="og:image" content="https://yasslab.jp/img/logo-square.png"/>
-    <meta property="og:url"   content="https://yasslab.jp{{ page.url }}">
+    <meta property="og:image" content="{{ site.base_url }}/img/logo-square.png"/>
+    <meta property="og:url"   content="{{ site.base_url }}{{ page.url }}">
     <meta property="og:type"  content="business.business"/>
 
     <meta property="business:contact_data:street_address" content="CASE Shinjuku, Sankei Bldg 4F"/>
@@ -57,10 +57,10 @@
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description"
           content="{{ site.description }}"/>
-    <meta name="twitter:image" content="https://yasslab.jp/img/logo-square.png" />
-    <meta name="twitter:url"   content="https://yasslab.jp{{ page.url }}" />
+    <meta name="twitter:image" content="{{ site.base_url }}/img/logo-square.png" />
+    <meta name="twitter:url"   content="{{ site.base_url }}{{ page.url }}" />
 
-    <link rel="author" type="text/plain" href="https://yasslab.jp/humans.txt"/>
+    <link rel="author" type="text/plain" href="{{ site.base_url }}/humans.txt"/>
 
     <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">

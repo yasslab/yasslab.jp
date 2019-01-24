@@ -6,7 +6,7 @@ company:
   size: 14
 description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
 
-base_url: "https://yasslab.jp" # the subpath of your site, e.g. /blog/
+base_url: "https://yasslab.jp"
 url: "" # the base hostname & protocol for your site
 twitter_username: YassLab
 github_username:  YassLab
