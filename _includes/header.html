@@ -7,24 +7,36 @@
     <meta property="og:title"     content="{{ page.title }} - {{ site.company.name }}"/>
     <meta property="og:site_name" content="{{ page.title }} - {{ site.company.name }}"/>
     <meta name="twitter:title"    content="{{ page.title }} - {{ site.company.name }}"/>
+    
     {% else %}
+    
+    {% if page.lang == "en" %}
     <title>{{ site.company.name }} Inc. - {{ site.company.vision }}</title>
-    <meta name="title"            content="{{ site.company.name }} Inc. - {{ site.company.vision }}"/>
-    <meta property="og:title"     content="{{ site.company.name }} Inc. - {{ site.company.vision }}"/>
-    <meta property="og:site_name" content="{{ site.company.name }} Inc. - {{ site.company.vision }}"/>
-    <meta name="twitter:title"    content="{{ site.company.name }} Inc. - {{ site.company.vision }}"/>
+    <meta name="title"            content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+    <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+    <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+    <meta name="twitter:title"    content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+    <meta name="apple-mobile-web-app-title" content="{{ site.company.en.name }}"/>
+    <meta name="application-name"           content="{{ site.company.en.name }}"/>
+    <meta name="author"                     content="{{ site.company.en.name }}"/>
+    <meta name="keywords" content="Agile RemoteWork Ruby Rails Education OpenSource"/>
+    {% else %}
+    <title>{{ site.company.ja.name }} - {{ site.company.vision }}</title>
+    <meta name="title"            content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
+    <meta property="og:title"     content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
+    <meta property="og:site_name" content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
+    <meta name="twitter:title"    content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
+    <meta name="apple-mobile-web-app-title" content="{{ site.company.ja.name }}"/>
+    <meta name="application-name"           content="{{ site.company.ja.name }}"/>
+    <meta name="author"                     content="{{ site.company.ja.name }}"/>
+    <meta name="keywords" content="アジャイル リモートワーク Ruby Rails 沖縄 オープンソース"/>
+    {% endif %}
     {% endif %}
 
     {% if page.lang == "ja" %}
-    <meta name="apple-mobile-web-app-title" content="YassLab 株式会社"/>
-    <meta name="application-name" content="YassLab 株式会社"/>
-    <meta name="keywords" content="アジャイル リモートワーク Ruby Rails 沖縄 オープンソース"/>
-    <meta name="author" content="YassLab 株式会社"/>
+    
     {% else %}
-    <meta name="apple-mobile-web-app-title" content="YassLab Inc."/>
-    <meta name="application-name" content="YassLab Inc."/>
-    <meta name="keywords" content="Agile RemoteWork Ruby Rails Education OpenSource"/>
-    <meta name="author" content="YassLab Inc."/>
+    
     {% endif %}
 
     <meta charset="utf-8"/>

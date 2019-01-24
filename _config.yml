@@ -1,6 +1,10 @@
 permalink: /:title
 company:
   name:  YassLab
+  ja:
+    name: YassLab 株式会社
+  en:
+    name: YassLab Inc.
   email: info@yasslab.jp
   capital: 500
   size: 14
