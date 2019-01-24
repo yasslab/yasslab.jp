@@ -8,7 +8,7 @@ lang:   ja
 
 <div align="right" style="padding-bottom: 40px;">
 YassLab 株式会社<br>
-最終更新日: 2017/09/03
+最終更新日: 2019/01/24
 </div>
 
 ## はじめに
@@ -52,7 +52,7 @@ YassLab 株式会社 (以下、当社) では、利用者の個人情報をお�
 
 利用者からお預かりした個人情報の訂正・削除をご希望される場合は、下記の窓口または当ページ下部の[問い合わせフォーム](#contact)よりお知らせ下さい。
 
-- 問い合わせ窓口: yohei@yasslab.jp
+- 問い合わせ窓口: {{ site.company.email }}
 
 ## cookieの使用について
 
