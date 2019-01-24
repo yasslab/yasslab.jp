@@ -2,27 +2,33 @@
 <html lang="{{ page.lang }}">
   <head>
     {% if page.title %}
-    <title>{{ page.title }} - {{ site.company.name }}</title>
-    <meta name="title"            content="{{ page.title }} - {{ site.company.name }}"/>
-    <meta property="og:title"     content="{{ page.title }} - {{ site.company.name }}"/>
-    <meta property="og:site_name" content="{{ page.title }} - {{ site.company.name }}"/>
-    <meta name="twitter:title"    content="{{ page.title }} - {{ site.company.name }}"/>
-    
+      {% if page.lang == "en" %}
+      <title>{{ page.title }} - {{ site.company.en.name }}</title>
+      <meta name="title"            content="{{ page.title }} - {{ site.company.en.name }}"/>
+      <meta property="og:title"     content="{{ page.title }} - {{ site.company.en.name }}"/>
+      <meta property="og:site_name" content="{{ page.title }} - {{ site.company.en.name }}"/>
+      <meta name="twitter:title"    content="{{ page.title }} - {{ site.company.en.name }}"/>
+      {% else %}
+      <title>{{ page.title }} - {{ site.company.ja.name }}</title>
+      <meta name="title"            content="{{ page.title }} - {{ site.company.ja.name }}"/>
+      <meta property="og:title"     content="{{ page.title }} - {{ site.company.ja.name }}"/>
+      <meta property="og:site_name" content="{{ page.title }} - {{ site.company.ja.name }}"/>
+      <meta name="twitter:title"    content="{{ page.title }} - {{ site.company.ja.name }}"/>
+      {% endif %}
     {% else %}
-    
-    {% if page.lang == "en" %}
-    <title>{{ site.company.name }} Inc. - {{ site.company.vision }}</title>
-    <meta name="title"            content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-    <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-    <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-    <meta name="twitter:title"    content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-    {% else %}
-    <title>{{ site.company.ja.name }} - {{ site.company.vision }}</title>
-    <!-- NOTE: Use English name to shorten text in Facebook OGP -->
-    <meta name="title"            content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
-    <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-    <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-    <meta name="twitter:title"    content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
+      {% if page.lang == "en" %}
+      <title>{{ site.company.name }} Inc. - {{ site.company.vision }}</title>
+      <meta name="title"            content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+      <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+      <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+      <meta name="twitter:title"    content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+      {% else %}
+      <title>{{ site.company.ja.name }} - {{ site.company.vision }}</title>
+      <!-- NOTE: Use English name to shorten text in Facebook OGP -->
+      <meta name="title"            content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
+      <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+      <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+      <meta name="twitter:title"    content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
     {% endif %}
     
     {% endif %}
