@@ -293,6 +293,16 @@ lang:   ja
     </div>
   </div>
 </section>
+
+<div id="main_content_wrap" class="outer container">
+  <section id="main_content" class="inner row justify-content-md-center pb-5">
+    <div class="col-md-9 entry_content text-center">
+      {% include recent_posts.html %}
+    </div>
+  </section>
+</div>
+
+
 <section class="commutySupport entry_content" id="community">
   <div class="container">
     <div class="row">
