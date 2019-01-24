@@ -16,27 +16,39 @@
     <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
     <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
     <meta name="twitter:title"    content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-    <meta name="apple-mobile-web-app-title" content="{{ site.company.en.name }}"/>
-    <meta name="application-name"           content="{{ site.company.en.name }}"/>
-    <meta name="author"                     content="{{ site.company.en.name }}"/>
-    <meta name="keywords" content="Agile RemoteWork Ruby Rails Education OpenSource"/>
     {% else %}
     <title>{{ site.company.ja.name }} - {{ site.company.vision }}</title>
     <meta name="title"            content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
     <meta property="og:title"     content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
     <meta property="og:site_name" content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
     <meta name="twitter:title"    content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
+    {% endif %}
+    
+    {% endif %}
+
+    {% if page.lang == "en" %}
+    <meta name="apple-mobile-web-app-title" content="{{ site.company.en.name }}"/>
+    <meta name="application-name"           content="{{ site.company.en.name }}"/>
+    <meta name="author"                     content="{{ site.company.en.name }}"/>
+    <meta name="apple-mobile-web-app-title" content="{{ site.company.en.name }}"/>
+    <meta name="application-name"           content="{{ site.company.en.name }}"/>
+    <meta name="author"                     content="{{ site.company.en.name }}"/>
+    <meta name="twitter:description" content="{{ site.en.description }}"/>
+    <meta name="description"         content="{{ site.en.description }}"/>
+    <meta property="og:description"  content="{{ site.en.description }}"/>
+    <meta name="keywords" content="Agile RemoteWork Ruby Rails Education OpenSource"/>
+    {% else %}
     <meta name="apple-mobile-web-app-title" content="{{ site.company.ja.name }}"/>
     <meta name="application-name"           content="{{ site.company.ja.name }}"/>
     <meta name="author"                     content="{{ site.company.ja.name }}"/>
+    <meta name="apple-mobile-web-app-title" content="{{ site.company.ja.name }}"/>
+    <meta name="application-name"           content="{{ site.company.ja.name }}"/>
+    <meta name="author"                     content="{{ site.company.ja.name }}"/>
+    <meta name="twitter:description" content="{{ site.ja.description }}"/>
+    <meta name="twitter:description" content="{{ site.ja.description }}"/>
+    <meta name="description"         content="{{ site.ja.description }}"/>
+    <meta property="og:description"  content="{{ site.ja.description }}"/>
     <meta name="keywords" content="アジャイル リモートワーク Ruby Rails 沖縄 オープンソース"/>
-    {% endif %}
-    {% endif %}
-
-    {% if page.lang == "ja" %}
-    
-    {% else %}
-    
     {% endif %}
 
     <meta charset="utf-8"/>
@@ -51,13 +63,8 @@
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/dist/css/custom.min.css" media="screen">
 
-    <meta name="description"
-          content="{{ site.description }}"/>
-
     <meta property="fb:admins"    content="715330868"/>
     <meta property="fb:app_id"    content="680598798739780"/>
-    <meta property="og:description"
-          content="{{ site.description }}"/>
     <meta property="og:image" content="{{ site.base_url }}/img/logo-square.png"/>
     <meta property="og:url"   content="{{ site.base_url }}{{ page.url }}">
     <meta property="og:type"  content="business.business"/>
@@ -71,8 +78,6 @@
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@YassLab"/>
-    <meta name="twitter:description"
-          content="{{ site.description }}"/>
     <meta name="twitter:image" content="{{ site.base_url }}/img/logo-square.png" />
     <meta name="twitter:url"   content="{{ site.base_url }}{{ page.url }}" />
 

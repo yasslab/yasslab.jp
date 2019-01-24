@@ -1,15 +1,18 @@
 permalink: /:title
 company:
+  vision: "Having a Good Life with OpenSource ;)"
   name:  YassLab
   ja:
     name: YassLab 株式会社
+    description: "沖縄と東京を拠点にしたソフトウェア開発会社です。RailsチュートリアルやRailsガイドを運営し、月額制開発支援サービスも提供しています。"
   en:
     name: YassLab Inc.
+    description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
   email: info@yasslab.jp
   capital: 500
   size: 14
-  vision: "Having a Good Life with OpenSource ;)"
   description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
+  
 
 base_url: "https://yasslab.jp"
 domain:   "yasslab.jp"
