@@ -18,9 +18,10 @@
     <meta name="twitter:title"    content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
     {% else %}
     <title>{{ site.company.ja.name }} - {{ site.company.vision }}</title>
+    <!-- NOTE: Use English name to shorten text in Facebook OGP -->
     <meta name="title"            content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
-    <meta property="og:title"     content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
-    <meta property="og:site_name" content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
+    <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
+    <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
     <meta name="twitter:title"    content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
     {% endif %}
     
