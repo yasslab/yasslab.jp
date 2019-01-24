@@ -7,6 +7,7 @@ company:
 description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
 
 base_url: "https://yasslab.jp"
+domain:   "yasslab.jp"
 source:      ./
 destination: ./_site
 timezone: Asia/Tokyo
