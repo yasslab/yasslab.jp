@@ -147,7 +147,7 @@
           <a class="nav-link" href="/ja/agile">月額制の開発支援</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% if page.title != top %}/ja/{% endif %}#community">コミュニティ活動</a>
+          <a class="nav-link" href="/ja/#community">コミュニティ活動</a>
         </li>
 	<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-technology" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">会社情報</a>
@@ -159,14 +159,10 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% if page.title != top %}/ja{% endif %}#contact">お問い合わせ</a>
+          <a class="nav-link" href="/ja/#contact">お問い合わせ</a>
         </li>
         <li class="nav-item">
-          {% if page.lang == "ja" %}
-          <a class="nav-link" href="/en">English</a>
-          {% else %}
-          <a class="nav-link" href="/ja">日本語</a>
-          {% endif %}
+          <a class="nav-link" href="/en/">English</a>
         </li>
       </ul>
 
