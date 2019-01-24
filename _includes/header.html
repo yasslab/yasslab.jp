@@ -2,17 +2,17 @@
 <html lang="{{ page.lang }}">
   <head>
     {% if page.title %}
-      {% if page.lang == "en" %}
-      <title>{{ page.title }} - YassLab Inc.</title>
-      {% else %}
-      <title>{{ page.title }} - YassLab 株式会社</title>
-      {% endif %}
+    <title>{{ page.title }} - {{ site.company.name }}</title>
+    <meta name="title"            content="{{ page.title }} - {{ site.company.name }}"/>
+    <meta property="og:title"     content="{{ page.title }} - {{ site.company.name }}"/>
+    <meta property="og:site_name" content="{{ page.title }} - {{ site.company.name }}"/>
+    <meta name="twitter:title"    content="{{ page.title }} - {{ site.company.name }}"/>
     {% else %}
-      {% if page.lang == "en" %}
-      <title>{{ site.company.name }} Inc. - Having a Good Life with OpenSource ;)</title>
-      {% else %}
-      <title>{{ site.company.name }} 株式会社 – Having a Good Life with OpenSource ;)</title>
-      {% endif %}
+    <title>{{ site.company.name }} Inc. - {{ site.company.vision }}</title>
+    <meta name="title"            content="{{ site.company.name }} Inc. - {{ site.company.vision }}"/>
+    <meta property="og:title"     content="{{ site.company.name }} Inc. - {{ site.company.vision }}"/>
+    <meta property="og:site_name" content="{{ site.company.name }} Inc. - {{ site.company.vision }}"/>
+    <meta name="twitter:title"    content="{{ site.company.name }} Inc. - {{ site.company.vision }}"/>
     {% endif %}
 
     {% if page.lang == "ja" %}
@@ -39,15 +39,11 @@
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/dist/css/custom.min.css" media="screen">
 
-
-    <meta name="title" content="{{ page.title }}"/>
     <meta name="description"
           content="{{ site.description }}"/>
 
     <meta property="fb:admins"    content="715330868"/>
     <meta property="fb:app_id"    content="680598798739780"/>
-    <meta property="og:title"     content="{{ page.title }}"/>
-    <meta property="og:site_name" content="{{ page.title }}"/>
     <meta property="og:description"
           content="{{ site.description }}"/>
     <meta property="og:image" content="{{ site.base_url }}/img/logo-square.png"/>
@@ -63,7 +59,6 @@
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@YassLab"/>
-    <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description"
           content="{{ site.description }}"/>
     <meta name="twitter:image" content="{{ site.base_url }}/img/logo-square.png" />

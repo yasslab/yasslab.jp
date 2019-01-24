@@ -4,7 +4,8 @@ company:
   email: info@yasslab.jp
   capital: 500
   size: 14
-description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
+  vision: "Having a Good Life with OpenSource ;)"
+  description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
 
 base_url: "https://yasslab.jp"
 domain:   "yasslab.jp"
