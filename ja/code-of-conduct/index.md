@@ -1,18 +1,17 @@
 ---
 layout: default
-title:  行動規範
+title:  コントリビューター行動規範
 lang:   ja
 ---
 
-# コントリビューター行動規範
+# コントリビューター<br class="ignore-sp">行動規範
 
-<div align="right">
-YassLab 代表　安川要平<br />
-最終更新日: 2017/09/03<br />
-See <a href="/en/code-of-conduct">English version</a>.
+<div align="right" style="padding-bottom: 30px;">
+  最終更新日: 2019/01/24<br />
+  See <a href="/en/code-of-conduct">English version</a>
 </div>
 
-本規範は、別段の定めがある場合を除き、YassLab 社 (以下、当社) が [GitHub Organization](https://github.com/yasslab) 上から公開しているあらゆるリポジトリに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。本規範の変更履歴は [GitHub](https://github.com/yasslab/yasslab.github.io/commits/master/en/code-of-conduct/index.md) からご確認できます。
+本規範は、別段の定めがある場合を除き、YassLab 株式会社 (以下、当社) が [GitHub Organization](https://github.com/yasslab) 上から公開しているあらゆるリポジトリに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。本規範の変更履歴は [GitHub](https://github.com/yasslab/yasslab.github.io/commits/master/en/code-of-conduct/index.md) からご確認できます。
 
 内容について気になる点などありましたら、本ページ下部にある[フォーム](#contact)よりお問い合わせください。
 

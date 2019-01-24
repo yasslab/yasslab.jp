@@ -4,15 +4,15 @@ title:  Contributor Code of Conduct
 lang:   en
 ---
 
-# Contributor Code of Conduct
+# Contributor <br class="ignore-sp">Code of Conduct
 
-<div align="right">
-Yohei Yasukawa, CEO of YassLab Inc.<br />
-Updated: 2017/09/03 <br />
-See <a href="/ja/code-of-conduct">Japanese version</a>.
+
+<div align="right" style="padding-bottom: 30px;">
+  Last Update: 2019/01/24<br>
+  See <a href="/ja/code-of-conduct">Japanese version</a>
 </div>
 
-This conduct is applied to all repositories published from [GitHub organization of YassLab](https://github.com/yasslab), except that we put another conduct. This conduct can be updated if necessary, and we will notify it from this page, and you can check the change history from [GitHub](https://github.com/yasslab/yasslab.github.io/commits/master/en/code-of-conduct/index.md).
+This conduct is applied to all repositories published from [GitHub organization of YassLab Inc.](https://github.com/yasslab), except that we put another conduct. This conduct can be updated if necessary, and we will notify it from this page, and you can check the change history from [GitHub](https://github.com/yasslab/yasslab.github.io/commits/master/en/code-of-conduct/index.md).
 
 If you have any question on this conduct, feel free to ask us via the [form](#contact) on the bottom of this page.
 
