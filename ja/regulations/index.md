@@ -1,6 +1,5 @@
 ---
-layout:  redirect
-title:   YassLab 株式会社
+layout:      redirect
 redirect_to: https://www.dropbox.com/sh/hsf1vxa8el0ru3t/AAAPYc5BJEuf5Oom88Rcqj6ma?dl=0
 ---
 
