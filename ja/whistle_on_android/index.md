@@ -22,7 +22,7 @@ lang:   ja
 <h3 id="contact">お問い合わせ</h3>
 
 運営者: YassLab 株式会社 (代表: 安川 要平)  
-メール: _yohei@yasslab.jp_   
+メール: {{ site.company.email }}   
 事務所: 〒169-0075 東京都新宿区高田馬場1-28-10 三慶ビル4F [CASE Shinjuku](http://case-shinjuku.com/access/)  
 
 もしご不明な点がありましたら、<i>yohei@yasslab.jp</i>または下記フォームよりご連絡ください。  

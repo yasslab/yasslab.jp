@@ -30,6 +30,6 @@ lang:   ja
 ## 📨 お問い合わせ
 
 担当者: 安川 要平<br>
-メール: _yohei@yasslab.jp_
+メール: {{ site.company.email }}
 
 <div id="contact"></div>

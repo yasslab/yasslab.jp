@@ -22,7 +22,7 @@ Railsチュートリアル試聴会は、有償のRailsチュートリアル解�
 	- cf. [ReadyMedia - archlinux wiki](https://wiki.archlinuxjp.org/index.php/ReadyMedia)
 	- cf. [MiniDLNA - Ubuntu Community Wiki](https://help.ubuntu.com/community/MiniDLNA)
 3. Railsチュートリアル解説動画を当該サーバーにコピーします
-    - 準備ができたら yohei@yasslab.jp までご連絡ください :)
+    - 準備ができたら {{ site.company.email }} までご連絡ください :)
 4. [Kodi](https://kodi.tv/) をインストールして、Kodi を通して動画を試聴できるかどうか確認します
 	- 参考: [Rails解説動画の試聴方法 - YassLab](https://yasslab.wistia.com/projects/ebtpo9ofbd)
 5. 解説動画を使ったイベントを立て、周知をします

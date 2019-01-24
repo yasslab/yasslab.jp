@@ -8,6 +8,7 @@ lang:   ja
   <div class="bg-dark">
   </div>
 </section>
+
 <section class="entry_content pt-5">
   <div class="container">
     <div class="row">
@@ -306,7 +307,7 @@ lang:   ja
 	<p>本スポンサーシップに関するご意見やご質問、および申込み希望などがありましたら、下記の問い合わせ先までお気軽にご連絡ください。申込み希望の場合、上記の利用規約に同意したという一文も付記していただけると助かります。</p>
 
 	<ul>
-	  <li>メール: yohei@yasslab.jp
+	  <li>メール: {{ site.company.email }}
 	  </li>
 	  <li>担当者: YassLab (株) 安川 要平</li>
 	  <li>所在地: 東京都新宿区高田馬場1-28-10 三慶ビル4階 CASE Shinjuku</li>
