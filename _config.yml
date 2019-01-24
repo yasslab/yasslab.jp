@@ -7,9 +7,6 @@ company:
 description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
 
 base_url: "https://yasslab.jp"
-url: "" # the base hostname & protocol for your site
-twitter_username: YassLab
-github_username:  YassLab
 source:      ./
 destination: ./_site
 timezone: Asia/Tokyo
