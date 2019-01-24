@@ -69,7 +69,7 @@ Our basic price is **1,000,000 yen/month.**
 
 ## References
 
-- Web: [https://yasslab.jp/en/](https://yasslab.jp/en/)
+- Web: [{{ site.base_url }}/en/]({{ site.base_url }}/en/)
 - Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
 - Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
 - Legal Advisor: [Tokyo Sanno Law Office](http://www.ynmlaw.com/english/) Rie Nojima
@@ -88,7 +88,7 @@ Our basic price is **1,000,000 yen/month.**
 
 If interested, feel free to contact us.
 
-Mail: _yohei@yasslab.jp_ (Yohei Yasukawa)     
+Mail: _{{ site.company.email }}_ (Yohei Yasukawa)     
 Office: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
 
 <br />

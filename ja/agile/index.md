@@ -268,7 +268,7 @@ lang:   ja
               <li><a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a> (テクニカルサポーター・協賛)</li>
               <li><a href="http://rubykaigi.org/">RubyKaigi</a> (翻訳協力・スポンサー)</li>
               <li><a href="https://scrivito.com/partners">Scrivito</a> (開発協力パートナー)</li>
-              <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://yasslab.jp/ja/posts/coderdojo-japan-2018">開発支援パートナー</a>)</li>
+              <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="{{ site.base_url }}/ja/posts/coderdojo-japan-2018">開発支援パートナー</a>)</li>
               <li><a href="http://www.mitou.org/">Mitou Foundation</a> (<a href="http://jr.mitou.org/">未踏ジュニア</a>PM・スポンサー)</li>
             </ul>
           </li>
