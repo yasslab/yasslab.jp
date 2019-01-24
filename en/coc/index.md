@@ -1,5 +1,4 @@
 ---
-layout:  redirect
-title:   YassLab Inc.
+layout:      redirect
 redirect_to: /en/code-of-conduct
 ---

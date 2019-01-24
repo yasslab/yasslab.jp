@@ -1,5 +1,4 @@
 ---
-layout:  redirect
-title:   YassLab 株式会社
+layout:      redirect
 redirect_to: /ja/code-of-conduct
 ---
