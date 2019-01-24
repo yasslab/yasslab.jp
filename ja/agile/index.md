@@ -1,6 +1,6 @@
 ---
 layout: plain
-title:  月額制の Ruby/Rails 開発支援サービス – YassLab 株式会社
+title:  月額制の Ruby/Rails 開発支援サービス
 lang:   ja
 ---
 <section class="pageVisual">

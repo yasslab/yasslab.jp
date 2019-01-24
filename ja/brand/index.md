@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  ブランドガイドライン – YassLab 株式会社
+title:  ブランドガイドライン
 lang:   ja
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Ruby/Rails Web Development Support – YassLab Inc.
+title:  Ruby/Rails Web Development Support
 lang:   en
 ---
 

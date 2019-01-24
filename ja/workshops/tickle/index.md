@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Tickle × BB-8 ワークショップ - YassLab株式会社
+title:  Tickle × BB-8 ワークショップ
 lang:   ja
 ---
 

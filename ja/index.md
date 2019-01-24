@@ -1,8 +1,8 @@
 ---
 layout: plain
-title:  YassLab 株式会社 – Having a Good Life with OpenSource ;)
 lang:   ja
 ---
+
 <section class="mainVisual">
   <div class="jumbotron">
     

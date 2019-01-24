@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
-<head>
-    <title>{{ page.title }}</title>
+  <head>
+    {% if page.title %}
+      {% if page.lang == "en" %}
+      <title>{{ page.title }} - YassLab Inc.</title>
+      {% else %}
+      <title>{{ page.title }} - YassLab 株式会社</title>
+      {% endif %}
+    {% else %}
+      {% if page.lang == "en" %}
+      <title>{{ site.company.name }} Inc. - Having a Good Life with OpenSource ;)</title>
+      {% else %}
+      <title>{{ site.company.name }} 株式会社 – Having a Good Life with OpenSource ;)</title>
+      {% endif %}
+    {% endif %}
 
     {% if page.lang == "ja" %}
     <meta name="apple-mobile-web-app-title" content="YassLab 株式会社"/>
     <meta name="application-name" content="YassLab 株式会社"/>
     <meta name="keywords" content="アジャイル リモートワーク Ruby Rails 沖縄 オープンソース"/>
     <meta name="author" content="YassLab 株式会社"/>
-
     {% else %}
     <meta name="apple-mobile-web-app-title" content="YassLab Inc."/>
     <meta name="application-name" content="YassLab Inc."/>
     <meta name="keywords" content="Agile RemoteWork Ruby Rails Education OpenSource"/>
     <meta name="author" content="YassLab Inc."/>
-
     {% endif %}
-
 
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="chrome=1"/>

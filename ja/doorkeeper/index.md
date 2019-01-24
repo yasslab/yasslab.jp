@@ -1,6 +1,6 @@
 ---
 layout: plain
-title:  DoorKeeperスポンサーシップ – YassLab 株式会社
+title:  DoorKeeper スポンサーシップ
 lang:   ja
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: plain
-title:  弊社をご検討されている皆さんへ – YassLab 株式会社
+title:  弊社をご検討されている皆さんへ
 lang:   ja
 ---
 <section class="pageVisual">

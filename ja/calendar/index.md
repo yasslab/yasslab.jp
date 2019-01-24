@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  予定表 – YassLab 株式会社
+title:  予定表
 lang:   ja
 ---
 

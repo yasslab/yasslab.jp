@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Contributor Code of Conduct – YassLab Inc.
+title:  Contributor Code of Conduct
 lang:   en
 ---
 

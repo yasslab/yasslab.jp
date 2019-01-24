@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Calendar – YassLab Inc.
+title:  Calendar
 lang:   en
 ---
 

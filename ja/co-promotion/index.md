@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Railsチュートリアル試聴会 – YassLab 株式会社
+title:  Railsチュートリアル試聴会
 lang:   ja
 ---
 

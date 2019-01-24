@@ -1,6 +1,6 @@
 ---
 layout: plain
-title:  会社概要 – YassLab 株式会社
+title:  会社概要
 lang:   ja
 ---
 
