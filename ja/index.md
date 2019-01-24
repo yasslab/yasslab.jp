@@ -252,7 +252,7 @@ lang:   ja
             </div>
           </div>
         </div>
-        <div class="text-center">
+        <div class="text-center pt-5">
           <a href="/ja/about">
             <button class="btn btn-primary">会社概要を見る</button>
           </a>
