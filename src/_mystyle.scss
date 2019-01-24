@@ -11,7 +11,8 @@ img {
 .snsb {
     overflow: hidden;
     clear: left;
-    margin-left: 13px;
+    margin-left: 15px;
+    text-align: right;
 }
 .snsb li {
     float: left;
@@ -21,6 +22,10 @@ img {
 .snsb iframe {
     margin: 0 !important;
 }
+.fb_iframe_widget > span {
+    vertical-align: baseline !important;
+}
+
 
 .btn {
   padding: 15px 60px;
