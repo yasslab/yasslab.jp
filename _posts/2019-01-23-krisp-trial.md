@@ -49,3 +49,11 @@ permalink: /ja/posts/krisp-trial
 
 Mute Background Noise | krisp   
 [https://krisp.ai/](https://krisp.ai/)
+
+<br>
+
+## 追記: 公式アカウントから<br class="ignore-sp">コメントもらいました 😻
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thanks for putting this together and sharing Yohei, we love hearing that Krisp is useful for you! 🤗</p>&mdash; krisp (@krispHQ) <a href="https://twitter.com/krispHQ/status/1088755410918608896?ref_src=twsrc%5Etfw">January 25, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
