@@ -38,8 +38,8 @@ Scout APM では日本の Ruby コミュニティをサポートしていくこ�
 
 ### PR・宣伝
 
-Scout APM には[無料プラン](https://try.scoutapp.com/apm/jp/?utm_source=railsguide&utm_campaign=version1&utm_medium=cpc)もあるので、まずはお気軽にお試しして頂ければ ;)
+Scout APM には[２週間無料で使えるプラン](https://try.scoutapp.com/apm/jp/?utm_source=railsguide&utm_campaign=version1&utm_medium=cpc)もあるので、まずはお気軽にお試しして頂ければ ;)
 
-![Scout free plan](/img/partners/scout-free-plan.png)
+[![Scout Trial Plan](/img/partners/scout-trial-plan.png)](https://try.scoutapp.com/apm/jp/?utm_source=railsguide&utm_campaign=version1&utm_medium=cpc)
 
 
