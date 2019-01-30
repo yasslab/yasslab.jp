@@ -8,7 +8,7 @@ tags: [ruby, rails]
 permalink: /ja/posts/scout-supports-railsguidesjp
 ---
 
-YassLab 社が運営しているWebサイト「Railsガイド」のサポーターに、Application Monitoring サービスを運営する Scout APM 社が新たに加わりました! 🤝✨
+YassLab 社が運営しているWebサイト「Railsガイド」のサポーターに、Application Performance Monitoring サービスの「Scout APM」が新たに加わりました! 🤝✨
 
 > [![Scout APM - Perferm Better](/img/partners/scout-with-text.png)](https://try.scoutapp.com/apm/jp/?utm_source=railsguide&utm_campaign=version1&utm_medium=cpc)
 
