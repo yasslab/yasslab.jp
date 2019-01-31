@@ -163,17 +163,6 @@ lang:   ja
           <div class="col-6 col-md-4">
             <div class="card cardMember">
               <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_siman.jpg" alt="@siman" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/_simanman" class="cardMember__account" target="_blank">@siman</a>
-                <p class="cardMember_summary">Rubyが好きな競技プログラマー。<a href="https://github.com/tric/trick2018/tree/master/honorable-mentions/tamayose">TRICK作品</a></p>
-              </div>
-            </div>
-          </div><!--//col-->
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
                 <img src="../img/photos/ph_anatofuz.jpg" alt="@anatofuz" class="rounded-circle">
               </div>
               <div class="cardMember__content">
