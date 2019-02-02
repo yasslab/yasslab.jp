@@ -10,7 +10,9 @@ permalink: /ja/posts/migrate-dojocast-from-jekyll-to-rails
 
 [Okinawa.rb Advent Calendar 2018](https://qiita.com/advent-calendar/2018/okinawarb) 25日目の記事です。
 
-2018年12月に僕が司会を務めるポッドキャスト「DojoCast」の英語収録を行ったところ、海外でも聴いてくれている人がいるようで嬉しいです ;) 弊社には「トライ」という[「まずはやってみようよ!」という文化](/ja/join-forces#flow)がありますが、僕自身も新しいことにチャレンジするのは好きだし、遊びながら学んだ方が (少なくとも僕は) 楽しいと感じるので常にそうできるよう心がけています 😆
+2018年12月に僕が司会を務めるポッドキャスト「DojoCast」の英語収録を行ったところ、海外でも聴いてくれている人がいるようで嬉しいです ;)
+
+YassLab 社には「トライ」という[「まずはやってみようよ!」という文化](/ja/join-forces#flow)がありますが、僕自身も新しいことにチャレンジするのは好きだし、遊びながら学んだ方が (少なくとも僕は) 楽しいと感じるので常にそうできるよう心がけています 😆
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">How wonderful to hear from our co-founder James <a href="https://twitter.com/Whelton?ref_src=twsrc%5Etfw">@Whelton</a> who spoke to the brilliant <a href="https://twitter.com/CoderDojoJapan?ref_src=twsrc%5Etfw">@CoderDojoJapan</a>  podcast <a href="https://twitter.com/hashtag/DojoCast?src=hash&amp;ref_src=twsrc%5Etfw">#DojoCast</a>.<br><br>Give it a listen from 1.35 (for english speakers)! <a href="https://t.co/dGcYZOcHMP">https://t.co/dGcYZOcHMP</a> <a href="https://t.co/wpjBOVJrVJ">pic.twitter.com/wpjBOVJrVJ</a></p>&mdash; ☯CoderDojo☯ (@CoderDojo) <a href="https://twitter.com/CoderDojo/status/1075677404419506176?ref_src=twsrc%5Etfw">December 20, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
