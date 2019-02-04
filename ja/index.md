@@ -183,7 +183,7 @@ lang:   ja
             </div>
           </div><!--//col-->
           
-          <div class="col-6 col-md-4 offset-md-4">
+          <div class="col-6 col-md-4">
             <div class="card cardMember">
               <div class="cardMember__thumbnail">
                 <img src="../img/photos/ph_naopontan.jpg" alt="@naopontan" class="rounded-circle">
