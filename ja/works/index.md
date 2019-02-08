@@ -52,6 +52,8 @@ lang:   ja
 	  <li>4月 DIVE INTO CODE 主催 <a href="https://diveintocode.doorkeeper.jp/events/83984">Demo Day 6th</a> に審査員として参加</li>
 	  <li>3月 <a href="https://railsdm.github.io/">Rails Developers Meetup 2019</a> に弊社宮城が登壇</li>
 	  <li>3月 <a href="https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html">情報処理学会の第81回全国大会</a>に弊社大城が登壇</li>
+	  <li><b>2月 CODE BASE とRailsチュートリアルに関する<a href="/ja/posts/partnership-with-codebase">提携を締結</a></b></li>
+	  <li><b>2月 Railsチュートリアルの解説動画<a href="https://railstutorial.jp/trial">お試しプラン</a>をリリース</b></li>
 	  <li>2月 未踏ジュニア<a href="https://twitter.com/mitoujr/status/1084318286278344705">2019年度オンライン説明会</a>に弊社安川が登壇</li>
 	  <li>1月 Findy 主催「<a href="https://findy.connpass.com/event/113811/">エンジニア×リモートワーク</a>」に登壇 (<a href="https://speakerdeck.com/yasulab/remote-first-company-in-5min">資料</a>)</li>
 	  <li>1月 弊社の活動を紹介する<a href="https://www.youtube.com/watch?v=JZ0y2eOLC4I">３０秒プロモーション動画</a>を公開</li>
