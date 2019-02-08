@@ -4,16 +4,20 @@ TEMPLATE_FILENAME="20xx-xx-xx-template.md"
 
 if [ $# -eq 0 ]
 then
-    /bin/echo -n "- "
-    ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-title.md"' | xargs cp $TEMPLATE_FILENAME
-    ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-title.md"'
+    echo "Hey! Give me a post title to create URL. ;)"
+    echo "Usage: $ ./create-draft-from-template.sh POST_TITLE"
+    echo " e.g.: $ ./create-draft-from-template.sh krisp-trial"
+    #/bin/echo -n "- "
+    #ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-title.md"' | xargs cp $TEMPLATE_FILENAME
+    #ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-title.md"'
 else
     /bin/echo -n "- "
     ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-#{ARGV[0]}.md"' $1 | xargs cp $TEMPLATE_FILENAME
     ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-#{ARGV[0]}.md"' $1
+    echo "Generated draft file from $TEMPLATE_FILENAME."
 fi
+echo ""
 
-echo "Generated draft file from $TEMPLATE_FILENAME."
 exit
 
 # The following code is a sample script
