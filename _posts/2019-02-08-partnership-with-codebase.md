@@ -10,7 +10,7 @@ permalink: /ja/posts/partnership-with-codebase
 
 ![CODE BASE x Railsチュートリアル](/img/partnership-with-codebase.png)
 
-「宜野湾西海岸を、ITビーチに！」という目的のもと運営されているラボスペース「[CODE BASE](https://www.protosolution.co.jp/codebase/)」と、Railsチュートリアルの商用ライセンス利用許諾契約を締結いたしました。
+「宜野湾西海岸を、ITビーチに！」という目的のもと運営されているラボスペース「[CODE BASE](https://www.protosolution.co.jp/codebase/program-school/index.html)」と、Railsチュートリアルの商用ライセンス利用許諾契約を締結いたしました。
 
 YassLab 社が運営する[Railsチュートリアル](https://railstutorial.jp/)では、プログラミングスクールや大学・大学院などが事業でRailsチュートリアルを利用しやすくなるよう、2018年より商用ライセンスの取り組みを始めました。
 
