@@ -141,153 +141,91 @@ lang:   ja
 	<br>
 	<h2 id="partners">
 	  <a class="anchor" href="#partners" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>提携しているコミュニティ</a></h2>
+	
+	{% include community.html
+	    left_path='okinawarb'
+	    left_name='Okinawa.rb'
+	  center_path='okinawa-frontend'
+	  center_name='Okinawa Frontend'
+	   right_path='igda-ryukyus'
+	   right_name='IGDA琉球大学 (琉ゲ部)'
+	%}
 
-	<table class="community-icon">
-	  <thead>
-	    <tr>
-	      <th><a href="https://okinawarb.doorkeeper.jp/">Okinawa.rb</a></th>
-	      <th><a href="https://okinawa-frontend.doorkeeper.jp/">Okinawa Frontend</a></th>
-	      <th><a href="https://igda-ryukyus.doorkeeper.jp/">IGDA琉球大学 (琉ゲ部)</a></th>
-	    </tr>
-	  </thead><tbody>
-	    <tr>
-	      <td><a href="https://okinawarb.doorkeeper.jp" rel="nofollow">
-		<img width="200px" src="/img/logos/okinawarb.png" alt="Okinawa Ruby User Group"></a></td>
-	      <td><a href="https://okinawa-frontend.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/okinawa_frontend.png" alt="Okinawa Frontend"></a></td>
-	      <td><a href="https://igda-ryukyus.doorkeeper.jp/" rel="nofollow">
-		<img width="200px" src="/img/logos/igda-ryukyus.png" alt="IGDA琉球大学 (琉ゲ部)"></a></td>
-	    </tr>
-	  </tbody></table>
+	{% include community.html
+	    left_path='coderdojo'
+	    left_name='CoderDojo さいたま'
+	  center_path='coderdojohanno'
+	  center_name='CoderDojo 飯能'
+	   right_path='coderdojo-toyohashi'
+	   right_name='CoderDojo 豊橋'
+	%}
 
-	<table class="community-icon"><thead>
-	  <tr>
-	    <th><a href="https://coderdojo.doorkeeper.jp/">CoderDojo さいたま</a></th>
-	    <th><a href="https://coderdojohanno.doorkeeper.jp/">CoderDojo 飯能</a></th>
-	    <th><a href="https://coderdojo-toyohashi.doorkeeper.jp/">CoderDojo 豊橋</a></th>
-	  </tr>
-	</thead><tbody>
-	  <tr>
-	    <td><a href="https://coderdojo.doorkeeper.jp/" rel="nofollow">
-	      <img width="200px" src="/img/logos/coderdojo-saitama.png" alt="CoderDojo Saitama"></a></td>
-	    <td><a href="https://coderdojohanno.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-hanno.png" alt="CoderDojo Hanno"></a></td>
-	    <td><a href="https://coderdojo-toyohashi.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-toyohashi.png" alt="CoderDojo Toyohashi"></a></td>
-	  </tr>
-	</tbody></table>
+	
+	{% include community.html
+	    left_path='coderdojonakano'
+	    left_name='CoderDojo 中野'
+	  center_path='coderdojookinawa'
+	  center_name='CoderDojo 那覇'
+	   right_path='coderdojo-chofu'
+	   right_name='CoderDojo 調布'
+	%}
 
-	<table class="community-icon"><thead>
-	  <tr>
-	    <th><a href="https://coderdojonakano.doorkeeper.jp/">CoderDojo 中野</a></th>
-	    <th><a href="https://coderdojookinawa.doorkeeper.jp/">CoderDojo 沖縄</a></th>
-	    <th><a href="https://coderdojo-chofu.doorkeeper.jp/">CoderDojo 調布</a></th>
-	  </tr>
-	</thead><tbody>
-	  <tr>
-	    <td><a href="https://coderdojonakano.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-nakano.jpg" alt="CoderDojo 中野"></a></td>
-	    <td><a href="https://coderdojookinawa.doorkeeper.jp/" rel="nofollow"><img width="200px" src="https://coderdojo.jp/img/dojos/okinawa.png" alt="CoderDojo 沖縄"></a></td>
-	    <td><a href="https://coderdojo-chofu.doorkeeper.jp/" rel="nofollow"><img width="200px"
-										 src="/img/logos/coderdojo-chofu.png" alt="CoderDojo 調布"></a></td>
-	  </tr>
-	</tbody></table>
+	{% include community.html
+	    left_path='coderdojo-japan'
+	    left_name='CoderDojo Japan'
+	  center_path='nilquebe-event'
+	  center_name='Nilquebe'
+	   right_path='otona-programming'
+	   right_name='Otona Programming'
+	%}
 
-	<table class="community-icon"><thead>
-	  <tr>
-	    <th><a href="https://coderdojo-japan.doorkeeper.jp/">CoderDojo Japan</a></th>
-	    <th><a href="https://nilquebe-event.doorkeeper.jp/">Nilquebe</a></th>
-	    <th><a href="https://otona-programming.doorkeeper.jp/">Otona Programming</a></th>
-	  </tr>
-	</thead><tbody>
-	  <tr>
-	    <td><a href="https://coderdojo-japan.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-japan.png" alt="CoderDojo Japan"></a></td>
-	    <td><a href="https://nilquebe-event.doorkeeper.jp/" rel="nofollow">
-	      <img width="200px" src="/img/logos/nilquebe.png" alt="Nilquebe"></a></td>
-	    <td><a href="https://otona-programming.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/otona-programming.png" alt="おとプロ"></a></td>
-	  </tr>
-	</tbody></table>
+	{% include community.html
+	    left_path='oss-gate'
+	    left_name='OSS Gate'
+	  center_path='coderdojo-kichijoji'
+	  center_name='CoderDojo 吉祥寺'
+	   right_path='coderdojo-abeno'
+	   right_name='CoderDojo 阿倍野'
+	%}
 
-	<table class="community-icon"><thead>
-	  <tr>
-	    <th><a href="https://oss-gate.doorkeeper.jp/">OSS Gate</a></th>
-	    <th><a href="https://coderdojo-kichijoji.doorkeeper.jp/">CoderDojo 吉祥寺</a></th>
-	    <th><a href="https://coderdojo-abeno.doorkeeper.jp/">CoderDojo 阿倍野</a></th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td><a href="https://oss-gate.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/oss-gate.png" alt="OSS Gate"></a></td>
-	    <td><a href="https://coderdojo-kichijoji.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-kichijoji.png" alt="CoderDojo 吉祥寺"></a></td>
-	    <td><a href="https://coderdojo-abeno.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-abeno.png" alt="CoderDojo 阿倍野"></a></td>
-	  </tr>
-	</tbody>
-	</table>
+	{% include community.html
+	    left_path='coderdojo-anjo'
+	    left_name='CoderDojo 安城'
+	  center_path='coderdojo-aizu'
+	  center_name='CoderDojo Aizu'
+	   right_path='coderdojo-azumino'
+	   right_name='CoderDojo 安曇野'
+	%}
 
-	<table class="community-icon"><thead>
-	  <tr>
-	    <th><a href="https://coderdojo-anjo.doorkeeper.jp/">CoderDojo 安城</a></th>
-	    <th><a href="https://coderdojo-aizu.doorkeeper.jp/">CoderDojo Aizu</a></th>
-	    <th><a href="https://coderdojo-azumino.doorkeeper.jp/">CoderDojo 安曇野</a></th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td><a href="https://coderdojo-anjo.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-anjo.png" alt="CoderDojo 安城"></a></td>
-	    <td><a href="https://coderdojo-aizu.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-aizu.png" alt="CoderDojo Aizu"></a></td>
-	    <td><a href="https://coderdojo-azumino.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-azumino.png" alt="CoderDojo 安曇野"></a></td>
-	    <!--<td><img width="200px" src="/img/logos/empty.png" alt="Empty Logo"></td>-->
-	  </tr>
-	</tbody>
-	</table>
-
-	<table class="community-icon"><thead>
-	  <tr>
-	    <th><a href="https://coderdojo-masuda.doorkeeper.jp/">CoderDojo 増田</a></th>
-	    <th><a href="https://coderdojo-inagi.doorkeeper.jp/">CoderDojo 稲城</a></th>
-	    <th><a href="https://coderdojo-tamacenter.doorkeeper.jp/">CoderDojo 多摩センター</a></th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td><a href="https://coderdojo-masuda.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-masuda.png" alt="CoderDojo 増田" /></a></td>
-	    <td><a href="https://coderdojo-inagi.doorkeeper.jp/"  rel="nofollow"><img width="200px" src="/img/logos/coderdojo-inagi.jpg" alt="CoderDojo 稲城" /></a></td>
-	    <td><a href="https://coderdojo-tamacenter.doorkeeper.jp/"  rel="nofollow"><img width="200px" src="/img/logos/coderdojo-tama-center.png" alt="CoderDojo 多摩センター"></a></td>
-	  </tr>
-	</tbody>
-	</table>
-
-	<table class="community-icon"><thead>
-	  <tr>
-	    <th><a href="https://coderdojo-shirakawa.doorkeeper.jp/">CoderDojo 白河</a></th>
-	    <th><a href="https://coderdojo-nagaokakyo.doorkeeper.jp/">CoderDojo 長岡京</a></th>
-	    <th><a href="https://coderdojo-gotanda.doorkeeper.jp/">CoderDojo 五反田</a></th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td><a href="https://coderdojo-shirakawa.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-shirakawa.png" alt="CoderDojo 白河"></a></td>
-	    <td><a href="https://coderdojo-nagaokakyo.doorkeeper.jp/"><img width="200px" src="/img/logos/coderdojo-nagaokakyo.png" alt="CoderDojo 長岡京"></a></td>
-	    <td><a href="https://coderdojo-gotanda.doorkeeper.jp/"><img width="200px" src="/img/logos/coderdojo.png" alt="CoderDojo 五反田"></a></td>
-	  </tr>
-	</tbody>
-	</table>
-
+	{% include community.html
+	    left_path='coderdojo-masuda'
+	    left_name='CoderDojo 増田'
+	  center_path='coderdojo-inagi'
+	  center_name='CoderDojo 稲城'
+	   right_path='coderdojo-tamacenter'
+	   right_name='CoderDojo 多摩センター'
+	%}
+	
+	{% include community.html
+	    left_path='coderdojo-shirakawa'
+	    left_name='CoderDojo 白川'
+	  center_path='coderdojo-nagaokakyo'
+	  center_name='CoderDojo 長岡京'
+	   right_path='coderdojo-gotanda'
+	   right_name='CoderDojo 五反田'
+	%}
+	
 
 	<!--
-	     <table><thead>
-	     <tr>
-	     <th><a href="https://coderdojo-japan.doorkeeper.jp/">CoderDojo Japan</a></th>
-	     <th></th>
-	     <th></th>
-	     </tr>
-	     </thead>
-	     <tbody>
-	     <tr>
-	     <td><a href="https://coderdojo-japan.doorkeeper.jp/" rel="nofollow"><img width="200px" src="/img/logos/coderdojo-masuda.png" alt="CoderDojo Japan"></a></td>
-	     <td><img width="200px" src="/img/logos/empty.png" alt="Empty Logo"></td>
-	     <td><img width="200px" src="/img/logos/empty.png" alt="Empty Logo"></td>
-	     </tr>
-	     </tbody>
-	     </table>
+	{% include community.html
+	    left_path=''
+	    left_name=''
+	  center_path=''
+	  center_name=''
+	   right_path=''
+	   right_name=''
+	     %}
 	-->
-
 
 	<h3 style="margin-top: 50px; margin-bottom: 10px;">
 	  <a id="newspaper-関連記事" class="anchor" href="#newspaper-%E9%96%A2%E9%80%A3%E8%A8%98%E4%BA%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>関連記事</h3>
