@@ -127,74 +127,12 @@ lang:   ja
       <div class="col-12">
         <h3>沖縄メンバー</h3>
         <div class="row">
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_hanachin.jpg" alt="@hanachin_" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/hanachin_" class="cardMember__account" target="_blank">@hanachin_</a>
-                <p class="cardMember_summary"><a href="http://ruby.okinawa/">Okinawa.rb</a>によく出没する。<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏</a>クリエータ</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_himajin315.jpg" alt="@himajin315" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/himajin315" class="cardMember__account" target="_blank">@himajin315</a>
-                <p class="cardMember_summary">プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_nanophate.jpg" alt="@nanophate" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/nanophate" class="cardMember__account" target="_blank">@nanophate</a>
-                <p class="cardMember_summary"><a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_anatofuz.jpg" alt="@anatofuz" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/anatofuz" class="cardMember__account" target="_blank">@AnaTofuZ</a>
-                <p class="cardMember_summary">Perlが好きなエンジニア。<a href="https://ie.u-ryukyu.ac.jp/%E5%AD%A6%E7%A7%91%E7%B4%B9%E4%BB%8B/%E7%A0%94%E7%A9%B6%E5%AE%A4%E7%B4%B9%E4%BB%8B/%E4%B8%A6%E5%88%97%E7%A0%94%E7%A9%B6%E5%AE%A4%EF%BC%88%E6%B2%B3%E9%87%8E%E7%A0%94%EF%BC%89/">並列研 (河野研)</a></p>
-              </div>
-            </div>
-          </div><!--//col-->
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_aokabin.jpg" alt="@aokabin" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/d_ishitaka" class="cardMember__account" target="_blank">@aokabin</a>
-                <p class="cardMember_summary"><a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒</p>
-              </div>
-            </div>
-          </div><!--//col-->
-          
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_naopontan.jpg" alt="@naopontan" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/naopontan" class="cardMember__account" target="_blank">@naopontan</a>
-                <p class="cardMember_summary">Railsエンジニア。<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議</a>運営チーム</p>
-              </div>
-            </div>
-          </div><!--//col-->
-          
+          {% include member.html username='hanachin_' caption='<a href="http://ruby.okinawa/">Okinawa.rb</a>によく出没する。<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏</a>クリエータ' %}
+	  {% include member.html username='himajin315' caption='<p class="cardMember_summary">プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師</p>' %}
+	  {% include member.html username='nanophate'  caption='<p class="cardMember_summary"><a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家</p>' %}
+	  {% include member.html username='AnaTofuZ'   caption='<p class="cardMember_summary">Perlが好きなエンジニア。<a href="https://ie.u-ryukyu.ac.jp/%E5%AD%A6%E7%A7%91%E7%B4%B9%E4%BB%8B/%E7%A0%94%E7%A9%B6%E5%AE%A4%E7%B4%B9%E4%BB%8B/%E4%B8%A6%E5%88%97%E7%A0%94%E7%A9%B6%E5%AE%A4%EF%BC%88%E6%B2%B3%E9%87%8E%E7%A0%94%EF%BC%89/">並列研 (河野研)</a></p>' %}
+	  {% include member.html username='d_ishitaka' caption='<p class="cardMember_summary"><a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒</p>' %}
+	  {% include member.html username='naopontan'  caption='<p class="cardMember_summary">Railsエンジニア。<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議</a>運営チーム</p>' %}
         </div>
       </div>
     </div>
@@ -206,40 +144,9 @@ lang:   ja
       <div class="col-12">
         <h3 class="mt-5">東京メンバー</h3>
         <div class="row">
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_yasulab.jpg" alt="@yasulab" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/yasulab" class="cardMember__account" target="_blank">@yasulab</a>
-                <p class="cardMember_summary">IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_nalabjp.jpeg" alt="@nalabjp" class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/nalabjp" class="cardMember__account" target="_blank">@nalabjp</a>
-                <p class="cardMember_summary">Railsエンジニア。スノーボードと沖縄が好き</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card cardMember">
-              <div class="cardMember__thumbnail">
-                <img src="../img/photos/ph_hachi8833.png" alt="@hachi8833"
-                     class="rounded-circle">
-              </div>
-              <div class="cardMember__content">
-                <a href="https://twitter.com/hachi8833" class="cardMember__account" target="_blank">@hachi8833</a>
-                <p class="cardMember_summary"><a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き</p>
-              </div>
-            </div>
-          </div>
+	  {% include member.html username='yasulab'   caption='<p class="cardMember_summary">IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役</p>' %}
+	  {% include member.html username='nalabjp'   caption='<p class="cardMember_summary">Railsエンジニア。スノーボードと沖縄が好き</p>' %}
+	  {% include member.html username='hachi8833' caption='<p class="cardMember_summary"><a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き</p>' %}
         </div>
         <div class="text-center pt-5">
           <a href="/ja/about">

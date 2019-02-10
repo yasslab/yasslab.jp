@@ -1,0 +1,11 @@
+<div class="col-6 col-md-4 {{ include.offset }}">
+  <div class="card cardMember">
+    <div class="cardMember__thumbnail">
+      <img src="../img/photos/{{ include.username }}.jpg" alt="{{ include.username }}" class="rounded-circle">
+    </div>
+    <div class="cardMember__content">
+      <a href="https://twitter.com/{{ include.username }}" class="cardMember__account" target="_blank">@{{ include.username }}</a>
+      <p class="cardMember_summary">{{ include.caption }}</p>
+    </div>
+  </div>
+</div>
