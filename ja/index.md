@@ -127,12 +127,12 @@ lang:   ja
       <div class="col-12">
         <h3>沖縄メンバー</h3>
         <div class="row">
-          {% include member.html username='hanachin_' caption='<a href="http://ruby.okinawa/">Okinawa.rb</a>によく出没する。<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏</a>クリエータ' %}
-	  {% include member.html username='himajin315' caption='<p class="cardMember_summary">プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師</p>' %}
-	  {% include member.html username='nanophate'  caption='<p class="cardMember_summary"><a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家</p>' %}
-	  {% include member.html username='AnaTofuZ'   caption='<p class="cardMember_summary">Perlが好きなエンジニア。<a href="https://ie.u-ryukyu.ac.jp/%E5%AD%A6%E7%A7%91%E7%B4%B9%E4%BB%8B/%E7%A0%94%E7%A9%B6%E5%AE%A4%E7%B4%B9%E4%BB%8B/%E4%B8%A6%E5%88%97%E7%A0%94%E7%A9%B6%E5%AE%A4%EF%BC%88%E6%B2%B3%E9%87%8E%E7%A0%94%EF%BC%89/">並列研 (河野研)</a></p>' %}
-	  {% include member.html username='d_ishitaka' caption='<p class="cardMember_summary"><a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒</p>' %}
-	  {% include member.html username='naopontan'  caption='<p class="cardMember_summary">Railsエンジニア。<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議</a>運営チーム</p>' %}
+          {% include member.html username='hanachin_'  caption='<a href="http://ruby.okinawa/">Okinawa.rb</a>によく出没する。<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏</a>クリエータ' %}
+	  {% include member.html username='himajin315' caption='プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師' %}
+	  {% include member.html username='nanophate'  caption='<a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家' %}
+	  {% include member.html username='AnaTofuZ'   caption='Perlが好きなエンジニア。<a href="https://ie.u-ryukyu.ac.jp/%E5%AD%A6%E7%A7%91%E7%B4%B9%E4%BB%8B/%E7%A0%94%E7%A9%B6%E5%AE%A4%E7%B4%B9%E4%BB%8B/%E4%B8%A6%E5%88%97%E7%A0%94%E7%A9%B6%E5%AE%A4%EF%BC%88%E6%B2%B3%E9%87%8E%E7%A0%94%EF%BC%89/">並列研 (河野研)</a>' %}
+	  {% include member.html username='d_ishitaka' caption='<a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒' %}
+	  {% include member.html username='naopontan'  caption='Railsエンジニア。<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議</a>運営チーム' %}
         </div>
       </div>
     </div>
@@ -144,9 +144,9 @@ lang:   ja
       <div class="col-12">
         <h3 class="mt-5">東京メンバー</h3>
         <div class="row">
-	  {% include member.html username='yasulab'   caption='<p class="cardMember_summary">IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役</p>' %}
-	  {% include member.html username='nalabjp'   caption='<p class="cardMember_summary">Railsエンジニア。スノーボードと沖縄が好き</p>' %}
-	  {% include member.html username='hachi8833' caption='<p class="cardMember_summary"><a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き</p>' %}
+	  {% include member.html username='yasulab'   caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
+	  {% include member.html username='nalabjp'   caption='Railsエンジニア。スノーボードと沖縄が好き' %}
+	  {% include member.html username='hachi8833' caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
         </div>
         <div class="text-center pt-5">
           <a href="/ja/about">
