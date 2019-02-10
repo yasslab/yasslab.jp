@@ -114,9 +114,6 @@ lang:   ja
 		×
 		東京</h2>
         <p class="text-md-center">YassLab 社は技術で勝負したいソフトウェアエンジニアのリモートチームです。<br class="mobile-hidden">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
-        <div class="text-center">
-            <a href="/ja/join-forces" class="btn btn-primary">採用情報</a>
-          </div>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
@@ -148,10 +145,10 @@ lang:   ja
 	  {% include member.html username='nalabjp'   caption='Railsエンジニア。スノーボードと沖縄が好き' %}
 	  {% include member.html username='hachi8833' caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
         </div>
-        <div class="text-center pt-5">
-          <a href="/ja/about">
-            <button class="btn btn-primary">会社概要を見る</button>
-          </a>
+	<div class="text-center pt-5" style="margin: 30px 0;">
+          <a href="/ja/join-forces" class="btn btn-primary">
+	    採用情報を見る
+	  </a>
         </div>
       </div>
     </div>
@@ -225,12 +222,19 @@ lang:   ja
           <div class="col-md-4">
             <figure>
               <a href="https://coderdojo.jp/" target="_blank">
-                <img src="../img/comu-corder-dojo.gif" alt="CorderDojo Japan">
+                <img src="../img/comu-coderdojo-japan.png" alt="CorderDojo Japan">
               </a>
               <figcaption><a href="/ja/agile">Webサービスの開発支援</a></figcaption>
             </figure>
           </div>
         </div>
+
+	<div class="text-center pt-5">
+          <a href="/ja/about">
+            <button class="btn btn-primary">会社概要を見る</button>
+          </a>
+        </div>
+
       </div>
     </div>
   </div>
