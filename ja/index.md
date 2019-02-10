@@ -5,20 +5,18 @@ lang:   ja
 
 <section class="mainVisual">
   <div class="jumbotron">
-    
-    
     <picture>
-    	<source media="(min-width: 600px)" srcset="../img/top-image-large.jpg">
-    	<img src="../img/top-image-small.jpg" alt="Having a Good Life with OpenSource">
+      <source media="(min-width: 600px)" srcset="../img/top-image-large.jpg">
+      <img src="../img/top-image-small.jpg" alt="Having a Good Life with OpenSource">
     </picture>
-    
-    <!--h1 class="display-4 text-center"-->
-      <div class="logo-catch">
-        <img src="../img/logo-yasslab.svg" width="270" alt="YassLab Logo">
-        <h1>Having a Good Life with OpenSource ;)</h1>
-      </div><!--//logo-catch-->
+
+    <div class="logo-catch">
+      <img src="../img/logo-yasslab.svg" width="270" alt="YassLab Logo">
+      <h1>Having a Good Life with OpenSource ;)</h1>
+    </div>
   </div>
 </section>
+
 <section class="catchCopy entry_content" id="vision">
   <div class="container">
     <div class="row">
@@ -29,12 +27,13 @@ lang:   ja
     </div>
   </div>
 </section>
+
 <section class="service entry_content" id="products">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <h3 style="line-height: 2.0em;">《継続的翻訳/組版システム》<br>
-		Web 開発の学びを Ruby で支える</h3>
+	  Web 開発の学びを Ruby で支える</h3>
 
         <div class="row">
           <div class="col-md-4 offset-md-1">
@@ -62,6 +61,7 @@ lang:   ja
     </div>
   </div>
 </section>
+
 <section class="developmentSupport entry_content">
   <div class="container">
     <div class="row">
@@ -106,6 +106,7 @@ lang:   ja
 
   </div><!--//container-->
 </section>
+
 <section class="aboutVisual entry_content" id="remote">
   <div class="container">
     <div class="row">
@@ -118,6 +119,7 @@ lang:   ja
     </div><!--//row-->
   </div><!--//container-->
 </section>
+
 <section class="okinawaMember">
   <div class="container">
     <div class="row">
@@ -135,6 +137,7 @@ lang:   ja
     </div>
   </div>
 </section>
+
 <section class="tokyoMember">
   <div class="container">
     <div class="row">
@@ -155,6 +158,7 @@ lang:   ja
     </div>
   </div>
 </section>
+
 <section class="sns">
   <div class="container">
     <div class="row gutter-10">
@@ -195,7 +199,6 @@ lang:   ja
     </div>
   </section>
 </div>
-
 
 <section class="commutySupport entry_content" id="community">
   <div class="container">
