@@ -120,12 +120,12 @@ lang:   ja
         <h2 class="mb-5"><a href="#schedule">現在のスケジュール</a></h2>
 
 	{% include agile-schedule.html
-	    started_month=1
+	    started_month=2
 	     plus_0='reserved'
 	     plus_1='reserved'
-	     plus_2='adjusting'
-	     plus_3='available'
-	     plus_4='available'
+	     plus_2='reserved'
+	     plus_3='reserved'
+	     plus_4='adjusting'
 	     plus_5='available'
 	%}
         
