@@ -121,12 +121,12 @@ lang:   ja
 
 	{% include agile-schedule.html
 	    started_month=1
-	     first='reserved'
-	    second='reserved'
-	     third='adjusting'
-	    fourth='available'
-	     fifth='available'
-	     sixth='available'
+	     plus_0='reserved'
+	     plus_1='reserved'
+	     plus_2='adjusting'
+	     plus_3='available'
+	     plus_4='available'
+	     plus_5='available'
 	%}
         
         <table class="caption">
