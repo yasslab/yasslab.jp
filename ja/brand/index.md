@@ -42,11 +42,11 @@ lang:   ja
 1. Yass と Lab の間に半角スペースを入れないでください
    - 「YassLab」で１つの単語であり、２つの単語ではありません
    - 間違った例 :「Yass Lab」
-2. L は大文字で表記してください。小文字の l はNGです
+2. L は大文字で表記してください。小文字の l は NG です
    - 間違った例 :「Yasslab」
 3. 英語表記をお願いします
    - 基本的に英語表記の「YassLab」をご使用ください
-   - 紙面の都合などで日本語表記が必要な場合は、カタカナ表記の「ヤスラボ」をご使用ください。
+   - 日本語表記「ヤスラボ」「やすらぼ」等は使わないでください。紙面の都合等で日本語表記が必要な場合は[お問い合わせ](#contact-form)ください
 
 <br>
 
@@ -56,3 +56,4 @@ lang:   ja
 
 <center><a href="https://www.dropbox.com/sh/mvjm7ascrn85awb/AADIoBdfQN7YUv3O3jAGfpVGa?dl=0">YassLab 株式会社 公開ロゴデータ - Dropbox</a></center>
 
+<div id="contact"></div>
