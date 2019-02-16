@@ -30,6 +30,7 @@ plugins:
   - jekyll-gist
   - jekyll-coffeescript
   - jekyll-assets
+  - jekyll-feed
   - qiita
 exclude:
   - README.md
