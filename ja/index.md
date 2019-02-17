@@ -120,11 +120,11 @@ lang:   ja
   </div><!--//container-->
 </section>
 
-<section class="okinawaMember">
+<section class="okinawaMember" id="okinawa" style="margin-top: 50px;">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3>沖縄メンバー</h3>
+        <h3><a href="#okinawa">沖縄メンバー</a></h3>
         <div class="row">
           {% include member.html username='hanachin_'  caption='<a href="http://ruby.okinawa/">Okinawa.rb</a>によく出没する。<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏</a>クリエータ' %}
 	  {% include member.html username='himajin315' caption='プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師' %}
@@ -138,11 +138,11 @@ lang:   ja
   </div>
 </section>
 
-<section class="tokyoMember">
+<section class="tokyoMember" id="tokyo">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3 class="mt-5">東京メンバー</h3>
+        <h3 class="mt-5"><a href="#tokyo">東京メンバー</a></h3>
         <div class="row">
 	  {% include member.html username='yasulab'   caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
 	  {% include member.html username='nalabjp'   caption='Railsエンジニア。スノーボードと沖縄が好き' %}
@@ -186,13 +186,14 @@ lang:   ja
             <dt class="col-md-6">スター数</dt>
             <dd id="github__stars" class="col-md-6">408</dd>
           </dl>
+	  <div id="posts"></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<div id="main_content_wrap" class="outer container">
+<div id="main_content_wrap" class="outer container" style="margin-top: 20px;">
   <section id="main_content" class="inner row justify-content-md-center pb-5">
     <div class="col-md-9 entry_content text-center">
       {% include recent_posts.html %}
@@ -204,7 +205,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>コミュニティ活動</h2>
+        <h2><a href="#community" style="text-decoration: none; color: white;">コミュニティ活動</a></h2>
         <p class="text-md-center">YassLab 社ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="mobile-hidden">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
         <div class="row">
           <div class="col-md-4">
@@ -272,7 +273,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>プレスリリース</h2>
+        <h2><a href="#press">プレスリリース</a></h2>
           <ul>
             <li>
               <a href="https://www.members.co.jp/company/news/2018/0806_2.html" target="_blank">常駐型デジタルプロフェッショナルサービスのメンバーズキャリア、技術顧問体制を強化～新たに2名が技術顧問に就任、社員育成によるサービス向上を目指す～</a>

@@ -655,13 +655,11 @@ pre{border : 1px solid #cc0000;
   }
 }
 
-
-
 h1,h2,h3,h4,h5{
   margin-bottom:20px; 
   a{
     color: #212529;
-    text-decoration: none;
+    text-decoration: none !important;
   }
 }
 

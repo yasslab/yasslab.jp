@@ -1,5 +1,5 @@
-<h4>最近の記事</h4>
-<ul style="list-style: none; padding-top: 5px;">
+<h4><a href="#posts">最近の記事</a></h4>
+<ul style="list-style: none; padding-top: 10px;">
   {% assign max_related = 5 %}
   {% assign min_common_tags = 0 %}
   {% assign max_related_counter = 0 %}
@@ -15,13 +15,13 @@
     {% endfor %}
 
     {% if same_tag_count >= min_common_tags %}
-      <li>
-        <h5>
+      <li style="padding-top: 7px;">
+        <span class="h5">
           <a href="{{ site.base_url }}{{ post.url }}">
             {{ post.title }}
             <!--<small>{{ post.date | date_to_string }}</small>-->
           </a>
-        </h5>
+        </span>
       </li>
       {% assign max_related_counter = max_related_counter | plus: 1 %}
       {% if max_related_counter >= max_related %}
