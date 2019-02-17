@@ -21,7 +21,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>新しいサービスを、Ruby で</h2>
+        <h2><a href="#vision">新しいサービスを、Ruby で</a></h2>
         <p class="text-md-center">オープンソースソフトウェアやコミュニティへの還元を大切にしつつ、<br class="mobile-hidden">事業としても共に成長できる、そんなビジネスに関わり続けている会社です。</p>
       </div>
     </div>
@@ -32,7 +32,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3 style="line-height: 2.0em;">《継続的翻訳/組版システム》<br>
+        <h3 style="line-height: 2.0em;"><a href="#products">《継続的翻訳/組版システム》</a><br>
 	  Web 開発の学びを Ruby で支える</h3>
 
         <div class="row">
@@ -62,11 +62,11 @@ lang:   ja
   </div>
 </section>
 
-<section class="developmentSupport entry_content">
+<section class="developmentSupport entry_content" id="services">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3 style="line-height: 2.0em;">《月額制の Ruby/Rails 開発支援》<br>
+        <h3 style="line-height: 2.0em;"><a href="#services" style="color: white;">《月額制の Ruby/Rails 開発支援》</a><br>
 		開発事業を月単位でサポートします</h3>
         <div class="row mb-5">
           <div class="col-4">
@@ -111,10 +111,10 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>沖縄
+        <h2><a href="#remote">沖縄
 		×
-		東京</h2>
-        <p class="text-md-center">YassLab 社は技術で勝負したいソフトウェアエンジニアのリモートチームです。<br class="mobile-hidden">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
+		東京</a></h2>
+        <p class="text-md-center h5">YassLab 社はソフトウェアエンジニアのリモートチームです。<br class="mobile-hidden">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
@@ -205,7 +205,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#community" style="text-decoration: none; color: white;">コミュニティ活動</a></h2>
+        <h2><a href="#community" style="color: white;">コミュニティ活動</a></h2>
         <p class="text-md-center">YassLab 社ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="mobile-hidden">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
         <div class="row">
           <div class="col-md-4">
