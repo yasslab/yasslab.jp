@@ -1,4 +1,16 @@
 permalink: /:title
+
+# Variables to configure RSS feed
+# https://github.com/jekyll/jekyll-feed
+title: YassLab 株式会社
+description: "沖縄と東京を拠点にしたソフトウェア開発会社です。RailsチュートリアルやRailsガイドを運営し、月額制開発支援サービスも提供しています。"
+url: https://yasslab.jp
+author:
+  name: YassLab 株式会社
+  image: /img/logo_square.png
+  twitter: YassLab
+
+# Variables for internal use
 company:
   vision: "Having a Good Life with OpenSource ;)"
   name:  YassLab
