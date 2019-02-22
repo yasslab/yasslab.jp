@@ -147,7 +147,8 @@ lang:   ja
 	  {% include member.html username='yasulab'   caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
 	  {% include member.html username='nalabjp'   caption='Railsエンジニア。スノーボードと沖縄が好き' %}
 	  {% include member.html username='hachi8833' caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
-	  {% include member.html username='shishi4tw' caption='プログラマー。<a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a> ファウンダー' offset='offset-md-4'%}
+	  {% include member.html username='shishi4tw' caption='プログラマー。<a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a> ファウンダー'  offset='offset-md-2' %}
+	  {% include member.html username='crafter_gene' caption='品質管理が得意。趣味は広くそこそこ深く' %}
         </div>
 	<div class="text-center pt-5" style="margin: 30px 0;">
           <a href="/ja/join-forces" class="btn btn-primary">
