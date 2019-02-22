@@ -1,7 +1,14 @@
-<h4><a href="#posts">最近の記事</a></h4>
+---
+layout: posts
+title:  📜 記事まとめ
+thumbnail: bg-sky.jpg
+author: 安川 要平
+categories: [press]
+tags: [index, posts]
+---
 
 <ul style="list-style: none; padding-top: 10px;">
-  {% assign max_related = 5 %}
+  {% assign max_related = 10000 %}
   {% assign min_common_tags = 0 %}
   {% assign max_related_counter = 0 %}
 
@@ -32,4 +39,4 @@
   {% endfor %}
 </ul>
 
-<h5 style="padding-left: 10px;"><a href="https://yasslab.jp/ja/posts/">過去の記事を読む</a></h5>
+
