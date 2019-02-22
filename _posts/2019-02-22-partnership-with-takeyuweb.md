@@ -23,7 +23,7 @@ YassLab 社では様々な個人・法人と協力しながら『[Railsガイド
 ## YassLab 株式会社について
 [![YassLab Inc.](/img/logo_800x200.png)](/)
 
-YassLab 株式会社は、沖縄と東京に拠点を置く[完全リモートワーク制](https://speakerdeck.com/yasslab/remote-first-company)のソフトウェア開発会社です。[Railsチュートリアル](https://railstutorial.jp/)、[Railsガイド](https://railsguides.jp/)、[CoderDojo JapanのWebサイト](https://coderdojo.jp/)を開発・運営し、[月額制 Ruby/Rails 開発支援サービス](https://yasslab.jp/ja/agile)も展開しています。
+YassLab 株式会社は、沖縄と東京に拠点を置く[完全リモートワーク制](https://speakerdeck.com/yasslab/remote-first-company)のソフトウェア開発会社です。[Railsチュートリアル](https://railstutorial.jp/)・[Railsガイド](https://railsguides.jp/)・[CoderDojo JapanのWebサイト](https://coderdojo.jp/)を運営し、[月額制 Ruby/Rails 開発支援サービス](https://yasslab.jp/ja/agile)も展開しています。
 
 『こんな提携は可能か？』『こんなサービスって提供できますか？』などのご質問・フィードバックなどあれば info@yasslab.jp までお気軽にご連絡ください ;)
 
