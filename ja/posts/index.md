@@ -2,9 +2,6 @@
 layout: posts
 title:  📜 記事まとめ
 thumbnail: bg-sky.jpg
-author: 安川 要平
-categories: [press]
-tags: [index, posts]
 ---
 
 <ul style="list-style: none; padding-top: 10px;">
