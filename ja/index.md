@@ -83,8 +83,8 @@ lang:   ja
           </div>
           <div class="col-4">
             <figure id="agile">
-              <img src="../../img/icon-agile-pale.png" width="80%" alt="Agile Web Development image" />
-              <figcaption>Agile Web Development</figcaption>
+              <img src="../../img/icon-agile-pale.png" width="80%" alt="Agile Development image" />
+              <figcaption>Agile Development</figcaption>
             </figure>
           </div>
         </div><!--//row-->
