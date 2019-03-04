@@ -20,4 +20,4 @@ YassLab 社が運営する『Railsガイド』をRails 5.2対応に更新しま�
 
 電子書籍版ではオフラインで見れるだけでなく書籍内検索もできるため、詳しく知りたい機能や調べたいメソッドなどを探すのに便利です 🔍💨 
 
-YassLab 株式会社では『[Railsチュートリアル](https://railstutorial.jp/)』や『[Railsガイド](https://railsguides.jp/)』などの大型コンテンツを継続的に更新することで、皆さんのRails開発を裏側から支えていきます。今後とも引き続きよろしくお願いいたします ;)
+YassLab 株式会社では『[Railsチュートリアル](https://railstutorial.jp/)』や『[Railsガイド](https://railsguides.jp/)』などの大型コンテンツを継続的に更新することで、皆さんのWebサービス開発を裏側から支えていきます。今後とも引き続きよろしくお願いいたします ;)
