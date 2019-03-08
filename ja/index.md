@@ -126,12 +126,20 @@ lang:   ja
       <div class="col-12">
         <h3><a href="#okinawa">沖縄メンバー</a></h3>
         <div class="row">
-          {% include member.html username='hanachin_'  caption='<a href="http://ruby.okinawa/">Okinawa.rb</a>によく出没する。<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏</a>クリエータ' %}
-	  {% include member.html username='himajin315' caption='プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師' %}
-	  {% include member.html username='nanophate'  caption='<a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家' %}
-	  {% include member.html username='AnaTofuZ'   caption='Perlが好きなエンジニア。<a href="https://ie.u-ryukyu.ac.jp/%E5%AD%A6%E7%A7%91%E7%B4%B9%E4%BB%8B/%E7%A0%94%E7%A9%B6%E5%AE%A4%E7%B4%B9%E4%BB%8B/%E4%B8%A6%E5%88%97%E7%A0%94%E7%A9%B6%E5%AE%A4%EF%BC%88%E6%B2%B3%E9%87%8E%E7%A0%94%EF%BC%89/">並列研 (河野研)</a>' %}
-	  {% include member.html username='aokabin_' caption='<a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒' %}
-	  {% include member.html username='naopontan'  caption='Railsエンジニア。<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議</a>運営チーム' %}
+          {% include member.html username='hanachin_'  link_to='twitter'
+	           caption='<a href="http://ruby.okinawa/">Okinawa.rb</a>によく出没する。<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏</a>クリエータ' %}
+          {% include member.html username='himajin315' link_to='twitter'
+             caption='プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師' %}
+          {% include member.html username='nanophate'  link_to='twitter'
+             caption='<a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家' %}
+          {% include member.html username='AnaTofuZ'   link_to='twitter'
+             caption='Perlが好きなエンジニア。<a href="https://ie.u-ryukyu.ac.jp/%E5%AD%A6%E7%A7%91%E7%B4%B9%E4%BB%8B/%E7%A0%94%E7%A9%B6%E5%AE%A4%E7%B4%B9%E4%BB%8B/%E4%B8%A6%E5%88%97%E7%A0%94%E7%A9%B6%E5%AE%A4%EF%BC%88%E6%B2%B3%E9%87%8E%E7%A0%94%EF%BC%89/">並列研 (河野研)</a>' %}
+          {% include member.html username='aokabin_' link_to='twitter'
+             caption='<a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒' %}
+          {% include member.html username='naopontan' link_to='twitter'
+             caption='Railsエンジニア。<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議</a>運営チーム' %}
+          {% include member.html username='irish15' link_to='github' offset='offset-md-4'
+             caption='琉大enPiTで<a href="https://ie.u-ryukyu.ac.jp/enpit/product/">アトオス</a>を開発。<a href="https://ie.u-ryukyu.ac.jp/enpit/2018/01/10/%E3%80%8C%E7%94%A3%E6%A5%AD%E6%8A%80%E8%A1%93%E5%A4%A7%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6%E3%83%BB%E7%90%89%E7%90%83%E5%A4%A7%E5%AD%A6-enpit2%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A-2017-2/">Best Team</a>受賞' %}
         </div>
       </div>
     </div>
@@ -144,11 +152,16 @@ lang:   ja
       <div class="col-12">
         <h3 class="mt-5"><a href="#tokyo">東京メンバー</a></h3>
         <div class="row">
-	  {% include member.html username='yasulab'   caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
-	  {% include member.html username='nalabjp'   caption='Railsエンジニア。スノーボードと沖縄が好き' %}
-	  {% include member.html username='hachi8833' caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
-	  {% include member.html username='shishi4tw' caption='プログラマー。<a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a> ファウンダー'  offset='offset-md-2' %}
-	  {% include member.html username='crafter_gene' caption='品質管理が得意。趣味は広くそこそこ深く' %}
+	  {% include member.html username='yasulab'   link_to='twitter'
+	  caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
+	  {% include member.html username='nalabjp'   link_to='twitter'
+	  caption='Railsエンジニア。スノーボードと沖縄が好き' %}
+	  {% include member.html username='hachi8833' link_to='twitter'
+	  caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
+	  {% include member.html username='shishi4tw' link_to='twitter' offset='offset-md-2'
+	  caption='プログラマー。<a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a> ファウンダー' %}
+	  {% include member.html username='crafter_gene' link_to='twitter'
+	  caption='品質管理が得意。趣味は広くそこそこ深く' %}
         </div>
 	<div class="text-center pt-5" style="margin: 30px 0;">
           <a href="/ja/join-forces" class="btn btn-primary">
