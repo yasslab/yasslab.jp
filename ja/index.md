@@ -159,7 +159,7 @@ lang:   ja
 	  {% include member.html username='hachi8833' link_to='twitter'
 	  caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
 	  {% include member.html username='shishi4tw' link_to='twitter' offset='offset-md-2'
-	  caption='プログラマー。<a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a> ファウンダー' %}
+	  caption='プログラマー。<a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a>の発起人' %}
 	  {% include member.html username='crafter_gene' link_to='twitter'
 	  caption='品質管理が得意。趣味は広くそこそこ深く' %}
         </div>
