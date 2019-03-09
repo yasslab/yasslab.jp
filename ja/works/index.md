@@ -100,7 +100,7 @@ lang:   ja
 	  <li>3月 経産省主催「<a href="http://www.meti.go.jp/press/2018/06/20180625003/20180625003-3.pdf">未来の教室WS</a>」に招待参加</li>
 	  <li>3月 弊社安川が<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議02</a>を実行委員長として主催</li>
 	  <li>2月 <a href="https://www.doyukai.or.jp/">経済同友会</a>DC育成分科会にてアドバイザーとして参加</li>
-	  <li>2月 社員数増加に伴い、<a href="/ja/join-forces#references">就業規則と賃金規定</a>を制定・公開</li>
+	  <li>2月 社員数増加に伴い、<a href="/ja/join-forces#references">就業規則と賃金規程</a>を制定・公開</li>
 	  <li>2月 <a href="https://event.shoeisha.jp/devsumi/20180215/session/1663">Developers Summit 2018</a> (U-30 代表枠) として登壇</li>
 	  <li>1月 <a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">IPA未踏事業</a>中間合宿にOB・OGとして招待参加</li>
 	  <li>1月 <a href="https://oka-sr.jp/">社会保険労務士法人</a>代表の岡氏が<a href="/ja/about/#company">顧問社労士</a>に就任</li>
