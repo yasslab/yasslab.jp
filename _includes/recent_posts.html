@@ -16,16 +16,7 @@
     {% endfor %}
 
     {% if same_tag_count >= min_common_tags %}
-      <li style="padding-top: 7px;">
-        <span class="h5">
-          <a href="{% if jekyll.environment == 'development' %}http://localhost:4000{% else %}{{ site.base_url }}{% endif %}{{ post.url }}">
-            {{ post.title }}
-            <!-- TODO: Need a good design for showing this info
-		 <small>{{ post.date | date_to_string }}</small>
-	    -->
-          </a>
-        </span>
-      </li>
+      {% include recent_post.html %}
       {% assign max_related_counter = max_related_counter | plus: 1 %}
       {% if max_related_counter >= max_related %}
         {% break %}
