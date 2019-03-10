@@ -31,8 +31,4 @@ thumbnail: bg-sky.jpg
 
 <hr>
 
-<h5 style="padding-top: 20px; padding-bottom: 10px"><a href="https://twitter.com/YassLab" target="_blank">最近のツイート</a></h5>
-<a class="twitter-timeline" href="https://twitter.com/YassLab?ref_src=twsrc%5Etfw"
- data-lang="ja" data-chrome="noheader nofooter noborders" data-dnt="true"
- data-width="500" data-tweet-limit="3" target="_blank">@YassLab tweets in Twitter</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% include recent_tweets.html %}
