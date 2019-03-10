@@ -28,10 +28,20 @@
 	<h5>{{ page.date | date: "%Y年%m月%d日" }} {{ page.author }}</h5>
       </div>
       <br><br><br><br>
+
       <hr>
-      <div id="posts" style="padding-top: 15px;">
+
+      <div id="posts" style="padding-top: 15px; padding-bottom: 20px;">
 	{% include recent_posts.html %}
       </div>
+
+      <hr>
+
+      <h5 style="padding-top: 20px; padding-bottom: 10px"><a href="https://twitter.com/YassLab" target="_blank">最近のツイート</a></h5>
+      <a class="twitter-timeline" href="https://twitter.com/YassLab?ref_src=twsrc%5Etfw"
+       data-lang="ja" data-chrome="noheader nofooter noborders" "data-dnt"="true"
+       data-width="500" data-tweet-limit="3" target="_blank">@YassLab tweets in Twitter</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </div>
   </section>
