@@ -20,11 +20,12 @@
       <div style="margin-top: 60px;">
 	{{ content }}
       </div>
-      <div class="pull-right" style="padding-bottom: 20px;">
-	{{ page.date | date: "%Y/%m/%d" }} {{ page.author }}
-      </div>
       <div class="pull-right">
 	{% include social_buttons.html %}
+      </div>
+      <br><br><br>
+      <div class="pull-right" style="margin-top: -20px;">
+	<h5>{{ page.date | date: "%Y年%m月%d日" }} {{ page.author }}</h5>
       </div>
       <br><br><br><br>
       <hr>
