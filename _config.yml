@@ -35,6 +35,14 @@ encoding: utf-8
 
 excerpt_separator: "続きを読む"
 
+## Global Vars to generate links
+yasslab:       "[YassLab](https://yasslab.jp)"
+railstutorial: "[Railsチュートリアル](https://railstutorial.jp)"
+railsguides:   "[Railsガイド](https://railsguides.jp/)"
+coderdojo:     "[CoderDojo Japan](https://coderdojo.jp)"
+okinawarb:     "[Okianwa.rb](https://ruby.okinawa)"
+frogs:         "[Ryukyufrogs](https://www.ryukyu-frogs.com)"
+
 highlighter: rouge
 markdown: kramdown
 plugins: 
