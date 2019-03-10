@@ -1,35 +1,28 @@
 #!/bin/sh
 
-TEMPLATE_FILENAME="20xx-xx-xx-template.md"
+SAMPLE_POST_TEXT="_post-sample.md"
 
 if [ $# -eq 0 ]
 then
     echo "Hey! Give me URL to create draft post. ;)"
     echo "Usage: $ ./create-draft-from-template.sh POST_TITLE"
     echo " e.g.: $ ./create-draft-from-template.sh krisp-trial"
-    #/bin/echo -n "- "
-    #ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-title.md"' | xargs cp $TEMPLATE_FILENAME
-    #ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-title.md"'
 else
     /bin/echo -n "Generated "
-    ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-#{ARGV[0]}.md"' $1 | xargs cp $TEMPLATE_FILENAME
+
+    TEMPLATE_FILENAME=`ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-#{ARGV[0]}.md"' $1`
+    echo "---"                     >  $TEMPLATE_FILENAME
+    echo "layout: post"            >> $TEMPLATE_FILENAME
+    echo "title:  タイトル"        >> $TEMPLATE_FILENAME
+    echo "thumbnail: bg-sky.jpg"   >> $TEMPLATE_FILENAME
+    echo "author: 安川 要平"       >> $TEMPLATE_FILENAME
+    echo "categories: [blog]"      >> $TEMPLATE_FILENAME
+    echo "tags: [press, rails]"    >> $TEMPLATE_FILENAME
+    echo "permalink: /ja/posts/$1" >> $TEMPLATE_FILENAME
+    echo "---"                     >> $TEMPLATE_FILENAME
+    echo ""                        >> $TEMPLATE_FILENAME
+    cat  $SAMPLE_POST_TEXT         >> $TEMPLATE_FILENAME
+
     ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-#{ARGV[0]}.md"' $1
 fi
 echo ""
-
-exit
-
-# The following code is a sample script
-# to generate a file to post n-days later.
-if [ $# -eq 1 ]
-   i=0
-    while [ $i -ne $1 ]
-    do
-	i=`expr $i +  1`
-	d=`expr $i \* 7`
-	/bin/echo -n "- "
-	ruby -r date -e 'puts Date.today.+(ARGV[0].to_i).strftime("%Y-%m-%d") + ".png"' $d
-	ruby -r date -e 'puts Date.today.+(ARGV[0].to_i).strftime("%Y-%m-%d") + ".png"' $d | xargs cp $TEMPLATE_FILENAME
-    done
-fi
-

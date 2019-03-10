@@ -1,13 +1,3 @@
----
-layout: post
-title:  タイトル
-thumbnail: bg-sky.jpg
-author: 安川 要平
-categories: [blog]
-tags: [press, rails]
-permalink: /ja/posts/your-url
----
-
 Lorem ipsum ...
 
 ## アイキャッチ画像のイメージ画像の仕様
