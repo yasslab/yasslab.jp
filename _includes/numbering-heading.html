@@ -1,0 +1,7 @@
+{% assign heading_number = heading_number | plus:1 %}
+<div id='{{ heading_number }}-{{ include.title }}' style='margin-top: -70px;'></div>
+
+<{{ include.tag }} style='margin-top: 100px;'>
+<a href='#{{ heading_number }}-{{ include.title }}'>
+  第{{ heading_number }}条（{{ include.title }}）</a>
+</{{ include.tag }}>
