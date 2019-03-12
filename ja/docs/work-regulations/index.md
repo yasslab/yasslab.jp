@@ -251,23 +251,45 @@ title:  就業規則
 ## 第４章　勤　務
 
 {% include numbering-heading.html tag='h3' title='勤務時間および休憩時間' %}
-労働時間は１週４０時間、１日８時間とし、始業時刻、終業時刻、休憩時間は以下の通りとする。ただし、業務上の必要がある場合にはこれらを繰り上げ、または繰り下げることがある。
+労働時間は１週４０時間、１日８時間とし、始業時刻、終業時刻、休憩時間は以下の通りとする。ただし、業務上の必要がある場合にはこれらを繰り上げまたは繰り下げることがある。
 
-<table>
+また、社員は、業務に支障がない限り、会社が指定する方法で通常の始業時刻より早く出勤 (以下、早出勤) することができる。ただし、早出勤が可能な時刻は午前8時から通常の始業時刻までとし、それより前の時刻から早出勤したい場合は事前に会社から許諾を得るものとする。
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-g145{font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-gh1y{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-804w{font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
+</style>
+
+<table class="tg">
   <tr>
-    <td>始業時刻</td>
-    <td>１０時００分</td>
+    <th class="tg-g145"></th>
+    <th class="tg-gh1y">通常<br></th>
+    <th class="tg-gh1y">早出勤</th>
+    <th class="tg-gh1y">出勤例</th>
   </tr>
   <tr>
-    <td>終業時刻</td>
-    <td>１９時００分</td>
+    <td class="tg-gh1y"><span style="font-weight:bold">始業時刻</span></td>
+    <td class="tg-804w">10:00</td>
+    <td class="tg-804w">08:00</td>
+    <td class="tg-804w">08:30</td>
   </tr>
   <tr>
-    <td>休憩時間</td>
-    <td>１時間</td>
+    <td class="tg-gh1y"><span style="font-weight:bold">終業時刻</span></td>
+    <td class="tg-804w">19:00</td>
+    <td class="tg-804w">17:00</td>
+    <td class="tg-804w">17:30</td>
+  </tr>
+  <tr>
+    <td class="tg-gh1y">休憩時間</td>
+    <td class="tg-804w">1時間</td>
+    <td class="tg-804w">1時間</td>
+    <td class="tg-804w">1時間</td>
   </tr>
 </table>
-
 
 ２　休憩は原則として一斉に取得するものとする。ただし、労使協定を締結した場合はこの限りではない。
 
