@@ -1,0 +1,7 @@
+{% assign chapter_number = chapter_number | plus:1 %}
+<div id='{{ chapter_number }}-{{ include.title }}' style='margin-top: -40px;'></div>
+
+<h2 style='margin-top: 70px;'>
+  <a href='#{{ chapter_number }}-{{ include.title }}'>
+    第{{ chapter_number }}章&nbsp;&nbsp;&nbsp;{{ include.title }}</a>
+</h2>

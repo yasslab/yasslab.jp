@@ -19,7 +19,7 @@ title:  就業規則
 
 <br>
 
-## 第１章　総　則
+{% include numbering-chapter.html title='総　則' %}
 
 {% include numbering-section.html title='目的' %}
 本規則は、YassLab株式会社（以下「会社」という）の従業員の就業に関する事項を定めるものである。
@@ -72,7 +72,7 @@ title:  就業規則
 従業員は、本規則に定められた義務を誠実に履行し、企業秩序の維持に努めなければならない。
 
 
-## 第２章　人　事
+{% include numbering-chapter.html title='人　事' %}
 
 {% include numbering-section.html title='採用' %}
 会社は入社希望者の中から選考を行い、採用する。
@@ -200,7 +200,8 @@ title:  就業規則
 
 ３　本条により解雇する場合は、労働基準法等の法令の定めに基づき行う。
 
-## 第３章　服務規律
+
+{% include numbering-chapter.html title='服務規律' %}
 
 {% include numbering-section.html title='服務' %}
 従業員は会社の諸規則等に従って誠実に職務を遂行し、かつ、会社の指示に従い、職場秩序の維持に努めなければならない。
@@ -248,7 +249,7 @@ title:  就業規則
 ２　会社は、社員が前項に該当する情報を発信、開示していることを発見した場合、その削除をも求める。会社からの削除を求められた社員は、直ちに当該情報の削除に応じなければならない。
 
 
-## 第４章　勤　務
+{% include numbering-chapter.html title='勤　務' %}
 
 {% include numbering-section.html title='勤務時間および休憩時間' %}
 労働時間は１週４０時間、１日８時間とし、始業時刻、終業時刻、休憩時間は以下の通りとする。ただし、業務上の必要がある場合にはこれらを繰り上げ、または繰り下げることがある。
@@ -524,7 +525,7 @@ title:  就業規則
 ２　管理者は、第1項の勤怠が適正に記録されているか定期的に確認をするものとする。
 
 
-## 第５章　賃金・退職金等
+{% include numbering-chapter.html title='賃金・退職金等' %}
 
 {% include numbering-section.html title='賃金' %}
 賃金の種類、計算および支給方法等給与に関する事項は、「[賃金規程](../wage-regulations/)」に別に定める。
@@ -532,7 +533,8 @@ title:  就業規則
 {% include numbering-section.html title='退職金' %}
 退職金は支給しない。
 
-## 第６章&nbsp;&nbsp;安全衛生および災害補償
+
+{% include numbering-chapter.html title='安全衛生および災害補償' %}
 
 {% include numbering-section.html title='遵守事項' %}
 会社は、従業員の安全衛生の確保改善を行い、快適な職場環境のために必要な措置を講ずる。
@@ -560,7 +562,7 @@ title:  就業規則
 業務上の事由による従業員の負傷、疾病、障害または死亡については、会社は労働基準法の規定に従い補償を行う。ただし、従業員が労働者災害補償保険法の保険給付を受けられるべき場合にはその補償は行わない。
 
 
-## 第８章　懲戒
+{% include numbering-chapter.html title='懲　戒' %}
 
 {% include numbering-section.html title='懲戒の種類' %}
 従業員が次のいずれかに該当する場合は、その情状に応じて次のとおり懲戒を行う。

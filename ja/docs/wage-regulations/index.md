@@ -14,7 +14,7 @@ title:  賃金規程
 附　則
 ```
 
-## 第１章　総　則
+{% include numbering-chapter.html title='総　則' %}
 
 {% include numbering-section.html title='目的' %}
 本規程は、就業規則第３９条に基づき、従業員の賃金に関する事項を定めるものである。
@@ -58,7 +58,8 @@ title:  賃金規程
 
 ３　第１項に関わらず、労働基準法第４１条に規定する監督若しくは管理の地位にある者、あるいは機密の事務を取り扱う者に対しては、時間外労働手当および休日労働手当を適用しない。
 
-## 第２章　給与計算および支払い方法
+
+{% include numbering-chapter.html title='給与計算および支払い方法' %}
 
 {% include numbering-section.html title='計算期間および支払日' %}
 給与の計算期間および支払日は、次のとおりとする。
@@ -185,7 +186,8 @@ title:  賃金規程
 
 ２　欠勤については、給与の時間単価に所定労働時間数及び欠勤日数を乗じ、給与から差し引くものとする。
 
-## 第３章　基本給および手当
+
+{% include numbering-chapter.html title='基本給および手当' %}
 
 {% include numbering-section.html title='基本給' %}
 基本給は、従業員ごとに年齢、勤続年数、勤務成績、能力等により決定し、労働条件通知書に定める。
@@ -228,7 +230,8 @@ title:  賃金規程
 - （３）休日労働手当	＝　割増時間単価×１３５％×休日労働時間数
 - （４）深夜労働手当	＝　割増時間単価×１２５％×深夜労働時間数
 
-## 第４章　賞　与
+
+{% include numbering-chapter.html title='賞　与' %}
 
 {% include numbering-section.html title='賞与' %}
 
