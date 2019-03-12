@@ -1,12 +1,5 @@
-{% include header.html %}
-
-{% if page.thumbnail %}
-<div style="color: #fff;padding: 100px 0;margin-bottom: 0; background: url(../../img/{{ page.thumbnail }});">
-</div>
-{% else %}
-<div style="color: #fff;padding: 100px 0;margin-bottom: 0; background: url(../../img/bg-sky.jpg);">
-</div>
-{% endif %}
+{% include header.html    %}
+{% include thumbnail.html %}
 
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer container">
