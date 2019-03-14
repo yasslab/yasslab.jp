@@ -18,7 +18,7 @@ AWS賞の受賞特典として、YassLab 株式会社はアマゾンウェブサ
 
 <script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><br>
 
-YassLab 株式会社では、引き続き様々な企業・コミュニティと協力していきながら、ビジネスとしても邁進していきます。
+YassLab 株式会社では、引き続き様々な企業・コミュニティとの関わりを大切にしながら、ビジネスとしても邁進していけるカタチを目指していきます。
 
 [![YassLab Inc.](/img/logo_800x200.png)](/)
 
