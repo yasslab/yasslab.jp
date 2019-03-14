@@ -17,6 +17,7 @@ task test: [:build] do
   sh "bundle exec rake assets:precompile" unless ENV['SKIP_BUILD'] == '1'
   options = {
     allow_hash_href:  true,
+    check_external_hash: true,
     check_opengraph:  true,
     check_favicon:    true,
     check_html:       true,
