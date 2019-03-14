@@ -14,7 +14,7 @@ YassLab 株式会社の『[Railsチュートリアル × 反転学習](https://s
 
 AWS賞の受賞特典として、YassLab 株式会社はアマゾンウェブサービスジャパン株式会社よりAWSアーキテクト個別技術相談権などを頂けました。弊社が運営する『{{site.railstututorial}}』や『{{site.railsguides}}』などで積極的に活用させていただき、より多くの方々が学びやすいカタチに繋げていきたいと考えています。
 
-また、フクオカRuby大賞の本審査 (10分間のプレゼンテーション、5分間の質疑応答) は福岡県福岡東総合庁舎で行われ、当日そこで使われたスライド資料は下記から公開しております。
+また、フクオカRuby大賞の本審査 (10分間のプレゼンテーション、5分間の質疑応答) で使われたスライド資料は下記から公開しております。
 
 <script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><br>
 
