@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  フクオカRuby大賞で、AWS賞を受賞しました 🏆
-thumbnail: bg-sky.jpg
+thumbnail: Ruby_Award_2019.png
 author: 安川 要平
 categories: [Press]
 tags: [Railsチュートリアル, フクオカRuby大賞]
@@ -10,7 +10,9 @@ permalink: /ja/posts/aws-award-at-fukuoka-ruby-2019
 
 YassLab 株式会社の『[Railsチュートリアル × 反転学習](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails)』の取り組みが[第11回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/184)のAWS賞を受賞しました!
 
-![AWS Award at Fukuoka Ruby 2019](https://i.gyazo.com/9ed5b5ec853de9a05063a3f7b9b734c7.jpg)
+![Fukuoka Ruby Award 2019](https://i.gyazo.com/d707f1fe74613303d4f47fc541539e9f.jpg)
+
+![AWS Award at Fukuoka Ruby Award 2019](https://i.gyazo.com/9ed5b5ec853de9a05063a3f7b9b734c7.jpg)
 
 AWS賞の受賞特典として、YassLab 株式会社はアマゾンウェブサービスジャパン株式会社よりAWSアーキテクト個別技術相談権などを頂けました。弊社が運営する『{{site.railstutorial}}』や『{{site.railsguides}}』などで積極的に活用させていただき、より多くの方々が学びやすいカタチに繋げていきたいと考えています。
 
