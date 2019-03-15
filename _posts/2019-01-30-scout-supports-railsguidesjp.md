@@ -3,8 +3,8 @@ layout: post
 title:  Scout APMがRailsガイドのサポーターになりました 🤝
 thumbnail: bg-sky.jpg
 author: 安川 要平
-categories: [blog]
-tags: [ruby, rails]
+categories: [Press]
+tags: [Railsガイド, 提携]
 permalink: /ja/posts/scout-supports-railsguidesjp
 ---
 

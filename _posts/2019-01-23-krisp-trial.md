@@ -3,8 +3,8 @@ layout: post
 title:  環境音などのノイズを軽減できる Krisp を試してみた
 thumbnail: bg-sky.jpg
 author: 安川 要平
-categories: [blog]
-tags: [remote, zoom]
+categories: [Blog]
+tags: [Remote Work, Zoom]
 permalink: /ja/posts/krisp-trial
 ---
 
