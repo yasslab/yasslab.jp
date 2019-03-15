@@ -32,9 +32,9 @@ permalink: /ja/posts/work-life-balance-at-81st-ipsj
 
 会社目線のスライド資料については下記から公開しています。さらに詳しく学びたい方はコチラも是非 ;)
 
-- [リモートファースト企業 ( 5分版) - Speaker Deck](https://speakerdeck.com/yasulab/remote-first-company-in-5min)
-- [リモートファースト企業 (30分版) - Speaker Deck](https://speakerdeck.com/yasslab/remote-first-company)
-- [リモートファースト企業 (30分版) - YouTube](https://www.youtube.com/watch?v=nAdcD2UMnPE)
+- 📜 [リモートファースト企業 ( ５分版) - Speaker Deck](https://speakerdeck.com/yasulab/remote-first-company-in-5min)
+- 📜 [リモートファースト企業 (30分版) - Speaker Deck](https://speakerdeck.com/yasslab/remote-first-company)
+- 📹 [リモートファースト企業 (30分版) - YouTube](https://www.youtube.com/watch?v=nAdcD2UMnPE)
 
 <br>
 
