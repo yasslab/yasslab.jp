@@ -8,6 +8,7 @@ author:
   name: YassLab 株式会社
   image: /img/logo_square.png
   twitter: YassLab
+  facebook: yasslab.jp
 
 # Don't setup `url`. Unsetting this is best for local, ngrok, and production.
 # url: https://yasslab.jp
