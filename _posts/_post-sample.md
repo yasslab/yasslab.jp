@@ -8,8 +8,10 @@ Lorem ipsum ...
 
 ## YouTube Embed Sample: <br class="pc-hidden">title...
 
+MEMO: コンテンツ部分のみ (`pHFRHN-wGYU`) を当該動画に差し替えるとラクです ;)
+
 <div class="video" style="margin-bottom: 30px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pHFRHN-wGYU?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pHFRHN-wGYU?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Image Embed Sample: まとめ
