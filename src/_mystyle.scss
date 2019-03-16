@@ -85,7 +85,7 @@ html {
   position: relative;
   padding:0;
   margin-bottom: 0;
-  /*background: url("/img/top-image-large.jpg");
+  /*background: url(/img/top-image-large.jpg);
   color: #ffffff;
   padding: 300px 0;
   margin-bottom: 0;
@@ -415,14 +415,14 @@ html {
 // page
 
 .pageVisual > .jumbotron {
-  background: url("/img/bg-sky.jpg");//空の画像
+  background: url(/img/bg-sky.jpg); //空の画像
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
 }
 
 .pageVisual > .bg-dark {
-  background: url("/img/bg-dark.jpg");//0と1が並んだ画像
+  background: url(/img/bg-dark.jpg); //0と1が並んだ画像
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
@@ -465,7 +465,7 @@ footer {
   text-align: center;
   padding-bottom: 50px;
   background-color: #366fbc;
-  background-image: url("/img/form-bg.jpg");//砂浜の写真
+  background-image: url(/img/form-bg.jpg);//砂浜の写真
   background-position: center bottom;
   background-repeat: no-repeat;
   color:#fff;
