@@ -14,7 +14,7 @@ lang:   ja
         <div class="text-center">
           <h1 class="text-center mb-5">弊社をご検討されている皆さんへ</h1>
         </div>
-        <img src="../../img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+        <img src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5">
       </div><!--//col12-->
     </div><!--//row-->
     

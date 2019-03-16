@@ -85,7 +85,7 @@ html {
   position: relative;
   padding:0;
   margin-bottom: 0;
-  /*background: url("../img/top-image-large.jpg");
+  /*background: url(/img/top-image-large.jpg);
   color: #ffffff;
   padding: 300px 0;
   margin-bottom: 0;
@@ -123,7 +123,7 @@ html {
 .catchCopy {
   text-align: center;
   padding: 100px 0;
-  background: url(../../img/bg-cording.jpg);
+  background: url(/img/bg-cording.jpg);
   background-position: center center;
   background-size: cover;
   & > p {
@@ -143,7 +143,7 @@ html {
 .bg-dark{
    text-align: center;
   padding: 0;
-  background: url(../../img/bg-dark.jpg);
+  background: url(/img/bg-dark.jpg);
   background-position: center center;
   background-size: cover;
   & > p {
@@ -251,7 +251,7 @@ html {
   text-align: center;
   padding: 150px 0;
   margin-bottom:20px;
-  background: url(../img/remote-img.jpg);
+  background: url(/img/remote-img.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -352,7 +352,7 @@ html {
 }
 
 .commutySupport {
-  background: url(../../img/bg-community.jpg);
+  background: url(/img/bg-community.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -415,14 +415,14 @@ html {
 // page
 
 .pageVisual > .jumbotron {
-  background: url("../../img/bg-sky.jpg");//空の画像
+  background: url(/img/bg-sky.jpg); //空の画像
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
 }
 
 .pageVisual > .bg-dark {
-  background: url("../../img/bg-dark.jpg");//0と1が並んだ画像
+  background: url(/img/bg-dark.jpg); //0と1が並んだ画像
   color: #ffffff;
   padding: 100px 0;
   margin-bottom: 0;
@@ -465,7 +465,7 @@ footer {
   text-align: center;
   padding-bottom: 50px;
   background-color: #366fbc;
-  background-image: url("../img/form-bg.jpg");//砂浜の写真
+  background-image: url(/img/form-bg.jpg);//砂浜の写真
   background-position: center bottom;
   background-repeat: no-repeat;
   color:#fff;
@@ -759,11 +759,11 @@ table.caption{
      min-height:60px;
      } 
   dd{
-     background: url(../../img/faq-a.gif) no-repeat;
+     background: url(/img/icons/faq-a.gif) no-repeat;
      overflow: hidden;
      }  
   dt{
-     background: url(../../img/faq-q.gif) no-repeat;
+     background: url(/img/icons/faq-q.gif) no-repeat;
      padding-top: 12px;
   }
 }
