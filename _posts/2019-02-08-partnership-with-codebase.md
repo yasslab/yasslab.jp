@@ -8,7 +8,7 @@ tags: [CODE BASE, Railsチュートリアル, 提携, 沖縄]
 permalink: /ja/posts/partnership-with-codebase
 ---
 
-![CODE BASE x Railsチュートリアル](/img/partnership-with-codebase.png)
+![CODE BASE x Railsチュートリアル](/img/partners/codebase.png)
 
 「宜野湾西海岸を、ITビーチに！」という目的のもと運営されているラボスペース「[CODE BASE](https://www.protosolution.co.jp/codebase/program-school/index.html)」と、Railsチュートリアルの商用ライセンス利用許諾契約を締結いたしました。
 
