@@ -76,7 +76,7 @@ lang:   ja
 	<div class="highlight highlight-source-gfm">
 	  <pre><span class="pl-mh"><span class="pl-mh">##</span><span class="pl-mh"> </span>スポンサー</span>
 本イベントページはオープンソースコミュニティを支援する [<span class="pl-e">YassLab 株式会社</span>]({{ site.base_url }}/) が提供しております。詳細はコミュニティ運営者向け [<span class="pl-e">Doorkeeper スポンサー資料</span>]({{ site.base_url }}/ja/doorkeeper/)をご参照ください。
-[![<span class="pl-e">YassLab 株式会社</span>]({{ site.base_url }}/img/logo_800x200.png)]({{ site.base_url }}/)</pre>
+[![<span class="pl-e">YassLab 株式会社</span>]({{ site.base_url }}/img/logos/800x200.png)]({{ site.base_url }}/)</pre>
 	</div>
 
 	<h2 id="howto" style="margin-top: 50px;">
