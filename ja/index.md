@@ -11,7 +11,7 @@ lang:   ja
     </picture>
 
     <div class="logo-catch">
-      <img src="/img/logo-yasslab.svg" width="270" alt="YassLab Logo">
+      <img src="/img/icons/yasslab.svg" width="270" alt="YassLab Logo">
       <h1>Having a Good Life with OpenSource ;)</h1>
     </div>
   </div>
