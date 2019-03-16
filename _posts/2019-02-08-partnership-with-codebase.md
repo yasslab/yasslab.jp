@@ -2,7 +2,7 @@
 layout: post
 title:  沖縄の CODE BASE と商用ライセンスを締結しました
 thumbnail: bg-sky.jpg
-author: 安川 要平
+author: yasulab
 categories: [Press]
 tags: [CODE BASE, Railsチュートリアル, 提携, 沖縄]
 permalink: /ja/posts/partnership-with-codebase

@@ -2,7 +2,7 @@
 layout: post
 title:  Hackers Champloo 2019 ゴールドスポンサー協賛 🏝
 thumbnail: bg-sky.jpg
-author: 安川 要平
+author: yasulab
 categories: [Press]
 tags: [Hackers Champloo, 沖縄]
 permalink: /ja/posts/hackers-champloo-2019-gold-sponsor

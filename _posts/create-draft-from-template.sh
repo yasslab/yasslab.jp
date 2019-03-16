@@ -15,7 +15,7 @@ else
     echo "layout: post"            >> $TEMPLATE_FILENAME
     echo "title:  タイトル"        >> $TEMPLATE_FILENAME
     echo "thumbnail: bg-sky.jpg"   >> $TEMPLATE_FILENAME
-    echo "author: 安川 要平"       >> $TEMPLATE_FILENAME
+    echo "author: `whoami`"        >> $TEMPLATE_FILENAME
     echo "categories: [blog]"      >> $TEMPLATE_FILENAME
     echo "tags: [press, rails]"    >> $TEMPLATE_FILENAME
     echo "permalink: /ja/posts/$1" >> $TEMPLATE_FILENAME

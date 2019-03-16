@@ -2,7 +2,7 @@
 layout: post
 title:  フクオカRuby大賞で、AWS賞を受賞しました 🏆
 thumbnail: Ruby_Award_2019.png
-author: 安川 要平
+author: yasulab
 categories: [Press]
 tags: [Railsチュートリアル, フクオカRuby大賞]
 permalink: /ja/posts/aws-award-at-fukuoka-ruby-2019
