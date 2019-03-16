@@ -7,11 +7,11 @@ lang:   ja
   <div class="jumbotron">
     <picture>
       <source media="(min-width: 600px)" srcset="../img/top-image-large.jpg">
-      <img src="../img/top-image-small.jpg" alt="Having a Good Life with OpenSource">
+      <img src="/img/top-image-small.jpg" alt="Having a Good Life with OpenSource">
     </picture>
 
     <div class="logo-catch">
-      <img src="../img/logo-yasslab.svg" width="270" alt="YassLab Logo">
+      <img src="/img/logo-yasslab.svg" width="270" alt="YassLab Logo">
       <h1>Having a Good Life with OpenSource ;)</h1>
     </div>
   </div>
@@ -37,7 +37,7 @@ lang:   ja
 
         <div class="row">
           <div class="col-md-4 offset-md-1">
-            <a href="https://railstutorial.jp/" target="_blank"><img src="../img/logo-rails-tutrial.png"
+            <a href="https://railstutorial.jp/" target="_blank"><img src="/img/logos/rails-tutorial.png"
                                                                      alt="Ruby on Rails チュートリアル"
                                                                      class="books"></a>
             <a href="https://railstutorial.jp/" target="_blank">
@@ -48,7 +48,7 @@ lang:   ja
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank">
-              <img src="../img/rails_guides_ebook.gif" alt="Ruby on Rails ガイド" class="books">
+              <img src="/img/logos/rails-guides.gif" alt="Ruby on Rails ガイド" class="books">
             </a>
             <a href="https://railsguides.jp/" target="_blank">
               <button class="btn btn-ruby">上級者向け</button>
