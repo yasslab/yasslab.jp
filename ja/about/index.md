@@ -23,7 +23,7 @@ lang:   ja
 	  各関係者やコミュニティへの価値の還元を前提としつつ、その中で実現可能なビジネスに YassLab 社は挑戦します。
 	  例えば <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA</a> で公開されているRailsガイドであればそのライセンスにしたがって実現できるビジネスを模索し、Railsチュートリアルのような著作物であれば<a href="https://railstutorial.jp/#foreword">原著者の許諾</a>のもと実現できるビジネスを実践します。</p>
         <p class="mb-4">このような関係者への感謝と還元が第一にあり、その上で実現可能なビジネスに挑戦するチームが YassLab 社です。</p>
-        <img src="../../img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5">
+        <img src="/img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5">
 	
         <h2 class="text-center mb-5" id="culture">YassLab 社の文化</h2>
         <p class="mb-4">YassLab 社ではコミュニティと共に成長できる継続的なカタチを大切にします。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
@@ -42,25 +42,25 @@ lang:   ja
       <div class="col-md-12 profile mt-5" id="profile">
 	<h2 class="text-center mb-5">代表者<br class="pc-hidden">プロフィール</h2>
         <div class="profile__image text-center mb-2">
-          <img src="../../img/yohei_300x300.png" alt="安川 要平" class="rounded-circle">
+          <img src="/img/yohei_300x300.png" alt="安川 要平" class="rounded-circle">
         </div>
         <div class="profile__role text-center mb-2">YassLab (株) 代表取締役</div>
         <h4 class="text-center mb-3 h3deco-none">安川 要平</h4>
         <ul class="profile__sns mb-3">
           <li class="profile__sns__icon">
-            <a href="https://www.facebook.com/yasulab" target="_blank"><img src="../../img/icon-fb.png" alt="Facebook"></a>
+            <a href="https://www.facebook.com/yasulab" target="_blank"><img src="/img/icons/facebook.png" alt="Facebook"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://twitter.com/yasulab" target="_blank"><img src="../../img/icon-tw.png" alt="Twitter"></a>
+            <a href="https://twitter.com/yasulab" target="_blank"><img src="/img/icons/twitter.png" alt="Twitter"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://github.com/yasulab" target="_blank"><img src="../../img/icon-gh.png" alt="GitHub"></a>
+            <a href="https://github.com/yasulab" target="_blank"><img src="/img/icons/github.png" alt="GitHub"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img src="../../img/icon-li.png" alt="LinkedIn"></a>
+            <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img src="/img/icons/linkedin.png" alt="LinkedIn"></a>
           </li>
 	  <li class="profile__sns__icon">
-	    <a href="https://qiita.com/yasulab" target="_blank"><img src="../../img/icon-qi.png" alt="Qiita"></a>
+	    <a href="https://qiita.com/yasulab" target="_blank"><img src="/img/icons/qiita.png" alt="Qiita"></a>
 	  </li>
         </ul>
       </div>
@@ -114,15 +114,15 @@ lang:   ja
             </tr>
             <tr>
               <th>顧問社労士</th>
-              <td><img src="../../img/photos/ph_oka.jpg" alt="社会保険労務士法人 岡佳伸事務所"><br><a href="https://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a><br><span class="sigyo-name">岡 佳伸</span></td>
+              <td><img src="/img/photos/oka.jpg" alt="社会保険労務士法人 岡佳伸事務所"><br><a href="https://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a><br><span class="sigyo-name">岡 佳伸</span></td>
             </tr>
             <tr>
               <th>顧問税理士</th>
-              <td><img src="../../img/photos/ph_hayasi.jpg" alt="Hay未来の税理士法人 林 寛之"><br><a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a><br><span class="sigyo-name">林 寛之</span></td>
+              <td><img src="/img/photos/hayasi.jpg" alt="Hay未来の税理士法人 林 寛之"><br><a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a><br><span class="sigyo-name">林 寛之</span></td>
             </tr>
             <tr>
               <th>顧問弁護士</th>
-              <td><img src="../../img/photos/ph_nojima.jpg" alt=">新都心法律事務所 野島 梨恵"><br><a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a><br><span class="sigyo-name">野島 梨恵</span></td>
+              <td><img src="/img/photos/nojima.jpg" alt=">新都心法律事務所 野島 梨恵"><br><a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a><br><span class="sigyo-name">野島 梨恵</span></td>
             </tr>
             <tr>
               <th>関連団体</th>

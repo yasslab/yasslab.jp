@@ -16,7 +16,7 @@ lang:   ja
           <h1 class="mb-5">月額制の<br class="ignore-sp">Ruby/Rails 開発支援</h1>
 	  <h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
         </div>
-	<img src="../../img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+	<img src="/img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
@@ -32,31 +32,31 @@ lang:   ja
       
       <div class="col">
 	<a href="https://www.ruby-lang.org/" target="_blank">
-          <img src="../../img/icon-ruby.png" width="80%" alt="Ruby logo" /></a><br>
+          <img src="/img/icons/ruby.png" width="80%" alt="Ruby logo" /></a><br>
           Ruby / Rails
       </div> <!--//col-->
       
       <div class="col">
-        <img src="../../img/icon-test.png" width="80%" alt="test icon" /><br>Test
+        <img src="/img/icons/test.png" width="80%" alt="test icon" /><br>Test
       </div>  <!--//col--> 
       
       <div class="col">
         <a href="https://github.com/" target="_blank">
-          <img src="../../img/icon-git.png" width="80%" alt="Git logo" /></a><br>Git / GitHub
+          <img src="/img/icons/git.png" width="80%" alt="Git logo" /></a><br>Git / GitHub
       </div>  <!--//col--> 
       
       <div class="w-100"></div> 
 
       <div class="col">
-        <img src="../../img/icon-cloud.png" width="80%" alt="cloud icon" /><br>Heroku / AWS
+        <img src="/img/icons/cloud.png" width="80%" alt="cloud icon" /><br>Heroku / AWS
       </div> <!--//col-->
       
       <div class="col">
-        <img src="../../img/icon-gear.png" width="80%" alt="Continuous Integration image" /><br>Continuous Integration
+        <img src="/img/icons/gear.png" width="80%" alt="Continuous Integration image" /><br>Continuous Integration
       </div>  <!--//col--> 
       
       <div class="col">
-        <img src="../../img/icon-agile.png" width="80%" alt="Agile Web Development image" /><br>Agile Web Development
+        <img src="/img/icons/agile.png" width="80%" alt="Agile Web Development image" /><br>Agile Web Development
       </div>  <!--//col-->  
       
       <div class="col-md-12">
@@ -75,7 +75,7 @@ lang:   ja
         <p>弊社では、IPAが公開しているアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにしております。</p>
         
         <div>
-	  <img src="../../img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" />
+	  <img src="/img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" />
 	  <br><br>
           <center>参考: <a href="https://www.ipa.go.jp/files/000005404.pdf">アジャイル開発向けモデル契約案について</a> (IPA)</center>
 	</div>
@@ -131,15 +131,15 @@ lang:   ja
         
         <table class="caption">
           <tr>
-            <th><img src="../../img/agile-available.png" alt="Available" /></th>
+            <th><img src="/img/agile-available.png" alt="Available" /></th>
             <td>現在ご対応が可能です。ご相談お待ちしております。</td>
           </tr>
           <tr>
-            <th><img src="../../img/agile-adjusting.png" alt="Adjusting" /></th>
+            <th><img src="/img/agile-adjusting.png" alt="Adjusting" /></th>
             <td>各社と予定調整中です。まだ間に合いますので、お気軽に<a href="#contact">お問い合わせ</a>ください。</td>
           </tr>
           <tr>
-            <th><img src="../../img/agile-reserved.png"  alt="Reserved" /></th>
+            <th><img src="/img/agile-reserved.png"  alt="Reserved" /></th>
             <td>契約が締結されました。様々なお問い合わせ、ありがとうございました。</td>
           </tr>
         </table>
