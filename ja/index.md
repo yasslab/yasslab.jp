@@ -7,7 +7,7 @@ lang:   ja
   <div class="jumbotron">
     <picture>
       <source media="(min-width: 600px)" srcset="/img/cover-photo.jpg">
-      <img src="/img/cover-photo-small.jpg" alt="Having a Good Life with OpenSource">
+      <img src="/img/cover-photo-mobile.jpg" alt="Having a Good Life with OpenSource">
     </picture>
 
     <div class="logo-catch">
