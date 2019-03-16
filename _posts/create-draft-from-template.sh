@@ -17,7 +17,7 @@ else
     echo "thumbnail: bg-sky.jpg"   >> $TEMPLATE_FILENAME
     echo "author: `whoami`"        >> $TEMPLATE_FILENAME
     echo "categories: [blog]"      >> $TEMPLATE_FILENAME
-    echo "tags: [press, rails]"    >> $TEMPLATE_FILENAME
+    echo "tags: [登壇, Rails]"     >> $TEMPLATE_FILENAME
     echo "permalink: /ja/posts/$1" >> $TEMPLATE_FILENAME
     echo "---"                     >> $TEMPLATE_FILENAME
     echo ""                        >> $TEMPLATE_FILENAME

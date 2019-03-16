@@ -4,7 +4,7 @@ title:  情報処理学会 全国大会でリモートワークについて発�
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Blog]
-tags: [Remote Work, GitHub, 情報処理学会]
+tags: [リモートワーク, GitHub, 情報処理学会, 登壇]
 permalink: /ja/posts/work-life-balance-at-81st-ipsj
 ---
 
