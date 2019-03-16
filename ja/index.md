@@ -28,7 +28,7 @@ lang:   ja
   </div>
 </section>
 
-<section class="service entry_content" id="products">
+<section class="products entry_content" id="products">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -62,11 +62,11 @@ lang:   ja
   </div>
 </section>
 
-<section class="developmentSupport entry_content" id="services">
+<section class="service entry_content" id="service">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3 style="line-height: 2.0em;"><a href="#services" style="color: white;">《月額制の Ruby/Rails 開発支援》</a><br>
+        <h3 style="line-height: 2.0em;"><a href="#service" style="color: white;">《月額制の Ruby/Rails 開発支援》</a><br>
 		開発事業を月単位でサポートします</h3>
         <div class="row mb-5">
           <div class="col-4">
@@ -159,7 +159,7 @@ lang:   ja
 	  {% include member.html username='hachi8833' link_to='twitter'
 	  caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
 	  {% include member.html username='shishi4tw' link_to='twitter' offset='offset-md-2'
-	  caption='プログラマー。<a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a>の発起人' %}
+	  caption='プログラマー。 <a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a> 発起人' %}
 	  {% include member.html username='crafter_gene' link_to='twitter'
 	  caption='品質管理が得意。趣味は広くそこそこ深く' %}
         </div>
@@ -215,7 +215,7 @@ lang:   ja
   </section>
 </div>
 
-<section class="commutySupport entry_content" id="community">
+<section class="community entry_content" id="community">
   <div class="container">
     <div class="row">
       <div class="col-12">

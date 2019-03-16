@@ -154,13 +154,13 @@ html {
   }
 }
 
+.products,
 .service,
-.developmentSupport,
 .aboutVisual,
 .okinawaMember,
 .tokyoMember,
 .sns,
-.commutySupport,
+.community,
 .partner,
 .press {
   text-align: center;
@@ -206,7 +206,7 @@ html {
   }
 }
 
-.service {
+.products {
   button {
     /*border-radius: 0px;*/
     margin-bottom: 20px;
@@ -228,7 +228,7 @@ html {
   font-weight: normal;
 }
 
-.developmentSupport {
+.service {
   overflow: visible !important;
   background: -webkit-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
   background: -moz-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
@@ -351,7 +351,7 @@ html {
   }
 }
 
-.commutySupport {
+.community {
   background: url(/img/bg-community.jpg);
   background-position: center center;
   background-size: cover;
