@@ -16,7 +16,7 @@ permalink: /ja/posts/work-life-balance-at-81st-ipsj
 
 スライド資料と発表動画は下記から公開しているので、こちらもぜひ! 👀✨
 
-## 📜 スライド資料
+## 📜 発表スライド
 
 <div style="margin-bottom: 80px;">
   <script async class="speakerdeck-embed" data-id="b223a0b4df8545fca3ff7c7daecd2212" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
