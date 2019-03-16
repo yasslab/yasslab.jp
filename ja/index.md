@@ -6,8 +6,8 @@ lang:   ja
 <section class="mainVisual">
   <div class="jumbotron">
     <picture>
-      <source media="(min-width: 600px)" srcset="/img/top-image-large.jpg">
-      <img src="/img/top-image-small.jpg" alt="Having a Good Life with OpenSource">
+      <source media="(min-width: 600px)" srcset="/img/cover-photo.jpg">
+      <img src="/img/cover-photo-small.jpg" alt="Having a Good Life with OpenSource">
     </picture>
 
     <div class="logo-catch">
