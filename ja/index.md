@@ -283,7 +283,7 @@ lang:   ja
 </section>
 -->
 
-<section class="whatsNew" id="press">
+<section class="press" id="press">
   <div class="container">
     <div class="row">
       <div class="col-12">
