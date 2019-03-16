@@ -13,13 +13,13 @@ lang:   ja
 ## [ロゴ画像について](#image) {#image}
 
 ロゴ画像には長方形と正方形の2つがありますが、キャッチコピーが記載されている長方形のロゴ画像の使用を推奨しています。
-![背景青で長方形、キャッチコピーあり](/img/logo-text.png)
+![背景青で長方形、キャッチコピーあり](/img/logos/1076x389.png)
 
 ただし、掲載媒体の幅や解像度などの制約によっては上記ロゴが使用しづらい場面もあります。そういった場合は下記のキャッチコピーなしのロゴ画像や正方形のロゴ画像をご使用ください。
 
-![背景青で長方形、キャッチコピーなし](/img/logo-blue.png)
+![背景青で長方形、キャッチコピーなし](/img/logos/1076x389_no-text.png)
 
-![いろいろなロゴパターン](/img/logo-pattern.jpg)
+![いろいろなロゴパターン](/img/brand-pattern.jpg)
 
 <br>
 
@@ -27,8 +27,8 @@ lang:   ja
 
 掲載媒体によっては青色の背景色が合わない場面もあります。透明の背景色がどうしても必要な場合に限り、下記のロゴ画像をご使用ください。
 
-![背景白で長方形、キャッチコピーあり](/img/logo-text-white.jpg)
-![背景白で長方形、キャッチコピーなし](/img/logo-blue-normal.jpg)
+![背景白で長方形、キャッチコピーあり](/img/logos/1076x389_white.jpg)
+![背景白で長方形、キャッチコピーなし](/img/logos/1076x389_white_no-text.jpg)
 
 <!--
 ## カタカナの場合
@@ -55,5 +55,7 @@ lang:   ja
 [![Screenshot: 公開ロゴデータ - Dropbox](/img/logos-on-dropbox.png)](https://www.dropbox.com/sh/mvjm7ascrn85awb/AADIoBdfQN7YUv3O3jAGfpVGa?dl=0)
 
 <center><a href="https://www.dropbox.com/sh/mvjm7ascrn85awb/AADIoBdfQN7YUv3O3jAGfpVGa?dl=0">YassLab 株式会社 公開ロゴデータ - Dropbox</a></center>
+
+<br>
 
 <div id="contact"></div>
