@@ -4,7 +4,7 @@ title:  📜 ブログ記事まとめ
 thumbnail: bg-sky.jpg
 ---
 
-<ul style="list-style: none; padding-top: 10px;">
+<ul style="list-style: none; padding-top: 10px; padding-bottom: 70px;">
   {% assign max_related = 10000 %}
   {% assign min_common_tags = 0 %}
   {% assign max_related_counter = 0 %}
