@@ -32,7 +32,7 @@ permalink: /ja/posts/remote-first-at-megane-fes-2019
 
 ## 👀 合わせて読みたい: <br>社員目線のリモートワーク
 
-上記のスライド資料と発表動画は会社側 (役員目線) で見たリモートワークの話となります。社員目線での話は情報処理学会での発表した記事『[情報処理学会 全国大会でリモートワークについて発表](/ja/posts/work-life-balance-at-81st-ipsj)』をご参照ください 📜 👀
+上記のスライド資料と発表動画は会社側 (役員目線) で見たリモートワークの話となります。社員目線での話は情報処理学会での発表した記事『[情報処理学会 全国大会でリモートワークについて発表](https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj)』をご参照ください 📜 👀
 
 Have a Nice Remote Working ;)
 
