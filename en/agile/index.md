@@ -11,7 +11,7 @@ With our experienced developers, we will suport your project.
 
 _See this in Japanese? [Here](/ja/agile/) ;)_   
 
-<img src="/img/members.png" alt='Team Photo' width='100%' />
+<img src="/img/team.png" alt='Team Photo' width='100%' />
 
 <br />
 
