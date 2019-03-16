@@ -16,7 +16,7 @@ lang:   ja
           <h1 class="mb-5">月額制の<br class="ignore-sp">Ruby/Rails 開発支援</h1>
 	  <h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
         </div>
-	<img src="/img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+	<img src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5">
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->

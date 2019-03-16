@@ -50,7 +50,7 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
 
 <div class="row">
   <div class="col-md-12">
-    <img src="/img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+    <img src="/img/team.png" alt="YassLab Team Photos" class="mt-3 mb-5">
   </div><!--//col12-->
 </div><!--//row-->
 

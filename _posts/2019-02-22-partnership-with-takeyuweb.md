@@ -29,7 +29,7 @@ YassLab 株式会社は、沖縄と東京に拠点を置く[完全リモート�
 
 <div >
   <a href="https://yasslab.jp/ja/agile">
-    <img src="https://yasslab.jp/img/join_image.png"
+    <img src="https://yasslab.jp/img/team.png"
          alt="YassLab Images" />
   </a>
   <br><br>

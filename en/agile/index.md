@@ -11,7 +11,7 @@ With our experienced developers, we will suport your project.
 
 _See this in Japanese? [Here](/ja/agile/) ;)_   
 
-<img src="/img/photos/team.jpeg" alt='Team Photo' width='100%' />
+<img src="/img/members.png" alt='Team Photo' width='100%' />
 
 <br />
 
@@ -81,7 +81,7 @@ Our basic price is **1,000,000 yen/month.**
 	- [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
 	- [Mitou Foundation](http://www.mitou.org/) (Project Manager at [Mitou Jr.](http://jr.mitou.org/))
 
-![YassLab Logo](/img/logo_rect_copy.png)    
+![YassLab Logo](/img/logos/800x200.png)    
 <br />
 
 ## Contact
