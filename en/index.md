@@ -50,7 +50,7 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
 
 <div class="row">
   <div class="col-md-12">
-    <img src="../../img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+    <img src="/img/join_image.png" alt="チーム開発イメージ" class="mt-3 mb-5">
   </div><!--//col12-->
 </div><!--//row-->
 
@@ -63,25 +63,25 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
 
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
-    <img src="../../img/yohei_300x300.png" alt="Photo of Yohei Yasukawa" class="rounded-circle">
+    <img src="/img/yohei_300x300.png" alt="Photo of Yohei Yasukawa" class="rounded-circle">
   </div>
   <div class="profile__role text-center mb-2">CEO of YassLab Inc.</div>
   <h4 class="text-center mb-3 h3deco-none">Yohei Yasukawa</h4>
   <ul class="profile__sns mb-3">
     <li class="profile__sns__icon">
-      <a href="https://www.facebook.com/yasulab" target="_blank"><img src="../../img/icon-fb.png" alt="Facebook"></a>
+      <a href="https://www.facebook.com/yasulab" target="_blank"><img src="/img/icons/facebook.png" alt="Facebook"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://twitter.com/yasulab" target="_blank"><img src="../../img/icon-tw.png" alt="Twitter"></a>
+      <a href="https://twitter.com/yasulab" target="_blank"><img src="/img/icons/twitter.png" alt="Twitter"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://github.com/yasulab" target="_blank"><img src="../../img/icon-gh.png" alt="GitHub"></a>
+      <a href="https://github.com/yasulab" target="_blank"><img src="/img/icons/github.png" alt="GitHub"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img src="../../img/icon-li.png" alt="LinkedIn"></a>
+      <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img src="/img/icons/linkedin.png" alt="LinkedIn"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://qiita.com/yasulab" target="_blank"><img src="../../img/icon-qi.png" alt="Qiita"></a>
+      <a href="https://qiita.com/yasulab" target="_blank"><img src="/img/icons/qiita.png" alt="Qiita"></a>
     </li>
   </ul>
 </div>

@@ -6,7 +6,7 @@ lang:   ja
 <section class="mainVisual">
   <div class="jumbotron">
     <picture>
-      <source media="(min-width: 600px)" srcset="../img/top-image-large.jpg">
+      <source media="(min-width: 600px)" srcset="/img/top-image-large.jpg">
       <img src="/img/top-image-small.jpg" alt="Having a Good Life with OpenSource">
     </picture>
 
@@ -71,19 +71,19 @@ lang:   ja
         <div class="row mb-5">
           <div class="col-4">
             <figure id="ruby">
-              <img src="../../img/icon-ruby-pale.png" width="80%" alt="Ruby logo" />
+              <img src="/img/icons/ruby-pale.png" width="80%" alt="Ruby logo" />
                <figcaption>Ruby / Rails</figcaption>
             </figure>
           </div>
           <div class="col-4">
             <figure id="cloud">
-              <img src="../../img/icon-cloud-pale.png" width="80%" alt="cloud icon" />
+              <img src="/img/icons/cloud-pale.png" width="80%" alt="cloud icon" />
               <figcaption>Heroku / AWS</figcaption>
             </figure>
           </div>
           <div class="col-4">
             <figure id="agile">
-              <img src="../../img/icon-agile-pale.png" width="80%" alt="Agile Development image" />
+              <img src="/img/icons/agile-pale.png" width="80%" alt="Agile Development image" />
               <figcaption>Agile Development</figcaption>
             </figure>
           </div>
@@ -179,7 +179,7 @@ lang:   ja
       <div class="col-6">
         <div class="card card__qiita">
           <div class="card__icon">
-            <a href="https://qiita.com/organizations/yasslab"><img src="../img/icon_qiita.png" alt="YassLab organization in Qiita"></a>
+            <a href="https://qiita.com/organizations/yasslab"><img src="/img/logos/qiita.png" alt="YassLab organization in Qiita"></a>
           </div>
           <dl class="row">
             <dt class="col-md-6">投稿数</dt>
@@ -192,7 +192,7 @@ lang:   ja
       <div class="col-6">
         <div class="card card__github">
           <div class="card__icon">
-            <a href="https://github.com/yasslab"><img src="../img/icon_github.png" alt="Yasslab organization in GitHub"></a>
+            <a href="https://github.com/yasslab"><img src="/img/logos/github.png" alt="Yasslab organization in GitHub"></a>
           </div>
           <dl class="row">
             <dt class="col-md-6">リポジトリ数</dt>
@@ -225,7 +225,7 @@ lang:   ja
           <div class="col-md-4">
             <figure>
               <a href="http://ruby.okinawa/" target="_blank">
-                <img src="../img/comu-okinawa-rb.gif" alt="Okinawa.rb">
+                <img src="/img/logos/okinawarb.gif" alt="Okinawa Ruby User Group">
               </a>
               <figcaption><a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議などの運営支援</a></figcaption>
             </figure>
@@ -233,7 +233,7 @@ lang:   ja
           <div class="col-md-4">
             <figure>
               <a href="/ja/doorkeeper/">
-                <img src="../img/comu-doorkeeper.gif" alt="Doorkeeper">
+                <img src="/img/logos/doorkeeper.gif" alt="Doorkeeper スポンサーシップ">
               </a>
               <figcaption><a href="/ja/doorkeeper/">イベント管理サービス代の補助</a></figcaption>
             </figure>
@@ -241,7 +241,7 @@ lang:   ja
           <div class="col-md-4">
             <figure>
               <a href="https://coderdojo.jp/" target="_blank">
-                <img src="../img/comu-coderdojo-japan.png" alt="CorderDojo Japan">
+                <img src="/img/logos/coderdojo-japan.gif" alt="CoderDojo Japan - 子どものためのプログラミング道場">
               </a>
               <figcaption><a href="/ja/agile">Webサービスの開発支援</a></figcaption>
             </figure>
@@ -265,17 +265,17 @@ lang:   ja
     <div class="row">
       <div class="col-4">
         <a href="https://jr.mitou.org/" target="_blank">
-          <img src="../img/logo-mitoujr.png" alt="未踏ジュニア">
+          <img src="/img/logos/mitoujr.png" alt="未踏ジュニア">
         </a>
       </div>
       <div class="col-4">
         <a href="https://franliber.co.jp/" target="_blank">
-          <img src="../img/partner-franliber.png" alt="FranLiber" class="bd-bk">
+          <img src="/img/logos/franliber.png" alt="FranLiber" class="bd-bk">
         </a>
       </div>
       <div class="col-4">
         <a href="https://railscp.com/" target="_blank">
-          <img src="../img/partner-railstest.png" alt="（社）Rails技術者認定試験運営委員会" class="bd-bk">
+          <img src="/img/logos/railscp.png" alt="（社）Rails技術者認定試験運営委員会" class="bd-bk">
         </a>
       </div>
     </div>
