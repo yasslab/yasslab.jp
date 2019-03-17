@@ -44,6 +44,6 @@ YassLab 株式会社では沖縄と東京にそれぞれ作業用オフィスが
 
 さらに詳しく聞いてみたいことなどあれば、Twitter の [@YassLab](https://twitter.com/YassLab) アカウント宛に聞いてみてください ;) 🐣
 
-[![YassLab Inc.](/img/logo_800x200.png)](/)
+[![YassLab Inc.](/img/logos/800x200.png)](/)
 
 

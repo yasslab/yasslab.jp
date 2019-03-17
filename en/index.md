@@ -96,7 +96,7 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 
 ### Company Profile {#company}
 
-![YassLab](/img/logo_800x200.png)
+![YassLab](/img/logos/800x200.png)
 
 - Name: YassLab Inc.
 - Owner: Yohei Yasukawa
