@@ -18,6 +18,6 @@ MEMO: コンテンツ部分のみ (`pHFRHN-wGYU`) を当該動画に差し替え
 
 いかがでしたでしょうか? hogehoge...
 
-[![YassLab Inc.](/img/logo_800x200.png)](/)
+[![YassLab Inc.](/img/logos/800x200.png)](/)
 
 

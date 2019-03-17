@@ -22,15 +22,15 @@ permalink: /ja/posts/krisp-trial
 
 ということで早速 Krisp を試してみました。[Krisp の公式サイト](https://krisp.ai/)からアプリをダウンロードして、画面に指示に従ってセットアップを進めていきます (執筆時点では macOS のみ対応でした)。
 
-[![Krisp Website](/img/krisp-setup-0.png)](https://krisp.ai/)
+[![Krisp Website](/img/posts/krisp-setup-0.png)](https://krisp.ai/)
 
 セットアップが終わると、メニューバーに次のようなアプリが表示されるようになります。「Mute Noise」というトグルボタンからノイズを軽減するかどうか切り替えできるので、もし OFF になっていたら忘れずに ON にしておきましょう。
 
-![Krisp Menu Bar](/img/krisp-setup-1.png)
+![Krisp Menu Bar](/img/posts/krisp-setup-1.png)
 
 あとは、使いたいビデオ会議アプリの設定画面から、マイクの設定を Krisp に変更します。YassLab 社では普段 [Zoom](https://zoom.us/) を使っているので、Zoom の設定画面から次のように設定しました。
 
-![Krisp Setup in Zoom](/img/krisp-setup-2.png)
+![Krisp Setup in Zoom](/img/posts/krisp-setup-2.png)
 
 これで準備完了です。メニュー画面から「Mute Noise」を ON/OFF にして実際に試してみた音声が次のとおりになります。
 
