@@ -27,6 +27,6 @@ Doorkeeper スポンサーシップ - YassLab
 
 YassLab 社では今後も引き続き沖縄のIT系コミュニティを支援していき、コミュニティと共に成長していけるカタチを目指していきます 🏝🤝🏢
 
-[![YassLab Inc.](/img/logo_800x200.png)](/)
+[![YassLab Inc.](/img/logos/800x200.png)](/)
 
 
