@@ -257,11 +257,12 @@ v
 また、社員は、業務に支障がない限り、会社が指定する方法で通常の始業時刻より早く出勤 (以下、早出勤) することができる。ただし、早出勤が可能な時刻は午前8時から通常の始業時刻までとし、それより前の時刻から早出勤したい場合は事前に会社から許諾を得るものとする。
 
 <table class="table text-center table-bordered">
-  <th>
+  <tr>
+    <td></td>
     <td>通常</td>
     <td>早出勤</td>
     <td>出勤例</td>
-  </th>
+  </tr>
   <tr>
     <td>始業時刻</td>
     <td>10:00</td>
@@ -382,7 +383,7 @@ v
     <td>5年6ヶ月</td>
     <td>6年6ヶ月〜</td>
   </tr>
-  <tr class="text-center">
+  <tr>
     <td>日数</td>
     <td>11日</td>
     <td>12日</td>
@@ -398,11 +399,11 @@ v
 
 <table class="table text-center table-bordered">
   <tr>
-    <td rowspan="2" class="text-center">週所定労働日数</td>
-    <td rowspan="2" class="text-center">１年間の所定労働日数</td>
-    <td colspan="7" class="text-center">勤続年数</td>
+    <td rowspan="2">週所定労働日数</td>
+    <td rowspan="2">１年間の所定労働日数</td>
+    <td colspan="7">勤続年数</td>
   </tr>
-  <tr class="text-center">
+  <tr>
     <td>6ヶ月</td>
     <td>1年6ヶ月</td>
     <td>2年6ヶ月</td>
@@ -411,7 +412,7 @@ v
     <td>5年6ヶ月</td>
     <td>6年6ヶ月<br>以上</td>
   </tr>
-  <tr class="text-center">
+  <tr>
     <td>4日</td>
     <td>169～216日</td>
     <td>7日</td>
@@ -422,7 +423,7 @@ v
     <td>13日</td>
     <td>15日</td>
   </tr>
-  <tr class="text-center">
+  <tr>
     <td>3日</td>
     <td>121～168日</td>
     <td>5日</td>
@@ -433,7 +434,7 @@ v
     <td>10日</td>
     <td>11日</td>
   </tr>
-  <tr class="text-center">
+  <tr>
     <td>2日</td>
     <td>73～120日</td>
     <td>3日</td>
@@ -444,7 +445,7 @@ v
     <td>6日</td>
     <td>7日</td>
   </tr>
-  <tr class="text-center">
+  <tr>
     <td>1日</td>
     <td>48～72日</td>
     <td>1日</td>
