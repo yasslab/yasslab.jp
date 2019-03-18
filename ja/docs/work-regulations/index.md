@@ -528,7 +528,7 @@ title:  就業規則
 {% include numbering-chapter.html title='賃金・退職金等' %}
 
 {% include numbering-section.html title='賃金' %}
-賃金の種類、計算および支給方法等給与に関する事項は、「[賃金規程](../wage-regulations/)」に別に定める。
+賃金の種類、計算および支給方法等給与に関する事項は、「[賃金規程](/ja/docs/wage-regulations/)」に別に定める。
 
 {% include numbering-section.html title='退職金' %}
 退職金は支給しない。
