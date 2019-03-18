@@ -84,11 +84,11 @@ lang:   ja
     <div class="row">
       <div class="col-md-8 offset-md-2 company" id="company">
         <div class="text-center">
-          <h2 class="text-center mt-5 mb-5" style="margin-top:100px;">会社概要</h2>
+          <h2 class="mt-5 mb-5" style="margin-top:100px;">会社概要</h2>
         </div>
-
-	{% include profile_company.html %}
-	
+	<div class="offset-md-1">
+	  {% include profile_company.html %}
+	</div>
       </div>
     </div>
   </div>
