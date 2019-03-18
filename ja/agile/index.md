@@ -204,7 +204,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-	<h2 class="text-center mb-5"><a href="#clients">これまでの取引先</a></h2>
+	<h2 class="text-center mt-5 mb-5"><a href="#clients">これまでの取引先</a></h2>
 
 	<p>YassLab 社が展開する各種事業 (開発支援サービス含む) のこれまでの取引先をまとめております。カッコ内は取引の概略です。こちらも合わせてご参考にしていただけると幸いです。</p>
 
