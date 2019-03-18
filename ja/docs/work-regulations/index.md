@@ -23,13 +23,13 @@ title:  就業規則
 
 {% include numbering-section.html title='目的' %}
 本規則は、YassLab株式会社（以下「会社」という）の従業員の就業に関する事項を定めるものである。
-
+v
 {% include numbering-section.html title='従業員の種類' %}
 従業員の種類は次の通りとする。
 
-<table>
+<table class="table text-center table-bordered">
   <tr>
-    <td>号　</td>
+    <td>号</td>
     <td>区分</td>
     <td>雇用期間の定め</td>
     <td>所定労働時間</td>
@@ -39,7 +39,7 @@ title:  就業規則
     <td>１</td>
     <td>正社員</td>
     <td>なし</td>
-    <td>第２６条第１項<br>に基づく</td>
+    <td>第２６条第１項に基づく</td>
     <td>月給</td>
   </tr>
   <tr>
@@ -51,17 +51,17 @@ title:  就業規則
   </tr>
   <tr>
     <td>３</td>
-    <td>フルタイマー<br>社員</td>
+    <td>フルタイマー社員</td>
     <td>個別に定める</td>
     <td>正社員と同等</td>
-    <td>日給または<br>時間給のいずれか</td>
+    <td>日給または時間給のいずれか</td>
   </tr>
   <tr>
     <td>４</td>
-    <td>パートタイマー<br>社員</td>
+    <td>パートタイマー社員</td>
     <td>個別に定める</td>
     <td>正社員より少ない</td>
-    <td>日給または<br>時間給のいずれか</td>
+    <td>日給または時間給のいずれか</td>
   </tr>
 </table>
 
@@ -256,39 +256,29 @@ title:  就業規則
 
 また、社員は、業務に支障がない限り、会社が指定する方法で通常の始業時刻より早く出勤 (以下、早出勤) することができる。ただし、早出勤が可能な時刻は午前8時から通常の始業時刻までとし、それより前の時刻から早出勤したい場合は事前に会社から許諾を得るものとする。
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-g145{font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
-.tg .tg-gh1y{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
-.tg .tg-804w{font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
-</style>
-
-<table class="tg">
+<table class="table text-center table-bordered">
+  <th>
+    <td>通常</td>
+    <td>早出勤</td>
+    <td>出勤例</td>
+  </th>
   <tr>
-    <th class="tg-g145"></th>
-    <th class="tg-gh1y">通常<br></th>
-    <th class="tg-gh1y">早出勤</th>
-    <th class="tg-gh1y">出勤例</th>
+    <td>始業時刻</td>
+    <td>10:00</td>
+    <td>08:00</td>
+    <td>08:30</td>
   </tr>
   <tr>
-    <td class="tg-gh1y"><span style="font-weight:bold">始業時刻</span></td>
-    <td class="tg-804w">10:00</td>
-    <td class="tg-804w">08:00</td>
-    <td class="tg-804w">08:30</td>
+    <td>終業時刻</td>
+    <td>19:00</td>
+    <td>17:00</td>
+    <td>17:30</td>
   </tr>
   <tr>
-    <td class="tg-gh1y"><span style="font-weight:bold">終業時刻</span></td>
-    <td class="tg-804w">19:00</td>
-    <td class="tg-804w">17:00</td>
-    <td class="tg-804w">17:30</td>
-  </tr>
-  <tr>
-    <td class="tg-gh1y">休憩時間</td>
-    <td class="tg-804w">1時間</td>
-    <td class="tg-804w">1時間</td>
-    <td class="tg-804w">1時間</td>
+    <td>休憩時間</td>
+    <td>1時間</td>
+    <td>1時間</td>
+    <td>1時間</td>
   </tr>
 </table>
 
@@ -382,24 +372,17 @@ title:  就業規則
 
 ２　入社後6か月経過した日より1年を超えて継続勤務し、当該応答日まで1年間の労働日の8割以上勤務した社員に対して、次のとおり年次有給休暇を与える。
 
-<table>
+<table class="table text-center table-bordered">
   <tr>
-    <td>勤続
-期間</td>
-    <td>1年
-6ヶ月</td>
-    <td>2年
-6ヶ月</td>
-    <td>3年
-6ヶ月</td>
-    <td>4年
-6ヶ月</td>
-    <td>5年
-6ヶ月</td>
-    <td>6年
-6ヶ月〜</td>
+    <td>勤続期間</td>
+    <td>1年6ヶ月</td>
+    <td>2年6ヶ月</td>
+    <td>3年6ヶ月</td>
+    <td>4年6ヶ月</td>
+    <td>5年6ヶ月</td>
+    <td>6年6ヶ月〜</td>
   </tr>
-  <tr>
+  <tr class="text-center">
     <td>日数</td>
     <td>11日</td>
     <td>12日</td>
@@ -413,42 +396,24 @@ title:  就業規則
 
 ３　前項に関わらず、所定労働時間が30時間未満のものであって，かつ所定労働日数が週4日以下または年間216日以下の者については、労働基準法第39条第3項に定める比例付与の対象とする。
 
-<table>
+<table class="table text-center table-bordered">
   <tr>
-    <td>
-週所定労働日数</td>
-    <td>
-１年間の所定労働日数</td>
-    <td>勤続年数</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2" class="text-center">週所定労働日数</td>
+    <td rowspan="2" class="text-center">１年間の所定労働日数</td>
+    <td colspan="7" class="text-center">勤続年数</td>
   </tr>
-  <tr>
-    <td></td>
-    <td>
-</td>
-    <td>６か月</td>
-    <td>１年
-６か月</td>
-    <td>２年
-６か月</td>
-    <td>３年
-６か月</td>
-    <td>４年
-６か月</td>
-    <td>５年
-６か月</td>
-    <td>６年
-６か月
-以上</td>
+  <tr class="text-center">
+    <td>6ヶ月</td>
+    <td>1年6ヶ月</td>
+    <td>2年6ヶ月</td>
+    <td>3年6ヶ月</td>
+    <td>4年6ヶ月</td>
+    <td>5年6ヶ月</td>
+    <td>6年6ヶ月<br>以上</td>
   </tr>
-  <tr>
-    <td>４日</td>
-    <td>169日～216日</td>
+  <tr class="text-center">
+    <td>4日</td>
+    <td>169～216日</td>
     <td>7日</td>
     <td>8日</td>
     <td>9日</td>
@@ -457,9 +422,9 @@ title:  就業規則
     <td>13日</td>
     <td>15日</td>
   </tr>
-  <tr>
-    <td>３日</td>
-    <td>121日～168日</td>
+  <tr class="text-center">
+    <td>3日</td>
+    <td>121～168日</td>
     <td>5日</td>
     <td>6日</td>
     <td>6日</td>
@@ -468,9 +433,9 @@ title:  就業規則
     <td>10日</td>
     <td>11日</td>
   </tr>
-  <tr>
-    <td>２日</td>
-    <td>73日～120日</td>
+  <tr class="text-center">
+    <td>2日</td>
+    <td>73～120日</td>
     <td>3日</td>
     <td>4日</td>
     <td>4日</td>
@@ -479,9 +444,9 @@ title:  就業規則
     <td>6日</td>
     <td>7日</td>
   </tr>
-  <tr>
-    <td>１日</td>
-    <td>48日～72日</td>
+  <tr class="text-center">
+    <td>1日</td>
+    <td>48～72日</td>
     <td>1日</td>
     <td>2日</td>
     <td>2日</td>

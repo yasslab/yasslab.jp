@@ -25,7 +25,7 @@ title:  賃金規程
 {% include numbering-section.html title='賃金の種類' %}
 賃金の構成は、次のとおりとする。
 
-<table>
+<table class="table text-center table-bordered">
   <tr>
     <td rowspan="4">賃金</td>
     <td rowspan="3">給与</td>
@@ -59,12 +59,12 @@ title:  賃金規程
 ３　第１項に関わらず、労働基準法第４１条に規定する監督若しくは管理の地位にある者、あるいは機密の事務を取り扱う者に対しては、時間外労働手当および休日労働手当を適用しない。
 
 
-{% include numbering-chapter.html title='給与計算および支払い方法' %}
+{% include numbering-chapter.html title='給与計算および支払方法' %}
 
 {% include numbering-section.html title='計算期間および支払日' %}
 給与の計算期間および支払日は、次のとおりとする。
 
-<table>
+<table class="table text-center table-bordered">
   <tr>
     <td>給与計算期間</td>
     <td>当月1日から当月末日（給与締切日）</td>
@@ -91,7 +91,7 @@ title:  賃金規程
 {% include numbering-section.html title='語句の定義' %}
 本規程の給与計算における語句の定義は次のとおりとする。
 
-<table>
+<table class="table text-center table-bordered">
   <tr>
     <td>語句</td>
     <td>定義</td>
@@ -137,12 +137,11 @@ title:  賃金規程
 
 ２　本規程の給与計算に使用する時間数の単位は次のとおりとする。
 
-<table>
+<table class="table text-center table-bordered">
   <tr>
     <td>区分</td>
     <td>単位</td>
-    <td>関連
-条文</td>
+    <td>関連条文</td>
   </tr>
   <tr>
     <td>
