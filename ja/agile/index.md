@@ -213,6 +213,7 @@ lang:   ja
               <li><a href="https://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a> (共同開発支援)</li>
               <li><a href="http://www.recruit-mp.co.jp/">リクルートマーケティングパートナーズ</a> (新機能の開発支援)</li>
               <li><a href="https://mtl.recruit.co.jp/">リクルートホールディングス - Media Technology Lab</a> (同上)</li>
+	      <li><a href="https://agileware.jp">アジャイルウェア</a> (Redmineプラグインの開発)</li>
 	      <li><a href="https://coderdojo.jp">CoderDojo Japan</a> (公式サイトの開発・運営)</li>
 	      <li><a href="https://www.nttr.co.jp/">NTTレゾナント</a> (新サービス開発支援)</li>
               <li><a href="https://speee.jp/">Speee</a> (コードレビュー支援)</li>
@@ -229,8 +230,9 @@ lang:   ja
 	      <li><a href="https://www.value-press.com/pressrelease/190639">ShareWis</a> (コンテンツ提携)</li>
 	      <li><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html">Progate</a> (コンテンツ提携)</li>
 	      <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html">ポテパンキャンプ</a> (業務提携)</li>
+	      <li><a href="https://yasslab.jp/ja/posts/partnership-with-codebase">CODE BASE</a> (業務提携)</li>
 	      <li><a href="https://www.members.co.jp/company/news/2018/0806_2.html">メンバーズキャリア</a> (技術顧問)</li>
-              <!--<li><a href="https://tickleapp.com/ambassador/">Tickle: Programming re-imagined for the connected world</a> (台湾)</li>-->
+              <li>他、<a href="http://enpit.coins.tsukuba.ac.jp/">筑波大学</a>、<a href="https://ie.u-ryukyu.ac.jp/enpit/">琉球大学</a>、<a href="https://www.kogakuin.ac.jp/">工学院大学</a>、<a href="https://www.osakac.ac.jp/project_now/cs/208">大阪電気通信大学</a>、<a href="https://aiit.ac.jp/">AIIT</a>など (教材提供)</li>
             </ul>
           </li>
         </ul>
@@ -245,51 +247,13 @@ lang:   ja
 <section class="entry_content pt-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 offset-md-2  text-center company">
-        <h2 class="text-center mb-5"><a href="#references">他、参考情報</a></h2>
-
-	{% include profile_company.html %}
-        <ul>
-          <li>会社名: {{ site.company.name }} 株式会社</li>
-          <li>社員数: {{ site.company.size }}名 (パート・<a href="/ja/join-forces">複業採用</a>含む)</li>
-	  <li>資本金: {{ site.company.capital}}万円</li>
-          <li>創業日: 2012年6月1日 (2018年1月11日 法人成り)</li>
-          <li>代表取締役: 安川 要平</li>
-          <li>顧問社労士: <a href="https://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a> 岡 佳伸</li>
-          <li>顧問税理士: <a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a> 林 寛之</li>
-          <li>顧問弁護士: <a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a> 野島 梨恵</li>
-          <li>パートナー・関連団体:
-            <ul>
-              <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>
-              <li><a href="http://www.railscp.com/aboutus/">Rails技術者認定試験運営委員会</a> (テクニカルアドバイザー)</li>
-              <li><a href="https://oss-gate.github.io/">OSS Gate</a> (<a href="/ja/doorkeeper">Doorkeeper スポンサー</a>)</li>
-              <li><a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a> (テクニカルサポーター・協賛)</li>
-              <li><a href="http://rubykaigi.org/">RubyKaigi</a> (翻訳協力・スポンサー)</li>
-              <li><a href="https://scrivito.com/partners">Scrivito</a> (開発協力パートナー)</li>
-              <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="{{ site.base_url }}/ja/posts/coderdojo-japan-2018">開発支援パートナー</a>)</li>
-              <li><a href="http://www.mitou.org/">Mitou Foundation</a> (<a href="http://jr.mitou.org/">未踏ジュニア</a>PM・スポンサー)</li>
-            </ul>
-          </li>
-	  
-          <li>SNS: 
-	    <a href="https://github.com/yasslab">GitHub</a> (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Ayasslab+fork%3Atrue&amp;type=Repositories&amp;ref=searchresults">人気順</a>), 
-	    <a href="http://qiita.com/organizations/yasslab">Qiita</a>, 
-	    <a href="https://www.facebook.com/yasslab.jp">Facebook</a>, 
-	    <a href="https://twitter.com/YassLab">Twitter</a>, 
-	    <a href="https://www.youtube.com/c/YassLab">YouTube</a>, 
-	    <a href="https://www.wantedly.com/companies/YassLab">Wantedly</a>.</li>
-          <li>自社運営サービス:
-	    <ul>
-              <li><a href="https://railstutorial.jp/">Ruby on Rails チュートリアル</a></li>
-              <li><a href="http://railsguides.jp/">Ruby on Rails ガイド</a> (<a href="https://github.com/yasslab/railsguides.jp">GitHub</a>)</li>
-              <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (<a href="https://github.com/coderdojo-japan/coderdojo.jp">GitHub</a>)</li>
-	      <div id="contact"></div>
-	    </ul>
-	  </li>
-	</ul>
-	<br>
-	<br>
-
+      <div class="col-md-8 offset-md-2 company">
+	<div class="text-center">
+          <h2 class="mb-5"><a href="#references">会社情報</a></h2>
+	</div>
+	<div class="offset-md-1">
+	  {% include profile_company.html %}
+	</div>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
