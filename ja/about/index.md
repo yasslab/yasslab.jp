@@ -39,6 +39,7 @@ lang:   ja
         <p class="mb-4">チームとして掲げている「Having a Good Life with OpenSource ;)」というフレーズは、こういったコミュニティと会社が一緒に成長できる継続的なカタチを表した言葉です。</p>
         <p class="mb-4">コミュニティを Hub として様々な人達と繋がりながら、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>
       </div>
+
       <div class="col-md-12 profile mt-5" id="profile" style="margin-top: 100px;">
 	<h2 class="text-center mb-5">代表者<br class="pc-hidden">プロフィール</h2>
         <div class="profile__image text-center mb-2">
@@ -83,7 +84,7 @@ lang:   ja
     <div class="row">
       <div class="col-md-8 offset-md-2 company" id="company">
         <div class="text-center">
-          <h1 class="text-center mt-5 mb-5" style="margin-top:70px;">会社概要</h1>
+          <h2 class="text-center mt-5 mb-5" style="margin-top:100px;">会社概要</h2>
         </div>
 
 	{% include profile_company.html %}
