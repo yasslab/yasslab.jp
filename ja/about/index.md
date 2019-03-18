@@ -41,7 +41,7 @@ lang:   ja
       </div>
 
       <div class="col-md-12 profile mt-5" id="profile" style="margin-top: 100px;">
-	<h2 class="text-center mb-5">代表者<br class="pc-hidden">プロフィール</h2>
+	<h2 class="text-center mt-5 mb-5">代表者<br class="pc-hidden">プロフィール</h2>
         <div class="profile__image text-center mb-2">
           <img src="/img/yohei_300x300.png" alt="安川 要平" class="rounded-circle">
         </div>
@@ -74,23 +74,42 @@ lang:   ja
 	</div>
       </div>
     </div>
-    
-    <div class="video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
-       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-    <br><br>
+  </div>
+</section>
 
+<section class="entry_content pt-5 catchCopy">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+	<h2 class="text-center mt-5 mb-5"><a href="#clients">これまでの取引先</a></h2>
+
+	<p>YassLab 社が展開する各種事業のこれまでの取引先をまとめております。カッコ内は取引の概略です。</p>
+
+	{% include clients.html %}
+        
+      </div><!--//col-->
+    </div><!--//row-->
+  </div><!--//container-->
+  <div id="references"></div>
+</section>
+
+<section class="entry_content pt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2 company" id="company">
         <div class="text-center">
-          <h2 class="mt-5 mb-5" style="margin-top:100px;">会社概要</h2>
+          <h2 class="mt-5 mb-5" style="margin-top:100px;">会社情報</h2>
         </div>
+	
+	<div class="video">
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
+       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+
 	<div class="offset-md-1">
 	  {% include profile_company.html %}
 	</div>
       </div>
     </div>
   </div>
-
 </section>
