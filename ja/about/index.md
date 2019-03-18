@@ -75,6 +75,7 @@ lang:   ja
       </div>
     </div>
   </div>
+  <div id="clients"></div>
 </section>
 
 <section class="entry_content pt-5 catchCopy">
