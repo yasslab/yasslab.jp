@@ -245,8 +245,10 @@ lang:   ja
 <section class="entry_content pt-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-8 offset-md-2  text-center company">
         <h2 class="text-center mb-5"><a href="#references">他、参考情報</a></h2>
+
+	{% include profile_company.html %}
         <ul>
           <li>会社名: {{ site.company.name }} 株式会社</li>
           <li>社員数: {{ site.company.size }}名 (パート・<a href="/ja/join-forces">複業採用</a>含む)</li>
