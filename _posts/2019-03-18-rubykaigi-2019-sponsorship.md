@@ -10,7 +10,7 @@ permalink: /ja/posts/rubykaigi-2019-sponsorship
 
 RubyKaigi 2019 に[シルバースポンサー](https://rubykaigi.org/2019/sponsors#silver)として協賛いたしました! 💎✨
 
-![RubyKaigi 2019 Silver Sponsors](https://i.gyazo.com/f956eb5f32facc75dc2223851cbc5041.png)
+[![RubyKaigi 2019 Silver Sponsors](https://i.gyazo.com/f956eb5f32facc75dc2223851cbc5041.png)](https://rubykaigi.org/2019/sponsors#silver)
 
 　
 
