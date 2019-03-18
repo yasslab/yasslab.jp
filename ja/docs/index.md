@@ -1,10 +1,10 @@
 ---
 layout: posts
-title:  📚 資料まとめ
+title:  📚 公開資料まとめ
 thumbnail: bg-sky.jpg
 ---
 
-就業規則や賃金規程などの一般公開した文書を以下にまとめています。
+就業規則や賃金規程など、一般公開している資料を以下にまとめています。
 
 <ul style="list-style: none; padding-bottom: 100px;">
   <li style="padding-top: 7px;">
