@@ -204,40 +204,12 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="text-center mb-5"><a href="#clients">これまでの取引先</a></h2>
+	<h2 class="text-center mb-5"><a href="#clients">これまでの取引先</a></h2>
+
 	<p>YassLab 社が展開する各種事業 (開発支援サービス含む) のこれまでの取引先をまとめております。カッコ内は取引の概略です。こちらも合わせてご参考にしていただけると幸いです。</p>
 
-        <ul>
-          <li>開発支援サービス事業
-            <ul>
-              <li><a href="https://agile.esm.co.jp/">永和システムマネジメント アジャイル事業部</a> (共同開発支援)</li>
-              <li><a href="http://www.recruit-mp.co.jp/">リクルートマーケティングパートナーズ</a> (新機能の開発支援)</li>
-              <li><a href="https://mtl.recruit.co.jp/">リクルートホールディングス - Media Technology Lab</a> (同上)</li>
-	      <li><a href="https://agileware.jp">アジャイルウェア</a> (Redmineプラグインの開発)</li>
-	      <li><a href="https://coderdojo.jp">CoderDojo Japan</a> (公式サイトの開発・運営)</li>
-	      <li><a href="https://www.nttr.co.jp/">NTTレゾナント</a> (新サービス開発支援)</li>
-              <li><a href="https://speee.jp/">Speee</a> (コードレビュー支援)</li>
-              <li><a href="https://www.freee.co.jp/">クラウド会計ソフトfreee</a> (新機能の開発支援)</li>
-            </ul>
-          </li>
-	  
-          <li>Railsチュートリアル・Railsガイド事業
-            <ul>
-              <li><a href="https://www.railstutorial.org/">Ruby on Rails Tutorial by Michael Hartl</a> (コンテンツ提携)</li>
-              <li><a href="https://www.learnenough.com/">Learn Enough to Be Dangerous</a> (コンテンツ提携)</li>
-              <li><a href="https://scrivito.com/partners">Scrivito: The Professional Cloud-Based Rails CMS</a> (開発パートナー)</li>
-	      <li><a href="https://prtimes.jp/main/html/rd/p/000000013.000016641.html">DIVE INTO CODE</a> (コンテンツ提携)</li>
-	      <li><a href="https://www.value-press.com/pressrelease/190639">ShareWis</a> (コンテンツ提携)</li>
-	      <li><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html">Progate</a> (コンテンツ提携)</li>
-	      <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html">ポテパンキャンプ</a> (業務提携)</li>
-	      <li><a href="https://yasslab.jp/ja/posts/partnership-with-codebase">CODE BASE</a> (業務提携)</li>
-	      <li><a href="https://www.members.co.jp/company/news/2018/0806_2.html">メンバーズキャリア</a> (技術顧問)</li>
-              <li>他、<a href="http://enpit.coins.tsukuba.ac.jp/">筑波大学</a>、<a href="https://ie.u-ryukyu.ac.jp/enpit/">琉球大学</a>、<a href="https://www.kogakuin.ac.jp/">工学院大学</a>、<a href="https://www.osakac.ac.jp/project_now/cs/208">大阪電気通信大学</a>、<a href="https://aiit.ac.jp/">AIIT</a>など (教材提供)</li>
-            </ul>
-          </li>
-        </ul>
+	{% include clients.html %}
         
-        <p>より詳しい実績については、<a href="/ja/works/">事業実績ページ</a>をご参照ください。</p>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
