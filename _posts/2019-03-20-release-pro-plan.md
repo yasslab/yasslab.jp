@@ -16,7 +16,7 @@ Proプランでは、Railsガイドの全コンテンツをいつでも簡単に
 
 ![DEMO: 検索](https://i.gyazo.com/3d119820fc3362d58a75286c7607b220.gif)
 
-また、Proプランではショートカットキーも提供しており、ショートカットを駆使することでよりスピーディに開発を進めることができます。
+また、Proプランではショートカットキーも提供しており、ショートカットを駆使することでよりスピーディに検索を行うことができます。
 
 ![DEMO: ショートカットキー](https://i.gyazo.com/16d07952195d79a4aecdab2bb7d44178.png)
 
@@ -30,7 +30,7 @@ Proプランでは、Railsガイドの全コンテンツをいつでも簡単に
 
 <br>
 
-いかがでしょうか? よければぜひ『[Proプラン](https://railsguides.jp/pro)』を使って、より生産的なRails開発を体験してみてください ;)
+いかがでしょうか? よろしければぜひ『[Proプラン](https://railsguides.jp/pro)』を使って、より生産的なRails開発を体験してみてください ;)
 
 Proプラン - Rails開発を、より生産的に   
 [https://railsguides.jp/pro](https://railsguides.jp/pro)
