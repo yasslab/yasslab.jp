@@ -32,5 +32,8 @@ Proプランでは、Railsガイドの全コンテンツをいつでも簡単に
 
 いかがでしょうか? よければぜひ『Proプラン』を使って、よりスピーディなRails開発を体験してみてください ;)
 
+Proプラン - Rails開発を、より生産的に   
+[https://railsguides.jp/pro](https://railsguides.jp/pro)
+
 [![Railsガイド『Proプラン』](/img/posts/pro-plan.png)](https://railsguides.jp/pro)
 
