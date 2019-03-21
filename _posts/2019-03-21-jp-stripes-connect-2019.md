@@ -8,7 +8,7 @@ tags: [登壇, Rails]
 permalink: /ja/posts/jp-stripes-connect-2019
 ---
 
-[JP_Stripes Connect 2019](https://connect2019.jpstripes.com/session/tbd-session-4/) で『Railsチュートリアル ([法人プラン](https://railstutorial.jp/business))』『Railsガイド ([Proプラン](https://railsguides.jp/pro))』の Stripe 決済事例について発表してきました ;)
+[JP_Stripes Connect 2019](https://connect2019.jpstripes.com/session/tbd-session-4/) で『Railsチュートリアル [法人プラン](https://railstutorial.jp/business)』『Railsガイド [Proプラン](https://railsguides.jp/pro)』の Stripe 決済事例について発表してきました ;)
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">LTの9番手は、安川 要平さん！<a href="https://twitter.com/hashtag/TrackA?src=hash&amp;ref_src=twsrc%5Etfw">#TrackA</a><a href="https://twitter.com/hashtag/jpsc2019?src=hash&amp;ref_src=twsrc%5Etfw">#jpsc2019</a> <a href="https://twitter.com/hashtag/JP_Stripes?src=hash&amp;ref_src=twsrc%5Etfw">#JP_Stripes</a> <a href="https://t.co/ihZdYWzJFT">pic.twitter.com/ihZdYWzJFT</a></p>&mdash; JP_Stripes 03/21(木) #JPSC2019 (@JpStripes) <a href="https://twitter.com/JpStripes/status/1108636713885163522?ref_src=twsrc%5Etfw">March 21, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
