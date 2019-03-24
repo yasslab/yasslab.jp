@@ -16,7 +16,7 @@ permalink: /ja/posts/jp-stripes-connect-2019
 <br>当日の発表スライドも公開しているので、こちらもぜひ ;)
 
 <div style="margin-bottom: 80px;">
-  <script async class="speakerdeck-embed" data-id="30289234a2f743b6b2827602cfbc5991" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  <script async class="speakerdeck-embed" data-id="a2330d84338d480ca3d783b2a0223954" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
 
