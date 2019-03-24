@@ -40,9 +40,9 @@ permalink: /ja/posts/no-code-reviews-at-railsdm-2019
 
 YassLab 株式会社では全社員がリモートワークをしながら『{{ site.railstutorial }}』『{{ site.railsguides }}』『{{ site.coderdojo }}』のWebサービス開発をしたり、他社向けに『[月額制の開発支援事業](/ja/agile)を提供しています。
 
-他にも YouTube のチャンネルからは様々な動画を公開しているので、よければこちらもぜひ ;)
+他にも様々な動画を YouTube から公開しているので、よければぜひチャンネル登録していただければ ;)
 
-📹 YassLab チャンネル - YouTube
+📹 YassLab チャンネル - YouTube   
 [https://www.youtube.com/user/YassLabChannel/](https://www.youtube.com/user/YassLabChannel/)
 
 [![YassLab Inc.](/img/logos/800x200.png)](/)
