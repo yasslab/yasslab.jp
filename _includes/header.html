@@ -70,11 +70,11 @@
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/dist/css/custom.min.css" media="screen">
 
-    <meta property="fb:admins"    content="715330868"/>
-    <meta property="fb:app_id"    content="680598798739780"/>
-    <meta property="og:image" content="{{ site.base_url }}/img/logo-square.png"/>
-    <meta property="og:url"   content="{{ site.base_url }}{{ page.url }}">
-    <meta property="og:type"  content="business.business"/>
+    <meta property="fb:admins" content="715330868"/>
+    <meta property="fb:app_id" content="680598798739780"/>
+    <meta property="og:image"  content="{{ '/img/logo-square.png' | absolute_url }}"/>
+    <meta property="og:url"    content="{{               page.url | absolute_url}}">
+    <meta property="og:type"   content="business.business"/>
 
     <meta property="business:contact_data:street_address" content="CASE Shinjuku, Sankei Bldg 4F"/>
     <meta property="business:contact_data:locality" content="Takadanobaba 1-28-10, Shinjuku-ku, Tokyo"/>
@@ -83,12 +83,12 @@
     <meta property="place:location:latitude" content="35.712252"/>
     <meta property="place:location:longitude" content="139.704743"/>
 
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="@YassLab"/>
-    <meta name="twitter:image" content="{{ site.base_url }}/img/logo-square.png" />
-    <meta name="twitter:url"   content="{{ site.base_url }}{{ page.url }}" />
+    <meta name="twitter:card"  content="summary"/>
+    <meta name="twitter:site"  content="@YassLab"/>
+    <meta name="twitter:image" content="{{ '/img/logo-square.png' | absolute_url }}" />
+    <meta name="twitter:url"   content="{{               page.url | absolute_url }}" />
 
-    <link rel="author" type="text/plain" href="{{ site.base_url }}/humans.txt"/>
+    <link rel="author" type="text/plain" href="/humans.txt"/>
 
     <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">

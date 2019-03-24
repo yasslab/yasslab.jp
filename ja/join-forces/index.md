@@ -166,7 +166,7 @@ lang:   ja
 	   - 開発目的: 会社情報や実績紹介を分かりやすく掲載する (日英対応)
 	   - 使用技術: Ruby, Jekyll, Web Design, GitHub Pages
 	   - 関連情報: 
-	   - [{{ site.base_url }}/]({{ site.base_url }}/)
+	   - [{{ absolute_url }}/]({{ absolute_url }}/)
 	   - [yasslab/yasslab.jp](https://github.com/yasslab/yasslab.jp) (OSS)
 	-->
 
@@ -191,7 +191,7 @@ lang:   ja
 	    <ul>
 	      <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>
 	      <li><a href="http://www.railscp.com/aboutus/">Rails技術者認定試験運営委員会</a> (テクニカルアドバイザー)</li>
-	      <li><a href="https://oss-gate.github.io/">OSS Gate</a> (<a href="{{ site.base_url }}/ja/doorkeeper/">Doorkeeper スポンサー</a>)</li>
+	      <li><a href="https://oss-gate.github.io/">OSS Gate</a> (<a href="/ja/doorkeeper/">Doorkeeper スポンサー</a>)</li>
 	      <li><a href="http://www.ryukyu-frogs.com/">Ryukyufrogs</a> (テクニカルサポーター、協賛)</li>
 	      <li><a href="http://ruby-no-kai.org/">日本Rubyの会</a> (<a href="https://bugs.ruby-lang.org/projects/ruby/wiki/Contributions">CIサーバー</a>提供、<a href="http://rubykaigi.org/">RubyKaigi</a>翻訳協力)</li>
 	      <li><a href="https://scrivito.com/partners">Scrivito</a> (開発パートナー)</li>

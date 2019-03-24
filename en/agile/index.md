@@ -69,7 +69,7 @@ Our basic price is **1,000,000 yen/month.**
 
 ## References
 
-- Web: [{{ site.base_url }}/en/]({{ site.base_url }}/en/)
+- Web: [{{ absolute_url }}/en/]({{ absolute_url }}/en/)
 - Twitter: [https://twitter.com/YassLab](https://twitter.com/YassLab)
 - Facebook: [https://www.facebook.com/yasslab.jp/](https://www.facebook.com/yasslab.jp/)
 - Legal Advisor: [Tokyo Sanno Law Office](http://www.ynmlaw.com/english/) Rie Nojima

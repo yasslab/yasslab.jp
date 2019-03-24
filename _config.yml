@@ -10,11 +10,9 @@ author:
   twitter: YassLab
   facebook: yasslab.jp
 
-# Don't set `site.url` param for debugging local, ngrok, and production.
-# Instead,  set `site.github.url` param to generate RSS feed.
-# cf. https://github.com/jekyll/jekyll-feed#usage
-github:
-  url: https://yasslab.jp
+# `url` is necessary to generate RSS feed.
+# cf. https://github.com/jekyll/jekyll-feed
+url: https://yasslab.jp
 
 # Variables for internal use
 company:
@@ -30,9 +28,7 @@ company:
   capital: 500
   size: 13
   description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
-  
 
-base_url: "https://yasslab.jp"
 domain:   "yasslab.jp"
 source:      ./
 destination: ./_site

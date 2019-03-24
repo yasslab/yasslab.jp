@@ -28,7 +28,7 @@ lang:   ja
   <div class="container">         
     <div class="row text-center">
       <div class="col-md-12">
-        <p><a href="{{ site.base_url }}/">YassLab 株式会社</a>が提供する Doorkeeper スポンサーシップに興味を持って頂きありがとうございます! 本資料では、弊社が Doorkeeper の枠を提供する目的や条件、手続き、利用規約などをまとめています。コミュニティ運営者の皆さまが本スポンサーシップを検討する際のご参考になれば幸いです。</p>
+        <p><a href="/">YassLab 株式会社</a>が提供する Doorkeeper スポンサーシップに興味を持って頂きありがとうございます! 本資料では、弊社が Doorkeeper の枠を提供する目的や条件、手続き、利用規約などをまとめています。コミュニティ運営者の皆さまが本スポンサーシップを検討する際のご参考になれば幸いです。</p>
 	<p><em>(※ 本スポンサーシップは、Doorkeeper 株式会社の代表取締役 Paul McMahon から事前の承諾を得て実施しております.)</em></p>
 
 	<h2 id="background">
@@ -75,8 +75,8 @@ lang:   ja
 
 	<div class="highlight highlight-source-gfm">
 	  <pre><span class="pl-mh"><span class="pl-mh">##</span><span class="pl-mh"> </span>スポンサー</span>
-本イベントページはオープンソースコミュニティを支援する [<span class="pl-e">YassLab 株式会社</span>]({{ site.base_url }}/) が提供しております。詳細はコミュニティ運営者向け [<span class="pl-e">Doorkeeper スポンサー資料</span>]({{ site.base_url }}/ja/doorkeeper/)をご参照ください。
-[![<span class="pl-e">YassLab 株式会社</span>]({{ site.base_url }}/img/logos/800x200.png)]({{ site.base_url }}/)</pre>
+本イベントページはオープンソースコミュニティを支援する [<span class="pl-e">YassLab 株式会社</span>]({{ absolute_url }}/) が提供しております。詳細はコミュニティ運営者向け [<span class="pl-e">Doorkeeper スポンサー資料</span>]({{ "/ja/doorkeeper/" | absolute_url }})をご参照ください。
+[![<span class="pl-e">YassLab 株式会社</span>]({{ absolute_url }}/img/logos/800x200.png)]({{ absolute_url }}/)</pre>
 	</div>
 
 	<h2 id="howto" style="margin-top: 50px;">
