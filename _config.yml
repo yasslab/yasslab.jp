@@ -10,8 +10,11 @@ author:
   twitter: YassLab
   facebook: yasslab.jp
 
-# Don't setup `url`. Unsetting this is best for local, ngrok, and production.
-# url: https://yasslab.jp
+# Don't set `site.url` param for debugging local, ngrok, and production.
+# Instead,  set `site.github.url` param to generate RSS feed.
+# cf. https://github.com/jekyll/jekyll-feed#usage
+github:
+  url: https://yasslab.jp
 
 # Variables for internal use
 company:
