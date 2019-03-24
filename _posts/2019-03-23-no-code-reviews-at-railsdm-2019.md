@@ -38,7 +38,7 @@ permalink: /ja/posts/no-code-reviews-at-railsdm-2019
 
 ## まとめ
 
-YassLab 株式会社では全社員がリモートワークをしながら『{{ site.railstutorial }}』『{{ site.railsguides }}』『{{ site.coderdojo }}』のWebサービス開発をしたり、他社向けに『[月額制の開発支援事業](/ja/agile)を提供しています。
+YassLab 株式会社では全社員がリモートワークをしながら『{{ site.railstutorial }}』『{{ site.railsguides }}』『{{ site.coderdojo }}』のWebサービス開発をしたり、他社向けに『[月額制の開発支援事業](/ja/agile)』を提供しています。
 
 他にも様々な動画を YouTube から公開しているので、よければぜひチャンネル登録していただければ ;)
 
