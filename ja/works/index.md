@@ -47,11 +47,13 @@ lang:   ja
 
 	<h3 id="achievements-2019">2019年 (予定含む)</h3>
 	<ul style="list-style: none;">
-	  <li><b>4月 <a href="http://rubykaigi.org/2019">RubyKaigi 2019</a> に参加。全社員を招待 (任意参加)</b></li>
-
+	  <li><b>4月 <a href="https://yasslab.jp/ja/posts/rubykaigi-2019-sponsorship">RubyKaigi 2019 に協賛</a>。全社員を招待 (任意参加)</b></li>
 	  <li>4月 DIVE INTO CODE 主催 <a href="https://diveintocode.doorkeeper.jp/events/83984">Demo Day 6th</a> に審査員として参加</li>
-	  <li>3月 <a href="https://railsdm.github.io/">Rails Developers Meetup 2019</a> に弊社宮城が登壇</li>
-	  <li>3月 <a href="https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html">情報処理学会の第81回全国大会</a>に弊社大城が登壇</li>
+	  <li>3月 JP_Stripes Connect 2019 の<a href="https://yasslab.jp/ja/posts/jp-stripes-connect-2019">LTセッションで登壇</a></li>
+	  <li><b>3月 Railsガイド<a href="https://yasslab.jp/ja/posts/release-pro-plan">『Proプラン』をリリース</a>しました</b></li>
+	  <li>3月 フクオカRuby大賞で<a href="https://yasslab.jp/ja/posts/aws-award-at-fukuoka-ruby-2019">AWS賞を受賞</a>しました</li>
+	  <li>3月 <a href="https://railsdm.github.io/">Rails Developers Meetup 2019</a> に弊社宮城が<a href="https://yasslab.jp/ja/posts/no-code-reviews-at-railsdm-2019">登壇</a></li>
+	  <li>3月 <a href="https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html">情報処理学会の第81回全国大会</a>に弊社大城が<a href="https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj">登壇</a></li>
 	  <li>3月 <a href="https://sechack365.nict.go.jp/achievement/presentation.html">SecHack365の成果発表会 (ポスター枠)</a> に弊社又吉が登壇</li>
 	  <li><b>2月 CODE BASE とRailsチュートリアルに関する<a href="https://yasslab.jp/ja/posts/partnership-with-codebase">提携を締結</a></b></li>
 	  <li><b>2月 Railsチュートリアルの解説動画<a href="https://railstutorial.jp/trial">お試しプラン</a>をリリース</b></li>
