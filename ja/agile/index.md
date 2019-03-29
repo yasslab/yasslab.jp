@@ -14,7 +14,7 @@ lang:   ja
       <div class="col-md-12">
         <div class="text-center">
           <h1 class="mb-5">月額制の<br class="ignore-sp">Ruby/Rails 開発支援</h1>
-	  <h3 class="mb-5">経験豊富なチームで<br class="mobile-hidden">御社の開発をサポートします</h3>
+	  <h3 class="mb-5">経験豊富なチームで<br class="ignore-sp">御社の開発をサポートします</h3>
         </div>
 	<img src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5">
       </div><!--//col-->
@@ -146,7 +146,7 @@ lang:   ja
 	<br><br>
 	
 	<h4>メールでお知らせ</h4>
-	<p class="text-center">弊社のスケジュールが空き次第、いち早くメールにてお届けします。<br class="mobile-hidden">開発支援サービスを検討中のご担当者さまは、ぜひご登録ください。</p>
+	<p class="text-center">弊社のスケジュールが空き次第、いち早くメールにてお届けします。<br class="ignore-sp">開発支援サービスを検討中のご担当者さまは、ぜひご登録ください。</p>
 	<!-- Begin Mailchimp Signup Form -->
 	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 	<style type="text/css">

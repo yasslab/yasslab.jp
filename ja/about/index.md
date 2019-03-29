@@ -41,7 +41,7 @@ lang:   ja
       </div>
 
       <div class="col-md-12 profile mt-5" id="profile" style="margin-top: 100px;">
-	<h2 class="text-center mt-5 mb-5">代表者<br class="pc-hidden">プロフィール</h2>
+	<h2 class="text-center mt-5 mb-5">代表者<br class="ignore-pc">プロフィール</h2>
         <div class="profile__image text-center mb-2">
           <img src="/img/yohei_300x300.png" alt="安川 要平" class="rounded-circle">
         </div>

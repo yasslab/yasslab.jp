@@ -22,7 +22,7 @@ lang:   ja
     <div class="row">
       <div class="col-12">
         <h2><a href="#vision">新しいサービスを、Ruby で</a></h2>
-        <p class="text-md-center">オープンソースソフトウェアやコミュニティへの還元を大切にしつつ、<br class="mobile-hidden">事業としても共に成長できる、そんなビジネスに関わり続けている会社です。</p>
+        <p class="text-md-center">オープンソースソフトウェアやコミュニティへの還元を大切にしつつ、<br class="ignore-sp">事業としても共に成長できる、そんなビジネスに関わり続けている会社です。</p>
       </div>
     </div>
   </div>
@@ -114,7 +114,7 @@ lang:   ja
         <h2><a href="#remote">沖縄
 		×
 		東京</a></h2>
-        <p class="text-md-center h5">YassLab 社はソフトウェアエンジニアのリモートチームです。<br class="mobile-hidden">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
+        <p class="text-md-center h5">YassLab 社はソフトウェアエンジニアのリモートチームです。<br class="ignore-sp">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
@@ -220,7 +220,7 @@ lang:   ja
     <div class="row">
       <div class="col-12">
         <h2><a href="#community" style="color: white;">コミュニティ活動</a></h2>
-        <p class="text-md-center">YassLab 社ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="mobile-hidden">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
+        <p class="text-md-center">YassLab 社ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="ignore-sp">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
         <div class="row">
           <div class="col-md-4">
             <figure>

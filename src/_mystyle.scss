@@ -35,13 +35,13 @@ img {
   border: 1px solid #cc0000;
 }
 
-br.pc-hidden{
+br.ignore-pc{
   display:none;
   @include media-breakpoint-down(sm) {
     display:inline;
   }
 }
-br.mobile-hidden{
+br.ignore-sp{
   display:inline;
   @include media-breakpoint-down(sm) {
     display:none;
