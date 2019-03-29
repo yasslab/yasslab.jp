@@ -48,7 +48,7 @@ lang:   ja
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
 	-->
-        <p class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです (<a href="https://www.youtube.com/watch?v=nAdcD2UMnPE">動画版</a>)</p>
+        <p class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="mobile-hidden">(関連記事: <a href="https://yasslab.jp/ja/posts/remote-first-at-megane-fes-2019">megane Fes 2019 でリモートワークについて発表 🏢</a>)</p>
 	
 	<h2 id="daily-life" class="text-center mt-5 mb-5"><a href="#daily-life">YassLab 社の日常</a></h2>
 	<div class="daily-life">
@@ -90,7 +90,7 @@ lang:   ja
 - 使用技術: 開発で使われているテクノロジー
 - 関連情報: 参考になる公開情報など</code></pre></div></div>
 
-	<h3 id="railstutorial" class="text-center mt-5 mb-5">1. Railsチュートリアルの自動更新</h3>
+	<h3 id="railstutorial" class="text-center mt-5 pt-5 mb-5">1. Railsチュートリアルの自動更新</h3>
 	<ul>
 	  <li>開発目的: <a href="https://railstutorial.jp/">Railsチュートリアル</a>の品質を保ちつつ、なるべく低コストで更新したい</li>
 	  <li>使用技術: Ruby, Rails, LaTeX, <a href="https://github.com/softcover/softcover">softcover</a>, Heroku</li>
@@ -99,24 +99,28 @@ lang:   ja
 	      <li>yasslab/railstutorial.jp_web (Private)</li>
 	      <li>yasslab/ruby_on_rails_tutorial_book (Private)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/continuous-integration-for-ebook">Railsチュートリアルを支える継続的組版技術</a></li>
+	      <li>関連記事: <a href="https://yasslab.jp/ja/posts/railstutorial-at-ginza-rails">Railsチュートリアルの開発背景を銀座Railsで発表しました 🎙</a></li>
 	    </ul>
 	  </li>
 	</ul>
 
-	<h3 id="railsguides" class="text-center mt-5 mb-5">2. Railsガイドの自動更新</h3>
+	<h3 id="railsguides" class="text-center mt-5 pt-5 mb-5">2. Railsガイドの自動更新</h3>
 	<ul>
 	  <li>開発目的: <a href="https://railsguides.jp/">Railsガイド</a>の品質を保ちつつ、なるべく低コストで更新したい</li>
 	  <li>使用技術: Ruby, Rails, Jekyll, <a href="https://github.com/kmuto/review">Re:VIEW</a>, Heroku</li>
 	  <li>関連情報:
 	    <ul>
 	      <li><a href="https://github.com/yasslab/railsguides.jp">yasslab/railsguides.jp</a> (OSS)</li>
+	      <li>yasslab/railsguides.jp_web (Private)</li>
 	      <li>yasslab/railsguides.jp_ebook (Private)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/railsguides-as-an-oss-gate">OSS入門としてのRailsガイド</a></li>
+	      <li>関連記事: <a href="https://yasslab.jp/ja/posts/release-pro-plan">Railsガイド『Proプラン』をリリースしました! 🚀</a></li>
+	      
 	    </ul>
 	  </li>
 	</ul>
 
-	<h3 id="coderdojo-japan" class="text-center mt-5 mb-5">3. CoderDojo Japan の開発</h3>
+	<h3 id="coderdojo-japan" class="text-center mt-5 pt-5 mb-5">3. CoderDojo Japan の開発</h3>
 	<ul>
 	  <li>開発目的: 全国の <a href="https://coderdojo.jp/">CoderDojo コミュニティ</a>の活動をテクノロジーで支援したい</li>
 	  <li>使用技術: Ruby, Rails, DB設計, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), Haml, Heroku</li>
@@ -125,8 +129,8 @@ lang:   ja
 	      <li><a href="https://github.com/coderdojo-japan/coderdojo.jp">coderdojo-japan/coderdojo.jp</a> (OSS)</li>
 	      <li><a href="https://github.com/coderdojo-japan/dojopaas">coderdojo-japan/dojopaas</a> (OSS)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community">全国150ヶ所ある CoderDojo と企業が共創する世界 </a></li>
-	      <li>スライド: <a href="https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo">CoderDojo を支える Rails CMS の活用事例</a>
-		<br /><br /></li>
+	      <li>スライド: <a href="https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo">CoderDojo を支える Rails CMS の活用事例</a></li>
+	      <li>関連記事: <a href="https://yasslab.jp/ja/posts/coderdojo-japan-2018">開発目線で見る最近の CoderDojo Japan 2018 ☯️</a></li>
 	    </ul>
 	  </li>
 	</ul>
