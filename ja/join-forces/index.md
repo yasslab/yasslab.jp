@@ -73,9 +73,11 @@ lang:   ja
       
       <div class="col-md-8 offset-md-2">
         <p style="margin-bottom: 0px"><img src="/img/how-to-protect-nda.gif" alt="秘密情報を守る仕組み" width="100%" /></p>
-        <center>参考: <a href="https://speakerdeck.com/yasulab/qiita-team-extensions-for-parallel-working?slide=11">Qiita:Team Extensions for Parallel Working - Speaker Deck</a></center>
+        <center>参考: <a href="https://speakerdeck.com/yasulab/qiita-team-extensions-for-parallel-working?slide=11">Qiita:Team Extensions for Parallel Working</a></center>
       </div><!--//col-->
-      <p>お互いの働き方や価値観を知るためにも、フルタイム勤務を希望される方であってもまずは下記の自社プロダクトを一緒に開発してみるところから始めることが多いです。もし興味があれば仕事として一緒にやってみませんか?</p>
+      <div class="col-md-12 text-center">
+	<p>お互いの働き方や価値観を知るためにも、フルタイム勤務を希望される方であってもまずは下記の自社プロダクトを一緒に開発してみるところから始めることが多いです。もし興味があれば仕事として一緒にやってみませんか?</p>
+      </div>
     </div><!--//row-->
   </div><!--//container-->
 </section>
