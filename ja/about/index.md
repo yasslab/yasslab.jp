@@ -108,7 +108,7 @@ lang:   ja
 	</div>
 
 	<div class="offset-md-1">
-	  {% include profile_company.html %}
+	  {% include profile_company.html benefits=true %}
 	</div>
       </div>
     </div>

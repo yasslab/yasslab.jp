@@ -173,47 +173,22 @@ lang:   ja
 	   - [{{ absolute_url }}/]({{ absolute_url }}/)
 	   - [yasslab/yasslab.jp](https://github.com/yasslab/yasslab.jp) (OSS)
 	-->
-
-	<h2 id="references" class="text-center mt-5 mb-5"><a href="#references">他、参考情報</a></h2>
-	<ul>
-	  <li>会社名: {{ site.company.name }} 株式会社</li>
-	  <li>社員数: {{ site.company.size }}名 (パート・複業採用含む)</li>
-	  <li>資本金: {{ site.company.capital }}万円</li>
-	  <li>創業日: 2012年6月1日 (2018年1月11日 法人成り)</li>
-	  <li>代表取締役: 安川 要平</li>
-	  <li>福利厚生など:
-	    <ul>
-	      <li>労働保険・雇用保険・社会保険 (パートタイムの場合は条件による)、昇給あり</li>
-	      <li>完全週休２日制、夏季休暇、冬季休暇、有給休暇、慶弔休暇、育児介護休暇あり</li>
-	      <li>詳細は<a href="https://www.dropbox.com/s/izpn94kvm13807g/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84_%E3%83%95%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0.pdf?dl=0">雇用契約書</a> (<a href="https://www.dropbox.com/s/tdwntl4qn0tmm18/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_NDA_%E9%9B%87%E7%94%A8.pdf?dl=0">NDA</a>、<a href="https://www.dropbox.com/s/i75g4mi4oulo19g/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84_%E7%9F%AD%E6%99%82%E9%96%93%E5%8B%A4%E5%8B%99.pdf?dl=0">学生向け</a>) / <a href="https://www.dropbox.com/s/rdz75lqwt3bsw1y/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97_%E5%9F%BA%E6%9C%AC%E5%A5%91%E7%B4%84%E6%9B%B8.pdf?dl=0">業務委託契約書</a> (<a href="https://www.dropbox.com/s/puh54vxf2pf4rg1/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB_NDA_%E6%A5%AD%E5%8B%99.pdf?dl=0">NDA</a>) / <a href="/ja/docs/work-regulations">就業規則</a>・<a href="/ja/docs/wage-regulations">賃金規程</a>をご参照ください</li>
-	    </ul>
-	  </li>
-	  <li>顧問社労士: <a href="http://oka-sr.jp/">社会保険労務士法人 岡佳伸事務所</a> 岡 佳伸</li>
-	  <li>顧問税理士: <a href="http://www.hay-kaikei.com/">Hay未来の税理士法人</a> 林 寛之</li>
-	  <li>顧問弁護士: <a href="http://nojimarie.naganoblog.jp/">新都心法律事務所</a> 野島 梨恵</li>
-	  <li>パートナー・関連団体:
-	    <ul>
-	      <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>
-	      <li><a href="http://www.railscp.com/aboutus/">Rails技術者認定試験運営委員会</a> (テクニカルアドバイザー)</li>
-	      <li><a href="https://oss-gate.github.io/">OSS Gate</a> (<a href="/ja/doorkeeper/">Doorkeeper スポンサー</a>)</li>
-	      <li><a href="http://www.ryukyu-frogs.com/">Ryukyufrogs</a> (テクニカルサポーター、協賛)</li>
-	      <li><a href="http://ruby-no-kai.org/">日本Rubyの会</a> (<a href="https://bugs.ruby-lang.org/projects/ruby/wiki/Contributions">CIサーバー</a>提供、<a href="http://rubykaigi.org/">RubyKaigi</a>翻訳協力)</li>
-	      <li><a href="https://scrivito.com/partners">Scrivito</a> (開発パートナー)</li>
-	      <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (開発支援)</li>
-	      <li><a href="http://www.mitou.org/">Mitou Foundation</a> (<a href="http://jr.mitou.org/">未踏ジュニア</a>PM・スポンサー)</li>
-	    </ul>
-	  </li>
-	  <li>SNS: 
-	    <a href="https://github.com/yasslab">GitHub</a> (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Ayasslab+fork%3Atrue&amp;type=Repositories&amp;ref=searchresults">人気順</a>), 
-	    <a href="http://qiita.com/organizations/yasslab">Qiita</a>, 
-	    <a href="https://www.facebook.com/yasslab.jp">Facebook</a>, 
-	    <a href="https://twitter.com/YassLab">Twitter</a>, 
-	    <a href="https://www.youtube.com/c/YassLab">YouTube</a>, 
-	    <a href="https://www.wantedly.com/companies/YassLab">Wantedly</a>.</li>
-	</ul>
-        
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
+</section>
 
+<section class="entry_content pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 company">
+	<div class="text-center">
+          <h2 id="references" class="mb-5"><a href="#references">他、参考情報</a></h2>
+	</div>
+	<div class="offset-md-1">
+	  {% include profile_company.html benefits=true %}
+	</div>        
+      </div><!--//col-->
+    </div><!--//row-->
+  </div><!--//container-->
 </section>
