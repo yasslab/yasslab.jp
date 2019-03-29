@@ -51,7 +51,7 @@ lang:   ja
         <p class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="mobile-hidden">(関連記事: <a href="https://yasslab.jp/ja/posts/remote-first-at-megane-fes-2019">megane Fes 2019 でリモートワークについて発表 🏢</a>)</p>
 	
 	<h2 id="daily-life" class="text-center mt-5 mb-5"><a href="#daily-life">YassLab 社の日常</a></h2>
-	<div class="daily-life">
+	<div class="video">
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
 	   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
