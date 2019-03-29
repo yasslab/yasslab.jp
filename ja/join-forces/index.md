@@ -48,7 +48,7 @@ lang:   ja
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
 	-->
-        <p class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。</p>
+        <p class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです (<a href="https://www.youtube.com/watch?v=nAdcD2UMnPE">動画版</a>)</p>
 	
 	<h2 id="daily-life" class="text-center mt-5 mb-5"><a href="#daily-life">YassLab 社の日常</a></h2>
 	<div class="daily-life">
