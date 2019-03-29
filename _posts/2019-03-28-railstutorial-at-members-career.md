@@ -40,7 +40,7 @@ Railsチュートリアル法人プランを利用していただいている[�
 
 - [Rubyでの個人開発物の成果発表会！ - 株式会社メンバーズキャリア ](https://www.wantedly.com/companies/memberscareer/post_articles/162098Ruby%E3%81%A7%E3%81%AE%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA%E7%89%A9%E3%81%AE%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A%E3%81%AB%E3%80%81%E6%8A%80%E8%A1%93%E9%A1%A7%E5%95%8F%E3%81%AE%E5%AE%89%E5%B7%9D)
 - [Railsチュートリアル法人プラン](https://railstutorial.jp/business)
-- [創りながら学ぶ - Speaker Deck](https://speakerdeck.com/yasslab/learn-by-your-own-projects)
+- [Railsチュートリアルの開発背景を銀座Railsで発表しました](https://yasslab.jp/ja/posts/railstutorial-at-ginza-rails)
 
 <div style="margin-bottom: 80px;">
   <script async class="speakerdeck-embed" data-id="ee19ff2514724ee2b345068cfd37581c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
