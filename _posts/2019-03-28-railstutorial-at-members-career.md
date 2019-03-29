@@ -4,7 +4,7 @@ title:  Railsチュートリアル法人プラン活用事例：メンバーズ�
 thumbnail: posts/case-members-career-1.jpg
 author: yasulab
 categories: [blog]
-tags: [Railsチュートリアル, 法人プラン]
+tags: [Railsチュートリアル, 法人プラン, 事例]
 permalink: /ja/posts/railstutorial-at-members-career
 ---
 
