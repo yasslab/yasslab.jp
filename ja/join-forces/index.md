@@ -3,6 +3,7 @@ layout: plain
 title:  弊社をご検討されている皆さんへ
 lang:   ja
 ---
+
 <section class="pageVisual">
   <div class="jumbotron">
   </div>
@@ -55,7 +56,9 @@ lang:   ja
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
 	   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
-	<p class="text-center">YassLab 社の雰囲気を30秒で紹介する動画です。</p>
+	<p class="text-center">
+	  YassLab 社の雰囲気を30秒で紹介する動画です。<br class="ignore-sp">
+	  製品PVや講演動画も <a href="https://www.youtube.com/playlist?list=PLNLYzHXJU2-_jeyeLbEaXUgqGHGgJPKas">YouTube</a> で公開してます ;)</p>
 	<br>
 	<br>
       </div><!--//col-->
