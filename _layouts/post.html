@@ -3,40 +3,40 @@
 
 <!-- MAIN CONTENT -->
 <article>
-<div id="main_content_wrap" class="outer container">
-  <section id="main_content" class="inner row justify-content-md-center pt-5">
-    <div class="col-12 col-md-9 entry_content text-center">
-      <h1>{{ page.title}}</h1>
-      
-      <div class="pull-right">
-	{% include social_buttons.html %}
-      </div>
-      <div style="margin-top: 60px;">
-	{{ content }}
-      </div>
-      <div class="pull-right">
-	{% include social_buttons.html %}
-      </div>
-      <br><br><br>
-      <div class="pull-right" style="margin-top: -10px;">
-	<span class="h5" style="padding-bottom: 100px;">{{ page.date | date: "%Y年%-m月%-d日" }}</span>
-	<span>{% include author.html %}</span>
-      </div>
-      <br><br><br><br><br><br><br><br>
+  <div id="main_content_wrap" class="outer container">
+    <section id="main_content" class="inner row justify-content-md-center pt-5">
+      <div class="col-12 col-md-9 entry_content text-center">
+	<h1>{{ page.title}}</h1>
+	
+	<div class="pull-right">
+	  {% include social_buttons.html %}
+	</div>
+	<div style="margin-top: 60px;">
+	  {{ content }}
+	</div>
+	<div class="pull-right">
+	  {% include social_buttons.html %}
+	</div>
+	<br><br><br>
+	<div class="pull-right" style="margin-top: -10px;">
+	  <span class="h5" style="padding-bottom: 100px;">{{ page.date | date: "%Y年%-m月%-d日" }}</span>
+	  <span>{% include author.html %}</span>
+	</div>
+	<br><br><br><br><br><br><br><br>
 
-      <hr>
+	<hr>
 
-      <div id="posts" style="padding-top: 15px; padding-bottom: 80px;">
-	{% include recent_posts.html %}
+	<div id="posts" style="padding-top: 15px; padding-bottom: 80px;">
+	  {% include recent_posts.html %}
+	</div>
+
+	<hr>
+
+	{% include recent_tweets.html %}
+
       </div>
-
-      <hr>
-
-      {% include recent_tweets.html %}
-
-    </div>
-  </section>
-</div>
+    </section>
+  </div>
 </article>
 
 <div class="fb-quote"></div>
