@@ -167,7 +167,7 @@ lang:   ja
 
 	<p>もちろん結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、なるべく OSS のプロジェクトを題材にしているので、その後の就職/転職活動で OSS に貢献した実績を活かすこともできます。</p>
 
-	<p>実践的であればあるほど実績としての価値も高いので、Ruby on Rails アプリケーションである <a href="#coderdojo-japan">CoderDojo Japan の開発</a>を題材として使うことが多いです。とはいえ、それ以外にも多様な OSS プロダクトを <a href="https://github.com/yasslab">GitHub 上から公開</a>しております。応募時のご参考になれば嬉しい ;)</p>
+	<p>実践的であればあるほど実績としての価値も高いので、Ruby on Rails アプリケーションである <a href="#coderdojo">CoderDojo Japan の開発</a>を題材として使うことが多いです。とはいえ、それ以外にも多様な OSS プロダクトを <a href="https://github.com/yasslab">GitHub 上から公開</a>しております。応募時のご参考になれば嬉しい ;)</p>
 	
 	<!--
 	     ### 1. Gitlate - 継続的翻訳システム
