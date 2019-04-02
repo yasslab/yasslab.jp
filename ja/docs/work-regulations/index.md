@@ -23,7 +23,7 @@ title:  就業規則
 
 {% include numbering-section.html title='目的' %}
 本規則は、YassLab株式会社（以下「会社」という）の従業員の就業に関する事項を定めるものである。
-v
+
 {% include numbering-section.html title='従業員の種類' %}
 従業員の種類は次の通りとする。
 
