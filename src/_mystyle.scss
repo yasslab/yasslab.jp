@@ -53,6 +53,7 @@ br.ignore-sp{
 // font setting
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:600|Oxygen:700');//トップのキャッチコピー専用
 
 @mixin link() {
   background: linear-gradient(transparent 60%, #ff6 60%);
@@ -108,6 +109,7 @@ html {
       font-size: 2.8rem;
       color:#fff;
       padding-top: 30px;
+      font-family: 'Oxygen', sans-serif;
       @include media-breakpoint-down(sm) {
         font-size: 1.5rem;
         padding-top: 15px;
