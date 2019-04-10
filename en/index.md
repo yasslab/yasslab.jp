@@ -10,7 +10,7 @@ lang:   en
 (NOTE: Please jump to [SlideShare's page](http://www.slideshare.net/yasulab/works-of-yasslab) if you cannot see the slides above.)
 -->
 
-## Recent news {#news}
+## [Recent news](#news) {#news}
 
 - Become an official partner of [Scrivito](https://scrivito.com/partners), the professional cloud-based Rails CMS.
 - Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
@@ -20,7 +20,7 @@ lang:   en
 
 <br>
 
-## Past works {#works}
+## [Past works](#works) {#works}
 
 - Web Services and Mobile Applications:
    - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs), Automate Translating Frequently-updated Tech Docs.

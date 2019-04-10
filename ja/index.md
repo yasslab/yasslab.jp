@@ -22,7 +22,7 @@ lang:   ja
     <div class="row">
       <div class="col-12">
         <h2><a href="#vision">新しいサービスを、Ruby で</a></h2>
-        <p class="text-md-center">オープンソースソフトウェアやコミュニティへの還元を大切にしつつ、<br class="ignore-sp">事業としても共に成長できる、そんなビジネスに関わり続けている会社です。</p>
+        <p class="text-md-center">オープンソースソフトウェアやコミュニティへの還元を大切にしつつ、<br clavss="ignore-sp">事業としても共に成長できる、そんなビジネスに関わり続けている会社です。</p>
       </div>
     </div>
   </div>
