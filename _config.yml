@@ -47,10 +47,19 @@ frogs:         "[Ryukyufrogs](https://www.ryukyu-frogs.com)"
 
 highlighter: rouge
 markdown: kramdown
+
 kramdown:
-  input: GFM
-  hard_wrap: true
-  autolink: true
+  auto_ids      : true
+  autolink      : true
+  entity_output : as_char
+  toc_levels    : 1..6
+  smart_quotes  : lsquo,rsquo,ldquo,rdquo
+  input         : GFM
+  gfm_quirks    : paragraph_end
+  hard_wrap     : true
+  footnote_nr   : 1
+  show_warnings : false
+
 plugins: 
   - kramdown
   - jekyll-gist
@@ -58,6 +67,7 @@ plugins:
   - jekyll-assets
   - jekyll-feed
   - qiita
+
 exclude:
   - README.md
   - Procfile
