@@ -19,11 +19,11 @@ lang:   ja
           <ol>
             <li><a href="/ja/agile">Ruby/Rails 開発支援サービス</a>の提供</li>
             <li><a href="https://railstutorial.jp/">Railsチュートリアル</a>/<a href="https://railsguides.jp/">Railsガイド</a>の運営</li>
-            <li><a href="https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs">継続的翻訳</a>/<a href="https://speakerdeck.com/yasulab/continuous-integration-for-ebook">継続的組版システム</a>の開発</li>
+            <li id="story"><a href="https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs">継続的翻訳</a>/<a href="https://speakerdeck.com/yasulab/continuous-integration-for-ebook">継続的組版システム</a>の開発</li>
           </ol>
         </div>
 
-	<h2>創業ストーリー</h2>
+	<h2><a href="#story">創業ストーリー</a></h2>
 	<div class="col-md-12 text-center" style="padding-bottom: 30px;">
 	  早稲田大学の講演で使われたスライド資料です。<br class="ignore-sp">過去〜現在までの流れが時系列でまとめられています。</div>
 	<div class="col-md-8 offset-md-2" style="padding-bottom: 30px;">
