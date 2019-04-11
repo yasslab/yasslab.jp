@@ -47,6 +47,10 @@ frogs:         "[Ryukyufrogs](https://www.ryukyu-frogs.com)"
 
 highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+  autolink: true
 plugins: 
   - kramdown
   - jekyll-gist
