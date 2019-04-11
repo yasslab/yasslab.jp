@@ -6,17 +6,36 @@ Lorem ipsum ...
 - 1920より大きなモニタで閲覧される機会は（少ないと思うのですが）画像リピートされます
 - 記事に見合ったイメージ画像が別途必要な時は、幅1920で作る、もしくはmgnに依頼してください
 
-## YouTube Embed Sample: <br class="pc-hidden">title...
+## 📜 スライド資料
 
-MEMO: コンテンツ部分のみ (`pHFRHN-wGYU`) を当該動画に差し替えるとラクです ;)
-
-<div class="video" style="margin-bottom: 30px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/pHFRHN-wGYU?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="margin-bottom: 100px;">
+  <script async class="speakerdeck-embed" data-id="ee19ff2514724ee2b345068cfd37581c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-## Image Embed Sample: まとめ
+## 📹 発表動画
 
-いかがでしたでしょうか? hogehoge...
+MEMO: コンテンツ部分のみ (`FU79IO-qRVY`) を当該動画に差し替えるとラクです ;)
+
+<div class="video" style="margin-bottom: 100px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FU79IO-qRVY?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## まとめ・後日談
+
+いかがでしたでしょうか? hogehoge... (いくつかのまとめ方を下記に例示)
+
+Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[商用ライセンス](https://railstutorial.jp/#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽に試してみてください ;)
+
+-----
+
+YassLab 株式会社では全社員がリモートワークをしながら『{{ site.railstutorial }}』『{{ site.railsguides }}』『{{ site.coderdojo }}』のWebサービス開発をしたり、他社向けに『[月額制の開発支援事業](/ja/agile)』を提供しています。
+
+他にも様々な動画を YouTube から公開しているので、よければぜひチャンネル登録していただければ ;)
+
+📹 YassLab チャンネル - YouTube
+[https://www.youtube.com/user/YassLabChannel/](https://www.youtube.com/user/YassLabChannel/)
+
+-----
 
 [![YassLab Inc.](/img/logos/800x200.png)](/)
 
