@@ -37,7 +37,7 @@ YassLab 社が[創業](https://yasslab.jp/ja/works#story)間もない頃から e
 
 ## 後日談
 
-イベント後の二次会では [@koic](https://twitter.com/koic) さんや [@masa_iwasaki](https://twitter.com/masa_iwasaki) さんと RuboCop コミッターになった背景やアジャイル開発の系譜、Rails DM や RubyKaigi の情報共有、また、Ruby コミュニティに新しい人達が増えてきて面白くなってきている話などで盛り上がりました 💎✨
+イベント後の二次会では [@koic](https://twitter.com/koic) さんや [@masa_iwasaki](https://twitter.com/masa_iwasaki) さん達と RuboCop コミッターになった背景やアジャイル開発の系譜、Rails DM や RubyKaigi の情報共有、また、Ruby コミュニティに新しい人達が増えてきて面白くなってきている話などで盛り上がりました 💎✨
 
 4月に行われる [RubyKaigi](https://rubykaigi.org/2019) では YassLab 社メンバーも沖縄から複数名参加する予定なので、当日お越しになる方はぜひお気軽にお声掛けください 😆
 
