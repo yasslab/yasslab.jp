@@ -275,8 +275,10 @@ html {
   @include media-breakpoint-up(sm) {
     padding: 50px 50px 0 50px;
   }
+  @include media-breakpoint-down(sm) {
+    margin-top: 60px;
+  }
 }
-
 .okinawaMember,
 .tokyoMember {
   padding: 0;
