@@ -1,10 +1,8 @@
 <li style="padding-top: 7px;">
+  <small>{{ post.date | date: "%m/%d" }}</small>
   <span class="h5">
     <a href="{{ post.url }}" data-proofer-ignore>
       {{ post.title }}
-      <!-- TODO: Need a good design for showing this info
-	   <small>{{ post.date | date_to_string }}</small>
-      -->
     </a>
   </span>
 </li>
