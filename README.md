@@ -2,11 +2,10 @@
 
 # Website for YassLab Inc.
 
-This repository includes source code to build [YassLab](https://yasslab.jp)'s website.
+This repository includes source code to build [YassLab](https://yasslab.jp/)'s website.
 
 YassLab Inc.   
-Distributed Company that Works Remotely, focusing on   
-Ruby/Rails Web Development, Education, and OpenSource.   
+Having a Good Life with OpenSource ;)     
 https://yasslab.jp/
 
 ## Setup
@@ -36,6 +35,6 @@ The icons used in the website are created by [Font Awesome](http://fontawesome.i
 
 ## Copyright
 
-Copyright &copy; 2012-2019 [YassLab Inc.](https://yasslab.jp)
+Copyright &copy; [YassLab Inc.](https://yasslab.jp) since 2012
 
 [![YassLab 株式会社ロゴ](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)
