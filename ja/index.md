@@ -138,8 +138,6 @@ lang:   ja
              caption='<a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒' %}
           {% include member.html username='naopontan' link_to='twitter'
              caption='Railsエンジニア。<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議</a>運営チーム' %}
-          {% include member.html username='irish15' link_to='github' offset='offset-md-4'
-             caption='琉大enPiTで<a href="https://ie.u-ryukyu.ac.jp/enpit/product/">アトオス</a>を開発。<a href="https://ie.u-ryukyu.ac.jp/enpit/2018/01/10/%E3%80%8C%E7%94%A3%E6%A5%AD%E6%8A%80%E8%A1%93%E5%A4%A7%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6%E3%83%BB%E7%90%89%E7%90%83%E5%A4%A7%E5%AD%A6-enpit2%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A-2017-2/">Best Team</a>受賞' %}
         </div>
       </div>
     </div>
