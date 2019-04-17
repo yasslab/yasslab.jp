@@ -47,6 +47,7 @@ lang:   ja
 
 	<h3 id="achievements-2019">2019年 (予定含む)</h3>
 	<ul style="list-style: none;">
+	  <li>4月 取材記事『<b><a href="https://free-engineer.site/yasslab/">Railsチュートリアル開発経緯と今後</a></b>』が公開</li>
 	  <li><b>4月 <a href="https://yasslab.jp/ja/posts/rubykaigi-2019-sponsorship">RubyKaigi 2019 に協賛</a>。全社員を招待 (任意参加)</b></li>
 	  <li>4月 DIVE INTO CODE 主催 <a href="https://diveintocode.doorkeeper.jp/events/83984">Demo Day 6th</a> に審査員として参加</li>
 	  <li>3月 JP_Stripes Connect 2019 の<a href="https://yasslab.jp/ja/posts/jp-stripes-connect-2019">LTセッションで登壇</a></li>
