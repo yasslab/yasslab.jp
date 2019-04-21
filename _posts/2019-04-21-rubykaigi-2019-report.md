@@ -55,7 +55,10 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 
 既に Okinawa.rb をご存知の方々からは『[沖縄Ruby会議](https://ruby.okinawa/okrk02/)、次はいつですか...!?』という声もあって、ぜひ継続的にやっていきたいぞーという気持ちになりました 💎✨
 
-一方、嬉しい悲鳴ではありますが経営者としてやるべきタスクも増えているため、うまく継続的に回していく方法を少しずつ確立させていきたいとなー、というのが沖縄Ruby会議開催の直近の課題です 🤔💭
+一方、嬉しい悲鳴ではありますが経営者としてやるべきタスクも増えているため、[うまく継続的に回していく方法](https://speakerdeck.com/yasulab/inside-okinawa-rubykaigi)を少しずつ確立させていきたいなー、というのが沖縄Ruby会議開催の直近の課題です 🤔💭
+
+例: 沖縄Ruby会議ラクラク運用 - Speaker Deck   
+[https://speakerdeck.com/yasulab/inside-okinawa-rubykaigi](https://speakerdeck.com/yasulab/inside-okinawa-rubykaigi)
 
 今後も RubyKaigi は様々な場所で開催されると思いますが、いつか沖縄での開催が検討されたとき[地域Ruby会議](https://regional.rubykaigi.org/)の運営経験者が沖縄にたくさんいた方が現実的な開催候補地として挙がりやすくなるのかもしれないですし... 😏💭✨
 
