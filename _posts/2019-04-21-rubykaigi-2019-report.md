@@ -4,7 +4,7 @@ title:  RubyKaigi 2019 楽しかったよ!! 😆
 thumbnail: posts/rubykaigi-2019.jpg
 author: yasulab
 categories: [blog]
-tags: [RubyKaigi, 登壇, Railsガイド, Railsチュートリアル]
+tags: [登壇, Okinawa.rb, RubyKaigi, Railsガイド, Railsチュートリアル]
 permalink: /ja/posts/rubykaigi-2019-report
 ---
 
