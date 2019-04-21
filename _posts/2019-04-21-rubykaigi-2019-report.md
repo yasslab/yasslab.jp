@@ -12,7 +12,7 @@ permalink: /ja/posts/rubykaigi-2019-report
 
 [![RubyKaigi 2019](https://i.gyazo.com/c9f0ade697003039fbcdba76a7ff3f01.png)](https://rubykaigi.org/2019)
 
-YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rubykaigi.org/2013/volunteers/)から積極的に関わり始め、2014年以降も[翻訳面で毎年サポート](http://rubykaigi.org/2014/team/)をしていました。2017年からは**弊社だからこそできること**に注力しようと [#YassLabハウス](https://twitter.com/search?f=tweets&vertical=default&q=YassLab%E3%83%8F%E3%82%A6%E3%82%B9%20OR%20yasslabhouse&src=typd) をオープンし、[沖縄メンバー](https://yasslab.jp/ja/#okinawa)や [Okinawa.rb](https://ruby.okinawa/) の RubyKaigi 参加サポートを実施しています。
+YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rubykaigi.org/2013/volunteers/)から積極的に関わり始め、2014年以降も[翻訳面で毎年サポート](http://rubykaigi.org/2014/team/)をしていました。2017年からは**弊社だからこそできること**に注力しようと [#YassLabハウス](https://twitter.com/search?f=tweets&vertical=default&q=YassLab%E3%83%8F%E3%82%A6%E3%82%B9%20OR%20yasslabhouse&src=typd) をオープンし、[沖縄メンバー](https://yasslab.jp/ja/#okinawa)や [Okinawa.rb](https://ruby.okinawa/) 関係者の RubyKaigi 参加サポートを実施しています。
 
 <div style="margin-bottom: 30px;">
   <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/YassLab%E3%83%8F%E3%82%A6%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#YassLabハウス</a> のフレンズ、昨日はgobyにPRを、今日はRubyにpatchを送っていてたーのしー ✉️✨ <a href="https://twitter.com/hashtag/RubyKaigi?src=hash&amp;ref_src=twsrc%5Etfw">#RubyKaigi</a> <a href="https://t.co/LnONGrLOVx">pic.twitter.com/LnONGrLOVx</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/910544522559422464?ref_src=twsrc%5Etfw">September 20, 2017</a></blockquote>
