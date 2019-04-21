@@ -29,13 +29,13 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 
 最近は [#Railsチュートリアル](https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB) や [#Railsガイド](https://twitter.com/hashtag/Railsガイド) の月間アクティブユーザー数が増えていることもあり、今回は例年以上に多くの方々からお声掛けしていただきました 😻💖
 
-<div style="margin-bottom: 100px;">
+<div style="margin-bottom: 50px;">
   <script async class="speakerdeck-embed" data-slide="9" data-id="30289234a2f743b6b2827602cfbc5991" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
 **特にRailsチュートリアルは営業や編集者、料理人や薬剤師、医者や弁護士などに使ってもらえる事例が増えているため**、RubyKaigi 中に『元々は違う職種でしたが、今はエンジニアとして活躍しています!』『こんな機能あると嬉しいです!』といった声も聞けて本当に嬉しいです ;)
 
-もちろん[エンジニア社員研修](https://railstutorial.jp/business)や[教育機関・プログラミングクール](https://railstutorial.jp/#partners)での提携事例も増えていますが、様々な方々の人生に少しでもお役に立てたのかなと思うと感慨深いものがあります 😹✨
+もちろん[エンジニア社員研修](https://railstutorial.jp/business)や[教育機関・プログラミングクール](https://railstutorial.jp/#partners)での提携事例も増えていて、事業を通して様々な方々の人生に少しでもお役に立てたのかなと思うと感慨深いものがあります 😹✨
 
 そういったお声も頂き、『もっとやるぞー」という気持ちになって、最終日はハックスペースで黙々と作業して温めていたネタ『[Rails考古学](https://twitter.com/search?q=Rails考古学)』もリリースできました! 🚀🆕✨
 
@@ -46,18 +46,20 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 
 ## もちろん沖縄の紹介も! 🏝🌺
 
-2日目には [Fusic Drinkup at RubyKaigi 2019](https://fusic.connpass.com/event/124806/) の懇親会で (恒例の?) Okinawa.rb の紹介もしてきました! 🏢🏃💨 最近は Okinawa.rb に参加する Rubyists が各所で著名になってきていて、『もっとこの流れを伸ばしていくぞ...!!!』という気持ちになっています 📈✨
+2日目には [Fusic Drinkup at RubyKaigi 2019](https://fusic.connpass.com/event/124806/) の懇親会で (恒例の?) Okinawa.rb の紹介もしてきました! 🏢🏃💨 最近は Okinawa.rb に参加する Rubyists が各所で著名になってきていて『もっとこの流れを伸ばしていくぞ...!!!』という気持ちになっています 📈✨
 
 <div style="margin-bottom: 100px;">
   <script async class="speakerdeck-embed" data-id="1afdf7a18eb54fc9a2c5cd23061b09d6" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
 
-既に沖縄のRubyコミュニティをご存知の方々からは『[沖縄Ruby会議](https://ruby.okinawa/okrk02/)、次はいつですか...!?』という声もあって、ぜひ継続的にやっていきたいぞーという気持ちになりました 💎✨ 一方、嬉しい悲鳴ではありますが経営者としてやるべきタスクも増えているため、うまく継続的に回していく方法を少しずつ確立させていきたいとなーというのが直近の課題かなと考えています 🤔💭
+既に Okinawa.rb をご存知の方々からは『[沖縄Ruby会議](https://ruby.okinawa/okrk02/)、次はいつですか...!?』という声もあって、ぜひ継続的にやっていきたいぞーという気持ちになりました 💎✨
 
-また、今後も RubyKaigi は様々な場所で開催されると思いますが、いつか沖縄での開催が検討されたとき[地域Ruby会議](https://regional.rubykaigi.org/)の運営経験者が沖縄にたくさんいた方が現実的な開催候補地として挙がりやすくなるのかもしれないですし... 😏💭✨
+一方、嬉しい悲鳴ではありますが経営者としてやるべきタスクも増えているため、うまく継続的に回していく方法を少しずつ確立させていきたいとなーというのが直近の課題かなと考えています 🤔💭
 
-未来のことは僕には分からないですが、個人的には「沖縄でも！🙌」といった声をあげるだけじゃ不十分で、現実的な選択肢となるための継続的なアクションが未来を引き寄せると思うので、今後もアクションを大事にし続けていきいと考えています 🏃💨
+今後も RubyKaigi は様々な場所で開催されると思いますが、いつか沖縄での開催が検討されたとき[地域Ruby会議](https://regional.rubykaigi.org/)の運営経験者が沖縄にたくさんいた方が現実的な開催候補地として挙がりやすくなるのかもしれないですし... 😏💭✨
+
+未来のことは僕には分からないですが、個人的には「沖縄でも！🙌」といった声をあげるだけじゃ不十分で、現実的な選択肢となるための継続的なアクションが未来を引き寄せると考えています。いつかあるかもしれない未来を見据えて、今後もアクションにより重きを置いて動いていきます 🏃💨
 
 
 
@@ -65,7 +67,7 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 
 皆さんの2019年の [#RubyKaigi](https://twitter.com/hashtag/RubyKaigi) はいかがでしたか?
 
-毎年参加されている方も今年初めて参加した方も、あるいは今年は残念ながら都合が合わなかった方もいると思いますが、Ruby 3 リリースが予定される2020年は**4月9日 (木) 〜 4月11日 (土) に松本での開催**となります。
+毎年参加されている方も今年初めて参加した方も、あるいは今年は残念ながら都合が合わなかった方もいると思いますが、Ruby 3 リリースが予定される2020年は**4月9日 (木) 〜 4月11日 (土) に長野県の松本で開催**となるそうです。
 
 ![RubyKaigi 2020](https://i.gyazo.com/0f69556270e50a3f8beb20a5cd07dc0b.jpg)
 
