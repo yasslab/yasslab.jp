@@ -37,7 +37,7 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 
 もちろん[エンジニア社員研修](https://railstutorial.jp/business)や[教育機関・プログラミングクール](https://railstutorial.jp/#partners)での提携事例も増えていて、事業を通して様々な方々の人生に少しでもお役に立てたのかなと思うと感慨深いものがあります 😹✨
 
-そういったお声も頂き、『もっとやるぞー」という気持ちになって、最終日はハックスペースで黙々と作業して温めていたネタ『[Rails考古学](https://twitter.com/search?q=Rails考古学)』もリリースできました! 🚀🆕✨
+そういったお声も頂き、『もっとやるぞー』という気持ちになって、最終日はハックスペースで黙々と作業して温めていたネタ『[Rails考古学](https://twitter.com/search?q=Rails考古学)』もリリースできました! 🚀🆕✨
 
 <div style="margin-bottom: 100px;">
   <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/RubyKaigi?src=hash&amp;ref_src=twsrc%5Etfw">#RubyKaigi</a> のハックスペースで作業をし、先ほど <a href="https://twitter.com/hashtag/Rails%E3%82%AC%E3%82%A4%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#Railsガイド</a> の Ruby on Rails **3.2** リリースノートを公開しました! 🚀✨<a href="https://t.co/QMXvr12i9j">https://t.co/QMXvr12i9j</a><a href="https://twitter.com/hashtag/Rails%E8%80%83%E5%8F%A4%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#Rails考古学</a> シリーズとして過去のリリースノートも順次対応していく予定です! Rails が今に至るまでの流れをふりかえってみませんか...!? 😆💖 <a href="https://t.co/XpuRiJyn6k">pic.twitter.com/XpuRiJyn6k</a></p>&mdash; YassLab 株式会社 (@YassLab) <a href="https://twitter.com/YassLab/status/1119509871517241344?ref_src=twsrc%5Etfw">April 20, 2019</a></blockquote>
@@ -62,7 +62,7 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 例: 沖縄Ruby会議ラクラク運用 - Speaker Deck   
 [https://speakerdeck.com/yasulab/inside-okinawa-rubykaigi](https://speakerdeck.com/yasulab/inside-okinawa-rubykaigi)
 
-未来のことは僕には分からないですが、個人的には「沖縄でも！🙌」といった声をあげるだけじゃ不十分で、現実的な選択肢になるための継続的なアクションが未来を引き寄せると考えています。いつかあるかもしれない未来を見据えて、今後もアクションにより重きを置いて動いていきます 🏃💨
+未来のことは僕には分からないですが、個人的には『沖縄でも！🙌』といった声をあげるだけではやや不十分かなと思っていて、現実的な選択肢になるための継続的なアクションが未来を引き寄せると考えています。いつかあるかもしれない未来を見据えて、今後もアクションにより重きを置いて動いていきます 🏃💨
 
 　
 
