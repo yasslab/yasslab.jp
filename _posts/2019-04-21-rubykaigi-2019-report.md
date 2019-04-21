@@ -27,7 +27,7 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 
 ## 嬉しかったこと! 💖
 
-最近は [#Railsチュートリアル](https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB) や [#Railsガイド](https://twitter.com/hashtag/Railsガイド) の月間アクティブユーザー数が増えていることもあり、今回は多くの方々にお声掛けしていただくことが増えました 😻💖
+最近は [#Railsチュートリアル](https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB) や [#Railsガイド](https://twitter.com/hashtag/Railsガイド) の月間アクティブユーザー数が増えていることもあり、今回は例年以上に多くの方々からお声掛けしていただきました 😻💖
 
 <div style="margin-bottom: 100px;">
   <script async class="speakerdeck-embed" data-slide="9" data-id="30289234a2f743b6b2827602cfbc5991" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
