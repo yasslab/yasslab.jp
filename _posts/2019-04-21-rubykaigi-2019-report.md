@@ -57,10 +57,10 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 
 一方、嬉しい悲鳴ではありますが経営者としてやるべきタスクも増えているため、[うまく継続的に回していく方法](https://speakerdeck.com/yasulab/inside-okinawa-rubykaigi)を少しずつ確立させていきたいなー、というのが沖縄Ruby会議開催の直近の課題です 🤔💭
 
+今後も RubyKaigi は様々な場所で開催されると思いますが、いつか沖縄での開催が検討されたとき[地域Ruby会議](https://regional.rubykaigi.org/)の運営経験者が沖縄にたくさんいた方が現実的な開催候補地として挙がりやすくなるかもしれないですし... 😏💭✨
+
 例: 沖縄Ruby会議ラクラク運用 - Speaker Deck   
 [https://speakerdeck.com/yasulab/inside-okinawa-rubykaigi](https://speakerdeck.com/yasulab/inside-okinawa-rubykaigi)
-
-今後も RubyKaigi は様々な場所で開催されると思いますが、いつか沖縄での開催が検討されたとき[地域Ruby会議](https://regional.rubykaigi.org/)の運営経験者が沖縄にたくさんいた方が現実的な開催候補地として挙がりやすくなるのかもしれないですし... 😏💭✨
 
 未来のことは僕には分からないですが、個人的には「沖縄でも！🙌」といった声をあげるだけじゃ不十分で、現実的な選択肢となるための継続的なアクションが未来を引き寄せると考えています。いつかあるかもしれない未来を見据えて、今後もアクションにより重きを置いて動いていきます 🏃💨
 
@@ -75,6 +75,8 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 ![RubyKaigi 2020](https://i.gyazo.com/0f69556270e50a3f8beb20a5cd07dc0b.jpg)
 
 YassLab 社はもちろん2020年も参加します! 2020年も様々な方々とお話しできることが今からとても楽しみです...!! (＞人＜ )✨
+
+----------
 
 [![YassLab Inc.](/img/logos/800x200.png)](/)
 
