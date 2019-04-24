@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/yasslab/yasslab.github.io.svg?branch=master)](https://travis-ci.org/yasslab/yasslab.github.io)
+[![Build Status](https://travis-ci.org/yasslab/yasslab.jp.svg?branch=master)](https://travis-ci.org/yasslab/yasslab.jp)
 
 # Website for YassLab Inc.
 
