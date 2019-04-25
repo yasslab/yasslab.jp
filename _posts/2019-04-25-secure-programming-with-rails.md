@@ -73,7 +73,7 @@ Railsチュートリアルでも[暗号化とハッシュ化の違い](https://r
 
 **Railsチュートリアルでは読者が自力で解決しづらいエラーに遭遇しないように Gemfile でバージョンを固定しています。**もちろん[書籍内でもその旨を明示](https://railstutorial.jp/chapters/beginning#sec-bundler)していますが、導入しているライブラリのバージョンが古いために、最新バージョンでは既に対策済みの脆弱性が残っていてもおかしくはありません。
 
-最後の章の[拡張編](https://railstutorial.jp/chapters/following_users#sec-guide_to_extensions)でも紹介していますが、Railsチュートリアルでは **Sample App の Gemfile や Rails 自身のアップグレードを完走後の題材の1つとしてオススメ**しています。Railsチュートリアル完走後にプロダクト開発を実践する方々も多いと思いますが、そのときは徳丸さんからのアドバイス『Railsのバージョンを上げよう』『Railsのレールから外れる場合は慎重に』を意識していくと良さそうですね 😆
+最後の[拡張編](https://railstutorial.jp/chapters/following_users#sec-guide_to_extensions)でも紹介していますが、Railsチュートリアルでは **Sample App の Gemfile や Rails 自身のアップグレードを完走後の題材の1つとしてオススメ**しています。Railsチュートリアル完走後にプロダクト開発を実践する方々も多いと思いますが、そのときは徳丸さんからのアドバイス**『Railsのバージョンを上げよう』『Railsのレールから外れる場合は慎重に』**を意識していくと良さそうですね 😆
 
 　
 
@@ -85,7 +85,7 @@ Railsチュートリアルでも[暗号化とハッシュ化の違い](https://r
   <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">徳丸さんの講演『Railsエンジニアのためのウェブセキュリティ入門』で <a href="https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Railsチュートリアル</a> が紹介されてたー！やったー！嬉しい！！😻✨ <a href="https://twitter.com/hashtag/ginzarails?src=hash&amp;ref_src=twsrc%5Etfw">#ginzarails</a> <br><br>&gt; Rails Tutorial を勉強しましょう <a href="https://t.co/kEMpH2weKx">pic.twitter.com/kEMpH2weKx</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1121016150182096896?ref_src=twsrc%5Etfw">April 24, 2019</a></blockquote>
 </div>
 
-とはいえセキュリティに関するトピックは『１回対策したら終わり』というわけではなく、日々の情報のキャッチアップも重要です。最近だと [RubyKaigi 2019](/ja/posts/rubykaigi-2019-report) でアナウンスされた RubyGems.org の MFA 設定がありましたが、皆さんはもう既に設定されましたか? 🔐✅
+とはいえセキュリティに関するトピックは『１回対策したら終わり』というわけではなく、日々の情報のキャッチアップも重要です。最近だと [RubyKaigi 2019](https://yasslab.jp/ja/posts/rubykaigi-2019-report) でアナウンスされた RubyGems.org の MFA 設定がありましたが、皆さんはもう既に設定されましたか? 🔐✅
 
 [📜 RubyGems.org に多要素認証（MFA）を設定してください - TechRacho](https://techracho.bpsinc.jp/hachi8833/2019_04_22/73587)
 
