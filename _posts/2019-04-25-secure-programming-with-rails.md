@@ -73,7 +73,7 @@ Railsチュートリアルでも[暗号化とハッシュ化の違い](https://r
 
 **Railsチュートリアルでは読者が自力で解決しづらいエラーに遭遇しないように Gemfile でバージョンを固定しています。**もちろん[書籍内でもその旨を明示](https://railstutorial.jp/chapters/beginning#sec-bundler)していますが、導入しているライブラリのバージョンが古いために、最新バージョンでは既に対策済みの脆弱性が残っていてもおかしくはありません。
 
-最後の[拡張編](https://railstutorial.jp/chapters/following_users#sec-guide_to_extensions)でも紹介していますが、Railsチュートリアルでは **Sample App の Gemfile や Rails 自身のアップグレードを完走後の題材の1つとしてオススメ**しています。Railsチュートリアル完走後にプロダクト開発を実践する方々も多いと思いますが、そのときは徳丸さんからのアドバイス**『Railsのバージョンを上げよう』『Railsのレールから外れる場合は慎重に』**を意識していくと良さそうですね 😆
+最後の[拡張編](https://railstutorial.jp/chapters/following_users#sec-guide_to_extensions)でも紹介していますが、Railsチュートリアルでは**完走後の演習課題として Sample App の Gemfile や Rails 自身のアップグレードをオススメ**しています。Railsチュートリアル完走後にプロダクト開発を始める方々も多いと思いますが、そのときは徳丸さんからのアドバイス**『Railsのバージョンを上げよう』『Railsのレールから外れる場合は慎重に』**を意識していくと良さそうですね 😆
 
 　
 
