@@ -18,6 +18,8 @@ permalink: /ja/posts/secure-programming-with-rails
 
 今回はその徳丸さんのお話『Railsエンジニアのためのウェブセキュリティ入門』を聞いてきたので、その内容の一部をご紹介してみようと思います 📝💨
 
+　
+
 ## 題材にRailsチュートリアル...!!
 
 ![railstutorial.jp](https://i.gyazo.com/ea9e68c7f30c75ea6a2f7a63f4b6e860.jpg)
