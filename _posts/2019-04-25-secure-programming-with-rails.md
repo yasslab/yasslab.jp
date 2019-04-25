@@ -16,7 +16,7 @@ permalink: /ja/posts/secure-programming-with-rails
 
 徳丸さんとは[エンジニアのための法律勉強会](https://koyhogetech.hatenablog.com/entry/20150528/coedo-lawstudy)で初めてお会いし、最近だと[ウェブ・セキュリティ試験](https://prtimes.jp/main/html/rd/p/000000076.000018759.html)の運営団体『[BOSS-CON JAPAN](https://www.boss-con.jp/aboutus/)』経由でご一緒することがあります。といってもYassLab社は[Rails技術者認定試験に協力](https://railscp.com/text/)しているものの、PHPやPythonなどの他の試験にはほとんど関わっていないので、『徳丸さん達が隣で面白いことをやっているなー』『どこかでRuby/Railsの話も聞いてみたいなー』というぐらいでしたが 😅
 
-そんな徳丸さんが今回『Railsエンジニアのためのウェブセキュリティ入門』のお話をされたのですが、思っていた以上に内容の濃い講演となりました。本記事ではその一部をご紹介してみようと思います 📝💨
+そんな徳丸さんが今回『Railsエンジニアのためのウェブセキュリティ入門』のお話をされるとのことなので参加してきたのですが、思っていた以上に濃い内容でした。本記事ではその一部を皆さんにご紹介しようと思います 📝💨
 
 　
 
