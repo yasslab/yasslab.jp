@@ -8,7 +8,7 @@ tags: [セキュリティ, Rails, Railsチュートリアル]
 permalink: /ja/posts/secure-programming-with-rails
 ---
 
-[銀座Rails#8](https://ginza-rails.connpass.com/event/121889/)で行われた徳丸 浩さん ([@ockeghem](https://twitter.com/ockeghem) の講演『Railsエンジニアのためのウェブセキュリティ入門』に参加してきました! 🏃💨
+[銀座Rails#8](https://ginza-rails.connpass.com/event/121889/)で行われた徳丸 浩さん ([@ockeghem](https://twitter.com/ockeghem)) の講演『Railsエンジニアのためのウェブセキュリティ入門』に参加してきました! 🏃💨
 
 <div style="margin-bottom: 50px;">
   <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">本日19時から銀座にてですが、キャンセルのためお席の余裕ができたようです。Railesアプリのセキュリティについてトークします / “銀座Rails#8 @リンクアンドモチベーション - connpass” <a href="https://t.co/1DBQfEBoXk">https://t.co/1DBQfEBoXk</a></p>&mdash; 徳丸 浩 (@ockeghem) <a href="https://twitter.com/ockeghem/status/1120955276339757056?ref_src=twsrc%5Etfw">April 24, 2019</a></blockquote>
