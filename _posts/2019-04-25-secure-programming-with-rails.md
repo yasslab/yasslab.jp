@@ -60,8 +60,7 @@ SQLインジェクション対策もれの責任を開発会社に問う判決 |
 
 なお、この判例については YassLab 社の顧問弁護士でもある[野島 梨恵](http://nojimarie.naganoblog.jp/)氏の解説もあります。[@koyhoge](https://twitter.com/koyhoge) さんの次の記事を合わせて読むとさらに詳しい状況が分かるかなと思うので、もし興味あればぜひチェックしてみてください 👀✅
 
-エンジニアのための法律勉強会#2『判例に学ぶ、受託開発時の注意事項』
-[https://gist.github.com/koyhoge/1ee02b354968e8910604](https://gist.github.com/koyhoge/1ee02b354968e8910604)
+[エンジニアのための法律勉強会#2『判例に学ぶ、受託開発時の注意事項』参加メモ - Gist](https://gist.github.com/koyhoge/1ee02b354968e8910604)
 
 　
 
