@@ -73,7 +73,7 @@ SQLインジェクション対策もれの責任を開発会社に問う判決 |
 
 **Railsチュートリアルでは読者が自力で解決しづらいエラーに遭遇しないように Gemfile でバージョンを固定しています。**もちろん[書籍内でもその旨を明示](https://railstutorial.jp/chapters/beginning#sec-bundler)していますが、導入しているライブラリのバージョンが古いために、最新バージョンでは既に対策済みの脆弱性が残ってていてもおかしくはありません。
 
-最後の章の[拡張編](https://railstutorial.jp/chapters/following_users#sec-guide_to_extensions)でも紹介していますが、Railsチュートリアルでは **Sample App の Gemfile や Rails 自身のアップグレードを完走後の題材の1つとしてオススメ**しています。Railsチュートリアル完走後、実際にオリジナルなプロダクトを開発するときはぜひセキュリティについても意識していけると良いですね 😆
+最後の章の[拡張編](https://railstutorial.jp/chapters/following_users#sec-guide_to_extensions)でも紹介していますが、Railsチュートリアルでは **Sample App の Gemfile や Rails 自身のアップグレードを完走後の題材の1つとしてオススメ**しています。Railsチュートリアル完走後にオリジナルなプロダクトを開発する方々も多いと思いますが、そのときは徳丸さんからのアドバイス『Railsのバージョンを上げよう』『Railsのレールから外れる場合は慎重に』を意識していくと良さそうですね 😆
 
 　
 
