@@ -100,7 +100,7 @@ YassLab 社ではプロダクト開発をする様々な方々に『[Railsチュ
 
 -----
 
-<br>📣 【PR】YassLab 社では社員研修に特化したRailsチュートリアルの『[法人プラン](https://railstutorial.jp/business)』、Rails開発の生産性を高めるRailsガイドの『[Proプラン](https://railsguides.jp/pro)』を提供しています。よければこちらもぜひお試し頂けると嬉しいです ;)
+<br>📣 【PR】YassLab 社では社員研修に特化したRailsチュートリアルの『[法人プラン](https://railstutorial.jp/business)』、Rails開発の生産性を高めるRailsガイドの『[Proプラン](https://railsguides.jp/pro)』を提供しています。ぜひお試しして頂けると嬉しいです ;)
 
 [![YassLab Inc.](/img/logos/800x200.png)](/)
 
