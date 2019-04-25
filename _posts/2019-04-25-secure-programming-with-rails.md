@@ -38,7 +38,7 @@ permalink: /ja/posts/secure-programming-with-rails
 
 　
 
-## 例: パスワードをハッシュ化しないで保存する 😈
+## 😈 例: パスワードを<br>ハッシュ化しないで保存する
 
 Railsチュートリアルでも[暗号化とハッシュ化の違い](https://railstutorial.jp/chapters/modeling_users#sec-a_hashed_password)や、なぜパスワードは暗号化ではなくハッシュ化なのかと言った説明がされていますが、本講演でもその概要を分かりやすく説明されていました。技術的な攻撃方法やその対策も紹介されていましたが、個人的には**「実際に流失した場合どんなことが起こるのか？」**といった事例が印象的でした。
 
