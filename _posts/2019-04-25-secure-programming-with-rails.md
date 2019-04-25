@@ -14,9 +14,9 @@ permalink: /ja/posts/secure-programming-with-rails
   <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">本日19時から銀座にてですが、キャンセルのためお席の余裕ができたようです。Railesアプリのセキュリティについてトークします / “銀座Rails#8 @リンクアンドモチベーション - connpass” <a href="https://t.co/1DBQfEBoXk">https://t.co/1DBQfEBoXk</a></p>&mdash; 徳丸 浩 (@ockeghem) <a href="https://twitter.com/ockeghem/status/1120955276339757056?ref_src=twsrc%5Etfw">April 24, 2019</a></blockquote>
 </div>
 
-徳丸さんとは[エンジニアのための法律勉強会](https://koyhogetech.hatenablog.com/entry/20150528/coedo-lawstudy)で初めてお会いし、2019年12月から始まる[ウェブ・セキュリティ試験](https://prtimes.jp/main/html/rd/p/000000076.000018759.html)の運営団体『[BOSS-CON JAPAN](https://www.boss-con.jp/aboutus/)』を通して軽くお話しすることがあります。といっても、YassLab社は[Rails技術者認定試験で協力](https://railscp.com/text/)していて、PHPやPythonなどの試験には直接関わっていないので、徳丸さん達が隣で面白いことをやっているなーというぐらいの距離感ですが 😅
+徳丸さんとは[エンジニアのための法律勉強会](https://koyhogetech.hatenablog.com/entry/20150528/coedo-lawstudy)で初めてお会いし、最近だと[ウェブ・セキュリティ試験](https://prtimes.jp/main/html/rd/p/000000076.000018759.html)の運営団体『[BOSS-CON JAPAN](https://www.boss-con.jp/aboutus/)』経由でご一緒することがあります。といってもYassLab社は[Rails技術者認定試験に協力](https://railscp.com/text/)しているものの、PHPやPythonなどの他の試験にはほとんど関わっていないので、『徳丸さん達が隣で面白いことをやっているなー』『どこかでRuby/Railsの話も聞いてみたいなー』というぐらいでしたが 😅
 
-今回はその徳丸さんのお話『Railsエンジニアのためのウェブセキュリティ入門』を聞いてきたので、その内容の一部をご紹介してみようと思います 📝💨
+そんな徳丸さんが今回『Railsエンジニアのためのウェブセキュリティ入門』のお話をされたのですが、思っていた以上に内容の濃い講演となりました。本記事ではその一部をご紹介してみようと思います 📝💨
 
 　
 
