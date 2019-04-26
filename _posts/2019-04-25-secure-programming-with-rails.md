@@ -37,7 +37,7 @@ permalink: /ja/posts/secure-programming-with-rails
 本講演のスライドも現在は公開されています。詳細は次のスライドを見ていただくこととして、本記事ではその中でも印象に残った例を１つご紹介しますね。
 
 <div style="margin-bottom: 100px;">
-  <iframe src="//www.slideshare.net/slideshow/embed_code/key/FPA7OdXSywr7SA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+  <iframe src="//www.slideshare.net/slideshow/embed_code/key/FPA7OdXSywr7SA" width="595" height="320" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
   <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ockeghem/ruby-on-rails-security-142250872" title="Railsエンジニアのためのウェブセキュリティ入門" target="_blank">Railsエンジニアのためのウェブセキュリティ入門</a> </strong> from <strong><a href="https://www.slideshare.net/ockeghem" target="_blank">Hiroshi Tokumaru</a></strong> </div>
 </div>
 
