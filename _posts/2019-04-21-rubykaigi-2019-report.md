@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  RubyKaigi 2019 楽しかったよ!! 😆
+title:  💎 RubyKaigi 2019 楽しかったよ!!
 thumbnail: posts/rubykaigi-2019.jpg
 author: yasulab
 categories: [blog]

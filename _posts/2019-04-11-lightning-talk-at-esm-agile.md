@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  esm アジャイル事業部で新年度のご挨拶と LT 発表 🌸
+title:  🗣 esm アジャイル事業部で新年度のご挨拶と LT 発表
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  RubyKaigi 2019 に Silver スポンサーとして協賛 💎
+title:  💎 RubyKaigi 2019 に Silver スポンサーとして協賛
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [press]

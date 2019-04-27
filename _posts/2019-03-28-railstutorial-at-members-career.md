@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Railsチュートリアル法人プラン活用事例：メンバーズキャリア様 🏢
+title:  🎓 Railsチュートリアル法人プラン活用事例：メンバーズキャリア様
 thumbnail: posts/case-members-career-1.jpg
 author: yasulab
 categories: [blog]

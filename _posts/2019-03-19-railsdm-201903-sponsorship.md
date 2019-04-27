@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Rails DM 2019 に懇親会スポンサーとして協賛 🍾
+title:  💎 Rails DM 2019 に懇親会スポンサーとして協賛
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Railsガイド『Proプラン』をリリースしました! 🚀
+title:  🚀 Railsガイド『Proプラン』をリリースしました!
 thumbnail: posts/pro-plan.png
 author: yasulab
 categories: [press]

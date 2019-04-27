@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Scout APMがRailsガイドのサポーターになりました 🤝
+title:  🤝 Scout APMがRailsガイドのサポーターになりました
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]

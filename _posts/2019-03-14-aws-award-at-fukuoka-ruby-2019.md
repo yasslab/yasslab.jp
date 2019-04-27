@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  フクオカRuby大賞で、AWS賞を受賞しました 🏆
+title:  🏆 フクオカRuby大賞で、AWS賞を受賞しました
 thumbnail: Ruby_Award_2019.png
 author: yasulab
 categories: [Press]

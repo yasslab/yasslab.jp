@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Railsチュートリアルの開発背景を銀座Railsで発表しました 🎙
+title:  🎓 Railsチュートリアル開発背景を銀座Railsで発表しました
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]

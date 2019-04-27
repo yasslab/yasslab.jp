@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Rails DM 2019 で『コードレビューしない』を発表 🎙
+title:  🗣 Rails DM 2019 で『コードレビューしない』を発表
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]

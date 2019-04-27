@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  JP_Stripes Connect 2019 で決済事例を発表しました 🗣
+title: 🗣 JP_Stripes Connect 2019 で決済事例を発表しました
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]

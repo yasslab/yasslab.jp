@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  タケユー・ウェブ株式会社が『Railsガイド』を支援 🤝
+title:  🤝 タケユー・ウェブ株式会社が『Railsガイド』を支援
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]

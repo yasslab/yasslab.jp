@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  沖縄の CODE BASE と商用ライセンスを締結しました
+title:  🤝 沖縄の CODE BASE と商用ライセンスを締結しました
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]

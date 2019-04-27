@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  環境音などのノイズを軽減できる Krisp を試してみた 🎧
+title:  🎧 環境音などのノイズを軽減できる Krisp を試してみた
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Blog]
