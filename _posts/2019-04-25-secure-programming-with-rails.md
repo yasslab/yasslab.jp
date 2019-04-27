@@ -30,7 +30,7 @@ permalink: /ja/posts/secure-programming-with-rails
 
 ![Sample App Demo](https://i.gyazo.com/4834fd6d34e8fd161b3413bc29f59a4e.jpg)
 
-例えば次のように `protect_from_forgery` のコードをいじったり、`csrf_meta_tags` を削除したり、`has_secure_password` を使わずにパスワードを保存した場合にどんなことが起こり得るのか、といった様々な例 (CSRF, XSS, OS/SQLインジェクションなど) を実演していました。
+例えば次のように `protect_from_forgery` のコードをいじったり、`csrf_meta_tags` を削除したり、`has_secure_password` を使わずにパスワードを保存した場合にどんなことが起こり得るのか、といった様々な例 ([CSRF](https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%AA), [XSS](https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0), [SQLインジェクション](https://ja.wikipedia.org/wiki/SQL%E3%82%A4%E3%83%B3%E3%82%B8%E3%82%A7%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3)など) を実演していました。
 
 ![Sample App Hacking](https://i.gyazo.com/8e9926d608bc9c143bcce5533835c9dd.jpg)
 
