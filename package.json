@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/yasslab/yasslab.jp#readme",
   "devDependencies": {
+    "tar": ">=4.4.2",
     "autoprefixer": "^9.5.1",
     "bootstrap": "4.3.1",
     "clean-css-cli": "^4.3.0",
