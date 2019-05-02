@@ -26,7 +26,7 @@
   "homepage": "https://github.com/yasslab/yasslab.jp#readme",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
-    "bootstrap": "4.1.1",
+    "bootstrap": "4.3.1",
     "clean-css-cli": "^4.3.0",
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
