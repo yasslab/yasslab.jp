@@ -45,8 +45,7 @@ lang:   en
 
 ## About us {#about}
 
-We're mainly working on Ruby/Rails web development, education, and open-source activities. 
-We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Zoom/Appear, Idobata, etc.
+We're mainly working on Ruby/Rails web development, education, and open-source activities. We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Zoom/Appear, Idobata, etc.
 
 <div class="row">
   <div class="col-md-12">
@@ -86,13 +85,9 @@ We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitH
   </ul>
 </div>
 
-He obtained the degree of Master in Information and Computer Science from Waseda University, 
-and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 
-100% remote-work company that focuses on Ruby/Rails projects [above](#top).
+He obtained the degree of Master in Information and Computer Science from Waseda University, and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 100% remote-work company that focuses on Ruby/Rails projects [above](#top).
 
-Beyond the company projects, he is also known as one of co-founders of [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01),
-[CoderDojo Japan](https://coderdojo.jp/), and [MITOU for U-17](https://jr.mitou.org/index_en.html) projects. For such enthusiastic contributions to IT and Education fields in Japan, he was selected as one of persons possessing outstanding capabilities by [METI](http://www.meti.go.jp/english/press/2018/0510_001.html)-launched [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html),
-[TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) speakers, and [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award.
+Beyond the company projects, he is also known as one of co-founders of [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01), [CoderDojo Japan](https://coderdojo.jp/), and [MITOU for U-17](https://jr.mitou.org/index_en.html) projects. For such enthusiastic contributions to IT and Education fields in Japan, he was selected as one of persons possessing outstanding capabilities by [METI](http://www.meti.go.jp/english/press/2018/0510_001.html)-launched [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html), [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) speakers, and [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award.
 
 ### Company Profile {#company}
 
@@ -121,13 +116,7 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 <h2 id="contact">Contact</h2>
 
 Mail: _yohei@yasslab.jp_     
-SNS:
-[GitHub](https://github.com/yasslab) ([Most stars](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), 
-[Qiita](http://qiita.com/organizations/yasslab), 
-[Facebook](https://www.facebook.com/yasslab.jp), 
-[Twitter](https://twitter.com/YassLab), 
-[Google+](https://plus.google.com/+YassLab), 
-[Wantedly](https://www.wantedly.com/companies/YassLab).   
+SNS: [GitHub](https://github.com/yasslab) ([Most stars](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), [Qiita](http://qiita.com/organizations/yasslab), [Facebook](https://www.facebook.com/yasslab.jp), [Twitter](https://twitter.com/YassLab), [Google+](https://plus.google.com/+YassLab), [Wantedly](https://www.wantedly.com/companies/YassLab).
 Office: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
 
 If interested, feel free to contact us.
