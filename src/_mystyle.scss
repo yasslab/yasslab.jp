@@ -670,6 +670,9 @@ h1,h2,h3,h4,h5{
     text-decoration: none !important;
   }
 }
+h2{
+  margin-top: 50px;
+}
 
 
 @include media-breakpoint-up(sm) {

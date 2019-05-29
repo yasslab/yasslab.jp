@@ -18,7 +18,6 @@ YassLab 社が運営する[Railsガイド](https://railsguides.jp/)では、[Sco
 
 YassLab 社では様々な個人・法人と協力しながら『[Railsガイド](https://railsguides.jp/)』を継続的に更新・運営し、Rubyコミュニティの発展に寄与していきます。
 
-　
 
 ## YassLab 株式会社について
 [![YassLab Inc.](/img/logos/800x200.png)](/)

@@ -79,7 +79,7 @@ lang:   ja
 [![<span class="pl-e">YassLab 株式会社</span>](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)</pre>
 	</div>
 
-	<h2 id="howto" style="margin-top: 50px;">
+	<h2 id="howto">
 	  <a class="anchor" href="#howto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>イベント枠提供までの手続き</a></h2>
 	<p>イベント枠を提供するまでの手続きは大きく分けて２つあります。</p>
 
@@ -227,7 +227,7 @@ lang:   ja
 	     %}
 	-->
 
-	<h3 style="margin-top: 50px; margin-bottom: 10px;">
+	<h3 style="margin-bottom: 10px;">
 	  <a id="newspaper-関連記事" class="anchor" href="#newspaper-%E9%96%A2%E9%80%A3%E8%A8%98%E4%BA%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>関連記事</h3>
 
 	<ul>

@@ -25,7 +25,7 @@ lang:   ja
         <p class="mb-4">このような関係者への感謝と還元が第一にあり、その上で実現可能なビジネスに挑戦するチームが YassLab 社です。</p>
         <img src="/img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5">
 	
-        <h2 class="text-center mb-5" id="culture" style="margin-top:70px;">YassLab 社の文化</h2>
+        <h2 class="text-center mb-5" id="culture">YassLab 社の文化</h2>
         <p class="mb-4">YassLab 社ではコミュニティと共に成長できる継続的なカタチを大切にします。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
         <p class="mb-4">CoderDojo Japan への開発支援はうまく回っているカタチの1つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いに価値を提供し合えるため無償で行なっています。</p>
 	
@@ -40,7 +40,7 @@ lang:   ja
         <p class="mb-4">コミュニティを Hub として様々な人達と繋がりながら、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>
       </div>
 
-      <div class="col-md-12 profile mt-5" id="profile" style="margin-top: 100px;">
+      <div class="col-md-12 profile mt-5" id="profile">
 	<h2 class="text-center mt-5 mb-5">代表者<br class="ignore-pc">プロフィール</h2>
         <div class="profile__image text-center mb-2">
           <img src="/img/yohei_300x300.png" alt="安川 要平" class="rounded-circle">
@@ -99,7 +99,7 @@ lang:   ja
     <div class="row">
       <div class="col-md-8 offset-md-2 company" id="company">
         <div class="text-center">
-          <h2 class="mt-5 mb-5" style="margin-top:100px;">会社情報</h2>
+          <h2 class="mt-5 mb-5">会社情報</h2>
         </div>
 	
 	<div class="video">

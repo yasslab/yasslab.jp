@@ -12,7 +12,6 @@ RubyKaigi 2019 に[シルバースポンサー](https://rubykaigi.org/2019/spons
 
 [![RubyKaigi 2019 Silver Sponsors](https://i.gyazo.com/f956eb5f32facc75dc2223851cbc5041.png)](https://rubykaigi.org/2019/sponsors#silver)
 
-　
 
 ## YassLab 社と沖縄
 

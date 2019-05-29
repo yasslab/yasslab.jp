@@ -18,7 +18,6 @@ permalink: /ja/posts/secure-programming-with-rails
 
 そんな徳丸さんが今回『Railsエンジニアのためのウェブセキュリティ入門』のお話をされるとのことなので参加してきたのですが、思っていた以上に濃い内容でした。本記事ではその一部を皆さんにご紹介しようと思います 📝💨
 
-　
 
 ## 題材にRailsチュートリアル...!!
 
@@ -65,7 +64,6 @@ Railsチュートリアルでも[暗号化とハッシュ化の違い](https://r
 
 [📜 エンジニアのための法律勉強会#2『判例に学ぶ、受託開発時の注意事項』参加メモ - Gist](https://gist.github.com/koyhoge/1ee02b354968e8910604)
 
-　
 
 ## Railsにおける基本対策は<br>『バージョンを上げる』
 
@@ -79,7 +77,6 @@ Railsチュートリアルでも[暗号化とハッシュ化の違い](https://r
 
 最後の[拡張編](https://railstutorial.jp/chapters/following_users#sec-guide_to_extensions)でも紹介していますが、Railsチュートリアルでは**完走後の演習課題として Sample App の Gemfile や Rails 自身のアップグレードをオススメ**しています。Railsチュートリアル完走後にプロダクト開発を始める方々も多いと思いますが、そのときは徳丸さんからのアドバイス**『Railsのバージョンを上げよう』『Railsのレールから外れる場合は慎重に』**を意識していくと良さそうですね 😆
 
-　
 
 ## 最後に
 
