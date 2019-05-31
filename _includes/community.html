@@ -1,27 +1,60 @@
 <table class="community-icon">  
   <thead>
     <tr>
+      {% if include.left_name == blank %}
+      <th></th>
+      {% else %}
       <th><a href="https://{{ include.left_path   }}.doorkeeper.jp/">{{ include.left_name }}</a></th>
+      {% endif %}
+      
+      {% if include.center_name == blank %}
+      <th></th>
+      {% else %}
       <th><a href="https://{{ include.center_path }}.doorkeeper.jp/">{{ include.center_name }}</a></th>
+      {% endif %}
+      
+      {% if include.right_name == blank %}
+      <th></th>
+      {% else %}
       <th><a href="https://{{ include.right_path  }}.doorkeeper.jp/">{{ include.right_name }}</a></th>
+      {% endif %}
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
+	{% if include.left_name == blank %}
+	<img width="200px" src="/img/logos/empty.png"
+	     alt="募集中">
+	{% else %}
 	<a href="https://{{ include.left_path }}.doorkeeper.jp" rel="nofollow">
 	  <img width="200px" src="/img/logos/{{ include.left_path }}.png"
-	   alt="{{ include.left_name }}"></a>
+	   alt="{{ include.left_name }}">
+	</a>
+	{% endif %}
       </td>
       <td>
+	{% if include.center_name == blank %}
+	<img width="200px" src="/img/logos/empty.png"
+	     alt="募集中">
+	{% else %}
 	<a href="https://{{ include.center_path }}.doorkeeper.jp/" rel="nofollow">
 	  <img width="200px" src="/img/logos/{{ include.center_path }}.png"
-	   alt="{{ include.center_name }}"></a>
+	   alt="{{ include.center_name }}">
+	</a>
+	{% endif %}
       </td>
       <td>
+	{% if include.right_name == blank %}
+	<img width="200px" src="/img/logos/empty.png"
+	     alt="募集中">
+	{% else %}
 	<a href="https://{{ include.right_path }}.doorkeeper.jp/" rel="nofollow">
 	  <img width="200px" src="/img/logos/{{ include.right_path }}.png"
-	   alt="{{ include.right_name }}"></a></td>
+	   alt="{{ include.right_name }}">
+	</a>
+	{% endif %}
+      </td>
     </tr>
   </tbody>
 </table>
