@@ -215,6 +215,14 @@ lang:   ja
 	   right_name='CoderDojo 五反田'
 	%}
 	
+	{% include community.html
+	    left_path='coderdojo-inuyama'
+	    left_name='CoderDojo 犬山'
+	  center_path=''
+	  center_name=''
+	   right_path=''
+	   right_name=''
+	%}
 
 	<!--
 	{% include community.html
