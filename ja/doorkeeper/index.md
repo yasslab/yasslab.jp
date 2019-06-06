@@ -164,7 +164,7 @@ lang:   ja
 	{% include community.html
 	    left_path='coderdojonakano'
 	    left_name='CoderDojo 中野'
-	  center_path='coderdojo-okinawa'
+	  center_path='coderdojo-naha'
 	  center_name='CoderDojo 那覇'
 	   right_path='coderdojo-chofu'
 	   right_name='CoderDojo 調布'
