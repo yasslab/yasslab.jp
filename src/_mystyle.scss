@@ -7,6 +7,53 @@ img {
   height: auto;
 }
 
+// 引用文
+blockquote {
+    position: relative;
+    padding: 5px 12px 15px 56px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    font-style: italic;
+    color: #464646;
+    background: #f0f7ff;
+    line-height: 1.9em;
+}
+
+blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    content: "\f10d";
+    font-family: FontAwesome;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 36px;
+    background: #a5d7ff;
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+blockquote p {
+    position: relative;
+    padding: 0;
+    margin:  3px 0 !important;
+    z-index: 3;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+
 // Social Buttons
 .snsb {
     overflow: hidden;
