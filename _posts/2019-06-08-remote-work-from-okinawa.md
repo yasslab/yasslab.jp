@@ -14,7 +14,7 @@ permalink: /ja/posts/remote-work-from-okinawa
 
 本発表に関するスライド資料と反響をいくつかまとめたので、リモートワークに興味ある個人・法人さんのご参考になれば嬉しいです...!! (＞人＜ )✨
 
-[![名古屋紅玉会議](https://i.gyazo.com/1c60d0989116b37c12ec46889a02bfea.jpg)](http://regional-gh.rubykaigi.org/nagoya04/)
+[![名古屋紅玉会議](https://i.gyazo.com/1b8fac6e91d7bdd93f19f3bfc15eff89.jpg)](http://regional-gh.rubykaigi.org/nagoya04/)
 
 <div style="margin-bottom: 100px;"></div>
 
