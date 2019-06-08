@@ -32,11 +32,12 @@ MEMO: コンテンツ部分のみ (`FU79IO-qRVY`) を当該動画に差し替え
 
 いかがでしたでしょうか? hogehoge... (いくつかのまとめ方を下記に例示)
 
+YassLab 株式会社では全社員がリモートワークをしながら『{{ site.railstutorial }}』『{{ site.railsguides }}』『{{ site.coderdojo }}』のWebサービス開発をしたり、他社向けに『[月額制の開発支援事業](/ja/agile)』を提供しています。
+
 Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[商用ライセンス](https://railstutorial.jp/#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽に試してみてください ;)
 
 -----
 
-YassLab 株式会社では全社員がリモートワークをしながら『{{ site.railstutorial }}』『{{ site.railsguides }}』『{{ site.coderdojo }}』のWebサービス開発をしたり、他社向けに『[月額制の開発支援事業](/ja/agile)』を提供しています。
 
 他にも様々な動画を YouTube から公開しているので、よければぜひチャンネル登録していただければ ;)
 
