@@ -55,13 +55,17 @@ permalink: /ja/posts/remote-work-from-okinawa
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">名古屋Ruby会議04 はじまった...!!! 🤣💎✨ <a href="https://twitter.com/hashtag/nagoyark04?src=hash&amp;ref_src=twsrc%5Etfw">#nagoyark04</a> <a href="https://twitter.com/hashtag/%E6%B0%B8%E5%92%8C%E4%BA%AD?src=hash&amp;ref_src=twsrc%5Etfw">#永和亭</a> <a href="https://t.co/aiB0AnYPtU">pic.twitter.com/aiB0AnYPtU</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1137167257510076417?ref_src=twsrc%5Etfw">June 8, 2019</a></blockquote>
 
+<div style="margin-bottom: 50px;"></div>
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">キャー！エイチームさ〜ん 😻✨ <a href="https://twitter.com/hashtag/nagoyark04?src=hash&amp;ref_src=twsrc%5Etfw">#nagoyark04</a> <a href="https://t.co/hUgT0vreeP">pic.twitter.com/hUgT0vreeP</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1137221480779882496?ref_src=twsrc%5Etfw">June 8, 2019</a></blockquote>
+
+<div style="margin-bottom: 50px;"></div>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ruby Virtual Machine in 5min...!! 😳💎✨ <a href="https://twitter.com/_ko1?ref_src=twsrc%5Etfw">@_ko1</a>  <a href="https://twitter.com/hashtag/nagoyark04?src=hash&amp;ref_src=twsrc%5Etfw">#nagoyark04</a> <a href="https://t.co/zKljMmPqVq">pic.twitter.com/zKljMmPqVq</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1137228720077361152?ref_src=twsrc%5Etfw">June 8, 2019</a></blockquote>
 
+<div style="margin-bottom: 50px;"></div>
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">じょーかー <a href="https://twitter.com/joker1007?ref_src=twsrc%5Etfw">@joker1007</a> さんによる大いなる力と大いなる責任の話 😌✨ <a href="https://twitter.com/hashtag/nagoyark04?src=hash&amp;ref_src=twsrc%5Etfw">#nagoyark04</a> <a href="https://t.co/xdnIkU22CT">pic.twitter.com/xdnIkU22CT</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1137230678959902720?ref_src=twsrc%5Etfw">June 8, 2019</a></blockquote>
-
-
 
 <div style="margin-bottom: 100px;"></div>
 
