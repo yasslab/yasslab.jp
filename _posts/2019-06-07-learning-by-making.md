@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎓 Railsチュートリアル法人プラン活用事例：マネーフォワード様
+title:  🎓 法人向けサービス活用例：マネーフォワード様
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
@@ -10,7 +10,7 @@ permalink: /ja/posts/learning-by-making
 
 ![写真：ラウンジ](https://i.imgur.com/qKOwFlK.jpg)
 
-株式会社マネーフォワード (以下、マネフォ社) で[Railsチュートリアル法人プラン](https://railstutorial.jp/business)を活用した新卒研修を実施しました! 本記事ではその研修内容と背景にある構想、および実際の成果やフィードバックなどをまとめています ✅
+株式会社マネーフォワード (以下、マネフォ社) で[Railsチュートリアル 法人プラン](https://railstutorial.jp/business)と[[Railsガイド Teamプラン](https://railsguides.jp/team)]を活用した新卒研修を実施しました! 本記事ではその研修内容と背景にある構想、および実際の成果やフィードバックなどをまとめています ✅
 
 研修内容は[株式会社メンバーズキャリアの活用事例](https://yasslab.jp/ja/posts/railstutorial-at-members-career)をさらに改善させたものとなっており、具体的には、次の流れで研修生の学びを１ヶ月間サポートするプログラムになります。
 
