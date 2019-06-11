@@ -4,10 +4,6 @@ title:  会社概要
 lang:   ja
 ---
 
-<div class="video">
-  <iframe src="https://www.youtube.com/embed/oo1dVd_sNwA?rel=0&autoplay=1&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
 <section class="entry_content pt-5 mb-5">
   <div class="container">
     <div class="row">
@@ -39,6 +35,17 @@ lang:   ja
         <p class="mb-4">チームとして掲げている「Having a Good Life with OpenSource ;)」というフレーズは、こういったコミュニティと会社が一緒に成長できる継続的なカタチを表した言葉です。</p>
         <p class="mb-4">コミュニティを Hub として様々な人達と繋がりながら、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<div class="video" style="margin-top: 100px;">
+  <iframe src="https://www.youtube.com/embed/oo1dVd_sNwA?rel=0&autoplay=1&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<section class="entry_content pt-5 mb-5">
+  <div class="container">
+    <div class="row">
 
       <div class="col-md-12 profile mt-5" id="profile">
 	<h2 class="text-center mt-5 mb-5">代表者<br class="ignore-pc">プロフィール</h2>

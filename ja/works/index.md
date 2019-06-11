@@ -4,10 +4,6 @@ title:  事業実績
 lang:   ja
 ---
 
-<section class="pageVisual">
-  <div class="jumbotron">
-  </div>
-</section>
 <section class="entry_content pt-5">
   <div class="container">
     <div class="row">

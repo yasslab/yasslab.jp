@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: plain_without_thumbnail
 lang:   ja
 ---
 

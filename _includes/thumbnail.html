@@ -1,12 +1,13 @@
 {% if page.thumbnail %}
   {% if page.thumbnail contains 'http' %}
-  <div style="color: #fff;padding: 100px 0;margin-bottom: 0;
+  <div style="color: #fff; padding: 100px 0; margin-bottom: 0; border-radius: 0px ;
 	      background: url({{ page.thumbnail }});"></div>
   {% else %}
-  <div style="color: #fff;padding: 100px 0;margin-bottom: 0;
+  <div style="color: #fff; padding: 100px 0; margin-bottom: 0; border-radius: 0px;
 	      background: url(/img/{{ page.thumbnail }});"></div>
   {% endif %}
 {% else %}
-<div style="color: #fff;padding: 100px 0;margin-bottom: 0; background: url(/img/bg-sky.jpg);">
-</div>
+  <div style="color: #fff; padding: 100px 0; margin-bottom: 0; border-radius: 0px;
+	      background: url(/img/bg-sky.jpg);">
+  </div>
 {% endif %}
