@@ -43,17 +43,19 @@ lang:   ja
 
 	<h3 id="achievements-2019">2019年 (予定含む)</h3>
 	<ul style="list-style: none;">
-	  <li>4月 取材記事『<b><a href="https://free-engineer.site/yasslab/">Railsチュートリアル開発経緯と今後</a></b>』が公開</li>
-	  <li><b>4月 <a href="https://yasslab.jp/ja/posts/rubykaigi-2019-sponsorship">RubyKaigi 2019 に協賛</a>。全社員を招待 (任意参加)</b></li>
+	  <li><b>5月 Railsガイド『<a href="https://railsguides.jp/team">Teamプラン</a>』をリリースしました</b></li>
+	  <li>5月 <a href="/ja/posts/learning-by-making">マネーフォワード様の新卒研修事例</a>を公開</li>
+	  <li>4月 取材記事『<a href="https://free-engineer.site/yasslab/">Railsチュートリアル開発経緯と今後</a>』が公開</li>
+	  <li>4月 <a href="https://yasslab.jp/ja/posts/rubykaigi-2019-sponsorship">RubyKaigi 2019 に協賛</a>。全社員を招待 (任意参加)</li>
 	  <li>4月 DIVE INTO CODE 主催 <a href="https://diveintocode.doorkeeper.jp/events/83984">Demo Day 6th</a> に審査員として参加</li>
 	  <li>3月 JP_Stripes Connect 2019 の<a href="https://yasslab.jp/ja/posts/jp-stripes-connect-2019">LTセッションで登壇</a></li>
-	  <li><b>3月 Railsガイド<a href="https://yasslab.jp/ja/posts/release-pro-plan">『Proプラン』をリリース</a>しました</b></li>
+	  <li><b>3月 Railsガイド『<a href="https://yasslab.jp/ja/posts/release-pro-plan">Proプラン</a>』をリリースしました</b></li>
 	  <li>3月 フクオカRuby大賞で<a href="https://yasslab.jp/ja/posts/aws-award-at-fukuoka-ruby-2019">AWS賞を受賞</a>しました</li>
 	  <li>3月 <a href="https://railsdm.github.io/">Rails Developers Meetup 2019</a> に弊社宮城が<a href="https://yasslab.jp/ja/posts/no-code-reviews-at-railsdm-2019">登壇</a></li>
 	  <li>3月 <a href="https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html">情報処理学会の第81回全国大会</a>に弊社大城が<a href="https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj">登壇</a></li>
 	  <li>3月 <a href="https://sechack365.nict.go.jp/achievement/presentation.html">SecHack365の成果発表会 (ポスター枠)</a> に弊社又吉が登壇</li>
-	  <li><b>2月 CODE BASE とRailsチュートリアルに関する<a href="https://yasslab.jp/ja/posts/partnership-with-codebase">提携を締結</a></b></li>
-	  <li><b>2月 Railsチュートリアルの解説動画<a href="https://railstutorial.jp/trial">お試しプラン</a>をリリース</b></li>
+	  <li><b>2月 CODE BASE とRailsチュートリアルに関する<a href="https://yasslab.jp/ja/posts/partnership-with-codebase">提携を発表</a></b></li>
+	  <li><b>2月 Railsチュートリアル解説動画『<a href="https://railstutorial.jp/trial">お試しプラン</a>』をリリース</b></li>
 	  <li>2月 未踏ジュニア<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true">2019年度オンライン説明会</a>に弊社安川が登壇</li>
 	  <li>1月 Findy 主催「<a href="https://findy.connpass.com/event/113811/">エンジニア×リモートワーク</a>」に登壇 (<a href="https://speakerdeck.com/yasulab/remote-first-company-in-5min">資料</a>)</li>
 	  <li>1月 弊社の活動を紹介する<a href="https://www.youtube.com/watch?v=JZ0y2eOLC4I">３０秒プロモーション動画</a>を公開</li>
@@ -67,7 +69,7 @@ lang:   ja
 	  <li>11月 技術顧問として <a href="https://www.memberscareer.co.jp/coworkers/now/detail/?p=821">MC Open Lab. #6</a> で反転学習を発表</li>
 	  <li>11月 <a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">IPA未踏事業</a>八合目合宿にOB・OGとして招待参加</li>
           <li>11月 未踏ジュニアPMとして安川が <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lcEV1hwnEGMDEujOwYCjEAz&disable_polymer=true">Edvation×Summit に登壇</a></li>
-	  <li><b>11月 Railsチュートリアルの<a href="https://railstutorial.jp/business">法人プラン</a>をリリース</b></li>
+	  <li><b>11月 Railsチュートリアル『<a href="https://railstutorial.jp/business">法人プラン</a>』をリリース</b></li>
 	  <li><b>11月 <a href="https://2018.rubyworld-conf.org/program/">RubyWorld Conference</a> で<a href="https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails">動画を用いた反転学習</a>を講演</b></li>
 	  <li>11月 <a href="http://railsgirls.com/okinawa.html">Rails Girls Okinawa 1st</a> にスポンサーとして協賛</li>
 	  <li>10月 2018年度の未踏ジュニア<a href="https://www.watch.impress.co.jp/kodomo_it/news/1153935.html">最終成果報告会</a>を実施</li>
