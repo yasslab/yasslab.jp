@@ -43,11 +43,15 @@ lang:   ja
 
 	<h3 id="achievements-2019">2019年 (予定含む)</h3>
 	<ul style="list-style: none;">
-	  <li><b>5月 Railsガイド『<a href="https://railsguides.jp/team">Teamプラン</a>』をリリースしました</b></li>
+	  <li><b>6月 Railsガイド『<a href="https://railsguides.jp/team">Teamプラン</a>』をリリースしました</b></li>
+	  <li>6月 名古屋Ruby会議04で『<a href="https://yasslab.jp/ja/posts/remote-work-from-okinawa">リモートワーク</a>』について発表</li>
+	  <li>6月 coderdojo.jp から『<a href="https://coderdojo.jp/events">近日開催イベント</a>』をリリース</li>
 	  <li>5月 <a href="/ja/posts/learning-by-making">マネーフォワード様の新卒研修事例</a>を公開</li>
-	  <li>4月 取材記事『<a href="https://free-engineer.site/yasslab/">Railsチュートリアル開発経緯と今後</a>』が公開</li>
+	  <li><b>4月 取材記事『<a href="https://free-engineer.site/yasslab/">Railsチュートリアル開発経緯と今後</a>』が公開</b></li>
 	  <li>4月 <a href="https://yasslab.jp/ja/posts/rubykaigi-2019-sponsorship">RubyKaigi 2019 に協賛</a>。全社員を招待 (任意参加)</li>
 	  <li>4月 DIVE INTO CODE 主催 <a href="https://diveintocode.doorkeeper.jp/events/83984">Demo Day 6th</a> に審査員として参加</li>
+	  <li>4月 『<a href="https://coderdojo.jp/podcasts">DojoCast</a>』の <a href="https://twitter.com/CoderDojoJapan/status/1112927872803430400">Apple Podcasts アプリ対応</a>をリリース</li>
+	  <li>4月 coderdojo.jp から<a href="https://twitter.com/CoderDojoJapan/status/1112581734967570432">2018年の統計情報</a>を公開</li>
 	  <li>3月 JP_Stripes Connect 2019 の<a href="https://yasslab.jp/ja/posts/jp-stripes-connect-2019">LTセッションで登壇</a></li>
 	  <li><b>3月 Railsガイド『<a href="https://yasslab.jp/ja/posts/release-pro-plan">Proプラン</a>』をリリースしました</b></li>
 	  <li>3月 フクオカRuby大賞で<a href="https://yasslab.jp/ja/posts/aws-award-at-fukuoka-ruby-2019">AWS賞を受賞</a>しました</li>
