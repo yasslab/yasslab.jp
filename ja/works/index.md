@@ -274,7 +274,7 @@ lang:   ja
           <li>米国留学を終え，日本に帰国．その後，個人事業所 (YassLab) を立ち上げる</li>
           <li>震災の直後に震災対策アプリ (<a href="https://play.google.com/store/apps/details?id=org.sorarier.whistle&amp;hl=en">ホイッスル on Android</a>)を開発・公開
             <ul>
-              <li>30万ダウンロードを達成</li>
+              <li>30万ダウンロードを達成 (<a href="https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo">スライド資料</a>)</li>
             </ul>
           </li>
         </ul>
