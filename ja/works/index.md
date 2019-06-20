@@ -226,73 +226,57 @@ lang:   ja
         <ul>
           <li>12月 子ども向け学習コンテンツのタブレット端末変換器を開発</li>
           <li>11月 達人出版会より<a href="http://tatsu-zine.com/books/railstutorial">Railsチュートリアルの電書籍版</a>を出版</li>
-          <li>ビジネスプロセス支援アプリケーションの開発支援:
-            <ul>
-              <li>テストの高速化: 2時間 → 15分</li>
-              <li>各種機能の開発</li>
-            </ul>
-          </li>
-          <li>沖縄型若年層向けIT高度人材育成事業 (<a href="http://academy.lexues.co.jp/">第3期レキサスアカデミー</a>) 常任講師に着任</li>
-          <li><a href="http://railstutorial.jp/">Railsチュートリアル</a>を公開。<a href="https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide">Social Translating を起案</a>
-            <ul>
-              <li>詳細は <a href="http://www.rubyworld-conf.org/">RubyWorld Conference 2013</a> にて講演 (動画あり)</li>
-            </ul>
-          </li>
-          <li>オンライン郵送サービスの開発およびコンサルティングに従事:
+	  <li>11月 <a href="http://2013.rubyworld-conf.org/ja/">RubyWorld Conference 2013</a>にRailsチュートリアル採択</li>
+
+	  <li>10月 <a href="https://railstutorial.jp/">Railsチュートリアル</a>公開。<a href="https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide">Social Translating</a> 手法を起案</li>
+          <li>10月 <a href="https://github.com/yasslab/weekend_fabrication">沖縄型若年層向けIT高度人材育成事業</a>常任講師 (３期目)</li>
+	  <li>8月 英訳に関わった<a href="http://ruby-hacking-guide.github.io/">Ruby Hacking Guide</a>が<a href="https://news.ycombinator.com/item?id=6197222">Hacker Newsに掲載</a></li>
+          <li>6月 ビジネス支援アプリ開発支援 (テストを2h→15mに高速化)</li>
+	  <li>5月 代表の安川が2012年度<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">IPA未踏スーパークリエータ</a>に認定</li>
+          <li>3月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
             <ul>
               <li>大規模処理のリファクタリングおよび高速化</li>
               <li>テスト環境の整備および高速化</li>
-              <li>他，統合テストのサポート，Ruby/CoffeeScriptなどのコーディング作法の指導等</li>
+              <li>他、統合テストのサポート・Rubyのコーディング作法の共有など</li>
             </ul>
           </li>
         </ul>
         
         <h3 id="achievements-2012">2012年</h3>
-        
         <ul>
-          <li>未踏事業に<a href="http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html">思いを叶える視覚駆動バケットリストの開発</a>が採択
-            <ul>
-              <li>代表の安川が<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>に認定される</li>
-            </ul>
-          </li>
-          <li>沖縄型若年層向けIT高度人材育成事業 (<a href="http://academy.lexues.co.jp/">第2期レキサスアカデミー</a>) 常任講師に着任</li>
-          <li><a href="http://c4sa.nifty.com/">Nifty Cloud C4SA</a> における <a href="http://c4sa.nifty.com/about.htm">Ruby/Rails/Perl などのコンテキスト</a>の開発</li>
-          <li>シリコンバレー (Belmont, California) でシェアオフィスを立ち上げる</li>
-          <li>他，CMSを使ったECサイトの構築，ソーシャルiOSアプリの開発など</li>
+          <li>10月 <a href="https://github.com/yasslab/weekend_fabrication">沖縄型若年層向けIT高度人材育成事業</a>常任講師 (２期目)</li>
+	  <li>6月 第２期レキサスアカデミーが<a href="https://www.facebook.com/photo.php?fbid=10150882136595869&set=a.10150840241290869&type=3&theater">沖縄タイムスに掲載</a></li>
+	  <li>6月 CoderDojo の立ち上げが <a href="https://www.facebook.com/photo.php?fbid=10150896080380869&set=a.10150840241290869&type=3&theater">The Nikkei Asian Review に掲載</a></li>
+	  <li>5月 立ち上げ時に関わったギークハウス沖縄が<a href="https://www.facebook.com/photo.php?fbid=10150840241430869&set=a.10150840241290869&type=3&theater">琉球新報に掲載</a></li>
+	  <li>5月 アジア初の CoderDojo 発起。<a href="https://www.facebook.com/photo.php?fbid=10150840261690869&set=a.10150840241290869&type=3&theater">日経流通新聞 (日経MJ) 掲載</a></li>
+          <li>4月 未踏事業に<a href="http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html">思いを叶える視覚駆動バケットリスト</a>が採択</li>
+	  <li>3月 レキサスアカデミー最終成果報告会が<a href="https://www.facebook.com/photo.php?fbid=10150840286395869&set=a.10150840241290869&type=3&theater">沖縄タイムスに掲載</a></li>
+	  <li>3月 震災対策アプリが<a href="https://www.facebook.com/photo.php?fbid=10150840311565869&set=a.10150840241290869&type=3&theater">日経新聞『転ばぬ先のアプリ』に掲載</a></li>
+	  <li>3月 ファミリーマート販売<a href="https://www.facebook.com/photo.php?fbid=10150840334640869&set=a.10150840241290869&type=3&theater">災害時帰宅支援ポケットMAPに掲載</a></li>
+          <li>1月 シリコンバレーの Belmont でシェアオフィス立ち上げ</li>
+          <li>他、CMSを使ったECサイトの構築、Nifty Cloud C4SAのRuby/Rails/Perlコンテキストの開発、ソーシャルiOSアプリの開発など</li>
         </ul>
         
         <h3 id="achievements-2011">2011年</h3>
-        
         <ul>
-          <li>沖縄型若年層向けIT高度人材育成事業 (<a href="http://academy.lexues.co.jp/">レキサスアカデミー</a>) の立ち上げに参画
+	  <li>10月 第１期レキサスアカデミーが<a href="https://www.facebook.com/photo.php?fbid=10150840280880869&set=a.10150840241290869&type=3&theater">沖縄メディアに掲載</a></li>
+          <li>10月 <a href="https://github.com/yasslab/weekend_fabrication">沖縄型若年層向けIT高度人材育成事業</a>の立ち上げに参画</li>
+          <li>9月 <a href="https://ruby.okinawa/">Okinawa.rb</a> (Okinawa Ruby User Group) を立ち上げる</li>
+	  <li>9月 早稲田大学 Ambient GCOE にて<a href="https://www.facebook.com/photo.php?fbid=10150840346665869&set=a.10150840241290869&type=3&theater">最優秀賞を受賞</a></li>
+          <li>6月 米国留学を終え日本に帰国。様々な事業の試行錯誤を開始</li>
+          <li>3月 震災直後に<a href="https://play.google.com/store/apps/details?id=org.sorarier.whistle&amp;hl=en">震災対策アプリ</a>を開発・公開。3ヶ月で5万 DL
             <ul>
-              <li><a href="https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1">週末ものづくり講座</a>が同事業のカリキュラムに採用される</li>
-              <li>2011年〜2014年まで，同講座の<a href="http://academy.lexues.co.jp/teacher/">常任講師</a>も兼任</li>
-            </ul>
-          </li>
-          <li>自身のプロジェクト実践型学習(Project-Based Learning)の経験を元に<a href="https://speakerdeck.com/yasulab/zhou-mo-mofalsedukurijiang-zuo-1">週末ものづくり講座</a>のカリキュラムを制作し，ITカレッジにおいて実施する</li>
-          <li>米国留学を終え，日本に帰国．その後，個人事業所 (YassLab) を立ち上げる</li>
-          <li>震災の直後に震災対策アプリ (<a href="https://play.google.com/store/apps/details?id=org.sorarier.whistle&amp;hl=en">ホイッスル on Android</a>)を開発・公開
-            <ul>
-              <li>30万ダウンロードを達成 (<a href="https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo">スライド資料</a>)</li>
+              <li>後日30万ダウンロードを達成 (<a href="https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo">当時の開発のスライド資料</a>)</li>
             </ul>
           </li>
         </ul>
         
         <h3 id="achievements-2010">2010年度より過去の活動について</h3>
         <ul>
-          <li>2010年度より過去の活動については、スライド資料『<a href="https://speakerdeck.com/yasslab/learn-by-your-own-projects">創りながら学ぶ</a>』、<a href="https://www.wantedly.com/users/11695">Wantedly</a>、または<a href="https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&amp;type=1&amp;l=76c883b04a">受賞歴まとめ</a>をご参照してください</li>
+	  <li>10月 航空券サーチエンジンの開発が<a href="https://www.facebook.com/photo.php?fbid=10150840359975869&set=a.10150840241290869&type=3&theater">修士最優秀賞を受賞</a></li>
+          <li>他、2010年度より過去の活動については、スライド資料『<a href="https://speakerdeck.com/yasslab/learn-by-your-own-projects">創りながら学ぶ</a>』、<a href="https://www.wantedly.com/users/11695">Wantedly</a>、または<a href="https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&amp;type=1&amp;l=76c883b04a">受賞歴まとめ</a>をご参照してください</li>
         </ul>
-        
-        <h2 id="各種コミュニティに対する貢献-一部抜粋" class="text-center mt-5 mb-5">他、各種コミュニティに対する貢献 (一部抜粋)</h2>
-        
-        <ul>
-          <li><a href="http://guides.rubyonrails.org/">Ruby on Rails Guides</a>の和訳 (<a href="https://github.com/yasslab/railsguides.jp">GitHub</a>)</li>
-          <li><a href="http://ruby.railstutorial.org/">Ruby on Rails Tutorial: Learn Web Development with Rails</a>の和訳</li>
-          <li><a href="http://ruby-hacking-guide.github.io/">Ruby Hacking Guide</a>の英訳</li>
-          <li><a href="http://www.osscafe.net/en">下北沢オープンソースCafe英語ページ</a>の作成</li>
-        </ul>
-        
+
         <h3 id="関連団体" class="text-center mb-5">関連団体</h3>
         
         <ul>
@@ -350,5 +334,41 @@ lang:   ja
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
+  <div id="clients"></div>
+</section>
 
+<section class="entry_content pt-5 catchCopy">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+	<h2 class="text-center mt-5 mb-5"><a href="#clients">これまでの取引先</a></h2>
+
+	<p>YassLab 社が展開する各種事業のこれまでの取引先をまとめております。カッコ内は取引の概略です。</p>
+
+	{% include clients.html %}
+        
+      </div><!--//col-->
+    </div><!--//row-->
+  </div><!--//container-->
+</section>
+
+<section class="entry_content pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 company" id="company">
+        <div class="text-center">
+          <h2 class="mt-5 mb-5">会社情報</h2>
+        </div>
+	
+	<div class="video">
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
+       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+
+	<div class="offset-md-1">
+	  {% include profile_company.html benefits=true %}
+	</div>
+      </div>
+    </div>
+  </div>
 </section>
