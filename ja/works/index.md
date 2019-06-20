@@ -281,7 +281,7 @@ lang:   ja
         
         <h3 id="achievements-2010">2010年度より過去の活動について</h3>
         <ul>
-          <li>2010年度より過去の活動については、<a href="https://www.wantedly.com/users/11695">Wantedly</a> または<a href="https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&amp;type=1&amp;l=76c883b04a">受賞歴まとめ</a>をご参照してください</li>
+          <li>2010年度より過去の活動については、スライド資料『<a href="https://speakerdeck.com/yasslab/learn-by-your-own-projects">創りながら学ぶ</a>』、<a href="https://www.wantedly.com/users/11695">Wantedly</a>、または<a href="https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&amp;type=1&amp;l=76c883b04a">受賞歴まとめ</a>をご参照してください</li>
         </ul>
         
         <h2 id="各種コミュニティに対する貢献-一部抜粋" class="text-center mt-5 mb-5">他、各種コミュニティに対する貢献 (一部抜粋)</h2>
