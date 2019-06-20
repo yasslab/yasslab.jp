@@ -63,23 +63,33 @@ lang:   ja
 
 	<p>特に厳しくチェックするつもりはありませんが、イベントページ下部などに次のようなスポンサー紹介を入れて頂けると助かります! 細かな文言やレイアウトなどは適宜修正して頂いて大丈夫です <g-emoji alias="ok_hand" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44c.png">👌</g-emoji> 弊社ロゴデータは<a href="/ja/brand-assets">ブランドガイドライン</a>からダウンロードできます。</p>
 
-	<h3>
-	  <a id="page_facing_up-紹介例-httpsotona-programmingdoorkeeperjpevents47739" class="anchor" href="#page_facing_up-%E7%B4%B9%E4%BB%8B%E4%BE%8B-httpsotona-programmingdoorkeeperjpevents47739" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>スポンサー紹介の例</h3>
-
-	<p class="imgfit text-center"><img src="/img/doorkeeper-sponsor-example.gif" alt="紹介例" width="100%">
-	  <a href="https://okinawarb.doorkeeper.jp/events/77519">事例:「Okinawa Ruby User Group」でのスポンサー紹介例を見る</a>
-	</p>
-
-	<h4>
-	  <a id="memo-コピペ用markdown-改変も可" class="anchor" href="#memo-%E3%82%B3%E3%83%94%E3%83%9A%E7%94%A8markdown-%E6%94%B9%E5%A4%89%E3%82%82%E5%8F%AF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>コピペ用Markdown (改変も可)</h4>
-
+	<h5><a href="https://okinawarb.doorkeeper.jp/events/77519">Okinawa.rb のスポンサー紹介例</a></h5>
+	<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%"></a></p>
+	<p class="imgfit text-center">コピペ用Markdown (改変も可)</p>
 	<div class="highlight highlight-source-gfm">
-	  <pre><span class="pl-mh"><span class="pl-mh">##</span><span class="pl-mh"> </span>スポンサー</span>
+	  <pre><span class="pl-mh"><span class="pl-mh">##</span>スポンサー</span>
 本イベントページはオープンソースコミュニティを支援する [<span class="pl-e">YassLab 株式会社</span>](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け [<span class="pl-e">Doorkeeper スポンサー資料</span>](https://yasslab.jp/ja/doorkeeper/)をご参照ください。
 [![<span class="pl-e">YassLab 株式会社</span>](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)</pre>
 	</div>
 
-	<h2 id="howto">
+	<h5 style="padding-top: 100px;"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507">CoderDojo Japan のスポンサー紹介例</a></h5>
+	<p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%"></a></p>
+	<p class="imgfit text-center">コピペ用Markdown (改変も可)</p>
+	<div class="highlight highlight-source-gfm">
+	  <pre>
+<span class="pl-mh"><span class="pl-mh"># </span>運営・協力</span>
+
+<div class=&quot;row justify-content-start no-gutters&quot;>
+  <div class=&quot;col-xs-3&quot;><a href=&quot;https://yasslab.jp/&quot;><img src=&quot;https://yasslab.jp/img/logos/500x500.png&quot; alt=&quot;YassLab 株式会社&quot;></a></div>
+  <div class=&quot;col-xs-9&quot;>&lt;b&gt;<a href=&quot;https://yasslab.jp/&quot;>YassLab 株式会社</a>&lt;/b&gt;
+  &lt;br&gt;&lt;br&gt;
+    会場に掛かる費用と、Doorkeeper イベントページにかかる費用を負担して頂きました。(詳細: <a href=&quot;https://coderdojo.jp/kata#support&quot;>支援 - CoderDojo Kata</a>)
+  </div>
+</div>
+	  </pre>
+	</div>
+
+	<h2 id="howto" style="margin-top: 100px;">
 	  <a class="anchor" href="#howto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>イベント枠提供までの手続き</a></h2>
 	<p>イベント枠を提供するまでの手続きは大きく分けて２つあります。</p>
 
