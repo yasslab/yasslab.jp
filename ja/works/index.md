@@ -280,29 +280,6 @@ lang:   ja
           <li>他、2010年度より過去の活動については、スライド資料『<a href="https://speakerdeck.com/yasslab/learn-by-your-own-projects">創りながら学ぶ</a>』、<a href="https://www.wantedly.com/users/11695">Wantedly</a>、または<a href="https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&amp;type=1&amp;l=76c883b04a">受賞歴まとめ</a>をご参照してください</li>
         </ul>
 
-        <h3 id="関連団体" class="text-center mb-5">関連団体</h3>
-        
-        <ul>
-          <li><a href="http://www.boss-con.jp/railspartner/">BOSS-CON JAPAN</a> (Rails認定ゴールドインテグレーター)</li>
-          <li><a href="http://www.railscp.com/aboutus/">Rails技術者認定試験運営委員会</a> (テクニカルアドバイザー)</li>
-          <li><a href="https://oss-gate.github.io/">OSS Gate</a> (<a href="https://yasslab.jp/ja/doorkeeper/">Doorkeeper スポンサー</a>)</li>
-          <li><a href="http://www.ryukyu-frogs.com/">RyukyuFrogs</a> (テクニカルサポーター・協賛)</li>
-          <li><a href="http://rubykaigi.org/">RubyKaigi</a> (翻訳協力)</li>
-          <li><a href="https://scrivito.com/partners">Scrivito</a> (開発協力)</li>
-          <li><a href="https://coderdojo.jp/">CoderDojo Japan</a> (開発支援)</li>
-          <li><a href="http://www.mitou.org/">Mitou Foundation</a> (<a href="http://jr.mitou.org/">未踏ジュニア</a>PM・スポンサー)</li>
-        </ul>
-        
-        <h3 id="関連コミュニティ">関連コミュニティ</h3>
-        
-        <ul>
-          <li><a href="http://screenx.tv/">ScreenX TV</a>の開発 (<a href="https://github.com/screenxtv">GitHub</a>)</li>
-          <li><a href="https://www.facebook.com/groups/coderdojo.jp/">CoderDojo Japan</a>の運営</li>
-          <li><a href="http://qwik.jp/okinawarb/">Okinawa.rb</a>の立ち上げおよび運営 (2011~現在)</li>
-          <li><a href="http://text.geeoki.com/">GeekHouse Okinawa</a> の運営支援
-            <br /><br /></li>
-        </ul>
-        
         <div class="text-center">
           <h2 id="他講演など" class="mb-5">他、講演など</h2>
         </div>
