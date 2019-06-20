@@ -214,7 +214,7 @@ lang:   ja
           <li>11月 Co-Edoと共同で<a href="http://railstutorial.jp/seminars">Rails解説セミナー</a>を開講</li>
           <li>9月 <a href="http://rubyhiroba.org/2014/">RubyHiroba 2014</a>で新サイト「<a href="http://railsguides.jp/">Railsガイド</a>」の公開を発表</li>
           <li>9月 <a href="http://rubykaigi.org/2014/sponsors#silver07">RubyKaigi 2014 シルバースポンサー</a>。翻訳・司会も務める</li>
-	  <li>8月 <a href="https://www.facebook.com/photo.php?fbid=10152305706420869&set=a.10150840241290869&type=3&theater">災害時に役に立つ物と心のデザイン展</a>に選出される</li>
+	  <li>8月 震災対策アプリが『<a href="https://www.facebook.com/yasulab/media_set?set=a.10152300485160869.1073741834.715330868&type=1&l=060301d350">もしもの時のデザイン展</a>』に採録</li>
           <li>8月 <a href="https://www.facebook.com/DigiLabOkinawa/">デジラボおきなわ</a>にて子供向けプログラミングの成果報告会を実施。<a href="https://www.facebook.com/photo.php?fbid=10152305701650869&set=a.10150840241290869&type=3&theater">RBCで特集番組として放映</a>される</li>
           <li>4月 世界中のインターナショナルスクールが集まる国際会議「<a href="http://blogs.yis.ac.jp/beyondlaptops/">#beyondlaptops</a>」にて、Guest Speaker として Scratch + Raspberry Pi のワークショップを実施</li>
           <li>3月 <a href="http://ruby.okinawa/okrk01/">沖縄Ruby会議01</a> を開催。安川が実行委員長を努め、Ruby開発者のまつもとゆきひろ氏をゲストとして招聘</li>
