@@ -214,25 +214,28 @@ lang:   ja
           <li>11月 Co-Edoと共同で<a href="http://railstutorial.jp/seminars">Rails解説セミナー</a>を開講</li>
           <li>9月 <a href="http://rubyhiroba.org/2014/">RubyHiroba 2014</a>で新サイト「<a href="http://railsguides.jp/">Railsガイド</a>」の公開を発表</li>
           <li>9月 <a href="http://rubykaigi.org/2014/sponsors#silver07">RubyKaigi 2014 シルバースポンサー</a>。翻訳・司会も務める</li>
-          <li>8月 <a href="https://www.facebook.com/DigiLabOkinawa/">デジラボおきなわ</a>にて子供向けプログラミングの成果報告会を実施。RBCにて、特集番組として放映される</li>
+	  <li>8月 <a href="https://www.facebook.com/photo.php?fbid=10152305706420869&set=a.10150840241290869&type=3&theater">災害時に役に立つ物と心のデザイン展</a>に選出される</li>
+          <li>8月 <a href="https://www.facebook.com/DigiLabOkinawa/">デジラボおきなわ</a>にて子供向けプログラミングの成果報告会を実施。<a href="https://www.facebook.com/photo.php?fbid=10152305701650869&set=a.10150840241290869&type=3&theater">RBCで特集番組として放映</a>される</li>
           <li>4月 世界中のインターナショナルスクールが集まる国際会議「<a href="http://blogs.yis.ac.jp/beyondlaptops/">#beyondlaptops</a>」にて、Guest Speaker として Scratch + Raspberry Pi のワークショップを実施</li>
           <li>3月 <a href="http://ruby.okinawa/okrk01/">沖縄Ruby会議01</a> を開催。安川が実行委員長を努め、Ruby開発者のまつもとゆきひろ氏をゲストとして招聘</li>
           <li>3月 <a href="http://blog.lexues.co.jp/19489.html">レキサスアカデミー第3期 最終成果報告会</a>を実施</li>
           <li>2月 代表の安川が修士論文「<a href="https://www.dropbox.com/s/zr4k9b5rkgff2of/%E4%BF%AE%E5%A3%AB%E8%AB%96%E6%96%87_%E6%A6%82%E8%A6%81%E6%9B%B8.pdf?dl=0">Project Based Learning using Visual Bucket List</a>」を早稲田大学に提出し、修士号を取得</li>
-          <li>2月 第6回フクオカRuby大賞にて<a href="http://www.digitalfukuoka.jp/events/21?locale=ja">優秀賞を受賞</a></li>
+          <li>2月 <a href="http://www.digitalfukuoka.jp/events/21?locale=ja">第6回フクオカRuby大賞</a>にて<a href="https://www.facebook.com/photo.php?fbid=10151944131640869&set=a.10150840241290869&type=3&theater">優秀賞を受賞</a></li>
         </ul>
         
         <h3 id="achievements-2013">2013年</h3>
         <ul>
+	  <li>12月 角川アスキー総合研究所シンポジウムに登壇 (<a href="https://www.facebook.com/photo.php?fbid=10151891213410869&set=a.10150840241290869&type=3&theater">掲載記事</a>)</li>
           <li>12月 子ども向け学習コンテンツのタブレット端末変換器を開発</li>
           <li>11月 達人出版会より<a href="http://tatsu-zine.com/books/railstutorial">Railsチュートリアルの電書籍版</a>を出版</li>
 	  <li>11月 <a href="http://2013.rubyworld-conf.org/ja/">RubyWorld Conference 2013</a>にRailsチュートリアル採択</li>
-
 	  <li>10月 <a href="https://railstutorial.jp/">Railsチュートリアル</a>公開。<a href="https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide">Social Translating</a> 手法を起案</li>
           <li>10月 <a href="https://github.com/yasslab/weekend_fabrication">沖縄型若年層向けIT高度人材育成事業</a>常任講師 (３期目)</li>
 	  <li>8月 英訳に関わった<a href="http://ruby-hacking-guide.github.io/">Ruby Hacking Guide</a>が<a href="https://news.ycombinator.com/item?id=6197222">Hacker Newsに掲載</a></li>
+	  <li>6月 未踏IT人材の1人として<a href="https://www.facebook.com/photo.php?fbid=10151582012115869&set=a.10150840241290869&type=3&theater">日経工業新聞で紹介</a>される</li>
           <li>6月 ビジネス支援アプリ開発支援 (テストを2h→15mに高速化)</li>
-	  <li>5月 代表の安川が2012年度<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">IPA未踏スーパークリエータ</a>に認定</li>
+	  <li>5月 シェアハウス『ギークハウス沖縄』が<a href="https://www.facebook.com/photo.php?fbid=10151408573325869&set=a.10150840241290869&type=3&theater">読売新聞に掲載</a></li>
+	  <li>5月 代表の安川が2012年度<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">IPA未踏スーパークリエータ</a>に<a href="https://www.facebook.com/photo.php?fbid=10151945267180869&set=a.10150840241290869&type=3&theater">認定</a></li>
           <li>3月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
             <ul>
               <li>大規模処理のリファクタリングおよび高速化</li>
