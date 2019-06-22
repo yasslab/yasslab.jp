@@ -196,14 +196,19 @@
 - 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[Community Appeal](http://rubykaigi.org/2013/talk/S62)で[Okinawa.rb](https://speakerdeck.c/yasulab/invitation-to-okinawa-dot-rb)を紹介
 - 5月 シェアハウス『ギークハウス沖縄』が[読売新聞に掲載](https://www.facebook.com/photo.php?fbid=10151408573325869&set=a.10150840241290869&type=3&theater)
 - 5月 代表の安川が2012年度[IPA未踏スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に[認定](https://www.facebook.com/photo.php?fbid=10151945267180869&set=a.10150840241290869&type=3&theater)
-- 3月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
-    - 大規模処理のリファクタリングおよび高速化
-    - テスト環境の整備および高速化
-    - 他、統合テストのサポート・Rubyのコーディング作法の共有など
+- 2月 [東京Ruby会議 (3日目)](http://tokyo10.rubykaigi.info/) で[Railsハッカソン@沖縄](https://speakerdeck.com/yasulab/report-of-rails-hackathon-in-okinawa)を発表
+- 1月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
+    - テスト環境の整備、テストスイートの高速化
+    - 他、統合テストのサポート、リファクタリングの支援など
 
 ### [2012](#2012)
 
+- 12月 [RubyConf 台湾](http://rubyconf.tw/2012/)で『[Remote Pair-Programming](https://speakerdeck.com/yasulab/introducing-remote-pair-programming-in-okinawa-dot-rb)』を発表
+- 11月 [PHP Matsuri 2012 in 福岡](http://www.phpmatsuri.net/2012/) で『[出張CoderDojo](http://www.phpmatsuri.net/2012/coderdojo.html)』を実施
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)常任講師 (２期目)
+- 9月 [RubyKaigi 札幌 2012](http://sapporo.rubykaigi.org/2012/en/schedule/details/LT09.html)で[Rails Hackathon in Okinawa](http://www.slideshare.net/yasulab/rails-hackathon-in-okinawa)を発表
+- 9月 [OSC in 沖縄](http://www.ospn.jp/osc2012-okinawa/modules/eguide/event.php?eid=15)で[CoderDojoの成り立ち・紹介・始め方](https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang)を発表
+- 9月 [OSC in 東京](https://www.ospn.jp/osc2012-fall/modules/eguide/event.php?eid=61)で[CoderDojoの成り立ち・紹介・始め方](https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang)を発表
 - 6月 第２期レキサスアカデミーが[沖縄タイムスに掲載](https://www.facebook.com/photo.php?fbid=10150882136595869&set=a.10150840241290869&type=3&theater)
 - 6月 CoderDojo の立ち上げが [The Nikkei Asian Review に掲載](https://www.facebook.com/photo.php?fbid=10150896080380869&set=a.10150840241290869&type=3&theater)
 - 5月 立ち上げ時に関わったギークハウス沖縄が[琉球新報に掲載](https://www.facebook.com/photo.php?fbid=10150840241430869&set=a.10150840241290869&type=3&theater)
@@ -221,24 +226,16 @@
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)の立ち上げに参画
 - 9月 [Okinawa.rb](https://ruby.okinawa/) (Okinawa Ruby User Group) を立ち上げる
 - 9月 早稲田大学 Ambient GCOE にて[最優秀賞を受賞](https://www.facebook.com/photo.php?fbid=10150840346665869&set=a.10150840241290869&type=3&theater)
+- 6月 [Android Bazaar and Conference](http://www.android-group.jp/abc2011s/conference.html)で[震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto)を講演
 - 6月 米国留学を終え日本に帰国。様々な事業の試行錯誤を開始
 - 3月 震災直後に[震災対策アプリ](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en)を開発・公開。3ヶ月で5万 DL
     - 後日30万ダウンロードを達成 ([当時の開発のスライド資料](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo))
+
 
 ### [2010](#2010)
 
 - 10月 航空券サーチエンジンの開発が[修士最優秀賞を受賞](https://www.facebook.com/photo.php?fbid=10150840359975869&set=a.10150840241290869&type=3&theater)
 - 他、2010年度より過去の活動については、スライド資料『[創りながら学ぶ](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』、[Wantedly](https://www.wantedly.com/users/11695)、または[受賞歴まとめ](https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&type=1&l=76c883b04a)をご参照してください
 
-<div class="text-center">
-  <h2>他、講演など</h2>
-</div>
 
-- [“Introducing Remote Pair Programming in Okinawa.rb”](https://speakerdeck.com/yasulab/introducing-remote-pair-programming-in-okinawa-dot-rb), [RubyConf 台湾 2012](http://rubyconf.tw/2012/)
-- [“Report of Rails Hackathon in Okinawa”](https://speakerdeck.com/yasulab/report-of-rails-hackathon-in-okinawa), [Tokyo RubyKaigi 10](http://tokyo10.rubykaigi.info/)
-- 講師@出張CoderDojo, [PHP Matsuri 2012 (福岡)](http://www.phpmatsuri.net/2012/coderdojo.html)
-- [“Rails Hackathon in Okinawa”](http://www.slideshare.net/yasulab/rails-hackathon-in-okinawa), [RubyKaigi 札幌 2012](http://sapporo.rubykaigi.org/2012/en/schedule/details/LT09.html)
-- [“CoderDojo の成り立ち・紹介・始め方”](https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang), [オープンソースカンファレンス 2012 in 東京](https://www.ospn.jp/osc2012-fall/modules/eguide/event.php?eid=61)
-- [“CoderDojo の成り立ち・紹介・始め方”](https://speakerdeck.com/yasulab/coderdojo-falsecheng-rili-tishao-jie-shi-mefang), [オープンソースカンファレンス 2012 in 沖縄](http://www.ospn.jp/osc2012-okinawa/modules/eguide/event.php?eid=15)
-- [“震災対策アプリ：ホイッスル on Android -5万DL達成までにやったこと-“](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto), [Android Bazaar and Conference 2011](http://www.android-group.jp/abc2011s/conference.html)
 

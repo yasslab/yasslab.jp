@@ -42,7 +42,7 @@ lang:   ja
 	  取引先として弊社をご検討する際などにお役立てください。</p>
 
 	{%- capture achievements -%}{% include_relative achievements.md %}{%- endcapture -%}
-	<div class="achievements">
+	<div class="achievements" style="margin-bottom: 100px;">
 	  {{ achievements | markdownify }}
 	</div>
 
