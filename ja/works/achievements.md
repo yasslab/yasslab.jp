@@ -156,7 +156,8 @@
 - 6月 シリコンバレー派遣事業 [RyukyuFrogs](http://www.ryukyu-frogs.com/) で、Railsチュートリアルを用いた技術支援を開始
 - 5月 Rails集中解説セミナー実施。[全枠がキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)に。
 - 4月 Railsアプリケーションの Heroku 環境移行を支援しました
-- 4月 国際的的子どもプログラミング道場「[CoderDojo](https://coderdojo.com/)」の日本代表として、安川が[CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)に就任
+- 4月 国際的な子どもプログラミング道場『[CoderDojo](https://coderdojo.com/)』の日本代表 ([CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)) に弊社安川が就任
+- 3月 リクルート主催『[Application Developer Festival](https://recruit-holdings.co.jp/news_data/release/2015/0302_15663.html)』で講演
 - 3月 [未踏会議/未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)で[継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)をブース展示
 - 2月 初期から参画したシェアハウスの[ギークハウス沖縄](http://text.geeoki.com/post/112124574627/%E8%A7%A3%E6%95%A3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F)を解散
 - 1月 [Nilquebe](http://nilquebe.com/) と共同で[Rails集中解説セミナー@神戸](http://railstutorial.jp/seminars)を開講
@@ -166,6 +167,7 @@
 - 12月 (株)ネクスウェイよりパートナーMVP賞を受賞
 - 12月 動画でRailsが学べる「[Railsスクリーンキャスト](http://railstutorial.jp/screencasts)」を公開
 - 11月 Co-Edoと共同で[Rails解説セミナー](http://railstutorial.jp/seminars)を開講
+- 10月 [第2回 ITx災害 会議](http://blog.itxsaigai.org/post/101750784479/%E7%AC%AC2%E5%9B%9Eitx%E7%81%BD%E5%AE%B3%E4%BC%9A%E8%AD%B0-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88)で震災対策アプリの開発背景を講演
 - 9月 [RubyHiroba 2014](http://rubyhiroba.org/2014/)で新サイト「[Railsガイド](http://railsguides.jp/)」の公開を発表
 - 9月 [RubyKaigi 2014 シルバースポンサー](http://rubykaigi.org/2014/sponsors#silver07)。翻訳・司会も務める
 - 8月 震災対策アプリが『[もしもの時のデザイン展](https://www.facebook.com/yasulab/media_set?set=a.10152300485160869.1073741834.715330868&type=1&l=060301d350)』に採録
@@ -182,11 +184,16 @@
 - 12月 子ども向け学習コンテンツのタブレット端末変換器を開発
 - 11月 達人出版会より[Railsチュートリアルの電書籍版](http://tatsu-zine.com/books/railstutorial)を出版
 - 11月 [RubyWorld Conference 2013](http://2013.rubyworld-conf.org/ja/)にRailsチュートリアル採択
+- **11月 代表の安川が[TEDxRyukyu 2013](http://www.tedxryukyu.com/speaker.html)で『[経験と教育](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』を発表**
 - 10月 [Railsチュートリアル](https://railstutorial.jp/)公開。[Social Translating](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) 手法を起案
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)常任講師 (３期目)
+- 9月 [Okinawa Future School Conference](https://sites.google.com/a/ois-edu.com/okifsc/bios) で登壇とWS実施
 - 8月 英訳に関わった[Ruby Hacking Guide](http://ruby-hacking-guide.github.io/)が[Hacker Newsに掲載](https://news.ycombinator.com/item?id=6197222)
 - 6月 未踏IT人材の1人として[日経工業新聞で紹介](https://www.facebook.com/photo.php?fbid=10151582012115869&set=a.10150840241290869&type=3&theater)される
 - 6月 ビジネス支援アプリ開発支援 (テストを2h→15mに高速化)
+- 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[Lightning Talk](http://rubykaigi.org/2013/lightning_talks)で[ScreenX TV](https://speakerdeck.com/yasulab/screenx-tv)を発表
+- 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[TWO CARTOON FOXES](http://rubykaigi.org/2013/talk/S51)で翻訳に貢献
+- 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[Community Appeal](http://rubykaigi.org/2013/talk/S62)で[Okinawa.rb](https://speakerdeck.c/yasulab/invitation-to-okinawa-dot-rb)を紹介
 - 5月 シェアハウス『ギークハウス沖縄』が[読売新聞に掲載](https://www.facebook.com/photo.php?fbid=10151408573325869&set=a.10150840241290869&type=3&theater)
 - 5月 代表の安川が2012年度[IPA未踏スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に[認定](https://www.facebook.com/photo.php?fbid=10151945267180869&set=a.10150840241290869&type=3&theater)
 - 3月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
@@ -227,16 +234,6 @@
   <h2>他、講演など</h2>
 </div>
 
-- [とちぎRuby会議06](http://regional.rubykaigi.org/tochigi06/)にてRailsチュートリアル/Railsガイドについて講演，2015
-- リクルートホールディングス主催[Application Developer Festival 2015](http://recruit-jinji.jp/adf_fes2015/)にゲストスピーカーとして講演
-- 第2回「[ITx災害](http://blog.itxsaigai.org/post/101750784479/%E7%AC%AC2%E5%9B%9Eitx%E7%81%BD%E5%AE%B3%E4%BC%9A%E8%AD%B0-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88)」会議に登壇し，震災対策アプリの開発風景について講演，2014
-- “Social Translating: The Way of Translating Rails Tutorial and Ruby Hacking Guide”, [RubyWorld Conference 2013](http://www.rubyworld-conf.org/ja/program/)
-- “Experience and Education”, [TEDxRyukyu 2013](http://www.tedxryukyu.com/speaker.html)
-- Panelist & Workshop Facilitator, [Okinawa Future School Conference 2013](https://sites.google.com/a/ois-edu.com/okifsc/bios)
-- [RubyKaigi 2013](http://rubykaigi.org/2013):
-    - [“Show Your Opensource Activities w/ ScreenX TV”](https://speakerdeck.com/yasulab/screenx-tv), [Lightning Talk](http://rubykaigi.org/2013/lightning_talks)
-    - Translating [TWO CARTOON FOXES: the _why documentary](http://rubykaigi.org/2013/talk/S51)
-    - [“Invitation to Okinawa.rb”](https://speakerdeck.com/yasulab/invitation-to-okinawa-dot-rb), [Community Appeal](http://rubykaigi.org/2013/talk/S62)
 - [“Introducing Remote Pair Programming in Okinawa.rb”](https://speakerdeck.com/yasulab/introducing-remote-pair-programming-in-okinawa-dot-rb), [RubyConf 台湾 2012](http://rubyconf.tw/2012/)
 - [“Report of Rails Hackathon in Okinawa”](https://speakerdeck.com/yasulab/report-of-rails-hackathon-in-okinawa), [Tokyo RubyKaigi 10](http://tokyo10.rubykaigi.info/)
 - 講師@出張CoderDojo, [PHP Matsuri 2012 (福岡)](http://www.phpmatsuri.net/2012/coderdojo.html)
