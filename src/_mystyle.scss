@@ -55,6 +55,16 @@ blockquote cite {
     font-size: 0.9em;
 }
 
+// Works: /ja/works/
+.achievements {
+  h3:after {
+    content: "年";
+  }
+  ul {
+    list-style: none;
+  }
+}
+
 // Social Buttons
 .snsb {
     overflow: hidden;
