@@ -23,6 +23,7 @@
 - 1月 [megane Fes 2019](https://meganefes2019.megane.in/) で [Remote-first Company](https://speakerdeck.com/yasslab/remote-first-company) について講演
 
 
+
 ### [2018](#2018)
 
 - 12月 Podcast「[DojoCast #10](https://coderdojo.jp/podcasts/10)」に出演 (司会役として[英語収録](https://twitter.com/CoderDojo/status/1075677404419506176))
@@ -70,6 +71,8 @@
 - 1月 [Hay未来の税理士法人](http://www.hay-kaikei.com/)代表の林氏が[顧問税理士](/ja/about/#company)に就任
 - **1月 個人事業から法人成りし、[YassLab 株式会社](https://twitter.com/yasulab/status/958189005194985472)を設立**
 
+
+
 ### [2017](#2017)
 
 - 12月 [DIVE INTO CODE 主催のイベント](https://diveintocode.doorkeeper.jp/events/66896)に弊社安川が登壇
@@ -102,6 +105,8 @@
 - 1月 Co-Edo4周年記念で「[Co-Edo 試聴会のススメ](https://speakerdeck.com/yasulab/co-edo-shi-ting-hui-falsesusume)」を発表
 - 1月 Railsチュートリアルなどの各種運営サイトをSSLに対応
 - 1月 CoderDojo Japan の CMS 機能「[Kata](https://coderdojo.jp/kata)」をリリース
+
+
 
 ### [2016](#2016)
 
@@ -138,6 +143,8 @@
 - 1月 [Creators MeetUp](http://cmu.connpass.com/event/24504/) で[技術文書の継続的翻訳](https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita)を発表
 - 1月 建築系新規Webサービスの開発支援をはじめました
 
+
+
 ### [2015](#2015)
 
 - **12月 [RubyKaigi 2015](http://rubykaigi.org/2015/) のまつもとゆきひろ (Matz) 氏の基調講演で [Ruby に貢献している企業として紹介して頂きました!](https://youtu.be/E9bO1uqs4Oc?t=3904)**
@@ -162,6 +169,8 @@
 - 2月 初期から参画したシェアハウスの[ギークハウス沖縄](http://text.geeoki.com/post/112124574627/%E8%A7%A3%E6%95%A3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F)を解散
 - 1月 [Nilquebe](http://nilquebe.com/) と共同で[Rails集中解説セミナー@神戸](http://railstutorial.jp/seminars)を開講
 
+
+
 ### [2014](#2014)
 
 - 12月 (株)ネクスウェイよりパートナーMVP賞を受賞
@@ -175,8 +184,10 @@
 - 4月 世界中のインターナショナルスクールが集まる国際会議「[#beyondlaptops](http://blogs.yis.ac.jp/beyondlaptops/)」にて、Guest Speaker として Scratch + Raspberry Pi のワークショップを実施
 - 3月 [沖縄Ruby会議01](http://ruby.okinawa/okrk01/) を開催。安川が実行委員長を努め、Ruby開発者のまつもとゆきひろ氏をゲストとして招聘
 - 3月 [レキサスアカデミー第3期 最終成果報告会](http://blog.lexues.co.jp/19489.html)を実施
-- 2月 代表の安川が修士論文「[Project Based Learning using Visual Bucket List](https://www.dropbox.com/s/zr4k9b5rkgff2of/%E4%BF%AE%E5%A3%AB%E8%AB%96%E6%96%87_%E6%A6%82%E8%A6%81%E6%9B%B8.pdf?dl=0)」を早稲田大学に提出し、修士号を取得
+- 2月 代表の安川が修士論文『[Project Based Learning using Visual Bucket List](http://www.snapwhim.com/)』を早稲田大学に提出し、修士号を取得
 - 2月 [第6回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/21?locale=ja)にて[優秀賞を受賞](https://www.facebook.com/photo.php?fbid=10151944131640869&set=a.10150840241290869&type=3&theater)
+
+
 
 ### [2013](#2013)
 
@@ -201,6 +212,8 @@
     - テスト環境の整備、テストスイートの高速化
     - 他、統合テストのサポート、リファクタリングの支援など
 
+
+
 ### [2012](#2012)
 
 - 12月 [RubyConf 台湾](http://rubyconf.tw/2012/)で『[Remote Pair-Programming](https://speakerdeck.com/yasulab/introducing-remote-pair-programming-in-okinawa-dot-rb)』を発表
@@ -220,6 +233,8 @@
 - 1月 シリコンバレーの Belmont でシェアオフィス立ち上げ
 - 他、CMSを使ったECサイトの構築、Nifty Cloud C4SAのRuby/Rails/Perlコンテキストの開発、ソーシャルiOSアプリの開発など
 
+
+
 ### [2011](#2011)
 
 - 10月 第１期レキサスアカデミーが[沖縄メディアに掲載](https://www.facebook.com/photo.php?fbid=10150840280880869&set=a.10150840241290869&type=3&theater)
@@ -230,6 +245,7 @@
 - 6月 米国留学を終え日本に帰国。様々な事業の試行錯誤を開始
 - 3月 震災直後に[震災対策アプリ](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en)を開発・公開。3ヶ月で5万 DL
     - 後日30万ダウンロードを達成 ([当時の開発のスライド資料](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo))
+
 
 
 ### [2010](#2010)
