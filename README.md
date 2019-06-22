@@ -8,19 +8,15 @@ YassLab Inc.
 Having a Good Life with OpenSource ;)     
 https://yasslab.jp/
 
-## Setup
-ローカルで開発する場合は、npmとJekyllのそれぞれを走らせておきます。
+## セットアップ方法
+ローカルで開発・デザインをする場合は、次の２つが必要です。
 
-### npm
-
-1. `npm install`
-    - 初回のnpmのインストール
-2. `npm run css`
-    - cssのコンパイル
-3. `npm run watch`
-    - sassファイルの監視
+1. Jekyll (必須)
+2. npm (デザインを修正するときのみ)
 
 ### Jekyll
+
+Jekyll を使って localhost 上にWebサイトを表示します。
 
 1. `bundle install`
     - 初回のgemのインストール
@@ -28,6 +24,17 @@ https://yasslab.jp/
     - ローカルサーバーの立ち上げ
 3. ブラウザで `localhost:4000` にアクセス
     - 成功すれば [yasslab.jp](https://yasslab.jp/) と同じ画面が表示される
+
+### npm
+
+(任意) デザインを修正する場合は npm も立ち上げる必要があります 
+
+1. `npm install`
+    - 初回のnpmのインストール
+2. `npm run css`
+    - cssのコンパイル
+3. `npm run watch`
+    - sassファイルの監視
 
 ## About ICON
 
