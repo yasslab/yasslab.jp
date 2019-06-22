@@ -9,7 +9,7 @@
 - 4月 DIVE INTO CODE 主催 [Demo Day 6th](https://diveintocode.doorkeeper.jp/events/83984) に審査員として参加
 - 4月 『[DojoCast](https://coderdojo.jp/podcasts)』の [Apple Podcasts アプリ対応](https://twitter.com/CoderDojoJapan/status/1112927872803430400)をリリース
 - 4月 coderdojo.jp から[2018年の統計情報](https://twitter.com/CoderDojoJapan/status/1112581734967570432)を公開
-- 4月 新たに社員が加わり、[社員数が12名](#members)になりました
+- 4月 新たに社員が加わり、[社員数が12名](/ja/#members)になりました
 - 3月 JP_Stripes Connect 2019 の[LTセッションで登壇](https://yasslab.jp/ja/posts/jp-stripes-connect-2019)
 - **3月 Railsガイド『[Proプラン](https://yasslab.jp/ja/posts/release-pro-plan)』をリリースしました**
 - 3月 フクオカRuby大賞で[AWS賞を受賞](https://yasslab.jp/ja/posts/aws-award-at-fukuoka-ruby-2019)しました

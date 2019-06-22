@@ -29,7 +29,7 @@ lang:   ja
 	<p><a href="/ja/#members">YassLab 社のメンバー</a>が推薦した方を優先的に対応しております。応募前にあらかじめご理解・ご了承していただけると幸いです。</p>
       </div><!--//col-->
     </div><!--//row-->
-    <div id="remote-work"></div>
+    <div id="remote"></div>
   </div><!--//container-->
 </section>
 
@@ -37,7 +37,7 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="mt-5 mb-5"><a href="#remote-work">YassLab 社の特徴</a></h2>
+        <h2 class="mt-5 mb-5"><a href="#remote">YassLab 社の特徴</a></h2>
 	<script async class="speakerdeck-embed"
 	 data-id="cf1cd6f115924b4cace9b825fe474198"
 	 data-ratio="1.33333333333333"
