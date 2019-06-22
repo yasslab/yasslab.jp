@@ -44,17 +44,17 @@ lang:   ja
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
             <a href="https://railstutorial.jp/" target="_blank"><h4>Railsチュートリアル</h4></a>
-            <p>SNS の開発を題材にした大型チュートリアル。Web サービスの開発から公開までの流れを実例を通して学べます。<a href="https://railstutorial.jp/#screencast">解説動画</a>や<a href="https://railstutorial.jp/business">法人向けサービス</a>も提供。</p>
+            <p>SNS 開発を題材にした大型チュートリアル。プロダクトの開発から公開までを手を動かしながら学べます。<a href="https://railstutorial.jp/#screencast">解説動画/質問対応</a>や<a href="https://railstutorial.jp/business">法人向けサービス</a>も提供</p>
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank">
               <img src="/img/logos/rails-guides.gif" alt="Ruby on Rails ガイド" class="books">
             </a>
             <a href="https://railsguides.jp/" target="_blank">
-              <button class="btn btn-ruby">上級者向け</button>
+              <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
             <a href="https://railsguides.jp/" target="_blank"><h4>Railsガイド</h4></a>
-            <p>Ruby on Rails 公式の大型リファレンスガイド。Rails の各機能を体系的に学び、Web 開発の生産性を高めたいときに。<a href="https://railsguides.jp/pro">全文検索サービス</a>も提供。</p>
+            <p>Ruby on Rails 公式の大型リファレンス。各機能を体系的に学び、プロダクト開発の生産性を高めませんか? <a href="https://railsguides.jp/options.html">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
           </div>
         </div>
       </div>
