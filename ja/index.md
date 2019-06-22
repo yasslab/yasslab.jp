@@ -107,11 +107,11 @@ lang:   ja
   </div><!--//container-->
 </section>
 
-<section class="aboutVisual entry_content" id="remote">
+<section class="aboutVisual entry_content" id="members">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#remote">沖縄
+        <h2><a href="#members">沖縄
 		×
 		東京</a></h2>
         <p class="text-md-center h5">YassLab 社はソフトウェアエンジニアのリモートチームです。<br class="ignore-sp">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
