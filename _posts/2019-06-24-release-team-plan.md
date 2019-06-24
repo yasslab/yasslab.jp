@@ -17,7 +17,7 @@ Railsガイドの全コンテンツが検索できて便利な『[Proプラン](
 ## Proプランとどこが違う？
 
 <div aline="center">
-  <img src="https://i.gyazo.com/1fb23b3804df2cd2afd084be1f750ef8.png" width="360px">
+  <img alt="チームメンバー管理" src="https://i.gyazo.com/1fb23b3804df2cd2afd084be1f750ef8.png" width="360px">
 </div>
 
 ダッシュボードからメンバーを管理。簡単に招待や削除が出来ます 👥✨
@@ -27,7 +27,7 @@ Railsガイドの全コンテンツが検索できて便利な『[Proプラン](
 -----
 
 <div aline="center">
-  <img src="https://i.gyazo.com/689e47e4a3272bb08e31aa3fd9262daf.png" width="360px">
+  <img alt="決済の一元化" src="https://i.gyazo.com/689e47e4a3272bb08e31aa3fd9262daf.png" width="360px">
 </div>
 
 クレジット決済に対応し、ますます便利にご利用いただけるようになりました 💳
@@ -39,7 +39,7 @@ Railsガイドの全コンテンツが検索できて便利な『[Proプラン](
 注目すべき点は『Google Analytics』対応で、
 
 <div aline="center">
-  <img src="https://i.gyazo.com/33e38026bc37895df5b81b1746853d2c.png" width="360px">
+  <img alt="Google Analytics 対応" src="https://i.gyazo.com/33e38026bc37895df5b81b1746853d2c.png" width="360px">
 </div>
 
 ダッシュボードから Google Analytics のトラッキングIDを設定することで、メンバーの動向を確認できるので、チーム内の技術力向上にも活用できます💪✨
