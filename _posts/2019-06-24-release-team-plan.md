@@ -59,4 +59,8 @@ Railsガイドの全コンテンツが検索できて便利な『[Proプラン](
 
 Teamプランお申し込みは[**コチラ**](https://railsguides.jp/team)から。
 
+### 参考
+
+Railsガイド『Proプラン』『Teamプラン』が [**TechRacho 週刊Railsウォッチ**](https://techracho.bpsinc.jp/hachi8833/2019_06_24/76423#2-3) にて紹介されました🎉
+
 [![YassLab Inc.](/img/logos/800x200.png)](/)
