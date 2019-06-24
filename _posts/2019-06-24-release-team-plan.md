@@ -63,4 +63,9 @@ Teamプランお申し込みは[**コチラ**](https://railsguides.jp/team)か�
 
 Railsガイド『Proプラン』『Teamプラン』が [**TechRacho 週刊Railsウォッチ**](https://techracho.bpsinc.jp/hachi8833/2019_06_24/76423#2-3) にて紹介されました🎉
 
+<div style="margin-bottom: 100px;">
+  <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">週刊Railsウォッチ（20190624-1/2前編）6.1でActionView::Componentが入る、RuboCopのRuby/Railsスタイルガイドサイト、RailsガイドProプラン/Teamプランほか - <a href="https://t.co/p3Pxwa2BMF">https://t.co/p3Pxwa2BMF</a> <a href="https://twitter.com/hashtag/techracho?src=hash&amp;ref_src=twsrc%5Etfw">#techracho</a> <a href="https://t.co/0XONVl80Nu">pic.twitter.com/0XONVl80Nu</a></p>&mdash; TechRacho (@techracho) <a href="https://twitter.com/techracho/status/1143074010269306880?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
+</div>
+
+
 [![YassLab Inc.](/img/logos/800x200.png)](/)
