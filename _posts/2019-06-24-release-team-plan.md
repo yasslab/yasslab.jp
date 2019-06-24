@@ -22,6 +22,10 @@ Railsガイドの全コンテンツが検索できて便利な『 Proプラン�
 
 ダッシュボードからメンバーを管理。簡単に招待や削除が出来ます 👥✨
 
+![ダッシュボード画面](https://i.gyazo.com/ec44da56580499cc347ca65146f1b40c.png)
+
+-----
+
 <div aline="center">
   <img src="https://i.gyazo.com/689e47e4a3272bb08e31aa3fd9262daf.png" width="360px">
 </div>
@@ -30,7 +34,9 @@ Railsガイドの全コンテンツが検索できて便利な『 Proプラン�
 
 ![機能のまとめ](https://i.gyazo.com/92b13eab4e1b4c35da0be0d2a6b27527.png)
 
-注目すべき点は『Google Analytics』
+-----
+
+注目すべき点は『Google Analytics』対応で、
 
 <div aline="center">
   <img src="https://i.gyazo.com/33e38026bc37895df5b81b1746853d2c.png" width="360px">
