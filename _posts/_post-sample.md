@@ -23,8 +23,7 @@ MEMO: コンテンツ部分のみ (`FU79IO-qRVY`) を当該動画に差し替え
 ## 🐣 Tweet 埋込
 
 <div style="margin-bottom: 100px;">
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">友情出演の <a href="https://twitter.com/yasulab?ref_src=twsrc%5Etfw">@yasulab</a> さん。ライトニングリズムさすがです！ <a href="https://t.co/fojI3N35gZ">pic.twitter.com/fojI3N35gZ</a></p>&mdash; Koichi ITO (@koic) <a href="https://twitter.com/koic/status/1115946432316432384?ref_src=twsrc%5Etfw">April 10, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">友情出演の <a href="https://twitter.com/yasulab?ref_src=twsrc%5Etfw">@yasulab</a> さん。ライトニングリズムさすがです！ <a href="https://t.co/fojI3N35gZ">pic.twitter.com/fojI3N35gZ</a></p>&mdash; Koichi ITO (@koic) <a href="https://twitter.com/koic/status/1115946432316432384?ref_src=twsrc%5Etfw">April 10, 2019</a></blockquote>
 </div>
 
 
