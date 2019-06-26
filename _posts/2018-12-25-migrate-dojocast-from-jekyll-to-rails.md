@@ -5,7 +5,7 @@ thumbnail: posts/dojocast-cover.jpg
 author: yasulab
 categories: [Blog]
 tags: [CoderDojo, Jekyll, Rails]
-permalink: /ja/posts/migrate-dojocast-from-jekyll-to-rails
+permalink: /ja/posts/:title
 ---
 
 [Okinawa.rb Advent Calendar 2018](https://qiita.com/advent-calendar/2018/okinawarb) 25日目の記事です。

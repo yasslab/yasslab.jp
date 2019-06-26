@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]
 tags: [Railsガイド, Rails]
-permalink: /ja/posts/update-railsguidesjp-to-52
+permalink: /ja/posts/:title
 ---
 
 YassLab 社が運営する『Railsガイド』をRails 5.2対応に更新しました! コンテンツ更新に関わった皆さんありがとうございました...!! (＞人＜ )✨

@@ -5,7 +5,7 @@ thumbnail: posts/rubykaigi-2019.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Okinawa.rb, RubyKaigi, Railsガイド, Railsチュートリアル]
-permalink: /ja/posts/rubykaigi-2019-report
+permalink: /ja/posts/:title
 ---
 
 今年も [RubyKaigi 2019](https://rubykaigi.org/2019) に沖縄や東京のメンバー６名で参加してきました! 🏝✈️💎✨

@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [Rails DM, 登壇]
-permalink: /ja/posts/no-code-reviews-at-railsdm-2019
+permalink: /ja/posts/:title
 ---
 
 [Rails DM 2019](https://railsdm.github.io/) で [@hanachin_](https://twitter.com/hanachin_) さんが『コードレビューしない』というタイトルで発表しました‼️

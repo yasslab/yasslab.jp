@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [リモートワーク, 登壇]
-permalink: /ja/posts/remote-first-at-megane-fes-2019
+permalink: /ja/posts/:title
 ---
 
 ![megane Fes 2019 Photo](https://i.gyazo.com/e3d27b0db38473a74db57fb18ee8fc84.jpg)

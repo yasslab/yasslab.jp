@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [Rails DM, 協賛]
-permalink: /ja/posts/railsdm-2019-sponsorship
+permalink: /ja/posts/:title
 ---
 
 2018年に引き続き、2019年も [Rails Developers Meetup](https://railsdm.github.io/) にスポンサーとして協賛いたしました! ✨🍾

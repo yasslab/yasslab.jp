@@ -5,7 +5,7 @@ thumbnail: https://i.gyazo.com/d5bef2944888ba45ba23b71beeae7551.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, リモートワーク, Railsチュートリアル, Railsガイド]
-permalink: /ja/posts/remote-work-from-okinawa
+permalink: /ja/posts/:title
 ---
 
 [![名古屋Ruby会議04](https://i.gyazo.com/d5bef2944888ba45ba23b71beeae7551.jpg)](https://twitter.com/yasulab/status/1137221480779882496)

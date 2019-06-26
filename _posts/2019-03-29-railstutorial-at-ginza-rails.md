@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, 銀座Rails, Railsチュートリアル]
-permalink: /ja/posts/railstutorial-at-ginza-rails
+permalink: /ja/posts/:title
 ---
 
 [銀座Rails#7](https://ginza-rails.connpass.com/event/120573/)でRailsチュートリアルの開発背景について発表しました。
