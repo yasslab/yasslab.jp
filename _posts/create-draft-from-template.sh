@@ -19,17 +19,17 @@ else
 	"yuppy" ) AUTHOR="Yuppyhappytoyou" ;;
     esac
 
-    echo "---"                         >  $TEMPLATE_FILENAME
-    echo "layout: post"                >> $TEMPLATE_FILENAME
-    echo "title:  タイトル"            >> $TEMPLATE_FILENAME
-    echo "thumbnail: bg-sky.jpg"       >> $TEMPLATE_FILENAME
-    echo "author: ${AUTHOR}"           >> $TEMPLATE_FILENAME
-    echo "categories: [blog]"          >> $TEMPLATE_FILENAME
-    echo "tags: [登壇, Rails]"         >> $TEMPLATE_FILENAME
-    echo "permalink: /ja/posts/:title" >> $TEMPLATE_FILENAME
-    echo "---"                         >> $TEMPLATE_FILENAME
-    echo ""                            >> $TEMPLATE_FILENAME
-    cat  $SAMPLE_POST_TEXT             >> $TEMPLATE_FILENAME
+    echo "---"                     >  $TEMPLATE_FILENAME
+    echo "layout: post"            >> $TEMPLATE_FILENAME
+    echo "title:  タイトル"        >> $TEMPLATE_FILENAME
+    echo "thumbnail: bg-sky.jpg"   >> $TEMPLATE_FILENAME
+    echo "author: ${AUTHOR}"       >> $TEMPLATE_FILENAME
+    echo "categories: [blog]"      >> $TEMPLATE_FILENAME
+    echo "tags: [登壇, Rails]"     >> $TEMPLATE_FILENAME
+    echo "permalink: /ja/posts/$1" >> $TEMPLATE_FILENAME
+    echo "---"                     >> $TEMPLATE_FILENAME
+    echo ""                        >> $TEMPLATE_FILENAME
+    cat  $SAMPLE_POST_TEXT         >> $TEMPLATE_FILENAME
 
     ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-#{ARGV[0]}.md"' $1
 fi
