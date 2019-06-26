@@ -197,7 +197,6 @@
 - 11月 達人出版会より[Railsチュートリアルの電書籍版](http://tatsu-zine.com/books/railstutorial)を出版
 - 11月 [RubyWorld Conference 2013](http://2013.rubyworld-conf.org/ja/)にRailsチュートリアル採択
 - **11月 代表の安川が[TEDxRyukyu 2013](http://www.tedxryukyu.com/speaker.html)で『[経験と教育](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』を発表**
-- 10月 [Railsチュートリアル](https://railstutorial.jp/)公開。[Social Translating](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) 手法を起案
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)常任講師 (３期目)
 - 9月 [Okinawa Future School Conference](https://sites.google.com/a/ois-edu.com/okifsc/bios) で登壇とWS実施
 - 8月 英訳に関わった[Ruby Hacking Guide](http://ruby-hacking-guide.github.io/)が[Hacker Newsに掲載](https://news.ycombinator.com/item?id=6197222)
@@ -208,6 +207,7 @@
 - 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[Community Appeal](http://rubykaigi.org/2013/talk/S62)で[Okinawa.rb](https://speakerdeck.c/yasulab/invitation-to-okinawa-dot-rb)を紹介
 - 5月 シェアハウス『ギークハウス沖縄』が[読売新聞に掲載](https://www.facebook.com/photo.php?fbid=10151408573325869&set=a.10150840241290869&type=3&theater)
 - 5月 代表の安川が2012年度[IPA未踏スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に[認定](https://www.facebook.com/photo.php?fbid=10151945267180869&set=a.10150840241290869&type=3&theater)
+- **4月 [Railsチュートリアルを公開](https://github.com/yasslab/railstutorial.jp/commit/b79f70d)。[Social Translating](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) 手法を起案**
 - 2月 [東京Ruby会議 (3日目)](http://tokyo10.rubykaigi.info/) で[Railsハッカソン@沖縄](https://speakerdeck.com/yasulab/report-of-rails-hackathon-in-okinawa)を発表
 - 1月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
     - テスト環境の整備、テストスイートの高速化
