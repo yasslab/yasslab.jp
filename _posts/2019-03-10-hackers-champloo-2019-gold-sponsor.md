@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]
 tags: [Hackers Champloo, 沖縄, 協賛]
-permalink: /ja/posts/:title
+permalink: /ja/posts/hackers-champloo-2019-gold-sponsor
 ---
 
 2018年に引き続き Hackers Champloo 2019 のゴールドスポンサーになりました! 🏝✨
