@@ -178,7 +178,7 @@
 - 12月 動画でRailsが学べる「[Railsスクリーンキャスト](http://railstutorial.jp/screencasts)」を公開
 - 11月 Co-Edoと共同で[Rails解説セミナー](http://railstutorial.jp/seminars)を開講
 - 10月 [第2回 ITx災害 会議](http://blog.itxsaigai.org/post/101750784479/%E7%AC%AC2%E5%9B%9Eitx%E7%81%BD%E5%AE%B3%E4%BC%9A%E8%AD%B0-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88)で震災対策アプリの開発背景を講演
-- 9月 [RubyHiroba 2014](http://rubyhiroba.org/2014/)で新サイト「[Railsガイド](http://railsguides.jp/)」の公開を発表
+- **9月 [RubyHiroba 2014](http://rubyhiroba.org/2014/)で『[Railsガイド](https://railsguides.jp/)』のリリースを発表**
 - 9月 [RubyKaigi 2014 シルバースポンサー](http://rubykaigi.org/2014/sponsors#silver07)。翻訳・司会も務める
 - 8月 震災対策アプリが『[もしもの時のデザイン展](https://www.facebook.com/yasulab/media_set?set=a.10152300485160869.1073741834.715330868&type=1&l=060301d350)』に採録
 - 8月 [デジラボおきなわ](https://www.facebook.com/DigiLabOkinawa/)にて子供向けプログラミングの成果報告会を実施。[RBCで特集番組として放映](https://www.facebook.com/photo.php?fbid=10152305701650869&set=a.10150840241290869&type=3&theater)される
@@ -210,8 +210,8 @@
 - **4月 [Railsチュートリアルを公開](https://github.com/yasslab/railstutorial.jp/commit/b79f70d)。[Social Translating](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) 手法を起案**
 - 2月 [東京Ruby会議 (3日目)](http://tokyo10.rubykaigi.info/) で[Railsハッカソン@沖縄](https://speakerdeck.com/yasulab/report-of-rails-hackathon-in-okinawa)を発表
 - 1月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
-    - テスト環境の整備、テストスイートの高速化
-    - 他、統合テストのサポート、リファクタリングの支援など
+    - &nbsp;テスト環境の整備、テストスイートの高速化
+    - &nbsp;他、統合テストのサポート、リファクタリングの支援など
 
 
 
@@ -240,18 +240,18 @@
 
 - 10月 第１期レキサスアカデミーが[沖縄メディアに掲載](https://www.facebook.com/photo.php?fbid=10150840280880869&set=a.10150840241290869&type=3&theater)
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)の立ち上げに参画
-- 9月 [Okinawa.rb](https://ruby.okinawa/) (Okinawa Ruby User Group) を立ち上げる
-- 9月 早稲田大学 Ambient GCOE にて[最優秀賞を受賞](https://www.facebook.com/photo.php?fbid=10150840346665869&set=a.10150840241290869&type=3&theater)
+- **9月 [Okinawa.rb](https://ruby.okinawa/) (Okinawa Ruby User Group) を立ち上げる**
+- 9月 [震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto)が[早稲田大学Ambient GCOE最優秀賞](https://www.facebook.com/photo.php?fbid=10150840346665869&set=a.10150840241290869&type=3&theater)受賞
 - 6月 [Android Bazaar and Conference](http://www.android-group.jp/abc2011s/conference.html)で[震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto)を講演
 - 6月 米国留学を終え日本に帰国。様々な事業の試行錯誤を開始
 - 3月 震災直後に[震災対策アプリ](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en)を開発・公開。3ヶ月で5万 DL
-    - 後日30万ダウンロードを達成 ([当時の開発のスライド資料](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo))
+    - &nbsp;後日30万ダウンロードを達成 ([当時の開発のスライド資料](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo))
 
 
 
 ### [2010](#2010)
 
-- 10月 航空券サーチエンジンの開発が[修士最優秀賞を受賞](https://www.facebook.com/photo.php?fbid=10150840359975869&set=a.10150840241290869&type=3&theater)
+- **7月 航空券サーチエンジンの開発が[修士最優秀賞を受賞](https://www.facebook.com/photo.php?fbid=10150840359975869&set=a.10150840241290869&type=3&theater)**
 - 他、2010年度より過去の活動については、スライド資料『[創りながら学ぶ](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』、[Wantedly](https://www.wantedly.com/users/11695)、または[受賞歴まとめ](https://www.facebook.com/media/set/?set=a.10150840241290869.409081.715330868&type=1&l=76c883b04a)をご参照してください
 
 
