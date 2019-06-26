@@ -32,12 +32,12 @@ permalink: /ja/posts/rails5-basic-with-tutorial
 
 ## 他、各種メディアの発表
 
-<div class="center" style="margin-bottom: 100px;">
-  <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">Ruby on Rails 5.0に対応したエントリーレベルの技術者向け資格「Rails5ベーシック試験」を開始―Rails技術者認定試験運営委員会 <a href="https://t.co/ap45XpUi7N">https://t.co/ap45XpUi7N</a></p>&mdash; IT人材ラボ (@it_jinzai_lab) <a href="https://twitter.com/it_jinzai_lab/status/1143425738328047621?ref_src=twsrc%5Etfw">June 25, 2019</a></blockquote>
+<div style="margin-bottom: 100px;" align="center">
+  <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Ruby on Rails 5.0に対応したエントリーレベルの技術者向け資格「Rails5ベーシック試験」を開始―Rails技術者認定試験運営委員会 <a href="https://t.co/ap45XpUi7N">https://t.co/ap45XpUi7N</a></p>&mdash; IT人材ラボ (@it_jinzai_lab) <a href="https://twitter.com/it_jinzai_lab/status/1143425738328047621?ref_src=twsrc%5Etfw">June 25, 2019</a></blockquote>
 </div>
 
-<div class="center" style="margin-bottom: 100px;">
-  <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">Rails技術者認定試験のエントリー資格「Rails5ベーシック試験」開始 <a href="https://t.co/Icq95LuZRN">https://t.co/Icq95LuZRN</a></p>&mdash; クラウド Watch (@cloud__watch) <a href="https://twitter.com/cloud__watch/status/1143393900729552896?ref_src=twsrc%5Etfw">June 25, 2019</a></blockquote>
+<div style="margin-bottom: 100px;" align="center">
+  <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Rails技術者認定試験のエントリー資格「Rails5ベーシック試験」開始 <a href="https://t.co/Icq95LuZRN">https://t.co/Icq95LuZRN</a></p>&mdash; クラウド Watch (@cloud__watch) <a href="https://twitter.com/cloud__watch/status/1143393900729552896?ref_src=twsrc%5Etfw">June 25, 2019</a></blockquote>
 </div>
 
 
