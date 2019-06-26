@@ -111,7 +111,7 @@
 
 ### [2016](#2016)
 
-- 12月 代表の安川が監修した、子ども向けのプログラミング書籍「[CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場](https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517)」を刊行 📙
+- 12月 弊社安川が監修した、子ども向けのプログラミング書籍「[CoderDojo Japan公式ブック Scratchでつくる! たのしむ! プログラミング道場](https://www.amazon.co.jp/CoderDojo-Japan%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%83%E3%82%AF-Scratch-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%81%93%E5%A0%B4/dp/4800711517)」を刊行 📙
 - 12月 CoderDojo Japan のウェブサイトを[リニューアル](https://coderdojo.jp/news/2016/12/12/new-backend)
 - 12月 社員の有志で、[RubyConf Taiwan 2016](https://2016.rubyconf.tw/) に参加
 - 11月 [神戸ITフェスティバル](http://www.city.kobe.lg.jp/information/press/2016/10/20161012041802.html)にて弊社安川が登壇
@@ -120,7 +120,7 @@
 - 10月 弊社安川が台湾発のアプリ [Tickle](https://tickleapp.com/) の Ambassador に着任
 - 10月 ベネッセ教育総合研究所[「まなびのかたち」](http://berd.benesse.jp/special/manabi/manabi_10.php)に載りました
 - 9月 [RubyKaigi 2016](http://rubykaigi.org/2016) の[翻訳スタッフ](http://rubykaigi.org/2016/team/)として参加 💎 ✨
-- 8月 弊社安川が[一般社団法人 CoderDojo Japan 代表理事](http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)に就任
+- **8月 弊社安川が[一般社団法人CoderDojo Japan代表理事](http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)に就任**
 - 8月 教育xOSSカンファレンス [DojoCon Japan](https://dojocon2016.coderdojo.jp/) をスポンサード
 - 8月 「日経Kids+ 親子で始めるプログラミング」に[掲載](https://www.facebook.com/yasulab/posts/10153783123520869?pnref=story)
 - 8月 [Doorkeeperスポンサーシップ](/ja/doorkeeper/)の資料を CC BY-SA で公開
@@ -129,20 +129,20 @@
 - 7月 主婦・ママ向けメディア 4yuuu! に[インタビュー記事掲載](https://4yuuu.com/articles/view/473532)
 - 7月 [第7期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/47309)を実施
 - 7月 教育機関向けの新規事業の開発支援を開始
-- 6月 代表の安川がPMを務める[未踏ジュニア](http://jr.mitou.org/)が開始
+- **6月 弊社安川が共同発起人の[未踏ジュニア](https://jr.mitou.org/)が正式にリリース**
 - 6月 Rails解説セミナーの[ライブ収録動画 (32時間分)](https://gumroad.com/l/railstutorial_seminars) を販売開始
 - 5月 [第6期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/41526)を実施
 - 5月 CoEdo.rbで[メタプログラミング研究会](https://coedo-rails.doorkeeper.jp/events/42869)を発足 ([GitHub](https://github.com/yasslab/ruby-metaprogramming-tokyo/tree/master/quizzes))
 - 4月 海外向けの新規規事の開発支援を開始 (〜12月)
 - 4月 Rails-based CMS を開発する[ドイツの Scrivito と提携](https://scrivito.com/partners)
-- 4月 海外サイトの [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) に弊社安川が掲載
+- **4月 海外サイトの [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) に弊社安川が掲載**
 - 4月 新しいメンバーを迎え、社員数が4人になりました
 - 3月 [第5期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/37506)を実施
 - 3月 [未踏会議/未踏ナイト](http://www.meti.go.jp/press/2015/02/20160212002/20160212002.html)で [CoderDojo Japan の活動を紹介](https://www.youtube.com/watch?v=O8ULPyEwDww)
 - 2月 新しいメンバーを迎え、社員数が3人になりました
 - 1月 日経SW [1月](http://ec.nikkeibp.co.jp/item/backno/SW1212.html)/[2月](http://ec.nikkeibp.co.jp/item/backno/SW1213.html)/[3月号](http://ec.nikkeibp.co.jp/item/backno/SW1214.html)で「イチからわかるRails」を連載
 - 1月 [Creators MeetUp](http://cmu.connpass.com/event/24504/) で[技術文書の継続的翻訳](https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita)を発表
-- 1月 建築系新規Webサービスの開発支援をはじめました
+- 1月 Railsによる建築系新規Webサービスの開発支援を開始
 
 
 
@@ -153,18 +153,18 @@
 - 12月 [RubyKaigi 2015](http://rubykaigi.org/2015) にスタッフ (翻訳チーム代表) として参加
 - 11月 リモートワークWebメディア[「Anywher」に掲載](https://anywher.net/2015/11/yasslab/)
 - 11月 [RubyWorld Conference](http://2015.rubyworld-conf.org/ja/) で[継続的翻訳システム](https://speakerdeck.com/yasulab/continuous-translation-system-at-rwc2015)を[講演](https://www.youtube.com/watch?v=7cqOJtL5Fvc)
-- 10月 [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース
+- **10月 [Railsチュートリアルの第3版](http://railstutorial.jp/?version=4.2)をリリース**
 - 9月 iOS 向けプログラミングアプリ [Tickle 日本語版をリリース](https://www.facebook.com/TickleiPadApp/posts/1641313606121370)
 - 8月 [Maker Faire Tokyo](http://makezine.jp/event/mft2015/workshops/)でピタゴラ装置のワークショップを開催
 - 8月 [CoderDojo Japan](http://coderdojo.jp/)の公式ウェブサイトをリニューアル
 - **7月 [Rebuild.fm #100](http://rebuild.fm/100/)でRailsガイドを紹介していただきました**
 - 7月 [関西Ruby会議06](http://regional.rubykaigi.org/kansai06/)登壇。講演中に[Railsガイド出版](http://railsguides.jp/options.html)を発表
-- 7月 Railsで作られた匿名性SNSの開発支援を始めました
+- 7月 Ruby on Railsで開発された匿名性SNSの開発支援を開始
 - 6月 [とちぎRuby会議06](http://regional.rubykaigi.org/tochigi06/)で[Railsガイドを支える技術](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban)を発表
 - 6月 シリコンバレー派遣事業 [RyukyuFrogs](http://www.ryukyu-frogs.com/) で、Railsチュートリアルを用いた技術支援を開始
 - 5月 Rails集中解説セミナー実施。[全枠がキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)に。
-- 4月 Railsアプリケーションの Heroku 環境移行を支援しました
-- 4月 国際的な子どもプログラミング道場『[CoderDojo](https://coderdojo.com/)』の日本代表 ([CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)) に弊社安川が就任
+- 4月 Railsアプリケーションの Heroku 環境移行の開発支援を実施
+- **4月 国際的な子どもプログラミング道場『[CoderDojo](https://coderdojo.com/)』の日本代表 ([CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)) に弊社安川が就任**
 - 3月 リクルート主催『[Application Developer Festival](https://recruit-holdings.co.jp/news_data/release/2015/0302_15663.html)』で講演
 - 3月 [未踏会議/未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)で[継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)をブース展示
 - 2月 初期から参画したシェアハウスの[ギークハウス沖縄](http://text.geeoki.com/post/112124574627/%E8%A7%A3%E6%95%A3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F)を解散
@@ -185,7 +185,7 @@
 - 4月 世界中のインターナショナルスクールが集まる国際会議「[#beyondlaptops](http://blogs.yis.ac.jp/beyondlaptops/)」にて、Guest Speaker として Scratch + Raspberry Pi のワークショップを実施
 - 3月 [沖縄Ruby会議01](http://ruby.okinawa/okrk01/) を開催。安川が実行委員長を努め、Ruby開発者のまつもとゆきひろ氏をゲストとして招聘
 - 3月 [レキサスアカデミー第3期 最終成果報告会](http://blog.lexues.co.jp/19489.html)を実施
-- 2月 代表の安川が修士論文『[Project Based Learning using Visual Bucket List](http://www.snapwhim.com/)』を早稲田大学に提出し、修士号を取得
+- **2月 弊社安川が修士論文『[Project Based Learning using Visual Bucket List](http://www.snapwhim.com/)』を早稲田大学に提出し、修士号を取得**
 - 2月 [第6回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/21?locale=ja)にて[優秀賞を受賞](https://www.facebook.com/photo.php?fbid=10151944131640869&set=a.10150840241290869&type=3&theater)
 
 
@@ -196,7 +196,7 @@
 - 12月 子ども向け学習コンテンツのタブレット端末変換器を開発
 - 11月 達人出版会より[Railsチュートリアルの電書籍版](http://tatsu-zine.com/books/railstutorial)を出版
 - 11月 [RubyWorld Conference 2013](http://2013.rubyworld-conf.org/ja/)にRailsチュートリアル採択
-- **11月 代表の安川が[TEDxRyukyu 2013](http://www.tedxryukyu.com/speaker.html)で『[経験と教育](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』を発表**
+- **11月 弊社安川が[TEDxRyukyu 2013](http://www.tedxryukyu.com/speaker.html)で『[経験と教育](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』を発表**
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)常任講師 (３期目)
 - 9月 [Okinawa Future School Conference](https://sites.google.com/a/ois-edu.com/okifsc/bios) で登壇とWS実施
 - 8月 英訳に関わった[Ruby Hacking Guide](http://ruby-hacking-guide.github.io/)が[Hacker Newsに掲載](https://news.ycombinator.com/item?id=6197222)
@@ -206,8 +206,8 @@
 - 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[TWO CARTOON FOXES](http://rubykaigi.org/2013/talk/S51)で翻訳に貢献
 - 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[Community Appeal](http://rubykaigi.org/2013/talk/S62)で[Okinawa.rb](https://speakerdeck.c/yasulab/invitation-to-okinawa-dot-rb)を紹介
 - 5月 シェアハウス『ギークハウス沖縄』が[読売新聞に掲載](https://www.facebook.com/photo.php?fbid=10151408573325869&set=a.10150840241290869&type=3&theater)
-- 5月 代表の安川が2012年度[IPA未踏スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に[認定](https://www.facebook.com/photo.php?fbid=10151945267180869&set=a.10150840241290869&type=3&theater)
-- **4月 [Railsチュートリアルを公開](https://github.com/yasslab/railstutorial.jp/commit/b79f70d)。[Social Translating](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) 手法を起案**
+- 5月 弊社安川が2012年度[IPA未踏スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に[認定](https://www.facebook.com/photo.php?fbid=10151945267180869&set=a.10150840241290869&type=3&theater)
+- **4月 [Railsチュートリアル公開](https://github.com/yasslab/railstutorial.jp/commit/b79f70d)。[Social Translating](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) 手法を起案**
 - 2月 [東京Ruby会議 (3日目)](http://tokyo10.rubykaigi.info/) で[Railsハッカソン@沖縄](https://speakerdeck.com/yasulab/report-of-rails-hackathon-in-okinawa)を発表
 - 1月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
     - &nbsp;テスト環境の整備、テストスイートの高速化
@@ -226,8 +226,8 @@
 - 6月 第２期レキサスアカデミーが[沖縄タイムスに掲載](https://www.facebook.com/photo.php?fbid=10150882136595869&set=a.10150840241290869&type=3&theater)
 - 6月 CoderDojo の立ち上げが [The Nikkei Asian Review に掲載](https://www.facebook.com/photo.php?fbid=10150896080380869&set=a.10150840241290869&type=3&theater)
 - 5月 立ち上げ時に関わったギークハウス沖縄が[琉球新報に掲載](https://www.facebook.com/photo.php?fbid=10150840241430869&set=a.10150840241290869&type=3&theater)
-- 5月 アジア初の CoderDojo 発起。[日経流通新聞 (日経MJ) 掲載](https://www.facebook.com/photo.php?fbid=10150840261690869&set=a.10150840241290869&type=3&theater)
-- 4月 未踏事業に[思いを叶える視覚駆動バケットリスト](http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html)が採択
+- **5月 アジア初の CoderDojo 発起。[日経流通新聞 (日経MJ) 掲載](https://www.facebook.com/photo.php?fbid=10150840261690869&set=a.10150840241290869&type=3&theater)**
+- **4月 未踏事業に[思いを叶える視覚駆動バケットリスト](http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html)が採択**
 - 3月 レキサスアカデミー最終成果報告会が[沖縄タイムスに掲載](https://www.facebook.com/photo.php?fbid=10150840286395869&set=a.10150840241290869&type=3&theater)
 - 3月 震災対策アプリが[日経新聞『転ばぬ先のアプリ』に掲載](https://www.facebook.com/photo.php?fbid=10150840311565869&set=a.10150840241290869&type=3&theater)
 - 3月 ファミリーマート販売[災害時帰宅支援ポケットMAPに掲載](https://www.facebook.com/photo.php?fbid=10150840334640869&set=a.10150840241290869&type=3&theater)
@@ -244,8 +244,8 @@
 - 9月 [震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto)が[早稲田大学Ambient GCOE最優秀賞](https://www.facebook.com/photo.php?fbid=10150840346665869&set=a.10150840241290869&type=3&theater)受賞
 - 6月 [Android Bazaar and Conference](http://www.android-group.jp/abc2011s/conference.html)で[震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto)を講演
 - 6月 米国留学を終え日本に帰国。様々な事業の試行錯誤を開始
-- 3月 震災直後に[震災対策アプリ](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en)を開発・公開。3ヶ月で5万 DL
-    - &nbsp;後日30万ダウンロードを達成 ([当時の開発のスライド資料](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo))
+- **3月 震災直後に[震災対策アプリ](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en)を開発・公開。3ヶ月で5万 DL**
+    - **&nbsp;後日30万ダウンロードを達成 ([当時の開発のスライド資料](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo))**
 
 
 
