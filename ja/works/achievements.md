@@ -161,9 +161,9 @@
 - 7月 [関西Ruby会議06](http://regional.rubykaigi.org/kansai06/)登壇。講演中に[Railsガイド出版](http://railsguides.jp/options.html)を発表
 - 7月 Ruby on Railsで開発された匿名性SNSの開発支援を開始
 - 6月 [とちぎRuby会議06](http://regional.rubykaigi.org/tochigi06/)で[Railsガイドを支える技術](https://speakerdeck.com/yasulab/railsgaidowozhi-eruji-shu-30fen-ban)を発表
-- 6月 シリコンバレー派遣事業 [RyukyuFrogs](http://www.ryukyu-frogs.com/) で、Railsチュートリアルを用いた技術支援を開始
+- 6月 シリコンバレー派遣事業 [RyukyuFrogs](http://www.ryukyu-frogs.com/) で技術支援を開始
 - 5月 Rails集中解説セミナー実施。[全枠がキャンセル待ち](https://www.facebook.com/photo.php?fbid=10152810585880869&set=a.10152611345180869.1073741835.715330868&type=1&theater)に。
-- 4月 Railsアプリケーションの Heroku 環境移行の開発支援を実施
+- 4月 RailsアプリケーションのHeroku移行の開発支援を開始
 - **4月 国際的な子どもプログラミング道場『[CoderDojo](https://coderdojo.com/)』の日本代表 ([CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)) に弊社安川が就任**
 - 3月 リクルート主催『[Application Developer Festival](https://recruit-holdings.co.jp/news_data/release/2015/0302_15663.html)』で講演
 - 3月 [未踏会議/未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)で[継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)をブース展示
@@ -182,7 +182,7 @@
 - 9月 [RubyKaigi 2014 シルバースポンサー](http://rubykaigi.org/2014/sponsors#silver07)。翻訳・司会も務める
 - 8月 震災対策アプリが『[もしもの時のデザイン展](https://www.facebook.com/yasulab/media_set?set=a.10152300485160869.1073741834.715330868&type=1&l=060301d350)』に採録
 - 8月 [デジラボおきなわ](https://www.facebook.com/DigiLabOkinawa/)にて子供向けプログラミングの成果報告会を実施。[RBCで特集番組として放映](https://www.facebook.com/photo.php?fbid=10152305701650869&set=a.10150840241290869&type=3&theater)される
-- 4月 世界中のインターナショナルスクールが集まる国際会議「[#beyondlaptops](http://blogs.yis.ac.jp/beyondlaptops/)」にて、Guest Speaker として Scratch + Raspberry Pi のワークショップを実施
+- **4月 インターナショナルスクールの国際会議 [#beyondlaptops](http://blogs.yis.ac.jp/beyondlaptops/) にて [Scratch + Raspberry Pi のワークショップ](https://yasslab.jp/en/workshops/raspi)を実施**
 - 3月 [沖縄Ruby会議01](http://ruby.okinawa/okrk01/) を開催。安川が実行委員長を努め、Ruby開発者のまつもとゆきひろ氏をゲストとして招聘
 - 3月 [レキサスアカデミー第3期 最終成果報告会](http://blog.lexues.co.jp/19489.html)を実施
 - **2月 弊社安川が修士論文『[Project Based Learning using Visual Bucket List](http://www.snapwhim.com/)』を早稲田大学に提出し、修士号を取得**
