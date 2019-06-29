@@ -2,12 +2,8 @@
 layout: plain
 title:  DoorKeeper スポンサーシップ
 lang:   ja
+thumbnail: bg-dark.jpg
 ---
-
-<section class="pageVisual">
-  <div class="bg-dark">
-  </div>
-</section>
 
 <section class="entry_content pt-5">
   <div class="container">
