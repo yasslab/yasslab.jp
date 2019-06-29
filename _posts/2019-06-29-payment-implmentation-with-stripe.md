@@ -33,12 +33,15 @@ Hackers Champloo 2019
 
 他にも YassLab 社のリモートワークに関する LT 発表もありました! 🗣✨
 
-ただ残念ながらこちらは動画の収録に失敗してしまったので、スライド資料のみとなります 😭
+(こちらは機材トラブルの関係で、上記の動画に比べると少し聞き取りにくいかもしれません... 😭)
+
+<div class="video" style="margin-bottom: 100px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/u3NOd0C8OVc?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div style="margin-bottom: 100px;">
   <script async class="speakerdeck-embed" data-id="7abe1f3eab1b4d7da5862f0eeac75f8f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
-
 
 
 ## 🐣 関連ツイート
