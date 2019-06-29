@@ -8,7 +8,7 @@ tags: [登壇, Rails, Stripe]
 permalink: /ja/posts/payment-implmentation-with-stripe
 ---
 
-2019年6月29日に開催された Hackers Champloo において、YassLab 社の [@nanophate](https://twitter.com/nanophate) がStripe を使った開発事例に』を発表しました 😉
+2019年6月29日に開催された Hackers Champloo において、YassLab 社の [@nanophate](https://twitter.com/nanophate) がStripe を使った開発事例を発表しました 😉
 
 Hackers Champloo 2019
 [http://hackers-champloo.org/2019/](http://hackers-champloo.org/2019/)
@@ -24,12 +24,16 @@ Hackers Champloo 2019
   <iframe width="560" height="315" src="https://www.youtube.com/embed/A0P93pbw2lM?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<div style="margin-bottom: 100px;">
+  <script async class="speakerdeck-embed" data-id="dcdd6a62b5f24e4cbb272be00d24da03" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
+
 
 ## ☁️ リモートワークの話も...!!
 
 他にも YassLab 社のリモートワークに関する LT 発表もありました! 🗣✨
 
-ただ残念ながら、こちらは動画の収録に失敗してしまったので、スライド資料のみとなります 😭
+ただ残念ながらこちらは動画の収録に失敗してしまったので、スライド資料のみとなります 😭
 
 <div style="margin-bottom: 100px;">
   <script async class="speakerdeck-embed" data-id="7abe1f3eab1b4d7da5862f0eeac75f8f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
@@ -38,6 +42,8 @@ Hackers Champloo 2019
 
 
 ## 🐣 関連ツイート
+
+他にもいくつかツイートを載せておきますね。当日の雰囲気を掴むご参考になれば嬉しいです (＞人＜ )✨
 
 <div class="center" style="margin-bottom: 100px;" align="center">
   <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">きゃーーー <a href="https://twitter.com/nanophate?ref_src=twsrc%5Etfw">@nanophate</a> さん！！！ <a href="https://twitter.com/hashtag/hcmp?src=hash&amp;ref_src=twsrc%5Etfw">#hcmp</a> <a href="https://twitter.com/hashtag/YassLab?src=hash&amp;ref_src=twsrc%5Etfw">#YassLab</a> <a href="https://t.co/lH1Hnc6Ivu">pic.twitter.com/lH1Hnc6Ivu</a></p>&mdash; 暇人最高 (@himajin315) <a href="https://twitter.com/himajin315/status/1144811236757929985?ref_src=twsrc%5Etfw">June 29, 2019</a></blockquote>
@@ -53,6 +59,10 @@ Hackers Champloo 2019
 
 <div class="center" style="margin-bottom: 100px;" align="center">
   <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">Hackers Champloo のスポンサーとして紹介して頂きました!! 😆💖 <a href="https://twitter.com/hashtag/hcmpl?src=hash&amp;ref_src=twsrc%5Etfw">#hcmpl</a><a href="https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Railsチュートリアル</a> <a href="https://twitter.com/hashtag/Rails%E3%82%AC%E3%82%A4%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#Railsガイド</a> のバナー (物理) と新サービス『法人プラン』『Teamプラン』のチラシが目印です! ぜひ遊びに来てくださ〜い 🙏✨<br><br>🎓 法人向けサービス活用例：マネーフォワード様<a href="https://t.co/umXNCsEukn">https://t.co/umXNCsEukn</a> <a href="https://t.co/MUUJVLpE04">pic.twitter.com/MUUJVLpE04</a></p>&mdash; YassLab 株式会社 (@YassLab) <a href="https://twitter.com/YassLab/status/1144784238211788800?ref_src=twsrc%5Etfw">June 29, 2019</a></blockquote>
+</div>
+
+<div class="center" style="margin-bottom: 100px;" align="center">
+  <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">5000万円の金額が動いても手数料は50万円。そこからサーバー代やらオフィス代やら決算代や消費税・法人税などを差し引くと個人の手取りは...😭😭😭<br><br>ツラい現実だけど、そこから立ち上がって軌道修正できたのホント凄い 👏👏👏  <a href="https://twitter.com/hashtag/hcmpl?src=hash&amp;ref_src=twsrc%5Etfw">#hcmpl</a><a href="https://twitter.com/YassLab?ref_src=twsrc%5Etfw">@YassLab</a> 社もコレでちょっと貢献 💪✨<a href="https://t.co/9Xfx08E4Oc">https://t.co/9Xfx08E4Oc</a> <a href="https://t.co/HcQmwHagTg">https://t.co/HcQmwHagTg</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1144849299114565632?ref_src=twsrc%5Etfw">June 29, 2019</a></blockquote>
 </div>
 
 
