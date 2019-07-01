@@ -14,7 +14,7 @@ permalink: /ja/posts/learning-style-of-tutolial
 
 -----
 
-## テキスト版から読むのがおすすめのタイプ
+## テキスト版から読むのが<br>おすすめのタイプ
 
 #### **全体像を一通り素早く把握したい方**
 <br>
@@ -28,7 +28,7 @@ permalink: /ja/posts/learning-style-of-tutolial
 
 <br>
 
-## こんな方は解説動画と一緒がおすすめ
+## こんな方は<br>解説動画と一緒がおすすめ
 
 #### **順序よく一つずつ理解していきたい方**
 <br>
@@ -46,7 +46,7 @@ permalink: /ja/posts/learning-style-of-tutolial
 
 <br>
 
-## Railsチュートリアルを学習するにあたって
+## Railsチュートリアルを<br>学習するにあたって
 
 Railsチュートリアルは、内容が多岐に渡り非常に濃いものとなっています。初学者で１周目から完全に理解できる人はほとんどいないと思うので、２周・３周する方が多いのも特徴です。
 
@@ -66,7 +66,7 @@ Railsチュートリアルを突破するには、まずは**自分が学習し�
 
 いかがでしたでしょうか？ 皆さんが自分にあった方法で Railsチュートリアルを**"楽しく"**学んでもらえると嬉しく思います。
 
-## 合わせて読みたい: <br class="ignore-sp">数字で見る解説動画の効果 📊👀
+## 合わせて読みたい: <br>数字で見る解説動画の効果 📊👀
 
 [RubyWorld Conference 2018](https://2018.rubyworld-conf.org/) に採択され、[FUKUOKA Ruby Award 2019](http://www.digitalfukuoka.jp/events/185) で『AWS賞』を受賞したスライド資料も公開しています。こちらもぜひ! 😉　✨
 
