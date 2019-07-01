@@ -66,6 +66,15 @@ Railsチュートリアルを突破するには、まずは**自分が学習し�
 
 いかがでしたでしょうか？ 皆さんが自分にあった方法で Railsチュートリアルを**"楽しく"**学んでもらえると嬉しく思います。
 
+## 合わせて読みたい: <br class="ignore-sp">数字で見る解説動画の効果 📊👀
+
+[RubyWorld Conference 2018](https://2018.rubyworld-conf.org/) に採択され、[FUKUOKA Ruby Award 2019](http://www.digitalfukuoka.jp/events/185) で『AWS賞』を受賞したスライド資料も公開しています。こちらもぜひ! 😉　✨
+
+<div style="margin-bottom: 100px;">
+  <script async class="speakerdeck-embed" data-id="350f0ee859ee4e10952b911491a24049" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
+
+
 
 [![YassLab Inc.](/img/logos/800x200.png)](/)
 
