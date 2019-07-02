@@ -87,6 +87,10 @@ permalink: /ja/posts/learning-by-making
 >
 > <div style="font-size: 90%; padding-top: -20px;">(研修生からのアンケート回答結果より一部引用)</div>
 
+**🆕 追記: マネーフォワード公式ブログにも載りました 😉**
+
+ビジネス職からエンジニアへシフトした私が新卒研修で学んだ1つのこと
+https://moneyforward.com/engineers_blog/2019/06/27/induction-training-2019/
 
 
 ## まとめ
