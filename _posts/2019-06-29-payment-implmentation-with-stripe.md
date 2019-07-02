@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🛠 Stripe の Rails 開発事例を沖縄で発表しました
-thumbnail: bg-sky.jpg
+thumbnail: https://i.gyazo.com/55f8d03efccef843a21c97f1cfae8ca9.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails, Stripe]
