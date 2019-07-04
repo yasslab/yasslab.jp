@@ -8,11 +8,11 @@ tags: [提携, Rails]
 permalink: /ja/posts/hanachin_given_award_from_agileware
 ---
 
-弊社メンバーの [@hanachin_](https://twitter.com/hanachin_) さんの 『[Redmine](http://redmine.jp/overview/)プラグイン開発』への貢献が [株式会社アジャイルウェア](https://agileware.jp/) さんより表彰されました 🎉
+弊社メンバーの [@hanachin_](https://twitter.com/hanachin_) さんの Lychee Redmine 開発への貢献が [株式会社アジャイルウェア](https://agileware.jp/) さんより表彰されました 🎉
 
 ## Redmineとは？
-[![Redmine](https://i.gyazo.com/4f15ae1c46e021920fa87544efc345e2.png)](http://redmine.jp/overview/)
-[詳しい機能はこちら](http://redmine.jp/overview/function/)
+![Redmine](https://i.gyazo.com/4f15ae1c46e021920fa87544efc345e2.png)
+[redmine.jp より引用](http://redmine.jp/overview/)
 
 ## 🔧hanachinさんが貢献している様子の一部
 
