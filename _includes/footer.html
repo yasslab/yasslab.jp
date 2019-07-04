@@ -1,5 +1,8 @@
 <footer>
-  {% include contact-form.html %}
+  {% unless include.contact_hidden %}
+    {% include contact-form.html %}
+  {% endunless %}
+
   {% include sitemap.html %}
 </footer>
 
