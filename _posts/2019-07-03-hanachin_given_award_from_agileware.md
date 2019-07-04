@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎖弊社メンバーが (株) アジャイルウェアから表彰
+title:  🎖弊社メンバーが株式会社アジャイルウェアから表彰
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
