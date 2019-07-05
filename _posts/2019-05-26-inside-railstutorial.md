@@ -10,7 +10,7 @@ permalink: /ja/posts/inside-railstutorial
 
 Railsチュートリアルの開発経緯とこれからの展望について取材していただいた記事が公開されました!
 
-[![写真：Railsチュートリアル開発経緯とこれからの展望](https://i.gyazo.com/602ddd6952ecf47bf072d3521a534e11.png)](https://free-engineer.site/yasslab/)
+[![写真：Railsチュートリアル開発経緯とこれからの展望](/img/posts/inside-railstutorial-photo.png)](https://free-engineer.site/yasslab/)
 
 よければぜひご一読して頂けると嬉しいです! (＞人＜ )✨
 

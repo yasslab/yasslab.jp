@@ -14,7 +14,7 @@ permalink: /ja/posts/lightning-talk-at-esm-agile
 [https://esminc.connpass.com/event/123239/](https://esminc.connpass.com/event/123239/)
 
 <div style="text-align:center">
-  <img alt="オブラブカレンダー" src="https://i.gyazo.com/f24b25bfb6d8e6cc41ae8ee0d7790fa5.jpg" />
+  <img alt="オブラブカレンダー" src="/img/posts/oblove-calendar.jpg" />
   📅 イベント参加特典でカレンダーを頂きました!<br><br>
 </div>
 

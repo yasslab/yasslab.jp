@@ -10,7 +10,7 @@ permalink: /ja/posts/no-code-reviews-at-railsdm-2019
 
 [Rails DM 2019](https://railsdm.github.io/) で [@hanachin_](https://twitter.com/hanachin_) さんが『コードレビューしない』というタイトルで発表しました‼️
 
-![No Code Reviews @ Rails DM 2019](https://i.gyazo.com/00b935629662491bf5b575944991c680.jpg)
+![No Code Reviews @ Rails DM 2019](/img/posts/no-code-photo.jpg)
 
 本発表では、
 

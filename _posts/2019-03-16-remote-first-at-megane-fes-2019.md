@@ -8,7 +8,7 @@ tags: [リモートワーク, 登壇]
 permalink: /ja/posts/remote-first-at-megane-fes-2019
 ---
 
-![megane Fes 2019 Photo](https://i.gyazo.com/e3d27b0db38473a74db57fb18ee8fc84.jpg)
+![megane Fes 2019 Photo](/img/posts/meganefes-2019-photo.jpg)
 
 株式会社mgn主催の『[megane Fes 2019](https://meganefes2019.megane.in/)』で行われた講演『10〜20名規模のリモートワーク企業における働きやすい仕組み』の動画が公開されました! 📹✨
 
@@ -34,7 +34,7 @@ permalink: /ja/posts/remote-first-at-megane-fes-2019
 
 上記のスライド資料と発表動画は会社側 (役員目線) で見たリモートワークの話となります。社員目線での話は情報処理学会での発表した記事『[情報処理学会 全国大会でリモートワークについて発表](https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj)』をご参照ください 📜 👀
 
-[![記事：社員目線のリモートワーク](https://i.gyazo.com/b50017533e2d7a4ad4c432c7d186ead1.jpg)](https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj)
+[![記事：社員目線のリモートワーク](/img/posts/ipsj-2019-banner.jpg)](https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj)
 
 **Have a Nice Remote Working ;)**
 

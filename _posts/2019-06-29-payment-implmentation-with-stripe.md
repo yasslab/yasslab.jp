@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🛠 Stripe の Rails 開発事例を沖縄で発表しました
-thumbnail: https://i.gyazo.com/55f8d03efccef843a21c97f1cfae8ca9.jpg
+thumbnail: posts/cover-hackers-champloo-2019.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails, Stripe]
@@ -13,7 +13,7 @@ permalink: /ja/posts/payment-implmentation-with-stripe
 Hackers Champloo 2019
 [http://hackers-champloo.org/2019/](http://hackers-champloo.org/2019/)
 
-[![Cover Photo](https://i.gyazo.com/f4ce8ed5662df125cd36e35388bd4f71.png)](http://hackers-champloo.org/2019/)
+[![Cover Photo](/img/posts/hackers-champloo-2019-top-2.png)](http://hackers-champloo.org/2019/)
 
 ## 📹 発表動画
 

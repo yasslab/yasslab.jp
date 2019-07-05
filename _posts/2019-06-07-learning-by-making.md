@@ -8,13 +8,13 @@ tags: [Railsチュートリアル, 法人プラン, Railsガイド, Teamプラ�
 permalink: /ja/posts/learning-by-making
 ---
 
-![写真：ラウンジ](https://i.imgur.com/qKOwFlK.jpg)
+![写真：ラウンジ](/img/posts/mf-lounge.jpg)
 
 株式会社マネーフォワード (以下、マネフォ社) で『[Railsチュートリアル 法人プラン](https://railstutorial.jp/business)』と『[Railsガイド Teamプラン](https://railsguides.jp/team)』を活用した新卒研修を実施しました! 本記事ではその研修内容と背景にある構想、および実際の成果やフィードバックなどをまとめています ✅
 
 研修内容は[株式会社メンバーズキャリアの活用事例](https://yasslab.jp/ja/posts/railstutorial-at-members-career)をさらに改善させたものとなっており、具体的には、次の流れで研修生の学びを１ヶ月間サポートするプログラムになります。
 
-![写真：Railsチュートリアル](https://i.imgur.com/EDR8UgC.png)
+![写真：Railsチュートリアル](/img/posts/mf-tutorial-header.png)
 
 1. **📚 教材でプロダクト開発の雰囲気を掴む**
     - [Railsチュートリアル法人プラン](https://railstutorial.jp/business)を提供し、各自のペースでプロダクト開発の流れを掴む
@@ -31,7 +31,7 @@ permalink: /ja/posts/learning-by-making
 
 ## 研修の背景と構想
 
-![写真：ミーティングルーム](https://i.imgur.com/A7Q4Lqq.jpg)
+![写真：ミーティングルーム](/img/posts/mf-meetup.jpg)
 
 [Progate法人向けサービス](https://prog-8.com/business/price)や[Railsチュートリアル法人プラン](https://railstutorial.jp/business)だけでなく、現在は[多くの有用な教材](https://railstutorial.jp/chapters/following_users#sec-guide_to_further_resources)があります。そのため[参考になる書籍・サービスのリスト](https://qiita.com/hanachin_/items/76a24bcef889edb59d19)などを提供しつつも、将来役に立つであろう知識を講義形式で教わる受動的なスタイルより、『今必要だと思った知識を今学ぶ』という主体的なスタイルの方が彼ら/彼女らの人生にとってプラスになるであろうと考えました。
 
@@ -56,7 +56,7 @@ permalink: /ja/posts/learning-by-making
 
 ## 研修の成果とフィードバック
 
-[![写真：レールの先](https://i.imgur.com/Rd7hXzJ.png)](https://speakerdeck.com/yasslab/learn-by-your-own-projects?slide=139)
+[![写真：レールの先](/img/posts/mf-on-rails.png)](https://speakerdeck.com/yasslab/learn-by-your-own-projects?slide=139)
 
 予定調和的な研修ではないため、想定通りにうまくいったり迷って回り道してしまう場面もあります。しかしそういった試行錯誤を含めて、**自分で考えたことを自分で取り組むことに大きな価値がある**と考えています。これは僕自身が[全国169ヶ所以上に広がった CoderDojo](https://coderdojo.jp/) に関わっていて気づいたことでもあります。
 

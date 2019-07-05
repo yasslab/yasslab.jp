@@ -1,20 +1,20 @@
 ---
 layout: post
 title:  🏮 沖縄発 Ruby フルリモート会社のリモートワークを支える仕組みの話
-thumbnail: https://i.gyazo.com/d5bef2944888ba45ba23b71beeae7551.jpg
+thumbnail: posts/nagoyark04-ateam.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, リモートワーク, Railsチュートリアル, Railsガイド]
 permalink: /ja/posts/remote-work-from-okinawa
 ---
 
-[![名古屋Ruby会議04](https://i.gyazo.com/d5bef2944888ba45ba23b71beeae7551.jpg)](https://twitter.com/yasulab/status/1137221480779882496)
+[![名古屋Ruby会議04](/img/posts/nagoyark04-ateam.jpg)](https://twitter.com/yasulab/status/1137221480779882496)
 
 [名古屋Ruby会議04](http://regional-gh.rubykaigi.org/nagoya04/)でリモートワークに関する発表『[沖縄発Rubyフルリモート会社のリモートワークを支える仕組み](https://speakerdeck.com/yasslab/remote-first-company)』を行いました! 😆🎉✨ 
 
 本発表に関するスライド資料と反響をいくつかまとめたので、リモートワークに興味ある個人・法人さんのご参考になれば嬉しいです...!! (＞人＜ )✨
 
-[![名古屋紅玉会議](https://i.gyazo.com/1b8fac6e91d7bdd93f19f3bfc15eff89.jpg)](http://regional-gh.rubykaigi.org/nagoya04/)
+[![名古屋紅玉会議](/img/posts/nagoyark04-flags.jpg)](http://regional-gh.rubykaigi.org/nagoya04/)
 
 <div style="margin-bottom: 100px;"></div>
 
@@ -42,7 +42,7 @@ permalink: /ja/posts/remote-work-from-okinawa
 > - [会話から文化が明文化される。明文化されると記事になり、共有しやすくなる](https://twitter.com/color_box/status/1137177892599652352)
 > - [経営者視点の話。すごく参考になった](https://twitter.com/_suima_/status/1137177926858788865?s=21)
 > - [今日のためにリリースした。すごい](https://twitter.com/_suima_/status/1137178437418831873?s=21)
->   [![Railsガイド Teamプラン](https://i.gyazo.com/9c372d0e104726f6b0865e861dd9f2f2.png)](https://railsguides.jp/team)
+>   [![Railsガイド Teamプラン](/img/posts/guides-team-top.png)](https://railsguides.jp/team)
 > - [会社のREADME、ぱっと見の印象だけど、読むやすそうでいいなぁ。各ガイドラインをどういう意識で守ればいいのかがわかりそうな書き方と、あまり細かすぎなそうなのがいい](https://twitter.com/publichtml/status/1137178557048807424?s=21)
 > - [YassLab さんのリモートワークの話。非リモートだとあいまいに進めれてしまうところを、明示的にやらなきゃいけないけど、その分どんどん知見たまって楽になるし、権限とかもはっきりできそう](https://twitter.com/labocho/status/1137178887857758208?s=21)
 

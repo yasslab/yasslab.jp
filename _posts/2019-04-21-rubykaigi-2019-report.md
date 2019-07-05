@@ -10,7 +10,7 @@ permalink: /ja/posts/rubykaigi-2019-report
 
 今年も [RubyKaigi 2019](https://rubykaigi.org/2019) に沖縄や東京のメンバー６名で参加してきました! 🏝✈️💎✨
 
-[![RubyKaigi 2019](https://i.gyazo.com/c9f0ade697003039fbcdba76a7ff3f01.png)](https://rubykaigi.org/2019)
+[![RubyKaigi 2019](/img/posts/rubykaigi-2019-top.png)](https://rubykaigi.org/2019)
 
 YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rubykaigi.org/2013/volunteers/)から積極的に関わり始め、2014年以降も[翻訳面で毎年サポート](http://rubykaigi.org/2014/team/)をしていました。2017年からは**弊社だからこそできること**に注力しようと [#YassLabハウス](https://twitter.com/search?f=tweets&vertical=default&q=YassLab%E3%83%8F%E3%82%A6%E3%82%B9%20OR%20yasslabhouse&src=typd) をオープンし、[沖縄メンバー](https://yasslab.jp/ja/#okinawa)や [Okinawa.rb](https://ruby.okinawa/) 関係者の RubyKaigi 参加サポートを実施しています。
 
@@ -73,7 +73,7 @@ YassLab 社としては2013年の [Two Cartoon Foxes のお手伝い](http://rub
 
 毎年参加されている方も今年初めて参加した方も、あるいは今年は残念ながら都合が合わなかった方もいると思いますが、Ruby 3 リリースが予定される2020年は**4月9日 (木) 〜 4月11日 (土) に長野県の松本で開催**となるそうです。
 
-![RubyKaigi 2020](https://i.gyazo.com/0f69556270e50a3f8beb20a5cd07dc0b.jpg)
+[![RubyKaigi 2020](/img/posts/rubykaigi-2020-matsumoto.jpg)](https://rubykaigi.org/2020)
 
 YassLab 社はもちろん2020年も参加します! 2020年も様々な方々とお話しできることが今からとても楽しみです...!! (＞人＜ )✨
 

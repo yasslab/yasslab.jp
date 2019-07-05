@@ -25,6 +25,6 @@ permalink: /ja/posts/jp-stripes-connect-2019
 銀座Rails#7 @リンクアンドモチベーション   
 [https://ginza-rails.connpass.com/event/120573/](https://ginza-rails.connpass.com/event/120573/)
 
-[![銀座Rails#7](https://i.gyazo.com/addac49090fce184c2c6a4a917ee14ba.png)](https://ginza-rails.connpass.com/event/120573/)
+[![銀座Rails#7](/img/posts/ginza-rails.png)](https://ginza-rails.connpass.com/event/120573/)
 
 
