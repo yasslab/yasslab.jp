@@ -229,8 +229,8 @@ thumbnail: bg-dark.jpg
 	{% include community.html
 	    left_path='coderdojo-inuyama'
 	    left_name='CoderDojo 犬山'
-	  center_path=''
-	  center_name=''
+	  center_path='coderdojo-konan'
+	  center_name='CoderDojo 岡山 岡南'
 	   right_path=''
 	   right_name=''
 	%}
