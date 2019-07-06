@@ -83,10 +83,10 @@ thumbnail: bg-dark.jpg
   &lt;br&gt;&lt;br&gt;
     会場に掛かる費用と、Doorkeeper イベントページにかかる費用を負担して頂きました。(詳細: <a href=&quot;https://coderdojo.jp/kata#support&quot;>支援 - CoderDojo Kata</a>)
   </div>
-</div>
-	  </pre>
+</div></pre>
 	</div>
 	<div id="howto"></div>
+	<br>
 	<br>
 
 	<h2><a class="anchor" href="#howto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span>イベント枠提供までの手続き</a></h2>
@@ -246,7 +246,7 @@ thumbnail: bg-dark.jpg
 	     %}
 	-->
 
-	<h3 style="margin: 30px 0px;">
+	<h3 style="margin-top: 100px; margin-bottom: 50px;">
 	  <a id="newspaper-関連記事" class="anchor" href="#newspaper-%E9%96%A2%E9%80%A3%E8%A8%98%E4%BA%8B" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>関連記事</h3>
 
 	<ul>
@@ -277,7 +277,7 @@ thumbnail: bg-dark.jpg
 
 	<p class="text-center"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="/img/CC-BY-SA.png" alt="CC BY-SA International"></a></p>
 
-	<p>本スポンサーシップの内容は<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">クリエイティブ・コモンズ 表示-継承 4.0 国際</a> (CC BY-SA 4.0) ライセンスに基づいて公開しています。Doorkeeperスポンサーシップの提供をご検討している法人・個人のご参考になれば幸いです <g-emoji alias="bow" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f647.png">🙇</g-emoji></p>
+	<p style="margin-bottom: 100px;">本スポンサーシップの内容は<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">クリエイティブ・コモンズ 表示-継承 4.0 国際</a> (CC BY-SA 4.0) ライセンスに基づいて公開しています。Doorkeeperスポンサーシップの提供をご検討している法人・個人のご参考になれば幸いです <g-emoji alias="bow" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f647.png">🙇</g-emoji></p>
         
       </div><!--//col-md-12-->
     </div><!--//row-->
