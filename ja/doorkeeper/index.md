@@ -239,8 +239,8 @@ thumbnail: bg-dark.jpg
 	    left_name='CoderDojo 犬山'
 	  center_path='coderdojo-konan'
 	  center_name='CoderDojo 岡山 岡南'
-	   right_path=''
-	   right_name=''
+	   right_path='coderdojo-ashiya'
+	   right_name='CoderDojo あしや'
 	%}
 
 	<!--
