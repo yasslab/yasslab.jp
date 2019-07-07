@@ -61,16 +61,16 @@ thumbnail: bg-dark.jpg
 
 	<p>特に厳しくチェックするつもりはありませんが、イベントページ下部などに次のようなスポンサー紹介を入れて頂けると助かります! 細かな文言やレイアウトなどは適宜修正して頂いて大丈夫です <g-emoji alias="ok_hand" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44c.png">👌</g-emoji> 弊社ロゴデータは<a href="/ja/brand-assets">ブランドガイドライン</a>からダウンロードできます。</p>
 
-	<h5><a href="https://okinawarb.doorkeeper.jp/events/77519">Okinawa.rb のスポンサー紹介例</a></h5>
+	<h5><a href="https://okinawarb.doorkeeper.jp/events/77519">事例: Okinawa.rb のスポンサー紹介例</a></h5>
 	<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%"></a></p>
 	<p class="imgfit text-center">コピペ用Markdown (改変も可)</p>
 	<div class="highlight highlight-source-gfm">
 	  <pre><span class="pl-mh"><span class="pl-mh">##</span>スポンサー</span>
-本イベントページはオープンソースコミュニティを支援する [<span class="pl-e">YassLab 株式会社</span>](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け [<span class="pl-e">Doorkeeper スポンサー資料</span>](https://yasslab.jp/ja/doorkeeper/)をご参照ください。
+本イベントページはオープンソースコミュニティを支援する [<span class="pl-e">YassLab 株式会社</span>](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け資料『[<span class="pl-e">Doorkeeper スポンサーシップ</span>](https://yasslab.jp/ja/doorkeeper/)』をご参照ください。
 [![<span class="pl-e">YassLab 株式会社</span>](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)</pre>
 	</div>
 
-	<h5 style="padding-top: 50px;"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507">CoderDojo Japan のスポンサー紹介例</a></h5>
+	<h5 style="padding-top: 80px;"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507">事例: CoderDojo Japan のスポンサー紹介例</a></h5>
 	<p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%"></a></p>
 	<p class="imgfit text-center">コピペ用Markdown (改変も可)</p>
 	<div class="highlight highlight-source-gfm">
@@ -81,7 +81,7 @@ thumbnail: bg-dark.jpg
   <div class=&quot;col-xs-3&quot;><a href=&quot;https://yasslab.jp/&quot;><img src=&quot;https://yasslab.jp/img/logos/500x500.png&quot; alt=&quot;YassLab 株式会社&quot;></a></div>
   <div class=&quot;col-xs-9&quot;>&lt;b&gt;<a href=&quot;https://yasslab.jp/&quot;>YassLab 株式会社</a>&lt;/b&gt;
   &lt;br&gt;&lt;br&gt;
-    会場に掛かる費用と、Doorkeeper イベントページにかかる費用を負担して頂きました。(詳細: <a href=&quot;https://coderdojo.jp/kata#support&quot;>支援 - CoderDojo Kata</a>)
+    本イベントページはオープンソースコミュニティを支援する [YassLab 株式会社](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け資料『[Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper/)』をご参照ください。
   </div>
 </div></pre>
 	</div>
