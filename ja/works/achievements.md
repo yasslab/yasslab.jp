@@ -90,6 +90,7 @@
 - 8月 Railsチュートリアルの[夏季集中セミナー](https://coedo-rails.doorkeeper.jp/events/62596)を実施
 - 7月 [未踏ジュニア](http://jr.mitou.org/#sponsor)のスポンサー企業になりました
 - 7月 [OSS Gate](https://oss-gate.github.io/) のスポンサー企業になりました
+- **7月 [OSS Gate](https://oss-gate.github.io/) の[動画版ワークショップ](https://www.youtube.com/playlist?list=PLg41HKRyxE6gIvt3sM09REYvLYkRRkuaS)を制作**
 - 7月 弊社の[複業採用制度](/ja/join-forces)を一般公開しました
 - 6月 [Hackers Champloo](http://hackers-champloo.org/2017/) で [Okinawa.rb](http://ruby.okinawa/) の発表をしました
 - 5月 [CoderDojoを支えるRails CMS](https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo)が[関西Ruby会議2017](http://regional.rubykaigi.org/kansai2017/)に採択
