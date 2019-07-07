@@ -11,7 +11,7 @@ permalink: /ja/posts/hanachin-given-award-from-agileware
 弊社メンバー [@hanachin_](https://twitter.com/hanachin_) さんによる [Lychee Redmine](https://lychee-redmine.jp/) 開発への貢献が[株式会社アジャイルウェア](https://agileware.jp/)より表彰されました 🎉
 
 ## Redmine とは？
-![Redmine](/img/posts/whats-redmine.png)
+[![Redmine](/img/posts/whats-redmine.png)](http://redmine.jp/overview/)
 <div align='center'>
   図: <a href="http://redmine.jp/overview/">redmine.jp より引用</a>
 </div>
