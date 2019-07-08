@@ -61,7 +61,7 @@ thumbnail: bg-dark.jpg
 
 	<p>特に厳しくチェックするつもりはありませんが、イベントページ下部などに次のようなスポンサー紹介を入れて頂けると助かります! 細かな文言やレイアウトなどは適宜修正して頂いて大丈夫です <g-emoji alias="ok_hand" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44c.png">👌</g-emoji> 弊社ロゴデータは<a href="/ja/brand-assets">ブランドガイドライン</a>からダウンロードできます。</p>
 
-	<h5><a href="https://okinawarb.doorkeeper.jp/events/77519">事例: Okinawa.rb のスポンサー紹介例</a></h5>
+	<h5><a href="https://okinawarb.doorkeeper.jp/events/77519">Okinawa.rb のスポンサー紹介例</a></h5>
 	<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%"></a></p>
 	<p class="imgfit text-center">コピペ用Markdown (改変も可)</p>
 	<div class="highlight highlight-source-gfm">
@@ -70,7 +70,7 @@ thumbnail: bg-dark.jpg
 [![<span class="pl-e">YassLab 株式会社</span>](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)</pre>
 	</div>
 
-	<h5 style="padding-top: 80px;"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507">事例: CoderDojo Japan のスポンサー紹介例</a></h5>
+	<h5 style="padding-top: 80px;"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507">CoderDojo Japan のスポンサー紹介例</a></h5>
 	<p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%"></a></p>
 	<p class="imgfit text-center">コピペ用Markdown (改変も可)</p>
 	<div class="highlight highlight-source-gfm">
