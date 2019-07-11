@@ -12,21 +12,31 @@ Railsチュートリアル解説動画は、各章合わせて約36時間に及�
 
 もちろん始めから全てを見てもらうのが一番なのですが、まずはその中で **「おすすめの解説箇所」**を厳選してみたので、[**30分の無料視聴**](https://railstutorial.jp/trial)を有効に使っていただくのに、良ければ参考にしてみてください。
 
-<div class="video" style="margin-bottom: 50px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/RY_ksGQorQ0?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
 </div>
 
-<!-- TOC -->
+## 目次
+
+### 第１章〜第３章
 
 - [Railsって何だろう？](#railsって何だろう)
 - [Railsチュートリアルを始める](#railsチュートリアルを始める)
 - [Gitを分かりやすくイメージする](#gitを分かりやすくイメージする)
 - [MVCを理解する](#mvcを理解する)
 - [テスト何のためにするの？](#テスト何のためにするの)
+
+### 第４章〜第７章
+
 - [Rubyについて知る](#rubyについて知る)
 - [データベースを理解する](#データベースを理解する)
 - [変数の種類](#変数の種類)
 - [form_for の中身](#form_for-の中身)
+
+### 第８章〜第９章
+
 - [Sessions について知る](#sessions-について知る)
 - [Helper はこうやって使う](#helper-はこうやって使う)
 - [Ruby「&&」とは？](#rubyとは)
@@ -36,28 +46,43 @@ Railsチュートリアル解説動画は、各章合わせて約36時間に及�
 - [Ruby 複雑な if 文](#ruby-複雑な-if-文)
 - [テストで活躍 「raise」](#テストで活躍-raise)
 - [private メソッド とは？](#private-メソッド-とは)
+
+### 第１０章
+
 - [HTTPリクエスト patch と delete](#httpリクエスト-patch-と-delete)
 - [before フィルターについて](#before-フィルターについて)
 - [フレンドリーフォワーディング](#フレンドリーフォワーディング)
 - [２段階のリファクタリング](#２段階のリファクタリング)
 - [Ruby の「!」と Rails の「!」は別物](#ruby-のと-rails-のは別物)
+
+### 第１１章〜第１２章
+
 - [メール認証の仕組み](#メール認証の仕組み)
 - [create と save の違い](#create-と-save-の違い)
 - [メタプログラミングに触れる](#メタプログラミングに触れる)
 - [テストで便利な「assigns」](#テストで便利なassigns)
 - [beforeフィルターでリファクタリング](#beforeフィルターでリファクタリング)
 - [Ruby 「不等号を使った時間」の読み方](#ruby-不等号を使った時間の読み方)
+
+### 第１３章
+
 - [DB設計（モデリング）を体験する](#db設計モデリングを体験する)
 - [Ruby「->」この矢印は何だ？](#ruby-この矢印は何だ)
 - [親クラスへ移動させるリファクタリング](#親クラスへ移動させるリファクタリング)
 - [パーシャルのエラーメッセージを使い回す](#パーシャルのエラーメッセージを使い回す)
 - [一つ前のURLを返す request.referrer](#一つ前のurlを返す-requestreferrer)
 - [accept でフロント側にもバリデーション](#accept-でフロント側にもバリデーション)
+
+### 第１４章
+
 - [フォロー&フォロワーのモデル設計](#フォローフォロワーのモデル設計)
 - [resourcesの新たな使い方](#resourcesの新たな使い方)
 - [異なるアクションを１つのビューで実装](#異なるアクションを１つのビューで実装)
 - [Ajax で Follow ボタンを実装する](#ajax-で-follow-ボタンを実装する)
 - [SQL に触れる](#sql-に触れる)
+
+### 最後に
+
 - [あとがき](#あとがき)
 
 <!-- /TOC -->
@@ -122,6 +147,11 @@ Railsチュートリアルを進める上で **「 Git 」**につまづく方�
 
 これからRailsを使ってお仕事をしたい！という方は「テスト」は必須になる知識だと思うので要チェックの箇所です。
 
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
+</div>
 
 ## Rubyについて知る
 
@@ -187,6 +217,12 @@ Railsで書いたものが、どのようにHTMLに変換されるのかが分�
 ![field_with_errors](https://i.gyazo.com/ae0727689829bb8016a1d92ea26bf358.png)
 
 ディベロッパーツールを使ってHTML化したものを見ながら、分からないものは更に調べたりしてみるとかなり理解が深まると思います。
+
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
+</div>
 
 
 ## Sessions について知る
@@ -319,6 +355,12 @@ raise　は問答無用であるものを発生させるコードのようです
 
 こちらも短い時間で聞けるので、ぜひご覧ください。
 
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
+</div>
+
 
 ## HTTPリクエスト patch と delete
 
@@ -396,6 +438,12 @@ Ruby の「!」は、Railsにおける「!」とは全く関係の無いもの�
 ![破壊的メソッド解説](https://i.gyazo.com/ca867297c78e35ebada941ec19cd1bc8.png)
 
 同じ「!」でも、Rails と Ruby、それぞれ違う意味があってややこしいですね。知らないと混乱してしまいそうです。
+
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
+</div>
 
 
 ## メール認証の仕組み
@@ -505,6 +553,12 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 ```
 🔼社内で紹介してもらったコードを掲載しておきます✨こんな風にも書けるんですね。([@hanachin_](https://twitter.com/hanachin_) さんありがとうございました。)
 
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
+</div>
+
 
 ## DB設計（モデリング）を体験する
 
@@ -599,6 +653,12 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 
 この部分は Rails の機能ではなくHTML の機能の解説です。Railsチュートリアルでは、この他にも jQuery を使ったファイルサイズの制限をフロント側でお知らせする機能も学習できるようになっています。幅広い知識を学べるようになっているんですね。
 
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
+</div>
+
 
 ## フォロー&フォロワーのモデル設計
 
@@ -687,6 +747,12 @@ Rails チュートリアルでは、Follow・Unfollow ボタンの実装方法�
 
 .jsonや.mdを使った実際のブラウザ画面も見せてくれたりと、チュートリアルの内容にとどまらず様々なことが学べるのも解説動画のいいところですね。
 
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
+</div>
+
 
 ## SQL に触れる
 
@@ -719,11 +785,14 @@ Twitterでいうタイムラインのようなものですね。この部分で�
 
 ## あとがき
 
-この解説動画では、テキスト版だけでは理解しづらい部分を丁寧に解説してもらえるだけではなく、チュートリアルの内容以外の様々なことを学ぶ事ができます。現場により近い具体的な説明を聞くことで、ぐっと知識が深まると思います。これからプログラミングを学んでいく方にはもちろん、更に知識の定着をはかってみたい方にもお勧めできる動画です。きっと見て下さった皆さんに、それぞれ色んな気付きがあると思います😊
+この解説動画では、テキスト版だけでは理解しづらい部分を丁寧に解説してもらえるだけではなく、チュートリアルの内容以外の様々なことを学ぶ事ができます。
+
+現場により近い具体的な説明を聞くことで、ぐっと知識が深まると思います。これからプログラミングを学んでいく方にはもちろん、更に知識の定着をはかってみたい方にもお勧めできる動画です。きっと見て下さった皆さんに、それぞれ色んな気付きがあると思います😊
+
+<div class="center">
+  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <br><br><br>
+</div>
 
 この解説動画が、皆さんの学習に役立てれば嬉しく思います。
-
-
-[![YassLab Inc.](/img/logos/800x200.png)](/)
-
-
