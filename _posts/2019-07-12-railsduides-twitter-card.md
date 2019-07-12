@@ -5,12 +5,12 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド]
-permalink: /ja/posts/Able-to-twitter-card-railsduides
+permalink: /ja/posts/railsduides-twitter-card
 ---
 
 ## Railsガイド × Twitter Card
 
-Twitter 投稿時に、見ていたページのタイトルが今までよりも分かりやすく表示されるようになり、更に便利に Railsガイド をご利用できるようになりました。
+Twitter 投稿時に、見ていたページのタイトルが今までよりも分かりやすく表示されるようになり、更に便利に[Railsガイド](https://railsguides.jp/)をご利用できるようになりました。
 
 <br>
 
@@ -21,8 +21,7 @@ Twitter 投稿時に、見ていたページのタイトルが今までよりも
 この機能はユーザーさんの声を元に開発されています。これからも「こんな機能が欲しい」などの意見がありましたら Twitter でお待ちしております。全ての要望に答えられるかは分かりませんが、その際はハッシュタグ「#Railsガイド」をつけて頂けると嬉しいです。
 
 
-## Railsガイド その他の便利な機能
-
+## その他の便利なサービス
 
 [![Proプラン](https://i.gyazo.com/43da1e1a9800376ce069f49c506aaa6f.png)](https://railsguides.jp/pro)
 
@@ -45,7 +44,6 @@ Twitter 投稿時に、見ていたページのタイトルが今までよりも
 ## 最後に
 
 たくさんの方の学習や開発の助けになれるよう日々機能の改善に励んでいきますので **「Railsガイド」**をこれからもよろしく御願いします。
-
 
 [![YassLab Inc.](/img/logos/800x200.png)](/)
 
