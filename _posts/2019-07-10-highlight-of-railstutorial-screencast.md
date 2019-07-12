@@ -10,11 +10,11 @@ permalink: /ja/posts/highlight-of-railstutorial-screencast
 
 Railsチュートリアル解説動画は、各章合わせて約36時間に及ぶ大ボリュームとなっており、１周終わってこれから２周目、３周目という方や、他言語から学ばれてきた方にも役立つ情報がたくさんあります。動画は授業形式になっており、何度も繰り返し見ることが可能です。テキスト版の予習・復習に、自分好みの使い方で理解を深めるのにきっと役立つはずです。
 
-もちろん始めから全てを見てもらうのが一番なのですが、まずはその中で **「おすすめの解説箇所」**を厳選してみたので、[**30分の無料視聴**](https://railstutorial.jp/trial)を有効に使っていただくのに、良ければ参考にしてみてください。
+もちろん始めから全てを見てもらうのが一番なのですが、まずはその中で **「おすすめの解説箇所」**を厳選してみたので、[**30分の無料視聴**](https://railstutorial.jp/trial?utm_source=yasslab_trial)を有効に使っていただくのに、良ければ参考にしてみてください。
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
@@ -91,11 +91,11 @@ Railsチュートリアル解説動画は、各章合わせて約36時間に及�
 
 自分が今から学ぶものが世の中ではどのように利用されているのか、どんな特徴があるかを知っておくのは大事なことだと思います。**そもそもRailsとはどういうものなんだろう？** Railsを使ってどんなサービスが作れるようになるのだろう？という疑問を抱いている方に是非見てもらいたいのが、**「第２章 後編 １４.オマケ」**の部分です。
 
-![Ruby/Railsの良い点・悪い点](https://i.gyazo.com/47752ed3a1c67f8d68bbb54c6f7c456d.png)
+![Ruby/Railsの良い点・悪い点](https://i.gyazo.com/2b4f5e4995ea1e22e76e6d1e27087241.png)
 
 Railsを利用する上で、知っておいたほうがいいことがギュッと詰まっているので、これからRailsを学ぶという方に是非知っておいて欲しいところです。
 
-![学習時間と生産性](https://i.gyazo.com/be69e1999a64cf706df9690c16539989.png)
+![学習時間と生産性](https://i.gyazo.com/af4a745664b9ab908670e3611086db7d.png)
 
 🔼Railsを使いこなせるようになるには、Railsチュートリアル１週した程度では程遠いよ、というのが分かる図。様々なデータと比較していて面白いし、奥が深いです。
 
@@ -104,20 +104,16 @@ Railsを利用する上で、知っておいたほうがいいことがギュッ
 
 今回**初めてRailsチュートリアルに挑戦**するという方に絶対見て欲しいと思うところが **「第１章 前編 Railsチュートリアルの進め方」**です。特に、**５. 前提知識 〜**を見ておくと、今後のRailsチュートリアル学習に役立つことがたくさん出てきます。
 
-![大事な心構え](https://i.gyazo.com/da842d40bf6dfee7592d228742e76f90.png)
+![大事な心構え](https://i.gyazo.com/86f0c162da4c70418cbd6972c1411923.png)
 
-初心者に向けて心構えや、モチベーションを保つ為の方法など、これからの学習方法の参考になる話は興味深いです。
-
-![Ruby/Railsの構造](https://i.gyazo.com/9f5bf53b8fd79d7f3165fb69354511fa.png)
-
-Ruby / Rails の構造、勉強になりますね。「rbenv」、使いこなそう！
+初心者に向けて心構えや、モチベーションを保つ為の方法など、これからの学習方法の参考になる話は興味深いです。Ruby / Rails の構造についても勉強になります。「rbenv」、使いこなそう！
 
 
 ## Gitを分かりやすくイメージする
 
 Railsチュートリアルを進める上で **「 Git 」**につまづく方はかなり多いと思います。その「Git」について丁寧に説明されているのが **「第１章 後編 ９. Git によるバージョン管理」**です。ゲームのセーブ機能に例えて分かりやすく説明されています。
 
-![Gitによるバージョン管理](https://i.gyazo.com/2d5f06713dbeeaa8019123afaa7d0937.png)
+![Gitによるバージョン管理](https://i.gyazo.com/e13c49b678195becab42ec6431bcc83e.png)
 
 初めてだとよく分からない部分も１行ずつ丁寧に教えてくれます。
 
@@ -130,26 +126,24 @@ Railsチュートリアルを進める上で **「 Git 」**につまづく方�
 
 **「MVC」**の流れを理解したい方は **「第２章 前編 １１. MVCの挙動に触れてみる」**を見てみましょう。
 
-![Railsにおける処理の流れ](https://i.gyazo.com/c8b8163cdc2b8a839fbd8c3fc262e179.png)
+![Railsのルーティング](https://i.gyazo.com/19f68c43655390035d6c771accddaf72.png)
 
-こんな感じで、全体の流れをスライド付きで説明してくれます。この一通りの流れをrailsチュートリアルで少しずつやっていくので、初めての方はこの全てを今の段階では理解していなくても大丈夫です。**MVCの全体像を理解したい**方や、**Railsについてざっと復習したい**方におすすめです。
+MVC 全体の流れをスライド付きで説明してくれて、Rails ルーティングについての全体像についても分かります。この一通りの流れをrailsチュートリアルで少しずつやっていくので、初めての方はこの全てを今の段階では理解していなくても大丈夫です。**MVCの全体像を理解したい**方や、**Railsについてざっと復習したい**方におすすめです。
 
 
 ## テスト何のためにするの？
 
 テストなんて一人で勉強してると使う場面はあまり出てこないし、そもそも**テストって必要なの？**とお思いの方は **「第３章 後編 １０. TDDの紹介とまとめ」**からの話を一度聞いてみると良いと思います。
 
-![テスト駆動開発](https://i.gyazo.com/a04bd82e0969609894a9b95f03db0ae0.png)
-
 テストは先に書くべき？後がいいの？などが分かりやすく解説されています。
 
-![テストはいつ行う？](https://i.gyazo.com/a098cb23751f602df6f5633d4aab5eaf.png)
+![テストはいつ行う？](https://i.gyazo.com/b347dae426758e89376268b82b158081.png)
 
 これからRailsを使ってお仕事をしたい！という方は「テスト」は必須になる知識だと思うので要チェックの箇所です。
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
@@ -161,32 +155,22 @@ Rubyって他の言語とどう違うのだろう？ **Rubyの特徴を知って
 
 安川さんの説明だとコードが「擬人化」されていて面白いので、テキストだけだと眠くなってしまいそうな話でも頭にすっと入ってきます。Pythonとの特徴の違いの話も参考になりますよ。Ruby は人間に寄り添った自由な言語だなと感じました。更に深い説明があるのが **「第４章 後編」**です。
 
-![数字vsシンボルvs文字列](https://i.gyazo.com/2f214c12c14609e024c3eb8da4541b61.png)
-
-処理速度を計算して比べたりして、どうしてこの書き方がいいのか？がよく分かるようになっています。
-
 ![Ruby/Railsにおけるクラス階層](https://i.gyazo.com/d75298789f19e050f5a3a719488ca7bf.png)
 
-ここでは結構深くRubyについて知ることができるので、何となくしか理解していなかった部分が腑に落ちるかもしれないですね。
+処理速度を計算して比べたり、結構深くRubyについて知ることができるので、何となくしか理解していなかった部分が腑に落ちるかもしれないですね。
 
 
 ## データベースを理解する
 
-**データベース**は、これからの章を理解していくのに非常に大切な部分なので **「６章 前編 ３. Userモデルを生成する」**から、集中できる時にしっかり見ると良いです。
+**データベース**は、これからの章を理解していくのに非常に大切な部分なので **「６章 前編 ３. Userモデルを生成する」**から、集中できる時にしっかり見ると良いです。**マイグレーションファイルの扱い方**などについても詳しい説明があります。
 
-![フォームで実現したいこと](https://i.gyazo.com/4e340b291e2fda21540959c6389e63ac.png)
+![Userモデル](https://i.gyazo.com/7e7906bddbd46d7ca7fab82134aabce9.png)
 
-**マイグレーションファイルの扱い方**などについても詳しい説明があります。
+説明を聞くと、Active Record を使うとデータベースとのやりとりが、こんなに楽になるんだ！ということが分かります。
 
-![Userモデル](https://i.gyazo.com/60d6a09efa30ae4a97606b229bc132d2.png)
+![一意性の問題](https://i.gyazo.com/a9d1d01edbfae0feb82fd90fd3642084.png)
 
-Active Record を使うとデータベースとのやりとりが、こんなに楽になるんだ！ということが分かります。
-
-![一意性の問題](https://i.gyazo.com/d6795d62a91bd0c0107afd0ff437c9c0.png)
-
-🔼**「６章 後編 ８. 一意性の問題 」**ユーザーが同時に登録されては大変なことです。 それをどう回避させるかの説明は非常に興味深いです。
-
-![パスワードとハッシュ関数](https://i.gyazo.com/593ef9b8f5166dbc99a63966cbad9efc.png)
+興味深いのが、**「６章 後編 ８. 一意性の問題 」**のところです。ユーザーが同時に登録されないように回避させる方法の説明は非常に勉強になります。
 
 パスワードの扱い方のお作法も学べます。便利なものがたくさんある Rails 凄いですね。ここでは、**「正規表現」**にも触れられます。初めての方には難しく感じられる部分だと思いますが、動画を見ながらなんとなくでも理解出来ると嬉しいですね。
 
@@ -199,28 +183,22 @@ Active Record を使うとデータベースとのやりとりが、こんなに
 
 短い説明で分かりやすく、変数のところは30分以内で聞けます。
 
-７章では HTTP リクエストについてや、if文の使い分け（前置・後置）、デバックの使い方、RESTful にコードを作るポイントやそのメリットなど、勉強になることが盛りだくさんです。
+![byebug](https://i.gyazo.com/cab015509b65c6ee82f3051913f1bcc1.png)
 
-![byebug_gem](https://i.gyazo.com/a7465759e79a5f52ec48e3f78e7e0873.png)
-
-自分の気になるところがあれば是非、覗いてみて下さい。
+７章では HTTP リクエストについてや、if文の使い分け（前置・後置）、デバックの使い方、RESTful にコードを作るポイントやそのメリットなど、勉強になることが盛りだくさんです。自分の気になるところがあれば是非、覗いてみて下さい。
 
 
 ## form_for の中身
 
 Railsは色々便利なのですが、formの中身はちゃんとHTMLで理解することが大事です。**form_for の中身**の確認方法が分かる **「７章 後半 ４. エラーメッセージを表示 」の後半部分**（44:50〜）が参考になります。
 
-![ユーザー登録フォーム](https://i.gyazo.com/dafc26f4f4ca67ba8360be8cc843bded.png)
+![ディベロッパーツール](https://i.gyazo.com/fb60d5f08effcdf5f306083b977a1546.png)
 
-Railsで書いたものが、どのようにHTMLに変換されるのかが分かると嬉しいですね。
-
-![field_with_errors](https://i.gyazo.com/ae0727689829bb8016a1d92ea26bf358.png)
-
-ディベロッパーツールを使ってHTML化したものを見ながら、分からないものは更に調べたりしてみるとかなり理解が深まると思います。
+ディベロッパーツールを使ってHTML化したものを見ながら、分からないものは更に調べたりしてみるとかなり理解が深まると思います。Railsで書いたものが、どのようにHTMLに変換されるのかが分かると嬉しいですね。
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
@@ -229,15 +207,13 @@ Railsで書いたものが、どのようにHTMLに変換されるのかが分�
 
 **Sessions** も難しく感じる方が多いと思います。**「８章  前編 ２. Sessions リソースについて」**で詳しく見てみましょう。
 
-![Sessionsリソース](https://i.gyazo.com/b38a74de0bbe499e5e7056e580971470.png)
+![Sessionsリソース](https://i.gyazo.com/a2711aadc9f0f403f527a86adaa4404f.png)
 
 ログインや、ログアウトは頻繁に行われることなので、毎回データベースにアクセスするよりもいい方法はありそう...🤔というところからの話、納得できます。これが分かれば「Sessions」について説明できるようになれますね。
 
-また **「９章 １. セッション有効期限」**や、**「２. 攻撃手口の紹介」**の説明も短くて分かりやすいのでおすすめです。
+![よく知られている攻撃の手口](https://i.gyazo.com/923fb2d5458633751c0760b0bc46baeb.png)
 
-![よく知られている攻撃の手口](https://i.gyazo.com/28b600bb65c27acf8806f02b5112dd34.png)
-
-サービスごとに適切な期限を設けていなければならないことや、どのような攻撃の手口があるのか勉強になります。
+また **「９章 １. セッション有効期限」**や、**「２. 攻撃手口の紹介」**の説明も短くて分かりやすいのでおすすめです。サービスごとに適切な期限を設けていなければならないことや、どのような攻撃の手口があるのか勉強になります。
 
 
 ## Helper はこうやって使う
@@ -291,23 +267,17 @@ Railsで書いたものが、どのようにHTMLに変換されるのかが分�
 
 **Cookie** を利用して認証を行うのは結構複雑な内容になっていて、理解に苦しむ方も多いと思います。**「９章 ３. ログイン状態の保持」**を見てもらうと、セッションとクッキーの違いについて分かりやすく説明されています。
 
-![Log_in完成予想図](https://i.gyazo.com/397f8268d11fb02a4e35ee0fc6b58e65.png)
+![Log_in完成予想図](https://i.gyazo.com/4e54199539a59d927e5fa487a18aff8f.png)
 
 🔼この「Remember me」の部分ですね。ログイン状態をどのように保持するのか？というところです。
 
-![Cookies図解](https://i.gyazo.com/e81854db8210438a29a909593267b9b6.png)
-
-🔼どれが「Cookie」のことだか分かりますか🤔？
-
-ログイン状態の保持をするには **「仮想的カラム」**というものを自分で実装していかなければなりません。その中身を知れるのが、**25:09〜**からの説明です。
-
 ![仮想敵カラム](https://i.gyazo.com/1785f4b27369e7e7544f28826d8a8f96.png)
 
-「セッター」と「ゲッター」を用意する事で、一時的に保存はするけどデータベースには反映されない仕組みを作ることが出来るんですね。でも、Rubyの機能でそのセットは `attr_accessor` というもので用意されているんだぞ！という説明です。便利でびっくりですね。
+ログイン状態の保持をするには **「仮想的カラム」**というものを自分で実装していかなければなりません。その中身を知れるのが、**25:09〜**からの説明です。一時的に保存はするけどデータベースには反映されない仕組みを作るんですね。Rubyの機能でそのセットは `attr_accessor` というもので用意されているんだぞ！という説明です。便利でびっくりですね。
 
 ９章の中でも特にしっかり理解するべきだと感じたのは **「 ５. ログイン状態の認証」**です。
 
-![署名付ユーザーIDと記憶トークン](https://i.gyazo.com/92d5792c8dba60d53429936f6d0d9995.png)
+![ログイン状態の認証](https://i.gyazo.com/360045fd85637133bd4eb882250bc07b.png)
 
 この認証の流れはこの先も何度か出てくるので、ここを理解できるのとできないのとでは、今後大きな差が生まれてくるはずです。何度も理解できるまで繰り返し見ると効果的だと思います。
 
@@ -356,8 +326,8 @@ raise　は問答無用であるものを発生させるコードのようです
 こちらも短い時間で聞けるので、ぜひご覧ください。
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
@@ -366,22 +336,14 @@ raise　は問答無用であるものを発生させるコードのようです
 
 edit で使うフォームは、７章でやった「登録フォーム」とほぼ同じです。違うところは、HTMLの form タグ内にあるメソッド。ここも色々と不思議なことがあります。ここを詳しく説明してくれているのが **「１０章 前編 ６. HTMLとHTML 」**です。
 
-![patchメソッド](https://i.gyazo.com/b5f1fb6f8148a8677bcebb3260d6a224.png)
+![patchメソッド](https://i.gyazo.com/b728f4a38934196129870aff0c381fc8.png)
 
-ここも６分ほどで聞ける短い説明なので、HTTPリクエストについて勉強したことがない方は特に聞いてみるといいと思います。
-
-![_patchメソッド](https://i.gyazo.com/1e26e0892a4d028220491a9ee34b3017.png)
-
-`patch` メソッドや、`delete` メソッドは実は偽装されていた...！？という事実が、HTTPリクエストの歴史から説明されているので、分かると楽しいところだと思います。Web の歴史に興味が湧いてきたら、更に自分で調べてみると楽しそうですね😁ブラウザの歴史なども調べてみると面白そうです。
+ここも６分ほどで聞ける短い説明なので、HTTPリクエストについて勉強したことがない方は特に聞いてみるといいと思います。`patch` メソッドや、`delete` メソッドについて、HTTPリクエストの歴史から説明されているので、分かると楽しいところだと思います。Web の歴史に興味が湧いてきたら、更に自分で調べてみると楽しそうですね😁ブラウザの歴史なども調べてみると面白そうです。
 
 
 ## before フィルターについて
 
-ログインしていないのに、他の人の情報を編集できちゃうような Web サービスは危険ですよね。ちゃんと、ログインをしている本人の情報だけを編集できるように実装しなければいけません。
-
-![認可のモック](https://i.gyazo.com/d622fef2fd7c338c50aafa95968be205.png)
-
-**「１０章 前編 ８. 認可について 」**では **beforeフィルター**をかけてその危険から守ってあげる方法が分かりやすく解説されています。
+ログインしていないのに、他の人の情報を編集できちゃうような Web サービスは危険ですよね。ちゃんと、ログインをしている本人の情報だけを編集できるように実装しなければいけません。**「１０章 前編 ８. 認可について 」**では **beforeフィルター**をかけてその危険から守ってあげる方法が分かりやすく解説されています。
 
 ![before_action](https://i.gyazo.com/19993d0a332687d885ac5ec7459b1ac9.png)
 
@@ -399,15 +361,11 @@ before_action が実行される順番を理解すると、なぜこのコード
 １０章のこの部分です。
 ![フレンドリーフォワーディング](https://i.gyazo.com/34ca6496e97ee4f01c4206896fd1ff7e.png)
 
-テキストだけだと分かりずらいかもしれないので、こういう所だけ動画で見ておくというのも有効な使い方かもしれないですね。**「１０. 正しいユーザーか確認する」1:19:00〜** に、再現した動画があります。
+テキストだけだと分かりずらいかもしれないので、こういう所だけ動画で見ておくというのも有効な使い方かもしれないですね。**「１０章前編 １０. 正しいユーザーか確認する」1:19:00〜** に、再現した動画があります。
 
-![不親切なリダイレクト](https://i.gyazo.com/c0d0b4877b76d31e025af7f0be58b063.png)
+![不親切なリダイレクト](https://i.gyazo.com/59de9eb44e1515a18104880fedabe947.png)
 
-動画で見ると、同じところをユーザーさんにクリックさせるのは不親切だという事が感覚的に分かりやすく理解できると思います。
-
-![フレンドリーフォワーディングまとめ](https://i.gyazo.com/fcfa338741c8a38b246b0a271a355b37.png)
-
-こういうユーザーを配慮した細かい実装は、オリジナルアプリを開発する方にも参考になりそうですね。
+動画で見ると、同じところをユーザーさんにクリックさせるのは不親切だという事が感覚的に分かりやすく理解できると思います。こういうユーザーを配慮した細かい実装は、オリジナルアプリを開発する方にも参考になりそうですね。
 
 
 ## ２段階のリファクタリング
@@ -440,8 +398,8 @@ Ruby の「!」は、Railsにおける「!」とは全く関係の無いもの�
 同じ「!」でも、Rails と Ruby、それぞれ違う意味があってややこしいですね。知らないと混乱してしまいそうです。
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
@@ -450,17 +408,13 @@ Ruby の「!」は、Railsにおける「!」とは全く関係の無いもの�
 
 『認証』は Railsチュートリアル内でこれまで何度か行なってきました。今回は**メール機能**を使っての認証です。
 
-![アカウント有効化の流れ](https://i.gyazo.com/b9fdcd1598e209d100dd8f341d993398.png)
+![アカウント有効化の流れ](https://i.gyazo.com/4e8a43e6a47d10d8b986f8a7f2009aa2.png)
 
-大体の流れは今までと同じなのですが **「１１章 前編 ３. メール認証の仕組み」〜** で以下のスライドの説明を聞いて、確認しながら進めると良さそうです。
+大体の流れは今までと同じなのですが **「１１章 前編 ３. メール認証の仕組み」〜** でスライドを見ながらの説明を聞いて、確認しながら進めると良さそうです。
 
-![トークンの認証機構](https://i.gyazo.com/3e6e25250d02495f28bc789cda10bde6.png)
+１１章からはこれまでの基礎的な内容を活かした応用的なものになっていて、１０章までを理解しているのが前提になっています。難しいと感じる時は、自分が納得いくまで復習するのも一つの方法かなと思います。説明を聞いてもよくわからない場合は、前回の認証の理解ができていない可能性があるので「６章 後編 １０. パスワードの実装」、「９章 ５. ログイン状態の認証」を順番に振り返って見ると良さそうです。
 
-説明を聞いてもよくわからない場合は、前回の認証の理解ができていない可能性があるので「６章 後編 １０. パスワードの実装」、「９章 ５. ログイン状態の認証」を順番に振り返って見ると良さそうです。
-
-１１章からはこれまでの基礎的な内容を活かした応用的なものになっていて、１０章までを理解しているのが前提になっています。難しいと感じる時は、自分が納得いくまで復習するのも一つの方法かなと思います。
-
-![Actionメーラーの正体](https://i.gyazo.com/1c75169e06732102d7c5e52157c636fa.png)
+![Actionメーラー](https://i.gyazo.com/e4435b7267b1ea752e34c3edb77cce32.png)
 
 Action Mailer の正体についての解説 **「１１章 前編 １０. Action Mailer の実態と実装 」**も興味深いのでおすすめです。
 
@@ -489,11 +443,7 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 
 ![authenticated?コピペ実装](https://i.gyazo.com/c2951bf69c57edde0fa43beeb16ab3ca.png)
 
-🔼コピペ実装、これはDRYとは言えませんね...。
-
-![authenticated?の抽象化](https://i.gyazo.com/fa1681f7fc35a2c7183b6beb40f0f866.png)
-
-どうすれば抽象化できるのか？
+🔼コピペ実装、これはDRYとは言えませんね...。どうすれば抽象化できるのか？
 
 ![sendメソッド](https://i.gyazo.com/2caeed158516b893ff291b7ce8e96219.png)
 
@@ -506,11 +456,9 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 
 ![assignsメソッド演習問題](https://i.gyazo.com/e46ebcd12afbb5eaaaa8db7caf31dd5a.png)
 
-ですが、やはりテキストだけでは理解しづらい方もいると思うので、解説動画の **「１１章 後編 ９. assigns メソッド 」**を見てみましょう。
+ですが、やはりテキストだけでは理解しづらい方もいると思うので、解説動画の **「１１章 後編 ９. assigns メソッド 」**を見てみましょう。スライド付きで説明されています。
 
-![assignsメソッド](https://i.gyazo.com/4b59aaa394b942a72ce14d51f746c414.png)
-
-スライド付きで説明されています。
+![assigns質問コーナー](https://i.gyazo.com/dc9f9750c6ac0b91da268d419e5d9300.png)
 
 また、 **「１２章 後編 ９. まとめと質問コーナー 」**でも質問者さんから assigns メソッドについての質問があり、どういう場合に使用するのか？といった解説が聞けます。どちらも短い時間で聞けるので、知っていると便利な assigns、気になる方はぜひ覗いてみてください。
 
@@ -534,11 +482,7 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 
 ![不等号を使った時間](https://i.gyazo.com/582a4b99aa3ebc38bcac67c7d3d12856.png)
 
-テキストでも説明があるのですが、なかなか理解出来ない方は **「１２章 後編 6. パスワード更新４つの処理 」**のスライドをみながら説明を聞いてみると良さそうです。
-
-![password_reset_expired?](https://i.gyazo.com/009509c4aadf18d28926b75354d11c08.png)
-
-時間の不等号は、なかなか理解が難しいですね。
+テキストでも説明があるのですが、時間の不等号は、なかなか理解が難しいですね。難しいと感じられる方は **「１２章 後編 6. パスワード更新４つの処理 」**のスライドをみながら説明を聞いてみると良さそうです。
 
 **＜おまけ＞**
 ```ruby
@@ -554,8 +498,8 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 🔼社内で紹介してもらったコードを掲載しておきます✨こんな風にも書けるんですね。([@hanachin_](https://twitter.com/hanachin_) さんありがとうございました。)
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
@@ -569,7 +513,7 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 </div>
 🔼表を見て、この通りにマイグレーションファイルを作成していけばいいのは分かる...。でも、どうやってカラムの種類を作るのか決めているんだろう？🤔テキスト版では「型」の説明に留まっていますが、解説動画 **「１３章 前編 １. Micropostの実装の進め方 」**ではモック画面を見ながら、どんな風に追加するカラムを決めていくのか見れるようになっています。
 
-![Micropostをモデリングする](https://i.gyazo.com/7c0ff5634d5e47f769ff67dab7fd34ee.png)
+![Micropostをモデリングする](https://i.gyazo.com/b28936009a4b1002fd99c00be036bbcd.png)
 
 どの情報をDBに保存すべきで、どの情報はいらないのかを一緒に考えていくことができます。
 いつかは自分で何か作りたい！と思われている方がほとんどだと思うので**モデリング**ができると可能性がグンと広がりそうですね。
@@ -645,50 +589,34 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 
 ![画像選択画面で動画も選択できてしまう問題](https://i.gyazo.com/65b96ec4ad0bf8a9a58f64ba2999df34.png)
 
-🔼バックエンドで投稿できる画像の種類を指定してバリデーションをかけてあげても、まだ選択できてしまうしアップロード自体はできてしまう。（アップロード後、バリデーションのエラーメッセージが出る。）
-
-![acceptで制限された画像選択画面](https://i.gyazo.com/1add299b89fd977999b4e3a747c8121a.png)
-
-🔼このように初めから選べないようにしてあげるのが親切ですね。
+🔼バックエンドで投稿できる画像の種類を指定してバリデーションをかけてあげても、まだ選択できてしまうしアップロード自体はできてしまう。（アップロード後、バリデーションのエラーメッセージが出る。）初めから選べないようにするにはどうすればいいのだろう？
 
 この部分は Rails の機能ではなくHTML の機能の解説です。Railsチュートリアルでは、この他にも jQuery を使ったファイルサイズの制限をフロント側でお知らせする機能も学習できるようになっています。幅広い知識を学べるようになっているんですね。
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
 
 ## フォロー&フォロワーのモデル設計
 
-１４章の**フォローとフォロワーをどう設計するか？**を理解するのは難しいところだと思います。今までのユーザーやマイクロポストモデルとどこが違って難しく感じるのでしょうか？まずはフォローするとはどういう事か、から丁寧に解説してくれるのが **「１４章 前編 」**です。
+１４章の**フォローとフォロワーをどう設計するか？**を理解するのは難しいところだと思います。Micropost モデルを真似て設計しようとすると、なかなか難しそうですね。今までのユーザーやマイクロポストモデルとどこが違って難しく感じるのでしょうか？まずはフォローするとはどういう事か、から丁寧に解説してくれるのが **「１４章 前編 」**です。
 
-![フォローを考える](https://i.gyazo.com/3f45b44681b747be386def92d6bb38dc.png)
+![関係性に注目](https://i.gyazo.com/173db4743dbfdafd62642b573d2c000b.png)
 
-🔼Micropost モデルを真似て設計しようとすると、このような問題が出てきて単純な has_many だけではなかなか難しそうです...
-
-![関係性に注目](https://i.gyazo.com/2b00b5faa49ae33b681e11d276896826.png)
-
-🔼 そう、今回のモデルは  **「関係性」**を設計していくのですね。ここが今までのモデル設計と違う概念で、肝心なところです。
-
-![Relationshipデータモデル](https://i.gyazo.com/55058a6479546c25ec110beec0a69897.png)
-
-🔼 結局こんなにシンプルなテーブルになるんですね。この中のカラムを組み替えて使って、能動的関係（active_relationships）・受動的関係（passive_relationships）を自分で作って実装していきます💪
-
-この実装方法は **「１４章 前編 ４. Relationshipモデルの実装 」**からをじっくり聞いてみると、テキストだけだと分かりづらい部分が理解しやすくなっています。
-
-中でも **「８. active_relationships の確認」の 38:55〜** からの説明は **`belongs_to` や `has_many` の実態**について説明されていて、これまでモヤモヤしていたことが一気に解消される方が多いのではないかと思います。
+この実装方法は **「１４章 前編 ４. Relationshipモデルの実装 」**からをじっくり聞いてみると、テキストだけだと分かりづらい部分が理解しやすくなっています。中でも **「８. active_relationships の確認」の 38:55〜** からの説明は **`belongs_to` や `has_many` の実態**について説明されていて、これまでモヤモヤしていたことが一気に解消される方が多いのではないかと思います。
 
 ![has_manyの実態](https://i.gyazo.com/d3e2be89d53207f8ee7d942856a7f300.png)
 
 `has_many` 、`attr_accessor` など、エディタ内で色が付いているのには、**ある役割**があるからだったのです。ここはぜひ聞いてほしいおすすめの箇所です。
 
-**「１４章 前編 １１. 質問コーナー 」の 1:00:42〜** では、モデル設計の大事さも知ることができます。**モデル設計はバックエンドのスキルで一番大事！です✨**
+**「１４章 前編 １１. 質問コーナー 」の 1:00:42〜** では、モデル設計の大事さも知ることができます。
 
 ![fat コントローラ問題](https://i.gyazo.com/c715d415e6afd27afb7485d3c87c54ed.png)
 
-**「１４章 前編 １３. メソッドを定義する場所 」**では「fat コントローラ問題」というものについて解説があります。このメソッドは、モデルに書けないかな？と考えてあげることで、コントローラの肥大化を防いであげようという話です。これもDRYに書くための大事な思想なので勉強になります。
+**「１４章 前編 １３. メソッドを定義する場所 」**では「fat コントローラ問題」というものについて解説があります。これもDRYに書くための大事な思想なので勉強になります。
 
 
 ## resourcesの新たな使い方
@@ -697,59 +625,45 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 
 ![memberメソッド](https://i.gyazo.com/b045dfe67b60546d801fa20becf5c35d.png)
 
-今回は `member` というメソッドを使って、更に好きなルーティングを追加する方法を学びます。
-
-![memberメソッドを使ったルーティング](https://i.gyazo.com/55059411745d0a6a1f3429095f8c798b.png)
-
-🔼自分でルートを追加したい場合に役立ちますね。
-
-![Railsガイドrouting](https://i.gyazo.com/39ca818f62070b865c2a554beff07e3b.png)
-
-🔼[Railsガイドの member ルーティングの解説](https://railsguides.jp/routing.html#restful%E3%81%AA%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E3%81%95%E3%82%89%E3%81%AB%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B)も分かりやすいのでおすすめです。
+今回は、更に好きなルーティングを追加する方法を学びます。[Railsガイドの member ルーティングの解説](https://railsguides.jp/routing.html#restful%E3%81%AA%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E3%81%95%E3%82%89%E3%81%AB%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B)も分かりやすいですよ。
 
 
 ## 異なるアクションを１つのビューで実装
 
 **「１４章 後編 ８. Following と Followers の実装 」**のところです。
 
-![FollowingとFollowersページ](https://i.gyazo.com/9690b074ce9b540aca26175f9dec7c87.png)
+![FollowingとFollowersページ](https://i.gyazo.com/bb6194e206bb263961f708dc059ae976.png)
 
 アクションは違うけど、一つのビューをうまく使い分けて共通で使えるものにしていこうという実装方法です。
 
-![共通のインスタンス変数](https://i.gyazo.com/06f9f0486ad00296cbc9ae6fcf0069f0.png)
-
-🔼まずは、インスタンス変数の名前を揃えてあげるんですね。`@users` の中身はアクションに合わせて変わっています。
-
-今までは「**同じようなコードはDRYに反するから書かない**ように！」と習ってきているので、今回の場合ほぼ同じコードだけど大丈夫？と感じますが、二つのビューを用意してそれぞれに同じようなパーシャルを付けてあげて...と考えると明らかにこちらの方がDRYです。
+![FollowingとFollowersページ実装](https://i.gyazo.com/a72b51763a0734ee159540b6e194dc94.png)
 
 チュートリアル内ではこのような実装方法もできるよという紹介にすぎず、実装方法はアイデア次第で色んなことができるので「この実装方法の方がクールだ」というのを見つけてみるのも面白そうですね。
 
 
 ## Ajax で Follow ボタンを実装する
 
-Rails チュートリアルでは、Follow・Unfollow ボタンの実装方法を２通り紹介してくれています。
+Rails チュートリアルでは、Follow・Unfollow ボタンの実装方法を２通り紹介してくれています。応用編として、**Ajax** を使った実装方法を紹介してくれているのが **「１４章 後編 １２. Followボタン ajax 実装編 」**です。
 
-![２通りのFollow・Unfollowボタンの実装方法](https://i.gyazo.com/ea72297dc80f47665ab7e50896a1f7d0.png)
+![２通りのFollow・Unfollowボタンの実装方法](https://i.gyazo.com/1578368916e0d3eb6ecbe00bc7c96756.png)
 
-応用編として、**Ajax** を使った実装方法を紹介してくれているのが **「１４章 後編 １２. Followボタン ajax 実装編 」**です。基礎編は、ボタンを押すと全HTMLが再読み込みされて、タブのところがクルクルするバージョンです。そうではなく、変更させたい部分だけを JavaScript の力を使ってさっと変えてあげるという技が Ajax です。
+変更させたい部分だけを JavaScript の力を使ってさっと変えてあげるという技が Ajax です。
 
-![Followボタンを押して変わる部分](https://i.gyazo.com/af43b3c0f0f2e4a4f367fa8809927fd1.png)
+![Followボタンを押して変わる部分](https://i.gyazo.com/f7b9832b38df6b54721accc65ef17165.png)
 
-🔼 Follow ボタンを押して、変わる部分は実は２箇所だけなんですね。（ Follow ボタンが Unfollow に、followers の数字が１増える ）その２箇所以外の HTML をわざわざ読み込み直す必要はないかも？というところからの解説です。
+🔼 Follow ボタンを押して、変わる部分はどこだろう？
 
-ここでは **「JavaScript は使う場所を吟味し、多用するべからず」**といった、テキスト版では触れられていない話が聞けます。一見、便利そうで色んなところで使いたくなる Ajax だけど、多用することで起こりうる様々な問題について考えた上でやらなくてはいけないという事が分かり、興味深い内容になっています。Ajax の実装方法も分かりやすく解説されてるので、詳しく知りたい方はぜひ聞いてみてください。
+ここでは **「JavaScript は使う場所を吟味し、多用するべからず」**といった、テキスト版では触れられていない話が聞けます。一見、便利そうで色んなところで使いたくなる Ajax だけど慎重に使うべきだという興味深い内容になっています。Ajax の実装方法も分かりやすく解説されてるので、詳しく知りたい方はぜひ聞いてみてください。
 
-![respond_toメソッド](https://i.gyazo.com/fcf1756d7771f515b8ea99e3f4380ffc.png)
-
-🔼その中で出てくる respond_to メソッドについては **「１４章 後編 ２０. 質問コーナー 」2:04:30〜** 付近でもかなり詳しく解説があるので、合わせて見てみると更に理解が深まると思います。
+その中で出てくる `respond_to` メソッドについては **「１４章 後編 ２０. 質問コーナー 」2:04:30〜** 付近でもかなり詳しく解説があるので、合わせて見てみると更に理解が深まると思います。
 
 ![.md実演](https://i.gyazo.com/7ada14e07d7237d620d9b56ced8d8424.png)
 
 .jsonや.mdを使った実際のブラウザ画面も見せてくれたりと、チュートリアルの内容にとどまらず様々なことが学べるのも解説動画のいいところですね。
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
@@ -758,18 +672,11 @@ Rails チュートリアルでは、Follow・Unfollow ボタンの実装方法�
 
 **「１４章 後編 １４. ステータスフィードを完成させる 」**から、最後の難関「ステータスフィード」の実装です。
 
-![ステータスフィードのモック](https://i.gyazo.com/00f6f3c1174a549b1b16b3130a8604ec.png)
+![ステータスフィードのモック](https://i.gyazo.com/046dfa1aedb5168a410807baf0d221e6.png)
 
 Twitterでいうタイムラインのようなものですね。この部分では「 SQL 」に触れられていて、結構難しく感じる方も多いと思います。
 
-![micropostsの和集合](https://i.gyazo.com/82e6185112475d4955e37eca06e528e7.png)
-
-🔼Ruby だけでも、タイムラインに載せたい投稿のデータは取ってこれるけど、どうしても複数行にまたがることになり、処理も複雑になってしまいます。そこで SQL を使うとどうなるか？というところの解説です。
-
-![SQLでmicropostsの和集合](https://i.gyazo.com/845e83aeea8915c3561fb61a2126b7c5.png)
-![SQL文](https://i.gyazo.com/fedd436a205940456dd53267bc8d9e28.png)
-
-🔼SQL は Ruby とは全く別の世界なので、専用の書き方があるようですね。
+![micropostsの和集合](https://i.gyazo.com/e7a13ae197b1459c8745f245518614d8.png)
 
 解説動画では SQL 文に初めて触れるという方でも分かりやすいように説明がありますが、[Rails チュートリアルの前提知識](https://railstutorial.jp/chapters/beginning?version=5.1#sec-prerequisites)の部分でもあるように、 Progate の「SQL コース」などで基礎的なところを学習しておくと、もっと楽に頭に入ってくると思います。
 
@@ -790,9 +697,21 @@ Twitterでいうタイムラインのようなものですね。この部分で�
 現場により近い具体的な説明を聞くことで、ぐっと知識が深まると思います。これからプログラミングを学んでいく方にはもちろん、更に知識の定着をはかってみたい方にもお勧めできる動画です。きっと見て下さった皆さんに、それぞれ色んな気付きがあると思います😊
 
 <div class="center">
-  <a href="https://railstutorial.jp/trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
-  <a href="https://railstutorial.jp/trial">Railsチュートリアル解説動画 - お試しプラン</a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial"><img alt="Railsチュートリアル解説動画 - お試しプラン" src="https://railstutorial.jp/images/trial/main-img.jpg" /></a>
+  <a href="https://railstutorial.jp/trial?utm_source=yasslab_trial">Railsチュートリアル解説動画 - お試しプラン</a>
   <br><br><br>
 </div>
 
-この解説動画が、皆さんの学習に役立てれば嬉しく思います。
+今回私は[「法人プラン」](https://railstutorial.jp/business)で動画を見させていただいたのですが、社員研修などで大いに役立ってくれそうだと思うので、ご紹介させていただきます。
+
+[![社員研修でお困りの方](https://i.gyazo.com/eadb118bde3242eabf4f69b500c6e05a.png)](https://railstutorial.jp/business)
+
+![ダッシュボード](https://i.gyazo.com/0134fcae7141e19e3c092e3c72988204.png)
+
+🔼こんな風にダッシュボードで簡単に管理ができ、全員分の動画を買うよりもコストがかからないので、研修にピッタリですね✨
+
+![メンバー一覧](https://i.gyazo.com/e767a457457ce4416f6c6982cce821d2.png)
+🔼（ダントツで見てるのが私です...!!）
+
+
+それでは最後まで本記事を見て頂き、ありがとうございました。Railsチュートリアル解説動画が、皆さんの学習のお役に立てれば嬉しく思います。
