@@ -23,7 +23,12 @@ lang:   ja
 	
         <h2 class="text-center mb-5" id="culture">YassLab 社の文化</h2>
         <p class="mb-4">YassLab 社ではコミュニティと共に成長できる継続的なカタチを大切にします。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
-        <p class="mb-4">CoderDojo Japan への開発支援はうまく回っているカタチの1つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いに価値を提供し合えるため無償で行なっています。</p>
+        <p class="mb-4">CoderDojo Japan への開発支援はうまく回っているカタチの1つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いの価値を交換し合うカタチで行なっています。</p>
+
+	<div class="text-center">
+	  <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community?slide=12"><img src="/img/cdj-and-yasslab.png" alt="開発支援パートナーの仕組み" width="70%" /></a>
+	  <p class="text-center" style="font-size: 80%">引用元: <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community">コミュニティと共に成長する</a> (スライド資料)</p>
+	</div>
 	
         <ol>
           <li>CoderDojo Japan: <a href="https://coderdojo.jp/kata">道場情報</a>や<a href="https://coderdojo.jp/stats">統計情報</a>など、Webサービスを通してコミュニティに価値を提供</li>
