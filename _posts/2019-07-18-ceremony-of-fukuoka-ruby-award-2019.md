@@ -33,11 +33,11 @@ permalink: /ja/posts/ceremony-of-fukuoka-ruby-award-2019
 
 ![AWS賞_表彰状](https://i.gyazo.com/7b337dfbfb29ebb337a1ac7faf3d2933.jpg)
 
-今回表彰を受けた事業『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』では、動画内で AWS が提供する Cloud9 や Amazon S3 を使ったライブコーディングも行われているので、今回の表彰をキッカケに AWS Japan 社とも協力的に動けたら良いなと考えています 😆
+今回表彰を受けた事業『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』では、動画内では AWS が提供する Cloud9 や Amazon S3 の解説もあるので、今回の表彰をキッカケに AWS Japan 社とも協力的に動けたら良いなと考えています 😆
 
 [![法人プラン](https://i.gyazo.com/2094f9ce9068c37c7344f60230787522.png)](https://railstutorial.jp/business)
 
-ちなみに隣のブースは新卒研修で『Railsチュートリアル法人プラン』をご活用して頂いたマネーフォワード社でした 🤝💖 法人プランを活用した新卒研修の内容は、マネーフォワード社の許諾を頂いた上で公開しているので、具体的な活用事例を知りたい方は次の記事をご参照ください。
+ちなみに隣のブースは社員研修で『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』をご活用して頂いたマネーフォワード社でした 🤝💖 法人プランを活用した社員研修の内容は、マネーフォワード社の許諾を頂いた上で公開しているので、具体的な活用事例を知りたい方は次の記事をご参照ください。
 
 🎓 法人向けサービス活用例：マネーフォワード様
 [https://yasslab.jp/ja/posts/learning-by-making](https://yasslab.jp/ja/posts/learning-by-making)
@@ -46,7 +46,7 @@ permalink: /ja/posts/ceremony-of-fukuoka-ruby-award-2019
 
 ## 最後に
 
-社内研修でRailsチュートリアルを使われている企業は多く、そういった方々が抱える課題を法人プランなどのサービスで解決していきたいと考えています。また、DIVE INTO CODE や CODE BASE、ポテパンキャンプなどの教育系事業の運営会社様とも協力しながら、Ruby コミュニティを学びの面から支えていきたいと考えています。
+社員研修でRailsチュートリアルを使われている企業は多く、そういった方々が抱える課題を法人プランなどのサービスで解決していきたいと考えています。また、DIVE INTO CODE や CODE BASE、ポテパンキャンプなどの教育系事業の運営会社様とも協力しながら、Ruby コミュニティを学びの面から支えていきたいと考えています。
 
 [![Partners](https://i.gyazo.com/bbe2bb9473134caa9abd7d3d652ba637.png)](https://railstutorial.jp/#partners)
 
