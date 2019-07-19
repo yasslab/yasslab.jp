@@ -140,7 +140,7 @@ lang:   ja
 	    <ul>
 	      <li><a href="https://github.com/coderdojo-japan/coderdojo.jp">coderdojo-japan/coderdojo.jp</a> (OSS)</li>
 	      <li><a href="https://github.com/coderdojo-japan/dojopaas">coderdojo-japan/dojopaas</a> (OSS)</li>
-	      <li>スライド: <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community">全国150ヶ所ある CoderDojo と企業が共創する世界 </a></li>
+	      <li>スライド: <a href="https://speakerdeck.com/yasslab/growing-up-together-with-community">全国180ヶ所ある CoderDojo と企業が共創する世界 </a></li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo">CoderDojo を支える Rails CMS の活用事例</a></li>
 	      <li id="flow">関連記事: <a href="https://yasslab.jp/ja/posts/coderdojo-japan-2018">開発目線で見る最近の CoderDojo Japan 2018 ☯️</a></li>
 	    </ul>
