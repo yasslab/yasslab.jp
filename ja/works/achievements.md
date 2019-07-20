@@ -39,7 +39,7 @@
 - 10月 2018年度の未踏ジュニア[最終成果報告会](https://www.watch.impress.co.jp/kodomo_it/news/1153935.html)を実施
 - 10月 [Scratch2018Tokyo](https://sites.google.com/view/scratch2018tokyo/home)に弊社安川がポスター発表枠で参加
 - 10月 [技術書典５](https://techbookfest.org/event/tbf05)に参加。YassLab社のブースを出展
-- 9月 [freee主催イベント](https://jobs.freee.co.jp/recruitblog/aboutus/freee_club_5/)で[コミュニティとの共創](https://speakerdeck.com/yasulab/growing-up-together-with-community)について発表
+- 9月 [freee主催イベント](https://jobs.freee.co.jp/recruitblog/aboutus/freee_club_5/)で[コミュニティとの共創](https://speakerdeck.com/yasslab/growing-up-together-with-community)について発表
 - 9月 工学院大学で[Railsチュートリアルの反転授業](http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2018/1J13/3H11.html)が開講
 - 9月 [Hack Club](https://hackclub.com/) 創業者 [Zach Latta](https://zachlatta.com/) と[共同イベント](https://case-shinjuku.com/2018/09/25/20622)を主催
 - 8月 [DojoCon Japan 2018](https://dojocon2018.coderdojo.jp/) にブロンズスポンサーとして協賛
