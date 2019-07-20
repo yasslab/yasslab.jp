@@ -102,7 +102,11 @@ lang:   ja
 	</div>
 	<div id="railstutorial"></div>
 
-	<h3 class="text-center mt-5 pt-5 mb-5"><a href="#railstutorial">1. Railsチュートリアルの自動更新</a></h3>
+	<h3 class="text-center mt-5 pt-5 mb-5">
+	  <a href="#railstutorial">1. Railsチュートリアルの自動更新</a>
+	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/header-tutorial.png" /></a></div>
+	</h3>
+	
 	<ul>
 	  <li>開発目的: <a href="https://railstutorial.jp/">Railsチュートリアル</a>の品質を保ちつつ、なるべく低コストで更新したい</li>
 	  <li>使用技術: Ruby, Rails, LaTeX, <a href="https://github.com/softcover/softcover">softcover</a>, Heroku</li>
@@ -116,7 +120,10 @@ lang:   ja
 	  </li>
 	</ul>
 
-	<h3 class="text-center mt-5 pt-5 mb-5"><a href="#railsguides">2. Railsガイドの自動更新</a></h3>
+	<h3 class="text-center mt-5 pt-5 mb-5">
+	  <a href="#railsguides">2. Railsガイドの自動更新</a>
+	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/header-guides.png" /></a></div>
+	</h3>
 	<ul>
 	  <li>開発目的: <a href="https://railsguides.jp/">Railsガイド</a>の品質を保ちつつ、なるべく低コストで更新したい</li>
 	  <li>使用技術: Ruby, Rails, Jekyll, <a href="https://github.com/kmuto/review">Re:VIEW</a>, Heroku</li>
@@ -132,7 +139,10 @@ lang:   ja
 	  </li>
 	</ul>
 
-	<h3 class="text-center mt-5 pt-5 mb-5"><a href="#coderdojo">3. CoderDojo Japan の開発</a></h3>
+	<h3 class="text-center mt-5 pt-5 mb-5">
+	  <a href="#coderdojo">3. CoderDojo Japan の開発</a>
+	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/header-coderdojo.png" /></a></div>
+	</h3>
 	<ul>
 	  <li>開発目的: 全国の <a href="https://coderdojo.jp/">CoderDojo コミュニティ</a>の活動をテクノロジーで支援したい</li>
 	  <li>使用技術: Ruby, Rails, DB設計, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), Haml, Heroku</li>
@@ -140,7 +150,7 @@ lang:   ja
 	    <ul>
 	      <li><a href="https://github.com/coderdojo-japan/coderdojo.jp">coderdojo-japan/coderdojo.jp</a> (OSS)</li>
 	      <li><a href="https://github.com/coderdojo-japan/dojopaas">coderdojo-japan/dojopaas</a> (OSS)</li>
-	      <li>スライド: <a href="https://speakerdeck.com/yasslab/growing-up-together-with-community">全国180ヶ所ある CoderDojo と企業が共創する世界 </a></li>
+	      <li>スライド: <a href="https://speakerdeck.com/yasslab/growing-up-together-with-community">全国180ヶ所ある CoderDojo と企業が共創する世界</a></li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo">CoderDojo を支える Rails CMS の活用事例</a></li>
 	      <li id="flow">関連記事: <a href="https://yasslab.jp/ja/posts/coderdojo-japan-2018">開発目線で見る最近の CoderDojo Japan 2018 ☯️</a></li>
 	    </ul>
