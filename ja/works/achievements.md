@@ -187,7 +187,7 @@
 - 3月 [沖縄Ruby会議01](http://ruby.okinawa/okrk01/) を開催。安川が実行委員長を努め、Ruby開発者のまつもとゆきひろ氏をゲストとして招聘
 - 3月 [レキサスアカデミー第3期 最終成果報告会](http://blog.lexues.co.jp/19489.html)を実施
 - **2月 弊社安川が修士論文『[Project Based Learning using Visual Bucket List](http://www.snapwhim.com/)』を早稲田大学に提出し、修士号を取得**
-- 2月 [第6回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/21?locale=ja)にて[優秀賞を受賞](https://www.facebook.com/photo.php?fbid=10151944131640869&set=a.10150840241290869&type=3&theater)
+- 2月 [第6回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/21?locale=ja)にて[優秀賞を受賞](http://www.digitalfukuoka.jp/event_reports/12)
 
 
 
