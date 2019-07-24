@@ -12,6 +12,16 @@ permalink: /ja/posts/feature-request-form
 
 YassLab 社が開発・運営している『[Railsチュートリアル 法人プラン](https://railstutorial.jp/business)』『[Railsガイド Proプラン](https://railsguides.jp/pro)』『[Railsガイド Teamプラン](https://railsguides.jp/team)』にフィードバック機能が追加され、これまでよりも気軽にご意見をいただけるようになりました 🎉
 
+## 📤 Railsチュートリアルの場合
+
+Railsチュートリアルの[法人プラン](https://railstutorial.jp/business)の場合は、管理者画面のダッシュボード下部に設置してあります。「こんな機能が欲しい」「こういった課題を解決したい」などのコメントがあれば遠慮なくお知らせください。
+
+![法人プランDashboard](https://i.gyazo.com/3fb1c7af374329d7e1bff8855db6699e.png)
+
+<div style="text-align: center; padding-bottom: 30px;"><b>・・・</b></div>
+
+![法人プランfeedback](https://i.gyazo.com/14b86d7e4002e5b482bad68677612004.png)
+
 ## 📤 Railsガイドの場合
 
 Railsガイドの[Proプラン](https://railsguides.jp/pro)の場合は、画面右上からメニューを開き、マイページに移動します。
@@ -26,12 +36,6 @@ Railsガイドの[Proプラン](https://railsguides.jp/pro)の場合は、画面
 
 ![Teamプランfeedback](https://i.gyazo.com/9328af247c91e33708da81e3ac76fd1e.png)
 
-
-## 📤 Railsチュートリアルの場合
-
-Railsチュートリアルの[法人プラン](https://railstutorial.jp/business)の場合は、管理者画面のダッシュボード下部に設置してあります。「こんな機能が欲しい」「こういった課題を解決したい」などのコメントがあれば遠慮なくお知らせください。
-
-![法人プランfeedback](https://i.gyazo.com/c0fee1f709ca124d45559ebba7f972fc.png)
 
 ## 💌 ご意見お待ちしております
 
