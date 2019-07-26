@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🏆 AWS 賞の表彰式に参加しました
+title:  🏆 Railsチュートリアル法人プランがAWS賞を受賞
 thumbnail: https://i.gyazo.com/0759b0f6faedde8b35e586d5ac6e7e10.jpg
 author: yasulab
 categories: [blog]
@@ -8,7 +8,17 @@ tags: [登壇, Rails]
 permalink: /ja/posts/ceremony-of-fukuoka-ruby-award-2019
 ---
 
-2019年7月17日に西鉄グランドホテルで [FUKUOKA Ruby Award 2019](http://www.digitalfukuoka.jp/events/185) の表彰式に参加してきました! ✈️💎✨
+YassLab 株式会社が提供する『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』を使った[Railsチュートリアル × 反転学習](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails)の取り組みが[第11回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/184)でAWS賞を受賞しました! 🏆
+
+![Fukuoka Ruby Award 2019](/img/posts/fukuoka-ruby-award-2019-photo.jpg)
+
+![AWS Award at Fukuoka Ruby Award 2019](/img/posts/fukuoka-ruby-award-2019-aws.jpg)
+
+フクオカRuby大賞の本審査 (10分間のプレゼンテーション、5分間の質疑応答) で使われたスライド資料は下記から公開しております。
+
+<script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script><br>
+
+また、2019年7月には西鉄グランドホテルで [FUKUOKA Ruby Award 2019](http://www.digitalfukuoka.jp/events/185) の表彰式も行われました ️💎✨
 
 <div class="center" style="margin-bottom: 100px;" align="center">
   <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">✈️🍜💎✨ <a href="https://twitter.com/hashtag/%E7%A6%8F%E5%B2%A1?src=hash&amp;ref_src=twsrc%5Etfw">#福岡</a>  <a href="https://twitter.com/hashtag/Ruby?src=hash&amp;ref_src=twsrc%5Etfw">#Ruby</a> <a href="https://t.co/mLmqzltYGs">pic.twitter.com/mLmqzltYGs</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1151052961843466240?ref_src=twsrc%5Etfw">July 16, 2019</a></blockquote>
@@ -33,7 +43,7 @@ permalink: /ja/posts/ceremony-of-fukuoka-ruby-award-2019
 
 ![AWS賞_表彰状](https://i.gyazo.com/7b337dfbfb29ebb337a1ac7faf3d2933.jpg)
 
-今回表彰を受けた事業『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』では、動画内では AWS が提供する Cloud9 や Amazon S3 の解説もあるので、今回の表彰をキッカケに AWS Japan 社とも協力的に動けたら良いなと考えています 😆
+今回表彰を受けた事業『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』では、動画内で AWS が提供する Cloud9 や Amazon S3 の解説もあるので、今回の表彰をキッカケに AWS Japan 社とも協力的に動けたら良いなと考えています 😆
 
 [![法人プラン](https://i.gyazo.com/2094f9ce9068c37c7344f60230787522.png)](https://railstutorial.jp/business)
 
