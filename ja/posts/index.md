@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  📜 ブログ記事まとめ
+title:  📜 お知らせ
 thumbnail: bg-sky.jpg
 ---
 
