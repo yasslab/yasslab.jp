@@ -6,7 +6,8 @@ use Rack::Rewrite do
   if ENV['RACK_ENV'] == 'production'
     r301 %r{.*}, 'https://yasslab.jp$&', scheme: 'http'
     r301 %r{.*}, 'https://yasslab.jp$&', if: Proc.new {|rack_env|
-      rack_env['SERVER_NAME'] != 'yasslab.jp'
+      rack_env['SERVER_NAME'] != 'yasslab.jp' &&
+      rack_env['SERVER_NAME'] !~ /yasslab-jp-pr-(\d+)\.herokuapp\.com/
     }
   end
 end
