@@ -1,61 +1,73 @@
 ---
 layout: post
-title:  💰 解説動画の決済システムを Gumroad から Stripe へ変更しました
+title:  💳 解説動画のカード決済がシンプルになりました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
-tags: [登壇, Rails]
+tags: [Railsチュートリアル, Stripe, Gumroad]
 permalink: /ja/posts/change-payment-system-to-stripe
 ---
 
-Railsチュートリアル解説動画の決済システムが 2019年8月1日より、これまでの Gumroad から Stripe に切り替わります 🎉購入までの流れは今までとほぼ変わりありませんが、決済先のURLが変更となります。Gumroad の仕様上、購入時に入力しなければならかった入力項目が減るなど以前よりも購入するまでのアクション数が減ったことで、よりユーザーに寄り添ったシステムになりました✨
+Railsチュートリアル解説動画の決済システムが2019年8月1日より Gumroad から Stripe に切り替わりました 🎉
+
+Gumroad の仕様上、これまでの決済システムでは購入時に所在地などを入力する必要がありました。Stripe を使った新しい決済システムでは、そういった皆様の大切な個人情報を渡すことなく、メールアドレスとクレジットカードのみ (デビットカードでも可) で決済できるようになりました 💳✨
 
 <div class="center">
   <a href="https://railstutorial.jp/screencast"><img alt="Railsチュートリアル解説動画" src="https://i.gyazo.com/23546677545e3d1573625baca121b004.png" /></a>
   <a href="https://railstutorial.jp/screencast">
-    <h5 style="margin-top: 20px;">🆕解説動画購入ページ</h5>
+    <h5 style="margin-top: 20px;">🆕 解説動画購入ページ</h5>
   </a>
   <br><br><br>
 </div>
 
 ## 以前からの構想を実現
 
-これまでに、[Railsチュートリアル『法人プラン』](https://railstutorial.jp/business)や、[Railsガイド『Proプラン』](https://railsguides.jp/pro)などの様々な決済を Stripe で実装してきており、知見も増えてきたことから「コードは増えるが、柔軟に対応できるシステムを作りたい」を解説動画でも実現させました。
+YassLab 社が提供する新しいサービス『[法人プラン](https://railstutorial.jp/business)』『[Proプラン](https://railsguides.jp/pro)』『[Teamプラン](https://railsguides.jp/pro)』はすべて Stripe に移行しており、ようやく、[古くから動いている Gumroad の決済システム](https://qiita.com/yasulab/items/63cb3dea01ebc89fa81c)も移行できる体制になりました。
 
-![stripeを使った決済図](https://i.gyazo.com/9e00e666211666f177e9fabf384f18ae.png)
-<div class="center">
-  <a href="https://speakerdeck.com/yasulab/case-studies-of-rails-applications">よりユーザーに寄り添ったシステムに</a>
+[![Stripeを使った決済システム](https://i.gyazo.com/f5bbd1c240a7b10a96998fe1abeabc6d.jpg)](https://speakerdeck.com/yasulab/case-studies-of-rails-applications?slide=25)
+<div class="center" style="margin-top: -20px;">
+  📜 引用元: <a href="https://speakerdeck.com/yasulab/case-studies-of-rails-applications">プロダクトの成長と決済システム</a>
 </div>
 
 <br>
 
-## 動画購入がより分かりやすく
+## より分かりやすい購入フロー
 
-- 図解を入れることで動画購入方法が分かりやすくなりました✨
+これまででは特定のタグのみしか使えなかったためテキストが多かったですが、新しい購入ページでは CSS や JavaScript が使えるため、より分かりやすく、改善しやすい体制になりました ♻️🔧✨
 
-![視聴までの流れ](https://i.gyazo.com/0213e06d6793f0878cc42bbb64b209b0.png)
-
------
-<br>
-
-- 購入するまでのアクション数が減りました💓
-
-![Gumroad視聴までの流れ](https://i.gyazo.com/c5bc271cd1f16dc30b41f1d76c91a1e8.png)
+![CSS例: Three-block photos](https://i.gyazo.com/627cf8f1b32a791132d1cf18a5e45da5.png)
+<div class="center" style="margin-top: -30px;">図: CSS を使ったレイアウトの例</div>
 
 <br>
-- Gumroad の仕様上、購入時に入力しなければならかった項目が減りました ✂️
 
-![不要になった入力](https://i.gyazo.com/9a65faf313165b27036110a76b34aa54.png)
+![JS例: よくある質問](https://i.gyazo.com/a1d4c5405a2a11c47656cc8bae03ecd0.png)
+<div class="center" style="margin-top: -30px;">図: JavaScript を使ってスクロールを最小限に</div>
 
-## 参考
+<br>
 
-いかがでしたでしょうか？ 興味がある方は Gumroad から Stripe に切り替えた具体的な背景が分かる、弊社の「プロダクトの成長と決済システム」についてまとめたスライドもご覧下さい。
+## アクション数が減りました 💓
+
+上記に加え、「数量」や「住所」などの不要な入力欄もすべて削除しました。
+
+![数量は不要](https://i.gyazo.com/c5bc271cd1f16dc30b41f1d76c91a1e8.png)
+<div class="center" style="margin-top: -30px;">図: 「数量」は<a href="https://railstutorial.jp/business">法人プラン</a>で解決したため不要</div>
+
+<br>
+
+![郵便番号も不要](https://i.gyazo.com/9a65faf313165b27036110a76b34aa54.png)
+<div class="center" style="margin-top: -30px;">図: 「住所」も Stripe に移行したため不要</div>
+
+<br>
+
+## まとめ
+
+いかがでしたでしょうか？ 興味がある方は Gumroad から Stripe に切り替えた背景を説明したスライド資料「[プロダクトの成長と決済システム](https://speakerdeck.com/yasulab/case-studies-of-rails-applications)」をご参照ください。
 
 <div style="margin-bottom: 80px;">
   <script async class="speakerdeck-embed" data-id="30289234a2f743b6b2827602cfbc5991" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-先日の[第11回フクオカRuby大賞でAWS賞を受賞](https://yasslab.jp/ja/posts/ceremony-of-fukuoka-ruby-award-2019)した『Railsチュートリアル法人プラン』でも使われている当解説動画をぜひご視聴いただければ嬉しく思います。
+先日の[第11回フクオカRuby大賞でAWS賞を受賞](https://yasslab.jp/ja/posts/ceremony-of-fukuoka-ruby-award-2019)した『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』でも使われている当解説動画をぜひご視聴いただければ嬉しく思います。
 
 [https://railstutorial.jp/screencast](https://railstutorial.jp/screencast) 解説動画-Railsチュートリアル
 
