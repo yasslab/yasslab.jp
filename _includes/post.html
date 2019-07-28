@@ -1,4 +1,5 @@
-{% if post.date > site.time && jekyll.environment != "production" %}
+{% if post.date > site.time %}
+{% if jekyll.environment != "production" %}
 <li style="padding-top: 7px;">
   <small style="background: darkorange; color: white; border-radius: 4px;
 		padding: 2px 3px; font-size: 60%"><b>{{ post.date | date: "%m/%d" }}</b></small>
@@ -8,6 +9,7 @@
     </a>
   </span>
 </li>
+{% endif %}
 {% else %}
 <li style="padding-top: 7px;">
   <small style="background: royalblue; color: white; border-radius: 4px;
