@@ -102,6 +102,7 @@ build/
 _site/
 vendor/
 .jekyll-cache/
+.jekyll-metadata
 
 ## phpstorm
 

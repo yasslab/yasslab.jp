@@ -81,3 +81,7 @@ exclude:
   - test
   - spec
   - .jekyll-cache
+
+# Enable Incremental Regeneration feature (experimental)
+# https://jekyllrb.com/docs/configuration/incremental-regeneration/
+incremental: true
