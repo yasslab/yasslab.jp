@@ -20,5 +20,9 @@
     ],
     "scripts": {
 	"postdeploy": "npm run css"
+    },
+    "env": {
+	"JEKYLL_ENV": "staging",
+	"RACK_ENV":   "staging"
     }
 }
