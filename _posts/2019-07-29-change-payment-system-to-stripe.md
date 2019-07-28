@@ -12,12 +12,8 @@ Railsチュートリアル解説動画の決済システムが2019年8月1日よ
 
 Gumroad の仕様上、これまでの決済システムでは購入時に所在地などを入力する必要がありました。Stripe を使った新しい決済システムでは、そういった皆様の大切な個人情報を渡すことなく、メールアドレスとクレジットカードのみ (デビットカードでも可) で決済できるようになりました 💳✨
 
-<div class="center">
-  <a href="https://railstutorial.jp/screencast"><img alt="Railsチュートリアル解説動画" src="https://i.gyazo.com/23546677545e3d1573625baca121b004.png" /></a>
-  <a href="https://railstutorial.jp/screencast">
-    <h5 style="margin-top: 20px;">🆕 解説動画購入ページ</h5>
-  </a>
-  <br><br><br>
+<div class="center" style="margin-bottom: 50px;">
+  <a href="https://railstutorial.jp/screencast"><img alt="Railsチュートリアル解説動画" src="https://i.gyazo.com/4c8a535a801c8cc5b275343aa98f79e1.png" /></a>
 </div>
 
 ## 以前からの構想を実現
