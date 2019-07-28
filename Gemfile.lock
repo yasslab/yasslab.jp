@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/jekyll/jekyll.git
+  remote: git://github.com/jekyll/jekyll.git
   revision: 0f4b7be88ddd39593c226486f056f7402e75299c
   specs:
     jekyll (4.0.0.pre.alpha1)
