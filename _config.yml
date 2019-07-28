@@ -49,7 +49,6 @@ frogs:         "[Ryukyufrogs](https://www.ryukyu-frogs.com)"
 
 highlighter: rouge
 markdown: kramdown
-
 kramdown:
   auto_ids      : true
   autolink      : true
