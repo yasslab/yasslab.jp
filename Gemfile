@@ -1,8 +1,10 @@
 source 'http://rubygems.org'
 ruby '2.6.3'
 
+gem "jekyll", github: "jekyll/jekyll"
+gem "liquid-c"
+
 gem 'redcarpet'
-gem 'jekyll'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'rspec'
@@ -24,6 +26,7 @@ group :jekyll_plugins do
   gem "jekyll-coffeescript"
   gem "jekyll-assets"
   gem 'jekyll-feed'
+  gem "jekyll-include-cache"
   gem 'qiita'
 end
 

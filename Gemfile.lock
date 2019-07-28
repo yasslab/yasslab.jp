@@ -1,3 +1,22 @@
+GIT
+  remote: git://github.com/jekyll/jekyll.git
+  revision: 0f4b7be88ddd39593c226486f056f7402e75299c
+  specs:
+    jekyll (4.0.0.pre.alpha1)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      em-websocket (~> 0.5)
+      i18n (>= 0.9.5, < 2)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 2.0)
+      kramdown (~> 2.1)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 4.0)
+      mercenary (~> 0.3.3)
+      pathutil (~> 0.9)
+      rouge (~> 3.0)
+      safe_yaml (~> 1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -28,15 +47,15 @@ GEM
       ffi (>= 1.3.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
-    extras (0.3.0)
-      forwardable-extended (~> 2.5)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.13.1)
       faraday (>= 0.7.4, < 1.0)
-    fastimage (2.1.5)
+    fastimage (1.8.1)
+      addressable (~> 2.3, >= 2.3.5)
     ffi (1.11.1)
     forwardable-extended (2.6.0)
+    hike (1.2.3)
     html-proofer (3.11.1)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
@@ -49,32 +68,16 @@ GEM
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     http_parser.rb (0.6.0)
-    i18n (0.9.5)
+    i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.6)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      em-websocket (~> 0.5)
-      i18n (~> 0.7)
-      jekyll-sass-converter (~> 1.0)
-      jekyll-watch (~> 2.0)
-      kramdown (~> 1.14)
-      liquid (~> 4.0)
-      mercenary (~> 0.3.3)
-      pathutil (~> 0.9)
-      rouge (>= 1.7, < 4)
-      safe_yaml (~> 1.0)
-    jekyll-assets (3.0.12)
-      activesupport (~> 5.0)
-      execjs (~> 2.7)
-      extras (~> 0.2)
-      fastimage (~> 2.0, >= 1.8)
-      jekyll (>= 3.5, < 4.0)
-      jekyll-sanity (~> 1.2)
-      liquid-tag-parser (~> 1.0)
-      nokogiri (~> 1.8)
-      pathutil (~> 0.16)
-      sprockets (>= 3.3, < 4.1.beta)
+    jekyll-assets (1.0.0)
+      fastimage (~> 1.6)
+      jekyll (>= 2)
+      mini_magick (~> 4.1)
+      sass (~> 3.2)
+      sprockets (~> 2.10)
+      sprockets-helpers
+      sprockets-sass
     jekyll-coffeescript (1.2.2)
       coffee-script (~> 2.2)
       coffee-script-source (~> 1.12)
@@ -82,17 +85,18 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
-    jekyll-sanity (1.2.0)
-      jekyll (~> 3.1)
+    jekyll-include-cache (0.2.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (1.17.0)
+    kramdown (2.1.0)
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     liquid (4.0.3)
-    liquid-tag-parser (1.9.0)
-      extras (~> 0.3)
-      liquid (>= 3.0, < 5.0)
+    liquid-c (4.0.0)
+      liquid (>= 3.0.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -111,8 +115,10 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.0331)
+    mini_magick (4.9.5)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
+    multi_json (1.13.1)
     multipart-post (2.1.1)
     net-http-digest_auth (1.4.1)
     net-http-persistent (3.1.0)
@@ -143,12 +149,13 @@ GEM
       rainbow
       rouge
       slop (< 4.0.0)
-    rack (2.0.7)
-    rack-contrib (2.1.0)
-      rack (~> 2.0)
-    rack-jekyll (0.3.5)
-      jekyll
-      rack
+    rack (1.6.11)
+    rack-contrib (1.8.0)
+      rack (~> 1.4)
+    rack-jekyll (0.5.0)
+      jekyll (>= 1.3)
+      listen (>= 1.3)
+      rack (~> 1.5)
     rack-rewrite (1.5.1)
     rainbow (3.0.0)
     rake (12.3.3)
@@ -181,10 +188,18 @@ GEM
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
     slop (3.6.0)
-    sprockets (3.7.2)
-      concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
+    sprockets (2.12.5)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-helpers (1.2.1)
+      sprockets (>= 2.2)
+    sprockets-sass (1.3.1)
+      sprockets (~> 2.0)
+      tilt (~> 1.1)
     thread_safe (0.3.6)
+    tilt (1.4.1)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
@@ -201,11 +216,13 @@ PLATFORMS
 DEPENDENCIES
   acme_challenge
   html-proofer
-  jekyll
+  jekyll!
   jekyll-assets
   jekyll-coffeescript
   jekyll-feed
   jekyll-gist
+  jekyll-include-cache
+  liquid-c
   mechanize
   pry-byebug
   puma

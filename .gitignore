@@ -101,6 +101,7 @@ build/
 
 _site/
 vendor/
+.jekyll-cache/
 
 ## phpstorm
 
