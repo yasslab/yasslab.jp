@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 ruby '2.6.3'
 
 gem 'redcarpet'
-gem 'jekyll'
+gem "jekyll", github: "jekyll/jekyll"
 gem 'rack-jekyll'
 gem 'rake'
 gem 'rspec'
