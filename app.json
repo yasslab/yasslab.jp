@@ -1,13 +1,24 @@
 {
     "name": "YassLab Inc. | We support Ruby/Rails Web Development, Education, and OpenSource.",
-    "description": "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource.",
-  "keywords": [
-    "Ruby",
-    "Rails",
-    "Remote Work",
-    "OpenSource",
-    "Web Development"
-  ],
-  "repository": "https://github.com/yasslab/yasslab.jp",
-  "success_url": "/"
+    "description": "Settings for Heroku Review Apps on yasslab.jp: 100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource.",
+    "keywords": [
+	"Ruby",
+	"Rails",
+	"Remote Work",
+	"OpenSource",
+	"Web Development"
+    ],
+    "repository": "https://github.com/yasslab/yasslab.jp",
+    "success_url": "/",
+    "buildpacks": [
+	{
+	    "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+	},
+	{
+	    "url": "https://github.com/heroku/heroku-buildpack-ruby"
+	}
+    ],
+    "scripts": {
+	"postdeploy": "npm run css"
+    }
 }
