@@ -1,5 +1,14 @@
-{% if post.date > site.time %}
+{% comment %}
+  Scheduled posts are published at 8:00am
+  // 8hours * 60secs * 60mins = 28800secs
+{% endcomment %}
+
+{% assign current_time = site.time | date: '%s' | to_integer %}
+{% assign published_at = post.date | date: '%s' | to_integer | plus: 28800 %}
+
+{% if published_at > current_time %}
 {% if jekyll.environment != "production" %}
+
 <li style="padding-top: 7px;">
   <small style="background: darkorange; color: white; border-radius: 4px;
 		padding: 2px 3px; font-size: 60%"><b>{{ post.date | date: "%m/%d" }}</b></small>
