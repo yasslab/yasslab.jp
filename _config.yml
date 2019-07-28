@@ -80,4 +80,4 @@ exclude:
   - app.json
   - test
   - spec
-
+  - .jekyll-cache
