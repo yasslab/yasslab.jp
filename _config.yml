@@ -84,4 +84,7 @@ exclude:
 
 # Enable Incremental Regeneration feature (experimental)
 # https://jekyllrb.com/docs/configuration/incremental-regeneration/
-incremental: true
+#
+# Disabled; needed to rebuild all pages to show future posts.
+# But you can enable this feature by adding '--incremental' option.
+incremental: false
