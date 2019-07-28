@@ -67,6 +67,7 @@ plugins:
   - jekyll-coffeescript
   - jekyll-assets
   - jekyll-feed
+  - jekyll-include-cache
   - qiita
 
 exclude:

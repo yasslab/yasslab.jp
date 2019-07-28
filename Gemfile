@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem "jekyll-coffeescript"
   gem "jekyll-assets"
   gem 'jekyll-feed'
+  gem "jekyll-include-cache"
   gem 'qiita'
 end
 
