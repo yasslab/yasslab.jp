@@ -1,6 +1,7 @@
 {% comment %}
   Scheduled posts are published at 8:00am
   // 8hours * 60secs * 60mins = 28800secs
+  NOTE: Heroku Scheduler starts building at every 8am.
 {% endcomment %}
 
 {% assign current_time = site.time | date: '%s' | to_integer %}
