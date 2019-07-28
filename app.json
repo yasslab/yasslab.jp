@@ -23,6 +23,9 @@
     },
     "env": {
 	"JEKYLL_ENV": "staging",
-	"RACK_ENV":   "staging"
+	"RACK_ENV":   "staging",
+	"TZ": {
+	    "required": true
+	}
     }
 }
