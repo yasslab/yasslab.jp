@@ -7,26 +7,26 @@
 {% assign published_at = post.date | date: '%s' | to_integer | plus: 28800 %}
 
 {% if published_at > current_time %}
-{% if jekyll.environment != "production" %}
-
-<li style="padding-top: 7px;">
-  <small style="background: darkorange; color: white; border-radius: 4px;
-		padding: 2px 3px; font-size: 60%"><b>{{ post.date | date: "%m/%d" }}</b></small>
-  <span class="h5">
-    <a href="{{ post.url }}" data-proofer-ignore>
-      {{ post.title }}
-    </a>
-  </span>
-</li>
-{% endif %}
+  {% if jekyll.environment != "production" %}
+  <!-- Show scheduled posts in Dev/Staging (Review Apps) but not in Production-->
+  <li style="padding-top: 7px;">
+    <small style="background: darkorange; color: white; border-radius: 4px;
+		  padding: 2px 3px; font-size: 60%"><b>{{ post.date | date: "%m/%d" }}</b></small>
+    <span class="h5">
+      <a href="{{ post.url }}" data-proofer-ignore>
+	{{ post.title }}
+      </a>
+    </span>
+  </li>
+  {% endif %}
 {% else %}
-<li style="padding-top: 7px;">
-  <small style="background: royalblue; color: white; border-radius: 4px;
-		padding: 2px 3px; font-size: 60%"><b>{{ post.date | date: "%m/%d" }}</b></small>
-  <span class="h5">
-    <a href="{{ post.url }}" data-proofer-ignore>
-      {{ post.title }}
-    </a>
-  </span>
-</li>
+  <li style="padding-top: 7px;">
+    <small style="background: royalblue; color: white; border-radius: 4px;
+		  padding: 2px 3px; font-size: 60%"><b>{{ post.date | date: "%m/%d" }}</b></small>
+    <span class="h5">
+      <a href="{{ post.url }}" data-proofer-ignore>
+	{{ post.title }}
+      </a>
+    </span>
+  </li>
 {% endif %}
