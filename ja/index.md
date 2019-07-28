@@ -204,7 +204,7 @@ lang:   ja
             <dt class="col-md-6">スター数</dt>
             <dd id="github__stars" class="col-md-6">408</dd>
           </dl>
-	  <div id="posts"></div>
+	  <div id="news"></div>
         </div>
       </div>
     </div>
