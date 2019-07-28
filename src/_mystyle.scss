@@ -838,3 +838,11 @@ table.caption{
      padding-top: 12px;
   }
 }
+
+/* micro clearfx */
+.cf:before, .cf:after {
+    content:"";
+    display:table
+}
+.cf:after { clear:both }
+.cf { zoom:1 } /* For IE 6/7 */

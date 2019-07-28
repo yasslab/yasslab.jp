@@ -1,3 +1,4 @@
 <div class="cardMember__thumbnail" style="margin-top: 5px;">
-  書いた人: <a href="https://twitter.com/{{ page.author }}"><img width="50px" src="/img/photos/{{ page.author }}.jpg" alt="{{ page.author }}" class="rounded-circle"></a>
+  {% if include.show_caption %} 書いた人: {% endif %}
+  <a href="https://twitter.com/{{ page.author }}"><img width="50px" src="/img/photos/{{ page.author }}.jpg" alt="{{ page.author }}" class="rounded-circle"></a>
 </div>
