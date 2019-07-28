@@ -1,4 +1,11 @@
 source 'http://rubygems.org'
+
+# Replace 'git' with 'https' protocol
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
+
 ruby '2.6.3'
 
 gem "jekyll", github: "jekyll/jekyll"
