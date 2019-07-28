@@ -1,4 +1,14 @@
 <div class="cardMember__thumbnail" style="margin-top: 5px;">
   {% if include.show_caption %} 書いた人: {% endif %}
-  <a href="https://twitter.com/{{ page.author }}"><img width="50px" src="/img/photos/{{ page.author }}.jpg" alt="{{ page.author }}" class="rounded-circle"></a>
+  <a href="https://twitter.com/{{ page.author }}"
+     style="text-decoration: none;">
+    <img
+     class="rounded-circle" width="{{ include.width | default: 50 }}px"
+     alt="{{ page.author }}" src="/img/photos/{{ page.author }}.jpg">
+  </a>
+  
+  {% if include.show_screenname %}
+  <a href="https://twitter.com/{{ page.author }}"
+     style="text-decoration: none; color: #333333;">@{{ page.author }}</a>
+  {% endif %}
 </div>
