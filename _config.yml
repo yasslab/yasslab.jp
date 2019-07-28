@@ -35,6 +35,8 @@ destination: ./_site
 timezone: Asia/Tokyo
 encoding: utf-8
 
+## Show upcoming posts in development
+future: true
 excerpt_separator: "続きを読む"
 
 ## Global Vars to generate links
