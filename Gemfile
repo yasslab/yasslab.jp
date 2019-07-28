@@ -1,8 +1,10 @@
 source 'http://rubygems.org'
 ruby '2.6.3'
 
-gem 'redcarpet'
 gem "jekyll", github: "jekyll/jekyll"
+gem "liquid-c"
+
+gem 'redcarpet'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'rspec'

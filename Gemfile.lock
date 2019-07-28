@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/jekyll/jekyll.git
+  remote: https://github.com/jekyll/jekyll.git
   revision: 0f4b7be88ddd39593c226486f056f7402e75299c
   specs:
     jekyll (4.0.0.pre.alpha1)
@@ -93,6 +93,8 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
+    liquid-c (4.0.0)
+      liquid (>= 3.0.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -217,6 +219,7 @@ DEPENDENCIES
   jekyll-coffeescript
   jekyll-feed
   jekyll-gist
+  liquid-c
   mechanize
   pry-byebug
   puma
