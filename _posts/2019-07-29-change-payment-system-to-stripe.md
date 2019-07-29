@@ -8,9 +8,9 @@ tags: [Railsチュートリアル, Stripe, Gumroad]
 permalink: /ja/posts/change-payment-system-to-stripe
 ---
 
-Railsチュートリアル解説動画の決済システムが2019年8月1日より Gumroad から Stripe に切り替わりました 🎉
+Railsチュートリアル解説動画の決済システムが Gumroad から Stripe に切り替わり、必要最低限の情報でカード決済ができるようになりました 🎉
 
-Gumroad の仕様上、これまでの決済システムでは購入時に所在地などを入力する必要がありました。Stripe を使った新しい決済システムでは、そういった皆様の大切な個人情報を渡すことなく、メールアドレスとクレジットカードのみ (デビットカードでも可) で決済できるようになりました 💳✨
+Gumroad の仕様上、これまでの決済システムでは購入時に所在地などを入力する必要がありました。Stripe を使った新しい決済システムでは、そういった皆様の大切な個人情報を共有することなく、メールアドレスとクレジットカードのみ (デビットカードでも可) で決済できるようになります 💳✨
 
 <div class="center" style="margin-bottom: 50px;">
   <a href="https://railstutorial.jp/screencast"><img alt="Railsチュートリアル解説動画" src="https://i.gyazo.com/4c8a535a801c8cc5b275343aa98f79e1.png" /></a>
