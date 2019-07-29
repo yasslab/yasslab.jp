@@ -1,11 +1,11 @@
 {% comment %}
   Scheduled posts are published at 8:00am
-  // 8hours * 60secs * 60mins = 28800secs
-  NOTE: Heroku Scheduler starts building at every 8am.
+  // 9hours * 60secs * 60mins = 32400secs
+  // Rebuilding at every 9am by Heroku Scheduler
 {% endcomment %}
 
 {% assign current_time = site.time | date: '%s' | to_integer %}
-{% assign published_at = post.date | date: '%s' | to_integer | plus: 28800 %}
+{% assign published_at = post.date | date: '%s' | to_integer | plus: 32400 %}
 
 {% if published_at > current_time %}
   {% if jekyll.environment != "production" %}
