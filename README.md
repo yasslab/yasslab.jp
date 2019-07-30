@@ -12,7 +12,7 @@ https://yasslab.jp/
 ローカルで開発・デザインをする場合は、次の２つが必要です。
 
 1. Jekyll (必須)
-2. npm (デザインを修正するときのみ)
+2. npm ([src/](https://github.com/yasslab/yasslab.jp/tree/master/src) 以下のファイルを修正するときのみ)
 
 ### Jekyll
 
