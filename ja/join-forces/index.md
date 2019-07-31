@@ -104,7 +104,7 @@ lang:   ja
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railstutorial">1. Railsチュートリアルの自動更新</a>
-	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/header-tutorial.png" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/header-railstutorial.png" /></a></div>
 	</h3>
 	
 	<ul>
@@ -122,7 +122,7 @@ lang:   ja
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railsguides">2. Railsガイドの自動更新</a>
-	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/header-guides.png" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/header-railsguides.png" /></a></div>
 	</h3>
 	<ul>
 	  <li>開発目的: <a href="https://railsguides.jp/">Railsガイド</a>の品質を保ちつつ、なるべく低コストで更新したい</li>
@@ -141,7 +141,7 @@ lang:   ja
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#coderdojo">3. CoderDojo Japan の開発</a>
-	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/header-coderdojo.png" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/header-coderdojo-japan.png" /></a></div>
 	</h3>
 	<ul>
 	  <li>開発目的: 全国の <a href="https://coderdojo.jp/">CoderDojo コミュニティ</a>の活動をテクノロジーで支援したい</li>
