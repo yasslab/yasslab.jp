@@ -22,7 +22,7 @@ YassLab 社の第２期では、弊社の主力事業である[開発支援事�
 - [🔍 Railsガイド Proプラン](https://railsguides.jp/pro)
 - [👥 Railsガイド Teamプラン](https://railsguides.jp/team)
 
-<div class="center" style="padding-bottom: 50px;">細かな事業実績まとめは<a href="/ja/works">コチラ</a></div>
+<div class="center" style="padding-bottom: 50px;">(細かな事業実績まとめは<a href="/ja/works">コチラ</a>)</div>
 
 ## 📜 作るだけでなく、伝える
 
