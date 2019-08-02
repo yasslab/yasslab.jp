@@ -8,7 +8,7 @@ tags: [ふりかえり, 決算]
 permalink: /ja/posts/2nd-fiscal-year-of-yasslab
 ---
 
-７月末で YassLab 社の第２期が終了し、８月から第３期に入ります。本記事では第２期で行ったことや注目点を簡単にふりかえってみようと思います。
+７月末で YassLab 社の第２期が終了し、８月から第３期に入ります。本記事では第２期をふりかえりつつ、注目点や今後の動きをまとめてみようと思います。
 
 ## ✅ 第２期の注目点
 
@@ -21,6 +21,8 @@ YassLab 社の第２期では、弊社の主力事業である[開発支援事�
 - [🆕 Railsチュートリアル 解説動画リニューアル](https://railstutorial.jp/screencast)
 - [🔍 Railsガイド Proプラン](https://railsguides.jp/pro)
 - [👥 Railsガイド Teamプラン](https://railsguides.jp/team)
+
+<div class="center" style="padding-bottom: 50px;">細かな事業実績まとめは<a href="/ja/works">コチラ</a></div>
 
 ## 📜 作るだけでなく、伝える
 
@@ -36,10 +38,14 @@ yuppy さんが書いた記事やツイートで YassLab 社のこと、Railsチ
 
 ### yuppy さんが書いた記事の例<br><br>
 
-- 07/03 [🎖弊社メンバーが株式会社アジャイルウェアから表彰](https://yasslab.jp/ja/posts/hanachin-given-award-from-agileware)
-- 07/10 [🎓 Railsチュートリアル解説動画の無料視聴を有効に使おう！](https://yasslab.jp/ja/posts/highlight-of-railstutorial-screencast)
-- 07/12 [📱 Railsガイドの各タイトルが Twitter Card に対応](https://yasslab.jp/ja/posts/railsduides-twitter-card)
+- [🎖弊社メンバーが株式会社アジャイルウェアから表彰](https://yasslab.jp/ja/posts/hanachin-given-award-from-agileware)
+- [🎓 Railsチュートリアル解説動画の無料視聴を有効に使おう！](https://yasslab.jp/ja/posts/highlight-of-railstutorial-screencast)
+- [🏫 Rails5ベーシック試験の参考教材に『Railsチュートリアル』が採用](https://yasslab.jp/ja/posts/rails5-basic-with-tutorial)
+- [💳 解説動画のカード決済がシンプルになりました](https://yasslab.jp/ja/posts/change-payment-system-to-stripe)
+- [📱 Railsガイドの各タイトルが Twitter Card に対応](https://yasslab.jp/ja/posts/railsduides-twitter-card)
+- [📭 各種サービスにフィードバック機能を追加しました](https://yasslab.jp/ja/posts/feature-request-form)
 
+<div class="center" style="padding-bottom: 50px;">(他のお知らせ記事は<a href="/ja/posts">コチラ</a>)</div>
 
 ## 🤝 共に成長する
 
