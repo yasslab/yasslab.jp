@@ -16,6 +16,8 @@ YassLab 社の第２期では、主力事業である[開発支援事業](https:
 
 このチームが立ち上がったことで、様々な新サービスを継続的にリリース・改善できるようになりました。
 
+[![学ぶ・創るを支えるサービス](https://i.gyazo.com/7a9effd9426027ea0f42ce500f9ace23.png)](https://www.google.co.jp/search?q=YassLab#lpc=lpc)
+
 - [🏢 Railsチュートリアル 法人プラン](https://railstutorial.jp/business)
 - [👀 Railsチュートリアル お試しプラン](https://railstutorial.jp/trial)
 - [🆕 Railsチュートリアル 解説動画リニューアル](https://railstutorial.jp/screencast)
