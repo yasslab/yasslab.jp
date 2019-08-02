@@ -12,9 +12,9 @@ permalink: /ja/posts/2nd-fiscal-year-of-yasslab
 
 ## ✅ 第２期の注目点
 
-YassLab 社の第２期では、弊社の主力事業である[開発支援事業](https://yasslab.jp/ja/agile)とは別に、[Railsチュートリアル](https://railstutorial.jp/)や[Railsガイド](https://railsguides.jp/)専門チームの立ち上げが大きい変化となります。
+YassLab 社の第２期では、主力事業である[開発支援事業](https://yasslab.jp/ja/agile)とは別に、[Railsチュートリアル](https://railstutorial.jp/)や[Railsガイド](https://railsguides.jp/)専門チームの立ち上げが大きい変化となります。
 
-このチームが立ち上がったことで、様々な新規サービスを継続的にリリース・改善できるようになりました。
+このチームが立ち上がったことで、様々な新サービスを継続的にリリース・改善できるようになりました。
 
 - [🏢 Railsチュートリアル 法人プラン](https://railstutorial.jp/business)
 - [👀 Railsチュートリアル お試しプラン](https://railstutorial.jp/trial)
@@ -22,11 +22,11 @@ YassLab 社の第２期では、弊社の主力事業である[開発支援事�
 - [🔍 Railsガイド Proプラン](https://railsguides.jp/pro)
 - [👥 Railsガイド Teamプラン](https://railsguides.jp/team)
 
-<div class="center" style="padding-bottom: 50px;">(細かな事業実績まとめは<a href="/ja/works">コチラ</a>)</div>
+<div class="center" style="padding-bottom: 50px;">(上記以外の事業実績まとめは<a href="/ja/works">コチラ</a>)</div>
 
 ## 📜 作るだけでなく、伝える
 
-また2019年4月に入社した [@Yuppyhappytoyou](https://twitter.com/Yuppyhappytoyou) さんのおかげで、開発支援事業や自社プロダクトの動きを伝えやすい体制にもなりました。
+上記チームの立ち上げに加え、2019年4月に [@Yuppyhappytoyou](https://twitter.com/Yuppyhappytoyou) さんが入社し、開発支援事業や自社プロダクトの動きを伝えやすい体制にもなりました。
 
 <div class="center" style="margin-bottom: 50px;" align="center">
   <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">note📒公開しました🎉<br><br>Twitter採用でお仕事をさせて頂き、３ヶ月が経った記録としてプログラミングを始めたきっかけから書いてみました✐✨<br>良ければ読んでみて下さい😉✨<a href="https://t.co/MR8bNL9FPV">https://t.co/MR8bNL9FPV</a></p>&mdash; Yuppy 🔛 Rails💎 (@Yuppyhappytoyou) <a href="https://twitter.com/Yuppyhappytoyou/status/1151414654620487680?ref_src=twsrc%5Etfw">July 17, 2019</a></blockquote>
