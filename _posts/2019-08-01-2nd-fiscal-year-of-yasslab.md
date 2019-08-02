@@ -65,6 +65,7 @@ YassLab 社の特徴の１つに様々な法人・コミュニティと連携し
 
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">【続き】<a href="https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Railsチュートリアル</a> で大変お世話になった <a href="https://twitter.com/yasulab?ref_src=twsrc%5Etfw">@yasulab</a> さんと一緒に仕事をする機会に恵まれ、いつか絶対お会いしたいと思っていた <a href="https://twitter.com/yukihiro_matz?ref_src=twsrc%5Etfw">@yukihiro_matz</a> さんにもお会いできて、最近嬉しすぎる。Rubyに出会えて幸せだ。Rubyでいい製品作って恩返ししたい。今日の学びは改めてブログにも書きたい！</p>&mdash; Yokoyama Hironori (@yokoyantech) <a href="https://twitter.com/yokoyantech/status/1156529942709936131?ref_src=twsrc%5Etfw">July 31, 2019</a></blockquote><br>
 
+ちなみに YassLab 社と CoderDojo の取り組みは海外からも興味関心を頂いており、8月下旬には英国ケンブリッジでも上記の取り組みについて発表させていただく予定となっています。
 
 ## 🏃 次のステップ
 
