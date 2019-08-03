@@ -12,7 +12,7 @@ permalink: /ja/posts/2nd-fiscal-year-of-yasslab
 
 ## ✅ 第２期の注目点
 
-YassLab 社の第２期では、主力事業である[開発支援事業](https://yasslab.jp/ja/agile)とは別に、[Railsチュートリアル](https://railstutorial.jp/)や[Railsガイド](https://railsguides.jp/)専門チームの立ち上げが大きい変化となります。
+YassLab 社の第２期は、主力事業である[開発支援事業](https://yasslab.jp/ja/agile)とは別に、[Railsチュートリアル](https://railstutorial.jp/)や[Railsガイド](https://railsguides.jp/)専門チームの立ち上げが大きい変化となります。
 
 このチームが立ち上がったことで、様々な新サービスを継続的にリリース・改善できるようになりました。
 
@@ -24,7 +24,7 @@ YassLab 社の第２期では、主力事業である[開発支援事業](https:
 - [🔍 Railsガイド Proプラン](https://railsguides.jp/pro)
 - [👥 Railsガイド Teamプラン](https://railsguides.jp/team)
 
-<div class="center" style="padding-bottom: 50px;">(「<a href="https://www.google.co.jp/search?q=YassLab#lpc=lpc" target="_blank">YassLab</a>」で検索して頂くとリスト表示されます)</div>
+<div class="center" style="padding-bottom: 50px;">(他の事業実績は<a href="/ja/works">コチラ</a>)</div>
 
 ## 📜 作るだけでなく、伝える
 
