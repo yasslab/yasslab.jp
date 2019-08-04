@@ -1,20 +1,6 @@
 permalink: /:title
 
-# Variables to configure RSS feed
-# https://github.com/jekyll/jekyll-feed
-title: YassLab 株式会社
-description: "沖縄と東京を拠点にしたソフトウェア開発会社です。RailsチュートリアルやRailsガイドを運営し、月額制開発支援サービスも提供しています。"
-author:
-  name: YassLab 株式会社
-  image: /img/logos/500x500.png
-  twitter: YassLab
-  facebook: yasslab.jp
-
-# `url` is necessary to generate RSS feed.
-# cf. https://github.com/jekyll/jekyll-feed
-url: https://yasslab.jp
-
-# Variables for internal use
+# Variables for pages, posts, feeds, etc
 company:
   vision: "Having a Good Life with OpenSource ;)"
   name:  YassLab
@@ -27,17 +13,27 @@ company:
   email: info@yasslab.jp
   capital: 500
   size: 12
+  uri: https://yasslab.jp/
   description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
 
+# Variables to configure RSS feed
+authors:
+  yasulab:
+    name: yasulab
+    uri:  https://twitter.com/yasulab
+  Yuppyhappytoyou:
+    name: Yuppyhappytoyou
+    uri:  https://twitter.com/Yuppyhappytoyou
+
+# Settings for Jekyll/Heroku hosting
 domain:   "yasslab.jp"
 source:      ./
 destination: ./_site
 timezone: Asia/Tokyo
 encoding: utf-8
 
-## Show upcoming posts in development
+# Show upcoming posts (but hidden in production)
 future: true
-excerpt_separator: "続きを読む"
 
 ## Global Vars to generate links
 yasslab:       "[YassLab](https://yasslab.jp)"
@@ -66,7 +62,6 @@ plugins:
   - jekyll-gist
   - jekyll-coffeescript
   - jekyll-assets
-  - jekyll-feed
   - jekyll-include-cache
   - qiita
 
