@@ -81,8 +81,6 @@ GEM
     jekyll-coffeescript (1.2.2)
       coffee-script (~> 2.2)
       coffee-script-source (~> 1.12)
-    jekyll-feed (0.12.1)
-      jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-include-cache (0.2.0)
@@ -219,7 +217,6 @@ DEPENDENCIES
   jekyll!
   jekyll-assets
   jekyll-coffeescript
-  jekyll-feed
   jekyll-gist
   jekyll-include-cache
   liquid-c
