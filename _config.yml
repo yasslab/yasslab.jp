@@ -1,21 +1,21 @@
+# URL settings for yasslab.jp
 permalink: /:title
 url: https://yasslab.jp
 
 # Variables for pages, posts, feeds, etc
 company:
   vision: "Having a Good Life with OpenSource ;)"
+  size: 12
+  email: info@yasslab.jp
+  capital: 500
   name:  YassLab
+  description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
   ja:
     name: YassLab 株式会社
     description: "沖縄と東京を拠点にしたソフトウェア開発会社です。RailsチュートリアルやRailsガイドを運営し、月額制開発支援サービスも提供しています。"
   en:
     name: YassLab Inc.
     description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
-  email: info@yasslab.jp
-  capital: 500
-  size: 12
-  uri: https://yasslab.jp/
-  description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
 
 # Variables to configure RSS feed
 authors:

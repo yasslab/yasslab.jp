@@ -16,7 +16,7 @@ layout: null
   <author>
     <name>{{  site.company.ja.name | xml_escape }}</name>
     <email>{{ site.company.email   | xml_escape }}</email>
-    <uri>{{   site.company.uri     | xml_escape }}</uri>
+    <uri>{{   site.url             | xml_escape }}</uri>
   </author>
 
   {% for post in site.posts limit: 10 %}
@@ -35,7 +35,7 @@ layout: null
       <author>
         <name>{{  site.authors[post.author].name  | default: site.company.ja.name | xml_escape }}</name>
         <email>{{ site.authors[post.author].email | default: site.company.email   | xml_escape }}</email>
-        <uri>{{   site.authors[post.author].uri   | default: site.company.uri     | xml_escape }}</uri>
+        <uri>{{   site.authors[post.author].uri   | default: site.url             | xml_escape }}</uri>
       </author>
 
       {% if post.category %}
