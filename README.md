@@ -36,6 +36,21 @@ Jekyll を使って localhost 上にWebサイトを表示します。
 3. `npm run watch`
     - sassファイルの監視
 
+## About Images
+Nota Inc. 様の許諾をいただき、  
+本Webサイトでは画像ホスティングの一部に Gyazo を使わせて頂いております。
+
+> Gyazo にアップロードした画像についてですが、
+> アップロードした画像を弊社のブログ記事から参照することは可能でしょうか?
+> ブログ記事の例: https://yasslab.jp/ja/posts/coderdojo-japan-2018
+>
+> -----
+> 
+> お問い合わせの件につきまして、ご丁寧にお問い合わせくださりどうもありがとうございます。
+> お客様のブログの参照先にGyazoをご利用になられるとのこと、
+> 特に問題はございませんのでご自由にお使いください。
+> Gyazoをご活用くださり、うれしく思います。
+
 ## About ICON
 
 The icons used in the website are created by [Font Awesome](http://fontawesome.io/), licensed under SIL OFL 1.1.
