@@ -42,7 +42,10 @@ YassLab社では『[Railsチュートリアル](https://railstutorial.jp/)』や
 「自分の地域の人達にも学びやすい環境を提供したい」と考えている法人の方々がいらっしゃれば、ぜひお気軽にお問い合わせください。
 
 [![Railsチュートリアル_ロゴ](https://i.gyazo.com/8d4dd2ce77e3b8adeb0a7157fbb902cb.png)](https://railstutorial.jp/contact)
-お問い合わせ [https://railstutorial.jp/contact](https://railstutorial.jp/contact)
+
+<div class="center">お問い合わせ <a href="https://railstutorial.jp/contact">https://railstutorial.jp/contact</a></div>
+
+<br>
 
 -----
 
