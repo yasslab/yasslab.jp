@@ -8,7 +8,7 @@ tags: [登壇, Rails]
 permalink: /ja/posts/partnership-with-haj-empowerment
 ---
 
-<img width="932" alt="スクリーンショット 2019-07-31 2.55.09.png" src="https://yasslab.qiita.com/files/1f605108-116b-54ad-05cb-5a5b7b03ec52.png">
+![ITジョブトレ×Railsチュートリアル](https://i.gyazo.com/77891b0e4e44bc508179a4df9c3c4bfc.png)
 
 北海道の求人メディア「[アルキタ](https://www.arukita.com/)」「[ジョブキタ](https://www.jobkita.jp/)」などを運営する[北海道アルバイト情報社](https://www.haj.co.jp)グループの[株式会社HAJエンパワーメント社](https://www.haj-emp.co.jp/)とRailsチュートリアル商用ライセンス利用許諾を締結いたしました。
 
@@ -19,7 +19,7 @@ HAJエンパワーメントは札幌市中央区に拠点を置き、主に地�
 
 HAJエンパワーメントでは札幌の若者向けプログラミング教育事業「ITジョブトレ」を開始し、その中で弊社が開発・運営する[Railsチュートリアル](https://railstutorial.jp/)を活用していただける運びとなりました。
 
-<img width="528" alt="スクリーンショット 2019-07-31 3.20.42.png" src="https://yasslab.qiita.com/files/2d863724-1f0f-477a-c95b-e887341f2d9b.png">
+![ITジョブトレの事業内容](https://i.gyazo.com/e3380f0c97c18b11621d10c08a3c4be7.png)
 <div class="center">図: ITジョブトレの事業内容 (事前説明会の配布資料より抜粋)</div>
 
 <br>
