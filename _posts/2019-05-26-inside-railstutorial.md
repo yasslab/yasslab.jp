@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  📜 Railsチュートリアル開発経緯の取材記事が公開
+title:  🎓 Railsチュートリアル開発経緯の取材記事が公開
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
