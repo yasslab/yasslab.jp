@@ -121,13 +121,13 @@ lang:   ja
         <h2 class="mb-5"><a href="#schedule">現在のスケジュール</a></h2>
 
 	{% include agile-schedule.html
-	    started_month=5
+	    started_month=8
 	     plus_0='reserved'
 	     plus_1='reserved'
 	     plus_2='reserved'
 	     plus_3='reserved'
-	     plus_4='adjusting'
-	     plus_5='available'
+	     plus_4='reserved'
+	     plus_5='reserved'
 	%}
         
         <table class="caption">
