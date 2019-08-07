@@ -15,6 +15,8 @@ end
 require 'html-proofer'
 task test: [:build] do
   sh "bundle exec rake assets:precompile" unless ENV['SKIP_BUILD'] == '1'
+
+  require './test/custom_checks'
   options = {
     allow_hash_href:  true,
     check_opengraph:  true,
@@ -31,6 +33,7 @@ task test: [:build] do
     url_ignore:  %w(coderdojo.com linkedin.com),
     http_status_ignore: [0, 500, 999],
   }
+
   HTMLProofer.check_directory('./_site', options).run
 end
 
