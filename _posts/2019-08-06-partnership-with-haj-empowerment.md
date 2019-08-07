@@ -10,7 +10,7 @@ permalink: /ja/posts/partnership-with-haj-empowerment
 
 ![ITジョブトレ×Railsチュートリアル](https://i.gyazo.com/77891b0e4e44bc508179a4df9c3c4bfc.png)
 
-北海道の求人メディア「[アルキタ](https://www.arukita.com/)」「[ジョブキタ](https://www.jobkita.jp/)」などを運営する[北海道アルバイト情報社](https://www.haj.co.jp)グループの[株式会社HAJエンパワーメント社](https://www.haj-emp.co.jp/)とRailsチュートリアル商用ライセンス利用許諾を締結いたしました。
+北海道の求人メディア「[アルキタ](https://www.arukita.com/)」「[ジョブキタ](https://www.jobkita.jp/)」などを運営する[北海道アルバイト情報社](https://www.haj.co.jp)グループの[株式会社HAJエンパワーメント](https://www.haj-emp.co.jp/)とRailsチュートリアル商用ライセンス利用許諾を締結いたしました。
 
 
 ## HAJエンパワーメントについて
