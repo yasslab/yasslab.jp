@@ -24,7 +24,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
 
 [![Railsチュートリアル](/img/header-railstutorial.png)](https://railstutorial.jp/)
 
-こうした背景に弊社の沖縄の縁も重なり、実戦的な内容を重視する enPiT でRailsチュートリアルが採用されるに至りました。また、採用後も継続的にふりかえりと改善の積み重ね、最近は反転学習というスタイルを組み合わせることで、さらに多くの層が挫折せずにプロダクト開発を学べるようになることも分かってきました。
+こうした背景に弊社の沖縄の縁も重なり、実戦的な内容を重視する enPiT でRailsチュートリアルが採用されるに至りました。また、採用後も継続的にふりかえりと改善を積み重ね、最近は反転学習というスタイルを組み合わせることで、さらに多くの層が挫折せずにプロダクト開発を学べるようになることも分かってきました。
 
 [![一斉学習 vs. 反転学習](https://i.gyazo.com/1c47e531994e2f959cf6281c8f97e501.png)](https://speakerdeck.com/yasslab/aws-award-at-fukuoka-ruby-2019?slide=12)
 
@@ -32,7 +32,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
   <script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-現在は琉球大学だけでなく、筑波大学や産業技術大学院大学、工学院大学などの様々な場所でRailsチュートリアルを採用していただけています 🎓✨
+こうした実績の積み重ねもあり、現在は琉球大学だけでなく、筑波大学や産業技術大学院大学、工学院大学などの様々な場所でRailsチュートリアルを採用していただけています 🎓✨
 
 [![利用実績・提携法人](https://i.gyazo.com/c854a1e335ac52c452528842edb7128e.png)](https://railstutorial.jp/#partners)
 
