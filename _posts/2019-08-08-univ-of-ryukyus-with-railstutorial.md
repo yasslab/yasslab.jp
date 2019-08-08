@@ -22,7 +22,7 @@ YassLab 社は[沖縄と東京のメンバー](https://yasslab.jp/ja/#members)�
 
 Railsチュートリアルは Progate や大学１〜２年次の科目などで[基礎知識](https://railstutorial.jp/chapters/beginning?version=5.1#sec-prerequisites)を身につけた方々を主な対象として、より実戦に近い技術を提供しています。
 
-enPiT も同じく実戦的な内容を重視したカリキュラムとなっているため、そういった『[創りながら学ぶ](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』方向性とRailsチュートリアルは相性が良く、また、反転学習というスタイルと組み合わせることで、さらに多くの学びに繋がることも分かっています。
+enPiT も同じく実戦的な内容を重視したカリキュラムとなっているため、そういった『[創りながら学ぶ](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』方向性とRailsチュートリアルは相性が良いと評価していただけております。また、最近は反転学習というスタイルとRailsチュートリアルを組み合わせることで、より広い層の学びに効果があることも分かっています。
 
 [![一斉学習 vs. 反転学習](https://i.gyazo.com/1c47e531994e2f959cf6281c8f97e501.png)]()
 
