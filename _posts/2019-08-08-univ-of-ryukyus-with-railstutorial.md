@@ -30,7 +30,7 @@ enPiT も同じく実戦的な内容を重視したカリキュラムとなっ�
   <script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-琉球大学で行われたこうした実戦と評価、ふりかえりと改善の積み重ねもあり、現在は筑波大学や産業技術大学院大学、工学院大学などの様々な場所でもRailsチュートリアルを採用していただけるようにもなりました。
+琉球大学で行われたこうした実戦と評価、ふりかえりと改善の積み重ねもあり、現在は筑波大学や産業技術大学院大学、工学院大学などの様々な場所でもRailsチュートリアルを採用していただけるようになりました。
 
 [![利用実績・提携法人](https://i.gyazo.com/c854a1e335ac52c452528842edb7128e.png)](https://railstutorial.jp/#partners)
 
