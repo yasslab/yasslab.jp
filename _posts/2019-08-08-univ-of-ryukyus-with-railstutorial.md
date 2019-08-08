@@ -24,8 +24,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
 
 [![Railsチュートリアル](/img/header-railstutorial.png)](https://railstutorial.jp/)
 
-
-enPiT もRailsチュートリアルも実戦的な内容を重視しているため相性が良く、また、最近は反転学習というスタイルを組み合わせることで、さらに多くの層が挫折せずにプロダクト開発を学べるようになることも分かってきました。
+こうした背景に弊社の沖縄の縁も重なり、実戦的な内容を重視する enPiT でRailsチュートリアルが採用されるに至りました。また、採用後も継続的にふりかえりと改善の積み重ね、最近は反転学習というスタイルを組み合わせることで、さらに多くの層が挫折せずにプロダクト開発を学べるようになることも分かってきました。
 
 [![一斉学習 vs. 反転学習](https://i.gyazo.com/1c47e531994e2f959cf6281c8f97e501.png)](https://speakerdeck.com/yasslab/aws-award-at-fukuoka-ruby-2019?slide=12)
 
@@ -33,18 +32,20 @@ enPiT もRailsチュートリアルも実戦的な内容を重視しているた
   <script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-琉球大学で行われたこうした実戦と評価、ふりかえりと改善の積み重ねもあり、現在は筑波大学や産業技術大学院大学、工学院大学などの様々な場所でもRailsチュートリアルを採用していただけるようになりました。
+現在は琉球大学だけでなく、筑波大学や産業技術大学院大学、工学院大学などの様々な場所でRailsチュートリアルを採用していただけています 🎓✨
 
 [![利用実績・提携法人](https://i.gyazo.com/c854a1e335ac52c452528842edb7128e.png)](https://railstutorial.jp/#partners)
 
 
 ## 大学生だけじゃなく、誰にでも
 
-この『[創りながら学ぶ](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』というスタイルは学生だけではなく、年齢に関係なく有用であることもだんだんと分かってきました。
+この『[創りながら学ぶ](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』というスタイルは学生だけではなく、年齢に関係なく有用であることがだんだんと分かってきました。
 
-例えば企業向けには、プロダクト開発をしながら学ぶ研修の**準備教材として[Railsチュートリアル](https://railstutorial.jp/)を使う**ことで、それぞれの現場のニーズを汲み取りつつ、個々人のモチベーションにも沿った柔軟な学びが可能になりました。
+例えば2018年度からは、企業向けに**社員研修でプロダクト開発を扱う**研修をはじめました。これは準備教材として[Railsチュートリアル](https://railstutorial.jp/)を使うことでプロダクト開発の基本を整え、研修中はオリジナルなプロダクト開発を通して様々な知識と経験を培うスタイルの研修です。
 
 [![https://yasslab.jp/img/posts/members-career-talk.jpg](https://yasslab.jp/img/posts/members-career-talk.jpg)](https://yasslab.jp/ja/posts/railstutorial-at-members-career)
+
+基本的には enPiT と同様のスタイルとなりますが、学生だけでなく社員研修でもこの『創りながら学ぶ』スタイルは好評です。特にそれぞれの現場の技術的要望を汲み取りつつ、個々人のモチベーションにも沿って柔軟に学べる点が良いとされています。例えば現場で React を使う予定の人には React のプロダクトを、Rails を使う予定の人には Rails のプロダクトを研修中に開発してもらうことで、研修後はスムーズにそれぞれの現場で活躍しやすくなります。
 
 > - 個人がいい目標を設定できるかで、この研修がうまく行くかどうかが決まった気がした。個人によってスキルセットが全然違うし、みんなで同じことをやるよりは良かったと思う。
 > - Reactの習得が目標で、達成できたと思う。Reduxも同時に習得したいという思いもあったが、目標設計の時点で工数オーバーだと気づいて諦めたのが良かったかもしれない。
@@ -52,13 +53,18 @@ enPiT もRailsチュートリアルも実戦的な内容を重視しているた
 >
 > 『[🎓 法人向けサービス活用例：マネーフォワード様](https://yasslab.jp/ja/posts/learning-by-making)』から引用
 
-
-他にも、立ち上げ当初から関わっている[未踏ジュニア](https://jr.mitou.org/)では、創りながら学ぶサイクルを続けることで、年齢に関わらず大きな成果が出せるようになりました。
+創りながら学ぶスタイルは、大学の講義や社員の研修だけでなく、若い世代の方々にも有用です。例えば立ち上げ当初から関わっている[未踏ジュニア](https://jr.mitou.org/)では、創りながら学ぶサイクルを続けていくことで、年齢に関わらず大きな成果が出せるようになりました。
 
 <div style="margin-bottom: 50px; text-align:center">
   <script async class="speakerdeck-embed" data-id="84478dc5774b42739288c8424b10177e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-  (本質はいずれも同じですが、こちらの方が比較的インパクトは大きいようです)
 </div>
+
+最初は想像もできない遠くの場所であっても、それぞれの力量に合わせて創りながら学び続けていくことで、いずれはどこにでも辿り着けるようになるのかもしれません。
+
+<div style="margin-bottom: 50px; text-align:center">
+  <script async class="speakerdeck-embed" data-id="ee19ff2514724ee2b345068cfd37581c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
+
 
 
 ## まとめ
