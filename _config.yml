@@ -37,12 +37,12 @@ encoding: utf-8
 future: true
 
 ## Global Vars to generate links
-yasslab:       "[YassLab](https://yasslab.jp)"
-railstutorial: "[Railsチュートリアル](https://railstutorial.jp)"
+yasslab:       "[YassLab](https://yasslab.jp/)"
+railstutorial: "[Railsチュートリアル](https://railstutorial.jp/)"
 railsguides:   "[Railsガイド](https://railsguides.jp/)"
-coderdojo:     "[CoderDojo Japan](https://coderdojo.jp)"
-okinawarb:     "[Okianwa.rb](https://ruby.okinawa)"
-frogs:         "[Ryukyufrogs](https://www.ryukyu-frogs.com)"
+coderdojo:     "[coderdojo.jp](https://coderdojo.jp/)"
+okinawarb:     "[Okianwa.rb](https://ruby.okinawa/)"
+frogs:         "[Ryukyufrogs](https://www.ryukyu-frogs.com/)"
 
 highlighter: rouge
 markdown: kramdown
