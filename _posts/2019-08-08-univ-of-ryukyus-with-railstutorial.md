@@ -16,15 +16,18 @@ YassLab 社は[沖縄と東京のメンバー](https://yasslab.jp/ja/#members)�
 
 ## 琉球大学とRailsチュートリアル
 
-琉球大学は [enPiT](http://www.enpit.jp/) という『創りながら学ぶ』拠点の１つとなってており、そこでは基礎知識を身につけた学生に対して、より実践的な知識を身につける機会が提供されています。
+琉球大学は [enPiT](http://www.enpit.jp/) という『創りながら学ぶ』拠点の１つとなっており、そこでは基礎知識を身につけた学生を主な対象として、より実践的な知識を身につける機会が提供されています。
 
 [![enPiT](https://i.gyazo.com/71bcec22d6498d823564578062fb209f.png)](http://www.enpit.jp/)
 
-Railsチュートリアルは Progate や大学１〜２年次の科目などで[基礎知識](https://railstutorial.jp/chapters/beginning?version=5.1#sec-prerequisites)を身につけた方々を主な対象として、より実戦に近い技術を提供しています。
+Railsチュートリアルもまた、Progate や大学１〜２年次の科目などで[基礎知識](https://railstutorial.jp/chapters/beginning?version=5.1#sec-prerequisites)を身につけた方々を主な対象として、より実戦に近い技術が学べる教材となっています。
 
-enPiT も同じく実戦的な内容を重視したカリキュラムとなっているため、そういった『[創りながら学ぶ](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』方向性とRailsチュートリアルは相性が良いと評価していただけております。また、最近は反転学習というスタイルとRailsチュートリアルを組み合わせることで、より広い層の学びに効果があることも分かっています。
+[![Railsチュートリアル](/img/header-railstutorial.png)](https://railstutorial.jp/)
 
-[![一斉学習 vs. 反転学習](https://i.gyazo.com/1c47e531994e2f959cf6281c8f97e501.png)]()
+
+enPiT もRailsチュートリアルも実戦的な内容を重視しているため相性が良く、また、最近は反転学習というスタイルを組み合わせることで、さらに多くの層が挫折せずにプロダクト開発を学べるようになることも分かってきました。
+
+[![一斉学習 vs. 反転学習](https://i.gyazo.com/1c47e531994e2f959cf6281c8f97e501.png)](https://speakerdeck.com/yasslab/aws-award-at-fukuoka-ruby-2019?slide=12)
 
 <div style="margin-bottom: 50px;">
   <script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
