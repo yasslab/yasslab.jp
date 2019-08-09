@@ -15,7 +15,7 @@ permalink: /ja/posts/hackers-champloo-2019-gold-sponsor
 Hackers Champloo 2019   
 [http://hackers-champloo.org/2019/](http://hackers-champloo.org/2019/)
 
-YassLab 社は[沖縄と東京のチーム](/ja/#okinawa)で『{{site.railstutorial}}』や『{{site.railsguides}}』、『{{site.coderdojo}}』のWebサイトを開発しているため、{{site.okinawarb}} や {{site.frogs}} などの沖縄のITコミュニティとの関わりも深いです。また、『[Doorkeeper スポンサーシップ](/ja/doorkeeper)』を通して、沖縄のIT系コミュニティに対しても継続的な支援を行なっています。
+YassLab 社は[沖縄と東京のチーム](/ja/#okinawa)で『{{site.railstutorial}}』や『{{site.railsguides}}』、『{{site.coderdojo}}』を開発しているため、{{site.okinawarb}} や {{site.frogs}} などの沖縄のITコミュニティとの関わりも深いです。また、『[Doorkeeper スポンサーシップ](/ja/doorkeeper)』を通して、沖縄のIT系コミュニティに対しても継続的な支援を行なっています。
 
 Doorkeeper スポンサーシップ - YassLab   
 [https://yasslab.jp/ja/doorkeeper](https://yasslab.jp/ja/doorkeeper)
