@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド, Proプラン, Teamプラン]
-permalink: /ja/posts/railsguides-search
+permalink: /ja/posts/railsguides-static-search
 ---
 
 Railsガイドの[Proプラン](https://railsguides.jp/pro)/[Teamプラン](https://railsguides.jp/team)に検索結果の一覧機能が追加されました 🎉
