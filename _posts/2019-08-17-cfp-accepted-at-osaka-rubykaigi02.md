@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🗣大阪Ruby会議02で coderdojo.jp の開発事例を発表します
+title:  🗣大阪Ruby会議02でcoderdojo.jpの開発事例を発表します
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
