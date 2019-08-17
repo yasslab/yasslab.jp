@@ -30,16 +30,13 @@ CoderDojo は一般的なOSSコミュニティと異なり、特定のテクノ�
 
 本発表では CoderDojo コミュニティの周辺にあるテクノロジーの中から、[coderdojo.jp](https://coderdojo.jp/) を支えている Rails アプリケーションを題材として、身近な課題を Ruby で解決する事例をご紹介する予定です ;)
 
-
-## 🔖まとめ
-Rails アプリケーションを使って現実的な課題を解決していく場面は多くありますが、それがオープンソースとして公開された状態で、かつ、多くのユーザーがいる国内の開発事例はまだ多くないと考えています。
-
-
 ### 例: [coderdojo.jp/stats](https://coderdojo.jp/stats) リリース時の反響
 [![近日開催の道場の設計と実装](https://i.gyazo.com/793235560b0c39e35167f16d32bf6a56.png)](https://coderdojo.jp/stats)
 
 
-さらに詳細に興味がある方は、動画付きでまとめてある [開発目線で見る最近の CoderDojo Japan 2018](https://yasslab.jp/ja/posts/coderdojo-japan-2018) の記事もお読みいただければと思います。
+## 🔖 まとめ
+
+いかがだったでしょうか? さらに詳細に興味がある方は、動画付きでまとめてある『[開発目線で見る最近の CoderDojo Japan 2018](https://yasslab.jp/ja/posts/coderdojo-japan-2018)』の記事も合わせてお読みいただければと思います。
 
 <div class="video" style="margin-bottom: 100px;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/fts1ogmYJ6M?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
