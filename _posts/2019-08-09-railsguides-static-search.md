@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🔍 Railsガイドで検索結果の一覧が見れるようにました
+title:  🔍 Railsガイドで検索結果の一覧が見られるようにました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
