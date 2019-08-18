@@ -30,9 +30,9 @@ permalink: /ja/posts/we-support-you-in-any-situation
 
 ## まとめ
 
-YassLab 社では『{{ site.railstutorial }}』や『{{ site.railsguides }}』の開発・運営だけでなく、CoderDojo や未踏ジュニアなどの[コミュニティとも継続的に協力しながら事業を推進するカタチ](https://yasslab.jp/ja/about#culture)を大切にしています。
+YassLab 社では『{{ site.railstutorial }}』や『{{ site.railsguides }}』の開発・運営だけでなく、CoderDojo や未踏ジュニアなどのコミュニティと[継続的に協力しながら推進できるカタチ](https://yasslab.jp/ja/about#culture)を大切にしています。
 
-また、YassLab 社では CoderDojo や未踏ジュニアなどでも大切にされている『創りながら学ぶ』カタチを研修としても展開しています。詳細はマネーフォワードで実施された下記の研修紹介記事をご参照ください ;)
+また、YassLab 社では CoderDojo や未踏ジュニアなどでも大切にされている『創りながら学ぶ』スタイルを研修としても展開しています。もし興味あればマネーフォワードで実施された下記の研修紹介記事をご参照ください ;)
 
 🎓 法人向けサービス活用例：マネーフォワード様
 [https://yasslab.jp/ja/posts/learning-by-making](https://yasslab.jp/ja/posts/learning-by-making)
