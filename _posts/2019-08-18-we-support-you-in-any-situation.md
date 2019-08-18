@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🗺 未踏ジュニアの『困ったときのガイドライン』が公開
+title:  🗺 未踏ジュニア『困ったときのガイドライン』を公開
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
@@ -8,9 +8,9 @@ tags: [登壇, 未踏ジュニア]
 permalink: /ja/posts/we-support-you-in-any-situation
 ---
 
-弊社 [@yasulab](https://twitter.com/yasulab) が未踏ジュニア採択者に対して毎年伝えている発表『困ったときのガイドライン』が一般公開されました 🚀✨
+未踏ジュニア採択者に対して毎年伝えている発表『困ったときのガイドライン』が一般公開されました 🚀✨
 
-『困ったときのガイドライン』では、未踏ジュニア採択者のような新しいものを創る人達が『困った🤔』という場面に遭遇したときのガイドラインとなります。未踏ジュニア向けに発表された動画になりますが、新しいものを創る他の方々にとってもご参考になれば嬉しいです 😉
+『困ったときのガイドライン』では、未踏ジュニア採択者のような新しいものを創るクリエータが『困った🤔』という場面に遭遇したときのガイドラインとなります。未踏ジュニア向けに資料となりますが、未踏ジュニアに限らず役に立つ部分もあると思うので、ご参考になれば嬉しいです 😉
 
 ⛰ 未踏ジュニア - MITOU for U-17
 [https://jr.mitou.org/](https://jr.mitou.org/)
@@ -30,16 +30,13 @@ permalink: /ja/posts/we-support-you-in-any-situation
 
 ## まとめ
 
-YassLab 社では『{{ site.railstutorial }}』や『{{ site.railsguides }}』の開発・運営だけでなく、CoderDojo や未踏ジュニアなどの[コミュニティとも協力しながら継続的に続けられるカタチ](https://yasslab.jp/ja/about#culture)を大切にしています。
+YassLab 社では『{{ site.railstutorial }}』や『{{ site.railsguides }}』の開発・運営だけでなく、CoderDojo や未踏ジュニアなどの[コミュニティとも継続的に協力しながら事業を推進するカタチ](https://yasslab.jp/ja/about#culture)を大切にしています。
 
-また、YassLab 社では CoderDojo や未踏ジュニアなどでも大切にされている『創りながら学ぶ』研修も同時に展開しています。
+また、YassLab 社では CoderDojo や未踏ジュニアなどでも大切にされている『創りながら学ぶ』カタチを研修としても展開しています。詳細はマネーフォワードで実施された下記の研修紹介記事をご参照ください ;)
 
 🎓 法人向けサービス活用例：マネーフォワード様
 [https://yasslab.jp/ja/posts/learning-by-making](https://yasslab.jp/ja/posts/learning-by-making)
-
-
-YassLab 社ではRailsチュートリアル『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』や『[法人プラン](https://railstutorial.jp/business)』、Railsガイド『[Proプラン](https://railsguides.jp/pro)』や『[Teamプラン](https://railsguides.jp/team)』などを提供しています。もし気になるプラン・サービスがあればぜひ気軽に試してみてください ;)
-
+ 
 -----
 
 [![YassLab Inc.](/img/logos/800x200.png)](/)
