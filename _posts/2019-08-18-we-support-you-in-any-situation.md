@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🗺『困ったときのガイドライン』を公開しました
+title:  🗺 未踏ジュニアの『困ったときのガイドライン』が公開
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
