@@ -33,7 +33,7 @@ permalink: /ja/posts/bulk-update-railsguidesjp-to-60
 
 他、Typo 修正などを含め、[多くの Pull Request](https://github.com/yasslab/railsguides.jp/pulls?q=is%3Apr+is%3Aclosed) をいただきました。皆さんのご協力ありがとうございます...!! (＞人＜ )✨
 
-## 過去バージョンは電子書籍化
+## 過去バージョンは電子書籍で
 
 Rails 6.0 以前のバージョン (Rails 5.2, 5.1, 5.0 対応など) のRailsガイドについては、大幅アップデート前のスナップショットを電子書籍として提供しています。
 
