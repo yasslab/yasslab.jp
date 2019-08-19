@@ -37,7 +37,7 @@ permalink: /ja/posts/bulk-upgrade-railsguidesjp-to-60
 
 Rails 6.0 以前のバージョン (Rails 5.2, 5.1, 5.0 対応など) のRailsガイドについては、大幅アップデート前のスナップショットを電子書籍として提供しています。
 
-[![電子書籍ページ](https://i.gyazo.com/b200b33883e1e43bf7acc6e5a68a639e.png)](https://railsguides.jp/options.html)
+[![電子書籍ページ](https://i.gyazo.com/7856a430515ac9b67ad90109b73b7397.png)](https://railsguides.jp/options.html)
 [![電子書籍バージョン](https://i.gyazo.com/384cb4f1ce81ec9afe3a5f6292a44624.png)](https://railsguides.jp/options.html)
 
 『過去バージョンを読みたい』『電子書籍で読みたい』といった場合は下記リンクをご参照ください 📕✨
