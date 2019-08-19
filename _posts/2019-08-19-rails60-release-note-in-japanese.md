@@ -39,7 +39,7 @@ Rails 6.0 以前のバージョン (Rails 5.0, 5.1, 5.2 対応など) のRails�
 [![電子書籍ページ](https://i.gyazo.com/8672209f30adfaff30e4919ccf4a9677.png)](https://railsguides.jp/options.html)
 [![電子書籍バージョン](https://i.gyazo.com/384cb4f1ce81ec9afe3a5f6292a44624.png)](https://railsguides.jp/options.html)
 
-Rails 6.0 対応の電子書籍も合わせて公開したので、『過去バージョンを読みたい』『電子書籍で読みたい』といった場合は下記リンクをご参照ください 📕✨
+『過去バージョンを読みたい』『電子書籍で読みたい』といった場合は下記リンクをご参照ください 📕✨
 
 Railsガイド 電子書籍版
 [https://railsguides.jp/options.html](https://railsguides.jp/options.html)
