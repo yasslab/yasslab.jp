@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🆙 RailsガイドがRails 6の各種ガイドに対応しました
+title:  📕 RailsガイドがRails 6の各種ガイドに対応しました
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
