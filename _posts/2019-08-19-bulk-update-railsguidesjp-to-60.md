@@ -10,7 +10,7 @@ permalink: /ja/posts/bulk-update-railsguidesjp-to-60
 
 [Rails 6.0 のリリース](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release/)に合わせて、Railsガイドの新規ガイドおよび既存のガイドを大幅に更新しました! 📜✨
 
-[![ガイド例：リリースノート](https://i.gyazo.com/83008c234dff1a220fef91d94c5b74ea.png)](https://railsguides.jp/6_0_release_notes.html)
+[![ガイド例：リリースノート](https://i.gyazo.com/c2db802b161dbfacd672e34b1b8815ee.png)](https://railsguides.jp/6_0_release_notes.html)
 
 ## 更新箇所まとめ
 
