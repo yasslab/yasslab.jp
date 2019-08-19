@@ -36,7 +36,7 @@ permalink: /ja/posts/rails60-release-note-in-japanese
 
 Rails 6.0 以前のバージョン (Rails 5.0, 5.1, 5.2 対応など) のRailsガイドについては、大幅アップデート前のスナップショットを電子書籍として提供しています。
 
-[![電子書籍ページ](https://i.gyazo.com/8672209f30adfaff30e4919ccf4a9677.png)](https://railsguides.jp/options.html)
+[![電子書籍ページ](https://i.gyazo.com/b200b33883e1e43bf7acc6e5a68a639e.png)](https://railsguides.jp/options.html)
 [![電子書籍バージョン](https://i.gyazo.com/384cb4f1ce81ec9afe3a5f6292a44624.png)](https://railsguides.jp/options.html)
 
 『過去バージョンを読みたい』『電子書籍で読みたい』といった場合は下記リンクをご参照ください 📕✨
