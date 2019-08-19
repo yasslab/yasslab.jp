@@ -33,7 +33,7 @@ lang:   ja
     <div class="row">
       <div class="col-12">
         <h3 style="line-height: 2.0em;"><a href="#products">《継続的翻訳/組版システム》</a><br>
-	  Web 開発の学びを Ruby で支える</h3>
+	  プロダクト開発の学びを Ruby で支える</h3>
 
         <div class="row">
           <div class="col-md-4 offset-md-1">
@@ -44,7 +44,7 @@ lang:   ja
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
             <a href="https://railstutorial.jp/" target="_blank"><h4>Railsチュートリアル</h4></a>
-            <p>SNS 開発を題材にした大型チュートリアル。プロダクトの開発から公開までを手を動かして学びます。<a href="https://railstutorial.jp/#ebook">電子書籍</a>や<a href="https://railstutorial.jp/#screencast">解説動画</a>、<a href="https://railstutorial.jp/business">法人向けサービス</a>も提供</p>
+            <p>SNS 開発を題材にした大型チュートリアル。プロダクトの開発から公開までを創りながら学びます。<a href="https://railstutorial.jp/#ebook">電子書籍</a>や<a href="https://railstutorial.jp/#screencast">解説動画</a>、<a href="https://railstutorial.jp/business">法人向けサービス</a>も提供</p>
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank">
