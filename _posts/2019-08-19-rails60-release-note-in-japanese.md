@@ -22,7 +22,7 @@ permalink: /ja/posts/rails60-release-note-in-japanese
 - 🆙 [定数の自動読み込みと再読み込み (Classic)](https://railsguides.jp/autoloading_and_reloading_constants_classic_mode.html)
 - 🆙 [Rails テスティングガイド (並列テスト)](https://railsguides.jp/testing.html#並列テスト)
 - 🆕 [Action Text の概要](https://railsguides.jp/action_text_overview.html)
-
+- 🆕 [Active Record で複数のデータベースを使う](https://railsguides.jp/active_record_multiple_databases.html)
 
 さらに詳細な更新点は、次の Pull Request をご参照ください ;)
 
