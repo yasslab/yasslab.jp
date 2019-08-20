@@ -23,7 +23,7 @@ permalink: /ja/posts/bulk-update-railsguidesjp-to-60
 - 🆙 [Rails テスティングガイド (並列テスト)](https://railsguides.jp/testing.html#並列テスト)
 - 🆕 [Action Text の概要](https://railsguides.jp/action_text_overview.html)
 - 🆕 [Action Mailbox の基礎](https://railsguides.jp/action_mailbox_basics.html)
-- 🆕 [Active Record で複数のデータベースを使う](https://railsguides.jp/active_record_multiple_databases.html)
+- 🆕 [Active Record で複数のデータベース利用](https://railsguides.jp/active_record_multiple_databases.html)
 
 さらに詳細な更新点は、次の Pull Request をご参照ください ;)
 
