@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  📕 Railsガイド『Proプラン』にトライアル期間がつきました
+title:  📕 Railsガイド『Proプラン』で無料トライアルが可能に
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
