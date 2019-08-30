@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  ❤️ Rails Girls Okinawa 2nd に協賛します
+title:  ❤️ Rails Girls Okinawa 2nd に協賛
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Rails Girls, 協賛]
-permalink: /ja/posts/sponsorship-of-rails-girls-okinawa-2nd
+permalink: /ja/posts/we-support-rails-girls-okinawa-2nd
 ---
 
 YassLab 社は『[Rails Girls Okinawa 2nd](http://www.railsgirls.com/okinawa-2nd.html)』 にパートナーとして協賛することになりました❤️✨
