@@ -43,7 +43,7 @@ Nota Inc. 様の許諾をいただき、
 > ### Q.
 > Gyazo にアップロードした画像についてですが、   
 > アップロードした画像を弊社のブログ記事から参照することは可能でしょうか?   
-> ブログ記事の例: https://yasslab.jp/ja/posts/coderdojo-japan-2018
+> ブログ記事の例: https://yasslab.jp/ja/news/coderdojo-japan-2018
 >
 > ### A.
 > お問い合わせの件につきまして、ご丁寧にお問い合わせくださりどうもありがとうございます。   
