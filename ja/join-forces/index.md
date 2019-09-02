@@ -48,7 +48,7 @@ lang:   ja
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
 	-->
-        <p id="daily-life" class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="ignore-sp">(関連記事: <a href="https://yasslab.jp/ja/posts/remote-first-at-megane-fes-2019">megane Fes 2019 でリモートワークについて発表 🏢</a>)</p>
+        <p id="daily-life" class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="ignore-sp">(関連記事: <a href="https://yasslab.jp/ja/news/remote-first-at-megane-fes-2019">megane Fes 2019 でリモートワークについて発表 🏢</a>)</p>
 	
 	
 	<h2 class="text-center mt-5 mb-5"><a href="#daily-life">YassLab 社の日常</a></h2>
@@ -115,7 +115,7 @@ lang:   ja
 	      <li>yasslab/railstutorial.jp_web (Private)</li>
 	      <li>yasslab/ruby_on_rails_tutorial_book (Private)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/continuous-integration-for-ebook">Railsチュートリアルを支える継続的組版技術</a></li>
-	      <li id="railsguides">関連記事: <a href="https://yasslab.jp/ja/posts/railstutorial-at-ginza-rails">Railsチュートリアルの開発背景を銀座Railsで発表しました 🎙</a></li>
+	      <li id="railsguides">関連記事: <a href="https://yasslab.jp/ja/news/railstutorial-at-ginza-rails">Railsチュートリアルの開発背景を銀座Railsで発表しました 🎙</a></li>
 	    </ul>
 	  </li>
 	</ul>
@@ -133,7 +133,7 @@ lang:   ja
 	      <li>yasslab/railsguides.jp_web (Private)</li>
 	      <li>yasslab/railsguides.jp_ebook (Private)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/railsguides-as-an-oss-gate">OSS入門としてのRailsガイド</a></li>
-	      <li id="coderdojo">関連記事: <a href="https://yasslab.jp/ja/posts/release-pro-plan">Railsガイド『Proプラン』をリリースしました! 🚀</a></li>
+	      <li id="coderdojo">関連記事: <a href="https://yasslab.jp/ja/news/release-pro-plan">Railsガイド『Proプラン』をリリースしました! 🚀</a></li>
 	      
 	    </ul>
 	  </li>
@@ -152,7 +152,7 @@ lang:   ja
 	      <li><a href="https://github.com/coderdojo-japan/dojopaas">coderdojo-japan/dojopaas</a> (OSS)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasslab/growing-up-together-with-community">全国180ヶ所ある CoderDojo と企業が共創する世界</a></li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo">CoderDojo を支える Rails CMS の活用事例</a></li>
-	      <li id="flow">関連記事: <a href="https://yasslab.jp/ja/posts/coderdojo-japan-2018">開発目線で見る最近の CoderDojo Japan 2018 ☯️</a></li>
+	      <li id="flow">関連記事: <a href="https://yasslab.jp/ja/news/coderdojo-japan-2018">開発目線で見る最近の CoderDojo Japan 2018 ☯️</a></li>
 	    </ul>
 	  </li>
 	</ul>

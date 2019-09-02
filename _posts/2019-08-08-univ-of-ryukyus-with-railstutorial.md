@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [琉球大学, Railsチュートリアル, 法人プラン, ライセンス]
-permalink: /ja/posts/univ-of-ryukyus-with-railstutorial
+permalink: /ja/news/univ-of-ryukyus-with-railstutorial
 ---
 
 ![琉球大学_Railsチュートリアル](https://i.gyazo.com/7406086e6e52822e792c28bfb7225f1a.png)
@@ -45,7 +45,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
 
 <div class="center" style="padding-bottom: 40px;">
   <img alt="メンバーズキャリアでの社員研修" src="https://yasslab.jp/img/posts/members-career-talk.jpg">
-  (写真: <a href="https://yasslab.jp/ja/posts/railstutorial-at-members-career">メンバーズキャリアの社員研修</a>から引用)
+  (写真: <a href="https://yasslab.jp/ja/news/railstutorial-at-members-career">メンバーズキャリアの社員研修</a>から引用)
 </div>
 
 基本的には enPiT と同様のスタイルとなりますが、学生だけでなく社員研修でもこの『創りながら学ぶ』スタイルは好評です。特にそれぞれの現場の技術的要望を汲み取りつつ、個々人のモチベーションにも沿って柔軟に学べる点が良いとされています。
@@ -56,7 +56,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
 > - Reactの習得が目標で、達成できたと思う。Reduxも同時に習得したいという思いもあったが、目標設計の時点で工数オーバーだと気づいて諦めたのが良かったかもしれない。
 > - Railsという１つの技術に絞って自分は学習したので、確実に基礎の技術を習得できたと思う。
 >
-> 『[🎓 法人向けサービス活用例：マネーフォワード様](https://yasslab.jp/ja/posts/learning-by-making)』から引用
+> 『[🎓 法人向けサービス活用例：マネーフォワード様](https://yasslab.jp/ja/news/learning-by-making)』から引用
 
 創りながら学ぶスタイルは、大学の講義や社員の研修だけでなく、若い世代の方々にも有用です。例えば立ち上げ当初から関わっている[未踏ジュニア](https://jr.mitou.org/)では、創りながら学ぶサイクルを続けていくことで、年齢に関わらず大きな成果が出せるようになりました。
 

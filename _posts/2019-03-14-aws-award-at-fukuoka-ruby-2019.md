@@ -5,7 +5,7 @@ thumbnail: posts/Ruby_Award_2019.png
 author: yasulab
 categories: [Press]
 tags: [Railsチュートリアル, フクオカRuby大賞]
-permalink: /ja/posts/aws-award-at-fukuoka-ruby-2019
+permalink: /ja/news/aws-award-at-fukuoka-ruby-2019
 ---
 
 YassLab 株式会社の『[Railsチュートリアル × 反転学習](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails)』の取り組みが[第11回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/184)のAWS賞を受賞しました!

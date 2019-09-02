@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド, Proプラン, Teamプラン]
-permalink: /ja/posts/railsguides-static-search
+permalink: /ja/news/railsguides-static-search
 ---
 
 Railsガイドの[Proプラン](https://railsguides.jp/pro)/[Teamプラン](https://railsguides.jp/team)に検索結果の一覧機能が追加されました 🎉
@@ -38,7 +38,7 @@ Alfred はほんの一例ですが、色々なアプリと組み合わせてみ�
 <!-- Alfred demo を入れる -->
 
 ## まとめ
-いかがでしたか？何か気になる点がございましたらお気軽に[フィードバック機能](https://yasslab.jp/ja/posts/feature-request-form)をご利用ください 💌
+いかがでしたか？何か気になる点がございましたらお気軽に[フィードバック機能](https://yasslab.jp/ja/news/feature-request-form)をご利用ください 💌
 
 Rails特化の全文検索サービスの「[Proプラン](https://railsguides.jp/pro)」、チーム全体の作業効率を向上させる「[Teamプラン](https://railsguides.jp/team)」を今後ともよろしくお願いします。
 

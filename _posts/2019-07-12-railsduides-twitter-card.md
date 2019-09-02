@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド]
-permalink: /ja/posts/railsduides-twitter-card
+permalink: /ja/news/railsduides-twitter-card
 ---
 
 ## Railsガイド × Twitter Card
@@ -36,7 +36,7 @@ Twitter 投稿時に、見ていたページのタイトルが今までよりも
 - 決済の一元化 💰(クレジットカードにも対応💳)
 - Google Analytics 対応 📊
 
-上記の Proプランの機能をチーム全体で効率的に利用できます。詳しくは[リリース記事](https://yasslab.jp/ja/posts/release-team-plan)やRailsガイド『[Teamプラン](https://railsguides.jp/team)』をご覧下さい。
+上記の Proプランの機能をチーム全体で効率的に利用できます。詳しくは[リリース記事](https://yasslab.jp/ja/news/release-team-plan)やRailsガイド『[Teamプラン](https://railsguides.jp/team)』をご覧下さい。
 
 
 ## 最後に

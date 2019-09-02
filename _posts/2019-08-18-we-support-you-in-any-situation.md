@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, 未踏ジュニア]
-permalink: /ja/posts/we-support-you-in-any-situation
+permalink: /ja/news/we-support-you-in-any-situation
 ---
 
 未踏ジュニア採択者に対して毎年伝えている発表『困ったときのガイドライン』が一般公開されました 🚀✨
@@ -35,7 +35,7 @@ YassLab 社では『{{ site.railstutorial }}』や『{{ site.railsguides }}』�
 また、YassLab 社では CoderDojo や未踏ジュニアなどでも大切にされている『創りながら学ぶ』スタイルを研修としても展開しています。もし興味あればマネーフォワードで実施された下記の研修紹介記事をご参照ください ;)
 
 🎓 法人向けサービス活用例：マネーフォワード様
-[https://yasslab.jp/ja/posts/learning-by-making](https://yasslab.jp/ja/posts/learning-by-making)
+[https://yasslab.jp/ja/news/learning-by-making](https://yasslab.jp/ja/news/learning-by-making)
  
 -----
 

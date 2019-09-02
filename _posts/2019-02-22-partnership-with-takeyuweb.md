@@ -5,14 +5,14 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]
 tags: [Takeyuweb, Railsガイド, 提携]
-permalink: /ja/posts/partnership-with-takeyuweb
+permalink: /ja/news/partnership-with-takeyuweb
 ---
 
 [![タケユー・ウェブ株式会社ロゴ](/img/partners/takeyuweb.png)](https://takeyuweb.co.jp/?utm_source=railsguide&utm_medium=banner&utm_campaign=supporter)
 
 『エンジニアリングをもっと自由に楽しく』を掲げるタケユー・ウェブ株式会社と YassLab 株式会社 (以下 YassLab 社) は、Railsガイド支援・協賛プランに関するパートナーシップ契約書を締結いたしました。
 
-YassLab 社が運営する[Railsガイド](https://railsguides.jp/)では、[Scout APM との提携](https://yasslab.jp/ja/posts/scout-supports-railsguidesjp)をキッカケに、Railsガイドの継続的な更新を支援する法人向けに『[支援・協賛プラン](https://railsguides.jp/#supporters)』の取り組みをはじめ、その取り組みにタケユー・ウェブ株式会社様にも賛同していただいたカタチとなります。
+YassLab 社が運営する[Railsガイド](https://railsguides.jp/)では、[Scout APM との提携](https://yasslab.jp/ja/news/scout-supports-railsguidesjp)をキッカケに、Railsガイドの継続的な更新を支援する法人向けに『[支援・協賛プラン](https://railsguides.jp/#supporters)』の取り組みをはじめ、その取り組みにタケユー・ウェブ株式会社様にも賛同していただいたカタチとなります。
 
 [![Railsガイド協賛企業まとめ](/img/partners/railsguidesjp-supporters.png)](https://railsguides.jp/#supporters)
 

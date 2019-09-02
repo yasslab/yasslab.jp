@@ -5,7 +5,7 @@ thumbnail: https://i.gyazo.com/0759b0f6faedde8b35e586d5ac6e7e10.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails]
-permalink: /ja/posts/ceremony-of-fukuoka-ruby-award-2019
+permalink: /ja/news/ceremony-of-fukuoka-ruby-award-2019
 ---
 
 YassLab 株式会社が提供する『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』を使った[Railsチュートリアル × 反転学習](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails)の取り組みが[第11回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/184)でAWS賞を受賞しました! 🏆
@@ -50,9 +50,9 @@ YassLab 株式会社が提供する『[Railsチュートリアル法人プラン
 ちなみに隣のブースは社員研修で『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』をご活用して頂いたマネーフォワード社でした 🤝💖 法人プランを活用した社員研修の内容は、マネーフォワード社の許諾を頂いた上で公開しているので、具体的な活用事例を知りたい方は次の記事をご参照ください。
 
 🎓 法人向けサービス活用例：マネーフォワード様
-[https://yasslab.jp/ja/posts/learning-by-making](https://yasslab.jp/ja/posts/learning-by-making)
+[https://yasslab.jp/ja/news/learning-by-making](https://yasslab.jp/ja/news/learning-by-making)
 
-[![Photo of MF office](https://yasslab.jp/img/posts/mf-lounge.jpg)](https://yasslab.jp/ja/posts/learning-by-making)
+[![Photo of MF office](https://yasslab.jp/img/posts/mf-lounge.jpg)](https://yasslab.jp/ja/news/learning-by-making)
 
 ## 最後に
 
