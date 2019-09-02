@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, 銀座Rails, Railsチュートリアル]
-permalink: /ja/posts/railstutorial-at-ginza-rails
+permalink: /ja/news/railstutorial-at-ginza-rails
 ---
 
 [銀座Rails#7](https://ginza-rails.connpass.com/event/120573/)でRailsチュートリアルの開発背景について発表しました。
@@ -38,9 +38,9 @@ Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/bu
 
 ### 関連記事
 
-- [Railsチュートリアル法人プラン活用事例：メンバーズキャリア様](https://yasslab.jp/ja/posts/railstutorial-at-members-career)
+- [Railsチュートリアル法人プラン活用事例：メンバーズキャリア様](https://yasslab.jp/ja/news/railstutorial-at-members-career)
 - [Rubyでの個人開発物の成果発表会！ - 株式会社メンバーズキャリア ](https://www.wantedly.com/companies/memberscareer/post_articles/162098Ruby%E3%81%A7%E3%81%AE%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA%E7%89%A9%E3%81%AE%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A%E3%81%AB%E3%80%81%E6%8A%80%E8%A1%93%E9%A1%A7%E5%95%8F%E3%81%AE%E5%AE%89%E5%B7%9D)
-- [フクオカRuby大賞で、AWS賞を受賞しました](https://yasslab.jp/ja/posts/aws-award-at-fukuoka-ruby-2019)
+- [フクオカRuby大賞で、AWS賞を受賞しました](https://yasslab.jp/ja/news/aws-award-at-fukuoka-ruby-2019)
 
 <br>
 

@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]
 tags: [CODE BASE, Railsチュートリアル, 提携, 沖縄]
-permalink: /ja/posts/partnership-with-codebase
+permalink: /ja/news/partnership-with-codebase
 ---
 
 ![CODE BASE x Railsチュートリアル](/img/partners/codebase.png)

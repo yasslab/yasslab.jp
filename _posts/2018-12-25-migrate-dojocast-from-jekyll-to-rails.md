@@ -5,7 +5,7 @@ thumbnail: posts/dojocast-cover.jpg
 author: yasulab
 categories: [Blog]
 tags: [CoderDojo, Jekyll, Rails]
-permalink: /ja/posts/migrate-dojocast-from-jekyll-to-rails
+permalink: /ja/news/migrate-dojocast-from-jekyll-to-rails
 ---
 
 [Okinawa.rb Advent Calendar 2018](https://qiita.com/advent-calendar/2018/okinawarb) 25日目の記事です。
@@ -28,7 +28,7 @@ YassLab 社には「トライ」という[「まずはやってみようよ!」�
 
 さて、DojoCast や英語収録の内容については上記リンクから聴いていただくこととして、本記事ではこの収録を公開するために裏側で色々と動いていたので、今回はその技術的な背景と実装したことを軽くまとめておきますね。
 
-*NOTE: YassLab 社と CoderDojo Japan との関係性については[前回の記事](https://yasslab.jp/ja/posts/coderdojo-japan-2018)をご参照ください。*
+*NOTE: YassLab 社と CoderDojo Japan との関係性については[前回の記事](https://yasslab.jp/ja/news/coderdojo-japan-2018)をご参照ください。*
 
 <br>
 
@@ -102,7 +102,7 @@ DojoCastのRSSフィードを実装してiTunesから購読できるようにす
   <br><br>
 </div>
 
-今回実装した Podcast 機能に限らず、やるべき方針を見定め、今後も coderdojo.jp でできることがあれば少しずつ改善していきたいと思います。ただし[次にやるべきことが常に開発であるとは限らない](https://yasslab.jp/ja/posts/coderdojo-japan-2018)ので、開発だけでなく、「CoderDojo コミュニティにとって役立つことは何なのか」から考えて、そこから効果的なアクションを模索・実行していきたいなと考えています。
+今回実装した Podcast 機能に限らず、やるべき方針を見定め、今後も coderdojo.jp でできることがあれば少しずつ改善していきたいと思います。ただし[次にやるべきことが常に開発であるとは限らない](https://yasslab.jp/ja/news/coderdojo-japan-2018)ので、開発だけでなく、「CoderDojo コミュニティにとって役立つことは何なのか」から考えて、そこから効果的なアクションを模索・実行していきたいなと考えています。
 
 <br>
 
@@ -120,7 +120,7 @@ DojoPaaS のコードを node から Ruby に移植したい #110
 
 いずれのプロジェクトも PR/Issue などでまとめているので、もし興味あれば気軽に覗いてみてください 📜👀✨
 
-上記の他にも、もし「coderdojo.jp でこんなことやってみたい」「こういうアプリ作ろうと思いますがどうですか?」などのご相談があれば [@yasulab](https://twitter.com/yasulab) までお気軽にご連絡ください 📧✨ 開発環境に関するドキュメントは [GitHub の README](https://github.com/coderdojo-japan/coderdojo.jp) から公開していて、[開発目線で見たソースコードの動き](https://yasslab.jp/ja/posts/coderdojo-japan-2018)も１年単位で記事にしているので、開発に関する情報のキャッチアップはしやすい状況になっているかなとは思います ☺️
+上記の他にも、もし「coderdojo.jp でこんなことやってみたい」「こういうアプリ作ろうと思いますがどうですか?」などのご相談があれば [@yasulab](https://twitter.com/yasulab) までお気軽にご連絡ください 📧✨ 開発環境に関するドキュメントは [GitHub の README](https://github.com/coderdojo-japan/coderdojo.jp) から公開していて、[開発目線で見たソースコードの動き](https://yasslab.jp/ja/news/coderdojo-japan-2018)も１年単位で記事にしているので、開発に関する情報のキャッチアップはしやすい状況になっているかなとは思います ☺️
 
 それでは、よいお年を！   
 Happy Coding ;)

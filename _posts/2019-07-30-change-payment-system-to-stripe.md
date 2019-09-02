@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsチュートリアル, Stripe, Gumroad]
-permalink: /ja/posts/change-payment-system-to-stripe
+permalink: /ja/news/change-payment-system-to-stripe
 ---
 
 Railsチュートリアル解説動画の決済システムが Gumroad から Stripe に切り替わり、必要最低限の情報でカード決済ができるようになりました 🎉
@@ -63,7 +63,7 @@ YassLab 社が提供する新しいサービス『[法人プラン](https://rail
   <script async class="speakerdeck-embed" data-id="30289234a2f743b6b2827602cfbc5991" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-先日の[第11回フクオカRuby大賞でAWS賞を受賞](https://yasslab.jp/ja/posts/ceremony-of-fukuoka-ruby-award-2019)した『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』でも使われている当解説動画をぜひご視聴いただければ嬉しく思います。
+先日の[第11回フクオカRuby大賞でAWS賞を受賞](https://yasslab.jp/ja/news/ceremony-of-fukuoka-ruby-award-2019)した『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』でも使われている当解説動画をぜひご視聴いただければ嬉しく思います。
 
 [https://railstutorial.jp/screencast](https://railstutorial.jp/screencast) 解説動画-Railsチュートリアル
 

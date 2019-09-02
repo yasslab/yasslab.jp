@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails]
-permalink: /ja/posts/new-functional-design-for-railstutorialjp
+permalink: /ja/news/new-functional-design-for-railstutorialjp
 ---
 
 Railsチュートリアル内のページ遷移が便利になり、次章や前章へすぐに移動できるようになったり、法人プランのユーザーが簡単にログインできるようになりました。

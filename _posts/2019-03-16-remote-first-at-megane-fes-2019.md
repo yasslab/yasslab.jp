@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [リモートワーク, 登壇]
-permalink: /ja/posts/remote-first-at-megane-fes-2019
+permalink: /ja/news/remote-first-at-megane-fes-2019
 ---
 
 ![megane Fes 2019 Photo](/img/posts/meganefes-2019-photo.jpg)
@@ -32,9 +32,9 @@ permalink: /ja/posts/remote-first-at-megane-fes-2019
 
 ## 👀 合わせて読みたい: <br>社員目線のリモートワーク
 
-上記のスライド資料と発表動画は会社側 (役員目線) で見たリモートワークの話となります。社員目線での話は情報処理学会での発表した記事『[情報処理学会 全国大会でリモートワークについて発表](https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj)』をご参照ください 📜 👀
+上記のスライド資料と発表動画は会社側 (役員目線) で見たリモートワークの話となります。社員目線での話は情報処理学会での発表した記事『[情報処理学会 全国大会でリモートワークについて発表](https://yasslab.jp/ja/news/work-life-balance-at-81st-ipsj)』をご参照ください 📜 👀
 
-[![記事：社員目線のリモートワーク](/img/posts/ipsj-2019-banner.jpg)](https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj)
+[![記事：社員目線のリモートワーク](/img/posts/ipsj-2019-banner.jpg)](https://yasslab.jp/ja/news/work-life-balance-at-81st-ipsj)
 
 **Have a Nice Remote Working ;)**
 
