@@ -10,9 +10,11 @@ defaults:
     values:
       permalink: /ja/news/:title
 
-# Use /css for designing
+# Use sass for designing
 sass:
-  sass_dir: _sass
+  style:     compact
+  sass_dir:  _sass
+  sourcemap: always
   load_paths:
     - _sass
     - node_modules
