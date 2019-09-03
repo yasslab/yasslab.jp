@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]
 tags: [Takeyuweb, Railsガイド, 提携]
-permalink: /ja/news/partnership-with-takeyuweb
 ---
 
 [![タケユー・ウェブ株式会社ロゴ](/img/partners/takeyuweb.png)](https://takeyuweb.co.jp/?utm_source=railsguide&utm_medium=banner&utm_campaign=supporter)

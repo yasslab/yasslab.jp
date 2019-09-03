@@ -5,7 +5,6 @@ thumbnail: posts/cover-hackers-champloo-2019.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails, Stripe]
-permalink: /ja/news/payment-implmentation-with-stripe
 ---
 
 2019年6月29日に開催された Hackers Champloo において、YassLab 社の [@nanophate](https://twitter.com/nanophate) がStripe を使った開発事例を発表しました 😉

@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, 未踏ジュニア]
-permalink: /ja/news/we-support-you-in-any-situation
 ---
 
 未踏ジュニア採択者に対して毎年伝えている発表『困ったときのガイドライン』が一般公開されました 🚀✨

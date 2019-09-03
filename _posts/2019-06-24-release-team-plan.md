@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド, リリース]
-permalink: /ja/news/release-team-plan
 ---
 
 YassLab 株式会社が運営するRailsガイドから新たに『[Teamプラン](https://railsguides.jp/team)』がリリースされました! 🆕🚀✨

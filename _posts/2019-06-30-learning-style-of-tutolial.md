@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [Railsチュートリアル]
-permalink: /ja/news/learning-style-of-tutolial
 ---
 
 この記事では、Railsチュートリアルをこれから初めて読み始める方に向けて、オススメの学習スタイルを「テキスト派」「動画派」に分けてみました。

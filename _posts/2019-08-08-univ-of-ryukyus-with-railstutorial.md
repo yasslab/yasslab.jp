@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [琉球大学, Railsチュートリアル, 法人プラン, ライセンス]
-permalink: /ja/news/univ-of-ryukyus-with-railstutorial
 ---
 
 ![琉球大学_Railsチュートリアル](https://i.gyazo.com/7406086e6e52822e792c28bfb7225f1a.png)

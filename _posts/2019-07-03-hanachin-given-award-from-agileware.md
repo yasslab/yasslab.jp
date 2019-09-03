@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [提携, Rails]
-permalink: /ja/news/hanachin-given-award-from-agileware
 ---
 
 弊社メンバー [@hanachin_](https://twitter.com/hanachin_) さんによる [Lychee Redmine](https://lychee-redmine.jp/) 開発への貢献が[株式会社アジャイルウェア](https://agileware.jp/)より表彰されました 🎉

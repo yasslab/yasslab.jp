@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails]
-permalink: /ja/news/partnership-with-haj-empowerment
 ---
 
 ![ITジョブトレ×Railsチュートリアル](https://i.gyazo.com/77891b0e4e44bc508179a4df9c3c4bfc.png)

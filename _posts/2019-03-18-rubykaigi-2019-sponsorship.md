@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [press]
 tags: [RubyKaigi, 協賛]
-permalink: /ja/news/rubykaigi-2019-sponsorship
 ---
 
 RubyKaigi 2019 に[シルバースポンサー](https://rubykaigi.org/2019/sponsors#silver)として協賛いたしました! 💎✨

@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [ふりかえり, 決算]
-permalink: /ja/news/2nd-fiscal-year-of-yasslab
 ---
 
 ７月末で YassLab 社の第２期が終了し、８月から第３期に入ります。本記事では第２期をふりかえりつつ、注目点や今後の動きをまとめてみようと思います。

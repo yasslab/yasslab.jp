@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [登壇, Rails, CoderDojo]
-permalink: /ja/news/cfp-accepted-at-osaka-rubykaigi02
 ---
 
 2019年9月12日に行われる[大阪Ruby会議02](https://regional.rubykaigi.org/osaka02/)で、弊社代表の [@yasulab](https://twitter.com/yasulab) が登壇することになりました 🎉

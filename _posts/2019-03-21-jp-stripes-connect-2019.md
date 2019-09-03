@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails]
-permalink: /ja/news/jp-stripes-connect-2019
 ---
 
 [JP_Stripes Connect 2019](https://connect2019.jpstripes.com/session/tbd-session-4/) で『Railsチュートリアル [法人プラン](https://railstutorial.jp/business)』『Railsガイド [Proプラン](https://railsguides.jp/pro)』の Stripe 決済事例について発表してきました ;)
