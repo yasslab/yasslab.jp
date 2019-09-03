@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Blog]
 tags: [リモートワーク, Zoom]
-permalink: /ja/posts/krisp-trial
+permalink: /ja/news/krisp-trial
 ---
 
 「Krisp」というアプリをご存知でしょうか? 弊社のようなリモートワーク主体で動く会社では、ビデオ会議を頻繁に行いますが、場所によっては周りの環境音が気になってしまい、スムーズにコミュニケーションが取れなくなってしまうときがあります。[指向性のあるマイク](http://www.amazon.com/Audio-Technica-ATR2100-USB-Cardioid-Dynamic-Microphone/dp/B004QJOZS4)などを使うと改善できるのですが、常にマイクを持って移動するのも手間ですよね >< 💦

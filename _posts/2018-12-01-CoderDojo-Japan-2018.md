@@ -5,7 +5,7 @@ thumbnail: coderdojo-japan.png
 author: yasulab
 categories: [Blog]
 tags: [CoderDojo, Rails]
-permalink: /ja/posts/coderdojo-japan-2018
+permalink: /ja/news/coderdojo-japan-2018
 ---
 
 <div class="video" style="margin-bottom: 30px;">

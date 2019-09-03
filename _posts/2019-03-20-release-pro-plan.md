@@ -5,7 +5,7 @@ thumbnail: posts/cover-guides-pro.png
 author: yasulab
 categories: [press]
 tags: [Railsガイド, リリース]
-permalink: /ja/posts/release-pro-plan
+permalink: /ja/news/release-pro-plan
 ---
 
 YassLab 株式会社が運営するRailsガイドから『[Proプラン](https://railsguides.jp/pro)』がリリースされました! 🆕🚀✨

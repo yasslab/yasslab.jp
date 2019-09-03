@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Blog]
 tags: [リモートワーク, GitHub, 情報処理学会, 登壇]
-permalink: /ja/posts/work-life-balance-at-81st-ipsj
+permalink: /ja/news/work-life-balance-at-81st-ipsj
 ---
 
 情報処理学会 第81回全国大会のセッション『[来たれ！ワークライフバランス伝道師](https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html)』で YassLab 株式会社の [@himajin315](https://twitter.com/himajin315) さんが『リモートワークで働くということ』というタイトルで発表しました!

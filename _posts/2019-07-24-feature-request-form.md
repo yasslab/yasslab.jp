@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド]
-permalink: /ja/posts/feature-request-form
+permalink: /ja/news/feature-request-form
 ---
 
 日頃より[Railsチュートリアル](https://railstutorial.jp/)・[Railsガイド](https://railsguides.jp)のご利用ありがとうございます✨

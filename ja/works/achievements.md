@@ -1,22 +1,22 @@
 ### [2019](#2019)
 
 - **6月 Railsガイド『[Teamプラン](https://railsguides.jp/team)』をリリースしました**
-- 6月 名古屋Ruby会議04で『[リモートワーク](https://yasslab.jp/ja/posts/remote-work-from-okinawa)』について発表
+- 6月 名古屋Ruby会議04で『[リモートワーク](https://yasslab.jp/ja/news/remote-work-from-okinawa)』について発表
 - 6月 coderdojo.jp から『[近日開催イベント](https://coderdojo.jp/events)』をリリース
-- 5月 [マネーフォワード様の新卒研修事例](https://yasslab.jp/ja/posts/learning-by-making)を公開
+- 5月 [マネーフォワード様の新卒研修事例](https://yasslab.jp/ja/news/learning-by-making)を公開
 - **4月 取材記事『[Railsチュートリアル開発経緯と今後](https://free-engineer.site/yasslab/)』が公開**
-- 4月 [RubyKaigi 2019 に協賛](https://yasslab.jp/ja/posts/rubykaigi-2019-sponsorship)。全社員を招待 (任意参加)
+- 4月 [RubyKaigi 2019 に協賛](https://yasslab.jp/ja/news/rubykaigi-2019-sponsorship)。全社員を招待 (任意参加)
 - 4月 DIVE INTO CODE 主催 [Demo Day 6th](https://diveintocode.doorkeeper.jp/events/83984) に審査員として参加
 - 4月 『[DojoCast](https://coderdojo.jp/podcasts)』の [Apple Podcasts アプリ対応](https://twitter.com/CoderDojoJapan/status/1112927872803430400)をリリース
 - 4月 coderdojo.jp から[2018年の統計情報](https://twitter.com/CoderDojoJapan/status/1112581734967570432)を公開
 - 4月 新たに社員が加わり、[社員数が12名](/ja/#members)になりました
-- 3月 JP_Stripes Connect 2019 の[LTセッションで登壇](https://yasslab.jp/ja/posts/jp-stripes-connect-2019)
-- **3月 Railsガイド『[Proプラン](https://yasslab.jp/ja/posts/release-pro-plan)』をリリースしました**
-- 3月 フクオカRuby大賞で[AWS賞を受賞](https://yasslab.jp/ja/posts/aws-award-at-fukuoka-ruby-2019)しました
-- 3月 [Rails Developers Meetup 2019](https://railsdm.github.io/) に弊社宮城が[登壇](https://yasslab.jp/ja/posts/no-code-reviews-at-railsdm-2019)
-- 3月 [情報処理学会の第81回全国大会](https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html)に弊社大城が[登壇](https://yasslab.jp/ja/posts/work-life-balance-at-81st-ipsj)
+- 3月 JP_Stripes Connect 2019 の[LTセッションで登壇](https://yasslab.jp/ja/news/jp-stripes-connect-2019)
+- **3月 Railsガイド『[Proプラン](https://yasslab.jp/ja/news/release-pro-plan)』をリリースしました**
+- 3月 フクオカRuby大賞で[AWS賞を受賞](https://yasslab.jp/ja/news/aws-award-at-fukuoka-ruby-2019)しました
+- 3月 [Rails Developers Meetup 2019](https://railsdm.github.io/) に弊社宮城が[登壇](https://yasslab.jp/ja/news/no-code-reviews-at-railsdm-2019)
+- 3月 [情報処理学会の第81回全国大会](https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html)に弊社大城が[登壇](https://yasslab.jp/ja/news/work-life-balance-at-81st-ipsj)
 - 3月 [SecHack365の成果発表会 (ポスター枠)](https://sechack365.nict.go.jp/achievement/presentation.html) に弊社又吉が登壇
-- **2月 CODE BASE とRailsチュートリアルに関する[提携を発表](https://yasslab.jp/ja/posts/partnership-with-codebase)**
+- **2月 CODE BASE とRailsチュートリアルに関する[提携を発表](https://yasslab.jp/ja/news/partnership-with-codebase)**
 - **2月 Railsチュートリアル解説動画『[お試しプラン](https://railstutorial.jp/trial)』をリリース**
 - 2月 未踏ジュニア[2019年度オンライン説明会](https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true)に弊社安川が登壇
 - 1月 Findy 主催「[エンジニア×リモートワーク](https://findy.connpass.com/event/113811/)」に登壇 ([資料](https://speakerdeck.com/yasulab/remote-first-company-in-5min))

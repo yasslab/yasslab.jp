@@ -5,7 +5,7 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Railsチュートリアル, Railsガイド]
-permalink: /ja/posts/lightning-talk-at-esm-agile
+permalink: /ja/news/lightning-talk-at-esm-agile
 ---
 
 永和システムマネジメント (以下、esm) [アジャイル事業部](https://agile.esm.co.jp/)主催のイベントに参加してきました! 🏃💨
@@ -18,7 +18,7 @@ permalink: /ja/posts/lightning-talk-at-esm-agile
   📅 イベント参加特典でカレンダーを頂きました!<br><br>
 </div>
 
-YassLab 社が[創業](https://yasslab.jp/ja/works#story)間もない頃から esm アジャイル事業部さんとはご一緒させていただいており、今でも [Rails DM](https://yasslab.jp/ja/posts/no-code-reviews-at-railsdm-2019) や [RubyKaigi](https://yasslab.jp/ja/posts/rubykaigi-2019-sponsorship) などの各種イベントではよくご挨拶させていただいております。
+YassLab 社が[創業](https://yasslab.jp/ja/works#story)間もない頃から esm アジャイル事業部さんとはご一緒させていただいており、今でも [Rails DM](https://yasslab.jp/ja/news/no-code-reviews-at-railsdm-2019) や [RubyKaigi](https://yasslab.jp/ja/news/rubykaigi-2019-sponsorship) などの各種イベントではよくご挨拶させていただいております。
 
 そのアジャイル事業部では毎年『新年度のご挨拶』というイベントを開催しているのですが、今回は LT 発表する機会も頂けるとのことなので、最近の YassLab 社の近況報告も含めて遊びに行かせていただきました。
 
