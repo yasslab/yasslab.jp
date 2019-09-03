@@ -6,9 +6,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.6.3'
+ruby '2.6.4'
 
-gem "jekyll", github: "jekyll/jekyll"
+gem "jekyll", "~> 4.0"
+#gem "jekyll", github: "jekyll/jekyll"
 gem "liquid-c"
 
 gem 'redcarpet'
