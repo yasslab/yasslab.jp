@@ -6,6 +6,9 @@
     "npm": "6.9.0"
   },
   "main": "index.js",
+  "scripts": {
+    "heroku-prebuild":  "npm install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yasslab/yasslab.jp.git"

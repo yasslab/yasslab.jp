@@ -18,6 +18,9 @@
 	    "url": "https://github.com/heroku/heroku-buildpack-ruby"
 	}
     ],
+    "scripts": {
+	"postdeploy": "npm install"
+    },
     "env": {
 	"JEKYLL_ENV": "staging",
 	"RACK_ENV":   "staging",
