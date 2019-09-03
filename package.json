@@ -7,10 +7,12 @@
   },
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild":   "npm install",
-    "heroku-postbuild":  "npm install"
+    "heroku-prebuild": "npm install",
+    "heroku-postbuild": "npm install"
   },
-  "cacheDirectories": ["node_modules"],
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yasslab/yasslab.jp.git"
