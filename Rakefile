@@ -6,6 +6,7 @@ task default: 'assets:precompile'
 namespace :assets do
   task :precompile do
     Rake::Task['clean'].invoke
+    sh 'npm install'
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
   end
 end
