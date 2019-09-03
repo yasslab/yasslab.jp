@@ -2,6 +2,14 @@
 permalink: /:title
 url: https://yasslab.jp
 
+# URL settings for Posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /ja/news/:title
+
 # Variables for pages, posts, feeds, etc
 company:
   vision: "Having a Good Life with OpenSource ;)"
