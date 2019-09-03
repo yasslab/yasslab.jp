@@ -6,10 +6,6 @@
     "npm": "6.9.0"
   },
   "main": "index.js",
-  "scripts": {
-    "heroku-prebuild": "npm install",
-    "heroku-postbuild": "npm install"
-  },
   "cacheDirectories": [
     "node_modules"
   ],
