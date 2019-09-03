@@ -91,6 +91,9 @@ exclude:
   - config.ru
   - vendor
   - app.json
+  - node_modules
+  - package.json
+  - package-lock.json
   - test
   - spec
   - .jekyll-cache
