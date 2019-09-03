@@ -10,6 +10,15 @@ defaults:
     values:
       permalink: /ja/news/:title
 
+# Use sass for designing
+sass:
+  style:     compact
+  sass_dir:  _sass
+  sourcemap: always
+  load_paths:
+    - _sass
+    - node_modules
+
 # Variables for pages, posts, feeds, etc
 company:
   vision: "Having a Good Life with OpenSource ;)"
@@ -82,6 +91,9 @@ exclude:
   - config.ru
   - vendor
   - app.json
+  - node_modules
+  - package.json
+  - package-lock.json
   - test
   - spec
   - .jekyll-cache

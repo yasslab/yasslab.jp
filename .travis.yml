@@ -6,7 +6,6 @@ install:
 before_install:
 - gem install bundler
 script:
-- npm run css
 - bundle install
 - bundle exec rake assets:precompile
 - bundle exec rake test SKIP_BUILD=1

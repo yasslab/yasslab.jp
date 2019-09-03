@@ -8,33 +8,20 @@ YassLab Inc.
 Having a Good Life with OpenSource ;)     
 https://yasslab.jp/
 
-## セットアップ方法
-ローカルで開発・デザインをする場合は、次の２つが必要です。
+## 開発手順
+ローカル環境で開発・デザインをするときは [Jekyll](https://jekyllrb.com) と [Node.js](https://nodejs.org/) が必要です。   
+それぞれをセットアップしたら、次の手順で localhost 上にWebサイトを表示します。
 
-1. Jekyll (必須)
-2. npm ([src/](https://github.com/yasslab/yasslab.jp/tree/master/src) 以下のファイルを修正するときのみ)
-
-### Jekyll
-
-Jekyll を使って localhost 上にWebサイトを表示します。
-
-1. `bundle install`
-    - 初回のgemのインストール
-2. `bundle exec jekyll server`
+1. `$ npm install`
+    - (初回のみ) npm ライブラリのインストール
+1. `$ bundle install`
+    - (初回のみ) gem ライブラリのインストール
+2. `$ bundle exec jekyll server`
     - ローカルサーバーの立ち上げ
-3. ブラウザで `localhost:4000` にアクセス
-    - 成功すれば [yasslab.jp](https://yasslab.jp/) と同じ画面が表示される
+    - 立ち上がったらブラウザから `localhost:4000` にアクセス
 
-### npm
-
-(任意) デザインを修正する場合は npm も立ち上げる必要があります 
-
-1. `npm install`
-    - 初回のnpmのインストール
-2. `npm run css`
-    - cssのコンパイル
-3. `npm run watch`
-    - sassファイルの監視
+成功すれば [yasslab.jp](https://yasslab.jp/) と同じ画面が表示されます。
+その後、開発・修正したいファイルを適宜編集していきます。(再起動は不要)
 
 ## About Images
 Nota Inc. 様の許諾をいただき、  
