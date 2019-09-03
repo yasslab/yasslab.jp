@@ -10,6 +10,13 @@ defaults:
     values:
       permalink: /ja/news/:title
 
+# Use /css for designing
+sass:
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules
+
 # Variables for pages, posts, feeds, etc
 company:
   vision: "Having a Good Life with OpenSource ;)"
