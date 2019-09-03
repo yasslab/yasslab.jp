@@ -2,7 +2,7 @@
 ---
 
 @import "node_modules/bootstrap/scss/functions";
-@import "myvariables";
+@import "css/myvariables";
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/root";
 //@import "node_modules/bootstrap/scss/reboot";
@@ -38,4 +38,4 @@
 @import "node_modules/bootstrap/scss/carousel";
 @import "node_modules/bootstrap/scss/utilities";
 @import "node_modules/bootstrap/scss/print";
-@import "mystyle";
+@import "css/mystyle";
