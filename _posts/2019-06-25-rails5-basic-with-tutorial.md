@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsチュートリアル]
-permalink: /ja/news/rails5-basic-with-tutorial
 ---
 
 **[Rails5 ベーシック試験 (旧: ブロンズ試験)](https://railscp.com/2019/06/25/rails5basic/)** の参考教材として、弊社の『 [**Railsチュートリアル**](https://railstutorial.jp/) 』が継続して採用されました。

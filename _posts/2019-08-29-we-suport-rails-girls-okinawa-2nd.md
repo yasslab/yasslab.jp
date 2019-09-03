@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Rails Girls, 協賛]
-permalink: /ja/news/we-support-rails-girls-okinawa-2nd
 ---
 
 YassLab 社は『[Rails Girls Okinawa 2nd](http://www.railsgirls.com/okinawa-2nd.html)』 にパートナーとして協賛することになりました❤️✨

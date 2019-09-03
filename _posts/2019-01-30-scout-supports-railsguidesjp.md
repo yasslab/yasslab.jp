@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]
 tags: [Railsガイド, 提携]
-permalink: /ja/news/scout-supports-railsguidesjp
 ---
 
 YassLab 社が運営しているWebサイト「Railsガイド」のサポーターに、Application Performance Monitoring サービスの「Scout APM」が新たに加わりました! 🤝✨

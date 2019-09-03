@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [Railsチュートリアル, インタビュー]
-permalink: /ja/news/inside-railstutorial
 ---
 
 Railsチュートリアルの開発経緯とこれからの展望について取材していただいた記事が公開されました!

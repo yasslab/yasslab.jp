@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド]
-permalink: /ja/news/railsduides-twitter-card
 ---
 
 ## Railsガイド × Twitter Card

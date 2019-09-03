@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [Railsガイド, Proプラン]
-permalink: /ja/news/add-trial-plan-for-pro-users
 ---
 
 Railsガイド『Proプラン』が15日間無料でお試し利用できるようになりました 🎉

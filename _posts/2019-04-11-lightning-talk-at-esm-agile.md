@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Railsチュートリアル, Railsガイド]
-permalink: /ja/news/lightning-talk-at-esm-agile
 ---
 
 永和システムマネジメント (以下、esm) [アジャイル事業部](https://agile.esm.co.jp/)主催のイベントに参加してきました! 🏃💨

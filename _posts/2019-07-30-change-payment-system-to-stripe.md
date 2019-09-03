@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsチュートリアル, Stripe, Gumroad]
-permalink: /ja/news/change-payment-system-to-stripe
 ---
 
 Railsチュートリアル解説動画の決済システムが Gumroad から Stripe に切り替わり、必要最低限の情報でカード決済ができるようになりました 🎉

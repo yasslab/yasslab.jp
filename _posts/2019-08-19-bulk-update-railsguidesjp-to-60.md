@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [Railsガイド, リリースノート]
-permalink: /ja/news/bulk-update-railsguidesjp-to-60
 ---
 
 2019年8月15日の[Rails 6.0 リリース](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release/)に合わせて、Railsガイドの新規ガイドおよび既存ガイドを大幅に更新しました! 📜✨

@@ -5,7 +5,6 @@ thumbnail: posts/nagoyark04-ateam.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, リモートワーク, Railsチュートリアル, Railsガイド]
-permalink: /ja/news/remote-work-from-okinawa
 ---
 
 [![名古屋Ruby会議04](/img/posts/nagoyark04-ateam.jpg)](https://twitter.com/yasulab/status/1137221480779882496)

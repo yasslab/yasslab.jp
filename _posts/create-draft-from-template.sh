@@ -26,7 +26,6 @@ else
     echo "author: ${AUTHOR}"       >> $TEMPLATE_FILENAME
     echo "categories: [blog]"      >> $TEMPLATE_FILENAME
     echo "tags: [登壇, Rails]"     >> $TEMPLATE_FILENAME
-    echo "permalink: /ja/news/$1" >> $TEMPLATE_FILENAME
     echo "---"                     >> $TEMPLATE_FILENAME
     echo ""                        >> $TEMPLATE_FILENAME
     cat  $SAMPLE_POST_TEXT         >> $TEMPLATE_FILENAME

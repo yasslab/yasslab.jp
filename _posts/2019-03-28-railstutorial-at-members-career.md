@@ -5,7 +5,6 @@ thumbnail: posts/case-members-career-1.jpg
 author: yasulab
 categories: [blog]
 tags: [Railsチュートリアル, 法人プラン, 事例紹介]
-permalink: /ja/news/railstutorial-at-members-career
 ---
 
 Railsチュートリアル法人プランを利用していただいている[株式会社メンバーズキャリア](https://www.memberscareer.co.jp/)で、Railsチュートリアルで学んだことを土台に開発したWebサービスの成果報告会が行われました。

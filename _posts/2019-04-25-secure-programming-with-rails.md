@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [セキュリティ, Rails, Railsチュートリアル]
-permalink: /ja/news/secure-programming-with-rails
 ---
 
 [銀座Rails#8](https://ginza-rails.connpass.com/event/121889/)で行われた徳丸 浩さん ([@ockeghem](https://twitter.com/ockeghem)) の講演『Railsエンジニアのためのウェブセキュリティ入門』に参加してきました! 🏃💨

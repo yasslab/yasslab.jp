@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [Railsチュートリアル, 法人プラン, Railsガイド, Teamプラン, マネーフォワード, 事例紹介]
-permalink: /ja/news/learning-by-making
 ---
 
 ![写真：ラウンジ](/img/posts/mf-lounge.jpg)

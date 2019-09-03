@@ -5,7 +5,6 @@ thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [Railsチュートリアル]
-permalink: /ja/news/highlight-of-railstutorial-screencast
 ---
 
 Railsチュートリアル解説動画は、各章合わせて約36時間に及ぶ大ボリュームとなっており、１周終わってこれから２周目、３周目という方や、他言語から学ばれてきた方にも役立つ情報がたくさんあります。動画は授業形式になっており、何度も繰り返し見ることが可能です。テキスト版の予習・復習に、自分好みの使い方で理解を深めるのにきっと役立つはずです。
