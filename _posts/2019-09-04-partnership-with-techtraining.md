@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🤝テクトレ社とRailsチュートリアルのライセンス契約を締結
+title:  🤝 テクトレ社とRailsチュートリアルのライセンス契約を締結
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [Press]
