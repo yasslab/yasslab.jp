@@ -8,7 +8,7 @@ namespace :assets do
   task :precompile do
     Rake::Task['clean'].invoke
     # sh 'npm install'
-    sh 'ls -a /node_modules'
+    sh 'ls -a ./node_modules'
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
   end
 end
