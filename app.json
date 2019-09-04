@@ -23,6 +23,7 @@
     "env": {
 	"JEKYLL_ENV": "staging",
 	"RACK_ENV":   "staging",
+	"NPM_CONFIG_PRODUCTION":   "false",
 	"TZ": {
 	    "required": true
 	}
