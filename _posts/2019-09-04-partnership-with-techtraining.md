@@ -12,9 +12,9 @@ tags: [Railsチュートリアル, 提携]
 コミュニティ型学習支援サービスの「TechCommit」を運営する[株式会社テクトレ](https://corp.tech-training.jp/)と Railsチュートリアル商用ライセンス利用許諾を締結いたしました。
 
 ## テクトレ社紹介
-オリジナルアプリ開発をするためのコミュニティ型学習環境『[TechCommit](https://www.tech-commit.jp/)』の運営など、**「より将来に明るい展望を盛って前向きに生きられる」人々を、ITを活用した事業を通して増やしていく**ことをミッションとされている会社です🏢✨
+オリジナルアプリ開発をするためのコミュニティ型学習環境『[TechCommit](https://www.tech-commit.jp/)』、コードレビューを中心とした業務研修サービス『[TechTraining](https://www.tech-training.jp/item/rails_review)』の運営など、**「より将来に明るい展望を盛って前向きに生きられる」人々を、ITを活用した事業を通して増やしていく**ことをミッションとされている会社です🏢✨
 
-[![テクトレ社提供サービス](https://i.gyazo.com/dfa4d3cfa16a1be4f475bb8da804ff52.png)](https://corp.tech-training.jp/)
+[![テクトレ社提供サービス](https://i.gyazo.com/f32e8dcc56d728e8b761e298bd1998bf.png)](https://corp.tech-training.jp/)
 
 Railsチュートリアルと商用ライセンスを結んだことにより、Railsチュートリアルを利用した学習支援サービスを展開していただけるようになりました🎓
 
