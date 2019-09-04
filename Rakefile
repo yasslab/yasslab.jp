@@ -6,8 +6,8 @@ task default: 'assets:precompile'
 # Override assets:precomiple in Heroku deployment
 namespace :assets do
   task :precompile do
-    sh 'npm prune --production'
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
+    sh 'npm prune --production'
   end
 end
 
