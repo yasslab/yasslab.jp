@@ -7,7 +7,7 @@ task default: 'assets:precompile'
 namespace :assets do
   task :precompile do
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
-    sh 'npm prune --production'
+    sh 'npm prune --production' if ENV['NPM_CONFIG_PRODUCTION'] == 'false'
   end
 end
 
