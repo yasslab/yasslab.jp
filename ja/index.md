@@ -294,17 +294,14 @@ lang:   ja
     <div class="row">
       <div class="col-12">
         <h2><a href="#press">プレスリリース</a></h2>
-          <ul>
-            <li>
-              <a href="https://www.members.co.jp/company/news/2018/0806_2.html" target="_blank">常駐型デジタルプロフェッショナルサービスのメンバーズキャリア、技術顧問体制を強化～新たに2名が技術顧問に就任、社員育成によるサービス向上を目指す～</a>
-            </li>
-            <li>
-              <a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html" target="_blank">オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</a>
-            </li>
-            <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html" target="_blank">転職特化型Rubyプログラミングスクールの「ポテパンキャンプ」、Railsチュートリアルと業務提携しエンジニア創出を促す</a></li>
-            <li><a href="https://www.value-press.com/pressrelease/190639" target="_blank">ShareWis、Ruby on Rails 5.1に対応したRailsチュートリアル [第4版] の動画講座を現役エンジニアによるQ&amp;A対応付きで提供開始</a></li>
-            <li><a href="https://prtimes.jp/main/html/rd/p/000000013.000016641.html" target="_blank">プログラミングスクールの「DIVE INTO CODE」、Railsチュートリアルと公式提携した「DIC Railsチュートリアルコース」を発表</a></li>
-          </ul>
+        <ul>
+	  <li><a href="https://prtimes.jp/main/html/rd/p/000000005.000043589.html" target="_blank">コミュニティ型IT学習環境の「TechCommit」、Railsチュートリアルと業務提携でITエンジニアの創出促進へ</a></li>
+          <li><a href="https://www.members.co.jp/company/news/2018/0806_2.html" target="_blank">常駐型デジタルプロフェッショナルサービスのメンバーズキャリア、技術顧問体制を強化～新たに2名が技術顧問に就任、社員育成によるサービス向上を目指す～</a></li>
+          <li><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html" target="_blank">オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</a> </li>
+          <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html" target="_blank">転職特化型Rubyプログラミングスクールの「ポテパンキャンプ」、Railsチュートリアルと業務提携しエンジニア創出を促す</a></li>
+          <li><a href="https://www.value-press.com/pressrelease/190639" target="_blank">ShareWis、Ruby on Rails 5.1に対応したRailsチュートリアル [第4版] の動画講座を現役エンジニアによるQ&amp;A対応付きで提供開始</a></li>
+          <li><a href="https://prtimes.jp/main/html/rd/p/000000013.000016641.html" target="_blank">プログラミングスクールの「DIVE INTO CODE」、Railsチュートリアルと公式提携した「DIC Railsチュートリアルコース」を発表</a></li>
+        </ul>
 
       </div><!--//col-->
     </div><!--//row-->
