@@ -3,11 +3,11 @@ require "bundler/setup"
 
 task default: 'assets:precompile'
 
+# Override assets:precomiple in Heroku deployment
 namespace :assets do
   task :precompile do
-    Rake::Task['clean'].invoke
-    sh 'npm install'
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
+    sh 'npm prune --production'
   end
 end
 
