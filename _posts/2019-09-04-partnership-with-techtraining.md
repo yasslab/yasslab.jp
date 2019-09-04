@@ -23,7 +23,7 @@ Railsチュートリアルとライセンス契約を結んだことにより、
 
 ## YassLab社の取り組み
 
-YassLab社はプロダクト開発を学びたい人の学び場を増やすため、2018年よりRailsチュートリアルの[利用許諾契約 (ライセンス契約)](https://railstutorial.jp/contact#license) の取り組みを始め、少しずつご一緒していただける方々も増えてきました。
+YassLab社はプロダクト開発が楽しく学べる場を増やすため、2018年よりRailsチュートリアルの[利用許諾契約 (ライセンス契約)](https://railstutorial.jp/contact#license) の取り組みを始め、少しずつご一緒していただける方々も増えてきました。
 
 ![利用実績・提携法人](https://i.gyazo.com/0b6a1862b3ef29b9e5afcc8245af0d71.png)
 
