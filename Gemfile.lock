@@ -75,7 +75,7 @@ GEM
       sprockets (~> 2.10)
       sprockets-helpers
       sprockets-sass
-    jekyll-coffeescript (1.2.2)
+    jekyll-coffeescript (2.0.0)
       coffee-script (~> 2.2)
       coffee-script-source (~> 1.12)
     jekyll-gist (1.5.0)
