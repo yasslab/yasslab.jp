@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎓 Railsチュートリアル解説動画の無料視聴を有効に使おう！
+title:  🎓 Railsチュートリアル解説動画の見所をまとめました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]

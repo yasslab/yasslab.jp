@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🏮 沖縄発 Ruby フルリモート会社のリモートワークを支える仕組みの話
+title:  🏮 沖縄発Rubyフルリモートワーク会社を支える仕組み
 thumbnail: posts/nagoyark04-ateam.jpg
 author: yasulab
 categories: [blog]

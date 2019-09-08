@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🏫 Rails5ベーシック試験の参考教材に『Railsチュートリアル』が採用
+title:  🏫 Rails5ベーシック試験教材にRailsチュートリアルが採用
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]

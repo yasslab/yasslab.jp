@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🤝 札幌のHAJエンパワーメント社とRailsチュートリアル商用ライセンス締結
+title:  🤝 HAJエンパワーメントとRailsチュートリアルで業務提携
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]

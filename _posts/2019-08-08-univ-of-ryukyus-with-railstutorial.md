@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎓 琉球大学でRailsチュートリアルが採用され、３年目に入りました
+title:  🎓 琉球大学でRailsチュートリアルが継続採用 (３年目)
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]

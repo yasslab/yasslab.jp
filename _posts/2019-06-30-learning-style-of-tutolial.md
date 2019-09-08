@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎓 Railsチュートリアル「自分に合う学習スタイル」で始めよう
+title:  🎓 Railsチュートリアルは、自分に合う学習スタイルで
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
