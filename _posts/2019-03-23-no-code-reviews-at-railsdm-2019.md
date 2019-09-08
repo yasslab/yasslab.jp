@@ -9,7 +9,7 @@ tags: [Rails DM, 登壇]
 
 [Rails DM 2019](https://railsdm.github.io/) で [@hanachin_](https://twitter.com/hanachin_) さんが『コードレビューしない』というタイトルで発表しました‼️
 
-![No Code Reviews @ Rails DM 2019](/img/posts/no-code-photo.jpg)
+![No Code Reviews @ Rails DM 2019](/img/news/no-code-photo.jpg)
 
 本発表では、
 

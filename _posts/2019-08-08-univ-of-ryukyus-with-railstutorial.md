@@ -43,7 +43,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
 例えば2018年度からは、企業向けに**社員研修でプロダクト開発を扱う**研修をはじめました。これは準備教材として[Railsチュートリアル](https://railstutorial.jp/)を使うことでプロダクト開発の基本を整え、研修中はオリジナルなプロダクト開発を通して様々な知識と経験を培うスタイルの研修です。
 
 <div class="center" style="padding-bottom: 40px;">
-  <img alt="メンバーズキャリアでの社員研修" src="https://yasslab.jp/img/posts/members-career-talk.jpg">
+  <img alt="メンバーズキャリアでの社員研修" src="https://yasslab.jp/img/news/members-career-talk.jpg">
   (写真: <a href="https://yasslab.jp/ja/news/railstutorial-at-members-career">メンバーズキャリアの社員研修</a>から引用)
 </div>
 

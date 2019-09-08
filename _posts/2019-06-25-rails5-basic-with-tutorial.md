@@ -17,7 +17,7 @@ tags: [Railsチュートリアル]
 - 対象 : Railsチュートリアル (Rails 5.0 対応版) [https://railstutorial.jp/?version=5.0](https://railstutorial.jp/?version=5.0 )
 - 種別 : ベーシック試験 (Ruby on Rails の基本知識を問う試験)
 
-![ベーシック試験出題範囲](/img/posts/railscp-topics.png)
+![ベーシック試験出題範囲](/img/news/railscp-topics.png)
 
 > ### 補足
 > 

@@ -2,7 +2,7 @@
 permalink: /:title
 url: https://yasslab.jp
 
-# URL settings for Posts
+# URL settings for News
 defaults:
   - scope:
       path: ""
@@ -19,7 +19,7 @@ sass:
     - _sass
     - node_modules
 
-# Variables for pages, posts, feeds, etc
+# Variables for pages, news, feeds, etc
 company:
   vision: "Having a Good Life with OpenSource ;)"
   size: 12
@@ -50,7 +50,7 @@ destination: ./_site
 timezone: Asia/Tokyo
 encoding: utf-8
 
-# Show upcoming posts (but hidden in production)
+# Show upcoming news (but hidden in production)
 future: true
 
 ## Global Vars to generate links
@@ -101,6 +101,6 @@ exclude:
 # Enable Incremental Regeneration feature (experimental)
 # https://jekyllrb.com/docs/configuration/incremental-regeneration/
 #
-# Disabled; needed to rebuild all pages to show future posts.
+# Disabled; needed to rebuild all pages to show future news
 # But you can enable this feature by adding '--incremental' option.
 incremental: false

@@ -1,19 +1,19 @@
 ---
 layout: post
 title:  🏮 沖縄発Rubyフルリモートワーク会社を支える仕組み
-thumbnail: posts/nagoyark04-ateam.jpg
+thumbnail: news/nagoyark04-ateam.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, リモートワーク, Railsチュートリアル, Railsガイド]
 ---
 
-[![名古屋Ruby会議04](/img/posts/nagoyark04-ateam.jpg)](https://twitter.com/yasulab/status/1137221480779882496)
+[![名古屋Ruby会議04](/img/news/nagoyark04-ateam.jpg)](https://twitter.com/yasulab/status/1137221480779882496)
 
 [名古屋Ruby会議04](http://regional-gh.rubykaigi.org/nagoya04/)でリモートワークに関する発表『[沖縄発Rubyフルリモート会社のリモートワークを支える仕組み](https://speakerdeck.com/yasslab/remote-first-company)』を行いました! 😆🎉✨ 
 
 本発表に関するスライド資料と反響をいくつかまとめたので、リモートワークに興味ある個人・法人さんのご参考になれば嬉しいです...!! (＞人＜ )✨
 
-[![名古屋紅玉会議](/img/posts/nagoyark04-flags.jpg)](http://regional-gh.rubykaigi.org/nagoya04/)
+[![名古屋紅玉会議](/img/news/nagoyark04-flags.jpg)](http://regional-gh.rubykaigi.org/nagoya04/)
 
 <div style="margin-bottom: 100px;"></div>
 
@@ -41,7 +41,7 @@ tags: [登壇, リモートワーク, Railsチュートリアル, Railsガイド
 > - [会話から文化が明文化される。明文化されると記事になり、共有しやすくなる](https://twitter.com/color_box/status/1137177892599652352)
 > - [経営者視点の話。すごく参考になった](https://twitter.com/_suima_/status/1137177926858788865?s=21)
 > - [今日のためにリリースした。すごい](https://twitter.com/_suima_/status/1137178437418831873?s=21)
->   [![Railsガイド Teamプラン](/img/posts/guides-team-top.png)](https://railsguides.jp/team)
+>   [![Railsガイド Teamプラン](/img/news/guides-team-top.png)](https://railsguides.jp/team)
 > - [会社のREADME、ぱっと見の印象だけど、読むやすそうでいいなぁ。各ガイドラインをどういう意識で守ればいいのかがわかりそうな書き方と、あまり細かすぎなそうなのがいい](https://twitter.com/publichtml/status/1137178557048807424?s=21)
 > - [YassLab さんのリモートワークの話。非リモートだとあいまいに進めれてしまうところを、明示的にやらなきゃいけないけど、その分どんどん知見たまって楽になるし、権限とかもはっきりできそう](https://twitter.com/labocho/status/1137178887857758208?s=21)
 

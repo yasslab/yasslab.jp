@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🛠 DojoCast を Jekyll から Rails に移行しました
-thumbnail: posts/dojocast-cover.jpg
+thumbnail: news/dojocast-cover.jpg
 author: yasulab
 categories: [Blog]
 tags: [CoderDojo, Jekyll, Rails]
@@ -19,7 +19,7 @@ YassLab 社には「トライ」という[「まずはやってみようよ!」�
 <br>
 
 <div style="text-align: center">
-<img alt="DojoCast - Highlight people around CoderDojo communities by Podcast" src="/img/posts/dojocast-cover.jpg" />
+<img alt="DojoCast - Highlight people around CoderDojo communities by Podcast" src="/img/news/dojocast-cover.jpg" />
 <a href="https://coderdojo.jp/podcasts/10](https://coderdojo.jp/podcasts/10">DojoCast #10 - Programming is Beyond a Job For Me</a>
 <br><br>
 </div>
@@ -63,7 +63,7 @@ Rubyのエコシステムは巨大なので、上記のような課題を解決�
 上記の背景のもと、実際に行った作業が次のPRです。
 
 <div style="text-align: center">
-  <img alt="Migration PR" src="/img/posts/migration-pr.png" />
+  <img alt="Migration PR" src="/img/news/migration-pr.png" />
   <a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/362">Migrate DojoCast to coderdojo.jp #362 - GitHub</a>
   <br><br>
 </div>
@@ -82,7 +82,7 @@ CoderDojo Japan には既に Markdown を描画する仕組み ([Docs](https://c
 
 結果としてはうまく [@CoderDojo アカウントからも共有](https://twitter.com/CoderDojo/status/1075677404419506176)してもらえたので、移行作業に取り掛かるタイミング・優先順位の付け方としては良かったかなと考えています ☺️
 
-[![Screenshot of Episode 10](/img/posts/dojocast-ss.png)](https://coderdojo.jp/podcasts/10)
+[![Screenshot of Episode 10](/img/news/dojocast-ss.png)](https://coderdojo.jp/podcasts/10)
 
 <br>
 

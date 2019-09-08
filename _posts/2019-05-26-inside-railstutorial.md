@@ -9,7 +9,7 @@ tags: [Railsチュートリアル, インタビュー]
 
 Railsチュートリアルの開発経緯とこれからの展望について取材していただいた記事が公開されました!
 
-[![写真：Railsチュートリアル開発経緯とこれからの展望](/img/posts/inside-railstutorial-photo.png)](https://free-engineer.site/yasslab/)
+[![写真：Railsチュートリアル開発経緯とこれからの展望](/img/news/inside-railstutorial-photo.png)](https://free-engineer.site/yasslab/)
 
 よければぜひご一読して頂けると嬉しいです! (＞人＜ )✨
 

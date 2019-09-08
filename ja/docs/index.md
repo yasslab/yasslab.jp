@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: news
 title:  📚 公開資料まとめ
 thumbnail: bg-sky.jpg
 ---

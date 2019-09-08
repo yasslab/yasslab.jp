@@ -9,7 +9,7 @@ tags: [RubyKaigi, 協賛]
 
 RubyKaigi 2019 に[シルバースポンサー](https://rubykaigi.org/2019/sponsors#silver)として協賛いたしました! 💎✨
 
-[![RubyKaigi 2019 Silver Sponsors](/img/posts/rubykaigi-2019-sponsors.png)](https://rubykaigi.org/2019/sponsors#silver)
+[![RubyKaigi 2019 Silver Sponsors](/img/news/rubykaigi-2019-sponsors.png)](https://rubykaigi.org/2019/sponsors#silver)
 
 
 ## YassLab 社と沖縄

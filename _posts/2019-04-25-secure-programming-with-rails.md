@@ -20,17 +20,17 @@ tags: [セキュリティ, Rails, Railsチュートリアル]
 
 ## 題材にRailsチュートリアル...!!
 
-![railstutorial.jp](/img/posts/secure-tutorial.jpg)
+![railstutorial.jp](/img/news/secure-tutorial.jpg)
 
 今回の講演では「脆弱性のあるコードを入れてしまうとどんなことが起こるのか？」という DEMO がいくつか行われたのですが、なんとその題材の1つに弊社が運営する『[Railsチュートリアル](https://railstutorial.jp/)』を選んでいただきました!! 😻
 
 具体的にはRailsチュートリアルで開発するSNS (通称: [Sample App](https://github.com/yasslab/sample_apps)) に**誤ったコードを入れてしまうとどんなことが実現できてしまうのか**という方向で様々な DEMO が行われました。
 
-![Sample App Demo](/img/posts/secure-sample-app.jpg)
+![Sample App Demo](/img/news/secure-sample-app.jpg)
 
 例えば次のように `protect_from_forgery` のコードをいじったり、`csrf_meta_tags` を削除したり、`has_secure_password` を使わずにパスワードを保存した場合にどんなことが起こり得るのか、といった様々な例 ([CSRF](https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%AA), [XSS](https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0), [SQLインジェクション](https://ja.wikipedia.org/wiki/SQL%E3%82%A4%E3%83%B3%E3%82%B8%E3%82%A7%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3)など) を実演していました。
 
-![Sample App Hacking](/img/posts/secure-hacking.jpg)
+![Sample App Hacking](/img/news/secure-hacking.jpg)
 
 本講演のスライドも現在は公開されています。詳細は次のスライドを見ていただくこととして、本記事ではその中でも印象に残った例を１つご紹介しますね。
 

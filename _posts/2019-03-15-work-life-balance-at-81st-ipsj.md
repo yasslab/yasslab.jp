@@ -9,7 +9,7 @@ tags: [リモートワーク, GitHub, 情報処理学会, 登壇]
 
 情報処理学会 第81回全国大会のセッション『[来たれ！ワークライフバランス伝道師](https://www.gakkai-web.net/gakkai/ipsj/81/event/html/event/B-9.html)』で YassLab 株式会社の [@himajin315](https://twitter.com/himajin315) さんが『リモートワークで働くということ』というタイトルで発表しました!
 
-[![登壇者紹介#4 from IPSJ's Facebook post](/img/posts/ipsj-2019-banner.jpg)](https://www.facebook.com/ipsjInfoWP/photos/a.625169544578214/625172724577896/?type=3&theater)
+[![登壇者紹介#4 from IPSJ's Facebook post](/img/news/ipsj-2019-banner.jpg)](https://www.facebook.com/ipsjInfoWP/photos/a.625169544578214/625172724577896/?type=3&theater)
 
 会社目線の発表資料はいくつか公開していますが、社員目線でリモートワークについて発表する機会はあまりなかったため、今回のような貴重な機会をいただけて感謝です! YassLab 社のリモートワーク事例が、全国のリモートワークに興味ある方々や実践している方々にとっても参考になれば嬉しいです 😊
 

@@ -9,9 +9,9 @@ tags: [登壇, Rails]
 
 YassLab 株式会社が提供する『[Railsチュートリアル法人プラン](https://railstutorial.jp/business)』を使った[Railsチュートリアル × 反転学習](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails)の取り組みが[第11回フクオカRuby大賞](http://www.digitalfukuoka.jp/events/184)でAWS賞を受賞しました! 🏆
 
-![Fukuoka Ruby Award 2019](/img/posts/fukuoka-ruby-award-2019-photo.jpg)
+![Fukuoka Ruby Award 2019](/img/news/fukuoka-ruby-award-2019-photo.jpg)
 
-![AWS Award at Fukuoka Ruby Award 2019](/img/posts/fukuoka-ruby-award-2019-aws.jpg)
+![AWS Award at Fukuoka Ruby Award 2019](/img/news/fukuoka-ruby-award-2019-aws.jpg)
 
 フクオカRuby大賞の本審査 (10分間のプレゼンテーション、5分間の質疑応答) で使われたスライド資料は下記から公開しております。
 
@@ -51,7 +51,7 @@ YassLab 株式会社が提供する『[Railsチュートリアル法人プラン
 🎓 法人向けサービス活用例：マネーフォワード様
 [https://yasslab.jp/ja/news/learning-by-making](https://yasslab.jp/ja/news/learning-by-making)
 
-[![Photo of MF office](https://yasslab.jp/img/posts/mf-lounge.jpg)](https://yasslab.jp/ja/news/learning-by-making)
+[![Photo of MF office](https://yasslab.jp/img/news/mf-lounge.jpg)](https://yasslab.jp/ja/news/learning-by-making)
 
 ## 最後に
 

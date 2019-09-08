@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: news
 title:  📜 お知らせ
 thumbnail: bg-sky.jpg
 ---

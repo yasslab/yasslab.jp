@@ -9,7 +9,7 @@ tags: [Hackers Champloo, 沖縄, 協賛]
 
 2018年に引き続き Hackers Champloo 2019 のゴールドスポンサーになりました! 🏝✨
 
-[![Hackers Champloo 2019 Gold Sponsor](/img/posts/hackers-champloo-2019-top.png)](http://hackers-champloo.org/2019/)
+[![Hackers Champloo 2019 Gold Sponsor](/img/news/hackers-champloo-2019-top.png)](http://hackers-champloo.org/2019/)
 
 Hackers Champloo 2019   
 [http://hackers-champloo.org/2019/](http://hackers-champloo.org/2019/)
@@ -20,7 +20,7 @@ Doorkeeper スポンサーシップ - YassLab
 [https://yasslab.jp/ja/doorkeeper](https://yasslab.jp/ja/doorkeeper)
 
 
-[![Hackers Champloo 2019 スポンサー 一覧](/img/posts/hackers-champloo-2019-sponsors.png)](http://hackers-champloo.org/2019/sponsors.html)
+[![Hackers Champloo 2019 スポンサー 一覧](/img/news/hackers-champloo-2019-sponsors.png)](http://hackers-champloo.org/2019/sponsors.html)
 
 -----
 

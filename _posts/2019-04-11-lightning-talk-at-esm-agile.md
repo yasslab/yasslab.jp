@@ -13,7 +13,7 @@ tags: [登壇, Railsチュートリアル, Railsガイド]
 [https://esminc.connpass.com/event/123239/](https://esminc.connpass.com/event/123239/)
 
 <div style="text-align:center">
-  <img alt="オブラブカレンダー" src="/img/posts/oblove-calendar.jpg" />
+  <img alt="オブラブカレンダー" src="/img/news/oblove-calendar.jpg" />
   📅 イベント参加特典でカレンダーを頂きました!<br><br>
 </div>
 

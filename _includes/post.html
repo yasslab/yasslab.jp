@@ -1,5 +1,5 @@
 {% comment %}
-  Scheduled posts are published at 8:00am
+  Scheduled News is published at 8:00am
   // 9hours * 60secs * 60mins = 32400secs
   // Rebuilding at every 9am by Heroku Scheduler
 {% endcomment %}
@@ -9,7 +9,7 @@
 
 {% if published_at > current_time %}
   {% if jekyll.environment != "production" %}
-  <!-- Show scheduled posts in Dev/Staging (Review Apps) but not in Production -->
+  <!-- Show scheduled news in Dev/Staging (Review Apps) but not in Production -->
   <li style="padding-top: 7px;">
     <span style="background: darkorange; color: white; border-radius: 4px; font-weight: 700;
 		 padding: 2px 3px; font-size: 60%">{{ post.date | date: "%m/%d" }}</span>
@@ -21,7 +21,7 @@
   </li>
   {% endif %}
 {% else %}
-  <!-- Show existing posts in any environment -->
+  <!-- Show existing news in any environment -->
   <li style="padding-top: 7px;">
     <span style="background: royalblue; color: white; border-radius: 4px; font-weight: 700;
 		 padding: 2px 3px; font-size: 60%">{{ post.date | date: "%m/%d" }}</span>

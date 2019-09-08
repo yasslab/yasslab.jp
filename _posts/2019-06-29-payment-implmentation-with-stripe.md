@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🛠 Stripe の Rails 開発事例を沖縄で発表しました
-thumbnail: posts/cover-hackers-champloo-2019.jpg
+thumbnail: news/cover-hackers-champloo-2019.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails, Stripe]
@@ -12,7 +12,7 @@ tags: [登壇, Rails, Stripe]
 Hackers Champloo 2019
 [http://hackers-champloo.org/2019/](http://hackers-champloo.org/2019/)
 
-[![Cover Photo](/img/posts/hackers-champloo-2019-top-2.png)](http://hackers-champloo.org/2019/)
+[![Cover Photo](/img/news/hackers-champloo-2019-top-2.png)](http://hackers-champloo.org/2019/)
 
 ## 📹 発表動画
 

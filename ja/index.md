@@ -215,7 +215,7 @@ lang:   ja
   <div id="main_content_wrap" class="outer container" style="margin-top: 20px;">
     <section id="main_content" class="inner row justify-content-md-center pb-5 mb-5">
       <div class="col-12 col-md-9 entry_content text-center">
-	{% include recent_posts.html %}
+	{% include recent_news.html %}
       </div>
     </section>
   </div>

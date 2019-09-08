@@ -37,7 +37,7 @@ tags: [Railsチュートリアル]
 
 そんな方には初めから丁寧に解説を聞きながら自分のペースで進められる「解説動画」はとても有効だと考えます。
 
-[![ユーザーの声](/img/posts/tutorial-user-voice.png)](https://railstutorial.jp/#reviews)
+[![ユーザーの声](/img/news/tutorial-user-voice.png)](https://railstutorial.jp/#reviews)
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/100DayOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DayOfCode</a><br>Day 71<br><br>Railsチュートリアルの解説動画を購入してみました。<br>第１章部分なので、まだまだ先は長いですが、すごくわかりやすい。<br>挫折しないで、なんとか続けられそうです。<br> <a href="https://twitter.com/hashtag/rubyonrails?src=hash&amp;ref_src=twsrc%5Etfw">#rubyonrails</a> <a href="https://twitter.com/hashtag/rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#railsチュートリアル</a></p>&mdash; コッチ🍏 (@kotch_blog) <a href="https://twitter.com/kotch_blog/status/1138092802775011329?ref_src=twsrc%5Etfw">2019年6月10日</a></blockquote>
 
@@ -57,7 +57,7 @@ Railsチュートリアルは、内容が多岐に渡り非常に濃いものと
 
 Railsチュートリアルを突破するには、まずは**自分が学習していて『楽しいな』と思える状態を継続させること**が大事だと思います。解説動画の「Railsチュートリアルの歩き方」の部分では、学習を始めるにあたっての心構えや、どんなことをこれから学んでいくのかを30分ほどでしっかり説明してくれるので[無料視聴](https://railstutorial.jp/trial)なども活用して見てもらえると、安心して学習が進められると思います。
 
-[![解説動画お試しプラン](/img/posts/tutorial-trial.png)](https://railstutorial.jp/trial)
+[![解説動画お試しプラン](/img/news/tutorial-trial.png)](https://railstutorial.jp/trial)
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="ja"><p lang="ja" dir="ltr">railsチュートリアルの解説動画お試しで30分しか見れないけど全ての謎を解いてくれた分かりやすすぎ</p>&mdash; Lei (@clr_pnt) <a href="https://twitter.com/clr_pnt/status/1143085774134370304?ref_src=twsrc%5Etfw">2019年6月24日</a></blockquote>
 

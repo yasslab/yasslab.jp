@@ -9,7 +9,7 @@ tags: [登壇, 銀座Rails, Railsチュートリアル]
 
 [銀座Rails#7](https://ginza-rails.connpass.com/event/120573/)でRailsチュートリアルの開発背景について発表しました。
 
-![集合写真](/img/posts/ginza-rails-speakers.jpg)
+![集合写真](/img/news/ginza-rails-speakers.jpg)
 
 YassLab 社では{{site.railstutorial}}の開発・運営をしていますが、そこに到るまでの過程にフォーカスをした発表となります。スライド資料と動画をそれぞれ次のまとめておいたので、さらに詳しく見てみたい方はぜひ各資料をご参照していただければ ;)
 

@@ -9,36 +9,36 @@ tags: [Railsガイド, リリース]
 
 YassLab 株式会社が運営するRailsガイドから新たに『[Teamプラン](https://railsguides.jp/team)』がリリースされました! 🆕🚀✨
 
-![カバー画像：Teamプラン](/img/posts/guides-cover.png)
+![カバー画像：Teamプラン](/img/news/guides-cover.png)
 
 Railsガイドの全コンテンツが検索できて便利な『[Proプラン](https://railsguides.jp/pro)』の機能をチームで効率よく利用できるように『Teamプラン』を作りました。
 
 ## Proプランとどこが違う？
 
 <div aline="center">
-  <img alt="チームメンバー管理" src="/img/posts/guides-member.png" width="360px">
+  <img alt="チームメンバー管理" src="/img/news/guides-member.png" width="360px">
 </div>
 
 ダッシュボードからメンバーを管理。簡単に招待や削除が出来ます 👥✨
 
-![ダッシュボード画面](/img/posts/guides-dashboard.png)
+![ダッシュボード画面](/img/news/guides-dashboard.png)
 
 -----
 
 <div aline="center">
-  <img alt="決済の一元化" src="/img/posts/guides-payment.png" width="360px">
+  <img alt="決済の一元化" src="/img/news/guides-payment.png" width="360px">
 </div>
 
 クレジット決済に対応し、ますます便利にご利用いただけるようになりました 💳
 
-![機能のまとめ](/img/posts/guides-features.png)
+![機能のまとめ](/img/news/guides-features.png)
 
 -----
 
 注目すべき点は『Google Analytics』対応で、
 
 <div aline="center">
-  <img alt="Google Analytics 対応" src="/img/posts/guides-ga.png" width="360px">
+  <img alt="Google Analytics 対応" src="/img/news/guides-ga.png" width="360px">
 </div>
 
 ダッシュボードから Google Analytics のトラッキングIDを設定することで、メンバーの動向を確認できるので、チーム内の技術力向上にも活用できます💪✨
@@ -47,7 +47,7 @@ Railsガイドの全コンテンツが検索できて便利な『[Proプラン](
 
 もちろん従来の『[Proプラン](https://railsguides.jp/pro)』と同様に、ショートカットキーにも対応しています 🔧💨
 
-![ショートカットキー対応](/img/posts/guides-shortcuts.png)
+![ショートカットキー対応](/img/news/guides-shortcuts.png)
 
 いかがでしたでしょうか? チームの生産性 🆙のお供に是非お役立て頂ければと思います。Teamプランお申し込みは[**コチラ**](https://railsguides.jp/team)から。
 

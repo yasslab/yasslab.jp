@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🚀 Railsガイド『Proプラン』をリリースしました!
-thumbnail: posts/cover-guides-pro.png
+thumbnail: news/cover-guides-pro.png
 author: yasulab
 categories: [press]
 tags: [Railsガイド, リリース]
@@ -9,15 +9,15 @@ tags: [Railsガイド, リリース]
 
 YassLab 株式会社が運営するRailsガイドから『[Proプラン](https://railsguides.jp/pro)』がリリースされました! 🆕🚀✨
 
-[![Railsガイド『Proプラン』](/img/posts/guides-pro-banner.png)](https://railsguides.jp/pro)
+[![Railsガイド『Proプラン』](/img/news/guides-pro-banner.png)](https://railsguides.jp/pro)
 
 Proプランでは、Railsガイドの全コンテンツをいつでも簡単に検索することができます。欲しい情報を素早く見つけ、より生産的な開発を体験してみてください。
 
-![DEMO: 検索](/img/posts/guides-search-demo.gif)
+![DEMO: 検索](/img/news/guides-search-demo.gif)
 
 また、Proプランではショートカットキーも提供しており、ショートカットを駆使することでよりスピーディに検索を行うことができます。
 
-![DEMO: ショートカットキー](/img/posts/guides-shortcuts.png)
+![DEMO: ショートカットキー](/img/news/guides-shortcuts.png)
 
 <br>
 
@@ -34,5 +34,5 @@ Proプランでは、Railsガイドの全コンテンツをいつでも簡単に
 Proプラン - Rails開発を、より生産的に   
 [https://railsguides.jp/pro](https://railsguides.jp/pro)
 
-[![Railsガイド『Proプラン』](/img/posts/guides-pro-banner.png)](https://railsguides.jp/pro)
+[![Railsガイド『Proプラン』](/img/news/guides-pro-banner.png)](https://railsguides.jp/pro)
 
