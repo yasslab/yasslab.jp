@@ -1,11 +1,11 @@
 <h4>最近のお知らせ</h4>
 
-<ul style="list-style: none; padding-top: 10px; margin-left: -30px; width: 105%;">
+<ul class="news-recent">
   {% for post in site.posts limit:10 %}
   {% include post.html %}
   {% endfor %}
 </ul>
 
-<h6 style="padding-left: 10px;"><a href="/ja/news/">過去の記事を読む</a></h6>
+<h6 class="news-toc"><a href="/ja/news/">過去の記事を読む</a></h6>
 
 

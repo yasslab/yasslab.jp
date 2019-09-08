@@ -10,9 +10,8 @@
 {% if published_at > current_time %}
   {% if jekyll.environment != "production" %}
   <!-- Show scheduled news in Dev/Staging (Review Apps) but not in Production -->
-  <li style="padding-top: 7px;">
-    <span style="background: darkorange; color: white; border-radius: 4px; font-weight: 700;
-		 padding: 2px 3px; font-size: 60%">{{ post.date | date: "%m/%d" }}</span>
+  <li class='news-item'>
+    <span class="news-date news-date-future">{{ post.date | date: "%m/%d" }}</span>
     <span class="h5">
       <a href="{{ post.url }}" data-proofer-ignore>
 	{{ post.title }}
@@ -22,9 +21,8 @@
   {% endif %}
 {% else %}
   <!-- Show existing news in any environment -->
-  <li style="padding-top: 7px;">
-    <span style="background: royalblue; color: white; border-radius: 4px; font-weight: 700;
-		 padding: 2px 3px; font-size: 60%">{{ post.date | date: "%m/%d" }}</span>
+  <li class="news-item">
+    <span class="news-date">{{ post.date | date: "%m/%d" }}</span>
     <span class="h5">
       <a href="{{ post.url }}" data-proofer-ignore>
 	{{ post.title }}

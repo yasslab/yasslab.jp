@@ -838,3 +838,28 @@ table.caption{
      padding-top: 12px;
   }
 }
+
+// お知らせ
+.news-recent{
+  list-style: none;
+  padding-top: 10px;
+  margin-left: -30px;
+  width: 110%;
+}
+.news-toc{
+  padding-left: 10px;
+}
+.news-item{
+  padding-top: 7px;
+}
+.news-date{
+  background: royalblue;
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 2px 3px;
+  font-size: 60%
+}
+.news-date-future{
+  background: darkorange;
+}
