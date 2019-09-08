@@ -12,7 +12,7 @@
   <!-- Show scheduled news in Dev/Staging (Review Apps) but not in Production -->
   <li class='news-item'>
     <span class="news-date news-date-future">{{ post.date | date: "%m/%d" }}</span>
-    <span class="h5">
+    <span class="news-title h5">
       <a href="{{ post.url }}" data-proofer-ignore>
 	{{ post.title }}
       </a>
@@ -23,7 +23,7 @@
   <!-- Show existing news in any environment -->
   <li class="news-item">
     <span class="news-date">{{ post.date | date: "%m/%d" }}</span>
-    <span class="h5">
+    <span class="news-title h5">
       <a href="{{ post.url }}" data-proofer-ignore>
 	{{ post.title }}
       </a>

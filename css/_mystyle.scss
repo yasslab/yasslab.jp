@@ -185,7 +185,7 @@ html {
   & > p {
     max-width: 200px;
   }
-@include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(sm) {
     padding: 50px 0;
   }
 }
@@ -205,7 +205,7 @@ html {
   & > p {
     max-width: 200px;
   }
-@include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(sm) {
     padding: 50px 0;
   }
 }
@@ -851,6 +851,11 @@ table.caption{
 }
 .news-item{
   padding-top: 7px;
+}
+.news-title{
+  @include media-breakpoint-down(sm) {
+    font-size: 75%;
+  }
 }
 .news-date{
   background: royalblue;
