@@ -22,6 +22,6 @@ Railsガイドのロゴが新しいものに変更となりました✨
 
 ## Railsガイドのサービス紹介
 
-Railsガイドには、Rails特化の全文検索サービスの「[Proプラン](https://railsguides.jp/pro)」、チーム全体の作業効率を向上させる「[Teamプラン](https://railsguides.jp/team)」があります。[検索機能がさらに便利に](https://yasslab.jp/ja/news/railsguides-static-search)なり、[15日間無料でお試し](https://yasslab.jp/ja/news/add-trial-plan-for-pro-users)もできるようになりましたので、興味があれば是非お試し下さい😉
+Railsガイドには、Rails特化の全文検索サービスの「[Proプラン](https://railsguides.jp/pro)」、チーム全体の作業効率を向上させる「[Teamプラン](https://railsguides.jp/team)」があります。[検索機能がさらに便利に](https://yasslab.jp/ja/news/railsguides-static-search)なり、[15日間無料でお試し](https://yasslab.jp/ja/news/add-trial-plan-for-pro-users)もできるようになりましたので、興味があれば是非お試し下さい 😉
 
 [![Pro/Team バナー画像](https://i.gyazo.com/28e08ed404d97ae56e9c1efc9dc53e25.png)](https://railsguides.jp/#pr)
