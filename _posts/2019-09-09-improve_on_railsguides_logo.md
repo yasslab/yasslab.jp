@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  📕 Railsガイドのロゴが新しくなりました
+title:  📕 Railsガイドのロゴが日本語になりました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド]
 ---
 
-Railsガイドのロゴが新しいものに変更となりました✨
+『Railsガイド』の表記とロゴの表記を同じものに変更となりました✨
 
 ![Railsガイドロゴ変更](https://i.gyazo.com/50548238cb638a833b3659904c99cb8a.png)
 
 ## 主な変更点
 
-- 英語表記の「GUIDES」を日本語表記にして読みやすくしました 👀
-- それに伴い、新たなロゴマークを適用しました 📕💎
+- "GUIDES" を "ガイド" と表記し、読み上げやすくしました 👀
+- それに伴い、"ガイド" 表記に合うロゴマークに変更しました 📕💎
 
 ![RailsガイドTOP](https://i.gyazo.com/1e42e8e4099fddaffc9cb4bfff640cb7.png)
 
