@@ -30,6 +30,6 @@ else
     echo ""                        >> $TEMPLATE_FILENAME
     cat  $SAMPLE_POST_TEXT         >> $TEMPLATE_FILENAME
 
-    ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-#{ARGV[0]}.md"' $1
+    ruby -e 'puts Time.now.strftime("%Y-%m-%d") + "-" + ARGV[0].gsub("_", "-") + ".md"' $1
 fi
 echo ""
