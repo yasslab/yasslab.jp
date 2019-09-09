@@ -134,7 +134,6 @@ lang:   ja
 	      <li>yasslab/railsguides.jp_ebook (Private)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/railsguides-as-an-oss-gate">OSS入門としてのRailsガイド</a></li>
 	      <li id="coderdojo">関連記事: <a href="https://yasslab.jp/ja/news/release-pro-plan">Railsガイド『Proプラン』をリリースしました! 🚀</a></li>
-	      
 	    </ul>
 	  </li>
 	</ul>
@@ -145,7 +144,7 @@ lang:   ja
 	</h3>
 	<ul>
 	  <li>開発目的: 全国の <a href="https://coderdojo.jp/">CoderDojo コミュニティ</a>の活動をテクノロジーで支援したい</li>
-	  <li>使用技術: Ruby, Rails, DB設計, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), Haml, Heroku</li>
+	  <li>使用技術: Ruby, Rails, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), Heroku</li>
 	  <li>関連情報:
 	    <ul>
 	      <li><a href="https://github.com/coderdojo-japan/coderdojo.jp">coderdojo-japan/coderdojo.jp</a> (OSS)</li>
