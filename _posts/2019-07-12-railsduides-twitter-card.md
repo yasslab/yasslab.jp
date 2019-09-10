@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  📱 Railsガイドの各タイトルが Twitter Card に対応
+title:  📕 Railsガイドの各タイトルが Twitter Card に対応
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
