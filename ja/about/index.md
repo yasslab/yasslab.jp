@@ -82,7 +82,8 @@ lang:   ja
     <div class="row">
       <div class="col-md-8 offset-md-2 mt-5">
 	<div class="text-left">
-	  {% include profile_yasulab.html %}
+	  {%- capture yasulab -%}{% include profile_yasulab.md %}{%- endcapture -%}
+	  {{ yasulab | markdownify }}
 	</div>
       </div>
     </div>
