@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ❤️ Rails Girls Okinawa 2nd に協賛
+title:  🏝️ Rails Girls Okinawa 2nd に協賛
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
