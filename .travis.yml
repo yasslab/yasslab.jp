@@ -4,7 +4,7 @@ node_js:
 - 10.3.0
 install:
 - npm install
-- bundle install --deployment
+- bundle install --without production --deployment
 before_install:
 - gem install bundler
 script:
