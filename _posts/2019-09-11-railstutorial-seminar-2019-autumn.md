@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎓 Railsチュートリアル解説セミナー (Rails6.0対応) 受付開始
+title:  🎓 Railsチュートリアル集中解説セミナー受付開始
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
@@ -33,10 +33,11 @@ Rails解説セミナーでは事前学習が大切です。セミナー開始日
 
 <div align="center">
 
-  Railsパスポート（早割）は、受付期限にご注意ください。お早めの申し込みをお勧めします。
+  Railsパスポート（早割）には受付期限があり、チケットも<br>
+  席数が埋まり次第〆切となるのでご注意ください。
 
   <div style="margin: 40px 0;">
-    <a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97468/tickets/new">Railsパスポート購入</a>
+    <a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97468/">Railsパスポート 詳細</a>
   </div>
 
   日にちごと、章ごとの参加も可能です。
@@ -44,25 +45,25 @@ Rails解説セミナーでは事前学習が大切です。セミナー開始日
   <div style="margin: 40px 0;">
     <table>
       <tr>
-        <td>１日目（第1〜3章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97469">参加</a></td>
+        <td>１日目（第1〜3章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97469">詳細</a></td>
       </tr>
       <tr>
-        <td>２日目（第4〜6章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97470">参加</a></td>
+        <td>２日目（第4〜6章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97470">詳細</a></td>
       </tr>
       <tr>
-        <td>３日目（第7〜9章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97471">参加</a></td>
+        <td>３日目（第7〜9章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97471">詳細</a></td>
       </tr>
       <tr>
-        <td>４日目（第10〜12章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97472">参加</a></td>
+        <td>４日目（第10〜12章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97472">詳細</a></td>
       </tr>
       <tr>
-        <td>５日目（第13〜14章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97473">参加</a></td>
+        <td>５日目（第13〜14章）</td> <td><a class="btn btn-ruby" href="https://coedo-dev.doorkeeper.jp/events/97473">詳細</a></td>
       </tr>
     </table>
   </div>
 </div>
 
-その他、詳しい内容は [Doorkeeperイベントページ](https://coedo-dev.doorkeeper.jp/events/97468)をよくご覧下さい。
+その他、詳しい内容は[イベントページ](https://coedo-dev.doorkeeper.jp/events/97468)をご参照ください。
 
 ## 📹 紹介動画
 
