@@ -4,10 +4,10 @@ node_js:
 - 10.3.0
 install:
 - npm install
+- bundle install --deployment
 before_install:
 - gem install bundler
 script:
-- bundle install --path vendor/bundle
 - bundle exec rake assets:precompile
 - bundle exec rake test SKIP_BUILD=1
 - bundle exec rspec spec/qiita.rb
