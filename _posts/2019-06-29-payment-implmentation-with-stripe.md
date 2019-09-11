@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🛠 Stripe の Rails 開発事例を沖縄で発表しました
+title:  🏝 Stripe の Rails 開発事例を沖縄で発表しました
 thumbnail: news/cover-hackers-champloo-2019.jpg
 author: yasulab
 categories: [blog]
