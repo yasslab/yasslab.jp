@@ -1,5 +1,12 @@
 ### [2019](#2019)
 
+- 9月 [Railsチュートリアル集中解説セミナー](https://yasslab.jp/ja/news/railstutorial-seminar-2019-autumn)の受付開始
+- 9月 大阪Ruby会議02で『[coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp/)』について講演
+- 9月 テクトレ社とのRailsチュートリアル[業務提携を発表](https://yasslab.jp/ja/news/partnership-with-techtraining)
+- 8月 琉球大学でRailsチュートリアルが[３年連続採用](https://yasslab.jp/ja/news/univ-of-ryukyus-with-railstutorial)
+- 8月 HAJエンパワーメント社との[業務提携を発表](https://yasslab.jp/ja/news/partnership-with-haj-empowerment)
+- 7月 [Railsチュートリアル法人プラン](https://railstutorial.jp/business)が『[AWS賞](https://yasslab.jp/ja/news/ceremony-of-fukuoka-ruby-award-2019)』を受賞
+- 6月 Hackers Champloo 2019 で弊社又吉が[開発事例を公開](https://yasslab.jp/ja/news/payment-implmentation-with-stripe)
 - **6月 Railsガイド『[Teamプラン](https://railsguides.jp/team)』をリリースしました**
 - 6月 名古屋Ruby会議04で『[リモートワーク](https://yasslab.jp/ja/news/remote-work-from-okinawa)』について発表
 - 6月 coderdojo.jp から『[近日開催イベント](https://coderdojo.jp/events)』をリリース
