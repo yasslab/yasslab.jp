@@ -1,7 +1,9 @@
 language: ruby
 cache:
-  bundler: true
   npm: true
+  bundler: true
+  directories:
+  - node_modules
 node_js:
 - 10.3.0
 install:
