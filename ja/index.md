@@ -165,7 +165,12 @@ lang:   ja
 	  {% include member.html username='Yuppyhappytoyou' link_to='twitter'
 	  caption='楽しいこと大好き✌️
 	  エンジニアママ😚 ' %}
-	  
+
+	  {% include member.html username='megane9988' link_to='twitter' offset='offset-md-2'
+	  caption='(株) mgn代表。Team LENS。LT職人' %}
+	  {% include member.html username='shoko_webdesign' link_to='twitter'
+	  caption='Webデザイナ。Team LENS。専門学校講師' %}
+
         </div>
 	<div class="text-center pt-5" style="margin: 30px 0;">
           <a href="/ja/join-forces" class="btn btn-primary">
