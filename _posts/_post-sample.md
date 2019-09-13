@@ -33,7 +33,7 @@ MEMO: コンテンツ部分のみ (`FU79IO-qRVY`) を当該動画に差し替え
 
 YassLab 株式会社では全社員がリモートワークをしながら『{{ site.railstutorial }}』『{{ site.railsguides }}』『{{ site.coderdojo }}』を開発し、他社向けは『[月額制の開発支援事業](/ja/agile)』も提供しています。
 
-Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[商用ライセンス](https://railstutorial.jp/#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽に試してみてください ;)
+Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[パートナー提携](https://railstutorial.jp/contact#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽に試してみてください ;)
 
 -----
 

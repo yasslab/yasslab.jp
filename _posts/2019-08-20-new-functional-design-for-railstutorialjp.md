@@ -47,7 +47,7 @@ Railsチュートリアル内のページ遷移が便利になり、次章や前
 
 いかがでしょうか? 小さなことかもしれませんが、日々Railsチュートリアルを利用している方々が少しでも便利に閲覧できるようになれば嬉しいです 😉
 
-【PR】Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[商用ライセンス](https://railstutorial.jp/#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽に試してみてください ;)
+【PR】Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[パートナー提携](https://railstutorial.jp/contact#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽に試してみてください ;)
 
 -----
 

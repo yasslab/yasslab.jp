@@ -9,7 +9,7 @@ tags: [登壇, Rails]
 
 ![ITジョブトレ×Railsチュートリアル](https://i.gyazo.com/77891b0e4e44bc508179a4df9c3c4bfc.png)
 
-北海道の求人メディア「[アルキタ](https://www.arukita.com/)」「[ジョブキタ](https://www.jobkita.jp/)」などを運営する[北海道アルバイト情報社](https://www.haj.co.jp)グループの[株式会社HAJエンパワーメント](https://www.haj-emp.co.jp/)とRailsチュートリアル商用ライセンス利用許諾を締結いたしました。
+北海道の求人メディア「[アルキタ](https://www.arukita.com/)」「[ジョブキタ](https://www.jobkita.jp/)」などを運営する[北海道アルバイト情報社](https://www.haj.co.jp)グループ[株式会社HAJエンパワーメント](https://www.haj-emp.co.jp/)が、Railsチュートリアルの公式パートナーになりました。
 
 
 ## HAJエンパワーメントについて
@@ -25,7 +25,7 @@ HAJエンパワーメントでは札幌の若者向けプログラミング教�
 
 ## プロダクト開発が学べる<br>地域拠点を増やす
 
-YassLab 社ではこれまでに [ShareWis](https://share-wis.com/courses/ruby-on-rails-tutorial-four-ver-five-one?utm_content=afc_U_XX4LLnOlKCIQohtlZf) や [POTEPAN CAMP](http://go.potepan.jp/l/340811/2018-03-29/26pqz5/) と共にオンライン学習に力を入れてきましたが、最近は[沖縄の CODE BASE](https://yasslab.jp/ja/news/partnership-with-codebase) や[神戸の Nilqube](https://nilquebe.com/) など、地域に特化した事業会社との連携も進めています。
+YassLab 社ではこれまでに [ShareWis](https://share-wis.com/courses/ruby-on-rails-tutorial-four-ver-five-one?utm_content=afc_U_XX4LLnOlKCIQohtlZf) や [POTEPAN CAMP](http://go.potepan.jp/l/340811/2018-03-29/26pqz5/) と共にオンライン学習に力を入れてきましたが、最近は[沖縄の CODE BASE](https://yasslab.jp/ja/news/partnership-with-codebase) や[神戸ニルキューブ](https://yasslab.jp/ja/news/partnership-with-nilquebe) など、地域に特化した事業会社との連携も進めています。
 
 [![Railsチュートリアル選べる学習プラン](https://i.gyazo.com/0fa42a38d19690018afd69e5b443c0b7.png)](https://railstutorial.jp/#service)
 

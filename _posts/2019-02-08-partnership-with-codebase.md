@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🤝 沖縄の CODE BASE と商用ライセンスを締結しました
+title:  🤝 沖縄CODE BASEがRailsチュートリアルのパートナーに
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [Press]
@@ -9,13 +9,13 @@ tags: [CODE BASE, Railsチュートリアル, 提携, 沖縄]
 
 ![CODE BASE x Railsチュートリアル](/img/partners/codebase.png)
 
-「宜野湾西海岸を、ITビーチに！」という目的のもと運営されているラボスペース「[CODE BASE](https://www.protosolution.co.jp/codebase/program-school/index.html)」と、Railsチュートリアルの商用ライセンス利用許諾契約を締結いたしました。
+「宜野湾西海岸を、ITビーチに！」という目的のもと運営されているラボスペース「[CODE BASE](https://www.protosolution.co.jp/codebase/program-school/index.html)」が、Railsチュートリアルの公式パートナーになりました。
 
-YassLab 社が運営する[Railsチュートリアル](https://railstutorial.jp/)では、プログラミングスクールや大学・大学院などが事業でRailsチュートリアルを利用しやすくなるよう、2018年より商用ライセンスの取り組みを始めました。
+YassLab 社が運営する[Railsチュートリアル](https://railstutorial.jp/)では、プログラミングスクールや大学・大学院などが事業でRailsチュートリアルを利用しやすくなるよう、2018年より公式パートナーを増やす取り組みを始めました。
 
 [![CODE BASE on Railsチュートリアル](/img/news/codebase-on-railstutorial.png)](https://railstutorial.jp/#partners)
 
-商用ライセンスを締結することで、Railsチュートリアルを使った[質問対応サービス](https://railstutorial.jp/#service)を展開したり、３６時間以上ある解説動画を使った[反転学習](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails)が簡単に実施できるようになります。
+公式パートナーになることで、Railsチュートリアルを使った[質問対応サービス](https://railstutorial.jp/#service)を展開したり、３６時間以上ある解説動画を使った[反転学習](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails)が簡単に実施できるようになります。
 
 [![反転学習の事例](/img/news/hanten-stats.png)](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails?slide=8)
 

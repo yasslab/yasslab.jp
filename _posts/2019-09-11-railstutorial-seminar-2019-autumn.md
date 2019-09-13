@@ -77,7 +77,7 @@ Rails解説セミナーでは事前学習が大切です。セミナー開始日
 
 「遠方にいて参加が厳しい」「今回は都合が合わずに参加できない」といった理由で本セミナーに参加できない方々には、前回のセミナーを収録した[解説動画](https://railstutorial.jp/#screencast)があります。これからも、様々なアプローチで皆さんのRails学習を支えていければと考えています。
 
-Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[商用ライセンス](https://railstutorial.jp/#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽にお試しください😆
+Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[パートナー提携](https://railstutorial.jp/contact#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽にお試しください😆
 
 [![Railsチュートリアル](https://i.gyazo.com/d89f3367fe2668e5cb3ae8b69be642e5.png)](https://railstutorial.jp)
 
