@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🤝神戸ニルキューブがRailsチュートリアル法人プランを締結
+title:  🤝 神戸ニルキューブがRailsチュートリアル公式パートナーに
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [Press]
@@ -9,18 +9,18 @@ tags: [Railsチュートリアル, 提携]
 
 ![Nilquebe × Railsチュートリアル](https://i.gyazo.com/28ceac1c70a56d9189045b8c43dde41a.png)
 
-神戸市にあるワークスペース [Nilquebe(ニルキューブ)](https://nilquebe.com/)が、Railsチュートリアル法人プランを締結しました🎉
+神戸市にあるコワーキングスペース『[Nilquebe (ニルキューブ)](https://nilquebe.com/)』がRailsチュートリアル公式パートナーになりました! 🤝✨
 
-## ニルキューブ紹介
+## ニルキューブについて
 
 ![営業日](https://i.gyazo.com/c482aa3977598818c14351b0370e906d.png)
 ![ニルキューブ設備](https://i.gyazo.com/9d0f1a8785270fc9aae076530df68bc4.png)
 
-[法人プラン](https://railstutorial.jp/business)を提携したことで、Railsチュートリアルを活用した学習支援サービスがニルキューブで受けられるようになりました✨
+Railsチュートリアルとの提携を通して、Railsチュートリアルを活用した学習支援サービスがニルキューブで受けられるようになりました✨
 
 [![ニルキューブ広告](https://i.gyazo.com/17dfb17ee184938d7a56b3384504f8ef.png)](https://nilquebe.blogspot.com/2019/09/rails10.html)
 
-詳しい内容は、[ニルキューブのブログ記事](https://nilquebe.blogspot.com/2019/09/rails10.html)をご覧ください💁‍♀️
+詳しい内容は[ニルキューブのお知らせ記事](https://nilquebe.blogspot.com/2019/09/rails10.html)をご覧ください💁‍♀️
 
 ## Railsチュートリアル活用法
 
@@ -31,5 +31,4 @@ Railsチュートリアルでは今回のような『[法人プラン](https://r
 『Railsチュートリアルの利用を検討したい』と考えている法人の方々がいらっしゃれば、ぜひお気軽に[コチラ](https://railstutorial.jp/contact)よりお問い合わせください📬✨
 
 [![Railsチュートリアルロゴ](https://i.gyazo.com/d89f3367fe2668e5cb3ae8b69be642e5.png)](https://railstutorial.jp/contact)
-
 
