@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🤝 神戸ニルキューブがRailsチュートリアル公式パートナーに
+title:  🤝 神戸ニルキューブがRailsチュートリアルのパートナーに
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [Press]
@@ -11,22 +11,20 @@ tags: [Railsチュートリアル, 提携]
 
 神戸市にあるコワーキングスペース『[Nilquebe (ニルキューブ)](https://nilquebe.com/)』がRailsチュートリアル公式パートナーになりました! 🤝✨
 
-## ニルキューブについて
-
-![営業日](https://i.gyazo.com/c482aa3977598818c14351b0370e906d.png)
-![ニルキューブ設備](https://i.gyazo.com/9d0f1a8785270fc9aae076530df68bc4.png)
-
-Railsチュートリアルとの提携を通して、Railsチュートリアルを活用した学習支援サービスがニルキューブで受けられるようになりました✨
+今後は神戸市近辺の方も、Railsチュートリアルを活用した学習支援サービスがニルキューブで受けられるようになります ✨
 
 [![ニルキューブ広告](https://i.gyazo.com/17dfb17ee184938d7a56b3384504f8ef.png)](https://nilquebe.blogspot.com/2019/09/rails10.html)
 
 詳しい内容は[ニルキューブのお知らせ記事](https://nilquebe.blogspot.com/2019/09/rails10.html)をご覧ください💁‍♀️
 
+[![ニルキューブ設備](https://i.gyazo.com/9d0f1a8785270fc9aae076530df68bc4.png)](https://nilquebe.blogspot.com/2019/09/rails10.html)
+
+
 ## Railsチュートリアル活用法
 
 Railsチュートリアルでは今回のような『[法人プラン](https://railstutorial.jp/business)』に加え、『[商用ライセンス](https://railstutorial.jp/#license)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』などを提供しています。
 
-![利用実績・提携法人](https://i.gyazo.com/0a435c54d082b5375a3fbaabe35cb0df.png)
+![利用実績・提携法人](https://i.gyazo.com/94efed573b97450d4033d641757021f8.png)
 
 『Railsチュートリアルの利用を検討したい』と考えている法人の方々がいらっしゃれば、ぜひお気軽に[コチラ](https://railstutorial.jp/contact)よりお問い合わせください📬✨
 
