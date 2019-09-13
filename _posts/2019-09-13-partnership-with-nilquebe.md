@@ -22,7 +22,7 @@ tags: [Railsチュートリアル, 提携]
 
 ## Railsチュートリアル活用法
 
-Railsチュートリアルでは今回のようなり[パートナー提携](https://railstutorial.jp/contact#license)に加え、『[お試しプラン](https://railstutorial.jp/trial)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』、『[法人プラン](https://railstutorial.jp/business)』なども提供しています。
+Railsチュートリアルでは今回のような[パートナー提携](https://railstutorial.jp/contact#license)に加え、『[お試しプラン](https://railstutorial.jp/trial)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』、『[法人プラン](https://railstutorial.jp/business)』なども提供しています。
 
 ![利用実績・提携法人](https://i.gyazo.com/94efed573b97450d4033d641757021f8.png)
 
