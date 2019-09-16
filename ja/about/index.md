@@ -26,8 +26,8 @@ lang:   ja
         <p class="mb-4">CoderDojo Japan への開発支援はうまく回っているカタチの1つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いの価値を交換し合うカタチで行なっています。</p>
 
 	<div class="text-center">
-	  <a href="https://speakerdeck.com/yasslab/growing-up-together-with-community?slide=21"><img src="/img/cdj-and-yasslab.png" alt="開発支援パートナーの仕組み" width="70%" /></a>
-	  <p class="text-center" style="font-size: 80%">引用元: <a href="https://speakerdeck.com/yasslab/growing-up-together-with-community">コミュニティと共に成長する</a> (スライド資料)</p>
+	  <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community"><img src="/img/cdj-and-yasslab.png" alt="開発支援パートナーの仕組み" width="70%" /></a>
+	  <p class="text-center" style="font-size: 80%">引用元: <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community">コミュニティと共に成長する</a> (スライド資料)</p>
 	</div>
 	
         <ol>
