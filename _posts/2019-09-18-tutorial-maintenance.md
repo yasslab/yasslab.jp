@@ -17,4 +17,4 @@ Railsチュートリアルのさらなる改善のため、ご理解・ご協力
 
 -----
 
-[![YassLab Inc.](/img/header-railstutorial.png)](https://railstutorial.jp)
+[![バナー画像：Railsチュートリアル](/img/header-railstutorial.png)](https://railstutorial.jp)
