@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  🎥 Railsチュートリアル解説動画一覧ページが見やすくなりました
+title:  🎥 Railsチュートリアル法人プランが見やすくなりました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
-tags: [登壇, Rails]
+tags: [Railsチュートリアル, 法人プラン, デザイン]
 ---
 
 [Railsチュートリアル法人プラン](https://railstutorial.jp/business)で視聴できる解説動画一覧ページのデザインを、ユーザーが使いやすいように変更しました🎉
