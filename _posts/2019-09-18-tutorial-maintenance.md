@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🚧️ Railsチュートリアル改善に伴う一時メンテナンスのお知らせ
+title: 🚧️ Railsチュートリアル改善に伴うメンテナンスのお知らせ
 thumbnail: bg-sky.jpg
 author: nanophate
 categories: [blog]
