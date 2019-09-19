@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎥 Railsチュートリアル法人プラン一覧画面を改善
+title:  🎓 Railsチュートリアル法人プランの一覧画面を改善
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
