@@ -7,7 +7,7 @@ categories: [blog]
 tags: [登壇, Rails]
 ---
 
-Railsチュートリアル解説動画一覧ページのデザインを、ユーザーが使いやすいように変更しました🎉
+[Railsチュートリアル法人プラン](https://railstutorial.jp/business)で視聴できる解説動画一覧ページのデザインを、ユーザーが使いやすいように変更しました🎉
 
 ## 主な改善点
 
