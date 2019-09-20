@@ -7,7 +7,7 @@ categories: [blog]
 tags: [登壇, Railsチュートリアル]
 ---
 
-[![Railsチュートリアル集中解説セミナー](https://i.gyazo.com/ab6470cd1b155c1f628293769885ebaf.png)](https://coedo-dev.doorkeeper.jp/events/97468)
+[![Railsチュートリアル集中解説セミナー](/img/photos/rails-seminar-201910.png)](https://coedo-dev.doorkeeper.jp/events/97468)
 
 🎓 [Railsチュートリアル解説セミナー（Rails6.0対応） / 2019秋集中](https://coedo-dev.doorkeeper.jp/events/97468) の募集が開始されました🎉
 

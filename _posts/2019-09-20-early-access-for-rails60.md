@@ -24,7 +24,7 @@ Rails 6.0対応の最新版は英語版・日本語版ともに現在進行形�
 
 <div class="center"><b><a href="https://yasslab.jp/ja/news/railstutorial-seminar-2019-autumn">🎓 Railsチュートリアル集中解説セミナー受付開始 - YassLab</a></b><br><br><br></div>
 
-[![Railsチュートリアル集中解説セミナー](https://i.gyazo.com/ab6470cd1b155c1f628293769885ebaf.png)](https://yasslab.jp/ja/news/railstutorial-seminar-2019-autumn)
+[![Railsチュートリアル集中解説セミナー](/img/photos/rails-seminar-201910.png)](https://yasslab.jp/ja/news/railstutorial-seminar-2019-autumn)
 
 -----
 
