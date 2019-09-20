@@ -182,17 +182,17 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 %}
 
 {% include community.html
-           left_path='coderdojo-japan'
-           left_name='CoderDojo Japan'
-           center_path='nilquebe-event'
-           center_name='Nilquebe'
-           right_path='otona-programming'
-           right_name='Otona Programming'
+           left_path='oss-gate'
+           left_name='OSS Gate'
+           center_path='coderdojo-japan'
+           center_name='CoderDojo Japan'
+           right_path='dojocon-japan'
+           right_name='DojoCon Japan'
 %}
 
 {% include community.html
-           left_path='oss-gate'
-           left_name='OSS Gate'
+           left_path='nilquebe-event'
+           left_name='Nilquebe'
            center_path='coderdojo-kichijoji'
            center_name='CoderDojo 吉祥寺'
            right_path='coderdojo-abeno'
@@ -242,6 +242,15 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
            center_name='CoderDojo 那覇'
            right_path='coderdojo-ichinomiya'
            right_name='CoderDojo 一宮'
+%}
+
+{% include community.html
+           left_path='otona-programming'
+           left_name='Otona Programming'
+           center_path=''
+           center_name=''
+           right_path=''
+           right_name=''
 %}
 
 <!--
