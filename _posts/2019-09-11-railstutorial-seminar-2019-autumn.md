@@ -4,7 +4,7 @@ title:  🎓 Railsチュートリアル集中解説セミナー受付開始
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
-tags: [登壇, Railsチュートリアル]
+tags: [Railsチュートリアル, 解説セミナー]
 ---
 
 [![Railsチュートリアル集中解説セミナー](/img/photos/rails-seminar-201910.png)](https://coedo-dev.doorkeeper.jp/events/97468)
