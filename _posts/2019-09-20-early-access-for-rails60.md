@@ -9,7 +9,7 @@ tags: [Railsチュートリアル, 解説セミナー]
 
 Railsチュートリアル (6.0対応) の準備が着々と進んでいます! 🛠💨✨
 
-Rails 6.0 対応の最新版は Rails 6 に対応しただけでなく、最近の Web 業界の変化に合わせて各所で更新が加えられています。例えば新コラム『Railsの様々な利点では、RailsConf の基調講演『[Scaleble by Default](https://www.youtube.com/watch?v=8evXWvM4oXM&feature=youtu.be)』やRails作者である[DHHのコメント](https://www.quora.com/What-makes-Rails-a-framework-worth-learning-in-2017)に触れていたり、2019年からの [GitHub による Private レポジトリ無料化](https://blog.github.com/2019-01-07-new-year-new-github/)への対応をしたりなどがあります。
+Rails 6.0 対応の最新版は Rails 6 に対応しただけでなく、最近の Web 業界の変化に合わせて各所で更新が加えられています。例えば RailsConf 2018 の基調講演『[Scaleble by Default](https://www.youtube.com/watch?v=8evXWvM4oXM&feature=youtu.be)』や Rails 作者である [DHH のコメント](https://www.quora.com/What-makes-Rails-a-framework-worth-learning-in-2017)にコラムで触れたり、2019年からの [GitHub による Private レポジトリ無料化](https://blog.github.com/2019-01-07-new-year-new-github/)に対応をしたりなどがあります。
 
 <div class="center" style="padding-bottom: 50px;">
   <img alt="BitBucket から GitHubへ" src="https://i.gyazo.com/880dc2b693fb86c2bfe50a959853019d.png">
