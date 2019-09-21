@@ -37,23 +37,28 @@ lang:   ja
 
         <div class="row">
           <div class="col-md-4 offset-md-1">
-            <a href="https://railstutorial.jp/" target="_blank"><img src="/img/logos/rails-tutorial.png"
-                                                                     alt="Ruby on Rails チュートリアル"
-                                                                     class="books"></a>
+            <a href="https://railstutorial.jp/" target="_blank">
+	      <img class="books"
+	       src="/img/logos/rails-tutorial.png"
+               alt="Ruby on Rails チュートリアル">
+	    </a>
+	    <a href="https://railstutorial.jp/" target="_blank"><h4>Railsチュートリアル</h4></a>
             <a href="https://railstutorial.jp/" target="_blank">
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
-            <a href="https://railstutorial.jp/" target="_blank"><h4>Railsチュートリアル</h4></a>
             <p>SNS 開発を題材にした大型チュートリアル。プロダクト開発の 0→1 を創りながら学びます。<a href="https://railstutorial.jp/#ebook">電子書籍</a>や<a href="https://railstutorial.jp/#screencast">解説動画・質問対応</a>、<a href="https://railstutorial.jp/business">法人向けサービス</a>も提供</p>
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank">
-              <img src="/img/logos/rails-guides.gif" alt="Ruby on Rails ガイド" class="books">
+              <img class="books"
+	       src="/img/logos/rails-guides.png"
+	       alt="Ruby on Rails ガイド">
             </a>
+	    <a href="https://railsguides.jp/" target="_blank"><h4>Railsガイド</h4></a>
             <a href="https://railsguides.jp/" target="_blank">
               <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
-            <a href="https://railsguides.jp/" target="_blank"><h4>Railsガイド</h4></a>
+            
             <p>Ruby on Rails の生産的なプロダクト開発を加速する、1,600ページ以上ある大型リファレンスガイド。<a href="https://railsguides.jp/options.html">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
           </div>
         </div>
