@@ -7,7 +7,7 @@ categories: [blog]
 tags: [CoderDojo, DojoPaaS, Ruby]
 ---
 
-CoderDojo コミュニティ向け簡易 PaaS『[DojoPaaS](https://github.com/coderdojo-japan/dojopaas)』の内部システムを移行しました 🚜💨
+CoderDojo コミュニティ向け簡易 PaaS 『[DojoPaaS](https://github.com/coderdojo-japan/dojopaas)』の内部システムを移行しました 🚜💨
 
 ![DojoPaaS Porting](https://i.gyazo.com/3aaafd43da64b72ca9f9c2fd6bb63b90.png)
 
