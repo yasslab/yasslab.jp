@@ -47,7 +47,7 @@ DojoPaaS はさくらクラウドのサーバー作成 API を利用しており
 
 ## まとめ
 
-これから更に活動しやすくなるような仕組みになるように、YassLab社でも日々改善・開発に励んでいます💪 CoderDojo に興味がある方は、まずは[お近くにある道場](https://coderdojo.jp/events) へぜひ 😉
+これから更に活動しやすくなるような仕組みになるように、YassLab 社でも日々改善・開発に励んでいます💪 CoderDojo に興味がある方は、まずは[お近くにある道場](https://coderdojo.jp/events) へぜひ 😉
 
 CoderDojo Japan: [https://coderdojo.jp/](https://coderdojo.jp/)
 
