@@ -17,7 +17,7 @@ CoderDojo コミュニティ向け簡易 PaaS『[DojoPaaS](https://github.com/co
 
 この提携に際し、CoderDojo 向けにサーバー利用申請手続きが簡単にする仕組み『[DojoPaaS](https://github.com/coderdojo-japan/dojopaas)』のプロトタイプが [@miya0001](https://twitter.com/miya0001) さんによって開発されました 🛠
 
-この DojoPaaS は、GitHub のプルリクエストを利用し、 CSVに書いた設定を元に自動でさくらクラウドのサーバーを生成してくれるシステムとなっています。
+この DojoPaaS は、GitHub のプルリクエストを利用し、 CSV に書いた設定を元に自動でさくらクラウドのサーバーを生成してくれるシステムとなっています。
 
 <div class="center" style="margin-bottom: 100px;" align="center">
   <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">さくらインターネット様からご支援していただいたサーバーを、全国の <a href="https://twitter.com/hashtag/CoderDojo?src=hash&amp;ref_src=twsrc%5Etfw">#CoderDojo</a> に即時お届けする仕組みが整いました! 🤖✨<a href="https://t.co/gER1dsPyKG">https://t.co/gER1dsPyKG</a><br><br>開発に尽力された <a href="https://twitter.com/miya0001?ref_src=twsrc%5Etfw">@miya0001</a> さん、<a href="https://twitter.com/yasulab?ref_src=twsrc%5Etfw">@yasulab</a> さん、ありがとうございました! 😆🎉 <a href="https://t.co/6iQTL4PZpW">https://t.co/6iQTL4PZpW</a></p>&mdash; CoderDojo Japan ☯️ (@CoderDojoJapan) <a href="https://twitter.com/CoderDojoJapan/status/889346596797784066?ref_src=twsrc%5Etfw">July 24, 2017</a></blockquote>
@@ -29,7 +29,7 @@ DojoPaaS はさくらクラウドのサーバー作成 API を利用しており
 
 今後 CoderDojo コミュニティの活動が活発になっていくにつれて、利用するサーバー台数も増えていくことが予想されるため、このような負担が増え続けていくことは好ましくありません。そこで DojoPaaS の開発者である @miya0001 さんと協議し、今後の継続的な開発と運用を考慮して [YassLab 社でメンテナンスを引き継ぐ](https://github.com/coderdojo-japan/dojopaas/issues/110)形となりました。
 
-#### 移植に関するご相談
+#### 移行に関するご相談
 
 ![miya さんから承諾を得た様子](https://i.gyazo.com/d4c28a383b52079cd9e8cb1c8770339d.png)
 
