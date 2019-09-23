@@ -13,9 +13,9 @@ CoderDojo コミュニティ向け簡易 PaaS 『[DojoPaaS](https://github.com/c
 
 ## DojoPaaS とは
 
-インターネットインフラサービスを提供する[さくらインターネット株式会社](https://www.sakura.ad.jp/)は、子ども向けプログラミング道場「[CoderDojo](https://coderdojo.jp/)」を推進する一般社団法人 CoderDojo Japan を支援し、[「さくらのクラウド」を無料で提供](https://www.sakura.ad.jp/information/pressreleases/2017/07/20/90191/)されています 🎁
+インターネットインフラサービスを提供する[さくらインターネット株式会社](https://www.sakura.ad.jp/)は、子ども向けプログラミング道場『[CoderDojo](https://coderdojo.jp/)』を推進する一般社団法人 CoderDojo Japan を支援し、[『さくらのクラウド』を無料で提供](https://www.sakura.ad.jp/information/pressreleases/2017/07/20/90191/)されています 🎁
 
-この提携に際し、CoderDojo 向けにサーバー利用申請手続きが簡単にする仕組み『[DojoPaaS](https://github.com/coderdojo-japan/dojopaas)』のプロトタイプが [@miya0001](https://twitter.com/miya0001) さんによって開発されました 🛠
+この提携に際し、CoderDojo 向けにサーバー利用申請手続きを簡単にする仕組み『[DojoPaaS](https://github.com/coderdojo-japan/dojopaas)』が [@miya0001](https://twitter.com/miya0001) さんによって開発されました 🛠
 
 この DojoPaaS は、GitHub のプルリクエストを利用し、 CSV に書いた設定を元に自動でさくらクラウドのサーバーを生成してくれるシステムとなっています。
 
