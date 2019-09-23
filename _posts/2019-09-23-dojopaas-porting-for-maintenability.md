@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ☯️ DojoPaaS の内部システムを移行しました
+title:  ☯️ DojoPaaS 内部システムを移行しました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
