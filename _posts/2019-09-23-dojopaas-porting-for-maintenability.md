@@ -25,7 +25,7 @@ CoderDojo コミュニティ向け簡易 PaaS 『[DojoPaaS](https://github.com/c
 
 ## DojoPaaS の課題
 
-DojoPaaS はさくらクラウドのサーバー作成 API を利用しておりますが、API の仕様は更新されていくため、基本的にはそれらの更新に継続的に追従する必要があります。旧システムでは API 更新への対応が遅れていたため、サーバーを作成する際の Kernel エラーや、予期せぬ NIC エラーなどが発生してしまうことがあり、結果として[エラー発生の度に手動で対応する](https://github.com/coderdojo-japan/dojopaas/issues/133)といった運用面での負担が課題でした。
+DojoPaaS はさくらクラウドのサーバー作成 API を利用しておりますが、API の仕様は更新されていくため、基本的にはそれらの更新に継続的に追従する必要があります。旧システムでは API 更新への対応が遅れていたため、サーバーを作成する際の Kernel エラーや、予期せぬ NIC エラーなどが発生してしまうことがあり、結果として[エラー発生の度に手動で対応する](https://github.com/coderdojo-japan/dojopaas/issues?q=is%3Aissue+is%3Aclosed)といった運用面での負担が課題でした。
 
 今後 CoderDojo コミュニティが発展するにつれて、利用するサーバー台数も増えていくことが予想されるため、このような負担が増加していくことはできれば避けたいです。そこで DojoPaaS の開発者である @miya0001 さんと協議し、今後の継続的な開発と運用を考慮して [YassLab 社でメンテナンスを引き継ぐ](https://github.com/coderdojo-japan/dojopaas/issues/110)形となりました。
 
