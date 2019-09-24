@@ -9,6 +9,10 @@ tags: [CoderDojo, DojoPaaS, Ruby]
 
 CoderDojo コミュニティ向け簡易 PaaS 『[DojoPaaS](https://github.com/coderdojo-japan/dojopaas)』の内部システムを移行しました 🚜💨
 
+<div class="center" style="margin-bottom: 100px;" align="center">
+  <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">おお、お疲れさまでした！</p>&mdash; Takayuki Miyauchi (@miya0001) <a href="https://twitter.com/miya0001/status/1176443756007919617?ref_src=twsrc%5Etfw">September 24, 2019</a></blockquote>
+</div>
+
 ## DojoPaaS とは
 
 インターネットインフラサービスを提供する[さくらインターネット株式会社](https://www.sakura.ad.jp/)は、子ども向けプログラミング道場『[CoderDojo](https://coderdojo.jp/)』を推進する一般社団法人 CoderDojo Japan を支援し、[『さくらのクラウド』を無料で提供](https://www.sakura.ad.jp/information/pressreleases/2017/07/20/90191/)されています 🎁
