@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SAMPLE_POST_TEXT="_post-sample.md"
+SAMPLE_POST_TEXT="_post-template.md"
 
 if [ $# -eq 0 ]
 then
