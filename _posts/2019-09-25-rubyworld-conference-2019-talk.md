@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🗣 RubyWorld Conference 2019 に採択されました
+title:  💎 RubyWorld Conference 2019 に採択されました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
@@ -9,7 +9,7 @@ tags: [登壇, Ruby]
 
 [RubyWorld Conference 2019](https://2019.rubyworld-conf.org/ja/) で [coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp) に関する開発事例が採択されました🎉
 
-[![RubyWorld Conference 2019](https://i.gyazo.com/f8d26ad180f5ae42e40fd7172408c4d7.png)](https://2019.rubyworld-conf.org/ja/)
+[![RubyWorld Conference 2019](https://i.gyazo.com/fe834c04095a1c50614aee2b84aba0fa.jpg)](https://2019.rubyworld-conf.org/ja/)
 
 [![プログラム](https://i.gyazo.com/ef129b3897203f55f2d786eb53366e35.png)](https://2019.rubyworld-conf.org/ja/program/day2/)
 
@@ -23,11 +23,11 @@ tags: [登壇, Ruby]
 
 ![CoderDojo を支える様々な技術](https://i.gyazo.com/7566ab730e09a64e9dbbea5f5ffcdaa0.png)
 
-[毎年1,000回以上、累計参加者数25,000人を超える](https://coderdojo.jp/stats) CoderDojo コミュニティでは、[DojoPaaS](https://github.com/coderdojo-japan/dojopaas) や[近日開催の道場](https://coderdojo.jp/events)など、テクノロジーによる様々なサポートが提供されています。
+[毎年1,000回以上・累計参加者数25,000人を超える](https://coderdojo.jp/stats) CoderDojo コミュニティでは、[DojoPaaS](https://github.com/coderdojo-japan/dojopaas) や[近日開催の道場](https://coderdojo.jp/events)など、テクノロジーによる様々なサポートが提供されています。
 
 [![CoderDojo の統計ページ](https://i.gyazo.com/7228324c332bff78202cbc5aa399b54b.png)](https://coderdojo.jp/stats)
 
-そんな CoderDojo コミュニティで使われている多様なテクノロジーの中から、Ruby が使われた事例にフォーカスを当て、参加者の皆さんと共有していきます。
+そんな CoderDojo コミュニティで使われている多様なテクノロジーの中から、Ruby の開発事例にフォーカスを当て、参加者の皆さんと共有していきます。
 
 ## あとがき
 
