@@ -9,7 +9,9 @@ tags: [CoderDojo, DojoPaaS, Ruby]
 
 CoderDojo コミュニティ向け簡易 PaaS 『[DojoPaaS](https://github.com/coderdojo-japan/dojopaas)』の内部システムを移行しました 🚜💨
 
-![DojoPaaS Porting](https://i.gyazo.com/3aaafd43da64b72ca9f9c2fd6bb63b90.png)
+<div class="center" style="margin-bottom: 100px;" align="center">
+  <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">おお、お疲れさまでした！</p>&mdash; Takayuki Miyauchi (@miya0001) <a href="https://twitter.com/miya0001/status/1176443756007919617?ref_src=twsrc%5Etfw">September 24, 2019</a></blockquote>
+</div>
 
 ## DojoPaaS とは
 
@@ -38,7 +40,7 @@ DojoPaaS はさくらクラウドのサーバー作成 API を利用しており
 
   移行作業の具体的な様子は [coderdojo-japan/dojopaas#110](https://github.com/coderdojo-japan/dojopaas/issues/110) をご参照ください。現在は無事に内部システムが移行され、これまで通り DojoPaaS が動くことも確認済みです。
 
-  なお、内部システムが変わっただけなので、利用者側への影響は特にありません。 **DojoPaaS を利用している CoderDojo 運営者が特別な対応をする必要はありませんので、ご安心ください 😌** 
+  **なお、内部システムが変わったことによる利用者側への影響は特にありません。DojoPaaS をご利用の CoderDojo 運営者が特別な対応をする必要はありませんので、ご安心ください 😌** 
 
 <!--
 ##### オマケ: PaaS って何？
