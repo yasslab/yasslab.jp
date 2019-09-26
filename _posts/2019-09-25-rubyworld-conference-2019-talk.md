@@ -13,7 +13,7 @@ tags: [登壇, Ruby]
 
 [![プログラム](https://i.gyazo.com/ef129b3897203f55f2d786eb53366e35.png)](https://2019.rubyworld-conf.org/ja/program/day2/)
 
-<div>講演は最終日の最後の30分枠での登壇です 😆👆</div>
+<div>講演は最終日の最後の30分枠での登壇です 😆</div>
 
 <br>
 
