@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🤝 NASA 主催の世界同時ハッカソンに協賛しました
+title:  🚀 NASA 主催の世界同時ハッカソンに協賛しました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
