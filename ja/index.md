@@ -145,6 +145,9 @@ lang:   ja
              caption='<a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒' %}
           {% include member.html username='naopontan' link_to='twitter'
              caption='Railsエンジニア。<a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議</a>運営チーム' %}
+
+	  {% include member.html username='cat2koban' link_to='twitter' offset='offset-md-4'
+             caption='バックエンドが好き。琉球大学修士課程所属' %}
         </div>
       </div>
     </div>
