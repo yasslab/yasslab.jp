@@ -7,9 +7,11 @@ categories: [press]
 tags: [協賛]
 ---
 
+[![Space Apps Challenge Kushimoto](https://i.gyazo.com/ca8b8a4dd245e582c5702657727bcad1.png)](https://space-apps-kushimoto.github.io/)
+
 NASA が毎年主催する世界同時ハッカソン『[Space Apps Challenge](https://www.spaceappschallenge.org/)』の [Kushimoto](https://space-apps-kushimoto.github.io/) 拠点にスポンサーとして協賛しました🤝
 
-[![Space Apps Challenge Kushimoto](https://i.gyazo.com/ca8b8a4dd245e582c5702657727bcad1.png)](https://space-apps-kushimoto.github.io/)
+[![スポンサーロゴ](https://i.gyazo.com/0747f27ae1ba4098d6358613d5a58bd4.png)](https://space-apps-kushimoto.github.io/sponsor/)
 
 
 ## Space Apps Challenge とは
