@@ -14,10 +14,14 @@ else
 
     # Write down here if your screen name
     # is different from your Twitter name.
-    AUTHOR=`whoami`
-    case $AUTHOR in
-	"yuppy" ) AUTHOR="Yuppyhappytoyou" ;;
-    esac
+    if [ -n "$AUTHOR" ]; then
+	AUTHOR=$AUTHOR
+    else
+	AUTHOR=`whoami`
+	case $AUTHOR in
+	    "yuppy" ) AUTHOR="Yuppyhappytoyou" ;;
+	esac
+    fi
 
     echo "---"                     >  $TEMPLATE_FILENAME
     echo "layout: post"            >> $TEMPLATE_FILENAME
