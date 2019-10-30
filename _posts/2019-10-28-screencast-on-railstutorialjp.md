@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎓 Railsチュートリアル解説動画が railstutorial.jp から見れるようになりました
+title:  🎓 Railsチュートリアル解説動画の視聴画面が大幅改善
 thumbnail: bg-sky.jpg
 author: himajin315
 categories: [blog]
@@ -12,16 +12,19 @@ tags: [Railsチュートリアル]
 [![Wistiaからrailstutorialjpに移行](https://i.gyazo.com/1bed781cfe2a7f14aa1c3ca335e65c84.png)](https://i.gyazo.com/1bed781cfe2a7f14aa1c3ca335e65c84.png)
 
 
-## railstutorial.jp から見れて嬉しいこと
+## 改善後の特徴
 
-### レスポンシブ対応により、並べて動画を見ることができる
+解説動画を railstutorial.jp から視聴できるようになったことで、次のような嬉しい点があります。
+
+### レスポンシブ対応 + 並べて動画視聴
 
 ページの横幅に合わせて、動画のサイズが変更されます。それにより、横に並べながらコードを書くことが簡単になります。
 
 [![並べて表示](https://i.gyazo.com/5998833afccbc186d59a02badf75d22e.jpg)](https://i.gyazo.com/5998833afccbc186d59a02badf75d22e.jpg)
 
+<br>
 
-### 動画の下にスライドが表示される
+### 動画の下にスライドも表示
 
 解説動画ではさらにわかりやすくするため、スライドを使って説明するシーンがあります。そのスライドの資料をページ内に用意しています。
 
