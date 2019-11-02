@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  💎 DIVE INTO CODE の DEMODAY の審査員として紹介されました
+title:  💎 DIVE INTO CODE の DEMODAY 7th にゲスト参加
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [blog]
