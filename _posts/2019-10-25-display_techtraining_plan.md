@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🎓 Railsチュートリアルの学習プランに「テクトレ」が追加
+title:  🎓 Railsチュートリアルの学習プランにテクトレを追加
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
@@ -12,7 +12,7 @@ Railsチュートリアルの選べる学習プランに、コミュニティ学
 
 [![選べる学習プラン](https://i.gyazo.com/ab647c91f9b5668ec20ee4de6d3988e2.png)](https://railstutorial.jp/)
 
-## テクトレ 学習プランについて
+## テクトレ学習プランについて
 
 **「Railsチュートリアル学習パッケージ」**では、YassLab社で提供している解説動画を [TechCommit](https://www.tech-commit.jp/) の公式教材として何度も繰り返し見ることが出来、分からない事があれば専用のSlackチャンネルで相談出来ます。
 
@@ -24,7 +24,7 @@ Railsチュートリアルを終えた方向けには、TechCommit からの追�
 
 [![Railsチュートリアルコラボ](https://i.gyazo.com/79b6ea8e39017b699e648c62a690f26e.png)](https://www.tech-training.jp/blog/entries/36)
 
-## Railsチュートリアル 事業利用について
+## Railsチュートリアル事業利用について
 
 Railsチュートリアルでは、社員研修などに便利な「法人プラン」や、それぞれの事業形態に合わせて柔軟に利用許諾契約 (ライセンス契約) を締結する事が可能となっています。
 
