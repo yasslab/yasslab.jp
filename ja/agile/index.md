@@ -119,15 +119,19 @@ lang:   ja
     <div class="row">
       <div class="col-md-12 text-center">
         <h2 class="mb-5"><a href="#schedule">現在のスケジュール</a></h2>
-
+	<!--
+	     reserved:  'ありがとうございました'
+	     adjusting: 'お問い合わせください'
+	     available: 'ご相談お待ちしております'
+	-->
 	{% include agile-schedule.html
-	    started_month=8
+	    started_month=11
 	     plus_0='reserved'
 	     plus_1='reserved'
 	     plus_2='reserved'
 	     plus_3='reserved'
-	     plus_4='reserved'
-	     plus_5='reserved'
+	     plus_4='adjusting'
+	     plus_5='available'
 	%}
         
         <table class="caption">
