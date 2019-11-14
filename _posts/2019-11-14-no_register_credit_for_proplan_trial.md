@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  📕RailsガイドProプランのトライアル機能が更に便利に
+title:  📕Railsガイド『Proプラン』のトライアル利用がクレジットカード不要になりました
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
