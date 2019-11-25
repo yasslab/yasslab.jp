@@ -245,10 +245,10 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 %}
 
 {% include community.html
-           left_path='otona-programming'
-           left_name='Otona Programming'
-           center_path=''
-           center_name=''
+           left_path='coderdojoueda'
+           left_name='CoderDojo 上田'
+           center_path='otona-programming'
+           center_name='Otona Programming'
            right_path=''
            right_name=''
 %}
