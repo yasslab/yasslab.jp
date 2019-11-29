@@ -206,7 +206,7 @@ GEM
     unicode-display_width (1.6.0)
     webrobots (0.1.2)
     yell (2.2.0)
-    zeitwerk (2.2.1)
+    zeitwerk (2.2.2)
 
 PLATFORMS
   ruby
