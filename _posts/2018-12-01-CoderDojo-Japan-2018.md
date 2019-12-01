@@ -115,5 +115,5 @@ CoderDojo 五反田の会場スポンサーでもある[freee株式会社](https
 
 <script async class="speakerdeck-embed" data-id="ba5d69d07474453eaf7e34a8b924851e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-cf. [コミュニティと共に成長する: 全国150ヶ所ある CoderDojo と企業の共創](https://speakerdeck.com/…/growing-up-together-with-community)   
-cf. [パートナーシップのご案内 - CoderDojo Japan](https://coderdojo.jp/docs/about-partnership)
+cf. [コミュニティと共に成長する: 全国150ヶ所ある CoderDojo と企業の共創](https://speakerdeck.com/yasulab/growing-up-together-with-community)   
+cf. [パートナーシップのご案内 - CoderDojo Japan](https://coderdojo.jp/partnership)
