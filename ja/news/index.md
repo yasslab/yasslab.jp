@@ -6,8 +6,8 @@ thumbnail: bg-sky.jpg
 
 <ul style="list-style: none; padding-top: 10px; padding-bottom: 70px;
 	   margin-left: -30px; width: 105%;">
-  {% for post in site.posts %}
-    {% include post.html %}
+  {% for news in site.data.news %}
+    {% include news.html %}
   {% endfor %}
 </ul>
 
