@@ -1,7 +1,8 @@
 <h4>最近のお知らせ</h4>
+<div class="text-secondary center mb-4">(note 記事まとめ)</div>
 
 <ul class="news-recent">
-  {% for post in site.posts limit:10 %}
+  {% for post in site.data.news limit:10 %}
   {% include post.html %}
   {% endfor %}
 </ul>
