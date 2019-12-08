@@ -1,14 +1,14 @@
 <li class="news-item">
   <span class="news-date">{{ news.date | date: "%m/%d" }}</span>
   <span class="news-title h5">
-    {% if news.is_note? %}
+    {% if news.is_internal? %}
+    <a href="{{ news.url }}" data-proofer-ignore>
+      {{ news.title }}
+    </a>
+    {% else %}
     <a href="{{ news.url }}" data-proofer-ignore target="_blank">
       {{ news.title }}
       <img src="/img/icons/external-link-16.png" />
-    </a>
-    {% else %}
-    <a href="{{ news.url }}" data-proofer-ignore>
-      {{ news.title }}
     </a>
     {% endif %}
   </span>
