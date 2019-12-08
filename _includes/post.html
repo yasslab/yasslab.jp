@@ -1,32 +1,8 @@
-{% comment %}
-  Scheduled News is published at 8:00am
-  // 9hours * 60secs * 60mins = 32400secs
-  // Rebuilding at every 9am by Heroku Scheduler
-{% endcomment %}
-
-{% assign current_time = site.time | date: '%s' | to_integer %}
-{% assign published_at = post.date | date: '%s' | to_integer | plus: 32400 %}
-
-{% if published_at > current_time %}
-  {% if jekyll.environment != "production" %}
-  <!-- Show scheduled news in Dev/Staging (Review Apps) but not in Production -->
-  <li class='news-item'>
-    <span class="news-date news-date-future">{{ post.date | date: "%m/%d" }}</span>
-    <span class="news-title h5">
-      <a href="{{ post.url }}" data-proofer-ignore>
-	{{ post.title }}
-      </a>
-    </span>
-  </li>
-  {% endif %}
-{% else %}
-  <!-- Show existing news in any environment -->
-  <li class="news-item">
-    <span class="news-date">{{ post.date | date: "%m/%d" }}</span>
-    <span class="news-title h5">
-      <a href="{{ post.url }}" data-proofer-ignore>
-	{{ post.title }}
-      </a>
-    </span>
-  </li>
-{% endif %}
+<li class="news-item">
+  <span class="news-date">{{ post.date | date: "%m/%d" }}</span>
+  <span class="news-title h5">
+    <a href="{{ post.url }}" data-proofer-ignore>
+      {{ post.title }}
+    </a>
+  </span>
+</li>
