@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🗺 未踏ジュニア『困ったときのガイドライン』を公開
+title:  ⛰ 未踏ジュニア『困ったときのガイドライン』を公開
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]

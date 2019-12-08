@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🚀 Railsガイド『Teamプラン』をリリース
+title:  📕 Railsガイド『Teamプラン』をリリース
 thumbnail: bg-sky.jpg
 author: Yuppyhappytoyou
 categories: [press]
