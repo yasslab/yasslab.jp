@@ -45,82 +45,82 @@
 
 - title: 💎 RubyWorld Conference 2019 に採択されました
   date: 2019-09-25
-  url: https://yasslab.jp/ja/news/rubyworld-conference-2019-talk
+  url: /ja/news/rubyworld-conference-2019-talk
   is_note?: false
 
 - title: ☯️ DojoPaaS 内部システムを移行しました
   date: 2019-09-23
-  url: https://yasslab.jp/ja/news/dojopaas-porting-for-maintenability
+  url: /ja/news/dojopaas-porting-for-maintenability
   is_note?: false
 
 - title: ☯️ DojoCon Japan 2019 に協賛しました
   date: 2019-09-21
-  url: https://yasslab.jp/ja/news/dojocon-japan-2019-sponsorship
+  url: /ja/news/dojocon-japan-2019-sponsorship
   is_note?: false
 
 - title: 🎓 Railsチュートリアル (6.0対応) がセミナー参加特典に
   date: 2019-09-20
-  url: https://yasslab.jp/ja/news/early-access-for-rails60
+  url: /ja/news/early-access-for-rails60
   is_note?: false
 
 - title: 🎓 Railsチュートリアル法人プランの一覧画面を改善
   date: 2019-09-19
-  url: https://yasslab.jp/ja/news/enhance-screencasts-design
+  url: /ja/news/enhance-screencasts-design
   is_note?: false
 
 - title: 🚧️ Railsチュートリアル改善に伴うメンテナンスのお知らせ
   date: 2019-09-18
-  url: https://yasslab.jp/ja/news/tutorial-maintenance
+  url: /ja/news/tutorial-maintenance
   is_note?: false
 
 - title: 🤝 神戸ニルキューブがRailsチュートリアルのパートナーに
   date: 2019-09-13
-  url: https://yasslab.jp/ja/news/partnership-with-nilquebe
+  url: /ja/news/partnership-with-nilquebe
   is_note?: false
 
 - title: 📕 Railsガイド電子書籍版 (6.0対応) を販売開始
   date: 2019-09-12
-  url: https://yasslab.jp/ja/news/publish-railsguidesjp-60-ebook
+  url: /ja/news/publish-railsguidesjp-60-ebook
   is_note?: false
 
 - title: 🎓 Railsチュートリアル集中解説セミナー受付開始
   date: 2019-09-11
-  url: https://yasslab.jp/ja/news/railstutorial-seminar-2019-autumn
+  url: /ja/news/railstutorial-seminar-2019-autumn
   is_note?: false
 
 - title: ☯️ 沖縄のプログラミングイベントに参加します
   date: 2019-09-10
-  url: https://yasslab.jp/ja/news/decadojo-in-okinawa
+  url: /ja/news/decadojo-in-okinawa
   is_note?: false
 
 - title: 📕 Railsガイドのロゴが日本語表記になりました
   date: 2019-09-09
-  url: https://yasslab.jp/ja/news/japanese-railsguides-logo
+  url: /ja/news/japanese-railsguides-logo
   is_note?: false
 
 - title: 💎 DEMODAY 7th 2019 -autumn- に審査員で参加します
   date: 2019-09-05
-  url: https://yasslab.jp/ja/news/judge-in-dive-into-code-demoday
+  url: /ja/news/judge-in-dive-into-code-demoday
   is_note?: false
 
 - title: 🤝 テクトレ社とRailsチュートリアルのライセンス契約締結
   date: 2019-09-04
-  url: https://yasslab.jp/ja/news/partnership-with-techtraining
+  url: /ja/news/partnership-with-techtraining
   is_note?: false
 
 - title: 🏝️ Rails Girls Okinawa 2nd に協賛
   date: 2019-08-29
-  url: https://yasslab.jp/ja/news/we-suport-rails-girls-okinawa-2nd
+  url: /ja/news/we-suport-rails-girls-okinawa-2nd
   is_note?: false
 
 - title: 📕 RailsガイドのProプランで無料トライアルが可能に
   date: 2019-08-21
-  url: https://yasslab.jp/ja/news/add-trial-plan-for-pro-users
+  url: /ja/news/add-trial-plan-for-pro-users
   is_note?: false
 
 - title: 🎓 Railsチュートリアルのページ遷移を改善しました
   date: 2019-08-20
-  url: https://yasslab.jp/ja/news/new-functional-design-for-railstutorialjp
+  url: /ja/news/new-functional-design-for-railstutorialjp
   is_note?: false
 
 - title: 📕 RailsガイドがRails 6の各種ガイドに対応しました
@@ -130,12 +130,12 @@
 
 - title: ⛰ 未踏ジュニア『困ったときのガイドライン』を公開
   date: 2019-08-18
-  url: https://yasslab.jp/ja/news/we-support-you-in-any-situation
+  url: /ja/news/we-support-you-in-any-situation
   is_note?: false
 
 - title: ☯️ 大阪Ruby会議02で coderdojo.jp 開発事例を発表します
   date: 2019-08-17
-  url: https://yasslab.jp/ja/news/cfp-accepted-at-osaka-rubykaigi02
+  url: /ja/news/cfp-accepted-at-osaka-rubykaigi02
   is_note?: false
 
 - title: 📕 Railsガイドで検索結果一覧が見れるようになりました
@@ -145,17 +145,17 @@
 
 - title: 🎓 琉球大学でRailsチュートリアルが継続採用 (３年目)
   date: 2019-08-08
-  url: https://yasslab.jp/ja/news/univ-of-ryukyus-with-railstutorial
+  url: /ja/news/univ-of-ryukyus-with-railstutorial
   is_note?: false
 
 - title: 🤝 HAJエンパワーメントとRailsチュートリアルで業務提携
   date: 2019-08-06
-  url: https://yasslab.jp/ja/news/partnership-with-haj-empowerment
+  url: /ja/news/partnership-with-haj-empowerment
   is_note?: false
 
 - title: 🏢 YassLab 社の第２期活動まとめ
   date: 2019-08-01
-  url: https://yasslab.jp/ja/news/2nd-fiscal-year-of-yasslab
+  url: /ja/news/2nd-fiscal-year-of-yasslab
   is_note?: false
 
 - title: 💳 解説動画のカード決済がシンプルになりました
@@ -165,7 +165,7 @@
 
 - title: 📭 各種サービスにフィードバック機能を追加しました
   date: 2019-07-24
-  url: https://yasslab.jp/ja/news/feature-request-form
+  url: /ja/news/feature-request-form
   is_note?: false
 
 - title: 🏆 Railsチュートリアル法人プランがAWS賞を受賞
@@ -175,87 +175,87 @@
 
 - title: 📕 Railsガイドの各タイトルが Twitter Card に対応
   date: 2019-07-12
-  url: https://yasslab.jp/ja/news/railsduides-twitter-card
+  url: /ja/news/railsduides-twitter-card
   is_note?: false
 
 - title: 🎓 Railsチュートリアル解説動画の見所をまとめました
   date: 2019-07-10
-  url: https://yasslab.jp/ja/news/highlight-of-railstutorial-screencast
+  url: /ja/news/highlight-of-railstutorial-screencast
   is_note?: false
 
 - title: 🎖弊社メンバーが株式会社アジャイルウェアから表彰
   date: 2019-07-03
-  url: https://yasslab.jp/ja/news/hanachin-given-award-from-agileware
+  url: /ja/news/hanachin-given-award-from-agileware
   is_note?: false
 
 - title: 🎓 Railsチュートリアルは、自分に合う学習スタイルで
   date: 2019-06-30
-  url: https://yasslab.jp/ja/news/learning-style-of-tutolial
+  url: /ja/news/learning-style-of-tutolial
   is_note?: false
 
 - title: 🏝 Stripe の Rails 開発事例を沖縄で発表しました
   date: 2019-06-29
-  url: https://yasslab.jp/ja/news/payment-implmentation-with-stripe
+  url: /ja/news/payment-implmentation-with-stripe
   is_note?: false
 
 - title: 🏫 Rails5ベーシック試験教材にRailsチュートリアルが採用
   date: 2019-06-25
-  url: https://yasslab.jp/ja/news/rails5-basic-with-tutorial
+  url: /ja/news/rails5-basic-with-tutorial
   is_note?: false
 
 - title: 📕 Railsガイド『Teamプラン』をリリース
   date: 2019-06-24
-  url: https://yasslab.jp/ja/news/release-team-plan
+  url: /ja/news/release-team-plan
   is_note?: false
 
 - title: 🏝 沖縄発Rubyフルリモートワーク会社を支える仕組み
   date: 2019-06-08
-  url: https://yasslab.jp/ja/news/remote-work-from-okinawa
+  url: /ja/news/remote-work-from-okinawa
   is_note?: false
 
 - title: 🎓 法人向けサービス活用例：マネーフォワード様
   date: 2019-06-07
-  url: https://yasslab.jp/ja/news/learning-by-making
+  url: /ja/news/learning-by-making
   is_note?: false
 
 - title: 🎓 Railsチュートリアル開発経緯の取材記事が公開
   date: 2019-05-26
-  url: https://yasslab.jp/ja/news/inside-railstutorial
+  url: /ja/news/inside-railstutorial
   is_note?: false
 
 - title: 🔐 Railsエンジニアのためのウェブセキュリティ入門に参加
   date: 2019-04-25
-  url: https://yasslab.jp/ja/news/secure-programming-with-rails
+  url: /ja/news/secure-programming-with-rails
   is_note?: false
 
 - title: 💎 RubyKaigi 2019 楽しかったよ!!
   date: 2019-04-21
-  url: https://yasslab.jp/ja/news/rubykaigi-2019-report
+  url: /ja/news/rubykaigi-2019-report
   is_note?: false
 
 - title: 🗣 esm アジャイル事業部で新年度のご挨拶と LT 発表
   date: 2019-04-11
-  url: https://yasslab.jp/ja/news/lightning-talk-at-esm-agile
+  url: /ja/news/lightning-talk-at-esm-agile
   is_note?: false
 
 - title: 🎓 Railsチュートリアル開発背景を銀座Railsで発表しました
   date: 2019-03-29
-  url: https://yasslab.jp/ja/news/railstutorial-at-ginza-rails
+  url: /ja/news/railstutorial-at-ginza-rails
   is_note?: false
 
 - title: 🎓 法人向けサービス活用事例：メンバーズキャリア様
   date: 2019-03-28
-  url: https://yasslab.jp/ja/news/railstutorial-at-members-career
+  url: /ja/news/railstutorial-at-members-career
   is_note?: false
 
 - title: 🗣 Rails DM 2019 で『コードレビューしない』を発表
   date: 2019-03-23
-  url: https://yasslab.jp/ja/news/no-code-reviews-at-railsdm-2019
+  url: /ja/news/no-code-reviews-at-railsdm-2019
   is_note?: false
 
 - title: 🗣 JP_Stripes Connect 2019 で決済事例を発表しました
   date: 2019-03-21
-  url: https://yasslab.jp/ja/news/jp-stripes-connect-2019
+  url: /ja/news/jp-stripes-connect-2019
   is_note?: false
 
 - title: 📕 Railsガイド『Proプラン』をリリースしました!
@@ -265,66 +265,66 @@
 
 - title: 💎 Rails DM 2019 に懇親会スポンサーとして協賛
   date: 2019-03-19
-  url: https://yasslab.jp/ja/news/railsdm-201903-sponsorship
+  url: /ja/news/railsdm-201903-sponsorship
   is_note?: false
 
 - title: 💎 RubyKaigi 2019 に Silver スポンサーとして協賛
   date: 2019-03-18
-  url: https://yasslab.jp/ja/news/rubykaigi-2019-sponsorship
+  url: /ja/news/rubykaigi-2019-sponsorship
   is_note?: false
 
 - title: 🗣 megane Fes 2019 でリモートワークについて発表
   date: 2019-03-16
-  url: https://yasslab.jp/ja/news/remote-first-at-megane-fes-2019
+  url: /ja/news/remote-first-at-megane-fes-2019
   is_note?: false
 
 - title: 🗣 情報処理学会 全国大会でリモートワーク事例を発表
   date: 2019-03-15
-  url: https://yasslab.jp/ja/news/work-life-balance-at-81st-ipsj
+  url: /ja/news/work-life-balance-at-81st-ipsj
   is_note?: false
 
 - title: 🏆 フクオカRuby大賞で本審査に進出
   date: 2019-03-14
-  url: https://yasslab.jp/ja/news/aws-award-at-fukuoka-ruby-2019
+  url: /ja/news/aws-award-at-fukuoka-ruby-2019
   is_note?: false
 
 - title: 🏝 Hackers Champloo 2019 ゴールドスポンサー協賛
   date: 2019-03-10
-  url: https://yasslab.jp/ja/news/hackers-champloo-2019-gold-sponsor
+  url: /ja/news/hackers-champloo-2019-gold-sponsor
   is_note?: false
 
 - title: 📕 Ruby on Railsガイドを 5.1→5.2 に更新しました
   date: 2019-03-04
-  url: https://yasslab.jp/ja/news/update-railsguidesjp-to-52
+  url: /ja/news/update-railsguidesjp-to-52
   is_note?: false
 
 - title: 🤝 タケユー・ウェブ株式会社が『Railsガイド』を支援
   date: 2019-02-22
-  url: https://yasslab.jp/ja/news/partnership-with-takeyuweb
+  url: /ja/news/partnership-with-takeyuweb
   is_note?: false
 
 - title: 🤝 沖縄CODE BASEがRailsチュートリアルのパートナーに
   date: 2019-02-08
-  url: https://yasslab.jp/ja/news/partnership-with-codebase
+  url: /ja/news/partnership-with-codebase
   is_note?: false
 
 - title: 🤝 Scout APMがRailsガイドのサポーターになりました
   date: 2019-01-30
-  url: https://yasslab.jp/ja/news/scout-supports-railsguidesjp
+  url: /ja/news/scout-supports-railsguidesjp
   is_note?: false
 
 - title: 🎧 環境音などのノイズを軽減できる Krisp を試してみた
   date: 2019-01-23
-  url: https://yasslab.jp/ja/news/krisp-trial
+  url: /ja/news/krisp-trial
   is_note?: false
 
 - title: 🛠 DojoCast を Jekyll から Rails に移行しました
   date: 2018-12-25
-  url: https://yasslab.jp/ja/news/migrate-dojocast-from-jekyll-to-rails
+  url: /ja/news/migrate-dojocast-from-jekyll-to-rails
   is_note?: false
 
 - title: ☯️ 開発目線で見る最近の CoderDojo Japan 2018
   date: 2018-12-01
-  url: https://yasslab.jp/ja/news/CoderDojo-Japan-2018
+  url: /ja/news/CoderDojo-Japan-2018
   is_note?: false
 
