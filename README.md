@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/yasslab/yasslab.jp.svg?branch=master)](https://travis-ci.org/yasslab/yasslab.jp)
 
+![Cover Photo of YassLab Inc.](https://yasslab.jp/img/cover-photo_ss.png)
+
 # Website for YassLab Inc.
 
 This repository includes source code to build [YassLab](https://yasslab.jp/)'s website.
