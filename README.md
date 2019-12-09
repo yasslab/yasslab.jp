@@ -10,6 +10,24 @@ YassLab Inc.
 Having a Good Life with OpenSource ;)     
 https://yasslab.jp/
 
+## お知らせ記事の追加
+
+お知らせ記事の追加には **環境構築は不要** です。GitHub アカウントがあれば追記できます :blush:
+
+多分これが一番簡単だと思います...!! 😆
+
+1. ブラウザ上で [_data/news.yml](https://github.com/yasslab/yasslab.jp/blob/master/_data/news.yml) を開く
+2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
+3. お知らせ情報を追記する
+   - `title:` リンク先の記事のタイトル
+   - `date:` リンク先の記事の公開日
+   - `url:` リンク先の記事のURL
+4. 修正内容にタイトルと説明文を付け、Propose file change をクリックする
+5. 修正内容を確認し、問題なければ Create pull request をクリックする
+
+以上で完了です。追記されたお知らせは他のメンバーによって再確認され、問題なければ提案された内容が反映されます。もし問題があっても他のメンバーが気付いて修正することもできるので、まずはお気軽に提案してみてください ;)
+
+
 ## 開発手順
 ローカル環境で開発・デザインをするときは [Jekyll](https://jekyllrb.com) と [Node.js](https://nodejs.org/) が必要です。   
 それぞれをセットアップしたら、次の手順で localhost 上にWebサイトを表示します。
