@@ -219,7 +219,7 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 
 {% include community.html
            left_path='coderdojo-shirakawa'
-           left_name='CoderDojo 白川'
+           left_name='CoderDojo 白河'
            center_path='coderdojo-nagaokakyo'
            center_name='CoderDojo 長岡京'
            right_path='coderdojo-gotanda'
