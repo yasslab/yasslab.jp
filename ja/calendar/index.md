@@ -26,6 +26,13 @@ lang:   ja
 
 <br><br>
 
+## 🎓 事業紹介
+
+会社の紹介資料です。必要に応じて適宜ご参照ください。
+
+<script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<br><br>
 
 ## 📨 お問い合わせ
 
