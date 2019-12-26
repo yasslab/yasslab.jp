@@ -87,7 +87,8 @@ tags: [Railsチュートリアル, 法人プラン, Railsガイド, Teamプラ�
 > <div style="font-size: 90%; padding-top: -20px;">(研修生からのアンケート回答結果より一部引用)</div>
 
 **追記: マネーフォワード公式ブログにも載りました 😉**
-[📜 ビジネス職からエンジニアへシフトした私が新卒研修で学んだ1つのこと | Money Forward Engineers' Blog](https://moneyforward.com/engineers_blog/2019/06/27/induction-training-2019/)
+[📜 ビジネス職からエンジニアへシフトした私が新卒研修で学んだ1つのこと | Money Forward Engineers' Blog](https://moneyforward.com/engineers_blog/2019/06/27/induction-training-2019/)   
+[📜 Slackのデータを可視化してコミュニケーションを活性化させた話 | Money Forward Engineers' Blog](https://moneyforward.com/engineers_blog/2019/10/18/slack-visualization/)
 
 
 ## まとめ
