@@ -69,7 +69,7 @@ Doorkeeper の完全有料化に伴って、2016年9月1日から無料で使え
   <div class="col-xs-3"><a href="https://yasslab.jp/"><img src="https://yasslab.jp/img/logos/500x500.png" alt="YassLab 株式会社"></a></div>
   <div class="col-xs-9"><b><a href="https://yasslab.jp/">YassLab 株式会社</a></b>
     <br><br>
-    本イベントページはオープンソースコミュニティを支援する [YassLab 株式会社](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け資料『[Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper/)』をご参照ください。
+    本イベントページはオープンソースコミュニティを支援する <a href="https://yasslab.jp/">YassLab 株式会社</a>が提供しております。詳細はコミュニティ運営者向け資料『<a href="https://yasslab.jp/ja/doorkeeper/">Doorkeeper スポンサーシップ</a>』をご参照ください。
   </div>
 </div>
 ```
