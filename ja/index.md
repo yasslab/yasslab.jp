@@ -7,12 +7,12 @@ lang:   ja
   <div class="jumbotron">
     <picture>
       <source media="(min-width: 600px)" srcset="/img/cover-photo.jpg">
-      <img src="/img/cover-photo-mobile.jpg" alt="Having a Good Life with OpenSource">
+      <img src="/img/cover-photo-mobile.jpg" alt="Having a Good Life by Creating">
     </picture>
 
     <div class="logo-catch">
-      <img src="/img/icons/yasslab.svg" width="270" alt="YassLab Logo">
-      <h1>Having a Good Life with OpenSource ;)</h1>
+      <!-- <img src="/img/icons/yasslab.svg" width="270" alt="YassLab Logo"> -->
+      <h1>Having a Good Life by Creating</h1>
     </div>
   </div>
 </section>
@@ -21,8 +21,8 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#vision">新しいサービスを、Ruby で</a></h2>
-        <p class="text-md-center">オープンソースソフトウェアやコミュニティへの還元を大切にしつつ、<br class="ignore-sp">事業としても共に成長できる、そんなビジネスに関わり続けている会社です。</p>
+        <h2><a href="#vision">創って学ぶ、学んで創る</a></h2>
+        <p class="text-md-center">誰もがプロダクトを創り、磨き、語れるように。<br class="ignore-sp">個人・法人向けに各種サービスを提供しています。</p>
       </div>
     </div>
   </div>
@@ -32,8 +32,8 @@ lang:   ja
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3 style="line-height: 2.0em;"><a href="#products">《継続的翻訳/組版システム》</a><br>
-	  プロダクト開発の学びを Ruby で支える</h3>
+        <h3 style="line-height: 1.0em;"><a href="#products">《プロダクト開発の学びを支える》</a></h3>
+	<p class="text-center"><a href="/ja/works/#story">創って学ぶサイクル</a>を始めるための書籍・動画・質問・検索サービス</p>
 
         <div class="row">
           <div class="col-md-4 offset-md-1">
