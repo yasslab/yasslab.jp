@@ -12,7 +12,7 @@ lang:   ja
 
     <div class="logo-catch">
       <!-- <img src="/img/icons/yasslab.svg" width="270" alt="YassLab Logo"> -->
-      <h1>Having a Good Life by Creating</h1>
+      <h1 style="padding-bottom: 40px; font-size: 200%;">Having a Good Life by Creating ;)</h1>
     </div>
   </div>
 </section>
