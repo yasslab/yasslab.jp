@@ -22,7 +22,7 @@ lang:   ja
     <div class="row">
       <div class="col-12">
         <h2><a href="#vision">創って学ぶ、学んで創る</a></h2>
-        <p class="text-md-center">誰もがプロダクトを創り、磨き、語れるように。<br class="ignore-sp">個人・法人向けに各種サービスを提供しています。</p>
+        <p class="text-md-center">誰もがプロダクトを創り、磨き、語れる時代に。<br class="ignore-sp">個人・法人向けに各種サービスを提供しています。</p>
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@ lang:   ja
     <div class="row">
       <div class="col-12">
         <h3 style="line-height: 1.0em;"><a href="#products">《プロダクト開発の学びを支える》</a></h3>
-	<p class="text-center"><a href="/ja/works/#story">創りながら学ぶ</a>ための書籍・動画・質問・検索サービス</p>
+	<p class="text-center"><a href="/ja/works/#story">創りながら学ぶ</a>ための書籍・動画・検索サービス</p>
 
         <div class="row">
           <div class="col-md-4 offset-md-1">
@@ -46,7 +46,7 @@ lang:   ja
             <a href="https://railstutorial.jp/" target="_blank">
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
-            <p>SNS 開発を題材にした大型チュートリアル。プロダクト開発の 0→1 を創りながら学びます。<a href="https://railstutorial.jp/#ebook">電子書籍</a>や<a href="https://railstutorial.jp/#screencast">解説動画・質問対応</a>、<a href="https://railstutorial.jp/business">法人向けサービス</a>も提供</p>
+            <p>SNS 開発が題材の大型チュートリアル。プロダクト開発の<span style="background-color: #AA4536; color: white;"> 0→1 </span>を創りながら学びます。<a href="https://railstutorial.jp#ebook">電子書籍</a>や<a href="https://railstutorial.jp/#screencast">解説動画</a>、法人向け<a href="https://railstutorial.jp/training">研修支援</a>や<a href="https://railstutorial.jp/partner">協業サービス</a>も提供</p>
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank">
@@ -59,7 +59,7 @@ lang:   ja
               <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
             
-            <p>Ruby on Rails の生産的なプロダクト開発を加速する、1,600ページ以上ある大型リファレンスガイド。<a href="https://railsguides.jp/options.html">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
+            <p>プロダクト開発の生産性を高める、Ruby on Rails に特化した<span style="background-color: #AA4536; color: white;"> 1,600 </span>ページ超えの大型リファレンスガイド。<a href="https://railsguides.jp/options.html">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
           </div>
         </div>
       </div>
