@@ -21,18 +21,18 @@ sass:
 
 # Variables for pages, news, feeds, etc
 company:
-  vision: "Having a Good Life by Creating"
+  vision: "Having a Good Life by Creating ;)"
   size: 10
   email: info@yasslab.jp
   capital: 500
   name:  YassLab
-  description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
+  description: "100% Remote Work company based in Okinawa & Tokyo. We support your Product Development by contents and services."
   ja:
     name: YassLab 株式会社
-    description: "沖縄と東京を拠点にしたソフトウェア開発会社です。RailsチュートリアルやRailsガイドを運営し、月額制開発支援サービスも提供しています。"
+    description: "沖縄と東京を拠点にしたソフトウェア開発会社です。RailsチュートリアルやRailsガイドを運営。法人向け研修支援サービスも提供しています。"
   en:
     name: YassLab Inc.
-    description: "100% Remote Work company based in Okinawa & Tokyo, focusing on Ruby/Rails Web Development, Education, and OpenSource."
+    description: "100% Remote Work company based in Okinawa & Tokyo. We support your Product Development by contents and services."
 
 # Variables to configure RSS feed
 authors:
