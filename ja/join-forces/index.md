@@ -19,14 +19,14 @@ lang:   ja
       <div class="col-md-8 offset-md-2">
         <p>次のような方々に向けて社内の情報をまとめています。</p>
         <ul>
-          <li>現在転職/就職活動中、インターン先・複業先を探している</li>
-          <li>YassLab 社での働き方やプロダクトに興味・関心がある</li>
-          <li>YassLab 社を通して、OSSコミュニティに貢献したい</li>
+          <li>現在インターン先・就職先・複業先を探している</li>
+          <li>YassLab 社の<a href="#products">プロダクト開発</a>に関わりたい</li>
+          <li>YassLab 社の<a href="#remote">リモートワーク</a>に興味がある</li>
         </ul>
-	<p>以下、弊社の特徴や活動の雰囲気、事業内容などをご紹介していきます。弊社をご検討されている方々のご参考になれば幸いです。</p>
+	<p>以下、弊社の特徴や活動の雰囲気、事業内容などをご紹介していきます。弊社をご検討されている方々のご参考になれば嬉しいです。</p>
 
 	<hr>
-	<p><a href="/ja/#members">YassLab 社のメンバー</a>が推薦した方を優先的に対応しております。応募前にあらかじめご理解・ご了承していただけると幸いです 🙏</p>
+	<p><a href="/ja/#members">YassLab 社メンバー</a>が推薦した方を優先的に対応しております。応募前にあらかじめご理解・ご了承していただけると幸いです 🙏</p>
       </div><!--//col-->
     </div><!--//row-->
     <div id="remote"></div>
@@ -58,7 +58,7 @@ lang:   ja
 	</div>
 	<p class="text-center">
 	  YassLab 社の雰囲気を30秒で紹介する動画です。<br class="ignore-sp">
-	  製品PVや講演動画も <a href="https://www.youtube.com/playlist?list=PLNLYzHXJU2-_jeyeLbEaXUgqGHGgJPKas">YouTube</a> で公開してます ;)</p>
+	  過去の講演動画も <a href="https://www.youtube.com/c/YassLab">YouTube</a> で公開してます ;)</p>
 	<br>
 	<br>
       </div><!--//col-->
