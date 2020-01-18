@@ -72,18 +72,34 @@ lang:   ja
   <div class="jumbotron">
     <picture>
       <!--a href="https://railstutorial.jp/training" target="_blank"-->
-        <source media="(min-width: 600px)" srcset="/img/training-image.jpg">
-        <img src="/img/training-image-mobile.jpg" alt="Having a Good Life by Creating">
+        <source media="(min-width: 600px)" srcset="/img/training-image.jpg" alt="Railsチュートリアル研修プラン">
+        <img src="/img/training-image-mobile.jpg" alt="Railsチュートリアル研修プラン">
       <!--/a-->
     </picture>
+  </div><!--//jumbotron-->
+  <div class="text-center pt-5">
+      <h2 style="padding-bottom: 30px; font-size: 200%;">新入社員研修でスキルアップ<br>国内・海外採用のリクルートとトレーニング</h2>
+  </div>
+  <div class="text-center pt-5" style="margin: 10px 0;">
+	  <a href="https://railstutorial.jp/training" target="_blank">
+        <button class="btn btn-ruby btn-padding">研修プランの詳細を見る</button>
+      </a>
+     </div>
+</section>
 
-    <div class="logo-catch">
-      <!--h2 style="padding-bottom: 30px; font-size: 200%;">新入社員研修でスキルアップ<br>国内・海外採用のリクルートとトレーニング</h2-->
+<section class="training" id="com-list" style="margin-top: 50px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3><a href="#okinawa">研修プラン導入企業一覧</a></h3>
+     </div>
     </div>
   </div>
 </section>
 
-      
+
+
+
       
 
 <section class="service entry_content" id="service">
@@ -143,6 +159,7 @@ lang:   ja
     </div><!--//row-->
   </div><!--//container-->
 </section>
+
 
 <section class="okinawaMember" id="okinawa" style="margin-top: 50px;">
   <div class="container">
