@@ -67,6 +67,25 @@ lang:   ja
   </div>
 </section>
 
+
+<section class="mainVisual">
+  <div class="jumbotron">
+    <picture>
+      <!--a href="https://railstutorial.jp/training" target="_blank"-->
+        <source media="(min-width: 600px)" srcset="/img/training-image.jpg">
+        <img src="/img/training-image-mobile.jpg" alt="Having a Good Life by Creating">
+      <!--/a-->
+    </picture>
+
+    <div class="logo-catch">
+      <!--h2 style="padding-bottom: 30px; font-size: 200%;">新入社員研修でスキルアップ<br>国内・海外採用のリクルートとトレーニング</h2-->
+    </div>
+  </div>
+</section>
+
+      
+      
+
 <section class="service entry_content" id="service">
   <div class="container">
     <div class="row">
