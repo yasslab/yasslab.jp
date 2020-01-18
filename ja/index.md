@@ -99,7 +99,7 @@ lang:   ja
               <a href="http://enpit.coins.tsukuba.ac.jp/" target="_blank"><img src="/img/training/tukuba.png" alt="筑波大学"></a>
             </li>
             <li class="item">
-              <a href="/ja/news/univ-of-ryukyus-with-railstutorial" target="_blank"><img src="/img/training//ryukyu.png" alt="琉球大学"></a>
+              <a href="https://yasslab.jp/ja/news/univ-of-ryukyus-with-railstutorial" target="_blank"><img src="/img/training//ryukyu.png" alt="琉球大学"></a>
 	    </li>
 	    <li class="item">
 	      <a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html" target='_blank'><img src="/img/training/kogakuin.png" alt="工学院大学"></a>
@@ -110,13 +110,13 @@ lang:   ja
 	  </ul>
 	  <ul class="flex-container">
             <li class="item" style="padding: 30px 0px;">
-              <a href="/ja/news/learning-by-making" target="_blank"><img src="/img/training/money-forward.png" alt="株式会社マネーフォワード"></a>
+              <a href="https://yasslab.jp/ja/news/learning-by-making" target="_blank"><img src="/img/training/money-forward.png" alt="株式会社マネーフォワード"></a>
             </li>
             <li class="item">
-              <a href="/ja/news/railstutorial-at-members-career" target="_blank"><img src="/img/training//members-career.png" alt="株式会社メンバーズキャリア"></a>
+              <a href="https://yasslab.jp/ja/news/railstutorial-at-members-career" target="_blank"><img src="/img/training//members-career.png" alt="株式会社メンバーズキャリア"></a>
             </li>
             <li class="item">
-	      <a href="/ja/news/partnership-with-nilquebe" target="_blank"><img src="/img/training/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
+	      <a href="https://yasslab.jp/ja/news/partnership-with-nilquebe" target="_blank"><img src="/img/training/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
             </li>
 	  </ul>
 	</div>
