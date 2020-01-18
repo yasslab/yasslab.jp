@@ -78,50 +78,53 @@ lang:   ja
       <!--/a-->
     </picture>
   </div><!--//jumbotron-->
+  
   <div class="text-center pt-5">
-      <h3>《新入社員研修でスキルアップ》</h3>
-      <h3>《国内・海外採用のリクルートとトレーニング》</h3>
-  </div>
-  <div class="training text-center pt-5">
-	  <a href="https://railstutorial.jp/training" target="_blank">
-        <button class="btn btn-ruby btn-padding">研修プランの詳細を見る</button>
+    <h3>《社員研修で創って学ぶ》</h3>
+    <p class="text-center">大学や企業で採用された<b>『反転学習』</b>による講義・研修を御社で実施します。</p>
+    <div class="training">
+      <a href="https://railstutorial.jp/training" target="_blank">
+	<button class="btn btn-ruby btn-padding">詳細を見る</button>
       </a>
-     </div>
+      <div id="clients"></div>
+    </div>
 
-  <div class="container training">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h3><a href="#com-list">研修プラン導入企業一覧</a></h3>
+    <div class="container training">
+      <div class="row">
+	<div class="col-12 text-center" style="margin-top: -80px;">
+          <h4><a href="#clients">採択先と導入事例まとめ</a></h4>
+	  <p style="margin-bottom: 50px;">クリックすると導入事例または講義ページに飛びます。</p>
           <ul class="flex-container">
-          <li class="item">
-            <a href="http://enpit.coins.tsukuba.ac.jp/" target="_blank"><img src="/img/training/tukuba.png" alt="筑波大学"></a>
-          </li>
-          <li class="item">
-             <a href="https://ie.u-ryukyu.ac.jp/enpit/" target="_blank"><img src="/img/training//ryukyu.png" alt="琉球大学"></a>
-	      </li>
-	      <li class="item">
-		<a href="https://www.kogakuin.ac.jp/" target='_blank'><img src="/img/training/kogakuin.png" alt="工学院大学"></a>
-	      </li>
-	      <li class="item" style="padding: 30px 0px;">
-            <a href="https://aiit.ac.jp/" target="_blank"><img src="/img/training/aiit.png" alt="産業技術大学院大学"></a>
-          </li>
-	    </ul>
-	    <ul class="flex-container">
-          <li class="item" style="padding: 30px 0px;">
-            <a href="https://moneyforward.com/" target="_blank"><img src="/img/training/money-forward.png" alt="株式会社マネーフォワード"></a>
-          </li>
-          <li class="item">
-            <a href="https://www.memberscareer.co.jp/" target="_blank"><img src="/img/training//members-career.png" alt="株式会社メンバーズキャリア"></a>
-          </li>
-          <li class="item">
-	<a href="https://yasslab.jp/ja/news/partnership-with-nilquebe" target="_blank"><img src="/img/training/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
-          </li>
-       </ul>
-     </div>
+            <li class="item">
+              <a href="http://enpit.coins.tsukuba.ac.jp/" target="_blank"><img src="/img/training/tukuba.png" alt="筑波大学"></a>
+            </li>
+            <li class="item">
+              <a href="/ja/news/univ-of-ryukyus-with-railstutorial" target="_blank"><img src="/img/training//ryukyu.png" alt="琉球大学"></a>
+	    </li>
+	    <li class="item">
+	      <a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html" target='_blank'><img src="/img/training/kogakuin.png" alt="工学院大学"></a>
+	    </li>
+	    <li class="item" style="padding: 30px 0px;">
+              <a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf" target="_blank"><img src="/img/training/aiit.png" alt="産業技術大学院大学"></a>
+            </li>
+	  </ul>
+	  <ul class="flex-container">
+            <li class="item" style="padding: 30px 0px;">
+              <a href="/ja/news/learning-by-making" target="_blank"><img src="/img/training/money-forward.png" alt="株式会社マネーフォワード"></a>
+            </li>
+            <li class="item">
+              <a href="/ja/news/railstutorial-at-members-career" target="_blank"><img src="/img/training//members-career.png" alt="株式会社メンバーズキャリア"></a>
+            </li>
+            <li class="item">
+	      <a href="/ja/news/partnership-with-nilquebe" target="_blank"><img src="/img/training/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
+            </li>
+	  </ul>
+	</div>
+      </div>
     </div>
   </div>
 </section>
-   
+
 
 <section class="service entry_content" id="service">
   <div class="container">
