@@ -70,6 +70,7 @@ lang:   ja
 
 <section class="mainVisual">
   <div class="jumbotron">
+  <h2 class="hide">研修生の学びを熟練講師がサポート！Railsチュートリアル研修プラン</h2>
     <picture>
       <!--a href="https://railstutorial.jp/training" target="_blank"-->
         <source media="(min-width: 600px)" srcset="/img/training-image.jpg" alt="Railsチュートリアル研修プラン">
@@ -78,29 +79,49 @@ lang:   ja
     </picture>
   </div><!--//jumbotron-->
   <div class="text-center pt-5">
-      <h2 style="padding-bottom: 30px; font-size: 200%;">新入社員研修でスキルアップ<br>国内・海外採用のリクルートとトレーニング</h2>
+      <h3>《新入社員研修でスキルアップ》</h3>
+      <h3>《国内・海外採用のリクルートとトレーニング》</h3>
   </div>
-  <div class="text-center pt-5" style="margin: 10px 0;">
+  <div class="training text-center pt-5">
 	  <a href="https://railstutorial.jp/training" target="_blank">
         <button class="btn btn-ruby btn-padding">研修プランの詳細を見る</button>
       </a>
      </div>
-</section>
 
-<section class="training" id="com-list" style="margin-top: 50px;">
-  <div class="container">
+  <div class="container training">
     <div class="row">
-      <div class="col-12">
-        <h3><a href="#okinawa">研修プラン導入企業一覧</a></h3>
+      <div class="col-12 text-center">
+        <h3><a href="#com-list">研修プラン導入企業一覧</a></h3>
+          <ul class="flex-container">
+          <li class="item">
+            <a href="http://enpit.coins.tsukuba.ac.jp/" target="_blank"><img src="/img/training/tukuba.png" alt="筑波大学"></a>
+          </li>
+          <li class="item">
+             <a href="https://ie.u-ryukyu.ac.jp/enpit/" target="_blank"><img src="/img/training//ryukyu.png" alt="琉球大学"></a>
+	      </li>
+	      <li class="item">
+		<a href="https://www.kogakuin.ac.jp/" target='_blank'><img src="/img/training/kogakuin.png" alt="工学院大学"></a>
+	      </li>
+	      <li class="item" style="padding: 30px 0px;">
+            <a href="https://aiit.ac.jp/" target="_blank"><img src="/img/training/aiit.png" alt="産業技術大学院大学"></a>
+          </li>
+	    </ul>
+	    <ul class="flex-container">
+          <li class="item" style="padding: 30px 0px;">
+            <a href="https://moneyforward.com/" target="_blank"><img src="/img/training/money-forward.png" alt="株式会社マネーフォワード"></a>
+          </li>
+          <li class="item">
+            <a href="https://www.memberscareer.co.jp/" target="_blank"><img src="/img/training//members-career.png" alt="株式会社メンバーズキャリア"></a>
+          </li>
+          <li class="item">
+	<a href="https://yasslab.jp/ja/news/partnership-with-nilquebe" target="_blank"><img src="/img/training/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
+          </li>
+       </ul>
      </div>
     </div>
   </div>
 </section>
-
-
-
-
-      
+   
 
 <section class="service entry_content" id="service">
   <div class="container">

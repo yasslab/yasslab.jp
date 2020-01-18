@@ -263,12 +263,14 @@ html {
   }
 }
 
+.training,
 .products {
   button {
     /*border-radius: 0px;*/
     margin-bottom: 20px;
   }
   button:hover{
+	color:#fff;
     opacity:0.9;
   }
   .books {
@@ -871,4 +873,18 @@ table.caption{
 }
 .news-date-future{
   background: darkorange;
+}
+/*training*/
+.hide{
+	display: none;
+	}
+.flex-container {
+	display:flex;
+	justify-content: space-around;
+	.item {
+		
+	}
+}
+ul.flex-container li {
+	list-style-type: none;
 }
