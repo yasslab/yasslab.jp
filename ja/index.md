@@ -65,6 +65,7 @@ lang:   ja
       </div>
     </div>
   </div>
+  <div id="training"></div>
 </section>
 
 
