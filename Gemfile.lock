@@ -10,7 +10,7 @@ GEM
       zeitwerk (~> 2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    byebug (11.0.1)
+    byebug (11.1.1)
     coderay (1.1.2)
     coffee-script (2.4.1)
       coffee-script-source
