@@ -290,6 +290,15 @@ html {
 .btn-padding {
   padding:15px 60px;
 }
+.external-link:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url('/img/icons/external-link-white.png');
+  background-position: 2px 2px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
 
 .service {
   overflow: visible !important;

@@ -87,7 +87,7 @@ lang:   ja
     <p class="text-center">大学や企業で採用された<b>『反転学習』</b>による講義・研修を御社で実施します。</p>
     <div class="training">
       <a href="https://railstutorial.jp/training" target="_blank">
-	<button class="btn btn-ruby btn-padding">詳細を見る</button>
+	<button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
       </a>
       <div id="clients"></div>
     </div>
