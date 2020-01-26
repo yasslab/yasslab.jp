@@ -107,12 +107,12 @@ lang:   ja
 	    <li class="item">
 	      <a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html" target='_blank'><img src="/img/training/kogakuin.png" alt="工学院大学"></a>
 	    </li>
-	    <li class="item" style="padding: 30px 0px;">
+	    <li class="item">
               <a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf" target="_blank"><img src="/img/training/aiit.png" alt="産業技術大学院大学"></a>
             </li>
 	  </ul>
 	  <ul class="flex-container">
-            <li class="item" style="padding: 30px 0px;">
+            <li class="item">
               <a href="https://yasslab.jp/ja/news/learning-by-making" target="_blank"><img src="/img/training/money-forward.png" alt="株式会社マネーフォワード"></a>
             </li>
             <li class="item">
