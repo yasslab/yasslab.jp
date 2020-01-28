@@ -20,6 +20,7 @@ task test: [:build] do
   require './test/custom_checks'
   options = {
     allow_hash_href:  true,
+    assume_extension: true,
     check_opengraph:  true,
     check_favicon:    true,
     check_html:       true,
