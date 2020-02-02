@@ -1,7 +1,6 @@
 ---
 layout: plain_without_thumbnail
 title:  月額制の Ruby/Rails 開発支援サービス
-lang:   ja
 ---
 
 <section class="pageVisual">

@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  ブランドガイドライン
-lang:   ja
 ---
 
 # ブランドガイドライン

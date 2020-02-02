@@ -1,7 +1,6 @@
 ---
 layout: doorkeeper
 title:  DoorKeeper スポンサーシップ
-lang:   ja
 thumbnail: bg-dark.jpg
 ---
 
@@ -10,7 +9,6 @@ thumbnail: bg-dark.jpg
 _(※ 本スポンサーシップは、Doorkeeper 株式会社の代表取締役 Paul McMahon から事前の承諾を得て実施しております)_
 
 <div id="background"></div>
-
 
 ## [背景と目的](#background)
 

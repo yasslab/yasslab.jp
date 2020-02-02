@@ -1,7 +1,6 @@
 ---
 layout: plain
 title:  会社概要
-lang:   ja
 ---
 
 <section class="entry_content pt-5 mb-5">

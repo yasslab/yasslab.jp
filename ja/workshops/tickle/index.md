@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  Tickle × BB-8 ワークショップ
-lang:   ja
 ---
 
 ## Tickle x BB-8 ワークショップ

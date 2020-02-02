@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  予定表
-lang:   ja
 ---
 
 # 🗓 予定表

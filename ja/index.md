@@ -1,6 +1,5 @@
 ---
 layout: plain_without_thumbnail
-lang:   ja
 ---
 
 <section class="mainVisual">

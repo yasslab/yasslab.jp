@@ -2,7 +2,6 @@
 layout: news
 title:  📚 公開資料まとめ
 thumbnail: bg-sky.jpg
-lang: ja
 ---
 
 就業規則や賃金規程など、一般公開している資料を以下にまとめています。

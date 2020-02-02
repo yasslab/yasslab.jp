@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  コントリビューター行動規範
-lang:   ja
 ---
 
 # コントリビューター<br class="ignore-sp">行動規範

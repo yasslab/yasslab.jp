@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  Railsチュートリアル試聴会
-lang:   ja
 ---
 
 <script async class="speakerdeck-embed" data-id="5839a71956c44bf2891511e4f041fc76" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

@@ -1,7 +1,6 @@
 ---
 layout: plain
 title:  弊社をご検討されている皆さんへ
-lang:   ja
 ---
 
 <section class="entry_content pt-5">

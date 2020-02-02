@@ -1,7 +1,6 @@
 ---
 layout: plain
 title:  事業実績
-lang:   ja
 ---
 
 <section class="entry_content pt-5">
