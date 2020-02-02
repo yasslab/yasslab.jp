@@ -127,10 +127,31 @@
 
 {% assign top = "YassLab 株式会社 – Having a Good Life by Creating ;)" %}
 <header class="siteHeader bg-primary">
+
+  <script type="text/javascript">
+  $(function() {
+    $('#navbarLogo').on('contextmenu',function(){
+      $('#guideToAsset').show();
+      return false;
+    });
+    $('#guideToAssetClose').on('click',function(){
+      $('#guideToAsset').hide();
+      return false;
+    });
+  });
+  </script>
+  <div id="guideToAsset">
+    <div id="guideToAssetClose">
+      ×
+    </div>
+    <img src="/img/icons/yasslab.svg" alt="YassLab 株式会社">
+    <p>こんにちは！<br>ロゴ画像をお探しですか？</p>
+    <a href="/ja/brand" class="btn btn-primary">ブランド<br>ガイドライン</a>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-dark container">
     <h1>
       <a href="/">
-        <img src="/img/icons/yasslab-white.svg" width="150" alt="ホーム">
+        <img src="/img/icons/yasslab-white.svg" width="150" alt="ホーム" id="navbarLogo">
       </a>
     </h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
