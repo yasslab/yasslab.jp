@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+{% assign lang = page.lang | default: "ja" %}
+<html lang="{{ lang }}">
   <head>
     {% if page.title %}
-      {% if page.lang == "en" %}
+      {% if lang == "en" %}
       <title>{{ page.title }} - {{ site.company.en.name }}</title>
       <meta name="title"            content="{{ page.title }} - {{ site.company.en.name }}"/>
       <meta property="og:title"     content="{{ page.title }} - {{ site.company.en.name }}"/>
@@ -16,7 +17,7 @@
       <meta name="twitter:title"    content="{{ page.title }} - {{ site.company.ja.name }}"/>
       {% endif %}
     {% else %}
-      {% if page.lang == "en" %}
+      {% if lang == "en" %}
       <title>{{ site.company.name }} Inc. - {{ site.company.vision }}</title>
       <meta name="title"            content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
       <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
@@ -32,7 +33,7 @@
       {% endif %}
     {% endif %}
 
-    {% if page.lang == "en" %}
+    {% if lang == "en" %}
     <meta name="apple-mobile-web-app-title" content="{{ site.company.en.name }}"/>
     <meta name="application-name"           content="{{ site.company.en.name }}"/>
     <meta name="author"                     content="{{ site.company.en.name }}"/>
