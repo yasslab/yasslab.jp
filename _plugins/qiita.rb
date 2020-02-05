@@ -1,4 +1,5 @@
 require 'mechanize'
+
 module Jekyll
   QIITA_ORGANIZATION_URL = 'https://qiita.com/organizations/yasslab'
   QIITA_PRESET_ITEMS     = 192
@@ -8,7 +9,7 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       begin
-          page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
+          page    = Mechanize.new.get(QIITA_ORGANIZATION_URL)
           element = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first
       rescue
           element = 0
@@ -29,7 +30,7 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       begin
-          page = Mechanize.new.get(QIITA_ORGANIZATION_URL)
+          page    = Mechanize.new.get(QIITA_ORGANIZATION_URL)
           element = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first
       rescue
           element = 0
@@ -45,6 +46,6 @@ module Jekyll
       "#{@likes}"
     end
   end
-  Liquid::Template.register_tag('qiita_items',Jekyll::QiitaItems)
-  Liquid::Template.register_tag('qiita_likes',Jekyll::QiitaLikes)
+  Liquid::Template.register_tag('qiita_items', Jekyll::QiitaItems)
+  Liquid::Template.register_tag('qiita_likes', Jekyll::QiitaLikes)
 end
