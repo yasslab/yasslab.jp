@@ -16,7 +16,6 @@ gem 'redcarpet'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'rspec'
-gem 'mechanize'
 gem 'html-proofer'
 
 # Gems to enable SSL
