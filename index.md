@@ -1,4 +1,4 @@
 ---
 layout: redirect
-lang:   en
+lang:   ja
 ---
