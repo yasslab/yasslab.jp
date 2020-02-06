@@ -6,6 +6,7 @@ module Jekyll
   class GitHubStats < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
+
       begin
         if ENV['JEKYLL_ENV'] == 'production'
           uri     = URI.parse(GITHUB_API_ENDPOINT)
