@@ -270,9 +270,9 @@ layout: plain_without_thumbnail
           </div>
           <dl class="row">
             <dt class="col-md-6">投稿数</dt>
-            <dd class="col-md-6">{% qiita_items %}</dd>
+            <dd class="col-md-6">{% qiita_stats items %}</dd>
             <dt class="col-md-6">いいね</dt>
-            <dd class="col-md-6">{% qiita_likes %}</dd>
+            <dd class="col-md-6">{% qiita_stats likes %}</dd>
           </dl>
         </div>
       </div>

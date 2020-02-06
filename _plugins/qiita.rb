@@ -1,21 +1,30 @@
-require 'mechanize'
-
+require 'nokogiri'
 module Jekyll
   QIITA_ORGANIZATION_URL = 'https://qiita.com/organizations/yasslab'
   QIITA_PRESET_ITEMS     = 150
   QIITA_PRESET_LIKES     = 7500
 
-  class QiitaItems < Liquid::Tag
+  class QiitaStats < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
+
       begin
-        page    = Mechanize.new.get(QIITA_ORGANIZATION_URL)
-        element = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first
+        # Don't access to Qiita server unless Production
+        if ENV['JEKYLL_ENV'] == 'production'
+          page  = Nokogiri::HTML(open QIITA_ORGANIZATION_URL)
+        else
+          page  = Nokogiri::HTML(File.read '_data/qiita_org_sample.html')
+        end
       rescue
-        element = 0
+        page  = Nokogiri::HTML(File.read '_data/qiita_org_sample.html')
       end
-      if element.respond_to? :children
-        @items = element.children.text.strip.to_i
+
+      if text.strip == "items"
+        element = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first
+        @items = element.children.text.to_i
+      elsif text.strip == "likes"
+        element = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first
+        @items = element.children.text.to_i
       else
         @items = QIITA_PRESET_ITEMS
       end
@@ -26,28 +35,5 @@ module Jekyll
     end
   end
 
-  class QiitaLikes < Liquid::Tag
-    def initialize(tag_name, text, tokens)
-      super
-      begin
-        page    = Mechanize.new.get(QIITA_ORGANIZATION_URL)
-        element = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first
-      rescue
-        element = 0
-      end
-
-      if element.respond_to? :children
-        @likes = element.children.text.strip.to_i
-      else
-        @likes = QIITA_PRESET_LIKES
-      end
-    end
-
-    def render(_text)
-      @likes
-    end
-  end
-
-  Liquid::Template.register_tag('qiita_items', Jekyll::QiitaItems)
-  Liquid::Template.register_tag('qiita_likes', Jekyll::QiitaLikes)
+  Liquid::Template.register_tag('qiita_stats', Jekyll::QiitaStats)
 end
