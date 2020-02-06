@@ -3,46 +3,44 @@ module Jekyll
   GITHUB_PRESET_REPOS     = 80
   GITHUB_PRESET_STARS     = 580
 
-  class GitHubRepos < Liquid::Tag
+  class GitHubStats < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
       begin
-        uri     = URI.parse(GITHUB_API_ENDPOINT)
-        json    = Net::HTTP.get(uri)
-        stats   = JSON.parse(json)
-        @repos  = stats.count
+        if ENV['JEKYLL_ENV'] == 'production'
+          uri     = URI.parse(GITHUB_API_ENDPOINT)
+          json    = Net::HTTP.get(uri)
+          stats   = JSON.parse(json)
+        else
+          # Don't call GitHub API unless Production
+          stats   = JSON.parse(File.read('_data/github_stats_sample.json'))
+        end
       rescue
-        @repos  = 0
+        stats = {
+          "message" => "API rate limit exceeded for xxx.xxx.xxx.xxx. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+          "documentation_url"=>"https://developer.github.com/v3/#rate-limiting"
+        }
       end
 
-      @repos = GITHUB_PRESET_REPOS if @repos.zero?
+      # Success: Array of Hashes of GitHub repos
+      # Failure: Hash (See example API limit above)
+      if stats.is_a? Array
+        repos  = stats.count
+        stars  = stats.sum{|h| h['stargazers_count']}
+      else
+        repos  = GITHUB_PRESET_REPOS
+        stars  = GITHUB_PRESET_STARS
+      end
+
+      @result = "Unknown"
+      @result = repos if text.strip == "repos"
+      @result = stars if text.strip == "stars"
     end
 
     def render(_text)
-      @repos
+      @result
     end
   end
 
-  class GitHubStars < Liquid::Tag
-    def initialize(tag_name, text, tokens)
-      super
-      begin
-        uri     = URI.parse(GITHUB_API_ENDPOINT)
-        json    = Net::HTTP.get(uri)
-        stats   = JSON.parse(json)
-        @stars  = stats.sum {|h| h['stargazers_count'] }
-      rescue
-        @stars  = 0
-      end
-
-      @stars = GITHUB_PRESET_STARS if @stars.zero?
-    end
-
-    def render(_text)
-      @stars
-    end
-  end
-
-  Liquid::Template.register_tag('github_repos', Jekyll::GitHubRepos)
-  Liquid::Template.register_tag('github_stars', Jekyll::GitHubStars)
+  Liquid::Template.register_tag('github_stats', Jekyll::GitHubStats)
 end
