@@ -22,7 +22,7 @@ module Jekyll
     end
 
     def render(_text)
-      "#{@items}"
+      @items
     end
   end
 
@@ -43,7 +43,7 @@ module Jekyll
     end
 
     def render(_text)
-      "#{@likes}"
+      @likes
     end
   end
   Liquid::Template.register_tag('qiita_items', Jekyll::QiitaItems)
