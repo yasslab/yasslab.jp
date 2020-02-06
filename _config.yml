@@ -81,8 +81,6 @@ plugins:
   - jekyll-coffeescript
   - jekyll-assets
   - jekyll-include-cache
-  - qiita
-  - github
 
 exclude:
   - README.md

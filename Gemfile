@@ -34,8 +34,6 @@ group :jekyll_plugins do
   gem "jekyll-coffeescript"
   gem "jekyll-assets"
   gem "jekyll-include-cache"
-  gem 'qiita'
-  gem 'github'
 end
 
 group :production do
