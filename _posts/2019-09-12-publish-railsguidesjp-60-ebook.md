@@ -23,7 +23,7 @@ tags: [Railsガイド, Rails]
 
 お手元のデバイスにダウンロードしてお使いいただける電子書籍版では、オフラインで見れるだけでなく書籍内検索もできるため、詳しく知りたい機能や調べたいメソッドなどを探すのに大変便利です 🔍💨
 
-![DEMO: 電子書籍検索](http://g.recordit.co/vTw5jPmpDq.gif)
+![DEMO: 電子書籍検索](https://g.recordit.co/vTw5jPmpDq.gif)
 
 ## その他サービス紹介
 
