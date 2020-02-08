@@ -898,3 +898,32 @@ table.caption{
 ul.flex-container li {
 	list-style-type: none;
 }
+//ブランドページへの誘導ダイアログ
+#guideToAsset{
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  padding: 24px;
+
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow:0px 0px 6px 3px rgba(#000,0.1);
+  p{
+    text-align: center;
+  }
+  img{
+    width: 150px;
+    margin: 24px auto;
+    display: block;
+  }
+}
+#guideToAssetClose{
+  position: absolute;
+  right: 10px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+  font-size: 20px;
+  top: 8px;
+}
