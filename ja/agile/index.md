@@ -124,13 +124,13 @@ title:  月額制の Ruby/Rails 開発支援サービス
 	     available: 'ご相談お待ちしております'
 	-->
 	{% include agile-schedule.html
-	    started_month=11
+	    started_month=2
 	     plus_0='reserved'
 	     plus_1='reserved'
-	     plus_2='reserved'
-	     plus_3='reserved'
+	     plus_2='adjusting'
+	     plus_3='adjusting'
 	     plus_4='adjusting'
-	     plus_5='available'
+	     plus_5='adjusting'
 	%}
         
         <table class="caption">
