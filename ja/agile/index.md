@@ -118,20 +118,8 @@ title:  月額制の Ruby/Rails 開発支援サービス
     <div class="row">
       <div class="col-md-12 text-center">
         <h2 class="mb-5"><a href="#schedule">現在のスケジュール</a></h2>
-	<!--
-	     reserved:  'ありがとうございました'
-	     adjusting: 'お問い合わせください'
-	     available: 'ご相談お待ちしております'
-	-->
-	{% include agile-schedule.html
-	    started_month=2
-	     plus_0='reserved'
-	     plus_1='reserved'
-	     plus_2='adjusting'
-	     plus_3='adjusting'
-	     plus_4='adjusting'
-	     plus_5='adjusting'
-	%}
+
+	{% include agile-schedule.html %}
         
         <table class="caption">
           <tr>

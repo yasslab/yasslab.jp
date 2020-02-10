@@ -1,0 +1,14 @@
+# Enum status:
+# reserved:  'ありがとうございました'
+# adjusting: 'お問い合わせください'
+# available: 'ご相談お待ちしております'
+
+- starting_month: 2
+  plus_0: reserved
+  plus_1: reserved
+  plus_2: adjusting
+  plus_3: adjusting
+  plus_4: adjusting
+  plus_5: adjusting
+
+
