@@ -187,11 +187,11 @@ layout: plain_without_thumbnail
 </section>
 
 
-<section class="okinawaMember" id="okinawa" style="margin-top: 50px;">
+<section class="members" id="members" style="margin-top: 50px;">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3><a href="#okinawa">沖縄メンバー</a></h3>
+        <h3><a href="#members">メンバー紹介</a></h3>
         <div class="row">
           {% include member.html username='hanachin_'  link_to='twitter'
 	           caption='<a href="http://ruby.okinawa/">Okinawa.rb</a>によく出没する。<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏</a>クリエータ' %}
@@ -213,18 +213,7 @@ layout: plain_without_thumbnail
           caption='<a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒' %}
 	  {% endcomment %}
 
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="tokyoMember" id="tokyo">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="mt-5"><a href="#tokyo">東京メンバー</a></h3>
-        <div class="row">
 	  {% include member.html username='yasulab'   link_to='twitter'
 	  caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
 	  {% include member.html username='hachi8833' link_to='twitter'
