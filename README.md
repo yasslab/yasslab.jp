@@ -64,6 +64,6 @@ The icons used in the website are created by [Font Awesome](http://fontawesome.i
 
 ## Copyright
 
-Copyright &copy; [YassLab Inc.](https://yasslab.jp) since 2012
+Copyright &copy; [YassLab Inc.](https://yasslab.jp) 2012-2020
 
-[![YassLab 株式会社ロゴ](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)
+[![YassLab 株式会社ロゴ](https://yasslab.jp/img/logos/800x200.png?cache=clear)](https://yasslab.jp/)
