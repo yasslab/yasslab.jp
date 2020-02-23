@@ -897,9 +897,10 @@ table.caption{
 ul.flex-container li {
 	list-style-type: none;
 }
+
 //ブランドページへの誘導ダイアログ
 #guideToAsset{
-  display: none;
+  display: block;
   position: absolute;
   top: 80px;
   left: 10px;
@@ -917,6 +918,8 @@ ul.flex-container li {
     margin: 24px auto;
     display: block;
   }
+  transition: 0.5s;
+  z-index: 1;
 }
 #guideToAssetClose{
   position: absolute;
@@ -927,3 +930,8 @@ ul.flex-container li {
   font-size: 20px;
   top: 8px;
 }
+.guideToAssetHidden{
+  transform: translateX(-300px);
+  transition: 0.5s;
+}
+
