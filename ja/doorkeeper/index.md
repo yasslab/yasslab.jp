@@ -153,118 +153,122 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 ## [提携しているコミュニティ](#partners)
 
 {% include community.html
-           left_path='okinawarb'
            left_name='Okinawa.rb'
-           center_path='okinawa-frontend'
+           left_path='okinawarb'
            center_name='Okinawa Frontend'
-           right_path='igda-ryukyus'
+           center_path='okinawa-frontend'
            right_name='IGDA琉球大学 (琉ゲ部)'
+           right_path='igda-ryukyus'
 %}
 
 {% include community.html
-           left_path='coderdojo'
            left_name='CoderDojo さいたま'
-           center_path='coderdojohanno'
+           left_path='coderdojo'
            center_name='CoderDojo 飯能'
-           right_path='coderdojo-toyohashi'
+           center_path='coderdojohanno'
            right_name='CoderDojo 豊橋'
+           right_path='coderdojo-toyohashi'
 %}
 
 
 {% include community.html
-           left_path='coderdojonakano'
            left_name='CoderDojo 中野'
-           center_path='coderdojo-haebaru'
+           left_path='coderdojonakano'
            center_name='CoderDojo 南風原'
-           right_path='coderdojo-chofu'
+           center_path='coderdojo-haebaru'
            right_name='CoderDojo 調布'
+           right_path='coderdojo-chofu'
 %}
 
 {% include community.html
-           left_path='oss-gate'
            left_name='OSS Gate'
-           center_path='coderdojo-japan'
+           left_path='oss-gate'
            center_name='CoderDojo Japan'
-           right_path='dojocon-japan'
+           center_path='coderdojo-japan'
            right_name='DojoCon Japan'
+           right_path='dojocon-japan'
 %}
 
 {% include community.html
-           left_path='nilquebe-event'
            left_name='Nilquebe'
-           center_path='otona-programming'
+           left_path='nilquebe-event'
            center_name='Otona Programming'
-           right_path='coderdojo-abeno'
+           center_path='otona-programming'
            right_name='CoderDojo 阿倍野'
+           right_path='coderdojo-abeno'
 %}
 
 {% include community.html
-           left_path='coderdojo-anjo'
            left_name='CoderDojo 安城'
-           center_path='coderdojo-aizu'
+           left_path='coderdojo-anjo'
            center_name='CoderDojo Aizu'
-           right_path='coderdojo-azumino'
+           center_path='coderdojo-aizu'
            right_name='CoderDojo 安曇野'
+           right_path='coderdojo-azumino'
 %}
 
 {% include community.html
-           left_path='coderdojo-masuda'
            left_name='CoderDojo 増田'
-           center_path='coderdojo-inagi'
+           left_path='coderdojo-masuda'
            center_name='CoderDojo 稲城'
-           right_path='coderdojo-tamacenter'
+           center_path='coderdojo-inagi'
            right_name='CoderDojo 多摩センター'
+           right_path='coderdojo-tamacenter'
 %}
 
 {% include community.html
-           left_path='coderdojo-shirakawa'
            left_name='CoderDojo 白河'
-           center_path='coderdojo-nagaokakyo'
+           left_path='coderdojo-shirakawa'
            center_name='CoderDojo 長岡京'
-           right_path='coderdojo-gotanda'
+           center_path='coderdojo-nagaokakyo'
            right_name='CoderDojo 五反田'
+           right_path='coderdojo-gotanda'
 %}
 
 {% include community.html
-           left_path='coderdojo-inuyama'
            left_name='CoderDojo 犬山'
+           left_path='coderdojo-inuyama'
+           center_name='CoderDojo 岡南'
            center_path='coderdojo-konan'
-           center_name='CoderDojo 岡山 岡南'
-           right_path='coderdojo-ashiya'
            right_name='CoderDojo あしや'
+           right_path='coderdojo-ashiya'
 %}
 
 {% include community.html
-           left_path='coderdojo-niizashiki'
            left_name='CoderDojo 新座志木'
-           center_path='coderdojo-naha'
+           left_path='coderdojo-niizashiki'
            center_name='CoderDojo 那覇'
-           right_path='coderdojo-ichinomiya'
+           center_path='coderdojo-naha'
            right_name='CoderDojo 一宮'
+           right_path='coderdojo-ichinomiya'
 %}
 
 {% include community.html
-           left_path='coderdojoueda'
            left_name='CoderDojo 上田'
-           center_path='coderdojo-kyoto-shijo'
+           left_path='coderdojoueda'
            center_name='CoderDojo 京都四条'
-           right_path='coderdojo-kichijoji'
+           center_path='coderdojo-kyoto-shijo'
            right_name='CoderDojo 吉祥寺'
+           right_path='coderdojo-kichijoji'
 %}
 
 {% include community.html
-           left_path='coderdojo-utsunomiya'
            left_name='CoderDojo 宇都宮'
+           left_path='coderdojo-utsunomiya'
+           center_name=''
+           center_path=''
+           right_name=''
+           right_path=''
 %}
 
 <!--
 {% include community.html
-           left_path=''
            left_name=''
-           center_path=''
+           left_path=''
            center_name=''
-           right_path=''
+           center_path=''
            right_name=''
+           right_path=''
 %}
 -->
 
