@@ -1,19 +1,19 @@
 <table class="community-icon">
   <thead>
     <tr class="table table-condensed">
-      {% if include.left_name == blank %}
+      {% if include.left_name == undefined %}
       <th></th>
       {% else %}
       <th><a href="https://{{ include.left_path   }}.doorkeeper.jp/">{{ include.left_name }}</a></th>
       {% endif %}
       
-      {% if include.center_name == blank %}
+      {% if include.center_name == undefined %}
       <th></th>
       {% else %}
       <th><a href="https://{{ include.center_path }}.doorkeeper.jp/">{{ include.center_name }}</a></th>
       {% endif %}
       
-      {% if include.right_name == blank %}
+      {% if include.right_name == undefined %}
       <th></th>
       {% else %}
       <th><a href="https://{{ include.right_path  }}.doorkeeper.jp/">{{ include.right_name }}</a></th>
@@ -23,7 +23,7 @@
   <tbody>
     <tr>
       <td>
-	{% if include.left_name == blank %}
+	{% if include.left_name == undefined %}
 	<img width="200px" src="/img/logos/empty.png"
 	     alt="募集中">
 	{% else %}
@@ -34,7 +34,7 @@
 	{% endif %}
       </td>
       <td>
-	{% if include.center_name == blank %}
+	{% if include.center_name == undefined %}
 	<img width="200px" src="/img/logos/empty.png"
 	     alt="募集中">
 	{% else %}
@@ -45,7 +45,7 @@
 	{% endif %}
       </td>
       <td>
-	{% if include.right_name == blank %}
+	{% if include.right_name == undefined %}
 	<img width="200px" src="/img/logos/empty.png"
 	     alt="募集中">
 	{% else %}
