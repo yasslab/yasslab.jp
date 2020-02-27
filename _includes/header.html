@@ -3,58 +3,32 @@
 <html lang="{{ lang }}">
   <head>
     {% if page.title %}
-      {% if lang == "en" %}
-      <title>{{ page.title }} - {{ site.company.en.name }}</title>
-      <meta name="title"            content="{{ page.title }} - {{ site.company.en.name }}"/>
-      <meta property="og:title"     content="{{ page.title }} - {{ site.company.en.name }}"/>
-      <meta property="og:site_name" content="{{ page.title }} - {{ site.company.en.name }}"/>
-      <meta name="twitter:title"    content="{{ page.title }} - {{ site.company.en.name }}"/>
-      {% else %}
-      <title>{{ page.title }} - {{ site.company.ja.name }}</title>
-      <meta name="title"            content="{{ page.title }} - {{ site.company.ja.name }}"/>
-      <meta property="og:title"     content="{{ page.title }} - {{ site.company.ja.name }}"/>
-      <meta property="og:site_name" content="{{ page.title }} - {{ site.company.ja.name }}"/>
-      <meta name="twitter:title"    content="{{ page.title }} - {{ site.company.ja.name }}"/>
-      {% endif %}
+      <title>{{ page.title }} - {{ site.data.translations.companyName[lang] }}</title>
+      <meta name="title"            content="{{ page.title }} - {{ site.data.translations.companyName[lang] }}"/>
+      <meta property="og:title"     content="{{ page.title }} - {{ site.data.translations.companyName[lang] }}"/>
+      <meta property="og:site_name" content="{{ page.title }} - {{ site.data.translations.companyName[lang] }}"/>
+      <meta name="twitter:title"    content="{{ page.title }} - {{ site.data.translations.companyName[lang] }}"/>
     {% else %}
-      {% if lang == "en" %}
-      <title>{{ site.company.name }} Inc. - {{ site.company.vision }}</title>
-      <meta name="title"            content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-      <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-      <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-      <meta name="twitter:title"    content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-      {% else %}
-      <title>{{ site.company.ja.name }} - {{ site.company.vision }}</title>
-      <!-- NOTE: Use English name to shorten text in Facebook OGP -->
-      <meta name="title"            content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
-      <meta property="og:title"     content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-      <meta property="og:site_name" content="{{ site.company.en.name }} - {{ site.company.vision }}"/>
-      <meta name="twitter:title"    content="{{ site.company.ja.name }} - {{ site.company.vision }}"/>
-      {% endif %}
+      <title>{{ site.data.translations.companyName[lang] }} - {{ site.company.vision }}</title>
+      <meta name="title"            content="{{ site.data.translations.companyName[lang] }} - {{ site.company.vision }}"/>
+      <meta property="og:title"     content="{{ site.data.translations.companyName[lang] }} - {{ site.company.vision }}"/>
+      <meta property="og:site_name" content="{{ site.data.translations.companyName[lang] }} - {{ site.company.vision }}"/>
+      <meta name="twitter:title"    content="{{ site.data.translations.companyName[lang] }} - {{ site.company.vision }}"/>
     {% endif %}
 
+
+    <meta name="apple-mobile-web-app-title" content="{{ site.data.translations.companyName[lang] }}"/>
+    <meta name="application-name"           content="{{ site.data.translations.companyName[lang] }}"/>
+    <meta name="author"                     content="{{ site.data.translations.companyName[lang] }}"/>
+    <meta name="apple-mobile-web-app-title" content="{{ site.data.translations.companyName[lang] }}"/>
+    <meta name="application-name"           content="{{ site.data.translations.companyName[lang] }}"/>
+    <meta name="author"                     content="{{ site.data.translations.companyName[lang] }}"/>
+    <meta name="twitter:description" content="{{ site.data.translations.companyDescription[lang] }}"/>
+    <meta name="description"         content="{{ site.data.translations.companyDescription[lang] }}"/>
+    <meta property="og:description"  content="{{ site.data.translations.companyDescription[lang] }}"/>
     {% if lang == "en" %}
-    <meta name="apple-mobile-web-app-title" content="{{ site.company.en.name }}"/>
-    <meta name="application-name"           content="{{ site.company.en.name }}"/>
-    <meta name="author"                     content="{{ site.company.en.name }}"/>
-    <meta name="apple-mobile-web-app-title" content="{{ site.company.en.name }}"/>
-    <meta name="application-name"           content="{{ site.company.en.name }}"/>
-    <meta name="author"                     content="{{ site.company.en.name }}"/>
-    <meta name="twitter:description" content="{{ site.company.en.description }}"/>
-    <meta name="description"         content="{{ site.company.en.description }}"/>
-    <meta property="og:description"  content="{{ site.company.en.description }}"/>
     <meta name="keywords" content="Ruby Rails Tutorial Guides Programming RemoteWork"/>
     {% else %}
-    <meta name="apple-mobile-web-app-title" content="{{ site.company.ja.name }}"/>
-    <meta name="application-name"           content="{{ site.company.ja.name }}"/>
-    <meta name="author"                     content="{{ site.company.ja.name }}"/>
-    <meta name="apple-mobile-web-app-title" content="{{ site.company.ja.name }}"/>
-    <meta name="application-name"           content="{{ site.company.ja.name }}"/>
-    <meta name="author"                     content="{{ site.company.ja.name }}"/>
-    <meta name="twitter:description" content="{{ site.company.ja.description }}"/>
-    <meta name="twitter:description" content="{{ site.company.ja.description }}"/>
-    <meta name="description"         content="{{ site.company.ja.description }}"/>
-    <meta property="og:description"  content="{{ site.company.ja.description }}"/>
     <meta name="keywords" content="Ruby Rails チュートリアル ガイド プログラミング リモートワーク"/>
     {% endif %}
 
@@ -125,9 +99,7 @@
 </head>
 <body>
 
-{% assign top = "YassLab 株式会社 – Having a Good Life by Creating ;)" %}
 <header class="siteHeader bg-primary">
-
   <script type="text/javascript">
    $(function() {
      $('#navbarLogo').on('contextmenu', function(){

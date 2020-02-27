@@ -26,13 +26,6 @@ company:
   email: info@yasslab.jp
   capital: 500
   name:  YassLab
-  description: "RailsチュートリアルやRailsガイド、coderdojo.jp の開発・運営をしています。法人向け研修支援、スクール向けコンテンツ、開発支援サービスも提供しています。"
-  ja:
-    name: YassLab 株式会社
-    description: "RailsチュートリアルやRailsガイド、coderdojo.jp の開発・運営をしています。法人向け研修支援、スクール向けコンテンツ、開発支援サービスも提供しています。"
-  en:
-    name: YassLab Inc.
-    description: "100% Remote Work company based in Okinawa & Tokyo. We support your Product Development by contents and services."
 
 # Variables to configure RSS feed
 authors:
