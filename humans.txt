@@ -14,5 +14,5 @@ __END__
 YassLab Inc.
 https://github.com/orgs/yasslab/people
 
-YassLab - Having a Good Life with OpenSource ;)
+YassLab - Having a Good Life by Creating ;)
 http://yasslab.jp/
