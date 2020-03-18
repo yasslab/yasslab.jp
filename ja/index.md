@@ -118,7 +118,6 @@ layout: plain_without_thumbnail
 	    <a href="https://railstutorial.jp/partner" target="_blank">
 	      <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
 	    </a>
-	    <div id="clients"></div>
 	  </div>
 
 	</div>
@@ -128,12 +127,18 @@ layout: plain_without_thumbnail
 </section>
 
 
-<section class="service entry_content" id="service">
+<section id="services" class="service entry_content" >
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3 style="line-height: 2.0em;"><a href="#service" style="color: white;">《月額制の Ruby/Rails 開発支援》</a><br>
-	  開発事業を月単位でサポートします</h3>
+        <h3><a href="#services" style="color: white;">《サービス紹介》</a><br></h3>
+	<h4 style="color: white;">『学び』を支える様々なサービスをご提供しています</h4>
+	
+	<div class="slides">
+	  <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+	</div>
+
+	<!--
         <div class="row mb-5">
           <div class="col-4">
             <figure id="ruby">
@@ -153,14 +158,16 @@ layout: plain_without_thumbnail
               <figcaption>Agile Development</figcaption>
             </figure>
           </div>
-        </div><!--//row-->
+        </div>
+	-->
+
       </div><!--//col-->
     </div><!--//row-->
 
    <div class="row">
       <div class="col-md-6">
         <div class="developmentSupport__more text-center">
-            <a href="/ja/agile" class="btn btn-primary btn-block mt-2">詳細を見る</a>
+            <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社概要を見る</a>
           </div>
         </div><!--//col-->
         <div class="col-md-6">
