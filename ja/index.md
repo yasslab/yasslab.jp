@@ -74,29 +74,21 @@ layout: plain_without_thumbnail
   <div class="jumbotron">
   <h2 class="hide">研修生の学びを熟練講師がサポート！Railsチュートリアル研修プラン</h2>
     <picture>
-      <!--a href="https://railstutorial.jp/training" target="_blank"-->
-        <source media="(min-width: 600px)" srcset="/img/training-image.jpg" alt="Railsチュートリアル研修プラン">
-        <img src="/img/training-image-mobile.jpg" alt="Railsチュートリアル研修プラン">
-      <!--/a-->
+      <source media="(min-width: 600px)" srcset="/img/banner-partner.jpg" alt="Railsチュートリアル研修プラン">
+      <img src="/img/banner-partner.jpg" alt="Railsチュートリアル研修プラン">
     </picture>
   </div><!--//jumbotron-->
   
   <div class="text-center pt-5">
-    <h3>《社員研修で創って学ぶ》</h3>
-    <p class="text-center">大学や企業で採用された<b>『反転学習』</b>による講義・研修を御社で実施します。</p>
-    <div class="training">
-      <a href="https://railstutorial.jp/training" target="_blank">
-	<button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
-      </a>
-      <div id="clients"></div>
-    </div>
+    <h3>《学びの質を一緒に高めませんか?》</h3>
+    <p class="text-center" style="line-height: 2.5em;">
+      大学や企業で幅広く活用されている<b>『<a href="https://railstutorial.jp/">Railsチュートリアル</a>』</b>を<br>
+      法人向けに提供するライセンス契約サービスです。</p>
 
     <div class="container training">
       <div class="row">
-	<div class="col-12 text-center" style="margin-top: -80px;">
-          <h4><a href="#clients">採択先と導入事例まとめ</a></h4>
-	  <p style="margin-bottom: 50px;">クリックすると導入事例または講義ページに飛びます。</p>
-          <ul class="flex-container">
+	<div class="col-12 text-center" style="margin-top: 10px;">
+	  <ul class="flex-container">
             <li class="item">
               <a href="http://enpit.coins.tsukuba.ac.jp/" target="_blank"><img src="/img/training/tukuba.png" alt="筑波大学"></a>
             </li>
@@ -121,6 +113,14 @@ layout: plain_without_thumbnail
 	      <a href="https://yasslab.jp/ja/news/partnership-with-nilquebe" target="_blank"><img src="/img/training/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
             </li>
 	  </ul>
+
+	  <div class="training">
+	    <a href="https://railstutorial.jp/partner" target="_blank">
+	      <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
+	    </a>
+	    <div id="clients"></div>
+	  </div>
+
 	</div>
       </div>
     </div>
@@ -133,7 +133,7 @@ layout: plain_without_thumbnail
     <div class="row">
       <div class="col-12">
         <h3 style="line-height: 2.0em;"><a href="#service" style="color: white;">《月額制の Ruby/Rails 開発支援》</a><br>
-		開発事業を月単位でサポートします</h3>
+	  開発事業を月単位でサポートします</h3>
         <div class="row mb-5">
           <div class="col-4">
             <figure id="ruby">
