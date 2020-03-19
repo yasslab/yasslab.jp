@@ -13,16 +13,14 @@ title:  会社概要
         <p class="mb-4">
           YassLab 社では誰もがプロダクトを創り・磨き・語れる時代を目指して、様々なサービスを提供しています。</p>
         <p class="mb-4">
-          <a href="https://railstutorial.jp/" target="_blank">Railsチュートリアル</a>や<a href="https://railsguides.jp/" target="_blank">Railsガイド</a>はその一例です。
-	  これらのサービスは YassLab 社のみで出来上がったものではなく、原著者や翻訳協力者を含め、様々な関係者がいます。
-	  各関係者やコミュニティへの価値の還元を前提としつつ、その中で実現可能なビジネスに YassLab 社は挑戦します。
-	  例えば <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA</a> で公開されているRailsガイドであればそのライセンスにしたがって実現できるビジネスを模索し、Railsチュートリアルのような著作物であれば<a href="https://railstutorial.jp/#foreword">原著者の許諾</a>のもと実現できるビジネスを実践します。</p>
-        <p class="mb-4">このような関係者への感謝と還元が第一にあり、その上で実現可能なビジネスに挑戦するチームが YassLab 社です。</p>
+          <a href="/ja/#tutorial">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>はその一例です。弊社のみが利益を上げるのではなく、社員や顧客などの様々な関係者が価値を享受できるカタチを模索し、その中で継続できるビジネスに YassLab 社は挑戦しています。
+	  例えばRailsチュートリアルのような著作物であれば<a href="https://railstutorial.jp/#foreword">原著者の許諾</a>のもと実現可能なビジネスを、Railsガイドのような <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA</a> で公開されている著作物であればライセンスにしたがって実現可能なビジネスを模索し、実践します。</p>
+        <p class="mb-4">価値が還流できる仕組みを設計し、その上で実現可能なビジネスに挑戦するチームが YassLab 社です。</p>
         <img src="/img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5">
 	
-        <h2 class="text-center mb-5" id="culture">YassLab 社の文化</h2>
-        <p class="mb-4">YassLab 社ではコミュニティと共に成長できる継続的なカタチを大切にします。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
-        <p class="mb-4">CoderDojo Japan への開発支援はうまく回っているカタチの1つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いの価値を交換し合うカタチで行なっています。</p>
+        <h2 class="text-center mb-5" id="culture">価値が還流できる仕組みの例</h2>
+        <p class="mb-4">YassLab 社では様々なコミュニティとも連携し、成長できるカタチを実践しています。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
+        <p class="mb-4">CoderDojo Japan との連携はうまく回っているカタチの１つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いの価値を交換し合うカタチで行なっています。</p>
 
 	<div class="text-center">
 	  <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community"><img src="/img/cdj-and-yasslab.png" alt="開発支援パートナーの仕組み" width="70%" /></a>
@@ -34,10 +32,10 @@ title:  会社概要
           <li>YassLab: <a href="/ja/join-forces/#flow">採用フローの一環</a>として、オープンかつ実践的な場で互いの文化を確認する機会を提供</li>
         </ol>
 	
-        <p class="mb-4">例えば CoderDojo の統計情報ページは、CoderDojo コミュニティへの支援を検討する企業や<a href="https://www.facebook.com/groups/coderdojo.jp/permalink/1651340498312676/">メディアの情報源として活用</a>され、弊社にとっては応募者と一緒に<a href="/ja/join-forces/#flow">実践的な開発をするオープンな場</a>にもなっています。</p>
+        <p class="mb-4">例えば CoderDojo の統計情報ページは、CoderDojo コミュニティへの支援を検討する企業や<a href="https://www.facebook.com/groups/coderdojo.jp/permalink/1651340498312676/">メディアの情報源として活用</a>され、YassLab 社にとっては応募者と一緒に<a href="/ja/join-forces/#flow">実践的な開発をするオープンな場</a>にもなっています。</p>
 	
-        <p class="mb-4">チームとして掲げている「{{ site.company.vision }}」というフレーズは、こういったコミュニティと会社が一緒に成長できる継続的なカタチを表した言葉です。</p>
-        <p class="mb-4">コミュニティを Hub として様々な人達と繋がりながら、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>
+        <!--<p class="mb-4">チームとして掲げている『{{ site.company.vision }}』というフレーズは、こういったコミュニティと会社が一緒に成長できる継続的なカタチを表した言葉です。</p>-->
+        <p class="mb-4">価値が還流できる仕組みを模索しつつ、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>
       </div>
     </div>
   </div>
