@@ -80,7 +80,7 @@ layout: plain_without_thumbnail
   </div><!--//jumbotron-->
   
   <div class="text-center pt-5">
-    <h3>《学びの質を一緒に高めませんか?》</h3>
+    <h3>《動画を活用し、価値を創る》</h3>
     <p class="text-center" style="line-height: 2.5em;">
       大学や企業で採用されている<b>『<a href="https://railstutorial.jp/">Railsチュートリアル</a>』</b>を<br class="ignore-sp">法人向けに提供するライセンス契約型サービスです。</p>
 
