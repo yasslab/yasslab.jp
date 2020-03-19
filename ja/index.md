@@ -87,35 +87,26 @@ layout: plain_without_thumbnail
     <div class="container tutorial">
       <div class="col-12 text-center" style="margin-top: 10px;">
 	<ul class="flex-container">
-          <li class="item">
-            <a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a>
-          </li>
-          <li class="item">
-            <a href="/ja/news/univ-of-ryukyus-with-railstutorial"><img src="/img/partners/ryukyu.png" alt="琉球大学"></a>
-	  </li>
-	  <li class="item">
-	    <a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html"><img src="/img/partners/kogakuin.png" alt="工学院大学"></a>
-	  </li>
-	  <li class="item">
-            <a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf"><img src="/img/partners/aiit.png" alt="産業技術大学院大学"></a>
-          </li>
+          <li class="item"><a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a></li>
+          <li class="item"><a href="/ja/news/univ-of-ryukyus-with-railstutorial"><img src="/img/partners/ryukyu.png" alt="琉球大学"></a></li>
+	  <li class="item"><a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html"><img src="/img/partners/kogakuin.png" alt="工学院大学"></a></li>
+	  <li class="item"><a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf"><img src="/img/partners/aiit.png" alt="産業技術大学院大学"></a></li>
 	</ul>
 	
 	<ul class="flex-container">
-          <li class="item">
-            <a href="/ja/news/learning-by-making"><img src="/img/partners/money-forward.png" alt="株式会社マネーフォワード"></a>
-          </li>
-          <li class="item">
-            <a href="/ja/news/railstutorial-at-members-career"><img src="/img/partners//members-career.png" alt="株式会社メンバーズキャリア"></a>
-          </li>
-          <li class="item">
-	    <a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
-          </li>
-	  <li class="item">
-            <a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html"><img src="/img/partners/progate.png" alt="株式会社Progate"></a>
-          </li>
+          <li class="item"><a href="/ja/news/learning-by-making"><img src="/img/partners/money-forward.png" alt="マネーフォワード"></a></li>
+          <li class="item"><a href="/ja/news/railstutorial-at-members-career"><img src="/img/partners//members-career.png" alt="メンバーズキャリア"></a></li>
+          <li class="item"><a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe"></a></li>
+	  <li class="item"><a href="/ja/news/partnership-with-techtraining"><img src="/img/partners/techtraining.png" alt="TechCommit"></a></li>
 	</ul>
-	
+
+	<ul class="flex-container">
+          <li class="item"><a href="/ja/news/partnership-with-haj-empowerment"><img src="/img/partners/haj.png" alt="ジョブキタ"></a></li>
+          <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html"><img src="/img/partners/progate.png" alt="Progate"></a></li>
+	  <li class="item"><a href="https://www.value-press.com/pressrelease/190639"><img src="/img/partners/sharewis.png" alt="ShareWis"></a></li>
+	  <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html"><img src="/img/partners/potepan.png" alt="ポテパンキャンプ"></a></li>
+	</ul>
+
 	<div class="tutorial">
 	  <a href="https://railstutorial.jp/partner">
 	    <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
