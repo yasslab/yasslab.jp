@@ -66,16 +66,16 @@ layout: plain_without_thumbnail
       </div>
     </div>
   </div>
-  <div id="training"></div>
+  <div id="tutorial"></div>
 </section>
 
 
 <section class="mainVisual">
   <div class="jumbotron">
-  <h2 class="hide">研修生の学びを熟練講師がサポート！Railsチュートリアル研修プラン</h2>
+  <h2 class="hide">ライセンス契約で事業を加速させる！Railsチュートリアル 協業プラン</h2>
     <picture>
-      <source media="(min-width: 600px)" srcset="/img/banner-partner.jpg" alt="Railsチュートリアル研修プラン">
-      <img src="/img/banner-partner.jpg" alt="Railsチュートリアル研修プラン">
+      <source media="(min-width: 600px)" srcset="/img/banner-partner.jpg" alt="Railsチュートリアル『協業プラン』">
+      <img src="/img/banner-partner.jpg" alt="Railsチュートリアル『協業プラン』">
     </picture>
   </div><!--//jumbotron-->
   
@@ -85,37 +85,39 @@ layout: plain_without_thumbnail
       大学や企業で幅広く活用されている<b>『<a href="https://railstutorial.jp/">Railsチュートリアル</a>』</b>を<br>
       法人向けに提供するライセンス契約サービスです。</p>
 
-    <div class="container training">
+    <div class="container tutorial">
       <div class="row">
 	<div class="col-12 text-center" style="margin-top: 10px;">
+
 	  <ul class="flex-container">
             <li class="item">
-              <a href="http://enpit.coins.tsukuba.ac.jp/" target="_blank"><img src="/img/training/tukuba.png" alt="筑波大学"></a>
+              <a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a>
             </li>
             <li class="item">
-              <a href="https://yasslab.jp/ja/news/univ-of-ryukyus-with-railstutorial" target="_blank"><img src="/img/training//ryukyu.png" alt="琉球大学"></a>
+              <a href="/ja/news/univ-of-ryukyus-with-railstutorial"><img src="/img/partners/ryukyu.png" alt="琉球大学"></a>
 	    </li>
 	    <li class="item">
-	      <a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html" target='_blank'><img src="/img/training/kogakuin.png" alt="工学院大学"></a>
+	      <a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html"><img src="/img/partners/kogakuin.png" alt="工学院大学"></a>
 	    </li>
 	    <li class="item">
-              <a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf" target="_blank"><img src="/img/training/aiit.png" alt="産業技術大学院大学"></a>
-            </li>
-	  </ul>
-	  <ul class="flex-container">
-            <li class="item">
-              <a href="https://yasslab.jp/ja/news/learning-by-making" target="_blank"><img src="/img/training/money-forward.png" alt="株式会社マネーフォワード"></a>
-            </li>
-            <li class="item">
-              <a href="https://yasslab.jp/ja/news/railstutorial-at-members-career" target="_blank"><img src="/img/training//members-career.png" alt="株式会社メンバーズキャリア"></a>
-            </li>
-            <li class="item">
-	      <a href="https://yasslab.jp/ja/news/partnership-with-nilquebe" target="_blank"><img src="/img/training/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
+              <a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf"><img src="/img/partners/aiit.png" alt="産業技術大学院大学"></a>
             </li>
 	  </ul>
 
-	  <div class="training">
-	    <a href="https://railstutorial.jp/partner" target="_blank">
+	  <ul class="flex-container">
+            <li class="item">
+              <a href="/ja/news/learning-by-making"><img src="/img/partners/money-forward.png" alt="株式会社マネーフォワード"></a>
+            </li>
+            <li class="item">
+              <a href="/ja/news/railstutorial-at-members-career"><img src="/img/partners//members-career.png" alt="株式会社メンバーズキャリア"></a>
+            </li>
+            <li class="item">
+	      <a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
+            </li>
+	  </ul>
+	  
+	  <div class="tutorial">
+	    <a href="https://railstutorial.jp/partner">
 	      <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
 	    </a>
 	  </div>
@@ -304,10 +306,10 @@ layout: plain_without_thumbnail
         <div class="row">
           <div class="col-md-4">
             <figure>
-              <a href="http://ruby.okinawa/" target="_blank">
+              <a href="https://ruby.okinawa/" target="_blank">
                 <img src="/img/logos/okinawarb.gif" alt="Okinawa Ruby User Group">
               </a>
-              <figcaption><a href="http://ruby.okinawa/okrk02/">沖縄Ruby会議などの運営支援</a></figcaption>
+              <figcaption><a href="https://ruby.okinawa/okrk02/">沖縄Ruby会議などの運営支援</a></figcaption>
             </figure>
           </div>
           <div class="col-md-4">
