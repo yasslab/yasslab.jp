@@ -82,46 +82,41 @@ layout: plain_without_thumbnail
   <div class="text-center pt-5">
     <h3>《学びの質を一緒に高めませんか?》</h3>
     <p class="text-center" style="line-height: 2.5em;">
-      大学や企業で幅広く活用されている<b>『<a href="https://railstutorial.jp/">Railsチュートリアル</a>』</b>を<br>
-      法人向けに提供するライセンス契約サービスです。</p>
+      大学や企業で採用されている<b>『<a href="https://railstutorial.jp/">Railsチュートリアル</a>』</b>を<br class="ignore-sp">法人向けに提供するライセンス契約型サービスです。</p>
 
     <div class="container tutorial">
-      <div class="row">
-	<div class="col-12 text-center" style="margin-top: 10px;">
-
-	  <ul class="flex-container">
-            <li class="item">
-              <a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a>
-            </li>
-            <li class="item">
-              <a href="/ja/news/univ-of-ryukyus-with-railstutorial"><img src="/img/partners/ryukyu.png" alt="琉球大学"></a>
-	    </li>
-	    <li class="item">
-	      <a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html"><img src="/img/partners/kogakuin.png" alt="工学院大学"></a>
-	    </li>
-	    <li class="item">
-              <a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf"><img src="/img/partners/aiit.png" alt="産業技術大学院大学"></a>
-            </li>
-	  </ul>
-
-	  <ul class="flex-container">
-            <li class="item">
-              <a href="/ja/news/learning-by-making"><img src="/img/partners/money-forward.png" alt="株式会社マネーフォワード"></a>
-            </li>
-            <li class="item">
-              <a href="/ja/news/railstutorial-at-members-career"><img src="/img/partners//members-career.png" alt="株式会社メンバーズキャリア"></a>
-            </li>
-            <li class="item">
-	      <a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
-            </li>
-	  </ul>
-	  
-	  <div class="tutorial">
-	    <a href="https://railstutorial.jp/partner">
-	      <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
-	    </a>
-	  </div>
-
+      <div class="col-12 text-center" style="margin-top: 10px;">
+	<ul class="flex-container">
+          <li class="item">
+            <a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a>
+          </li>
+          <li class="item">
+            <a href="/ja/news/univ-of-ryukyus-with-railstutorial"><img src="/img/partners/ryukyu.png" alt="琉球大学"></a>
+	  </li>
+	  <li class="item">
+	    <a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html"><img src="/img/partners/kogakuin.png" alt="工学院大学"></a>
+	  </li>
+	  <li class="item">
+            <a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf"><img src="/img/partners/aiit.png" alt="産業技術大学院大学"></a>
+          </li>
+	</ul>
+	
+	<ul class="flex-container">
+          <li class="item">
+            <a href="/ja/news/learning-by-making"><img src="/img/partners/money-forward.png" alt="株式会社マネーフォワード"></a>
+          </li>
+          <li class="item">
+            <a href="/ja/news/railstutorial-at-members-career"><img src="/img/partners//members-career.png" alt="株式会社メンバーズキャリア"></a>
+          </li>
+          <li class="item">
+	    <a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
+          </li>
+	</ul>
+	
+	<div class="tutorial">
+	  <a href="https://railstutorial.jp/partner">
+	    <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
+	  </a>
 	</div>
       </div>
     </div>
