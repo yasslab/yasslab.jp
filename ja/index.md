@@ -111,6 +111,9 @@ layout: plain_without_thumbnail
           <li class="item">
 	    <a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe | 神戸・阪神間のコワーキングスペース的ワークスペース"></a>
           </li>
+	  <li class="item">
+            <a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html"><img src="/img/partners/progate.png" alt="株式会社Progate"></a>
+          </li>
 	</ul>
 	
 	<div class="tutorial">
