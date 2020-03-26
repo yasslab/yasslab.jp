@@ -107,6 +107,13 @@ layout: plain_without_thumbnail
 	  <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html"><img src="/img/partners/potepan.png" alt="ポテパンキャンプ"></a></li>
 	</ul>
 
+	<ul class="flex-container">
+	  <li class="item"><img src="/img/partners/empty.png"></li>
+	  <li class="item"><a href="/ja/news/partnership-with-codebase"><img src="/img/partners/codebase.jpg" alt="CODE BASE"></a></li>
+	  <li class="item"><a href="https://www.osakac.ac.jp/project_now/cs/208"><img src="/img/partners/osakac.png" alt="大阪電気通信大学"></a></li>
+	  <li class="item"><img src="/img/partners/empty.png"></li>
+	</ul>
+
 	<div class="tutorial">
 	  <a href="https://railstutorial.jp/partner">
 	    <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
