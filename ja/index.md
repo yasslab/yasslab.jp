@@ -36,13 +36,13 @@ layout: plain_without_thumbnail
 
         <div class="row">
           <div class="col-md-4 offset-md-1">
-            <a href="https://railstutorial.jp/" target="_blank">
+            <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
 	      <img class="books"
 	       src="/img/logos/rails-tutorial.png"
                alt="Ruby on Rails チュートリアル">
 	    </a>
-	    <a href="https://railstutorial.jp/" target="_blank"><h4>Railsチュートリアル</h4></a>
-            <a href="https://railstutorial.jp/" target="_blank">
+	    <a href="https://railstutorial.jp/" target="_blank" rel="noopener"><h4>Railsチュートリアル</h4></a>
+            <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
             <p>SNS 開発が題材の大型チュートリアル。プロダクト開発の<span style="background-color: #AA4536; color: white;">
@@ -50,13 +50,13 @@ layout: plain_without_thumbnail
 	    </span>を創りながら学びます。<a href="https://railstutorial.jp/screencast">解説動画</a>や<a href="https://railstutorial.jp/#service">質問対応</a>、法人向け<a href="https://railstutorial.jp/training">研修支援</a>や<a href="https://railstutorial.jp/partner">協業サービス</a>も提供</p>
           </div>
           <div class="col-md-4 offset-md-2">
-            <a href="https://railsguides.jp/" target="_blank">
+            <a href="https://railsguides.jp/" target="_blank" rel="noopener">
               <img class="books"
 	       src="/img/logos/rails-guides.png"
 	       alt="Ruby on Rails ガイド">
             </a>
-	    <a href="https://railsguides.jp/" target="_blank"><h4>Railsガイド</h4></a>
-            <a href="https://railsguides.jp/" target="_blank">
+	    <a href="https://railsguides.jp/" target="_blank" rel="noopener"><h4>Railsガイド</h4></a>
+            <a href="https://railsguides.jp/" target="_blank" rel="noopener">
               <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
             
@@ -302,7 +302,7 @@ layout: plain_without_thumbnail
         <div class="row">
           <div class="col-md-4">
             <figure>
-              <a href="https://ruby.okinawa/" target="_blank">
+              <a href="https://ruby.okinawa/" target="_blank" rel="noopener">
                 <img src="/img/logos/okinawarb.gif" alt="Okinawa Ruby User Group">
               </a>
               <figcaption><a href="https://ruby.okinawa/okrk02/">沖縄Ruby会議などの運営支援</a></figcaption>
@@ -318,7 +318,7 @@ layout: plain_without_thumbnail
           </div>
           <div class="col-md-4">
             <figure>
-              <a href="https://coderdojo.jp/" target="_blank">
+              <a href="https://coderdojo.jp/" target="_blank" rel="noopener">
                 <img src="/img/logos/coderdojo-japan.gif" alt="CoderDojo Japan - 子どものためのプログラミング道場">
               </a>
               <figcaption><a href="/ja/agile">Webサービスの開発支援</a></figcaption>
@@ -344,17 +344,17 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-4">
-        <a href="https://jr.mitou.org/" target="_blank">
+        <a href="https://jr.mitou.org/" target="_blank" rel="noopener">
           <img src="/img/logos/mitoujr.png" alt="未踏ジュニア">
         </a>
       </div>
       <div class="col-4">
-        <a href="https://franliber.co.jp/" target="_blank">
+        <a href="https://franliber.co.jp/" target="_blank" rel="noopener">
           <img src="/img/logos/franliber.png" alt="FranLiber" class="bd-bk">
         </a>
       </div>
       <div class="col-4">
-        <a href="https://railscp.com/" target="_blank">
+        <a href="https://railscp.com/" target="_blank" rel="noopener">
           <img src="/img/logos/railscp.png" alt="（社）Rails技術者認定試験運営委員会" class="bd-bk">
         </a>
       </div>
@@ -369,12 +369,12 @@ layout: plain_without_thumbnail
       <div class="col-12">
         <h2><a href="#press">プレスリリース</a></h2>
         <ul>
-	  <li><a href="https://prtimes.jp/main/html/rd/p/000000005.000043589.html" target="_blank">コミュニティ型IT学習環境の「TechCommit」、Railsチュートリアルと業務提携でITエンジニアの創出促進へ</a></li>
-          <li><a href="https://www.members.co.jp/company/news/2018/0806_2.html" target="_blank">常駐型デジタルプロフェッショナルサービスのメンバーズキャリア、技術顧問体制を強化～新たに2名が技術顧問に就任、社員育成によるサービス向上を目指す～</a></li>
-          <li><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html" target="_blank">オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</a> </li>
-          <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html" target="_blank">転職特化型Rubyプログラミングスクールの「ポテパンキャンプ」、Railsチュートリアルと業務提携しエンジニア創出を促す</a></li>
-          <li><a href="https://www.value-press.com/pressrelease/190639" target="_blank">ShareWis、Ruby on Rails 5.1に対応したRailsチュートリアル [第4版] の動画講座を現役エンジニアによるQ&amp;A対応付きで提供開始</a></li>
-          <li><a href="https://prtimes.jp/main/html/rd/p/000000013.000016641.html" target="_blank">プログラミングスクールの「DIVE INTO CODE」、Railsチュートリアルと公式提携した「DIC Railsチュートリアルコース」を発表</a></li>
+	  <li><a href="https://prtimes.jp/main/html/rd/p/000000005.000043589.html" target="_blank" rel="noopener">コミュニティ型IT学習環境の「TechCommit」、Railsチュートリアルと業務提携でITエンジニアの創出促進へ</a></li>
+          <li><a href="https://www.members.co.jp/company/news/2018/0806_2.html" target="_blank" rel="noopener">常駐型デジタルプロフェッショナルサービスのメンバーズキャリア、技術顧問体制を強化～新たに2名が技術顧問に就任、社員育成によるサービス向上を目指す～</a></li>
+          <li><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html" target="_blank" rel="noopener">オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</a> </li>
+          <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html" target="_blank" rel="noopener">転職特化型Rubyプログラミングスクールの「ポテパンキャンプ」、Railsチュートリアルと業務提携しエンジニア創出を促す</a></li>
+          <li><a href="https://www.value-press.com/pressrelease/190639" target="_blank" rel="noopener">ShareWis、Ruby on Rails 5.1に対応したRailsチュートリアル [第4版] の動画講座を現役エンジニアによるQ&amp;A対応付きで提供開始</a></li>
+          <li><a href="https://prtimes.jp/main/html/rd/p/000000013.000016641.html" target="_blank" rel="noopener">プログラミングスクールの「DIVE INTO CODE」、Railsチュートリアルと公式提携した「DIC Railsチュートリアルコース」を発表</a></li>
         </ul>
 
       </div><!--//col-->

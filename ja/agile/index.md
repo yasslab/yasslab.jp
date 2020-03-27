@@ -31,7 +31,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
       </div>
       
       <div class="col">
-	<a href="https://www.ruby-lang.org/" target="_blank">
+	<a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
           <img src="/img/icons/ruby.png" width="80%" alt="Ruby logo" /></a><br>
           Ruby / Rails
       </div> <!--//col-->
@@ -41,7 +41,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
       </div>  <!--//col--> 
       
       <div class="col">
-        <a href="https://github.com/" target="_blank">
+        <a href="https://github.com/" target="_blank" rel="noopener">
           <img src="/img/icons/git.png" width="80%" alt="Git logo" /></a><br>Git / GitHub
       </div>  <!--//col--> 
       
@@ -88,7 +88,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
         </ul>
 	<p>上記のモデル契約書を具体化した契約書が、次の契約書になります。特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。</p>
         
-        <p><a href="https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a" target="_blank">IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)</a></p>
+        <p><a href="https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a" target="_blank" rel="noopener">IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)</a></p>
         
         <p id="price">なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
       </div><!--//col-->

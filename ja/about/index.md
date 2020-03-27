@@ -58,19 +58,19 @@ title:  会社概要
         <h4 class="text-center mb-3 h3deco-none">安川 要平</h4>
         <ul class="profile__sns mb-3">
           <li class="profile__sns__icon">
-            <a href="https://www.facebook.com/yasulab" target="_blank"><img src="/img/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://www.facebook.com/yasulab" target="_blank" rel="noopener"><img src="/img/icons/facebook.png" alt="Facebook"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://twitter.com/yasulab" target="_blank"><img src="/img/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://twitter.com/yasulab" target="_blank" rel="noopener"><img src="/img/icons/twitter.png" alt="Twitter"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://github.com/yasulab" target="_blank"><img src="/img/icons/github.png" alt="GitHub"></a>
+            <a href="https://github.com/yasulab" target="_blank" rel="noopener"><img src="/img/icons/github.png" alt="GitHub"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img src="/img/icons/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.linkedin.com/in/yasulab/" target="_blank" rel="noopener"><img src="/img/icons/linkedin.png" alt="LinkedIn"></a>
           </li>
 	  <li class="profile__sns__icon">
-	    <a href="https://qiita.com/yasulab" target="_blank"><img src="/img/icons/qiita.png" alt="Qiita"></a>
+	    <a href="https://qiita.com/yasulab" target="_blank" rel="noopener"><img src="/img/icons/qiita.png" alt="Qiita"></a>
 	  </li>
         </ul>
       </div>
