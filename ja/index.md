@@ -103,7 +103,7 @@ layout: plain_without_thumbnail
 	<ul class="flex-container">
           <li class="item"><a href="/ja/news/partnership-with-haj-empowerment"><img src="/img/partners/haj.png" alt="ジョブキタ"></a></li>
           <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html"><img src="/img/partners/progate.png" alt="Progate"></a></li>
-	  <li class="item"><a href="https://www.value-press.com/pressrelease/190639"><img src="/img/partners/sharewis.png" alt="ShareWis"></a></li>
+	  <li class="item"><a href="https://note.com/yasslab/n/n8383778e38a3"><img src="/img/partners/sharewis.png" alt="ShareWis"></a></li>
 	  <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html"><img src="/img/partners/potepan.png" alt="ポテパンキャンプ"></a></li>
 	</ul>
 
