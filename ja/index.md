@@ -45,7 +45,7 @@ layout: plain_without_thumbnail
             <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
-            <p>SNS 開発が題材の大型チュートリアル。プロダクト開発の<span style="background-color: #AA4536; color: white;">
+            <p>SNS 開発が題材の大型チュートリアル。プロダクト開発の<span style="background-color: #AA4536; color: white; border-radius: 2px;">
 	      0→1
 	    </span>を創りながら学びます。<a href="https://railstutorial.jp/screencast">解説動画</a>や<a href="https://railstutorial.jp/#service">質問対応</a>、法人向け<a href="https://railstutorial.jp/training">研修支援</a>や<a href="https://railstutorial.jp/partner">協業サービス</a>も提供</p>
           </div>
@@ -60,7 +60,7 @@ layout: plain_without_thumbnail
               <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
             
-            <p>プロダクト開発の生産性を高める、Ruby on Rails に特化した<span style="background-color: #AA4536; color: white;"> 1,600 </span>ページ超えの大型リファレンスガイド。<a href="https://railsguides.jp/ebook">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
+            <p>プロダクト開発の生産性を高める、Ruby on Rails に特化した<span style="background-color: #AA4536; color: white; border-radius: 2px;"> 1,600 </span>ページ超えの大型リファレンスガイド。<a href="https://railsguides.jp/ebook">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
           </div>
         </div>
       </div>
