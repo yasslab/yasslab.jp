@@ -23,9 +23,14 @@ gem 'acme_challenge'
 gem 'rack-rewrite'
 gem 'rack-contrib'
 
-
-group :development, :test do
+group :development do
+  # Gems for debugging
   gem 'pry-byebug'
+  gem 'pry'
+
+  # Gems to fetch RSS in development only
+  gem 'yaml'
+  gem 'mechanize'
 end
 
 group :jekyll_plugins do

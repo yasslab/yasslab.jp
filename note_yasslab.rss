@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:note="https://note.com" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>YassLab 株式会社</title>
+    <description>RailsチュートリアルやRailsガイド、coderdojo.jp の開発・運営をしています。プロダクト開発が学べる解説動画・質問対応や、全文検索・過去バージョン閲覧、研修・協業プランなども提供しています。詳細は Web サイトからぜひ！ https://yasslab.jp/</description>
+    <link>https://note.com/yasslab</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://note.com/yasslab/rss/"/>
+    <copyright>YassLab 株式会社</copyright>
+    <webfeeds:icon>https://d2l930y2yx77uc.cloudfront.net/assets/default/default_note_logo-100a27d592505c50c29b032c0554570c955f312b8937727c8777fd87b3068c71.png</webfeeds:icon>
+    <webfeeds:logo>https://d2l930y2yx77uc.cloudfront.net/assets/default/default_note_logo-100a27d592505c50c29b032c0554570c955f312b8937727c8777fd87b3068c71.png</webfeeds:logo>
+    <webfeeds:accentColor>249F80</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+    <webfeeds:analytics id="UA-48687000-1" engine="GoogleAnalytics"/>
+    <language>ja</language>
+    <lastBuildDate>Tue, 07 Apr 2020 09:23:52 +0900</lastBuildDate>
+    <item>
+      <title> 解説動画の一覧画面がさらに使いやすく</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/22137432/rectangle_large_type_2_f9e1e614f1cfc0bb03fc37ab66d11e29.png</media:thumbnail>
+      <description><![CDATA[<blockquote name="bve6j" style="text-align: center;">この記事を書いた人: <a href="https://twitter.com/Yuppyhappytoyou" target="_blank" rel="nofollow">@Yuppy</a></blockquote><p name="P4uvt"><a href="https://railstutorial.jp/screencast" target="_blank" rel="nofollow">Railsチュートリアル解説動画</a>をご利用の方は既にお気づきかもしれませんが、解説動画の一覧画面の<b>「未視聴・視聴済み」選択ボタンをリニューアル</b>しました ‍✨<br><br></p><br/><a href='https://note.com/yasslab/n/n7a946a7168a9'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Sat, 04 Apr 2020 13:05:38 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n7a946a7168a9</link>
+      <guid>https://note.com/yasslab/n/n7a946a7168a9</guid>
+    </item>
+    <item>
+      <title> 第6版Railsチュートリアル電子書籍の販売開始</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/22106266/rectangle_large_type_2_2146ae1ea1e3ee20bc1e0b9795c9940f.png</media:thumbnail>
+      <description><![CDATA[<p name="zMuyz">Rails 6.0 対応の<a href="https://note.com/yasslab/n/na27dfd2918f9" target="_blank" rel="nofollow">Railsチュートリアル解説動画リリース</a>に引き続き、<b>Rails 6.0 対応の電子書籍版</b>をリリースしました! ✨</p><p name="AXVw9"><a href="https://railstutorial.jp/#ebook" target="_blank" rel="nofollow"><img alt="画像3" src="https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/22108228/picture_pc_1dd3836066e8d5b1f74126790c055b93.png" width="620" height="468" class="" id="image-AXVw9"></a></p><br/><a href='https://note.com/yasslab/n/n9b6f89447adf'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Fri, 03 Apr 2020 13:34:33 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n9b6f89447adf</link>
+      <guid>https://note.com/yasslab/n/n9b6f89447adf</guid>
+    </item>
+    <item>
+      <title> Railsチュートリアル法人プランが人数支払いに対応</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/22040255/rectangle_large_type_2_5ba25418c94e593d02919c8d69e2a036.jpg</media:thumbnail>
+      <description><![CDATA[<p name="HRh1r"><a href="https://railstutorial.jp/" target="_blank" rel="nofollow">Railsチュートリアル</a>にご興味を持っていただきありがとうございます! </p><p name="RJhuD"><a href="https://railstutorial.jp/screencast" target="_blank" rel="nofollow">Railsチュートリアル解説動画</a>を法人向けに提供しているプレミアムプラン『<b><a href="https://railstutorial.jp/business" target="_blank" rel="nofollow">法人プラン</a></b>』が、<b>招待人数に応じたお支払い</b>にも対応しました ✨</p><br/><a href='https://note.com/yasslab/n/nbf74a1d417d2'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Thu, 02 Apr 2020 13:03:55 +0900</pubDate>
+      <link>https://note.com/yasslab/n/nbf74a1d417d2</link>
+      <guid>https://note.com/yasslab/n/nbf74a1d417d2</guid>
+    </item>
+    <item>
+      <title> 現役 Rubyist がオンラインで質問対応する、第6版Railsチュートリアル解説動画 (Rails 6.0) を ShareWis と協業リリース</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/21973923/rectangle_large_type_2_3f88cd4799732c58a5dfcf2e1ec0310d.png</media:thumbnail>
+      <description><![CDATA[<p name="p0Bpi"><a href="https://www.value-press.com/pressrelease/190639" target="_blank" rel="nofollow"><b>ShareWis との協業</b></a>により実現した『<a href="https://share-wis.com/ja/courses/ruby-on-rails-tutorial-six-ver-six?utm_content=afc_WaHS8pluSSVq_vgG2jtI" target="_blank" rel="nofollow">質問対応付きの第6版Railsチュートリアル解説動画 (Rails 6.0 対応)</a>』がリリースされました! ✨</p><figure embedded-service="external-article" contenteditable="false" name="r1CX0" embedded-content-key="embf398afe055f8" data-identifier="null"><div class="fude-iframe-container"><div class="fude-iframe-container-external-article"><div class="widget-cover"><div class="external-article-widget"><a href="https://share-wis.com/ja/courses/ruby-on-rails-tutorial-six-ver-six?utm_content=afc_WaHS8pluSSVq_vgG2jtI" target="_blank" rel="nofollow"><strong class="external-article-widget-title">【現役Rubyistが質問対応】Ruby on Rails (6.0) チュートリアル [第6版] | Instructor: 安川 要平</strong><em class="external-article-widget-description">Ruby on Rails (6.0)を使ったWebアプリケーションの開発を本格的に学べるRuby on Railsチュー</em><em class="external-article-widget-url">share-wis.com</em></a><a class="external-article-widget-image" href="https://share-wis.com/ja/courses/ruby-on-rails-tutorial-six-ver-six?utm_content=afc_WaHS8pluSSVq_vgG2jtI" style="background-image: url('https://d2l930y2yx77uc.cloudfront.net/production/uploads/ext/a3b59da077d7d82043d43a76e6abba54f1f5720105bd8ba366b1b513ede8.png');" target="_blank" rel="nofollow"></a></div></div></div></div></figure><br/><a href='https://note.com/yasslab/n/n8383778e38a3'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Tue, 31 Mar 2020 11:39:14 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n8383778e38a3</link>
+      <guid>https://note.com/yasslab/n/n8383778e38a3</guid>
+    </item>
+    <item>
+      <title> 近日オンライン開催の CoderDojo を、見つけやすく。</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/21841280/rectangle_large_type_2_8065105368111fc99f8a38a23f4e5ed4.png</media:thumbnail>
+      <description><![CDATA[<blockquote name="iNey1" style="text-align: center;">書いた人: <a href="https://twitter.com/yasulab" target="_blank" rel="nofollow">@yasulab</a></blockquote><p name="Jn8lw">coderdojo.jp の『<a href="https://coderdojo.jp/events" target="_blank" rel="nofollow">近日開催の道場</a>』ページで、<b>オンライン開催を予定している CoderDojo のイベントを見つけやすく</b>しました ‍✨</p><br/><a href='https://note.com/yasslab/n/nde85f7850628'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Mon, 30 Mar 2020 12:39:03 +0900</pubDate>
+      <link>https://note.com/yasslab/n/nde85f7850628</link>
+      <guid>https://note.com/yasslab/n/nde85f7850628</guid>
+    </item>
+    <item>
+      <title> 第4版Railsチュートリアル解説動画購入者向けに、Webテキスト特典を追加 (第３章まで)</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/21700992/rectangle_large_type_2_ee08ed53e4cf4b88b17e6189766aee0a.jpg</media:thumbnail>
+      <description><![CDATA[<p name="04Y1Q">Railsチュートリアルをご活用いただきありがとうございます! ✨</p><p name="NZVyu"><a href="https://note.com/yasslab/n/na27dfd2918f9" target="_blank" rel="nofollow"><b>第6版 (Rails 6.0 対応) Railsチュートリアル解説動画</b></a>をリリースしてから、早くも多くの反響をいただき大変嬉しく思っております </p><br/><a href='https://note.com/yasslab/n/na68f7236c645'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Sat, 28 Mar 2020 11:13:30 +0900</pubDate>
+      <link>https://note.com/yasslab/n/na68f7236c645</link>
+      <guid>https://note.com/yasslab/n/na68f7236c645</guid>
+    </item>
+    <item>
+      <title> Railsガイドが Carbon Ads for Open Source の対象に。</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/21644308/rectangle_large_type_2_507b64964d983d15a6bda0866e9aeb8c.png</media:thumbnail>
+      <description><![CDATA[<p name="iImzi"><a href="https://speakerdeck.com/yasslab/introduction-of-yasslab?slide=9" target="_blank" rel="nofollow">26,000 以上のアクティブなユーザー</a>にご活用している『<a href="https://railsguides.jp/" target="_blank" rel="nofollow">Railsガイド</a>』が、<b>Laravel や Vue.js などでも採用されている <a href="https://www.carbonads.net/open-source" target="_blank" rel="nofollow">Carbon Ads for Open Source</a> プログラムに承認</b>されました。</p><p name="c3km9"><a href="https://www.carbonads.net/open-source" target="_blank" rel="nofollow"><img alt="画像1" src="https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/21644437/picture_pc_c8d480e4eab7944dfca7cf0e3f7d3ddf.png" width="620" height="480" class="" id="image-c3km9"></a></p><br/><a href='https://note.com/yasslab/n/n4afda49ed786'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Fri, 27 Mar 2020 12:49:06 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n4afda49ed786</link>
+      <guid>https://note.com/yasslab/n/n4afda49ed786</guid>
+    </item>
+    <item>
+      <title> 『Railsチュートリアルの歩き方』を YouTube で公開</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/21590530/rectangle_large_type_2_974371a6d1fc2140dc5ceefaa4b87248.png</media:thumbnail>
+      <description><![CDATA[<blockquote name="rKU1z" style="text-align: center;">この記事を書いた人: <a href="https://twitter.com/Yuppyhappytoyou" target="_blank" rel="nofollow">@Yuppy </a><br></blockquote><p name="NtUhM"><b>『Railsチュートリアルの歩き方』を解説する動画が YouTube から公開</b>されました </p><br/><a href='https://note.com/yasslab/n/n0ad9a665b8da'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Thu, 26 Mar 2020 11:18:56 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n0ad9a665b8da</link>
+      <guid>https://note.com/yasslab/n/n0ad9a665b8da</guid>
+    </item>
+    <item>
+      <title>筑波大学 enPiT でチーム開発について発表しました</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/21153084/rectangle_large_type_2_e195a66f87bc14f87a698dc2b9a74b86.png</media:thumbnail>
+      <description><![CDATA[<p name="ZwHIJ">弊社メンバーの <a href="https://twitter.com/himajin315" target="_blank" rel="nofollow">@himajin315</a> さんが、<a href="https://enpit.coins.tsukuba.ac.jp/" target="_blank" rel="nofollow">筑波大学 enPiT</a> の講義で行われた<b>『失敗から学ぶチーム改善』</b>の発表スライドを公開しました </p><p name="Me0IW"><b>リモートワークでの自社開発のチーム作り</b>の参考となる内容になっていますのでぜひご覧下さい✨<br></p><br/><a href='https://note.com/yasslab/n/n52b9817b4fe5'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Thu, 19 Mar 2020 11:58:40 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n52b9817b4fe5</link>
+      <guid>https://note.com/yasslab/n/n52b9817b4fe5</guid>
+    </item>
+    <item>
+      <title> Railsチュートリアル第6版 (Rails 6.0 対応) の解説動画をリリース</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/21021627/rectangle_large_type_2_239a767844983a743d41bc5df3f44e3d.png</media:thumbnail>
+      <description><![CDATA[<p name="cjac7"><a href="https://note.com/yasslab/n/nd71f64d0fc4d" target="_blank" rel="nofollow">法人向けのリリース</a>に続き、<b>Rails チュートリアル第6版の解説動画</b>が誰でも購入できるようになりました! </p><figure data-identifier="null" embedded-service="external-article" contenteditable="false" name="8AHv4" embedded-content-key="emb058a8530d00c"><div class="fude-iframe-container"><div class="fude-iframe-container-external-article"><div class="widget-cover"><div class="external-article-widget"><a href="https://railstutorial.jp/screencast" target="_blank" rel="nofollow"><strong class="external-article-widget-title">解説動画 - Railsチュートリアル</strong><em class="external-article-widget-description">実際にコードを書きながら解説していく動画 (スクリーンキャスト) です。動画を観ながら勉強したい、研修や勉強会の予習/復習</em><em class="external-article-widget-url">railstutorial.jp</em></a><a class="external-article-widget-image" href="https://railstutorial.jp/screencast" style="background-image: url('https://d2l930y2yx77uc.cloudfront.net/production/uploads/ext/0bf67bb483cb7ad44c7768e0d599134f2f9f4dbef2cbb34a205d9537ec94.png');" target="_blank" rel="nofollow"></a></div></div></div></div></figure><br/><a href='https://note.com/yasslab/n/na27dfd2918f9'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Mon, 16 Mar 2020 14:59:53 +0900</pubDate>
+      <link>https://note.com/yasslab/n/na27dfd2918f9</link>
+      <guid>https://note.com/yasslab/n/na27dfd2918f9</guid>
+    </item>
+    <item>
+      <title> リモートワーク×チーム開発について話します</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/20793014/rectangle_large_type_2_361e0bc62f61b722d51e7c06b856e2ea.jpg</media:thumbnail>
+      <description><![CDATA[<p class="" name="g5jNe">弊社代表の <a href="https://twitter.com/yasulab" target="_blank" rel="nofollow">@yasulab</a> が株式会社ポップインサイトのセミナー (オンライン開催) で登壇します ✨<br></p><blockquote name="WNRsw"><b>日時<br></b>2020年3月18日（水）19:00-20:30<br>※18:50からアクセス可能<br>※参加費：無料<br></blockquote><br/><a href='https://note.com/yasslab/n/ne0a996e54a90'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Thu, 12 Mar 2020 11:41:04 +0900</pubDate>
+      <link>https://note.com/yasslab/n/ne0a996e54a90</link>
+      <guid>https://note.com/yasslab/n/ne0a996e54a90</guid>
+    </item>
+    <item>
+      <title> リモートワーク×技術力について話します</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/20628941/rectangle_large_type_2_fdb36116a323ddb29790a04d52ed48c8.png</media:thumbnail>
+      <description><![CDATA[<p name="SU4La" class=""><br><a href="https://www.wantedly.com/companies/memberscareer" target="_blank" rel="nofollow">株式会社メンバーズキャリア</a>さんが主催する<a href="https://hrmos.co/pages/memberscareer/jobs/0000070" target="_blank" rel="nofollow">オンラインイベント</a>に、弊社代表の <a href="https://twitter.com/yasulab" target="_blank" rel="nofollow">@yasulab</a> がスピーカーとして参加します</p><blockquote name="WUpgX">2020年3月25日（水）19:00-20:30<br>※18:50からオンラインアクセス可能<br>※参加費：無料<br>※オンラインミートアップ参加のミーティングコードは申込者に別途ご案内<br></blockquote><br/><a href='https://note.com/yasslab/n/nff92669d45c8'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Tue, 10 Mar 2020 12:10:22 +0900</pubDate>
+      <link>https://note.com/yasslab/n/nff92669d45c8</link>
+      <guid>https://note.com/yasslab/n/nff92669d45c8</guid>
+    </item>
+    <item>
+      <title> Railsチュートリアル解説動画の見どころ(第11章)</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/20397269/rectangle_large_type_2_27831d4a296d675a5fcc9fb22b2162a0.png</media:thumbnail>
+      <description><![CDATA[<p name="05Er2">Railsチュートリアル解説動画「おすすめの解説箇所」を厳選！<br></p><p name="gSQAi">今回は「第11章」です10章までの基本的なRailsの機能に、メールを使った認証を付けていきます✉️現在当たり前のように使われている<b>メール認証機能</b>について学べる第11章の見どころを紹介していきます‍♀️<br></p><br/><a href='https://note.com/yasslab/n/nc0b3b12f1182'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Fri, 06 Mar 2020 11:01:29 +0900</pubDate>
+      <link>https://note.com/yasslab/n/nc0b3b12f1182</link>
+      <guid>https://note.com/yasslab/n/nc0b3b12f1182</guid>
+    </item>
+    <item>
+      <title> Railsチュートリアル解説動画の見どころ(第10章)</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/20219030/rectangle_large_type_2_2bfdf63eec2743c99c4be798b5eac35d.png</media:thumbnail>
+      <description><![CDATA[<p name="1K1JG">Railsチュートリアル解説動画「おすすめの解説箇所」を厳選！<br></p><p name="Plddh">今回は「第10章」ですユーザー情報の一覧を表示したり、更新したり削除したりと、色んなことができるようになる面白い章です。これで7章から進めてきた RESTful な Users モデルがいよいよ完成となりますそれでは10章の見どころを紹介していきます<br></p><br/><a href='https://note.com/yasslab/n/n2beb7c168911'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Mon, 02 Mar 2020 21:16:58 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n2beb7c168911</link>
+      <guid>https://note.com/yasslab/n/n2beb7c168911</guid>
+    </item>
+    <item>
+      <title> coderdojo.jp から地域別 CoderDojo 数をリリース</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/20204300/rectangle_large_type_2_41b71896f7a186eb27b48a0d20eeaa49.png</media:thumbnail>
+      <description><![CDATA[<p name="IEVl2">coderdojo.jp の<a href="https://coderdojo.jp/stats" target="_blank" rel="nofollow">統計情報ページ</a>で、地域別 CoderDojo 数が視覚的に俯瞰できるようになりました ✨</p><p name="K2pi7"><a href="https://coderdojo.jp/stats#map" target="_blank" rel="nofollow"><img alt="画像1" src="https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/20204540/picture_pc_60878b4d1f71b181a8d43380c4ac5fd7.gif" width="620" height="578" class="" id="image-K2pi7"></a></p><br/><a href='https://note.com/yasslab/n/nbf084470eb5e'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Mon, 02 Mar 2020 12:36:54 +0900</pubDate>
+      <link>https://note.com/yasslab/n/nbf084470eb5e</link>
+      <guid>https://note.com/yasslab/n/nbf084470eb5e</guid>
+    </item>
+    <item>
+      <title> coderdojo.jp からタグ分布をリリース</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19976199/rectangle_large_type_2_abc5f2d69d8610209f13b3ff03b25854.png</media:thumbnail>
+      <description><![CDATA[<p name="1Mlo5">coderdojo.jp から公開している統計情報に、各 Dojo のタグ分布を追加しました ‍✨</p><figure embedded-service="external-article" contenteditable="false" name="Oukop" embedded-content-key="emb03092b11247a"><div class="fude-iframe-container"><div class="fude-iframe-container-external-article"><div class="widget-cover"><div class="external-article-widget"><a href="https://coderdojo.jp/stats" target="_blank" rel="nofollow"><strong class="external-article-widget-title">統計情報 - CoderDojo Japan</strong><em class="external-article-widget-description">CoderDojo の統計情報をまとめています。</em><em class="external-article-widget-url">coderdojo.jp</em></a><a class="external-article-widget-image" href="https://coderdojo.jp/stats" style="background-image: url('https://coderdojo.jp/og-image.png');" target="_blank" rel="nofollow"></a></div></div></div></div></figure><br/><a href='https://note.com/yasslab/n/n34eb6541da2a'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Thu, 27 Feb 2020 11:58:02 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n34eb6541da2a</link>
+      <guid>https://note.com/yasslab/n/n34eb6541da2a</guid>
+    </item>
+    <item>
+      <title> Railsチュートリアル第6版を法人向けに提供開始</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19868759/rectangle_large_type_2_957872945976b55fa88adaa299f4c53a.png</media:thumbnail>
+      <description><![CDATA[<p name="y8WAL"><b>第6版の</b><b>Railsチュートリアル (Rails 6.0 対応) </b>の準備が整ったので、<b>まずは<a href="https://railstutorial.jp/business" target="_blank" rel="nofollow">法人プラン</a>利用者に向けて先行公開</b>しました! ✨</p><p name="eaySw"><br></p><br/><a href='https://note.com/yasslab/n/nd71f64d0fc4d'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Tue, 25 Feb 2020 12:13:31 +0900</pubDate>
+      <link>https://note.com/yasslab/n/nd71f64d0fc4d</link>
+      <guid>https://note.com/yasslab/n/nd71f64d0fc4d</guid>
+    </item>
+    <item>
+      <title> 国際的エンジニアにリーチしやすい remotework.jp がリリースされました</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19697335/rectangle_large_type_2_96e7ea4713d83b08568596f562de5bb0.png</media:thumbnail>
+      <description><![CDATA[<p name="GZvUD">リモートワーク採用中のテクノロジー企業が掲載されている GitHub リポジトリ『<a href="https://github.com/remote-jp/remote-in-japan" target="_blank" rel="nofollow">remote-jp/remote-in-japan</a>』が、Web サイトでも見れるようになりました。<br></p><figure embedded-service="external-article" contenteditable="false" name="hxTcb" embedded-content-key="emb44f38274d347" data-identifier="null"><div class="fude-iframe-container"><div class="fude-iframe-container-external-article"><div class="widget-cover"><div class="external-article-widget"><a href="https://remotework.jp/" target="_blank" rel="nofollow"><strong class="external-article-widget-title">Remotework.jp</strong><em class="external-article-widget-description">Simple and responsive website for remote work in Japan in Jap</em><em class="external-article-widget-url">remotework.jp</em></a><a class="external-article-widget-image" href="https://remotework.jp/" style="background-image: url('https://d2l930y2yx77uc.cloudfront.net/production/uploads/ext/eb7a3d1b1951dc7bc94f670a5d892804d7f29aedbd8cca7ee3046b962bbb.png');" target="_blank" rel="nofollow"></a></div></div></div></div></figure><br/><a href='https://note.com/yasslab/n/n1a3ca54a1844'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Sat, 22 Feb 2020 12:20:13 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n1a3ca54a1844</link>
+      <guid>https://note.com/yasslab/n/n1a3ca54a1844</guid>
+    </item>
+    <item>
+      <title> 解説動画に進捗を表すプログレスバーが登場</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19644490/rectangle_large_type_2_633889e2f093f673945d9352656c8158.png</media:thumbnail>
+      <description><![CDATA[<p name="hGcjG">Railsチュートリアル解説動画に<b>進捗状況に合わせて増えていくプログレスバー</b>が追加されました </p><p name="ierCF"><b>合計３６時間以上のボリュームがある解説動画</b>ですが、<b>未視聴 or 視聴済み</b>を変更していくことで、自分の進捗具合を視覚的に分かりやすく進めていくことができるようになりました </p><br/><a href='https://note.com/yasslab/n/naa4ea6c96e4c'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Fri, 21 Feb 2020 11:50:31 +0900</pubDate>
+      <link>https://note.com/yasslab/n/naa4ea6c96e4c</link>
+      <guid>https://note.com/yasslab/n/naa4ea6c96e4c</guid>
+    </item>
+    <item>
+      <title> リモートワークの話をしてみた話 (反響編)</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19553636/rectangle_large_type_2_59ea8f53922344f41731fdd8efbb62f0.png</media:thumbnail>
+      <description><![CDATA[<blockquote name="aNYmc"> この記事は<a href="https://yasslab.jp/ja/news/remote-work-from-okinawa" target="_blank" rel="nofollow">2019年6月8日の記事</a>を更新して note に転記したものです。<br></blockquote><p name="3N0zN"><a href="http://regional-gh.rubykaigi.org/nagoya04/" target="_blank" rel="nofollow">名古屋Ruby会議04</a> で『<a href="https://speakerdeck.com/yasslab/remote-first-company" target="_blank" rel="nofollow">沖縄発Rubyフルリモート会社のリモートワークを支える仕組み</a>』という発表をしました! ✨<br></p><br/><a href='https://note.com/yasslab/n/n28636ee60c59'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Thu, 20 Feb 2020 09:50:20 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n28636ee60c59</link>
+      <guid>https://note.com/yasslab/n/n28636ee60c59</guid>
+    </item>
+    <item>
+      <title> Railsチュートリアル解説動画の見どころ(第9章)</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19448978/rectangle_large_type_2_c728c7c400d97a701658bb880f083a3e.png</media:thumbnail>
+      <description><![CDATA[<p name="uFeig">Railsチュートリアル解説動画「おすすめの解説箇所」を厳選！<br></p><p name="zSBLu">今回は「第９章」ですこの章では「<b>Remember me</b>」機能を作っていきます。Railsチュートリアルの中でも難所と言われている部分ですが、これまでの章でやってきたことを糧にじっくりとやっていきましょう✨それでは、９章の見どころを紹介していきます<br></p><br/><a href='https://note.com/yasslab/n/n56ad9b8d21cc'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Wed, 19 Feb 2020 14:54:00 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n56ad9b8d21cc</link>
+      <guid>https://note.com/yasslab/n/n56ad9b8d21cc</guid>
+    </item>
+    <item>
+      <title>沖縄発フルリモート会社の #リモートワーク を支える仕組み</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19541486/rectangle_large_type_2_cc3161a0ca56b675064a82407dfcf9b2.png</media:thumbnail>
+      <description><![CDATA[<p name="vo5Yl"><a href="https://hackers-champloo.org/2019/program.html" target="_blank" rel="nofollow">沖縄</a>や<a href="http://regional-gh.rubykaigi.org/nagoya04/" target="_blank" rel="nofollow">名古屋</a>、<a href="https://yasslab.jp/ja/posts/remote-first-at-megane-fes-2019" target="_blank" rel="nofollow">東京</a>などで講演している<b>『リモートワーク』</b>の話をまとめてみました！</p><p name="qsp0f"><a href="https://www.youtube.com/watch?v=nAdcD2UMnPE" target="_blank" rel="nofollow">動画版</a>もありますが30分とやや長いので、<b>その発表のスライド資料で要点をまとめてみた記事</b>となります。スライドだけでは分かりづらい箇所については随時コメントで補足しています ✅</p><br/><a href='https://note.com/yasslab/n/n244433f0725a'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Wed, 19 Feb 2020 12:24:17 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n244433f0725a</link>
+      <guid>https://note.com/yasslab/n/n244433f0725a</guid>
+    </item>
+    <item>
+      <title> リモート会議の環境音が軽減できる Krisp のススメ</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19491877/rectangle_large_type_2_6f47697cad63261c5d9779bbd6ac739b.png</media:thumbnail>
+      <description><![CDATA[<p name="4lnwh"><b>「Krisp」というアプリをご存知でしょうか?</b></p><p name="MJgDj">YassLab 社のようなリモートワーク主体で動く会社では、ビデオ会議を頻繁に行いますが、場所によっては周りの環境音が気になってしまい、スムーズにコミュニケーションが取れなくなってしまうときがあります。<a href="https://www.soundhouse.co.jp/search/index?s_maker_cd=158&amp;s_category_cd=1123&amp;i_type=cm" target="_blank" rel="nofollow">指向性のあるマイク</a>などを使うと改善できるのですが、常にマイクを持って移動するのも手間ですよね &gt;&lt; <br></p><br/><a href='https://note.com/yasslab/n/n7507bad73455'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Tue, 18 Feb 2020 12:02:55 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n7507bad73455</link>
+      <guid>https://note.com/yasslab/n/n7507bad73455</guid>
+    </item>
+    <item>
+      <title> CODE-RAVE vol.2 に登壇します</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/19248340/rectangle_large_type_2_65c64707c0160ef291aa5ebf47fdd0b2.png</media:thumbnail>
+      <description><![CDATA[<p name="lfdbF"><br></p><p name="59Epp">東京都港区の<a href="https://www.sios.com/" target="_blank" rel="nofollow">サイオス株式会社</a>で開催される <b><a href="https://code-rave02.peatix.com/view" target="_blank" rel="nofollow">CODE-RAVE vol.2</a></b> に弊社代表の <a href="https://twitter.com/yasulab" target="_blank" rel="nofollow">@yasulab</a> が登壇することになりました </p><br/><a href='https://note.com/yasslab/n/n91ae220f7ade'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Fri, 14 Feb 2020 11:30:00 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n91ae220f7ade</link>
+      <guid>https://note.com/yasslab/n/n91ae220f7ade</guid>
+    </item>
+    <item>
+      <title> Railsチュートリアル解説動画の見どころ(第８章)</title>
+      <media:thumbnail>https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/18806376/rectangle_large_type_2_178b30e171516948383e44d74dc8a8f9.png</media:thumbnail>
+      <description><![CDATA[<p name="w17zt">Railsチュートリアル解説動画「おすすめの解説箇所」を厳選！</p><p name="rD3qp">今回は「第８章」ですこの章では、私たちが普段当たり前のように使っている機能の一つの「セッション」というものを作っていきます。少し難しい部分もありますが、この機能を１から作っていく事で、多くの気付きと自信に繋がると思いますので頑張っていきましょう✨それでは、８章の見どころをピックアップしていきます<br></p><br/><a href='https://note.com/yasslab/n/n1862507f7be5'>続きをみる</a>]]></description>
+      <note:creatorImage>https://assets.st-note.com/production/uploads/images/20678600/profile_138d1268a3fdbf98c021e813de7e5f2b.png?fit=bounds&amp;format=jpeg&amp;quality=45&amp;width=330</note:creatorImage>
+      <note:creatorName>YassLab 株式会社</note:creatorName>
+      <pubDate>Wed, 05 Feb 2020 09:34:55 +0900</pubDate>
+      <link>https://note.com/yasslab/n/n1862507f7be5</link>
+      <guid>https://note.com/yasslab/n/n1862507f7be5</guid>
+    </item>
+  </channel>
+</rss>
