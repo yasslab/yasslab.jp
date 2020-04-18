@@ -45,7 +45,7 @@ Doorkeeper の完全有料化に伴って、2016年9月1日から無料で使え
 ##### [Okinawa.rb のスポンサー紹介例](https://okinawarb.doorkeeper.jp/events/77519)
 
 <p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%"></a></p>
-<p class="imgfit text-center">コピペ用Markdown (改変も可)</p>
+<p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
 ```
 # スポンサー
@@ -59,7 +59,7 @@ Doorkeeper の完全有料化に伴って、2016年9月1日から無料で使え
 ##### [CoderDojo Japan のスポンサー紹介例](https://coderdojo-japan.doorkeeper.jp/events/91507)
 
 <p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%"></a></p>
-<p class="imgfit text-center">コピペ用Markdown (改変も可)</p>
+<p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
 ```
 # スポンサー
