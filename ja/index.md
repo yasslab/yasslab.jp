@@ -300,12 +300,21 @@ layout: plain_without_thumbnail
         <p class="text-md-center">YassLab 社ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="ignore-sp">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
         <div class="row">
           <div class="col-md-4">
+	    <figure>
+              <a href="https://jr.mitou.org/" target="_blank" rel="noopener">
+                <img src="/img/logos/mitoujr.png" alt="未踏ジュニア - 独創的アイデアと卓越した技術を持つ
+小中高生クリエイター支援プログラム">
+              </a>
+              <figcaption><a href="https://jr.mitou.org/#sponsors">Webサービス開発教材の提供</a></figcaption>
+            </figure>
+	    <!--
             <figure>
               <a href="https://ruby.okinawa/" target="_blank" rel="noopener">
                 <img src="/img/logos/okinawarb.gif" alt="Okinawa Ruby User Group">
               </a>
               <figcaption><a href="https://ruby.okinawa/okrk02/">沖縄Ruby会議などの運営支援</a></figcaption>
             </figure>
+	    -->
           </div>
           <div class="col-md-4">
             <figure>
@@ -317,7 +326,7 @@ layout: plain_without_thumbnail
           </div>
           <div class="col-md-4">
             <figure>
-              <a href="https://coderdojo.jp/" target="_blank" rel="noopener">
+              <a href="/ja/about/#culture" target="_blank" rel="noopener">
                 <img src="/img/logos/coderdojo-japan.gif" alt="CoderDojo Japan - 子どものためのプログラミング道場">
               </a>
               <figcaption><a href="/ja/agile">Webサービスの開発支援</a></figcaption>
