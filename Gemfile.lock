@@ -30,7 +30,7 @@ GEM
     ffi (1.12.2)
     forwardable-extended (2.6.0)
     hike (1.2.3)
-    html-proofer (3.15.2)
+    html-proofer (3.15.3)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogumbo (~> 2.0)
