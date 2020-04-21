@@ -2,8 +2,9 @@
 layout: legal
 title:  就業規則
 ---
+
 <div class="text-center">
-<h1 id="yasslab株式会社-就業規則">YassLab株式会社 就業規則</h1>
+  <h1 id="top"><a href="#top">YassLab 株式会社<br>就業規則</a></h1>
 </div>
 
 > 【目　次】

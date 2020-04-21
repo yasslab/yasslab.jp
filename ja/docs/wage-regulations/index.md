@@ -2,9 +2,11 @@
 layout: legal
 title:  賃金規程
 ---
+
 <div class="text-center">
-<h1 id="yasslab株式会社-賃金規程">YassLab株式会社 賃金規程</h1>
+  <h1 id="top"><a href="#top">YassLab 株式会社<br>賃金規程</a></h1>
 </div>
+
 > 【目　次】
 > [第１章　総　則](#1-総%E3%80%80則)
 > [第２章　給与計算および支払い方法](#2-給与計算および支払方法)
