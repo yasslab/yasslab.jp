@@ -1,9 +1,9 @@
 ---
 layout: legal
-title:  Railsチュートリアルスタイルガイド
+title:  Railsチュートリアル配色ガイドライン
 ---
 <div class="text-center">
-  <h1 id="top"><a href="#top">スタイルガイド</a></h1>
+  <h1 id="top"><a href="#top">配色ガイドライン</a></h1>
 </div>
 
 
