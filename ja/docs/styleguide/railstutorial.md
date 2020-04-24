@@ -8,14 +8,13 @@ title:  Railsチュートリアル配色ガイドライン
 
 
 {% for colors in site.data.styles.railstutorial %}
-  <h2>{{colors.name}}</h2>
+  {% if colors.name %}<h3>{{colors.name}}</h3>{% endif %}
   <p>{{colors.dsc}}</p>
   <div class="colors">
     {% for color in colors.colors %}
       <div class="color">
         <div class="one-color" style="background-color: #{{ color.code }}"></div>
         <p>{{ color.name }} #{{ color.code }}</p>
-        <p>{{ color.dsc }}</p>
       </div>
     {% endfor %}
   </div>
