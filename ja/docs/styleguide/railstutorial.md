@@ -13,7 +13,7 @@ title:  Railsチュートリアル配色ガイドライン
   <div class="colors">
     {% for color in colors.colors %}
       <div class="color">
-        <div class="one-color" style="background-color: #{{ color.code }}"></div>
+        <div class="one-color" style="background-color: #{{ color.code }}" onclick="Copy('#{{color.code}}')"></div>
         <p>{{ color.name }} #{{ color.code }}</p>
       </div>
     {% endfor %}
@@ -52,9 +52,22 @@ title:  Railsチュートリアル配色ガイドライン
   }
   .one-color {
     height: 100px;
+    cursor: pointer;
   }
   .colors {
     display: flex;
     flex-wrap: wrap;
   }
 </style>
+<div id='copy' style='color:#fff;opacity:0;'>
+</div>
+<script type="text/javascript">
+  function Copy(color) {
+    var div = document.getElementById('copy');
+    div.innerHTML = '';
+    var text = document.createTextNode(color);
+    div.appendChild(text);
+    window.getSelection().selectAllChildren(div);
+    document.execCommand('copy');
+  }
+</script>
