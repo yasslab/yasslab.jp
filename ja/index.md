@@ -226,6 +226,8 @@ layout: plain_without_thumbnail
 	  caption='(株) mgn代表。Team LENS。LT職人' %}
 	  {% include member.html username='shoko_webdesign' link_to='twitter'
 	  caption='Webデザイナ。Team LENS。専門学校講師' %}
+    {% include member.html username='YukiMihashi' link_to='twitter'
+	  caption='Webデザイナー。' %}
 
 	  {% comment %}
 	  {% include member.html username='nalabjp'   link_to='twitter' offset='offset-md-2'
