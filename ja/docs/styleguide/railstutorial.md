@@ -6,15 +6,15 @@ title:  Railsチュートリアル配色ガイドライン
   <h1 id="top"><a href="#top">配色ガイドライン</a></h1>
 </div>
 
-## カラーパレット
+## カラーパレット🎨
+クリックで16進数カラーコードがコピーできます。
 {% for colors in site.data.styles.railstutorial %}
   {% if colors.name %}<h3>{{colors.name}}</h3>{% endif %}
-  <p>{{colors.dsc}}</p>
+  {% if colors.dsc %}<p>{{colors.dsc}}</p>{% endif %}
   <div class="colors">
     {% for color in colors.colors %}
       <div class="color">
-        <div class="one-color" style="background-color: #{{ color.code }}" onclick="Copy('#{{color.code}}')"></div>
-        <p>{{ color.name }} #{{ color.code }}</p>
+        <div class="one-color" style="background-color: #{{ color.code }}" onclick="Copy('#{{color.code}}')"><p  style="{% if color.txt == 'white' %} color: #fff; {% endif %}">{{ color.name }}<br>#{{ color.code }}</p></div>
       </div>
     {% endfor %}
   </div>
@@ -47,12 +47,14 @@ title:  Railsチュートリアル配色ガイドライン
 
 <style media="screen">
   .color {
-    margin: 12px;
-    width: calc(25% - 24px);
+    margin: 4px;
+    width: calc(25% - 8px);
   }
   .one-color {
     height: 100px;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 8px;
   }
   .colors {
     display: flex;
