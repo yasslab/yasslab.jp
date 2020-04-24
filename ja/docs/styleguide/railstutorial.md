@@ -24,7 +24,7 @@ title:  Railsチュートリアル配色ガイドライン
 <style media="screen">
   .color {
     margin: 12px;
-    width: calc(33% - 24px);
+    width: calc(25% - 24px);
   }
   .one-color {
     height: 100px;
