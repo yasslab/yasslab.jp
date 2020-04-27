@@ -19,7 +19,7 @@ thumbnail: bg-sky.jpg
   </li>
   <li style="padding-top: 7px;">
     <span class="h5">
-      <a href="/ja/docs/styleguide">スタイルガイド</a>
+      <a href="/ja/docs/styleguide-railstutorial">Railsチュートリアルの配色ガイドライン</a>
     </span>
   </li>
 </ul>

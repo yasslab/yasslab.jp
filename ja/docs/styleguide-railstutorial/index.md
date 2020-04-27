@@ -1,9 +1,9 @@
 ---
 layout: legal
-title:  Railsチュートリアル配色ガイドライン
+title:  Railsチュートリアルの配色ガイドライン
 ---
 <div class="text-center">
-  <h1 id="top"><a href="#top">配色ガイドライン</a></h1>
+  <h1 id="top"><a href="#top"><a href="http://railstutorial.jp/">Railsチュートリアル</a><br class="ignore-sp">の配色ガイドライン</a></h1>
 </div>
 
 ## カラーパレット🎨
