@@ -17,4 +17,9 @@ thumbnail: bg-sky.jpg
       <a href="/ja/docs/wage-regulations">YassLab株式会社 賃金規程</a>
     </span>
   </li>
+  <li style="padding-top: 7px;">
+    <span class="h5">
+      <a href="/ja/docs/styleguide-railstutorial">Railsチュートリアルの配色ガイドライン</a>
+    </span>
+  </li>
 </ul>

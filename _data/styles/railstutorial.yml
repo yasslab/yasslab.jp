@@ -1,0 +1,94 @@
+- colorSet:
+  name:
+  dsc:
+  colors:
+    - name: main
+      code: 71151a
+      dsc: 背景、チュートリアル外でのテキストリンク
+      txt: white
+    - name: main-light
+      code: a13532
+      dsc: ボタン、アイコン、ボーダー等装飾
+      txt: white
+    - name: main-lighter
+      code: d57370
+      dsc:
+    - name: main-lightest
+      code: f2dede
+      dsc:
+- colorSet:
+  name:
+  colors:
+    - name: navy
+      code: 002f72
+      dsc: チュートリアル内でのテキストリンク、アクセント
+      txt: white
+    - name: navy-light
+      code: 4670ac
+      txt: white
+    - name: white-blue
+      code: f8f9fc
+      dsc: チュートリアル内での引用、装飾。チュートリアル外では基本使用しない。
+- colorSet:
+  name:
+  colors:
+    - name: green-dark
+      code: '006400'
+      txt: white
+    - name: green
+      code: '008000'
+      txt: white
+    - name: green-light
+      code: 97C090
+    - name: green-lighter
+      code: dff0d8
+      dsc: 成功ダイアログの背景色。文字色は#006400を使用。
+- colorSet:
+  name:
+  colors:
+    - name: yellow
+      code: f0c500
+      txt: white
+    - name: yellow-light
+      code: ffe595
+    - name: yellow-lighter
+      code: fff8e6
+- colorSet:
+  name: グレーパレット
+  colors:
+    - name: black
+      code: 111111
+      dsc: 本文、チュートリアル外での見出し
+      txt: white
+    - name: darkgray
+      code: 3b3b3b
+      txt: white
+    - name: gray
+      code: 8f8f8f
+      dsc: 見出しの装飾等
+    - name: lightgray
+      code: eeeeee
+      dsc: 掲載しているコードの背景
+    - name: bg-main
+      code: eae4df
+      dsc: 全体の背景色等
+
+- colorSet:
+  name: シンタックスハイライト
+  dsc: チュートリアル内のコード。シンタックスハイライト以外では使わないことが望ましいです。
+  colors:
+    - name: code-navy
+      code: '000080'
+      txt: white
+    - name: code-green
+      code: '008000'
+      txt: white
+    - name: code-darkgreen
+      code: '006400'
+      txt: white
+    - name: code-red
+      code: ba2121
+      txt: white
+    - name: code-seagreen
+      code: 408080
+      txt: white
