@@ -19,6 +19,9 @@
 - colorSet:
   name:
   colors:
+    - name: navy-dark
+      code: 1b2550
+      txt: white
     - name: navy
       code: 002f72
       dsc: チュートリアル内でのテキストリンク、アクセント
