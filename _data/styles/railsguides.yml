@@ -1,0 +1,68 @@
+- colorSet:
+  name:
+  dsc:
+  colors:
+    - name: main-dark
+      code: 980905
+      dsc: メインカラーの暗い版、リンクなど
+      txt: white
+    - name: main
+      code: c52f24
+      dsc: メインカラー
+      txt: white
+    - name: main-light
+      code: da6258
+    - name: main-lighter
+      code: f1938c
+    - name: main-lightest
+      code: ffeded
+    - name: main-light
+      code: ee3f3f
+- colorSet:
+  name:
+  colors:
+    - name: blue
+      code: 5280dd
+      txt: white
+    - name: blue-light
+      code: d5e9f6
+      dsc: トップの水色
+- colorSet:
+  name:
+  colors:
+    - name: yellow-light
+      code: fff9d8
+      txt: black
+- colorSet:
+  name: アラート用色
+  colors:
+    - name: green
+      code: 3c763d
+      txt: white
+    - name: green-lightest
+      code: dff0d8
+    - name: yellow-dark
+      code: 8a6d3b
+      txt: white
+    - name: orange-light
+      code: f7e1b5
+    - name: red-light-dull
+      code: e4b9c0
+
+
+- colorSet:
+  name: グレーパレット
+  colors:
+    - name: black
+      code: 222
+      txt: white
+    - name: gray-dark
+      code: 333333
+      dsc:
+      txt: white
+    - name: gray-light
+      code: 999
+      txt: white
+    - name: gray-lighter
+      code: eeeeee
+      dsc: 掲載しているコードの背景
