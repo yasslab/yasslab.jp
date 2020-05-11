@@ -126,7 +126,7 @@ GEM
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
-    public_suffix (4.0.4)
+    public_suffix (4.0.5)
     puma (4.3.3)
       nio4r (~> 2.0)
     rack (1.6.13)
@@ -217,7 +217,7 @@ DEPENDENCIES
   yaml
 
 RUBY VERSION
-   ruby 2.6.5p114
+   ruby 2.7.1p83
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
