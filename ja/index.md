@@ -66,7 +66,6 @@ layout: plain_without_thumbnail
       </div>
     </div>
   </div>
-  <div id="tutorial"></div>
 </section>
 
 <article>
@@ -79,7 +78,59 @@ layout: plain_without_thumbnail
   </div>
 </article>
 
-<section class="mainVisual">
+<section id="services" class="service entry_content" >
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3><a href="#services" style="color: white;">《サービス紹介》</a><br></h3>
+	<h4 style="color: white;">『学び』を支える様々なサービスをご提供しています</h4>
+	
+	<div class="slides">
+	  <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+	</div>
+
+	<!--
+        <div class="row mb-5">
+          <div class="col-4">
+            <figure id="ruby">
+              <img src="/img/icons/ruby-pale.png" width="80%" alt="Ruby logo" />
+               <figcaption>Ruby / Rails</figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure id="cloud">
+              <img src="/img/icons/cloud-pale.png" width="80%" alt="cloud icon" />
+              <figcaption>Heroku / AWS</figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure id="agile">
+              <img src="/img/icons/agile-pale.png" width="80%" alt="Agile Development image" />
+              <figcaption>Agile Development</figcaption>
+            </figure>
+          </div>
+        </div>
+	-->
+
+      </div><!--//col-->
+    </div><!--//row-->
+
+   <div class="row">
+      <div class="col-md-6">
+        <div class="developmentSupport__more text-center">
+            <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社概要を見る</a>
+          </div>
+        </div><!--//col-->
+        <div class="col-md-6">
+        <div class="developmentSupport__more text-center">
+            <a href="/ja/works" class="btn btn-primary btn-block mt-2">過去の実績を見る</a>
+          </div>
+        </div><!--//col-->
+    </div><!--//row-->
+  </div><!--//container-->
+</section>
+
+<section id="tutorial" class="mainVisual" style="padding-top: 50px;">
   <div class="jumbotron">
   <h2 class="hide">ライセンス契約で事業を加速させる！Railsチュートリアル 協業プラン</h2>
     <picture>
@@ -131,60 +182,6 @@ layout: plain_without_thumbnail
       </div>
     </div>
   </div>
-</section>
-
-
-<section id="services" class="service entry_content" >
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h3><a href="#services" style="color: white;">《サービス紹介》</a><br></h3>
-	<h4 style="color: white;">『学び』を支える様々なサービスをご提供しています</h4>
-	
-	<div class="slides">
-	  <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-	</div>
-
-	<!--
-        <div class="row mb-5">
-          <div class="col-4">
-            <figure id="ruby">
-              <img src="/img/icons/ruby-pale.png" width="80%" alt="Ruby logo" />
-               <figcaption>Ruby / Rails</figcaption>
-            </figure>
-          </div>
-          <div class="col-4">
-            <figure id="cloud">
-              <img src="/img/icons/cloud-pale.png" width="80%" alt="cloud icon" />
-              <figcaption>Heroku / AWS</figcaption>
-            </figure>
-          </div>
-          <div class="col-4">
-            <figure id="agile">
-              <img src="/img/icons/agile-pale.png" width="80%" alt="Agile Development image" />
-              <figcaption>Agile Development</figcaption>
-            </figure>
-          </div>
-        </div>
-	-->
-
-      </div><!--//col-->
-    </div><!--//row-->
-
-   <div class="row">
-      <div class="col-md-6">
-        <div class="developmentSupport__more text-center">
-            <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社概要を見る</a>
-          </div>
-        </div><!--//col-->
-        <div class="col-md-6">
-        <div class="developmentSupport__more text-center">
-            <a href="/ja/works" class="btn btn-primary btn-block mt-2">過去の実績を見る</a>
-          </div>
-        </div><!--//col-->
-    </div><!--//row-->
-
-  </div><!--//container-->
 </section>
 
 <section class="aboutVisual entry_content" id="members">
