@@ -179,12 +179,13 @@ layout: plain_without_thumbnail
 	    <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
 	  </a>
 	</div>
+	<div id="guides"></div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="guides" class="mainVisual">
+<section class="mainVisual">
   <div class="jumbotron">
   <h2 class="hide">ライセンス契約で事業を加速させる！Railsチュートリアル 協業プラン</h2>
     <picture>
