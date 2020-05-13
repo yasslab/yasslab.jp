@@ -69,6 +69,15 @@ layout: plain_without_thumbnail
   <div id="tutorial"></div>
 </section>
 
+<article>
+  <div id="main_content_wrap" class="outer container" style="margin-top: 20px;">
+    <section id="main_content" class="inner row justify-content-md-center pb-5 mb-5">
+      <div class="col-12 col-md-9 entry_content text-center">
+	{% include recent_news.html %}
+      </div>
+    </section>
+  </div>
+</article>
 
 <section class="mainVisual">
   <div class="jumbotron">
@@ -281,16 +290,6 @@ layout: plain_without_thumbnail
     </div>
   </div>
 </section>
-
-<article>
-  <div id="main_content_wrap" class="outer container" style="margin-top: 20px;">
-    <section id="main_content" class="inner row justify-content-md-center pb-5 mb-5">
-      <div class="col-12 col-md-9 entry_content text-center">
-	{% include recent_news.html %}
-      </div>
-    </section>
-  </div>
-</article>
 
 <section class="community entry_content" id="community">
   <div class="container">
