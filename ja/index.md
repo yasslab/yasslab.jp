@@ -21,7 +21,7 @@ layout: plain_without_thumbnail
     <div class="row">
       <div class="col-12">
         <h2><a href="#vision">創って学ぶ、学んで創る</a></h2>
-        <p class="text-md-center">誰もがプロダクトを創り、磨き、語れる時代に。<br class="ignore-sp">個人・法人向けに各種サービスを提供しています。</p>
+        <p class="text-md-center">誰もがプロダクトを創り、磨き、語れる時代に。<br>個人・法人向けに各種サービスを提供しています。</p>
       </div>
     </div>
   </div>
@@ -176,6 +176,32 @@ layout: plain_without_thumbnail
 
 	<div class="tutorial">
 	  <a href="https://railstutorial.jp/partner">
+	    <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
+	  </a>
+	</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="guides" class="mainVisual">
+  <div class="jumbotron">
+  <h2 class="hide">ライセンス契約で事業を加速させる！Railsチュートリアル 協業プラン</h2>
+    <picture>
+      <source media="(min-width: 600px)" srcset="https://i.gyazo.com/43da1e1a9800376ce069f49c506aaa6f.png" alt="Railsチュートリアル『協業プラン』">
+      <img src="https://i.gyazo.com/43da1e1a9800376ce069f49c506aaa6f.png" alt="Railsチュートリアル『協業プラン』">
+    </picture>
+  </div><!--//jumbotron-->
+  
+  <div class="text-center pt-5">
+    <h3>《プロダクト開発を、より生産的に》</h3>
+    <p class="text-center" style="line-height: 2.5em;">
+      現役のWebエンジニアを中心に幅広く活用されている<b>『<a href="https://railsguides.jp/">Railsガイド</a>』</b>の<br class="ignore-sp">プレミアムプランです。法人向けの<b>『<a href="https://railsguides.jp/">Teamプラン</a>』</b>もあります。</p>
+
+    <div class="container tutorial">
+      <div class="col-12 text-center" style="margin-top: 10px;">
+	<div class="tutorial">
+	  <a href="https://railsguides.jp/pro">
 	    <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
 	  </a>
 	</div>
