@@ -9,12 +9,12 @@ title:  事業実績
       <div class="col-md-12 text-center">
         <h1>事業実績</h1>
 	<br>
-        <h2>沖縄と東京を拠点に<br>次の3つの事業を展開</h2>
+        <h2>創る・学ぶを支援する<br>３つの事業を展開</h2>
         <div class="col-md-8 offset-md-3" style="padding-bottom: 50px;">
           <ol>
-            <li><a href="/ja/agile">Ruby/Rails 開発支援サービス</a>の提供</li>
-            <li><a href="https://railstutorial.jp/">Railsチュートリアル</a>/<a href="https://railsguides.jp/">Railsガイド</a>の運営</li>
-            <li id="story"><a href="https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs">継続的翻訳</a>/<a href="https://speakerdeck.com/yasulab/continuous-integration-for-ebook">継続的組版システム</a>の開発</li>
+	    <li><b><a href="https://railstutorial.jp/">Railsチュートリアル</a></b>の運営: <a href="http://railstutorial.jp/#text">書籍</a>・<a href="https://railstutorial.jp/screencast">動画</a>・<a href="https://railstutorial.jp/#learn-by">質問対応</a>など</li>
+	    <li><b><a href="https://railsguides.jp/">Railsガイド</a></b>の運営: <a href="https://railsguides.jp/ebook">書籍</a>・<a href="https://railsguides.jp/pro">Proプラン</a>・<a href="https://railsguides.jp/team">Teamプラン</a>など</li>
+	    <li>法人向けサービス: <a href="https://railstutorial.jp/business">まとめ買い</a>・<a href="https://railstutorial.jp/partner">ライセンス</a>・<a href="https://railstutorial.jp/training">研修支援</a>など</li>
           </ol>
         </div>
 
