@@ -1,6 +1,22 @@
+### [2020](#2020)
+
+[note](https://note.com/) から許諾を頂き『**[お知らせ](/ja/news)**』ページに移行しました。   
+2020年以降の活動実績については下記をご参照ください。
+
+お知らせ - YassLab 株式会社   
+[https://yasslab.jp/ja/news](https://yasslab.jp/ja/news)
+
 ### [2019](#2019)
 
-- 9月 [RubyWorld Conference](https://yasslab.jp/ja/news/rubyworld-conference-2019-talk)で『[coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp/)』について講演
+- 12月 **[RubyWorld Conference](https://note.com/yasslab/n/n9439edba53bb)で『[coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp/)』開発を講演**
+- 12月 Railsチュートリアルから『[ギフト](https://note.com/yasslab/n/n649137f94d91)』機能をリリース
+- 12月 Railsガイドから『[過去バージョン](https://note.com/yasslab/n/nd8739a9c9533)』機能をリリース
+- 12月 2019年の [coderdojo.jp 開発ハイライト](https://note.com/yasslab/n/n572a17f68842)を公開
+- 11月 Railsチュートリアルから『[途中再生](https://note.com/yasslab/n/n65771c2e6944)』機能をリリース
+- 11月 Railsガイドから『[クレカ不要お試しプラン](https://note.com/yasslab/n/nb6305f4502e5)』をリリース
+- 10月 DIVE INTO CODE 主催 [DEMODAY 7th](https://note.com/yasslab/n/n20f0937e2d3d) にゲスト参加
+- 10月 [『テクトレ』とのライセンス契約](https://note.com/yasslab/n/n17e9987dd421)を発表
+- 10月 [NASA 主催の世界同時ハッカソン](https://note.com/yasslab/n/n77abe4346f7f)に協賛
 - 9月 [Railsチュートリアル集中解説セミナー](https://yasslab.jp/ja/news/railstutorial-seminar-2019-autumn)の受付開始
 - 9月 大阪Ruby会議02で『[coderdojo.jp](https://github.com/coderdojo-japan/coderdojo.jp/)』について講演
 - 9月 テクトレ社とのRailsチュートリアル[業務提携を発表](https://yasslab.jp/ja/news/partnership-with-techtraining)
