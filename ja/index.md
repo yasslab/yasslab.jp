@@ -66,6 +66,7 @@ layout: plain_without_thumbnail
       </div>
     </div>
   </div>
+  <div id="news"></div>
 </section>
 
 <article>
@@ -308,7 +309,6 @@ layout: plain_without_thumbnail
             <dt class="col-md-6">スター数</dt>
             <dd id="github__stars" class="col-md-6">{% github_stats stars %}</dd>
           </dl>
-	  <div id="news"></div>
         </div>
       </div>
     </div>
