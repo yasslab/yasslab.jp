@@ -131,7 +131,7 @@ layout: plain_without_thumbnail
 </section>
 
 
-<section>
+<section class="services-for-team">
   <h2>法人向けサービス</h2>
   <div class="service-business">
     <a href="https://railstutorial.jp/business" class="service-business-one" id="tutorial-partner">

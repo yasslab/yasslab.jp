@@ -941,7 +941,11 @@ ul.flex-container li {
   transition: 0.5s;
 }
 
-
+.services-for-team {
+  h2 {
+    text-align: center;
+  }
+}
 .service-business {
   padding: 0 calc((100% - 960px)/2);
   display: flex;
