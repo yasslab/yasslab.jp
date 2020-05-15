@@ -962,7 +962,7 @@ ul.flex-container li {
   width: 33%;
   max-width: 600px;
   margin: 40px 12px;
-  p { margin: 16px; }
+  p, ul { margin: 16px; }
   img { border-radius: 5px 5px 0 0; }
   text-decoration: none;
   color: #111;
@@ -981,5 +981,13 @@ ul.flex-container li {
     text-align: center;
     margin-top: 12px;
     font-weight: 600;
+  }
+  ul {
+    list-style: none;
+    padding: 0 0 0 1em;
+    list-style-image: url('/img/checkmark.svg');
+    li {
+      line-height: 2em;
+    }
   }
 }
