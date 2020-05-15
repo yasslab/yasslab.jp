@@ -135,7 +135,7 @@ layout: plain_without_thumbnail
   <h2>法人向けサービス</h2>
   <div class="service-business">
     <a href="https://railstutorial.jp/business" class="service-business-one" id="tutorial-partner" target="_blank">
-      <img src="https://railstutorial.jp/images/business/main-img.jpg" alt="">
+      <img src="/img/thumbnail-tutorial-business.png" alt="">
       <h3>Railsチュートリアル 法人プラン</h3>
       <ul>
         <li>社員研修等での活用</li>
@@ -145,7 +145,7 @@ layout: plain_without_thumbnail
       <p>大学や企業で採用されている<b>『Railsチュートリアル』</b>を社員研修等、法人内での利用向けに提供するプランです。</p>
     </a>
     <a href="https://railstutorial.jp/partner" class="service-business-one" id="guides-team" target="_blank">
-      <img src="/img/banner-partner.jpg" alt="">
+      <img src="/img/thumbnail-tutorial-partner.png" alt="">
       <h3>Railsチュートリアル 協業プラン</h3>
       <ul>
         <li>スクール・教室での活用</li>
@@ -155,7 +155,7 @@ layout: plain_without_thumbnail
       <p>大学や企業で採用されている<b>『Railsチュートリアル』</b>を法人向けに提供するライセンス契約型サービスです。</p>
     </a>
     <a href="https://railsguides.jp/team" class="service-business-one" id="guides-team" target="_blank">
-      <img src="/img/banner-guides-team.png" alt="">
+      <img src="/img/thumbnail-guides-team.png" alt="">
       <h3>Railsガイド Teamプラン</h3>
       <ul>
         <li>全文検索・ショートカット機能</li>
