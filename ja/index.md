@@ -134,7 +134,7 @@ layout: plain_without_thumbnail
 <section class="services-for-team">
   <h2>法人向けサービス</h2>
   <div class="service-business">
-    <a href="https://railstutorial.jp/business" class="service-business-one" id="tutorial-partner" target="_blank">
+    <a href="https://railstutorial.jp/business" class="service-business-one" id="tutorial-partner tutorial" target="_blank">
       <img src="/img/thumbnail-tutorial-business.png" alt="Railsチュートリアル 法人プラン">
       <h3>Railsチュートリアル 法人プラン</h3>
       <ul>
@@ -154,7 +154,7 @@ layout: plain_without_thumbnail
       </ul>
       <p>大学や企業で採用されている<b>『Railsチュートリアル』</b>を法人向けに提供するライセンス契約型サービスです。</p>
     </a>
-    <a href="https://railsguides.jp/team" class="service-business-one" id="guides-team" target="_blank">
+    <a href="https://railsguides.jp/team" class="service-business-one" id="guides-team guides" target="_blank">
       <img src="/img/thumbnail-guides-team.png" alt="Railsガイド Teamプラン">
       <h3>Railsガイド Teamプラン</h3>
       <ul>
@@ -167,7 +167,7 @@ layout: plain_without_thumbnail
   </div>
 </section>
 
-  <div class="container tutorial">
+  <div class="container">
     <h3>利用実績・提携法人</h3>
     <div class="col-12 text-center" style="margin-top: 10px;">
       <ul class="flex-container">
@@ -203,7 +203,6 @@ layout: plain_without_thumbnail
           <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
         </a>
       </div>
-      <div id="guides"></div>
     </div>
   </div>
 
