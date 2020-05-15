@@ -942,6 +942,8 @@ ul.flex-container li {
 }
 
 .services-for-team {
+  padding: 2px 0;
+  background-color: #f4f4f4;
   h2 {
     text-align: center;
   }
@@ -954,8 +956,8 @@ ul.flex-container li {
   }
 }
 .service-business-one {
-  background-color: #f4f4f4;
-  border: solid #f4f4f4 4px;
+  background-color: #fff;
+  border: solid #fff 4px;
   border-radius: 8px;
   width: 33%;
   max-width: 600px;
