@@ -136,14 +136,17 @@ layout: plain_without_thumbnail
   <div class="service-business">
     <a href="https://railstutorial.jp/business" class="service-business-one" id="tutorial-partner">
       <img src="https://railstutorial.jp/images/business/main-img.jpg" alt="">
+      <h3>Railsチュートリアル 法人プラン</h3>
       <p>大学や企業で採用されている<b>『Railsチュートリアル』</b>を社員研修等、法人内での利用向けに提供するプランです。</p>
     </a>
     <a href="https://railstutorial.jp/partner" class="service-business-one" id="guides-team">
       <img src="/img/banner-partner.jpg" alt="">
+      <h3>Railsチュートリアル 協業プラン</h3>
       <p>大学や企業で採用されている<b>『Railsチュートリアル』</b>を法人向けに提供するライセンス契約型サービスです。</p>
     </a>
     <a href="https://railsguides.jp/team" class="service-business-one" id="guides-team">
       <img src="/img/banner-guides-team.png" alt="">
+      <h3>Railsガイド Teamプラン</h3>
       <p>現役のWebエンジニアを中心に幅広く活用されている<b>『Railsガイド』</b>の法人向けプランです。</p>
     </a>
   </div>
