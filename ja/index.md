@@ -59,7 +59,7 @@ layout: plain_without_thumbnail
             <a href="https://railsguides.jp/" target="_blank" rel="noopener">
               <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
-            
+
             <p>プロダクト開発の生産性を高める、Ruby on Rails に特化した<span style="background-color: #AA4536; color: white; border-radius: 2px;"> 1,600 </span>ページ超えの大型リファレンスガイド。<a href="https://railsguides.jp/ebook">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
           </div>
         </div>
@@ -84,7 +84,7 @@ layout: plain_without_thumbnail
       <div class="col-12">
         <h3><a href="#services" style="color: white;">《サービス紹介》</a><br></h3>
 	<h4 style="color: white;">『学び』を支える様々なサービスをご提供しています</h4>
-	
+
 	<div class="slides">
 	  <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 	</div>
@@ -138,51 +138,51 @@ layout: plain_without_thumbnail
       <img src="/img/banner-partner.jpg" alt="Railsチュートリアル『協業プラン』">
     </picture>
   </div><!--//jumbotron-->
-  
+
   <div class="text-center pt-5">
     <h3>《動画を活用し、価値を創る》</h3>
     <p class="text-center" style="line-height: 2.5em;">
       大学や企業で採用されている<b>『<a href="https://railstutorial.jp/">Railsチュートリアル</a>』</b>を<br class="ignore-sp">法人向けに提供するライセンス契約型サービスです。</p>
+      
+      <div class="container tutorial">
+        <div class="col-12 text-center" style="margin-top: 10px;">
+          <ul class="flex-container">
+            <li class="item"><a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a></li>
+            <li class="item"><a href="/ja/news/univ-of-ryukyus-with-railstutorial"><img src="/img/partners/ryukyu.png" alt="琉球大学"></a></li>
+            <li class="item"><a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html"><img src="/img/partners/kogakuin.png" alt="工学院大学"></a></li>
+            <li class="item"><a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf"><img src="/img/partners/aiit.png" alt="産業技術大学院大学"></a></li>
+          </ul>
 
-    <div class="container tutorial">
-      <div class="col-12 text-center" style="margin-top: 10px;">
-	<ul class="flex-container">
-          <li class="item"><a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a></li>
-          <li class="item"><a href="/ja/news/univ-of-ryukyus-with-railstutorial"><img src="/img/partners/ryukyu.png" alt="琉球大学"></a></li>
-	  <li class="item"><a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html"><img src="/img/partners/kogakuin.png" alt="工学院大学"></a></li>
-	  <li class="item"><a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf"><img src="/img/partners/aiit.png" alt="産業技術大学院大学"></a></li>
-	</ul>
-	
-	<ul class="flex-container">
-          <li class="item"><a href="/ja/news/learning-by-making"><img src="/img/partners/money-forward.png" alt="マネーフォワード"></a></li>
-          <li class="item"><a href="/ja/news/railstutorial-at-members-career"><img src="/img/partners//members-career.png" alt="メンバーズキャリア"></a></li>
-          <li class="item"><a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe"></a></li>
-	  <li class="item"><a href="/ja/news/partnership-with-techtraining"><img src="/img/partners/techtraining.png" alt="TechCommit"></a></li>
-	</ul>
+          <ul class="flex-container">
+            <li class="item"><a href="/ja/news/learning-by-making"><img src="/img/partners/money-forward.png" alt="マネーフォワード"></a></li>
+            <li class="item"><a href="/ja/news/railstutorial-at-members-career"><img src="/img/partners//members-career.png" alt="メンバーズキャリア"></a></li>
+            <li class="item"><a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe"></a></li>
+            <li class="item"><a href="/ja/news/partnership-with-techtraining"><img src="/img/partners/techtraining.png" alt="TechCommit"></a></li>
+          </ul>
 
-	<ul class="flex-container">
-          <li class="item"><a href="/ja/news/partnership-with-haj-empowerment"><img src="/img/partners/haj.png" alt="ジョブキタ"></a></li>
-          <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html"><img src="/img/partners/progate.png" alt="Progate"></a></li>
-	  <li class="item"><a href="https://note.com/yasslab/n/n8383778e38a3"><img src="/img/partners/sharewis.png" alt="ShareWis"></a></li>
-	  <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html"><img src="/img/partners/potepan.png" alt="ポテパンキャンプ"></a></li>
-	</ul>
+          <ul class="flex-container">
+            <li class="item"><a href="/ja/news/partnership-with-haj-empowerment"><img src="/img/partners/haj.png" alt="ジョブキタ"></a></li>
+            <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html"><img src="/img/partners/progate.png" alt="Progate"></a></li>
+            <li class="item"><a href="https://note.com/yasslab/n/n8383778e38a3"><img src="/img/partners/sharewis.png" alt="ShareWis"></a></li>
+            <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html"><img src="/img/partners/potepan.png" alt="ポテパンキャンプ"></a></li>
+          </ul>
 
-	<ul class="flex-container">
-	  <li class="item"><img src="/img/partners/empty.png" alt="Empty Space"></li>
-	  <li class="item"><a href="/ja/news/partnership-with-codebase"><img src="/img/partners/codebase.jpg" alt="CODE BASE"></a></li>
-	  <li class="item"><a href="https://www.osakac.ac.jp/project_now/cs/208"><img src="/img/partners/osakac.png" alt="大阪電気通信大学"></a></li>
-	  <li class="item"><img src="/img/partners/empty.png" alt="Empty Space"></li>
-	</ul>
+          <ul class="flex-container">
+            <li class="item"><img src="/img/partners/empty.png" alt="Empty Space"></li>
+            <li class="item"><a href="/ja/news/partnership-with-codebase"><img src="/img/partners/codebase.jpg" alt="CODE BASE"></a></li>
+            <li class="item"><a href="https://www.osakac.ac.jp/project_now/cs/208"><img src="/img/partners/osakac.png" alt="大阪電気通信大学"></a></li>
+            <li class="item"><img src="/img/partners/empty.png" alt="Empty Space"></li>
+          </ul>
 
-	<div class="tutorial">
-	  <a href="https://railstutorial.jp/partner">
-	    <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
-	  </a>
-	</div>
-	<div id="guides"></div>
+          <div class="tutorial">
+            <a href="https://railstutorial.jp/partner">
+              <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
+            </a>
+          </div>
+          <div id="guides"></div>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 
 <section class="mainVisual">
@@ -193,7 +193,7 @@ layout: plain_without_thumbnail
       <img src="https://i.gyazo.com/43da1e1a9800376ce069f49c506aaa6f.png" alt="Railsチュートリアル『協業プラン』">
     </picture>
   </div><!--//jumbotron-->
-  
+
   <div class="text-center pt-5">
     <h3>《プロダクト開発を、より生産的に》</h3>
     <p class="text-center" style="line-height: 2.5em;">
