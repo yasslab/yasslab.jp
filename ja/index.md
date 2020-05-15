@@ -153,6 +153,7 @@ layout: plain_without_thumbnail
 </section>
 
   <div class="container tutorial">
+    <h3>利用実績・提携法人</h3>
     <div class="col-12 text-center" style="margin-top: 10px;">
       <ul class="flex-container">
         <li class="item"><a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a></li>
