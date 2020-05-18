@@ -190,8 +190,8 @@ html {
   }
 }
 
- 
-  
+
+
 .bg-gray{
   background-color: #EAEAEA;
 }
@@ -306,7 +306,7 @@ html {
   background: -ms-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
   background: -o-linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
   background: linear-gradient(45deg, #2e5491 10%, #4dabbf 90%);
-  
+
   h3{
     color:#fff;
   }
@@ -543,7 +543,7 @@ html {
 
 
 
-footer { 
+footer {
   text-align: center;
   padding-bottom: 50px;
   background-color: #366fbc;
@@ -617,8 +617,8 @@ footer {
   display: inline-block;
   top:0;
   }
-  
-  h1:before,h1:after{ 
+
+  h1:before,h1:after{
     position: absolute;
     top: 0;
     content:'';
@@ -654,7 +654,7 @@ footer {
   }
   margin-bottom:3rem;
   }
-  
+
   h2:before, h2:after{
   content: '';
   position: absolute;
@@ -667,10 +667,10 @@ footer {
   height: 1px;
   background-color: black;
   }
-  
+
   h2:before {left:0;}
   h2:after {right: 0;}
-  
+
   /*h2の装飾を消す*/
   h2.h2deco-none:before,
   h2.h2deco-none:after{
@@ -692,7 +692,7 @@ footer {
   ul{
     padding-left: 25px;
   }
-  ul>li{ 
+  ul>li{
     margin-top: 10px;
   }
   li{
@@ -712,7 +712,7 @@ footer {
   }
 }
 
-pre{border : 1px solid #cc0000; 
+pre{border : 1px solid #cc0000;
   padding: 20px;
   text-align: left;
   border: 1px solid #ccc;
@@ -738,7 +738,7 @@ pre{border : 1px solid #cc0000;
 }
 
 h1,h2,h3,h4,h5{
-  margin-bottom:20px; 
+  margin-bottom:20px;
   a{
     color: #212529;
     text-decoration: none !important;
@@ -803,7 +803,7 @@ table.community-icon{
 //開発支援ページの現在のスケジュール（WaitingList）
 table.month-sche{
   width:100%;
-  border : 1px solid #869dad; 
+  border : 1px solid #869dad;
   th{
     background-color:#e9f4fc;
     padding:30px;
@@ -849,11 +849,11 @@ table.caption{
      background:none no-repeat left top;
      min-width: 60px;
      min-height:60px;
-     } 
+     }
   dd{
      background: url(/img/icons/faq-a.gif) no-repeat;
      overflow: hidden;
-     }  
+     }
   dt{
      background: url(/img/icons/faq-q.gif) no-repeat;
      padding-top: 12px;
@@ -941,3 +941,53 @@ ul.flex-container li {
   transition: 0.5s;
 }
 
+.services-for-team {
+  padding: 2px 0;
+  background-color: #f4f4f4;
+  h2 {
+    text-align: center;
+  }
+}
+.service-business {
+  padding: 0 calc((100% - 960px)/2);
+  display: flex;
+  @include media-breakpoint-down(sm) {
+    flex-wrap: wrap;
+  }
+}
+.service-business-one {
+  background-color: #fff;
+  border: solid #fff 4px;
+  border-radius: 8px;
+  width: 33%;
+  max-width: 600px;
+  margin: 40px 12px;
+  p, ul { margin: 16px; }
+  img { border-radius: 5px 5px 0 0; }
+  text-decoration: none;
+  color: #111;
+  transition: all .3s;
+  &:hover {
+    text-decoration: none;
+    color: #111;
+    border-color: #376FBC;
+  }
+  @include media-breakpoint-down(sm) {
+    width: calc(100% - 24px);
+    margin: 14px auto;
+  }
+  h3 {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 600;
+  }
+  ul {
+    list-style: none;
+    padding: 0 0 0 1em;
+    list-style-image: url('/img/checkmark.svg');
+    li {
+      line-height: 2em;
+    }
+  }
+}
