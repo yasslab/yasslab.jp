@@ -129,6 +129,7 @@ layout: plain_without_thumbnail
         </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
+  <div id="partners"></div>
 </section>
 
 
