@@ -990,6 +990,10 @@ ul.flex-container li {
   @include media-breakpoint-down(sm) {
     width: calc(100% - 24px);
     margin: 14px auto;
+    ul {
+      margin-left:  calc((100% - 200px) * 5 / 10 );
+      margin-right: auto;
+    }
   }
   h3 {
     font-size: 1em;
