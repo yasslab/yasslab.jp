@@ -134,7 +134,7 @@ layout: plain_without_thumbnail
 
 
 <section class="services-for-team">
-  <h2>法人向けサービス</h2>
+  <h2>👥 法人・チーム向けサービス</h2>
   <div class="service-business">
     <a href="https://railstutorial.jp/business" class="service-business-one" id="tutorial" target="_blank" rel="noopener">
       <img src="/img/thumbnail-tutorial-business.png" alt="Railsチュートリアル 法人プラン">
@@ -170,7 +170,8 @@ layout: plain_without_thumbnail
 </section>
 
   <div class="container tutorial">
-    <h3>利用実績・提携法人</h3>
+    <h3><span class="emoji">🤝</span>
+      利用実績・提携法人</h3>
     <div class="col-12 text-center" style="margin-top: 10px;">
       <ul class="flex-container">
         <li class="item"><a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a></li>
@@ -226,7 +227,8 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3><a href="#members">メンバー紹介</a></h3>
+        <h3><a href="#members"><span class="emoji">🏢</span>
+	  メンバー紹介</a></h3>
         <div class="row">
           {% include member.html username='himajin315' link_to='twitter'
              caption='プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師' %}
@@ -315,7 +317,9 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#community" style="color: white;">コミュニティ活動</a></h2>
+        <h2><a href="#community" style="color: white;">
+	  <span class="emoji">💎</span>
+	  コミュニティ活動</a></h2>
         <p class="text-md-center">YassLab 社ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="ignore-sp">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
         <div class="row">
           <div class="col-md-4">
@@ -394,7 +398,9 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#press">プレスリリース</a></h2>
+        <h2><a href="#press">
+	  <span class="emoji">📜</span>
+	  プレスリリース</a></h2>
         <ul>
 	  <li><a href="https://prtimes.jp/main/html/rd/p/000000002.000057664.html" target="_blank" rel="noopener">就職直結型プログラミングスクール「RUNTEQ」、Railsチュートリアルを運営する YassLab 社と業務提携し、さらなるWebエンジニアの拡大を促進へ</a></li>
 	  <li><a href="https://prtimes.jp/main/html/rd/p/000000055.000004979.html" target="_blank" rel="noopener">シェアウィズ、Ruby on Rails 6.0に対応したRailsチュートリアル解説動画の質問対応版を提供開始</a></li>
