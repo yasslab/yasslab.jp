@@ -1,6 +1,6 @@
 ---
 layout: news
-title:  📜 お知らせ
+title:  📜 最近のお知らせ
 thumbnail: bg-sky.jpg
 ---
 
