@@ -367,6 +367,9 @@ html {
   @include media-breakpoint-down(sm) {
     margin-top: 60px;
   }
+  .emoji {
+    margin: 0 .05em 0 .1em !important;
+  }
 }
 
 .members {
