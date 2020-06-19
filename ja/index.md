@@ -195,10 +195,10 @@ layout: plain_without_thumbnail
       </ul>
 
       <ul class="flex-container">
-        <li class="item"><img src="/img/partners/empty.png" alt="Empty Space"></li>
         <li class="item"><a href="/ja/news/partnership-with-codebase"><img src="/img/partners/codebase.jpg" alt="CODE BASE"></a></li>
         <li class="item"><a href="https://www.osakac.ac.jp/project_now/cs/208"><img src="/img/partners/osakac.png" alt="大阪電気通信大学"></a></li>
-        <li class="item"><img src="/img/partners/empty.png" alt="Empty Space"></li>
+        <li class="item"><a href="https://www.sint.co.jp/"><img src="/img/partners/systemintegrator.png" alt="株式会社システムインテグレータ"></a></li>
+        <li class="item"><a href="https://note.com/yasslab/n/n420f5d8b5da9"><img src="/img/partners/runteq.png" alt="RUNTEQ" style="border-radius: 0;"></a></li>
       </ul>
 
       <div class="tutorial">
