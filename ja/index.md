@@ -132,84 +132,8 @@ layout: plain_without_thumbnail
   <div id="partners"></div>
 </section>
 
-
-<section class="services-for-team">
-  <h2>👥 法人・チーム向けサービス</h2>
-  <div class="service-business">
-    <a href="https://railstutorial.jp/business" class="service-business-one" id="tutorial" target="_blank" rel="noopener">
-      <img src="/img/thumbnail-tutorial-business.png" alt="Railsチュートリアル 法人プラン">
-      <h3>Railsチュートリアル 法人プラン</h3>
-      <ul>
-        <li>社員研修で利用する方向け</li>
-        <li>管理者向けの購入管理画面</li>
-        <li>月額無料。980円から利用可</li>
-      </ul>
-      <p><b>社員研修などのチーム利用に特化</b>したサービスです。Webテキストや解説動画をチームで利用する場合に最適です。</p>
-    </a>
-    <a href="https://railstutorial.jp/partner" class="service-business-one" target="_blank" rel="noopener">
-      <img src="/img/thumbnail-tutorial-partner.png" alt="Railsチュートリアル 協業プラン">
-      <h3>Railsチュートリアル 協業プラン</h3>
-      <ul>
-        <li>教材として利用する方向け</li>
-        <li>事業者向けダッシュボード</li>
-        <li>人数に応じたライセンス料</li>
-      </ul>
-      <p>Railsチュートリアルを<b>教材として利用 (質問対応やメンタリング含む)</b> する方向けのライセンス契約サービスです。</p>
-    </a>
-    <a href="https://railsguides.jp/team" class="service-business-one" id="guides" target="_blank" rel="noopener">
-      <img src="/img/thumbnail-guides-team.png" alt="Railsガイド Teamプラン">
-      <h3>Railsガイド Teamプラン</h3>
-      <ul>
-	<li>開発チーム向け</li>
-        <li>全文検索などに対応</li>
-        <li>人数に応じた月額利用</li>
-      </ul>
-      <p>1,400ページ以上ある大型コンテンツ<b>『Railsガイド』をチームで最適に利用</b>するためのサービスです。</p>
-    </a>
-  </div>
-</section>
-
-<section class="partners">
-  <div class="container tutorial">
-    <h3><span class="emoji">🤝</span>
-      利用実績・提携法人</h3>
-    <div class="col-12 text-center" style="margin-top: 10px;">
-      <ul class="flex-container">
-        <li class="item"><a href="https://enpit.coins.tsukuba.ac.jp/"><img src="/img/partners/tukuba.png" alt="筑波大学"></a></li>
-        <li class="item"><a href="/ja/news/univ-of-ryukyus-with-railstutorial"><img src="/img/partners/ryukyu.png" alt="琉球大学"></a></li>
-        <li class="item"><a href="http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html"><img src="/img/partners/kogakuin.png" alt="工学院大学"></a></li>
-        <li class="item"><a href="https://aiit.ac.jp/master_program/isa/lecture/pdf/h31/3_2.pdf"><img src="/img/partners/aiit.png" alt="産業技術大学院大学"></a></li>
-      </ul>
-
-      <ul class="flex-container">
-        <li class="item"><a href="/ja/news/learning-by-making"><img src="/img/partners/money-forward.png" alt="マネーフォワード"></a></li>
-        <li class="item"><a href="/ja/news/railstutorial-at-members-career"><img src="/img/partners//members-career.png" alt="メンバーズキャリア"></a></li>
-        <li class="item"><a href="https://yasslab.jp/ja/news/partnership-with-nilquebe"><img src="/img/partners/nilquebe_rect.png" alt="Nilquebe"></a></li>
-        <li class="item"><a href="/ja/news/partnership-with-techtraining"><img src="/img/partners/techtraining.png" alt="TechCommit"></a></li>
-      </ul>
-
-      <ul class="flex-container">
-        <li class="item"><a href="/ja/news/partnership-with-haj-empowerment"><img src="/img/partners/haj.png" alt="ジョブキタ"></a></li>
-        <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html"><img src="/img/partners/progate.png" alt="Progate"></a></li>
-        <li class="item"><a href="https://note.com/yasslab/n/n8383778e38a3"><img src="/img/partners/sharewis.png" alt="ShareWis"></a></li>
-        <li class="item"><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html"><img src="/img/partners/potepan.png" alt="ポテパンキャンプ"></a></li>
-      </ul>
-
-      <ul class="flex-container">
-        <li class="item"><a href="/ja/news/partnership-with-codebase"><img src="/img/partners/codebase.jpg" alt="CODE BASE"></a></li>
-        <li class="item"><a href="https://www.osakac.ac.jp/project_now/cs/208"><img src="/img/partners/osakac.png" alt="大阪電気通信大学"></a></li>
-        <li class="item"><a href="https://www.sint.co.jp/"><img src="/img/partners/systemintegrator.png" alt="株式会社システムインテグレータ"></a></li>
-        <li class="item"><a href="https://note.com/yasslab/n/n420f5d8b5da9"><img src="/img/partners/runteq.png" alt="RUNTEQ" style="border-radius: 0;"></a></li>
-      </ul>
-
-      <div class="tutorial">
-        <a href="https://railstutorial.jp/partner">
-          <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+{% include services_for_team.html    %}
+{% include partners_and_clients.html %}
 
 <section class="aboutVisual entry_content" id="members">
   <div class="container">
