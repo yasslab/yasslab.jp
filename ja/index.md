@@ -169,6 +169,7 @@ layout: plain_without_thumbnail
   </div>
 </section>
 
+<section class="partners">
   <div class="container tutorial">
     <h3><span class="emoji">🤝</span>
       利用実績・提携法人</h3>
@@ -208,6 +209,7 @@ layout: plain_without_thumbnail
       </div>
     </div>
   </div>
+</section>
 
 <section class="aboutVisual entry_content" id="members">
   <div class="container">
