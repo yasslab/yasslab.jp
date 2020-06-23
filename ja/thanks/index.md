@@ -10,7 +10,6 @@ contact_hidden: true
       <h1>お問い合わせ<br class="ignore-sp">ありがとうございました<br class="ignore-sp">📩💖</h1>
 
       <p>お問い合わせありがとうございます。弊社サービスに関するお問い合わせについては３営業日以内にご返信いたしますね。</p>
-      <p>もし返信がなかった場合は、お手数をおかけしますが再度フォームよりご連絡して頂けると幸いです。</p>
 
       <div align="right" style="padding-bottom: 100px;">
 	YassLab 株式会社<br>
