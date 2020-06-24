@@ -6,3 +6,7 @@ companyDescription:
   ja: 'RailsチュートリアルやRailsガイド、coderdojo.jp の開発・運営をしています。法人向け研修支援、スクール向けコンテンツ、開発支援サービスも提供しています。'
   en: '100% Remote Work company based in Okinawa & Tokyo. We support your Product Development by contents and services.'
 
+companyAddress:
+  ja: '東京都新宿区高田馬場1-28-10 三慶ビル4階 <a href="https://case-shinjuku.com/access" style="color: #c0c6ce;">CASE Shinjuku</a>'
+  en: '<a href="https://case-shinjuku.com/english" style="color: #c0c6ce;">CASE Shinjuku</a>, Takadanobaba 1-28-10, Shinjuku, Tokyo'
+

@@ -14,6 +14,7 @@
     <li><a href="/en">English</a></li>
   </ul>
   <p><small>
-  Copyright &copy; 2012-{{ site.time | date: '%Y' }} YassLab Inc. All Rights Reserved.<br>
-  東京都新宿区高田馬場1-28-10 三慶ビル4階 CASE Shinjuku
+    {% assign lang = page.lang | default: "ja" %}
+    Copyright &copy; 2012-{{ site.time | date: '%Y' }} YassLab Inc. All Rights Reserved.<br>
+    {{ site.data.translations.companyAddress[lang] }}
   </small></p>
