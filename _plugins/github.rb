@@ -1,3 +1,6 @@
+require 'pry' if ENV['JEKYLL_ENV'] == 'development'
+require 'net/http'
+
 module Jekyll
   GITHUB_API_ENDPOINT     = 'https://api.github.com/orgs/yasslab/repos?per_page=100'
   GITHUB_PRESET_REPOS     = 80
