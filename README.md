@@ -30,7 +30,7 @@ https://yasslab.jp/
 
 ## 開発手順
 ローカル環境で開発・デザインをするときは [Jekyll](https://jekyllrb.com) と [Node.js](https://nodejs.org/) が必要です。   
-それぞれをセットアップしたら、次の手順で localhost 上にWebサイトを表示します。
+準備ができたら次の手順でセットアップし、ローカルサーバーを立ち上げてください。
 
 1. `$ npm install`
     - (初回のみ) npm ライブラリのインストール
@@ -60,7 +60,11 @@ Nota Inc. 様の許諾をいただき、
 
 ## About ICON
 
-The icons used in the website are created by [Font Awesome](http://fontawesome.io/), licensed under SIL OFL 1.1.
+This website uses icons created by [Font Awesome](http://fontawesome.io/), licensed under SIL OFL 1.1, and [Twemoji](https://github.com/twitter/twemoji), created by Twitter, licensed under the [MIT License](http://opensource.org/licenses/MIT).
+
+## About CSS
+
+This website uses [Bootstrap](https://getbootstrap.jp/), created by Twitter licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 ## Copyright
 
