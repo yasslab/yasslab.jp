@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/yasslab/yasslab.jp.svg?branch=master)](https://travis-ci.org/yasslab/yasslab.jp)
 
-[![Cover Photo of YassLab Inc.](https://yasslab.jp/img/cover-photo_ss.png)](https://yasslab.jp/ja/)
+[![Cover Photo of YassLab Inc.](https://yasslab.jp/img/cover-photo_ss.png?utm_source=GitHub)](https://yasslab.jp/ja/)
 
 # Website for YassLab Inc.
 
