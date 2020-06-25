@@ -159,7 +159,7 @@ DEPENDENCIES
   pry-byebug
   puma
   rack-contrib
-  rack-jekyll
+  rack-jekyll (~> 0.5)
   rack-rewrite
   rake
   redcarpet

@@ -13,9 +13,10 @@ gem "jekyll", "~> 4.0"
 gem "liquid-c"
 
 gem 'redcarpet'
-gem 'rack-jekyll'
+gem 'rack-jekyll', "~> 0.5"
 gem 'rake'
-gem 'nokogiri' # Used for qiita.rb
+gem 'nokogiri'     # Used for qiita.rb
+gem 'html-proofer' # Used for debugging in Review Apps
 
 # Gems to enable SSL
 gem 'acme_challenge'
@@ -30,7 +31,6 @@ end
 
 group :development, :test do
   gem 'rspec'
-  gem 'html-proofer'
 
   # Gems for debugging
   gem 'pry'
