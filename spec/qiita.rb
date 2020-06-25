@@ -20,8 +20,8 @@ RSpec.describe 'Qiita' do
     mock = File.expand_path(FAILED_MOCK_PATH)
 
     items = Liquid::Template.parse("{% qiita_stats items %}")
-    expect(items.render).to be == Jekyll::QIITA_PRESET_ITEMS.to_s
+    expect(items.render).to be == "150"
     likes = Liquid::Template.parse("{% qiita_stats likes %}")
-    expect(likes.render).to be == Jekyll::QIITA_PRESET_LIKES.to_s
+    expect(likes.render).to be == "7550"
   end
 end
