@@ -3,8 +3,8 @@ require 'net/http'
 
 module Jekyll
   GITHUB_API_ENDPOINT     = 'https://api.github.com/orgs/yasslab/repos?per_page=100'
-  GITHUB_PRESET_REPOS     = 80
-  GITHUB_PRESET_STARS     = 580
+  GITHUB_PRESET_REPOS     = 60
+  GITHUB_PRESET_STARS     = 620
 
   class GitHubStats < Liquid::Tag
     def initialize(tag_name, text, tokens)
