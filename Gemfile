@@ -15,6 +15,7 @@ gem "liquid-c"
 gem 'redcarpet'
 gem 'rack-jekyll'
 gem 'rake'
+gem 'nokogiri' # Used for qiita.rb
 
 # Gems to enable SSL
 gem 'acme_challenge'
