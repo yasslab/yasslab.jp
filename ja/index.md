@@ -153,7 +153,7 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3><a href="#members"><span class="emoji">🏢</span>
+        <h3><a href="#members"><span class="emoji">👥</span>
 	  メンバー紹介</a></h3>
         <div class="row">
           {% include member.html username='himajin315' link_to='twitter'
