@@ -1,6 +1,7 @@
 require 'pry' if ENV['JEKYLL_ENV'] == 'development'
 require 'nokogiri'
 require 'open-uri'
+
 module Jekyll
   QIITA_ORGANIZATION_URL = 'https://qiita.com/organizations/yasslab'
   QIITA_PRESET_ITEMS     = 80
