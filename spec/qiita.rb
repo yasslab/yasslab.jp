@@ -11,17 +11,17 @@ RSpec.describe 'Qiita' do
     mock = File.expand_path(SUCESS_MOCK_PATH)
 
     items = Liquid::Template.parse("{% qiita_stats items %}")
-    expect(items.render).to be == '150'
+    expect(items.render).to be == '80'
     likes = Liquid::Template.parse("{% qiita_stats likes %}")
-    expect(likes.render).to be == '7550'
+    expect(likes.render).to be == '6710'
   end
 
   it 'not possible to obtain' do
     mock = File.expand_path(FAILED_MOCK_PATH)
 
     items = Liquid::Template.parse("{% qiita_stats items %}")
-    expect(items.render).to be == "150"
+    expect(items.render).to be == Jekyll::QIITA_PRESET_ITEMS.to_s
     likes = Liquid::Template.parse("{% qiita_stats likes %}")
-    expect(likes.render).to be == "7550"
+    expect(likes.render).to be == Jekyll::QIITA_PRESET_LIKES.to_s
   end
 end
