@@ -11,6 +11,9 @@ module Jekyll
       super
 
       begin
+        # NOTE: We got approval from Qiita to fetch qiita organization stats. Thx!
+        #   cf. https://github.com/yasslab/yasslab.jp/pull/8#issuecomment-383798228
+
         # Don't access to Qiita server unless Production
         if ENV['JEKYLL_ENV'] == 'production'
           page  = Nokogiri::HTML(open QIITA_ORGANIZATION_URL)
