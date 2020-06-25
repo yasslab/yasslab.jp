@@ -13,7 +13,8 @@ gem "jekyll", "~> 4.0"
 gem "liquid-c"
 
 gem 'redcarpet'
-gem 'rack-jekyll', "~> 0.5"
+#gem 'rack-jekyll', "~> 0.5"
+gem 'rack-jekyll', github: "adaoraul/rack-jekyll"
 gem 'rake'
 gem 'nokogiri'     # Used for qiita.rb
 gem 'html-proofer' # Used for debugging in Review Apps
