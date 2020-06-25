@@ -13,7 +13,7 @@ gem "jekyll", "~> 4.0"
 gem "liquid-c"
 
 gem 'redcarpet'
-gem 'rack-jekyll'
+gem 'rack-jekyll', "~> 0.5"
 gem 'rake'
 gem 'nokogiri' # Used for qiita.rb
 
