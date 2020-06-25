@@ -40,23 +40,11 @@ Doorkeeper の完全有料化に伴って、2016年9月1日から無料で使え
 
 ## [スポンサー紹介のお願い](#example)
 
-特に厳しくチェックするつもりはありませんが、イベントページ下部などに次のようなスポンサー紹介を入れて頂けると助かります! 細かな文言やレイアウトなどは適宜修正して頂いて大丈夫です 👌 弊社ロゴデータは[ブランドガイドライン](/ja/brand-assets)からダウンロードできます。
+特に厳しくチェックするつもりはありませんが、イベントページ下部などに次のようなスポンサー紹介を入れて頂けると助かります! 細かな文言やレイアウトなどは適宜修正して頂いて大丈夫です 👌
 
-##### [Okinawa.rb のスポンサー紹介例](https://okinawarb.doorkeeper.jp/events/77519)
+下記コードをそのままコピペしていただいても大丈夫ですし、[ブランドガイドライン](/ja/brand-assets)から弊社ロゴデータをダウンロードして使用していただいても大丈夫です 🆗
 
-<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%"></a></p>
-<p class="imgfit text-center">コピペ用コード (改変も可)</p>
-
-```
-# スポンサー
-
-本イベントページは学びを支援する [YassLab 株式会社](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け資料『[Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper/)』をご参照ください。
-[![YassLab 株式会社](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)
-```
-
-<br>
-
-##### [CoderDojo Japan のスポンサー紹介例](https://coderdojo-japan.doorkeeper.jp/events/91507)
+##### [CoderDojo Japan のスポンサー紹介例](https://coderdojo-japan.doorkeeper.jp/events/91507) (オススメ)
 
 <p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%"></a></p>
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
@@ -72,6 +60,20 @@ Doorkeeper の完全有料化に伴って、2016年9月1日から無料で使え
   </div>
 </div>
 ```
+
+##### [Okinawa.rb のスポンサー紹介例](https://okinawarb.doorkeeper.jp/events/77519)
+
+<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%"></a></p>
+<p class="imgfit text-center">コピペ用コード (改変も可)</p>
+
+```
+# スポンサー
+
+本イベントページは学びを支援する [YassLab 株式会社](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け資料『[Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper/)』をご参照ください。
+[![YassLab 株式会社](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)
+```
+
+<br>
 
 <div id="howto"></div>
 <br>
