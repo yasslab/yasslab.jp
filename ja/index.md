@@ -204,6 +204,7 @@ layout: plain_without_thumbnail
       </div>
     </div>
   </div>
+  <div id="stats"></div>
 </section>
 
 <section class="sns">
