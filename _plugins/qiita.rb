@@ -17,7 +17,7 @@ module Jekyll
 
         # Don't access to Qiita server unless Production
         if ENV['JEKYLL_ENV'] == 'production'
-          page  = Nokogiri::HTML(open QIITA_ORGANIZATION_URL)
+          page  = Nokogiri::HTML(URI.open QIITA_ORGANIZATION_URL)
         else
           page  = Nokogiri::HTML(File.read '_data/qiita_org_sample.html')
         end
