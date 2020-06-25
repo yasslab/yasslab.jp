@@ -16,7 +16,6 @@ sass:
   sass_dir:  css
   sourcemap: always
   load_paths:
-    - _sass
     - node_modules
 
 # Variables for pages, news, feeds, etc
