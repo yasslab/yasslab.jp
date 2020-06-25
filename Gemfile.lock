@@ -184,6 +184,7 @@ DEPENDENCIES
   jekyll-include-cache
   liquid-c
   mechanize
+  nokogiri
   pry
   pry-byebug
   puma
