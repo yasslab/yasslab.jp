@@ -70,7 +70,6 @@ kramdown:
 
 plugins: 
   - kramdown
-  - jekyll-gist
   - jekyll-assets
   - jekyll-include-cache
 
