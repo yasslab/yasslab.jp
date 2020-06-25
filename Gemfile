@@ -38,7 +38,6 @@ group :development, :test do
 end
 
 group :jekyll_plugins do
-  gem "jekyll-assets"
   gem "jekyll-include-cache"
 end
 
