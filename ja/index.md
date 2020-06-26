@@ -129,7 +129,7 @@ layout: plain_without_thumbnail
         </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
-  <div id="partners"></div>
+  <div id="for-team"></div>
 </section>
 
 {% include services_for_team.html    %}
