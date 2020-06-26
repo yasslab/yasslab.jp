@@ -83,6 +83,7 @@ title:  弊社をご検討されている皆さんへ
 	
 	<ul>
 	  <li>Webサイト: <a href="https://railstutorial.jp/">https://railstutorial.jp/</a></li>
+	  <li>ハッシュタグ: <a href="http://twitter.com/hashtag/Railsチュートリアル">#Railsチュートリアル - Twitter</a></li>
 	  <li>技術スタック: Ruby, Rails, LaTeX, <a href="https://github.com/softcover/softcover">softcover</a>, Heroku</li>
 	  <li>参考リンク集:
 	    <ul>
@@ -102,6 +103,7 @@ title:  弊社をご検討されている皆さんへ
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://railsguides.jp/">https://railsguides.jp/</a></li>
+	  <li>ハッシュタグ: <a href="http://twitter.com/hashtag/Railsガイド">#Railsガイド - Twitter</a></li>
 	  <li>技術スタック: Ruby, Rails, Jekyll, <a href="https://github.com/kmuto/review">Re:VIEW</a>, Heroku</li>
 	  <li>参考リンク集:
 	    <ul>
@@ -121,6 +123,7 @@ title:  弊社をご検討されている皆さんへ
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://coderdojo.jp/">https://coderdojo.jp/</a></li>
+	  <li>ハッシュタグ: <a href="http://twitter.com/hashtag/CoderDojo">#CoderDojo - Twitter</a></li>
 	  <li>技術スタック: Ruby, Rails, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), Heroku</li>
 	  <li>参考リンク集:
 	    <ul>
