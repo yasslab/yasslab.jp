@@ -10,19 +10,23 @@ ruby '2.7.1'
 
 gem "jekyll", "~> 4.0"
 #gem "jekyll", github: "jekyll/jekyll"
-gem "liquid-c"
 
-gem 'redcarpet'
 #gem 'rack-jekyll', "~> 0.5"
 gem 'rack-jekyll', github: "adaoraul/rack-jekyll"
-gem 'rake'
-gem 'nokogiri'     # Used for qiita.rb
-gem 'html-proofer' # Used for debugging in Review Apps
+gem 'rake'           # for running scripts
+gem 'nokogiri'       # for qiita.rb
+gem 'html-proofer'   # for debugging in Review Apps
+gem 'redcarpet'      # for rendering markdown files
 
 # Gems to enable SSL
-gem 'acme_challenge'
-gem 'rack-rewrite'
-gem 'rack-contrib'
+gem 'acme_challenge' # for authentication w/ LetsEncrypt
+gem 'rack-rewrite'   # for redirection like http->https
+gem 'rack-contrib'   # for managing CSP (cf. /config.ru)
+
+# To enhance building time with Jekyll 4.0.0+
+# https://github.com/yasslab/yasslab.jp/pull/123
+gem "liquid-c"
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 group :development do
   # Gems to fetch RSS in development only
@@ -36,10 +40,6 @@ group :development, :test do
   # Gems for debugging
   gem 'pry'
   gem 'pry-byebug'
-end
-
-group :jekyll_plugins do
-  gem "jekyll-include-cache"
 end
 
 group :production do
