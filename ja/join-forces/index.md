@@ -46,7 +46,7 @@ title:  弊社をご検討されている皆さんへ
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
 	-->
-        <p id="daily-life" class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="ignore-sp">(関連記事: <a href="https://yasslab.jp/ja/news/remote-first-at-megane-fes-2019">megane Fes 2019 でリモートワークについて発表 🏢</a>)</p>
+        <p id="daily-life" class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="ignore-sp">(関連動画: <a href="https://www.youtube.com/playlist?list=PLNLYzHXJU2-_jeyeLbEaXUgqGHGgJPKas">YassLab 社とリモートワーク - YouTube</a>)</p>
 	
 	
 	<h2 class="text-center mt-5 mb-5"><a href="#daily-life">YassLab 社の日常</a></h2>
