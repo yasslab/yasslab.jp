@@ -18,14 +18,13 @@ title:  弊社をご検討されている皆さんへ
       <div class="col-md-8 offset-md-2">
         <p>次のような方々に向けて社内の情報をまとめています。</p>
         <ul>
-          <li>現在インターン先・就職先・複業先を探している</li>
+          <li>現在インターン先・就職先を探している</li>
           <li>YassLab 社の<a href="#products">プロダクト開発</a>に関わりたい</li>
           <li>YassLab 社の<a href="#remote">リモートワーク</a>に興味がある</li>
         </ul>
 	<p>以下、弊社の特徴や活動の雰囲気、事業内容などをご紹介していきます。弊社をご検討されている方々のご参考になれば嬉しいです。</p>
 
-	<hr>
-	<p><a href="/ja/#members">YassLab 社メンバー</a>が推薦した方を優先的に対応しております。応募前にあらかじめご理解・ご了承していただけると幸いです 🙏</p>
+	<blockquote style="font-style: normal;"><a href="/ja/#members">YassLab 社メンバー</a>が推薦した方を優先的に対応しております。応募前にあらかじめご理解・ご了承していただけると幸いです 🙏</blockquote>
       </div><!--//col-->
     </div><!--//row-->
     <div id="remote"></div>
@@ -62,7 +61,7 @@ title:  弊社をご検討されている皆さんへ
 	<br>
       </div><!--//col-->
     </div><!--//row-->
-    <div id="agile"></div>
+    <div id="services"></div>
   </div><!--//container-->
 </section>
 
@@ -70,92 +69,70 @@ title:  弊社をご検討されている皆さんへ
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="mt-5 mb-5"><a href="#agile">月額制 Ruby/Rails 開発支援</a></h2>
-        <p>弊社の主力事業の1つです。他社の新規事業の開発をサポートするため、他社の秘密情報にアクセスする必要があり、パートタイムの方や複業の方が関わることはありません。また、フルタイム勤務者以外は他社の秘密情報にアクセスできない仕組みが用意されているため、アクセスできる情報が読んでも問題ない情報となり、競業避止義務などを気にせず安心して働くことができます。開発支援事業の詳細は<a href="/ja/agile/">コチラ</a>を参照してください。</p>
-      </div><!--//col-->
-      
-      <div class="col-md-8 offset-md-2">
-        <p style="margin-bottom: 0px"><img src="/img/how-to-protect-nda.gif" alt="秘密情報を守る仕組み" width="100%" /></p>
-        <center>参考: <a href="https://speakerdeck.com/yasulab/qiita-team-extensions-for-parallel-working?slide=11">Qiita:Team Extensions for Parallel Working</a></center>
-      </div><!--//col-->
-      <div class="col-md-12 text-center">
-	<p>お互いの働き方や価値観を知るためにも、フルタイム勤務を希望される方であってもまずは下記の自社プロダクトを一緒に開発してみるところから始めることが多いです。もし興味があれば仕事として一緒にやってみませんか?</p>
+        <h2 class="mt-5 mb-5"><a href="#services">開発・運営しているサービス</a></h2>
+        <p>YassLab 社では主に『Railsチュートリアル』『Railsガイド』などの開発・運営をしておりますが、いずれも複数のリポジトリが協調的に動作して成り立っています。</p>
       </div>
-      <div id="products"></div>
-    </div><!--//row-->
-  </div><!--//container-->
-</section>
 
-
-<section class="entry_content pt-5">
-  <div class="container">
-    <div class="row">
       <div class="col-md-12 text-center">
-	<h2><a href="#products">自社プロダクトまとめ</a></h2>
-	<div class="highlighter-rouge">
-	  <div class="highlight">
-	    <pre class="highlight"><code>- 開発目的: そのプロダクトで実現したいこと
-- 使用技術: 開発で使われているテクノロジー
-- 関連情報: 参考になる公開情報など</code></pre>
-	  </div>
-	</div>
-	<div id="railstutorial"></div>
+	<p>各サービスで使っている技術などについては一部公開しており、それらの情報を下記にまとめておきました。弊社をご検討している方々にとってご参考になれば嬉しいです 🙏💖</p>
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
-	  <a href="#railstutorial">1. Railsチュートリアルの自動更新</a>
+	  <a href="#railstutorial">1. Ruby on Railsチュートリアル (自社開発)</a>
 	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/header-railstutorial.png" /></a></div>
 	</h3>
 	
 	<ul>
-	  <li>開発目的: <a href="https://railstutorial.jp/">Railsチュートリアル</a>の品質を保ちつつ、なるべく低コストで更新したい</li>
-	  <li>使用技術: Ruby, Rails, LaTeX, <a href="https://github.com/softcover/softcover">softcover</a>, Heroku</li>
-	  <li>関連情報:
+	  <li>Webサイト: <a href="https://railstutorial.jp/">https://railstutorial.jp/</a></li>
+	  <li>技術スタック: Ruby, Rails, LaTeX, <a href="https://github.com/softcover/softcover">softcover</a>, Heroku</li>
+	  <li>参考リンク集:
 	    <ul>
+	      <li><a href="https://github.com/yasslab/sample_apps">yasslab/sample_apps</a> (OSS)</li>
 	      <li>yasslab/railstutorial.jp_web (Private)</li>
-	      <li>yasslab/ruby_on_rails_tutorial_book (Private)</li>
+	      <li>yasslab/railstutorial.jp_ebook (Private)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/continuous-integration-for-ebook">Railsチュートリアルを支える継続的組版技術</a></li>
-	      <li id="railsguides">関連記事: <a href="https://yasslab.jp/ja/news/railstutorial-at-ginza-rails">Railsチュートリアルの開発背景を銀座Railsで発表しました 🎙</a></li>
+	      <li>関連記事: <a href="https://yasslab.jp/ja/news/railstutorial-at-ginza-rails">Railsチュートリアルの開発背景を銀座Railsで発表しました 🎙</a></li>
+	      <li id="railsguides">最新情報: <a href="https://note.com/yasslab/m/md778735d3f77">Railsチュートリアル開発マガジン - note</a></li>
 	    </ul>
 	  </li>
 	</ul>
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
-	  <a href="#railsguides">2. Railsガイドの自動更新</a>
+	  <a href="#railsguides">2. Ruby on Railsガイド (自社開発)</a>
 	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/header-railsguides.png" /></a></div>
 	</h3>
 	<ul>
-	  <li>開発目的: <a href="https://railsguides.jp/">Railsガイド</a>の品質を保ちつつ、なるべく低コストで更新したい</li>
-	  <li>使用技術: Ruby, Rails, Jekyll, <a href="https://github.com/kmuto/review">Re:VIEW</a>, Heroku</li>
-	  <li>関連情報:
+	  <li>Webサイト: <a href="https://railsguides.jp/">https://railsguides.jp/</a></li>
+	  <li>技術スタック: Ruby, Rails, Jekyll, <a href="https://github.com/kmuto/review">Re:VIEW</a>, Heroku</li>
+	  <li>参考リンク集:
 	    <ul>
 	      <li><a href="https://github.com/yasslab/railsguides.jp">yasslab/railsguides.jp</a> (OSS)</li>
 	      <li>yasslab/railsguides.jp_web (Private)</li>
 	      <li>yasslab/railsguides.jp_ebook (Private)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/yasulab/railsguides-as-an-oss-gate">OSS入門としてのRailsガイド</a></li>
-	      <li id="coderdojo">関連記事: <a href="https://yasslab.jp/ja/news/release-pro-plan">Railsガイド『Proプラン』をリリースしました! 🚀</a></li>
+	      <li>関連記事: <a href="https://yasslab.jp/ja/news/release-pro-plan">Railsガイド『Proプラン』をリリースしました! 🚀</a></li>
+	      <li id="coderdojojp">最新情報: <a href="https://note.com/yasslab/m/ma5df1164c798">Railsガイド開発マガジン - note</a></li>
 	    </ul>
 	  </li>
 	</ul>
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
-	  <a href="#coderdojo">3. CoderDojo Japan の開発</a>
+	  <a href="#coderdojojp">3. coderdojo.jp の開発 (委任開発)</a>
 	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/header-coderdojo-japan.png" /></a></div>
 	</h3>
 	<ul>
-	  <li>開発目的: 全国の <a href="https://coderdojo.jp/">CoderDojo コミュニティ</a>の活動をテクノロジーで支援したい</li>
-	  <li>使用技術: Ruby, Rails, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), Heroku</li>
-	  <li>関連情報:
+	  <li>Webサイト: <a href="https://coderdojo.jp/">https://coderdojo.jp/</a></li>
+	  <li>技術スタック: Ruby, Rails, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), Heroku</li>
+	  <li>参考リンク集:
 	    <ul>
 	      <li><a href="https://github.com/coderdojo-japan/coderdojo.jp">coderdojo-japan/coderdojo.jp</a> (OSS)</li>
 	      <li><a href="https://github.com/coderdojo-japan/dojopaas">coderdojo-japan/dojopaas</a> (OSS)</li>
 	      <li>スライド: <a href="https://speakerdeck.com/coderdojojapan/partnership-with-coderdojo-japan">全国205ヶ所以上ある CoderDojo と法人提携例</a></li>
-	      <li>スライド: <a href="https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo">CoderDojo を支える Rails CMS の活用事例</a></li>
-	      <li id="flow">関連記事: <a href="https://yasslab.jp/ja/news/coderdojo-japan-2018">開発目線で見る最近の CoderDojo Japan 2018 ☯️</a></li>
+	      <li>関連記事: <a href="https://note.com/yasslab/n/n9439edba53bb?magazine_key=m7ed183f728c3">RubyWorld Conference 2019 で coderdojo.jp 開発事例を講演</a></li>
+	      <li id="flow">最新情報: <a href="https://note.com/yasslab/m/m7ed183f728c3">coderdojo.jp 開発マガジン - note</a></li>
 	    </ul>
 	  </li>
 	</ul>
 
-	
 	<h2 class="text-center mt-5 mb-5"><a href="#flow">応募から採用までの流れ</a></h2>
 	<p>会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっている OSS で一緒に開発するスタイルを採用しています。</p>
 
