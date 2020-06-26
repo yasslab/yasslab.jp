@@ -61,7 +61,7 @@ title:  弊社をご検討されている皆さんへ
 	<br>
       </div><!--//col-->
     </div><!--//row-->
-    <div id="services"></div>
+    <div id="products"></div>
   </div><!--//container-->
 </section>
 
@@ -69,12 +69,12 @@ title:  弊社をご検討されている皆さんへ
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="mt-5 mb-5"><a href="#services">開発・運営しているサービス</a></h2>
+        <h2 class="mt-5 mb-5"><a href="#products">開発・運営しているサービス</a></h2>
         <p>YassLab 社では主に『Railsチュートリアル』『Railsガイド』などの開発・運営をしておりますが、いずれも複数のリポジトリが協調的に動作して成り立っています。</p>
       </div>
 
       <div class="col-md-12 text-center">
-	<p>各サービスで使っている技術などについては一部公開しており、それらの情報を下記にまとめておきました。弊社をご検討している方々にとってご参考になれば嬉しいです 🙏💖</p>
+	<p id="railstutorial">各サービスで使っている技術などについては一部公開しており、それらの情報を下記にまとめておきました。弊社をご検討している方々にとってご参考になれば嬉しいです 🙏💖</p>
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railstutorial">1. Ruby on Railsチュートリアル (自社開発)</a>
@@ -151,7 +151,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<p>もちろん結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、なるべく OSS のプロジェクトを題材にしているので、その後の就職/転職活動で OSS に貢献した実績を活かすこともできます。</p>
 
-	<p>実践的であればあるほど実績としての価値も高いので、Ruby on Rails アプリケーションである <a href="#coderdojo">CoderDojo Japan の開発</a>を題材として使うことが多いです。とはいえ、それ以外にも多様な OSS プロダクトを <a href="https://github.com/yasslab">GitHub 上から公開</a>しております。応募時のご参考になれば嬉しいです ;)</p>
+	<p>実践的であればあるほど実績としての価値も高いので、Ruby on Rails アプリケーションである <a href="#coderdojojp">CoderDojo Japan の開発</a>を題材として使うことが多いです。とはいえ、それ以外にも多様な OSS プロダクトを <a href="https://github.com/yasslab">GitHub 上から公開</a>しております。応募時のご参考になれば嬉しいです ;)</p>
 	
 	<!--
 	     ### 1. Gitlate - 継続的翻訳システム
