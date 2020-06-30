@@ -14,6 +14,8 @@ title:  予定表
 </div>
 <br>
 
+<blockquote style="padding-top: 10px;">オンラインをご希望の場合は <a href="https://zoom.us/jp-jp/meetings.html">Zoom</a> または <a href="https://whereby.com/">Whereby</a> を用意できます。</blockquote>
+
 ## 🏢 YassLab (株) オフィス
 
 打ち合わせはオンラインでもオフラインでもどちらでも大丈夫です。オフラインの場合は下記の弊社オフィス、もしくは東京都近辺であれば伺うことも可能です 🏢🏃💨
@@ -27,7 +29,7 @@ title:  予定表
 
 ## 🎓 事業紹介
 
-会社の紹介資料です。必要に応じて適宜ご参照ください。
+会社の紹介資料です。打ち合わせ前のご参考になれば幸いです 😌
 
 <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
