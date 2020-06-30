@@ -8,7 +8,7 @@ title:  弊社をご検討されている皆さんへ
     <div class="row">
       <div class="col-md-12">
         <div class="text-center">
-          <h1 class="text-center mb-5">弊社をご検討されている皆さんへ</h1>
+          <h1 class="text-center mb-5">弊社をご検討されている<br class="ignore-pc">皆さんへ</h1>
         </div>
         <img src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5">
       </div><!--//col12-->
