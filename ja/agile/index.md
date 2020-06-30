@@ -17,6 +17,11 @@ title:  月額制の Ruby/Rails 開発支援サービス
 	  <h3 class="mb-5">経験豊富なチームで<br class="ignore-sp">御社の開発をサポートします</h3>
         </div>
 	<img src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+	<blockquote style="padding-top: 10px; font-style: normal;"><center><h2 style="padding-bottom: 0px; margin-bottom: 0px;"><b>【重要：新規受付停止のお知らせ】</b></h2></center>
+	  <p>長い間ご愛顧いただきありがとうございました！YassLab 社では月間２万以上のアクティブな利用者と、社員研修やスクール、大学・大学院などでも続々と採用されている<a href="/ja/#products">自社プロダクト</a>に注力するため、開発支援事業を停止する決断をいたしました。</p>
+	  <p style="padding: 20px 0px;">今後は<a href="/ja/#products">実践的なプロダクト開発がオンラインで学べるサービス</a>の開発に注力し、現在お困りの様々な個人・法人の学習環境をサポートするべく邁進していきます。社員研修やオンライン学習でお困りの場合は、お気軽にご連絡いただけると幸いです。</p>
+	  
+	</blockquote>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
