@@ -126,7 +126,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
 
 	{% include agile-schedule.html %}
         
-        <table class="caption">
+        <table class="caption" style="margin-top: 30px;">
           <tr>
             <th><img src="/img/agile-available.png" alt="Available" /></th>
             <td>現在ご対応が可能です。ご相談お待ちしております。</td>
@@ -137,14 +137,13 @@ title:  月額制の Ruby/Rails 開発支援サービス
           </tr>
           <tr>
             <th><img src="/img/agile-reserved.png"  alt="Reserved" /></th>
-            <td>契約が締結されました。様々なお問い合わせ、ありがとうございました。</td>
+            <td>受付を停止しました。様々なお問い合わせ、ありがとうございました。</td>
           </tr>
         </table>
-	<br><br>
-	
+
+	<!--
 	<h4>メールでお知らせ</h4>
 	<p class="text-center">弊社のスケジュールが空き次第、いち早くメールにてお届けします。<br class="ignore-sp">開発支援サービスを検討中のご担当者さまは、ぜひご登録ください。</p>
-	<!-- Begin Mailchimp Signup Form -->
 	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
 	 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
@@ -156,14 +155,13 @@ title:  月額制の Ruby/Rails 開発支援サービス
 	    <div id="mc_embed_signup_scroll">
 	      
 	      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="example@your-company.co.jp" required>
-	      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 	      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_87929ed80d217471e88115dc6_bcd0bfb7da" tabindex="-1" value=""></div>
 	      <div class="clear"><input type="submit" value="登録する" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 	    </div>
 	  </form>
 	</div>
-	<!--End mc_embed_signup-->
-
+	-->
+	
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
