@@ -24,7 +24,7 @@ title:  弊社をご検討されている皆さんへ
         </ul>
 	<p>以下、弊社の特徴や活動の雰囲気、事業内容などをご紹介していきます。弊社をご検討されている方々のご参考になれば嬉しいです。</p>
 
-	<blockquote style="font-style: normal;"><a href="/ja/#members">YassLab 社メンバー</a>が推薦した方を優先的に対応しております。応募前にあらかじめご理解・ご了承していただけると幸いです 🙏</blockquote>
+	<blockquote style="font-style: normal;"><a href="/ja/#members">YassLab 社メンバー</a>からの推薦を受けた方を優先しております。あらかじめご理解・ご了承していただけると幸いです 🙏</blockquote>
       </div><!--//col-->
     </div><!--//row-->
     <div id="remote"></div>
