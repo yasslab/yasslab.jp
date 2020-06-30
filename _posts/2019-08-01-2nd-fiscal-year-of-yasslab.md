@@ -57,7 +57,7 @@ YassLab 社の特徴の１つに様々な法人・コミュニティと連携し
 中でも CoderDojo コミュニティとの連携は典型的で、「スポンサーではなくパートナー」「互いの良さを共に高め合う」事例として好評を頂いており、様々な企業が [CoderDojo Japan とのパートナーシップ](https://news.coderdojo.jp/category/press/)を発表しております。
 
 <div style="margin-bottom: 30px;">
-  <script async class="speakerdeck-embed" data-id="d92b96281af3431ab19b5cd0c3f05b9c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  <script async class="speakerdeck-embed" data-id="ba5d69d07474453eaf7e34a8b924851e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
 直近では東証一部の企業が運営する [TOPSIC との提携が発表](https://news.coderdojo.jp/2019/07/30/play-and-learn-with-programming-contest/)されましたが、この TOPSIC 開発者の１人はRailsチュートリアルでプロダクト開発を学んだ方でもあります。様々な場面で様々な人達が繋がっていることを感じますね 👥✨
