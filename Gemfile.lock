@@ -18,7 +18,7 @@ GEM
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
     connection_pool (2.2.3)
-    diff-lcs (1.4.3)
+    diff-lcs (1.4.4)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.1)
