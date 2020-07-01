@@ -19,6 +19,11 @@ thumbnail: bg-sky.jpg
   </li>
   <li style="padding-top: 7px;">
     <span class="h5">
+      <a href="/ja/docs/nda-sample-for-members">YassLab株式会社 NDA (サンプル)</a>
+    </span>
+  </li>
+  <li style="padding-top: 7px;">
+    <span class="h5">
       <a href="/ja/docs/breaktime-agreement">YassLab株式会社 休憩時間の労使協定</a>
     </span>
   </li>
