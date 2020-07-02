@@ -39,6 +39,16 @@ thumbnail: bg-sky.jpg
   </li>
   <li style="padding-top: 7px;">
     <span class="h5">
+      <a href="/ja/docs/contract-sample-for-partners">YassLab株式会社 パートナー向け業務委託契約書</a>
+    </span>
+  </li>
+  <li style="padding-top: 7px;">
+    <span class="h5">
+      <a href="/ja/docs/nda-sample-for-partners">YassLab株式会社 パートナー向け秘密保持契約書</a>
+    </span>
+  </li>
+  <li style="padding-top: 7px;">
+    <span class="h5">
       <a href="/ja/docs/styleguide-railstutorial">Railsチュートリアルの配色ガイドライン</a>
     </span>
   </li>
