@@ -19,7 +19,12 @@ thumbnail: bg-sky.jpg
   </li>
   <li style="padding-top: 7px;">
     <span class="h5">
-      <a href="/ja/docs/nda-sample-for-members">YassLab株式会社 NDA (サンプル)</a>
+      <a href="/ja/docs/nda-sample-for-members">YassLab株式会社 NDA サンプル</a>
+    </span>
+  </li>
+  <li style="padding-top: 7px;">
+    <span class="h5">
+      <a href="/ja/docs/contract-sample-for-fulltime">YassLab株式会社 雇用契約書サンプル (フルタイム社員向け)</a>
     </span>
   </li>
   <li style="padding-top: 7px;">
