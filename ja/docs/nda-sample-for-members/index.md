@@ -9,6 +9,6 @@ title:  NDA サンプル
 
 <blockquote style="padding-top: 15px; font-style: normal;">フルタイム社員およびパートタイム社員向け NDA 契約書のサンプルです。</blockquote>
 
-![1st page](/ja/docs/nda-sample-for-members/nda-sample-for-members-1.jpg)
+![1st page](/ja/docs/nda-sample-for-members-1.jpg)
 
-![2nd page](/ja/docs/nda-sample-for-members/nda-sample-for-members-2.jpg)
+![2nd page](/ja/docs/nda-sample-for-members-2.jpg)
