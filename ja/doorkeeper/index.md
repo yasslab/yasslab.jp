@@ -4,23 +4,25 @@ title:  DoorKeeper スポンサーシップ
 thumbnail: bg-dark.jpg
 ---
 
-[YassLab 株式会社](/)が提供する Doorkeeper スポンサーシップに興味を持って頂きありがとうございます! 本資料では、弊社が Doorkeeper の枠を提供する目的や条件、手続き、利用規約などをまとめています。コミュニティ運営者の皆さまが本スポンサーシップを検討する際のご参考になれば幸いです。
+[YassLab 株式会社](/)が提供する Doorkeeper スポンサーシップに興味を持って頂きありがとうございます! 本資料では、弊社が Doorkeeper の枠を提供する目的や条件、手続き、利用規約などをまとめています。CoderDojo 運営者の皆さまが本スポンサーシップを検討する際のご参考になれば幸いです。
 
-_(※ 本スポンサーシップは、Doorkeeper 株式会社の代表取締役 Paul McMahon から事前の承諾を得て実施しております)_
+_(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doorkeeper.jp/about)の代表取締役 Paul McMahon 氏から事前の承諾を得て実施しております。)_
 
 <div id="background"></div>
 
 ## [背景と目的](#background)
 
-Doorkeeper の完全有料化に伴って、2016年9月1日から無料で使えるサービスではなくなります。弊社でも Doorkeeper の代表から現況を直接伺わせて頂き、無料のままでは長続きしないビジネスモデルであると感じました。また、無料のまま無理を続けた結果、Doorkeeper が shutdown および (よりユーザーへの負担が高い方向に) pivot をし、現在の素晴らしいサービスが損なわれてしまう可能性があるとも感じています。ならば、今回の完全有料化を何らかの形で回せるように支援した方が、サービス提供者にとってもユーザー (コミュニティ) にとっても、長期的に見てより良い状況に持っていけるのではないかと考えました。
+[Doorkeeper の有料化](https://www.doorkeeper.jp/news/2016/8/22/from-free-to-paid-status-update)に伴って、2016年9月1日から無料で使えるサービスではなくなります。有料化に至る前から、弊社では Doorkeeper の代表から現況を事前に伺わせて頂き、有料化に踏み切るべき必要性について強く共感いたしました。
 
-そこで、Doorkeeper とコミュニティ、および弊社が共に発展していけるよう、Doorkeeper からの許諾を得た上で、弊社では次のような形で Doorkeeper とコミュニティを支援することにしました。
+一方で、今回の有料化に伴って Doorkeeper がこれまで築いてきたコミュニティが崩れ去ってしまうのは忍びないです。また、Doorkeeper の有料化を尊重しつつも、コミュニティに対しても弊社で何らかのサポートができないかと考えました。
+
+そこで、Doorkeeper とコミュニティ、および弊社が共に発展していけるよう、Doorkeeper からの許諾を得た上で、弊社では次のような仕組みで Doorkeeper スポンサーシップの取り組みを始めました。
 
 ![スポンサーシップ提供例](/img/doorkeeper_sample.gif)
 
 <p class="text-center">図. Okinawa Ruby User Group (<a href="http://ruby.okinawa/">Okinawa.rb</a>) に対するスポンサーシップの提供例</p>
 
-上記の形で支援することで、将来にわたって長期的に良いサービスを提供したい Doorkeeper にとっても、引き続き Doorkeeper を利用したいコミュニティにとっても、また、コミュニティを支援する企業として周知していきたい弊社にとっても良い関係性を築けるのではないかと考えております。
+上記の仕組みで支援することで、将来にわたって長期的に良いサービスを提供したい Doorkeeper にとっても、Doorkeeper を利用したいコミュニティにとっても、また、コミュニティ支援を周知していきたい弊社にとっても良い関係性を築けるのではないかと考えております。
 
 <div id="prospectives"></div>
 
@@ -29,9 +31,9 @@ Doorkeeper の完全有料化に伴って、2016年9月1日から無料で使え
 
 弊社では [Doorkeeper の Plus プラン](https://www.doorkeeper.jp/pricing)に契約しているため、提供できるイベント枠には限りがあります。枠数が限定されているため、下記にあげるような弊社との関連性が高いコミュニティに優先的に提供しております。
 
-- 沖縄のIT系コミュニティ (例: [Okinawa.rb](https://okinawarb.doorkeeper.jp/), [Okinawa Frontend](https://okinawa-frontend.doorkeeper.jp/))
-- CoderDojo コミュニティ (例: [CoderDojo さいたま](https://coderdojo.doorkeeper.jp/), [CoderDojo 飯能](https://coderdojohanno.doorkeeper.jp/))
-- 他、弊社との関連性が高いコミュニティ (例: [OSS Gate](https://oss-gate.github.io/), [Nilquebe](https://nilquebe.com/))
+- CoderDojo コミュニティ (例: [CoderDojo 五反田](https://coderdojo-gotanda.doorkeeper.jp/)、[CoderDojo 那覇](https://coderdojo-naha.doorkeeper.jp/)、[CoderDojo Japan](https://coderdojo-japan.doorkeeper.jp/))
+- 沖縄のIT系コミュニティ (例: [Okinawa Ruby User Group](https://okinawarb.doorkeeper.jp/)、[Okinawa Frontend](https://okinawa-frontend.doorkeeper.jp/)、[IGDA 琉球大学](https://igda-ryukyus.doorkeeper.jp/))
+- 他、弊社との関連性が高いコミュニティ (例: [OSS Gate](https://oss-gate.github.io/)、[Nilquebe](https://nilquebe.com/)、[Otona Programming](https://otona-programming.doorkeeper.jp/))
 
 もし枠が余っていれば上記以外のコミュニティも支援できると思いますが、枠の数には限りがあるため、基本的には上記のコミュニティを優先して支援していけたらと考えております。ご理解して頂けると幸いです 🙇
 
