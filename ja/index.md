@@ -135,21 +135,22 @@ layout: plain_without_thumbnail
 {% include services_for_team.html    %}
 {% include partners_and_clients.html %}
 
-<section class="aboutVisual entry_content" id="members">
+<section class="aboutVisual entry_content" id="remote-team">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#members">沖縄
-		×
-		東京</a></h2>
-        <p class="text-md-center h5">YassLab 社はソフトウェアエンジニアのリモートチームです。<br class="ignore-sp">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
+        <h2><a href="#remote-team">
+	  リモート
+	  ×
+	  チーム</a></h2>
+        <p class="text-md-center h5">YassLab 社はフルリモートでプロダクトを開発するチームです。<br class="ignore-sp">フルタイム・パートタイム・複業、様々な関わり方があります。</p>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
+  <div id="members"></div>
 </section>
 
-
-<section class="members" id="members" style="margin-top: 50px;">
+<section class="members" style="margin-top: 50px;">
   <div class="container">
     <div class="row">
       <div class="col-12">
