@@ -11,7 +11,7 @@ contact_hidden: true
 
       <p>お問い合わせありがとうございます。弊社サービスに関するお問い合わせについては３営業日以内にご返信いたしますね。</p>
 
-      <div align="right" style="padding-bottom: 100px;">
+      <div align="right" style="padding-bottom: 100px;" id="for-team">
 	YassLab 株式会社<br>
 	<a href="/ja">https://yasslab.jp</a>
       </div>
