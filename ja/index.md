@@ -60,7 +60,7 @@ layout: plain_without_thumbnail
               <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
 
-            <p>プロダクト開発の生産性を高める、Ruby on Rails に特化した<span style="background-color: #AA4536; color: white; border-radius: 2px;"> 1,600 </span>ページ超えの大型リファレンスガイド。<a href="https://railsguides.jp/ebook">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
+            <p>プロダクト開発の生産性を高める、Ruby on Rails に特化した<span style="background-color: #AA4536; color: white; border-radius: 2px;"> 1,400 </span>ページ超えの大型リファレンスガイド。<a href="https://railsguides.jp/ebook">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、<a href="https://railsguides.jp/team">法人向けサービス</a>も提供</p>
           </div>
         </div>
       </div>
