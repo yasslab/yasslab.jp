@@ -52,7 +52,7 @@ title:  会社概要
       <div class="col-md-12 profile mt-5" id="profile">
 	<h2 class="text-center mt-5 mb-5">代表者<br class="ignore-pc">プロフィール</h2>
         <div class="profile__image text-center mb-2">
-          <img src="/img/yohei_300x300.png" alt="安川 要平" class="rounded-circle">
+          <img src="/img/yohei_500x500.png" alt="安川 要平" class="rounded-circle" width="300px">
         </div>
         <div class="profile__role text-center mb-2">YassLab (株) 代表取締役</div>
         <h4 class="text-center mb-3 h3deco-none">安川 要平</h4>
