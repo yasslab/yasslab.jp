@@ -46,6 +46,8 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 
 下記コードをそのままコピペしていただいても大丈夫ですし、[ブランドガイドライン](/ja/brand-assets)から弊社ロゴデータをダウンロードして使用していただいても大丈夫です 🆗
 
+<br>
+
 ##### [CoderDojo Japan のスポンサー紹介例](https://coderdojo-japan.doorkeeper.jp/events/91507) (オススメ)
 
 <p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%"></a></p>
@@ -62,6 +64,8 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
   </div>
 </div>
 ```
+
+<br><br>
 
 ##### [Okinawa.rb のスポンサー紹介例](https://okinawarb.doorkeeper.jp/events/77519)
 
