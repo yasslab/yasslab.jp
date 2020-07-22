@@ -56,7 +56,7 @@ title:  弊社をご検討されている皆さんへ
 	</div>
 	<p class="text-center">
 	  YassLab 社の雰囲気を30秒で紹介する動画です。<br class="ignore-sp">
-	  過去の講演動画も <a href="https://www.youtube.com/c/YassLab">YouTube</a> で公開してます ;)</p>
+	  過去の講演動画も <a href="https://www.youtube.com/YassLab">YouTube</a> で公開してます ;)</p>
 	<br>
 	<br>
       </div><!--//col-->
