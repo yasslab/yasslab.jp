@@ -26,7 +26,11 @@ gem 'rack-contrib'   # for managing CSP (cf. /config.ru)
 # To enhance building time with Jekyll 4.0.0+
 # https://github.com/yasslab/yasslab.jp/pull/123
 gem "liquid-c"
-gem "jekyll-include-cache", group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem "jekyll-include-cache"
+  gem 'jekyll-sitemap'
+end
 
 group :development do
   # Gems to fetch RSS in development only
