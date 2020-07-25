@@ -1,4 +1,6 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
+# - Redirects and Rewrites: https://docs.netlify.com/routing/redirects/
+# - Redirect options: https://docs.netlify.com/routing/redirects/redirect-options/
 
 # Redirect default Netlify subdomain to primary domain
 https://yasslab.netlify.com/* https://staging.yasslab.jp/:splat 301!
