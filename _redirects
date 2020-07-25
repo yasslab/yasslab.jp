@@ -2,3 +2,4 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://yasslab.netlify.com/* https://staging.yasslab.jp/:splat 301!
+https://staging.yasslab.jp/*  https://yasslab.jp/:splat 302!
