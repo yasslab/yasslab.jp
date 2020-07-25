@@ -7,4 +7,4 @@ https://yasslab.netlify.com/* https://staging.yasslab.jp/:splat 301!
 
 # Disable staging on Netlify for better SEO unless being protected
 # https://moz.com/learn/seo/duplicate-content
-https://staging.yasslab.jp/*  https://yasslab.jp/:splat 301!
+https://staging.yasslab.jp/*  https://yasslab.jp/:splat 302!
