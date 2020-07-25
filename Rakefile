@@ -7,7 +7,9 @@ task default: 'assets:precompile'
 namespace :assets do
   task :precompile do
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
-    sh 'npm prune --production' if ENV['NPM_CONFIG_PRODUCTION'] == 'false'
+
+    # Shaped up npm modules ;) So 'npm prune' does not save so much.
+    # sh 'npm prune --production' if ENV['NPM_CONFIG_PRODUCTION'] == 'false'
   end
 end
 
