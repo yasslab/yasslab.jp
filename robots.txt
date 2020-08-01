@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /ja/invoice
+Disallow: /ja/calendar
+Disallow: /google02f5cc9ed3681f94.html
+Disallow: /google3a4de0d83c05ed13.html
+
+Sitemap: https://yasslab.jp/sitemap.xml
+
