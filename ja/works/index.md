@@ -76,8 +76,8 @@ title:  事業実績
         </div>
 	
 	<div class="video">
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
-       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  <iframe width="560" height="315" data-src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
+	   class="lazyload" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
 
 	<div class="offset-md-1">

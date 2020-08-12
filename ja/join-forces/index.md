@@ -10,7 +10,7 @@ title:  弊社をご検討されている皆さんへ
         <div class="text-center">
           <h1 class="text-center mb-5">弊社をご検討されている<br class="ignore-pc">皆さんへ</h1>
         </div>
-        <img src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5">
+        <img data-src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload">
       </div><!--//col12-->
     </div><!--//row-->
     
@@ -40,19 +40,13 @@ title:  弊社をご検討されている皆さんへ
 	 data-id="cf1cd6f115924b4cace9b825fe474198"
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
-	<!--
-	<script async class="speakerdeck-embed"
-	 data-id="ba5d69d07474453eaf7e34a8b924851e"
-	 data-ratio="1.33333333333333"
-	 src="//speakerdeck.com/assets/embed.js"></script>
-	-->
         <p id="daily-life" class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="ignore-sp">(関連動画: <a href="https://www.youtube.com/playlist?list=PLNLYzHXJU2-_jeyeLbEaXUgqGHGgJPKas">YassLab 社とリモートワーク - YouTube</a>)</p>
 	
 	
 	<h2 class="text-center mt-5 mb-5"><a href="#daily-life">YassLab 社の日常</a></h2>
 	<div class="video">
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
-	   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  <iframe width="560" height="315" data-src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
+	   class="lazyload" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
 	<p class="text-center">
 	  YassLab 社の雰囲気を30秒で紹介する動画です。<br class="ignore-sp">
@@ -78,7 +72,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railstutorial">1. Ruby on Railsチュートリアル (自社開発)</a>
-	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/header-railstutorial.png" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" data-src="/img/header-railstutorial.png" class="lazyload" /></a></div>
 	</h3>
 	
 	<ul>
@@ -99,7 +93,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railsguides">2. Ruby on Railsガイド (自社開発)</a>
-	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/header-railsguides.png" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" data-src="/img/header-railsguides.png" class="lazyload" /></a></div>
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://railsguides.jp/">https://railsguides.jp/</a></li>
@@ -119,7 +113,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#coderdojojp">3. coderdojo.jp の開発 (委任開発)</a>
-	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/header-coderdojo-japan.png" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" data-src="/img/header-coderdojo-japan.png" class="lazyload" /></a></div>
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://coderdojo.jp/">https://coderdojo.jp/</a></li>
@@ -139,7 +133,7 @@ title:  弊社をご検討されている皆さんへ
 	<h2 class="text-center mt-5 mb-5"><a href="#flow">応募から採用までの流れ</a></h2>
 	<p>会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっている OSS で一緒に開発するスタイルを採用しています。</p>
 
-	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" /></a></p>
+	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img data-src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" class="lazyload" /></a></p>
 	<center>OSSリポジトリ上でチーム開発する例 (<a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287">詳細</a>)</center>
 
 	<p>例えば2018年2月21日にパートタイムで入社した <a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> さんの場合、まずは CoderDojo Japan の開発を１ヶ月ほど一緒に進めてみて、その後、契約を更新するかどうか判断するというステップを踏みました。</p>
