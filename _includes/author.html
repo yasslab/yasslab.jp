@@ -3,8 +3,8 @@
   <a href="https://twitter.com/{{ page.author }}"
      style="text-decoration: none;">
     <img
-     class="rounded-circle" width="{{ include.width | default: 50 }}px"
-     alt="{{ page.author }}" src="/img/photos/{{ page.author }}.jpg">
+     class="rounded-circle lazyload" width="{{ include.width | default: 50 }}px"
+     alt="{{ page.author }}" data-src="/img/photos/{{ page.author }}.jpg">
   </a>
   
   {% if include.show_screenname %}

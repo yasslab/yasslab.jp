@@ -9,4 +9,4 @@ title:  雇用契約書サンプル (フルタイム社員向け)
 
 <blockquote style="padding-top: 15px; font-style: normal;">フルタイム社員を対象とした雇用契約書のサンプルです。</blockquote>
 
-<img width="100%" src="/ja/docs/contract-sample-for-fulltime.jpg" alt="雇用契約書サンプル (フルタイム社員向け)" />
+<img width="100%" data-src="/ja/docs/contract-sample-for-fulltime.jpg" alt="雇用契約書サンプル (フルタイム社員向け)" class="lazyload" />

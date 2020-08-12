@@ -24,34 +24,31 @@
     <tr>
       <td>
 	{% if include.left_name == '' %}
-	<img width="200px" src="/img/logos/empty.png"
-	     alt="募集中">
+	<img width="200px" data-src="/img/logos/empty.png" alt="募集中" class="lazyload">
 	{% else %}
 	<a href="https://{{ include.left_path }}.doorkeeper.jp" rel="nofollow">
-	  <img width="200px" src="/img/logos/{{ include.left_path }}.png"
-	   alt="{{ include.left_name }}">
+	  <img width="200px" data-src="/img/logos/{{ include.left_path }}.png"
+	   alt="{{ include.left_name }}" class="lazyload">
 	</a>
 	{% endif %}
       </td>
       <td>
 	{% if include.center_name == '' %}
-	<img width="200px" src="/img/logos/empty.png"
-	     alt="募集中">
+	<img width="200px" data-src="/img/logos/empty.png" alt="募集中" class="lazyload">
 	{% else %}
 	<a href="https://{{ include.center_path }}.doorkeeper.jp/" rel="nofollow">
-	  <img width="200px" src="/img/logos/{{ include.center_path }}.png"
-	   alt="{{ include.center_name }}">
+	  <img width="200px" data-src="/img/logos/{{ include.center_path }}.png"
+	   alt="{{ include.center_name }}" class="lazyload">
 	</a>
 	{% endif %}
       </td>
       <td>
 	{% if include.right_name == '' %}
-	<img width="200px" src="/img/logos/empty.png"
-	     alt="募集中">
+	<img width="200px" data-src="/img/logos/empty.png" alt="募集中" class="lazyload">
 	{% else %}
 	<a href="https://{{ include.right_path }}.doorkeeper.jp/" rel="nofollow">
-	  <img width="200px" src="/img/logos/{{ include.right_path }}.png"
-	   alt="{{ include.right_name }}">
+	  <img width="200px" data-src="/img/logos/{{ include.right_path }}.png"
+	   alt="{{ include.right_name }}" class="lazyload">
 	</a>
 	{% endif %}
       </td>
