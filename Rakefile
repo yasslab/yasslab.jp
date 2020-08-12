@@ -26,6 +26,7 @@ task test: [:build] do
     check_opengraph:  true,
     check_favicon:    true,
     check_html:       true,
+    checks_to_ignore: %w(ImageCheck),
     disable_external: true,
     file_ignore: [
       /node_modules/,
