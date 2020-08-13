@@ -21,6 +21,7 @@ lang:   en
 
 <br>
 
+<!--
 ## [Past works](#works) {#works}
 
 - Web Services and Mobile Applications:
@@ -37,12 +38,13 @@ lang:   en
    - [Rails Tutorial in Japanese](http://railstutorial.jp), one of the most famous Rails books in Japan.
       - [Rails Seminar](http://railstutorial.jp/seminars): Learn Rails by Seminar
 	  - [Rails Screencast](http://railstutorial.jp/screencasts): Learn Rails by Screencast
-- Open-source Communities:
+- Support Communities:
    - [Okinawa.rb](http://ruby.okinawa/): Okinawa Ruby User Group that we found and support.
    - [OpenSource Cafe](http://www.osscafe.net/): Open-source Cafe in Japan that we love.
-   - [CoderDojo Japan](http://coderdojo.jp/): Open-source Programming Clubs for Kids in Japan that we support.
+   - [CoderDojo Japan](http://coderdojo.jp/): Free Programming Clubs for Young People in Japan.
 
 <br />
+-->
 
 ## About us {#about}
 
