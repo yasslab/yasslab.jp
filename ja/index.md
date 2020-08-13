@@ -39,9 +39,9 @@ layout: plain_without_thumbnail
           <div class="col-md-4 offset-md-1">
             <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
 	      <img class="books lazyload" data-src="/img/logos/rails-tutorial.png"
-               alt="Ruby on Rails チュートリアル" loading="lazy">
-	    </a>
-	    <a href="https://railstutorial.jp/" target="_blank" rel="noopener"><h4>Railsチュートリアル</h4></a>
+               alt="Ruby on Rails チュートリアル" loading="lazy"></a>
+	      <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
+		<h4>Railsチュートリアル</h4></a>
             <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
