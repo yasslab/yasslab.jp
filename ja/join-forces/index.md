@@ -10,7 +10,7 @@ title:  弊社をご検討されている皆さんへ
         <div class="text-center">
           <h1 class="text-center mb-5">弊社をご検討されている<br class="ignore-pc">皆さんへ</h1>
         </div>
-        <img data-src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload">
+        <img src="/img/spinner.svg" data-src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload">
       </div><!--//col12-->
     </div><!--//row-->
     
@@ -72,7 +72,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railstutorial">1. Ruby on Railsチュートリアル (自社開発)</a>
-	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" data-src="/img/header-railstutorial.png" class="lazyload" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/spinner.svg" data-src="/img/header-railstutorial.png" class="lazyload" /></a></div>
 	</h3>
 	
 	<ul>
@@ -93,7 +93,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railsguides">2. Ruby on Railsガイド (自社開発)</a>
-	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" data-src="/img/header-railsguides.png" class="lazyload" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/spinner.svg" data-src="/img/header-railsguides.png" class="lazyload" /></a></div>
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://railsguides.jp/">https://railsguides.jp/</a></li>
@@ -113,7 +113,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#coderdojojp">3. coderdojo.jp の開発 (委任開発)</a>
-	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" data-src="/img/header-coderdojo-japan.png" class="lazyload" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/spinner.svg" data-src="/img/header-coderdojo-japan.png" class="lazyload" /></a></div>
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://coderdojo.jp/">https://coderdojo.jp/</a></li>
@@ -133,7 +133,7 @@ title:  弊社をご検討されている皆さんへ
 	<h2 class="text-center mt-5 mb-5"><a href="#flow">応募から採用までの流れ</a></h2>
 	<p>会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっている OSS で一緒に開発するスタイルを採用しています。</p>
 
-	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img data-src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" class="lazyload" /></a></p>
+	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/spinner.svg" data-src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" class="lazyload" /></a></p>
 	<center>OSSリポジトリ上でチーム開発する例 (<a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287">詳細</a>)</center>
 
 	<p>例えば2018年2月21日にパートタイムで入社した <a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> さんの場合、まずは CoderDojo Japan の開発を１ヶ月ほど一緒に進めてみて、その後、契約を更新するかどうか判断するというステップを踏みました。</p>

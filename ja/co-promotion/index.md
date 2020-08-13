@@ -12,7 +12,7 @@ Railsチュートリアル試聴会は、有償のRailsチュートリアル解�
 
 ## 試聴の仕組み
 
-<img data-src="/img/coedo-system.png" width='100%' alt='試聴の仕組み' class="lazyload" />
+<img src="/img/spinner.svg" data-src="/img/coedo-system.png" width='100%' alt='試聴の仕組み' class="lazyload" />
 
 1. オフィス内の LAN に社内サーバーを立てます
 	- UPnP 対応の NAS などが既にあれば、そのままご活用できます
@@ -48,7 +48,7 @@ Railsチュートリアル試聴会は、有償のRailsチュートリアル解�
 
 # ビジネス側の仕組み
 
-<img data-src="/img/coedo-usecase.png" width='100%' alt='Co-Edoでの提携事例' class="lazyload" />
+<img src="/img/spinner.svg" data-src="/img/coedo-usecase.png" width='100%' alt='Co-Edoでの提携事例' class="lazyload" />
 
 - **参加者・利用者:** 有償の動画を試聴できる 👀
 - **スペース提供者:** コンテンツを見に利用者が訪れる 🏃

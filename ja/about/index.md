@@ -16,14 +16,14 @@ title:  会社概要
           <a href="/ja/#tutorial">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>はその一例です。弊社のみが利益を上げるのではなく、社員や顧客などの様々な関係者が価値を享受できるカタチを模索し、その中で継続できるビジネスに YassLab 社は挑戦しています。
 	  例えばRailsチュートリアルのような著作物であれば<a href="https://railstutorial.jp/#foreword">原著者の許諾</a>のもと実現可能なビジネスを、Railsガイドのような <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA</a> で公開されている著作物であればライセンスにしたがって実現可能なビジネスを模索し、実践します。</p>
         <p class="mb-4">価値が還流できる仕組みを設計し、その上で実現可能なビジネスに挑戦するチームが YassLab 社です。</p>
-        <img data-src="/img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5 lazyload">
+        <img src="/img/spinner.svg" data-src="/img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5 lazyload">
 	
         <h2 class="text-center mb-5" id="culture">価値が還流できる仕組みの例</h2>
         <p class="mb-4">YassLab 社では様々なコミュニティとも連携し、成長できるカタチを実践しています。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
         <p class="mb-4">CoderDojo Japan との連携はうまく回っているカタチの１つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いの価値を交換し合うカタチで行なっています。</p>
 
 	<div class="text-center">
-	  <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community"><img data-src="/img/cdj-and-yasslab.jpg" alt="開発支援パートナーの仕組み" width="70%" class="lazyload" /></a>
+	  <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community"><img src="/img/spinner.svg" data-src="/img/cdj-and-yasslab.jpg" alt="開発支援パートナーの仕組み" width="70%" class="lazyload" /></a>
 	  <p class="text-center" style="font-size: 80%">引用元: <a href="https://speakerdeck.com/yasulab/growing-up-together-with-community">コミュニティと共に成長する</a> (スライド資料)</p>
 	</div>
 	
@@ -42,7 +42,7 @@ title:  会社概要
 </section>
 
 <div class="video" style="margin-top: 100px;">
-  <iframe class="lazyload" data-src="https://www.youtube.com/embed/oo1dVd_sNwA?rel=0&autoplay=1&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe class="lazyload" src="/img/spinner.svg" data-src="https://www.youtube.com/embed/oo1dVd_sNwA?rel=0&autoplay=1&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 <section class="entry_content pt-5 mb-5">
@@ -52,25 +52,25 @@ title:  会社概要
       <div class="col-md-12 profile mt-5" id="profile">
 	<h2 class="text-center mt-5 mb-5">代表者<br class="ignore-pc">プロフィール</h2>
         <div class="profile__image text-center mb-2">
-          <img data-src="/img/yohei_500x500.png" alt="安川 要平" class="rounded-circle lazyload" width="300px">
+          <img src="/img/spinner.svg" data-src="/img/yohei_500x500.png" alt="安川 要平" class="rounded-circle lazyload" width="300px">
         </div>
         <div class="profile__role text-center mb-2">YassLab (株) 代表取締役</div>
         <h4 class="text-center mb-3 h3deco-none">安川 要平</h4>
         <ul class="profile__sns mb-3">
           <li class="profile__sns__icon">
-            <a href="https://www.facebook.com/yasulab" target="_blank" rel="noopener"><img data-src="/img/icons/facebook.png" alt="Facebook" class="lazyload"></a>
+            <a href="https://www.facebook.com/yasulab" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook" class="lazyload"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://twitter.com/yasulab" target="_blank" rel="noopener"><img data-src="/img/icons/twitter.png" alt="Twitter" class="lazyload"></a>
+            <a href="https://twitter.com/yasulab" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter" class="lazyload"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://github.com/yasulab" target="_blank" rel="noopener"><img data-src="/img/icons/github.png" alt="GitHub" class="lazyload"></a>
+            <a href="https://github.com/yasulab" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub" class="lazyload"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://www.linkedin.com/in/yasulab/" target="_blank" rel="noopener"><img data-src="/img/icons/linkedin.png" alt="LinkedIn" class="lazyload"></a>
+            <a href="https://www.linkedin.com/in/yasulab/" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/linkedin.png" alt="LinkedIn" class="lazyload"></a>
           </li>
 	  <li class="profile__sns__icon">
-	    <a href="https://qiita.com/yasulab" target="_blank" rel="noopener"><img data-src="/img/icons/qiita.png" alt="Qiita" class="lazyload"></a>
+	    <a href="https://qiita.com/yasulab" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita" class="lazyload"></a>
 	  </li>
         </ul>
       </div>

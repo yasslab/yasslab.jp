@@ -16,7 +16,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
           <h1 class="mb-5">月額制の<br class="ignore-sp">Ruby/Rails 開発支援</h1>
 	  <h3 class="mb-5">経験豊富なチームで<br class="ignore-sp">御社の開発をサポートします</h3>
         </div>
-	<img data-src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload">
+	<img src="/img/spinner.svg" data-src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload">
 	<blockquote style="padding-top: 10px; font-style: normal;"><center><h2 style="padding-bottom: 0px; margin-bottom: 0px;"><b>【重要：新規受付停止のお知らせ】</b></h2></center>
 	  <p>長い間ご愛顧いただきありがとうございました！YassLab 社では月間２万以上のアクティブな利用者と、社員研修やスクール、大学・大学院などでも続々と採用されている<a href="/ja/#products">自社プロダクト</a>に注力するため、開発支援事業を停止する決断をいたしました。</p>
 	  <p style="padding: 20px 0px;">今後は<a href="/ja/#products">実践的なプロダクト開発がオンラインで学べるサービス</a>の開発に注力し、現在お困りの様々な個人・法人の学習環境をサポートするべく邁進していきます。社員研修やオンライン学習でお困りの場合は、お気軽にご連絡いただけると幸いです。</p>
@@ -37,31 +37,31 @@ title:  月額制の Ruby/Rails 開発支援サービス
       
       <div class="col">
 	<a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
-          <img data-src="/img/icons/ruby.png" width="80%" alt="Ruby logo" class="lazyload" /></a><br>
+          <img src="/img/spinner.svg" data-src="/img/icons/ruby.png" width="80%" alt="Ruby logo" class="lazyload" /></a><br>
           Ruby / Rails
       </div> <!--//col-->
       
       <div class="col">
-        <img data-src="/img/icons/test.png" width="80%" alt="test icon" class="lazyload" /><br>Test
+        <img src="/img/spinner.svg" data-src="/img/icons/test.png" width="80%" alt="test icon" class="lazyload" /><br>Test
       </div>  <!--//col--> 
       
       <div class="col">
         <a href="https://github.com/" target="_blank" rel="noopener">
-          <img data-src="/img/icons/git.png" width="80%" alt="Git logo" class="lazyload" /></a><br>Git / GitHub
+          <img src="/img/spinner.svg" data-src="/img/icons/git.png" width="80%" alt="Git logo" class="lazyload" /></a><br>Git / GitHub
       </div>  <!--//col--> 
       
       <div class="w-100"></div> 
 
       <div class="col">
-        <img data-src="/img/icons/cloud.png" width="80%" alt="cloud icon" class="lazyload" /><br>Heroku / AWS
+        <img src="/img/spinner.svg" data-src="/img/icons/cloud.png" width="80%" alt="cloud icon" class="lazyload" /><br>Heroku / AWS
       </div> <!--//col-->
       
       <div class="col">
-        <img data-src="/img/icons/gear.png" width="80%" alt="Continuous Integration image" class="lazyload" /><br>Continuous Integration
+        <img src="/img/spinner.svg" data-src="/img/icons/gear.png" width="80%" alt="Continuous Integration image" class="lazyload" /><br>Continuous Integration
       </div>  <!--//col--> 
       
       <div class="col">
-        <img data-src="/img/icons/agile.png" width="80%" alt="Agile Web Development image" class="lazyload" /><br>Agile Web Development
+        <img src="/img/spinner.svg" data-src="/img/icons/agile.png" width="80%" alt="Agile Web Development image" class="lazyload" /><br>Agile Web Development
       </div>  <!--//col-->  
       
       <div class="col-md-12">
@@ -80,7 +80,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
         <p>弊社では、IPAが公開しているアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにしております。</p>
         
         <div>
-	  <img data-src="/img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" class="lazyload" />
+	  <img src="/img/spinner.svg" data-src="/img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" class="lazyload" />
 	  <br><br>
           <center>参考: <a href="https://www.ipa.go.jp/files/000005404.pdf">アジャイル開発向けモデル契約案について</a> (IPA)</center>
 	</div>
@@ -128,15 +128,15 @@ title:  月額制の Ruby/Rails 開発支援サービス
         
         <table class="caption" style="margin-top: 30px;">
           <tr>
-            <th><img data-src="/img/agile-available.png" alt="Available" class="lazyload" /></th>
+            <th><img src="/img/spinner.svg" data-src="/img/agile-available.png" alt="Available" class="lazyload" /></th>
             <td>現在ご対応が可能です。ご相談お待ちしております。</td>
           </tr>
           <tr>
-            <th><img data-src="/img/agile-adjusting.png" alt="Adjusting" class="lazyload" /></th>
+            <th><img src="/img/spinner.svg" data-src="/img/agile-adjusting.png" alt="Adjusting" class="lazyload" /></th>
             <td>各社と予定調整中です。まだ間に合いますので、お気軽に<a href="#contact">お問い合わせ</a>ください。</td>
           </tr>
           <tr>
-            <th><img data-src="/img/agile-reserved.png"  alt="Reserved" class="lazyload" /></th>
+            <th><img src="/img/spinner.svg" data-src="/img/agile-reserved.png"  alt="Reserved" class="lazyload" /></th>
             <td>受付を停止しました。様々なお問い合わせ、ありがとうございました。</td>
           </tr>
         </table>

@@ -11,7 +11,7 @@ With our experienced developers, we will suport your project.
 
 _See this in Japanese? [Here](/ja/agile/) ;)_   
 
-<img data-src="/img/team.png" alt='Team Photo' width='100%' class="lazyload" />
+<img src="/img/spinner.svg" data-src="/img/team.png" alt='Team Photo' width='100%' class="lazyload" />
 
 <br />
 

@@ -50,14 +50,14 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 
 ##### [CoderDojo Japan のスポンサー紹介例](https://coderdojo-japan.doorkeeper.jp/events/91507) (オススメ)
 
-<p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img data-src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%" class="lazyload"></a></p>
+<p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/spinner.svg" data-src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%" class="lazyload"></a></p>
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
 ```
 # スポンサー
 
 <div class="row justify-content-start no-gutters">
-  <div class="col-xs-3"><a href="https://yasslab.jp/"><img data-src="https://yasslab.jp/img/logos/500x500.png" alt="YassLab 株式会社" class="lazyload"></a></div>
+  <div class="col-xs-3"><a href="https://yasslab.jp/"><img src="/img/spinner.svg" data-src="https://yasslab.jp/img/logos/500x500.png" alt="YassLab 株式会社" class="lazyload"></a></div>
   <div class="col-xs-9"><b><a href="https://yasslab.jp/">YassLab 株式会社</a></b>
     <br><br>
     本イベントページは学びを支援する <a href="https://yasslab.jp/">YassLab 株式会社</a>が提供しております。詳細はコミュニティ運営者向け資料『<a href="https://yasslab.jp/ja/doorkeeper/">Doorkeeper スポンサーシップ</a>』をご参照ください。
@@ -69,7 +69,7 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 
 ##### [Okinawa.rb のスポンサー紹介例](https://okinawarb.doorkeeper.jp/events/77519)
 
-<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img data-src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%" class="lazyload"></a></p>
+<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/spinner.svg" data-src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%" class="lazyload"></a></p>
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
 ```
@@ -310,7 +310,7 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 
 ## [ライセンス](#license)
 
-<p class="text-center"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img data-src="/img/CC-BY-SA.png" alt="CC BY-SA International" class="lazyload"></a></p>
+<p class="text-center"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="/img/spinner.svg" data-src="/img/CC-BY-SA.png" alt="CC BY-SA International" class="lazyload"></a></p>
 
 本スポンサーシップの内容は[クリエイティブ・コモンズ 表示-継承 4.0 国際](https://creativecommons.org/licenses/by-sa/4.0/deed.ja) (CC BY-SA 4.0) ライセンスに基づいて公開しています。Doorkeeperスポンサーシップの提供をご検討している法人・個人のご参考になれば幸いです 🙇
 

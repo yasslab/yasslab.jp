@@ -18,7 +18,7 @@ title:  ブランドガイドライン
 掲載媒体の制約などで長方形ロゴが使用しづらい場面があれば、下記の正方形のロゴ画像をご使用ください。
 
 <div class="text-center">
-  <img data-src="/img/logos/500x500.png" alt="青背景で正方形のロゴ" width="40%" class="lazyload" />
+  <img src="/img/spinner.svg" data-src="/img/logos/500x500.png" alt="青背景で正方形のロゴ" width="40%" class="lazyload" />
 </div>
 
 <br>
@@ -30,7 +30,7 @@ title:  ブランドガイドライン
 ![白背景で長方形のロゴ](/img/logos/1076x389_white.jpg)
 
 <div class="text-center">
-  <img data-src="/img/logos/1000x1000_white.png" alt="白背景で正方形のロゴ" width="40%" class="lazyload" />
+  <img src="/img/spinner.svg" data-src="/img/logos/1000x1000_white.png" alt="白背景で正方形のロゴ" width="40%" class="lazyload" />
 </div>
 
 <br>

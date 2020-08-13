@@ -52,12 +52,12 @@ We're mainly working on Ruby/Rails web development, education, and open-source a
 
 <div class="row">
   <div class="col-md-12">
-    <img data-src="/img/team.png" alt="YassLab Team Photos" class="mt-3 mb-5 lazyload" loading="lazy">
+    <img src="/img/spinner.svg" data-src="/img/team.png" alt="YassLab Team Photos" class="mt-3 mb-5 lazyload" loading="lazy">
   </div><!--//col12-->
 </div><!--//row-->
 
 <div class="video">
-  <iframe width="560" height="315" data-src="https://www.youtube.com/embed/mzOc4iUZtuE?rel=0" class="lazyload" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="/img/spinner.svg" data-src="https://www.youtube.com/embed/mzOc4iUZtuE?rel=0" class="lazyload" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 <br><br>
 
@@ -65,25 +65,25 @@ We're mainly working on Ruby/Rails web development, education, and open-source a
 
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
-    <img data-src="/img/yohei_300x300.png" alt="Photo of Yohei Yasukawa" class="rounded-circle lazyload" loading="lazy">
+    <img src="/img/spinner.svg" data-src="/img/yohei_300x300.png" alt="Photo of Yohei Yasukawa" class="rounded-circle lazyload" loading="lazy">
   </div>
   <div class="profile__role text-center mb-2">CEO of YassLab Inc.</div>
   <h4 class="text-center mb-3 h3deco-none">Yohei Yasukawa</h4>
   <ul class="profile__sns mb-3">
     <li class="profile__sns__icon">
-      <a href="https://www.facebook.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" data-src="/img/icons/facebook.png" alt="Facebook"></a>
+      <a href="https://www.facebook.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://twitter.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" data-src="/img/icons/twitter.png" alt="Twitter"></a>
+      <a href="https://twitter.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://github.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" data-src="/img/icons/github.png" alt="GitHub"></a>
+      <a href="https://github.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://www.linkedin.com/in/yasulab/" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" data-src="/img/icons/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://www.linkedin.com/in/yasulab/" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/linkedin.png" alt="LinkedIn"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://qiita.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" data-src="/img/icons/qiita.png" alt="Qiita"></a>
+      <a href="https://qiita.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
     </li>
   </ul>
 </div>
