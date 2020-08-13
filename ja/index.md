@@ -5,13 +5,14 @@ layout: plain_without_thumbnail
 <section class="mainVisual">
   <div class="jumbotron">
     <picture>
-      <source media="(min-width: 600px)" srcset="/img/cover-photo.jpg">
-      <img data-src="/img/cover-photo-mobile.jpg" alt="{{ site.company.vision }}" class="lazyload">
+      <!--<source media="(max-width: 600px)" srcset="/img/cover-photo-mobile.jpg">-->
+      <img src="/img/cover-photo.min.jpg" data-src="/img/cover-photo.jpg" width="100%"
+       alt="{{ site.company.vision }}" class="lazyload">
     </picture>
 
     <div class="logo-catch">
       <!-- <img data-src="/img/icons/yasslab.svg" width="270" alt="YassLab Logo" class="lazyload"> -->
-      <h1 style="padding-bottom: 40px; font-size: 200%;">{{ site.company.vision }}</h1>
+      <h1>{{ site.company.vision }}</h1>
     </div>
   </div>
 </section>

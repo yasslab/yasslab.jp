@@ -26,7 +26,7 @@ img {
 /* Lazyload with fade animation */
 .lazyload,
 .lazyloading {
-  opacity: 0;
+  opacity: 0.6;
 }
 .lazyloaded {
   opacity: 1;
@@ -190,14 +190,22 @@ html {
       }
     }
     h1{
+      padding-top: 12px;
       text-shadow: 1px 1px 1px #444;
-      font-size: 2.8rem;
+      font-size: 1.0rem;
       color:#fff;
-      padding-top: 30px;
       font-family: 'Oxygen', sans-serif;
-      @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
-        padding-top: 15px;
+      @include media-breakpoint-up(sm) {
+        font-size: 1.3rem;
+        padding-top: 10px;
+      }
+      @include media-breakpoint-up(md) {
+        font-size: 1.6rem;
+        padding-top: 4px;
+      }
+      @include media-breakpoint-up(lg) {
+        font-size: 2.4rem;
+        padding-top: 0px;
       }
     }
   }
