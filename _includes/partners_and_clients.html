@@ -1,7 +1,7 @@
 <section class="partners">
   <div class="container tutorial">
     <h3><a href="#partners"><span class="emoji">🤝</span>
-      利用実績・提携法人</a></h3>
+      {% if page.lang == 'en' %}Partners & Clients{% else %}利用実績・提携法人{% endif %}</a></h3>
     <div class="col-12 text-center" style="margin-top: 10px;">
       <ul class="flex-container">
         <li class="item"><a href="https://enpit.coins.tsukuba.ac.jp/"><img data-src="/img/partners/tukuba.png" alt="筑波大学" class="lazyload"></a></li>
@@ -40,7 +40,8 @@
 
       <div class="tutorial">
         <a href="https://railstutorial.jp/partner">
-          <button class="btn btn-ruby btn-padding external-link">詳細を見る</button>
+          <button class="btn btn-ruby btn-padding external-link">
+	    {% if page.lang == 'en' %}See details (Japanese){% else %}詳細を見る{% endif %}</button>
         </a>
       </div>
     </div>
