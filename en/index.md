@@ -12,6 +12,7 @@ lang:   en
 
 ## [Recent news](#news) {#news}
 
+- [Interviewed by CoderDojo Foundation](https://coderdojo.com/2020/06/18/how-the-coderdojo-community-in-japan-has-adapted-to-change/) on how the CoderDojo community in Japan has adapted to change.
 - Become an official partner of [Scrivito](https://scrivito.com/partners), the professional cloud-based Rails CMS.
 - Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
 - Introduced as one of contributoring companies to Ruby by [Matz Keynote](https://www.youtube.com/watch?v=E9bO1uqs4Oc&feature=youtu.be&t=3904) at RubyKaigi
