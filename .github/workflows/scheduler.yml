@@ -34,8 +34,8 @@ jobs:
         force:   false
         signoff: true
         message: 'Upsert new article(s) from note.com'
-        ref: 'refs/heads/master'
-        remove: ''
+        #ref: 'refs/heads/master'
+        #remove: ''
 
     - name: actions-idobata
       uses: mahaker/actions-idobata@v1.1.1
