@@ -15,9 +15,7 @@ on:
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
@@ -34,3 +32,11 @@ jobs:
         bundle install
     - name: Run tests
       run: bundle exec rake test
+    - name: actions-idobata
+      uses: mahaker/actions-idobata@v1.1.1
+      with:
+        hookUrl: ${{ secrets.IdobataHookUrl }}
+        message: | # multiple lines
+          ### hello GitHub Actions!!
+          pushed to ${{ github.repository }} by @${{ github.actor }}.
+        format: 'markdown' # default
