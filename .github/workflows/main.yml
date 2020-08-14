@@ -1,4 +1,4 @@
-name: yasslab.jp
+name: Test & Deploy
 on: [push]
 #on:
 #  push:
@@ -35,17 +35,6 @@ jobs:
       run:  bundle exec rake test SKIP_BUILD=1
     - name: bundle exec rspec spec/qiita.rb
       run:  bundle exec rspec spec/qiita.rb
-
-    - name: actions-idobata
-      uses: mahaker/actions-idobata@v1.1.1
-      with:
-        hookUrl: ${{ secrets.IdobataHookUrl }}
-        message: | # multiple lines
-          <div>
-          CI build for ${{ github.event_name }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
-          <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>Commit</a> to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.
-          </div>
-        format: 'html' # default
 
 #    - name: Deploy to Heroku
 #      env:
