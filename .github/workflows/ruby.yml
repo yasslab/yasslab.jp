@@ -38,7 +38,7 @@ jobs:
         hookUrl: ${{ secrets.IdobataHookUrl }}
         message: | # multiple lines
           <div>
-          Test <span class='label label-${{ job.status }}'>${{ job.status }}</span><br>
+          GitHub Actions build <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='${{ github.event_path }}'>build</a>)<br>
           Pushed to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.<br>
           </div>
         format: 'html' # default
