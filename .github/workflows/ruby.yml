@@ -38,7 +38,7 @@ jobs:
         hookUrl: ${{ secrets.IdobataHookUrl }}
         message: | # multiple lines
           <div>
-          CI build for ${{ github.event_name }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.job }}#step:5:1'>Actions</a>)<br>
+          CI build for ${{ github.event_name }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}#step:5:1'>Actions</a>)<br>
           <ul>
           <li><a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>Commit</a> to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.</li>
           </ul>
