@@ -20,12 +20,6 @@ jobs:
 
     - name: bundle install
       run:  bundle install --path vendor/bundle --jobs 4 --retry 3
-    - name: bundle exec rake assets:precompile
-      run:  bundle exec rake assets:precompile
-    - name: bundle exec rake test SKIP_BUILD=1
-      run:  bundle exec rake test SKIP_BUILD=1
-    - name: bundle exec rspec spec/qiita.rb
-      run:  bundle exec rspec spec/qiita.rb
 
     - name: Commit fetched articles from Note
       uses: EndBug/add-and-commit@v4
