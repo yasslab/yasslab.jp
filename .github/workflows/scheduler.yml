@@ -1,0 +1,52 @@
+name: Scheduler for News articles
+
+# https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
+on:
+  schedule:
+    - cron:  '*/15 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+        #ruby-version: 2.6 # Not needed with a .ruby-version file
+
+    - name: bundle install
+      run:  bundle install --path vendor/bundle --jobs 4 --retry 3
+    - name: bundle exec rake assets:precompile
+      run:  bundle exec rake assets:precompile
+    - name: bundle exec rake test SKIP_BUILD=1
+      run:  bundle exec rake test SKIP_BUILD=1
+    - name: bundle exec rspec spec/qiita.rb
+      run:  bundle exec rspec spec/qiita.rb
+
+    - name: Commit fetched articles from Note
+      uses: EndBug/add-and-commit@v4
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        add: '_data/news.yml'
+        author_name:  yasulab
+        author_email: yohei@yasslab.jp
+        force:   false
+        signoff: true
+        message: 'Fetch new article(s) from note'
+        ref: 'master'
+        remove: ''
+
+    - name: actions-idobata
+      uses: mahaker/actions-idobata@v1.1.1
+      with:
+        hookUrl: ${{ secrets.IdobataHookUrl }}
+        message: | # multiple lines
+          <div>
+          Test notification from Scheduler workflow in GitHub Actions. (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)
+          </div>
+        format: 'html' # default
