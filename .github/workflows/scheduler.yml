@@ -23,7 +23,7 @@ jobs:
     - name: bundle exec rake upsert_recent_notes
       run:  bundle exec rake upsert_recent_notes
 
-    - name: Commit fetched articles from Note
+    - name: Commit new article(s) from Note RSS if exists
       run: |
         git config user.name  ${USERNAME}
         git config user.email ${EMAIL}
