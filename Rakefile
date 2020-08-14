@@ -64,7 +64,7 @@ end
 #
 #task default: "jekyll:i18n:translate"
 
-desc "Fetch recent articles from YassLab's note RSS"
-task :fetch_recent_notes, :number_of_articles do |task, args|
-  ruby "fetch_recent_notes.rb #{args[:number_of_articles]}"
+desc "Upsert recent articles from YassLab's note RSS"
+task :upsert_recent_notes, :number_of_articles do |task, args|
+  ruby "upsert_recent_notes.rb #{args[:number_of_articles]}"
 end
