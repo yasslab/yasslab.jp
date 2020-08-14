@@ -26,15 +26,15 @@ jobs:
     - name: Commit new article(s) from Note RSS if exists
       run: |
         if [ -n "$(git status --porcelain)" ]; then
-        git config user.name  Yohei Yasukawa
-        git config user.email yohei@yasslab.jp
-        git remote set-url origin https://yasulab:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-        git checkout master
-        git add _data/news.yml
-        git commit -m '🤖 Upsert note article(s) by GitHub Actions'
-        git push origin master
+          git config user.name  Yohei Yasukawa
+          git config user.email yohei@yasslab.jp
+          git remote set-url origin https://yasulab:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git checkout master
+          git add _data/news.yml
+          git commit -m '🤖 Upsert note article(s) by GitHub Actions'
+          git push origin master
         else
-        echo "Nothing changes. yay ;)"
+          echo "Nothing changes. yay ;)"
         fi
       env:
         GITHUB_TOKEN: 
