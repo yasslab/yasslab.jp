@@ -37,6 +37,8 @@ jobs:
       with:
         hookUrl: ${{ secrets.IdobataHookUrl }}
         message: | # multiple lines
-          ### hello GitHub Actions!!
-          pushed to ${{ github.repository }} by @${{ github.actor }}.
-        format: 'markdown' # default
+          <div>
+          <p>Test <span class='label label-${{ job.status }}'>${{ job.status }}</span></p>
+          <p>Pushed to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a></p>.
+          </div>
+        format: 'html' # default
