@@ -1,4 +1,4 @@
-name: Scheduler for News articles
+name: Scheduler to upsert News articles
 
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
@@ -20,6 +20,8 @@ jobs:
 
     - name: bundle install
       run:  bundle install --path vendor/bundle --jobs 4 --retry 3
+    - name: bundle exec rake upsert_recent_notes
+      run:  bundle exec rake upsert_recent_notes
 
     - name: Commit fetched articles from Note
       uses: EndBug/add-and-commit@v4
@@ -31,7 +33,7 @@ jobs:
         author_email: yohei@yasslab.jp
         force:   false
         signoff: true
-        message: 'Fetch new article(s) from note'
+        message: 'Upsert new article(s) from note.com'
         ref: 'refs/heads/master'
         remove: ''
 
