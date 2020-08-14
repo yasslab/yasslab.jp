@@ -31,7 +31,7 @@ jobs:
         git checkout master
         git add _data/news.yml
         git commit -m '🤖 Upsert note article(s) by GitHub Actions'
-        git push origin HEAD
+        git push origin master
       env:
         USERNAME:     yasulab
         EMAIL:        yohei@yasslab.jp
