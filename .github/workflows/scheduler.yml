@@ -26,9 +26,9 @@ jobs:
     - name: Commit new article(s) from Note RSS if exists
       run: |
         if [ -n "$(git status --porcelain)" ]; then
-        git config user.name  ${USERNAME}
-        git config user.email ${EMAIL}
-        git remote set-url origin https://${USERNAME}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        git config user.name  Yohei Yasukawa
+        git config user.email yohei@yasslab.jp
+        git remote set-url origin https://yasulab:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         git checkout master
         git add _data/news.yml
         git commit -m '🤖 Upsert note article(s) by GitHub Actions'
@@ -37,8 +37,6 @@ jobs:
         echo "Nothing changes. yay ;)"
         fi
       env:
-        USERNAME:     yasulab
-        EMAIL:        yohei@yasslab.jp
         GITHUB_TOKEN: 
 
     - name: actions-idobata
