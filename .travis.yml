@@ -27,10 +27,10 @@ deploy:
   app:
     master: yasslab-jp
 
-# Notify results to Idobata.io
-notifications:
-  webhooks:
-    secure: "k3OnnsbFwqoQyL+f4I+IE1/DEGlrIJ/YqfMSBunKczcKEaFRQJZ4ZZWMEKlRyAArWmPPKOkXuHS6Ke28RSOyLaSfe31beQvFsHCZJcptJWZ7M++fu0xMwRVBCOsPlmN3HSNzJ1S2JiW9Eg2cARI37iYq1q45eejKK5vitA5bxrc="
+# Notify results to Idobata.io (Outdated)
+#notifications:
+#  webhooks:
+#    secure: "k3OnnsbFwqoQyL+f4I+IE1/DEGlrIJ/YqfMSBunKczcKEaFRQJZ4ZZWMEKlRyAArWmPPKOkXuHS6Ke28RSOyLaSfe31beQvFsHCZJcptJWZ7M++fu0xMwRVBCOsPlmN3HSNzJ1S2JiW9Eg2cARI37iYq1q45eejKK5vitA5bxrc="
 
 # Only run tests when master branch changes
 # or when a PR branch is updated.
