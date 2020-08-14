@@ -27,7 +27,7 @@ jobs:
       run: |
         git config user.name  ${USERNAME}
         git config user.email ${EMAIL}
-        git remote set-url origin https://${USERNAME}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git remote set-url origin https://${USERNAME}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         git checkout master
         git add _data/news.yml
         git commit -m '🤖 Upsert note article(s) by GitHub Actions'
