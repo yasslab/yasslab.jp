@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Set up Nodejs
+    - name: Set up Node.js
       uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
