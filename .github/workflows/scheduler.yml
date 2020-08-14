@@ -3,7 +3,7 @@ name: Scheduler to upsert News articles
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
         force:   false
         signoff: true
         message: 'Upsert new article(s) from note.com'
-        #ref: 'refs/heads/master'
+        ref: 'master'
         #remove: ''
 
     - name: actions-idobata
