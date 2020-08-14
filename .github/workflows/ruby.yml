@@ -14,31 +14,38 @@ on:
     branches: [ master ]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2-beta
+      with:
+        node-version: '12'
+
     - name: Set up Ruby
-    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
-    # change this to (see https://github.com/ruby/setup-ruby#versioning):
-    # uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
-    #    ruby-version: 2.6 # Not needed with a .ruby-version file
+        #ruby-version: 2.6 # Not needed with a .ruby-version file
+
     - name: Install dependencies
       run: |
         npm install
         bundle install
+
     - name: Run tests
       run: bundle exec rake test
+
     - name: actions-idobata
       uses: mahaker/actions-idobata@v1.1.1
       with:
         hookUrl: ${{ secrets.IdobataHookUrl }}
         message: | # multiple lines
           <div>
-          CI build for <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ github.event_name }} commit</a> : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/runs/${{ github.job }}#step:5:1'>Actions</a>)<br>
-          Pushed to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.<br>
+          CI build for ${{ github.event_name }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
+          <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>Commit</a> to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.
           </div>
         format: 'html' # default
