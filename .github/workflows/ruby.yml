@@ -29,6 +29,8 @@ jobs:
         bundler-cache: true
     #    ruby-version: 2.6 # Not needed with a .ruby-version file
     - name: Install dependencies
-      run: bundle install
+      run: |
+        npm install
+        bundle install
     - name: Run tests
       run: bundle exec rake test
