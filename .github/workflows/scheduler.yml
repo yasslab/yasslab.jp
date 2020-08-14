@@ -38,7 +38,7 @@ jobs:
         force:   false
         signoff: true
         message: 'Fetch new article(s) from note'
-        ref: 'master'
+        ref: 'refs/heads/master'
         remove: ''
 
     - name: actions-idobata
