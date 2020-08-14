@@ -39,12 +39,12 @@ jobs:
       env:
         GITHUB_TOKEN: 
 
-    - name: actions-idobata
-      uses: mahaker/actions-idobata@v1.1.1
-      with:
-        hookUrl: ${{ secrets.IdobataHookUrl }}
-        message: | # multiple lines
-          <div>
-          Test notification from Scheduler workflow in GitHub Actions. (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)
-          </div>
-        format: 'html' # default
+#    - name: actions-idobata
+#      uses: mahaker/actions-idobata@v1.1.1
+#      with:
+#        hookUrl: ${{ secrets.IdobataHookUrl }}
+#        message: | # multiple lines
+#          <div>
+#          Test notification from Scheduler workflow in GitHub Actions. (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)
+#          </div>
+#        format: 'html' # default
