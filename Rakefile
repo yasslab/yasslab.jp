@@ -8,6 +8,11 @@ task :upsert_recent_notes, :number_of_articles do |task, args|
   ruby "tasks/upsert_recent_notes.rb #{args[:number_of_articles]}"
 end
 
+desc "Fetch recent articles from Hatena bookmark RSS"
+task :share_recent_bookmarks do |task, args|
+  ruby "tasks/share_recent_bookmarks.rb"
+end
+
 
 # To deploy this website to Heroku
 task default: 'assets:precompile'
