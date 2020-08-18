@@ -14,7 +14,7 @@ msg = ""
 RSS_LIST.each { |rss|
   # NOTE: Set cron as "Every 30 minutes" in GitHub Actions to correspond
   articles = RSS::Parser.parse(rss[:url]).items.select do |item|
-    (Time.now - item.date) / 60 <= 30
+    (Time.now - item.date) / 60 < 30
   end
 
   msg << articles.map {|a|
