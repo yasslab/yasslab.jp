@@ -3,7 +3,7 @@ name: Scheduler to upsert News articles
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '*/30 * * * *'
 
 jobs:
   build:
@@ -22,6 +22,10 @@ jobs:
       run:  bundle install --path vendor/bundle --jobs 4 --retry 3
     - name: bundle exec rake upsert_recent_notes
       run:  bundle exec rake upsert_recent_notes
+    - name: bundle exec rake share_recent_bookmarks
+      run:  bundle exec rake share_recent_bookmarks
+      env:
+        IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
 
     - name: Commit new article(s) from Note RSS if exists
       run: |
