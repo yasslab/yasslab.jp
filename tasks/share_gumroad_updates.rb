@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 
-if Time.now.hour == 9 and Time.now.min >= 30
+unless Time.now.hour == 9 && Time.now.min >= 30
   puts 'Current Time: ' + Time.now.strftime("%H:%M")
   puts 'This task runs only 09:30..10:00. :sleeping:'
-  exit
+  return
 end
 
 require 'open-uri'
