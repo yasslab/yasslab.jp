@@ -26,6 +26,11 @@ jobs:
       run:  bundle exec rake share_from_rss
       env:
         IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
+    - name: Share daily updates in Gumroad by using Emoji
+      run:  bundle exec rake share_gumroad_updates
+      env:
+        IDOBATA_GUMROAD:      ${{ secrets.IDOBATA_GUMROAD }}
+        GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
 
     - name: Commit new article(s) from Note RSS if exists
       run: |

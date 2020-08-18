@@ -13,6 +13,11 @@ task :share_from_rss do |task, args|
   ruby "tasks/share_from_rss.rb"
 end
 
+desc "Share daily updates in Gumroad by using Emoji"
+task :share_gumroad_updates do |task, args|
+  ruby "tasks/share_gumroad_updates.rb"
+end
+
 
 # To deploy this website to Heroku
 task default: 'assets:precompile'
