@@ -1,4 +1,4 @@
-name: Scheduler to upsert News articles
+name: Scheduled tasks to run every 30 minutes
 
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
