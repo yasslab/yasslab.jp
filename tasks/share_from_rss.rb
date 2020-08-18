@@ -2,12 +2,14 @@
 # -*- coding: utf-8 -*-
 
 require 'rss'
+require 'sanitize'
 require 'idobata'
 
 Idobata.hook_url = ENV['IDOBATA_SHARE']
 RSS_LIST = [
 # { title: "Name short title of the RSS", url: "URL of RSS to fetch and share with team" },
-  { title: 'YassLab', url: "https://b.hatena.ne.jp/YassLab/rss"},
+  { title: 'YassLab',   url: "https://b.hatena.ne.jp/YassLab/rss", label: "info"},
+  { title: 'TechRacho', url: "https://techracho.bpsinc.jp/category/ruby-rails-related/feed", label: 'warning'},
 ]
 
 msg = ""
@@ -18,7 +20,11 @@ RSS_LIST.each { |rss|
   end
 
   msg << articles.map {|a|
-    p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-info'>#{rss[:name]}</span><br> #{a.description}"
+    if rss[:url].include? "hatena" # No needed to sanitize if Hatena bookmarks
+      p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-#{rss[:label]}'>#{rss[:title]}</span><br> #{a.description}"
+    else
+      p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-#{rss[:label]}'>#{rss[:title]}</span><br> #{Sanitize.fragment(a.description)[0..110] + '...'}"
+    end
   }.join("<br>")
 }
 
