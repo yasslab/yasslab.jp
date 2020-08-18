@@ -5,26 +5,21 @@ require 'rss'
 require 'idobata'
 
 Idobata.hook_url = ENV['IDOBATA_SHARE']
-HATEBU_USERS = [
-  "YassLab",
-  # "Other Username"
+RSS_LIST = [
+# { title: "Name short title of the RSS", url: "URL of RSS to fetch and share with team" },
+  { title: 'YassLab', url: "https://b.hatena.ne.jp/YassLab/rss"},
 ]
 
 msg = ""
-HATEBU_USERS.each { |user|
-  # Flush cache RSS before downloading
-  #`curl -H 'Pragma: no-cache' -L b.hatena.ne.jp/#{user}/bookmark.rss`
-  #`curl -o 'hatebu.rss' b.hatena.ne.jp/#{user}/bookmark.rss`
-  rss = RSS::Parser.parse("https://b.hatena.ne.jp/#{user}/rss")
-
+RSS_LIST.each { |rss|
   # NOTE: Set cron as "Every 30 minutes" in GitHub Actions to correspond
-  bookmarks = rss.items.select do |item|
+  articles = RSS::Parser.parse(rss[:url]).items.select do |item|
     (Time.now - item.date) / 60 <= 30
   end
 
-  msg << bookmarks.map {|b|
-    p "<a href='#{b.link}'>#{b.title}</a> by <span class='label label-info'>#{user}</span><br /> #{b.description}"
-  }.join("<br/>")
+  msg << articles.map {|a|
+    p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-info'>#{rss[:name]}</span><br> #{a.description}"
+  }.join("<br>")
 }
 
 if msg.empty?
