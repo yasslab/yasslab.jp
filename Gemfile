@@ -29,6 +29,7 @@ gem "liquid-c"
 
 # To run tasks triggered by GitHub Actions
 gem 'idobata'
+gem 'sanitize'
 
 group :jekyll_plugins do
   gem "jekyll-include-cache"
