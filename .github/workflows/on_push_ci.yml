@@ -39,7 +39,7 @@ jobs:
 #    - name: actions-idobata
 #      uses: mahaker/actions-idobata@v1.1.1
 #      with:
-#        hookUrl: ${{ secrets.IdobataHookUrl }}
+#        hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
 #        message: | # multiple lines
 #          <div>
 #          CI build for ${{ github.event_name }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
