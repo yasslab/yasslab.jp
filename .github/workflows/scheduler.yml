@@ -27,7 +27,10 @@ jobs:
       env:
         IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
     - name: Share daily updates in Gumroad by using Emoji
-      run:  bundle exec rake share_gumroad_updates
+      run: |
+        echo "::set-env name=NOW::$(date +'%Y-%m-%dT%H:%M:%S')"
+        echo $NOW
+        bundle exec rake share_gumroad_updates
       env:
         IDOBATA_GUMROAD:      ${{ secrets.IDOBATA_GUMROAD }}
         GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
