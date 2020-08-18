@@ -27,6 +27,9 @@ gem 'rack-contrib'   # for managing CSP (cf. /config.ru)
 # https://github.com/yasslab/yasslab.jp/pull/123
 gem "liquid-c"
 
+# To run tasks triggered by GitHub Actions
+gem 'idobata'
+
 group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem 'jekyll-sitemap'
