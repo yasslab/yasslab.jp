@@ -29,7 +29,11 @@ rss.items.each_with_index do |item, index|
 NEW_ARTICLES
 end
 
-puts news
-IO.write(NEWS_YAML, news + IO.read(NEWS_YAML))
+if news.empty?
+  puts "No articles recently published."
+else
+  puts news
+  IO.write(NEWS_YAML, news + IO.read(NEWS_YAML))
+end
 
 
