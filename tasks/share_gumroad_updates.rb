@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 if Time.now.hour == 9 and Time.now.min >= 30
-  puts 'Current Time: ' + Time.now.strftime "%H:%M"
+  puts 'Current Time: ' + Time.now.strftime("%H:%M")
   puts 'This task runs only 09:30..10:00. :sleeping:'
   exit
 end
