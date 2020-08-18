@@ -27,5 +27,10 @@ HATEBU_USERS.each { |user|
   }.join("<br/>")
 }
 
-#puts msg
-Idobata::Message.create(source: msg, format: :html) unless msg.empty?
+if msg.empty?
+  puts "No recent updates ;)"
+  puts ""
+else
+  Idobata::Message.create(source: msg, format: :html) unless msg.empty?
+end
+

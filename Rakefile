@@ -8,9 +8,9 @@ task :upsert_recent_notes, :number_of_articles do |task, args|
   ruby "tasks/upsert_recent_notes.rb #{args[:number_of_articles]}"
 end
 
-desc "Fetch recent articles from Hatena bookmark RSS"
-task :share_recent_bookmarks do |task, args|
-  ruby "tasks/share_recent_bookmarks.rb"
+desc "Share fetched recent articles from registered RSS"
+task :share_from_rss do |task, args|
+  ruby "tasks/share_from_rss.rb"
 end
 
 

@@ -22,8 +22,8 @@ jobs:
       run:  bundle install --path vendor/bundle --jobs 4 --retry 3
     - name: Upsert recent articles from note.com
       run:  bundle exec rake upsert_recent_notes
-    - name: Share recent bookmarks from Hatena
-      run:  bundle exec rake share_recent_bookmarks
+    - name: Share fetched articles from RSS
+      run:  bundle exec rake share_from_rss
       env:
         IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
 
