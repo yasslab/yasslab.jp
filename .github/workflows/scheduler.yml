@@ -18,11 +18,11 @@ jobs:
         bundler-cache: true
         #ruby-version: 2.6 # Not needed with a .ruby-version file
 
-    - name: bundle install
+    - name: Install Ruby gems dependencies 
       run:  bundle install --path vendor/bundle --jobs 4 --retry 3
-    - name: bundle exec rake upsert_recent_notes
+    - name: Upsert recent articles from note.com
       run:  bundle exec rake upsert_recent_notes
-    - name: bundle exec rake share_recent_bookmarks
+    - name: Share recent bookmarks from Hatena
       run:  bundle exec rake share_recent_bookmarks
       env:
         IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
