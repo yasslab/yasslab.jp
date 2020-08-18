@@ -1,6 +1,15 @@
 require "bundler/setup"
 #require "jekyll/task/i18n"
 
+# Tasks triggered by GitHub Actions
+# https://github.com/yasslab/yasslab.jp/actions
+desc "Upsert recent articles from YassLab's note RSS"
+task :upsert_recent_notes, :number_of_articles do |task, args|
+  ruby "tasks/upsert_recent_notes.rb #{args[:number_of_articles]}"
+end
+
+
+# To deploy this website to Heroku
 task default: 'assets:precompile'
 
 # Override assets:precomiple in Heroku deployment
@@ -63,8 +72,3 @@ end
 #end
 #
 #task default: "jekyll:i18n:translate"
-
-desc "Upsert recent articles from YassLab's note RSS"
-task :upsert_recent_notes, :number_of_articles do |task, args|
-  ruby "upsert_recent_notes.rb #{args[:number_of_articles]}"
-end
