@@ -18,6 +18,16 @@ task :share_gumroad_updates do |task, args|
   ruby "tasks/share_gumroad_updates.rb"
 end
 
+desc "Share opt-in Health Planet user record"
+task :share_health_planet do |task, args|
+  ruby "tasks/share_health_planet.rb"
+end
+# NOTE: Want to pass variables? Here is the example:
+# task :share_health_planet, [:user_name, :label_color] do |task, args|
+#   p args.user_name
+#   p args.label_color
+# end
+
 
 # To deploy this website to Heroku
 task default: 'assets:precompile'

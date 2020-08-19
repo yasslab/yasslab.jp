@@ -31,6 +31,11 @@ jobs:
       env:
         IDOBATA_GUMROAD:      ${{ secrets.IDOBATA_GUMROAD }}
         GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
+    - name: Share opt-in Health Planet user record (yasulab)
+      run: bundle exec rake share_health_planet USER_NAME=yasulab LABEL_COLOR=label-info
+      env:
+        IDOBATA_HEALTH:      ${{ secrets.IDOBATA_HEALTH }}
+        HEALTH_PLANET_TOKEN: ${{ secrets.HEALTH_PLANET_TOKEN }}
 
     - name: Commit new article(s) from Note RSS if exists
       run: |
