@@ -6,6 +6,8 @@ on:
     - cron:  '*/30 * * * *'
 
 jobs:
+  env:
+    TZ: 'Asia/Tokyo'
   build:
     runs-on: ubuntu-latest
 

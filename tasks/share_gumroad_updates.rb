@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 
-ENV['TZ'] = 'Asia/Tokyo'
 unless Time.now.hour == 9 && Time.now.min >= 30
-  puts 'Current Time: ' + Time.now.strftime("%H:%M")
+  puts 'Current Time: ' + Time.now.strftime("%H:%M") + "(TZ=#{ENV['TZ']})"
   puts 'This task runs only 09:30..10:00. :sleeping:'
   return
 end
