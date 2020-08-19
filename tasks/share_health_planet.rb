@@ -66,7 +66,7 @@ data.each_with_index { |datum, num|
   msg << " <br/> \n"
 }
 
-puts msg
+msg.empty? ? puts("No record found.") : puts("Found new record(s).")
 
 # Send the message as HTML
 Idobata::Message.create(source: msg, format: :html) unless msg.empty?
