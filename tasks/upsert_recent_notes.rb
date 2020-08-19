@@ -11,7 +11,6 @@ NEWS_YAML = '_data/news.yml'
 number_of_fetching_articles = (ARGV[0] || '3').to_i
 
 YASSLAB_NOTE_RSS = 'https://note.com/yasslab/rss'
-#YASSLAB_NOTE_RSS = 'note_yasslab.rss' # for debugging
 rss = RSS::Parser.parse(YASSLAB_NOTE_RSS, false)
 
 # Parse RSS and get yaml text
