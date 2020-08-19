@@ -30,7 +30,7 @@ TAG2UNIT     = {
   '6027' => 'kcal', '6028' => '歳',     '6029' => 'kg' }
 TAG_PARAMS   = 6
 DATE_TYPE    = 0
-FROM_DATE    = (Time.now - 60*300).strftime("%Y%m%d%H%M%S") # in the last 30 minutes
+FROM_DATE    = (Time.now - 60*30).strftime("%Y%m%d%H%M%S") # in the last 30 minutes
 TO_DATE      = Time.now.strftime("%Y%m%d%H%M%S")
 #FROM_DATE    = "20160114000000"  # Sample Date Format
 #TO_DATE      = "20160114235900"  # Sample Date Format
