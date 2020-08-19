@@ -14,7 +14,6 @@ RSS_LIST         = [
   { title: 'YassLab',   label: "info",    url: "https://b.hatena.ne.jp/YassLab/rss"},
   { title: 'Qiita',     label: 'success', url: 'https://qiita.com/organizations/yasslab/activities.atom'},
   { title: 'TechRacho', label: 'warning', url: "https://techracho.bpsinc.jp/category/ruby-rails-related/feed"},
-
 ]
 
 
