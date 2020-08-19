@@ -5,7 +5,6 @@ require 'rss'
 require 'sanitize'
 require 'idobata'
 require 'active_support/all'
-require 'pry' if ENV['JEKYLL_ENV'] == 'development'
 
 Idobata.hook_url = ENV['IDOBATA_SHARE']
 TIME_INTERVAL    = 30
