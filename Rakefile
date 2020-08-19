@@ -28,6 +28,20 @@ end
 #   p args.label_color
 # end
 
+# NOTE: This before-hooked task affects on the tasks above.
+#       So this needs to be here, not the end of this file.
+desc "Set global env variables in GitHub Actions if necessary"
+task :before_hook do
+  ENV['TZ'] = 'Asia/Tokyo'
+end
+Rake.application.tasks.each do |task|
+  next if task.name.include? 'before_hook'
+  p task
+  task.enhance [:before_hook]
+end
+
+
+
 
 # To deploy this website to Heroku
 task default: 'assets:precompile'

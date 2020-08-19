@@ -7,7 +7,6 @@ require 'nokogiri'
 require 'json'
 require 'csv'
 
-ENV['TZ']        = 'Asia/Tokyo'
 Idobata.hook_url = ENV['IDOBATA_HEALTH']
 ACCESS_TOKEN     = ENV['HEALTH_PLANET_TOKEN']
 LABEL_COLOR      = ENV['LABEL_COLOR'] || "label-success"
