@@ -36,7 +36,6 @@ task :before_hook do
 end
 Rake.application.tasks.each do |task|
   next if task.name.include? 'before_hook'
-  p task
   task.enhance [:before_hook]
 end
 
