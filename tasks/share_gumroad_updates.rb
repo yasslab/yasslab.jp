@@ -1,8 +1,9 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 
-unless Time.now.hour == 9 && Time.now.min >= 30
-  puts 'Current Time: ' + Time.now.strftime("%H:%M") + "(TZ=#{ENV['TZ']})"
+now = Time.now
+unless (now.hour == 9 && now.min >= 30)
+  puts 'Current Time: ' + now.strftime("%H:%M") + "(TZ=#{ENV['TZ']})"
   puts 'This task runs only 09:30..10:00. :sleeping:'
   return
 end
