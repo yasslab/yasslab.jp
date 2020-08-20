@@ -40,6 +40,7 @@ jobs:
       run: bundle exec rake share_from_calendar
       env:
         IDOBATA_LOUNGE:      ${{ secrets.IDOBATA_LOUNGE  }}
+        GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
         GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
         GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
 
