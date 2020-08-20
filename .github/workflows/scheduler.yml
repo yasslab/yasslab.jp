@@ -36,6 +36,12 @@ jobs:
       env:
         IDOBATA_HEALTH:      ${{ secrets.IDOBATA_HEALTH }}
         HEALTH_PLANET_TOKEN: ${{ secrets.HEALTH_PLANET_TOKEN }}
+    - name: "Share today's summary from given calendar"
+      run: bundle exec rake share_from_calendar
+      env:
+        IDOBATA_LOUNGE:      ${{ secrets.IDOBATA_LOUNGE  }}
+        GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
+        GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
 
     - name: Commit new article(s) from Note RSS if exists
       run: |
