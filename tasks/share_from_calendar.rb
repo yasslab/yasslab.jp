@@ -1,6 +1,13 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 
+now = Time.now
+unless (now.hour == 8 && now.min >= 45) or (now.hour == 9 && now.min < 15)
+  puts 'Current Time: ' + now.strftime("%H:%M") + "(TZ=#{ENV['TZ']})"
+  puts 'This task runs only 09:45..10:15. :sleeping:'
+  return
+end
+
 require 'google/apis/calendar_v3'
 require 'googleauth'
 require 'googleauth/stores/file_token_store'
