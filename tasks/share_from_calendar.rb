@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 now = Time.now
-unless (now.hour == 8 && now.min >= 45) or (now.hour == 9 && now.min < 15)
+unless (now.hour == 9 && now.min >= 45) or (now.hour == 10 && now.min < 15)
   puts 'Current Time: ' + now.strftime("%H:%M") + "(TZ=#{ENV['TZ']})"
   puts 'This task runs only 09:45..10:15. :sleeping:'
   return
