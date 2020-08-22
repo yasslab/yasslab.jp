@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 #coding: utf-8
 
+require 'idobata'
 require 'gmail' # for more info -> http://dcparker.github.com/ruby-gmail/
 require 'kconv'
 
@@ -21,9 +22,10 @@ def attached_file_exist?(filename)
   end
 end
 
-USERNAME      = ENV['GMAIL_USERNAME']
-PASSWORD      = ENV['GMAIL_PASSWORD']
-IDOBATA_MAILS = ENV['IDOBATA_MAILS']
+Idobata.hook_url = ENV['IDOBATA_MAILS']
+USERNAME         = ENV['GMAIL_USERNAME']
+PASSWORD         = ENV['GMAIL_PASSWORD']
+
 
 # login, confirm, then send/cancel and logout
 @gmail = Gmail.new(USERNAME, PASSWORD)
@@ -61,11 +63,9 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
 
   # puts text[3..].split('</b>').first # for debug print: mail.subject
   post = text.gsub("\n", "").gsub("'", "\"")
-  if is_html_format
-    system("curl --data-urlencode 'source=#{post}' -d format=html #{IDOBATA_MAILS}")
-  else
-    system("curl --data-urlencode 'source=#{post}' #{IDOBATA_MAILS}")
-  end
+  is_html_format ?
+    Idobata::Message.create(source: post, format: :html) :
+    Idobata::Message.create(source: post, format: :markdown)
   mail.mark(:read)
 end
 
