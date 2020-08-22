@@ -15,7 +15,6 @@ gem "jekyll", "~> 4.0"
 gem 'rack-jekyll', github: "adaoraul/rack-jekyll"
 gem 'rake'           # for running scripts
 gem 'nokogiri'       # for qiita.rb
-gem 'html-proofer'   # for debugging in Review Apps
 gem 'redcarpet'      # for rendering markdown files
 
 # Gems to enable SSL
@@ -45,6 +44,7 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
+  gem 'html-proofer'  # Static check for HTML tags
   gem 'rspec'
 
   # Gems for debugging
