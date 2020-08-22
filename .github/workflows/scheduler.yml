@@ -61,8 +61,6 @@ jobs:
           git add _data/news.yml
           git commit -m '🤖 Upsert note article(s) by GitHub Actions'
           git push origin master
-        else
-          echo "Nothing changes. yay ;)"
         fi
       env:
         GITHUB_TOKEN: 
