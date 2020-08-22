@@ -1,4 +1,4 @@
-name: Scheduled tasks to run every 30 minutes
+name: 'Scheduled tasks to run every 30 minutes'
 
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
@@ -12,31 +12,31 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Set up Ruby
+    - name: 'Set up Ruby'
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
         #ruby-version: 2.6 # Not needed with a .ruby-version file
 
-    - name: Install Ruby gems dependencies
+    - name: 'Install Ruby gems dependencies'
       run:  bundle install --path vendor/bundle --jobs 4 --retry 3
-    - name: Upsert recent articles from note.com
+    - name: 'Upsert recent articles from note.com'
       run:  bundle exec rake upsert_recent_notes
-    - name: Share fetched articles from RSS
+    - name: 'Share fetched articles from RSS'
       run:  bundle exec rake share_rss_articles
       env:
         IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
-    - name: Share daily updates in Gumroad by using Emoji
+    - name: 'Share daily updates in Gumroad by using Emoji'
       run: bundle exec rake share_gumroad_updates
       env:
         IDOBATA_GUMROAD:      ${{ secrets.IDOBATA_GUMROAD }}
         GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
-    - name: Share opt-in Health Planet user record (yasulab)
+    - name: 'Share opt-in Health Planet user record (yasulab)'
       run: bundle exec rake share_health_planet USER_NAME=yasulab LABEL_COLOR=label-info
       env:
         IDOBATA_HEALTH:      ${{ secrets.IDOBATA_HEALTH }}
         HEALTH_PLANET_TOKEN: ${{ secrets.HEALTH_PLANET_TOKEN }}
-    - name: "Share inquiry from yasslab.jp"
+    - name: 'Share inquiry from yasslab.jp'
       run: bundle exec rake share_inquiry
       env:
         IDOBATA_MAILS:       ${{ secrets.IDOBATA_MAILS  }}
@@ -50,7 +50,7 @@ jobs:
         GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
         GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
 
-    - name: Commit new article(s) from Note RSS if exists
+    - name: 'Commit new article(s) from Note RSS if exists'
       run: |
         if [ -n "$(git status --porcelain)" ]; then
           git config user.name  Yohei\ Yasukawa
