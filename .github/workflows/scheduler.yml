@@ -19,7 +19,8 @@ jobs:
     - name: "Install Ruby gems with 'actions' group"
       run: |
         bundle config set with 'actions'
-        bundle install --path vendor/bundle --jobs 4 --retry 3
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
 
     - name: 'Share fetched articles from RSS'
       run:  bundle exec rake share_rss_articles
