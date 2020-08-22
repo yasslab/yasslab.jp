@@ -34,5 +34,3 @@ else
   puts news
   IO.write(NEWS_YAML, news + IO.read(NEWS_YAML))
 end
-
-
