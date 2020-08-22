@@ -11,6 +11,7 @@ Idobata.hook_url = ENV['IDOBATA_HEALTH']
 ACCESS_TOKEN     = ENV['HEALTH_PLANET_TOKEN']
 LABEL_COLOR      = ENV['LABEL_COLOR'] || "label-success"
 USER_NAME        = ENV['USER_NAME']   || "yasulab"
+TIME_INTERVAL    = 10
 
 # To generate ACCESS_TOKEN, see `sample_token_getter.rb`.
 # cf. https://github.com/yasslab/hp2idobata
@@ -30,7 +31,7 @@ TAG2UNIT     = {
   '6027' => 'kcal', '6028' => '歳',     '6029' => 'kg' }
 TAG_PARAMS   = 6
 DATE_TYPE    = 0
-FROM_DATE    = (Time.now - 60*10).strftime("%Y%m%d%H%M%S") # in the last 10 minutes
+FROM_DATE    = (Time.now - 60*TIME_INTERVAL).strftime("%Y%m%d%H%M%S") # fetch data in the given interval
 TO_DATE      = Time.now.strftime("%Y%m%d%H%M%S")
 #FROM_DATE    = "20160114000000"  # Sample Date Format
 #TO_DATE      = "20160114235900"  # Sample Date Format
@@ -48,10 +49,8 @@ date    = doc.xpath("//date")
 keydata = doc.xpath("//keydata")
 tags    = doc.xpath("//tag")
 
-if data.empty?
-  puts "No record found in the last 30 minutes."
-  exit
-end
+data.empty? ? puts("No record found.") : puts("Found new record(s).")
+return if data.empty?
 
 # Generate message to send Idobata
 msg = ""
@@ -65,8 +64,6 @@ data.each_with_index { |datum, num|
   msg << keydata[num].text + TAG2UNIT[tags[num].text]
   msg << " <br/> \n"
 }
-
-msg.empty? ? puts("No record found.") : puts("Found new record(s).")
 
 # Send the message as HTML
 Idobata::Message.create(source: msg, format: :html) unless msg.empty?
