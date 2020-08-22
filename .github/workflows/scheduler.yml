@@ -21,8 +21,6 @@ jobs:
         bundle config set with 'actions'
         bundle install --path vendor/bundle --jobs 4 --retry 3
 
-    - name: 'Upsert recent articles from note.com'
-      run:  bundle exec rake upsert_recent_notes
     - name: 'Share fetched articles from RSS'
       run:  bundle exec rake share_rss_articles
       env:
@@ -51,8 +49,9 @@ jobs:
         GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
         GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
 
-    - name: 'Commit new article(s) from Note RSS if exists'
+    - name: 'Upsert recent articles from note.com'
       run: |
+        bundle exec rake upsert_recent_notes
         if [ -n "$(git status --porcelain)" ]; then
           git config user.name  Yohei\ Yasukawa
           git config user.email yohei@yasslab.jp
