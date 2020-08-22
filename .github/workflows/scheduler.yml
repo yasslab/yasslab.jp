@@ -1,9 +1,9 @@
-name: 'Scheduled tasks to run every 10 minutes'
+name: 'Scheduled tasks to run every 30 minutes'
 
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
   schedule:
-    - cron:  '*/10 * * * *'
+    - cron:  '*/30 * * * *'
 
 jobs:
   build:
