@@ -18,12 +18,12 @@ jobs:
         bundler-cache: true
         #ruby-version: 2.6 # Not needed with a .ruby-version file
 
-    - name: Install Ruby gems dependencies 
+    - name: Install Ruby gems dependencies
       run:  bundle install --path vendor/bundle --jobs 4 --retry 3
     - name: Upsert recent articles from note.com
       run:  bundle exec rake upsert_recent_notes
     - name: Share fetched articles from RSS
-      run:  bundle exec rake share_from_rss
+      run:  bundle exec rake share_rss_articles
       env:
         IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
     - name: Share daily updates in Gumroad by using Emoji
@@ -42,8 +42,8 @@ jobs:
         IDOBATA_MAILS:       ${{ secrets.IDOBATA_MAILS  }}
         GMAIL_PASSWORD:      ${{ secrets.GMAIL_PASSWORD }}
         GMAIL_USERNAME:      ${{ secrets.GMAIL_USERNAME }}
-    - name: "Share today's summary from given calendar"
-      run: bundle exec rake share_from_calendar
+    - name: "Share today's event summary from given calendar"
+      run: bundle exec rake share_calendar_events
       env:
         IDOBATA_LOUNGE:      ${{ secrets.IDOBATA_LOUNGE  }}
         GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}

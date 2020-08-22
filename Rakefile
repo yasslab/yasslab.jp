@@ -9,8 +9,8 @@ task :upsert_recent_notes, :number_of_articles do |task, args|
 end
 
 desc "Share fetched recent articles from registered RSS"
-task :share_from_rss do |task, args|
-  ruby "tasks/share_from_rss.rb"
+task :share_rss_articles do |task, args|
+  ruby "tasks/share_rss_articles.rb"
 end
 
 desc "Share daily updates in Gumroad by using Emoji"
@@ -29,8 +29,8 @@ end
 # end
 
 desc "Share today's summary from given calendar"
-task :share_from_calendar do |task, args|
-  ruby "tasks/share_from_calendar.rb"
+task :share_calendar_events do |task, args|
+  ruby "tasks/share_calendar_events.rb"
 end
 
 desc "Share inquiry from yasslab.jp"
