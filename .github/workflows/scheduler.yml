@@ -1,9 +1,9 @@
-name: 'Scheduled tasks to run every 30 minutes'
+name: 'Scheduled tasks to run every 10 minutes'
 
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
   schedule:
-    - cron:  '*/30 * * * *'
+    - cron:  '*/10 * * * *'
 
 jobs:
   build:
@@ -11,17 +11,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
     - name: 'Set up Ruby'
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
         #ruby-version: 2.7 # Not necessary if .ruby-version is given
-
     - name: "Install Ruby gems with 'actions' group"
       run: |
         bundle config set with 'actions'
         bundle install --path vendor/bundle --jobs 4 --retry 3
+
     - name: 'Upsert recent articles from note.com'
       run:  bundle exec rake upsert_recent_notes
     - name: 'Share fetched articles from RSS'
