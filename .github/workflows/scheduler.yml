@@ -36,6 +36,12 @@ jobs:
       env:
         IDOBATA_HEALTH:      ${{ secrets.IDOBATA_HEALTH }}
         HEALTH_PLANET_TOKEN: ${{ secrets.HEALTH_PLANET_TOKEN }}
+    - name: "Share inquiry from yasslab.jp"
+      run: bundle exec rake share_inquiry
+      env:
+        IDOBATA_MAILS:       ${{ secrets.IDOBATA_MAILS  }}
+        GMAIL_PASSWORD:      ${{ secrets.GMAIL_PASSWORD }}
+        GMAIL_USERNAME:      ${{ secrets.GMAIL_USERNAME }}
     - name: "Share today's summary from given calendar"
       run: bundle exec rake share_from_calendar
       env:

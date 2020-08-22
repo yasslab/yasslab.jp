@@ -33,6 +33,11 @@ task :share_from_calendar do |task, args|
   ruby "tasks/share_from_calendar.rb"
 end
 
+desc "Share inquiry from yasslab.jp"
+task :share_inquiry do |task, args|
+  ruby "tasks/share_inquiry.rb"
+end
+
 # NOTE: This before-hooked task affects on the tasks above.
 #       So this needs to be here, not the end of this file.
 desc "Set global env variables in GitHub Actions if necessary"

@@ -33,6 +33,7 @@ gem 'sanitize'          # RSS: Remove HTML tags
 gem 'activesupport'     # RSS: Time Calculation
 gem 'google-api-client' # GCal: Access to Calendar
 gem 'multi_json'        # GCal: Access to Calendar
+gem 'gmail'             # Share inquiry from form
 
 group :jekyll_plugins do
   gem "jekyll-include-cache"
