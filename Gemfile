@@ -28,22 +28,20 @@ gem 'rack-contrib'   # for managing CSP (cf. /config.ru)
 gem "liquid-c"
 
 # To run tasks triggered by GitHub Actions
-gem 'idobata'           # All: Notify
-gem 'sanitize'          # RSS: Remove HTML tags
-gem 'activesupport'     # RSS: Time Calculation
-gem 'google-api-client' # GCal: Access to Calendar
-gem 'multi_json'        # GCal: Access to Calendar
-gem 'gmail'             # Share inquiry from form
+group :actions, optional: true do
+  gem 'idobata'           # All: Notify
+  gem 'sanitize'          # RSS: Remove HTML tags
+  gem 'activesupport'     # RSS: Time Calculation
+  gem 'yaml'              # note: Upsert articles
+  gem 'mechanize'         # note: Upsert articles
+  gem 'google-api-client' # GCal: Access to Calendar
+  gem 'multi_json'        # GCal: Access to Calendar
+  gem 'gmail'             # Share inquiry from form
+end
 
 group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem 'jekyll-sitemap'
-end
-
-group :development do
-  # Gems to fetch RSS in development only
-  gem 'yaml'
-  gem 'mechanize'
 end
 
 group :development, :test do
