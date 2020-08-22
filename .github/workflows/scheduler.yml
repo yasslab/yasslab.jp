@@ -18,7 +18,7 @@ jobs:
         bundler-cache: true
         #ruby-version: 2.7 # Not necessary if .ruby-version is given
 
-    - name: 'Install Ruby gems dependencies'
+    - name: "Install Ruby gems with 'actions' group"
       run: |
         bundle config set with 'actions'
         bundle install --path vendor/bundle --jobs 4 --retry 3
