@@ -121,6 +121,7 @@ if msg.empty?
   puts "No events found today."
 else
   # Send a message to Idobata
+  puts "Found today's event(s)."
   Idobata.hook_url = ENV['IDOBATA_LOUNGE']
   Idobata::Message.create(source: msg, format: :html) unless msg.empty?
 end

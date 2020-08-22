@@ -67,10 +67,5 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
   end
 end
 
-if mails.empty?
-  puts "No inquiries found."
-else
-  puts "Found unread inquiry."
-end
-puts ""
+mails.empty? ? puts("No inquiries found.") : puts("Found unread inquiry.")
 @gmail.logout

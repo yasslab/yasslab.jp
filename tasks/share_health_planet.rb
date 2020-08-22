@@ -49,7 +49,7 @@ keydata = doc.xpath("//keydata")
 tags    = doc.xpath("//tag")
 
 if data.empty?
-  puts "Nothing found in the last 30 minutes."
+  puts "No record found in the last 30 minutes."
   exit
 end
 
