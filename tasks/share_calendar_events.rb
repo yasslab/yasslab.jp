@@ -4,8 +4,8 @@
 now   = Time.now
 range = (950..959)
 unless range.include? now.strftime('%H%M').to_i
-  puts "Current Time: #{now.strftime('%H:%M')} (TZ=#{ENV['TZ']})"
-  puts "This task runs only %04d..%04d :sleeping:" % [range.first, range.last]
+  puts "⏰ Current Time: #{now.strftime('%H:%M')} (TZ=#{ENV['TZ']})"
+  puts "😪 This task runs only (%04d..%04d)." % [range.first, range.last]
   return
 end
 
@@ -119,10 +119,10 @@ msg.gsub!("00:00", "&nbsp;メモ&nbsp;")
 
 if msg.empty?
   # Show in log of GitHub Actions
-  puts "No events found today."
+  puts "✅ No events found today."
 else
   # Send a message to Idobata
-  puts "Found today's event(s)."
+  puts "🆕 Found today's event(s)."
   Idobata.hook_url = ENV['IDOBATA_LOUNGE']
   Idobata::Message.create(source: msg, format: :html) unless msg.empty?
 end

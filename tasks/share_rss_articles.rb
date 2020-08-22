@@ -42,9 +42,9 @@ RSS_LIST.each { |rss|
 }
 
 if msg.empty?
-  puts "No recent updates ;)"
-  puts ""
+  puts "✅ No recent updates ;)"
 else
+  puts "🆕 Found new article(s)."
   Idobata::Message.create(source: msg, format: :html) unless msg.empty?
 end
 

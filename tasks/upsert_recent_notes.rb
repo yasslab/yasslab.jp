@@ -29,8 +29,8 @@ NEW_ARTICLES
 end
 
 if news.empty?
-  puts "No articles recently published."
+  puts "✅ No articles recently published."
 else
-  puts news
+  puts "🆕 Found new article(s)."
   IO.write(NEWS_YAML, news + IO.read(NEWS_YAML))
 end

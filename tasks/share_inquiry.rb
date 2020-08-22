@@ -8,7 +8,7 @@ require 'kconv'
 Signal.trap(:INT){
   puts "logout Gmail ..."
   @gmail.logout if defined? @gmail
-  puts "loged out!"
+  puts "logged out!"
   exit
 }
 
@@ -69,5 +69,5 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
   mail.mark(:read)
 end
 
-mails.empty? ? puts("No inquiries found.") : puts("Found unread inquiry.")
+mails.empty? ? puts("✅ No inquiries found.") : puts("🆕 Found unread inquiry.")
 @gmail.logout

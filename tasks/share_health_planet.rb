@@ -49,7 +49,7 @@ date    = doc.xpath("//date")
 keydata = doc.xpath("//keydata")
 tags    = doc.xpath("//tag")
 
-data.empty? ? puts("No record found.") : puts("Found new record(s).")
+data.empty? ? puts("✅ No record found.") : puts("🆕 Found new record(s).")
 return if data.empty?
 
 # Generate message to send Idobata

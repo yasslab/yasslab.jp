@@ -4,8 +4,8 @@
 now   = Time.now
 range = (930..939)
 unless range.include? now.strftime('%H%M').to_i
-  puts "Current Time: #{now.strftime('%H:%M')} (TZ=#{ENV['TZ']})"
-  puts "This task runs only %04d..%04d :sleeping:" % [range.first, range.last]
+  puts "⏰ Current Time: #{now.strftime('%H:%M')} (TZ=#{ENV['TZ']})"
+  puts "😪 This task runs only (%04d..%04d)." % [range.first, range.last]
   return
 end
 
@@ -52,7 +52,8 @@ loop do
 end
 
 if sales_emojis.empty?
-  puts "No updates this day."
+  puts "✅ No update found in the last 24 hours."
 else
+  puts "🆕 Found new updates in the last 24 hours."
   Idobata::Message.create(source: sales_emojis)
 end
