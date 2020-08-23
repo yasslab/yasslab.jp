@@ -55,7 +55,4 @@ jobs:
         heroku_api_key:   ${{ secrets.HEROKU_API_KEY }}
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
-        #healthcheck:     'https://yasslab.jp/health'
-        healthcheck:     'https://yasslab-jp.herokuapp.com/health'
-        checkstring:     'ok'
-        delay:           5 # Make this action wait the given seconds before the health check
+        healthcheck:     'https://yasslab.jp/health'
