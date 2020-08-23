@@ -20,12 +20,12 @@ script:
 - bundle exec rake test SKIP_BUILD=1
 - bundle exec rspec spec/qiita.rb
 
-deploy:
-  provider: heroku
-  api_key:
-    secure: E9u0zceBt9hycppCOG17ZT6UIzdWbUDf0FxmRPIcjw3Oy4UQvFd8992ocGGbCdIVNJVUQLse7rXcNZME7yDVEXtDsoekMUx5ZHiBq+/ELJPwsutK4wU+jrn1CrQFrsGbEqJ0HlxyBinzBFu9H1IFezLRCYuK1zFhwebIojIlgeY=
-  app:
-    master: yasslab-jp
+#deploy:
+#  provider: heroku
+#  api_key:
+#    secure: E9u0zceBt9hycppCOG17ZT6UIzdWbUDf0FxmRPIcjw3Oy4UQvFd8992ocGGbCdIVNJVUQLse7rXcNZME7yDVEXtDsoekMUx5ZHiBq+/ELJPwsutK4wU+jrn1CrQFrsGbEqJ0HlxyBinzBFu9H1IFezLRCYuK1zFhwebIojIlgeY=
+#  app:
+#    master: yasslab-jp
 
 # Notify results to Idobata.io (Outdated)
 #notifications:
