@@ -40,7 +40,7 @@ jobs:
         format: 'html'
         message: |
           <div>
-          CI for ${{ COMMIT_MESSAGE }} <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
+          CI for ${{ env.COMMIT_MESSAGE }} <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
           <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>Commit</a> to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.
           </div>
 
