@@ -57,8 +57,8 @@ namespace :assets do
   task :precompile do
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
 
-    # TODO: Shaped up npm modules with 'npm prune' in production
-    # sh 'npm prune --production' if ENV['NPM_CONFIG_PRODUCTION'] == 'false'
+    # NOTE: Heroku runs this in production but we use the packages over buildpacks
+    # sh 'npm prune --production' if ENV['NPM_CONFIG_PRODUCTION'] == 'true'
   end
 end
 
