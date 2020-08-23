@@ -30,6 +30,17 @@ jobs:
         bundle exec rake test SKIP_BUILD=1
         bundle exec rspec spec/qiita.rb
 
+    - name: 'Notify test results to Idobata'
+      uses: mahaker/actions-idobata@v1.1.1
+      with:
+        hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+        format: 'html'
+        message: |
+          <div>
+          CI build for ${{ github.event_name }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
+          <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>Commit</a> to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.
+          </div>
+
     - name: 'Deploy to Heroku if test suite passed'
       if: github.ref == 'refs/heads/master' && job.status == 'success'
       uses: akhileshns/heroku-deploy@v3.4.6
@@ -39,15 +50,4 @@ jobs:
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
         usedocker:       false
-
-#    - name: actions-idobata
-#      uses: mahaker/actions-idobata@v1.1.1
-#      with:
-#        hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
-#        message: | # multiple lines
-#          <div>
-#          CI build for ${{ github.event_name }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
-#          <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>Commit</a> to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.
-#          </div>
-#        format: 'html' # default
 
