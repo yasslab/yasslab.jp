@@ -40,8 +40,8 @@ jobs:
         format: 'html'
         message: |
           <div>
-          CI for ${{ env.COMMIT_MESSAGE }} <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
-          <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>Commit</a> to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.
+          CI build in <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
+          <img src='${{ github.event.organization.avatar_url }}'> <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a> pushed <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_MESSAGE }}</a>
           </div>
 
     - name: 'Deploy to Heroku if test suite passed'
