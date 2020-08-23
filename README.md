@@ -14,7 +14,8 @@ https://yasslab.jp/
 
 お知らせ記事の追加には **環境構築は不要** です。GitHub アカウントがあれば追記できます :blush:
 
-~~多分これが一番簡単だと思います...!!~~ **自動化されました!!** :wrench::robot::dash::sparkles:
+~~多分これが一番簡単だと思います...!!~~   
+:new: **自動化されました!!** :wrench::robot::dash::sparkles:
 
 1. ブラウザ上で [_data/news.yml](https://github.com/yasslab/yasslab.jp/blob/master/_data/news.yml) を開く
 2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
