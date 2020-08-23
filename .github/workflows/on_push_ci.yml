@@ -33,6 +33,7 @@ jobs:
     - name: 'Get commit info'
       run: |
         echo ::set-env name=COMMIT_MESSAGE::$(git log --format=%B -n 1 ${{ github.event.after }})
+        echo ::set-env name=COMMIT_ID::$(git log --format=%B -n 1 ${{ github.event.after }})
     - name: 'Notify test results to Idobata'
       uses: mahaker/actions-idobata@v1.1.1
       with:
@@ -40,8 +41,8 @@ jobs:
         format: 'html'
         message: |
           <div>
-          CI build in <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
-          <img src='https://github.com/${{ github.actor }}.png' width='16' height='16'> <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a> pushed <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_MESSAGE }}</a>
+          CI build for <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
+          <img src='https://github.com/${{ github.actor }}.png' width='16' height='16'> <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a> pushed ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ GITHUB_SHA::8 }}</a>)
           </div>
 
     - name: 'Deploy to Heroku if test suite passed'
