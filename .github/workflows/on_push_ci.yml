@@ -33,7 +33,6 @@ jobs:
     - name: 'Get commit info'
       run: |
         echo ::set-env name=COMMIT_MESSAGE::$(git log --format=%B -n 1 ${{ github.event.after }})
-        echo ::set-env name=COMMIT_ID::$(git log --format=%B -n 1 ${{ github.event.after }})
     - name: 'Notify test results to Idobata'
       uses: mahaker/actions-idobata@v1.1.1
       with:
