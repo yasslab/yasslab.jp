@@ -12,29 +12,31 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v2-beta
-      with:
-        node-version: '12'
-
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
+    - uses: actions/setup-node@v2-beta
+    - uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
-        #ruby-version: 2.6 # Not needed with a .ruby-version file
+        #ruby-version: 2.7 # Not necessary if .ruby-version is given
 
-    - name: Install dependencies
+    - name: 'Install dependencies'
       run: |
         npm install
-        bundle install --path vendor/bundle --jobs 4 --retry 3
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
 
-    - name: bundle exec rake assets:precompile
-      run:  bundle exec rake assets:precompile
-    - name: bundle exec rake test SKIP_BUILD=1
-      run:  bundle exec rake test SKIP_BUILD=1
-    - name: bundle exec rspec spec/qiita.rb
-      run:  bundle exec rspec spec/qiita.rb
+    - name: 'Generate files and test them statically'
+      run: |
+        bundle exec rake assets:precompile
+        bundle exec rake test SKIP_BUILD=1
+        bundle exec rspec spec/qiita.rb
+
+    - name: 'Deploy to Heroku if test suite passed'
+      env:
+        HEROKU_API_KEY:   ${{ secrets.HEROKU_API_KEY }}
+        HEROKU_APP_NAME: 'yasslab-jp'
+      if: github.ref == 'refs/heads/master' && job.status == 'success'
+      run: |
+        git push https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
 
 #    - name: actions-idobata
 #      uses: mahaker/actions-idobata@v1.1.1
