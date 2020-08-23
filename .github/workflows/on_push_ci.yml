@@ -44,9 +44,6 @@ jobs:
         heroku_api_key:   ${{ secrets.HEROKU_API_KEY }}
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
-        healthcheck:     'https://yasslab.jp/health'
-        checkstring:     'OK!'
-        delay:           0 # Make this action wait the given seconds before the health check
         
     - name: 'Notify test results to Idobata'
       uses: mahaker/actions-idobata@v1.1.1
