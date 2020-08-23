@@ -36,7 +36,7 @@ jobs:
         HEROKU_APP_NAME: 'yasslab-jp'
       if: github.ref == 'refs/heads/master' && job.status == 'success'
       run: |
-        git push https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
+        git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
 
 #    - name: actions-idobata
 #      uses: mahaker/actions-idobata@v1.1.1
@@ -49,9 +49,3 @@ jobs:
 #          </div>
 #        format: 'html' # default
 
-#    - name: Deploy to Heroku
-#      env:
-#        HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
-#        HEROKU_APP_NAME: "yasslab-jp"
-#      if: github.ref == 'refs/heads/master' && job.status == 'success'
-#      run: git push https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
