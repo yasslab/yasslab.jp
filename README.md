@@ -1,4 +1,4 @@
-[![Test & Deploy](https://github.com/yasslab/yasslab.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A"Test+&+Deploy") %20%20 [![Scheduler Status](https://github.com/yasslab/yasslab.jp/workflows/Scheduler%20in%20GitHub%20Actions/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A"Scheduler+in+GitHub+Actions")
+[![Test & Deploy](https://github.com/yasslab/yasslab.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A%22Test+%26+Deploy%22) [![Scheduler Status](https://github.com/yasslab/yasslab.jp/workflows/Scheduler/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A%22Scheduler%22)
 
 [![Cover Photo of YassLab Inc.](https://yasslab.jp/img/cover-photo_ss_v2.png)](https://yasslab.jp/ja/)
 
