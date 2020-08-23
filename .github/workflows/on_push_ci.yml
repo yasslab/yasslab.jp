@@ -30,6 +30,9 @@ jobs:
         bundle exec rake test SKIP_BUILD=1
         bundle exec rspec spec/qiita.rb
 
+    - name: 'Get commit info'
+      run: |
+        echo ::set-env name=COMMIT_MESSAGE::$(git log --format=%B -n 1 ${{ github.event.after }})
     - name: 'Notify test results to Idobata'
       uses: mahaker/actions-idobata@v1.1.1
       with:
@@ -37,7 +40,7 @@ jobs:
         format: 'html'
         message: |
           <div>
-          CI build for ${{ github.event_name }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
+          CI for ${{ COMMIT_MESSAGE }} event : <span class='label label-${{ job.status }}'>${{ job.status }}</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Actions</a>)<br>
           <a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>Commit</a> to <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> by <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>.
           </div>
 
