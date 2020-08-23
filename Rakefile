@@ -49,8 +49,6 @@ Rake.application.tasks.each do |task|
 end
 
 
-
-
 # To deploy this website to Heroku
 task default: 'assets:precompile'
 

@@ -1,7 +1,7 @@
 {
   "name": "yasslab.jp",
   "version": "1.0.0",
-  "description": "[![Build Status](https://github.com/yasslab/yasslab.jp/workflows/on_push_ci/badge.svg)](https://github.com/yasslab/yasslab.jp/actions)",
+  "description": "Corporate website for YasLab Inc.",
   "engines": {
     "npm": "6.9.0"
   },
