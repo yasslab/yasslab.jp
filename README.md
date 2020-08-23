@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/yasslab/yasslab.jp/workflows/Test%20&%20Deploy/badge.svg)
+[![Test & Deploy](https://github.com/yasslab/yasslab.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A"Test+&+Deploy") %20%20 [![Scheduler Status](https://github.com/yasslab/yasslab.jp/workflows/Scheduler%20in%20GitHub%20Actions/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A"Scheduler+in+GitHub+Actions")
 
 [![Cover Photo of YassLab Inc.](https://yasslab.jp/img/cover-photo_ss_v2.png)](https://yasslab.jp/ja/)
 

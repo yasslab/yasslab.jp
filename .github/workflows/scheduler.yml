@@ -1,4 +1,4 @@
-name: 'Run scheduled tasks in GitHub Actions'
+name: 'Scheduler in GitHub Actions'
 
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
