@@ -83,6 +83,7 @@ task test: [:build] do
       "./_site/en/workshops/raspi/index.html",
       "./_site/ja/workshops/tickle/index.html",
       "./_site/google02f5cc9ed3681f94.html",
+      "./_site/health.html",
       /google(.*)\.html/,
     ],
     url_ignore:  %w(coderdojo.com linkedin.com),
