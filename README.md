@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/yasslab/yasslab.jp/workflows/on_push_ci/badge.svg)](https://github.com/yasslab/yasslab.jp/actions)
+[![Build Status](https://github.com/yasslab/yasslab.jp/workflows/Test%20&%20Deploy/badge.svg)
 
 [![Cover Photo of YassLab Inc.](https://yasslab.jp/img/cover-photo_ss_v2.png)](https://yasslab.jp/ja/)
 
