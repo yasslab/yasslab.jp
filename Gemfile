@@ -53,5 +53,9 @@ group :development, :test do
 end
 
 group :production do
+  # Heroku + Puma  https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server
   gem 'puma'
+
+  # Heroku Metrics https://devcenter.heroku.com/articles/language-runtime-metrics-ruby
+  gem 'barnes'
 end
