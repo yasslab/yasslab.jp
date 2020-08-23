@@ -59,7 +59,7 @@ namespace :assets do
   task :precompile do
     sh 'JEKYLL_ENV=production bundle exec jekyll build'
 
-    # Shaped up npm modules ;) So 'npm prune' does not save so much.
+    # Shaped up npm modules with 'npm prune' in production
     sh 'npm prune --production' if ENV['NPM_CONFIG_PRODUCTION'] == 'false'
   end
 end
