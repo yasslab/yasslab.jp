@@ -31,12 +31,14 @@ jobs:
         bundle exec rspec spec/qiita.rb
 
     - name: 'Deploy to Heroku if test suite passed'
-      env:
-        HEROKU_API_KEY:   ${{ secrets.HEROKU_API_KEY }}
-        HEROKU_APP_NAME: 'yasslab-jp'
       if: github.ref == 'refs/heads/master' && job.status == 'success'
-      run: |
-        git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
+      uses: akhileshns/heroku-deploy@v3.4.6
+      with:
+        branch:          'master'
+        heroku_api_key:   ${{ secrets.HEROKU_API_KEY }}
+        heroku_app_name: 'yasslab-jp'
+        heroku_email:    'yohei@yasslab.jp'
+        usedocker:       false
 
 #    - name: actions-idobata
 #      uses: mahaker/actions-idobata@v1.1.1
