@@ -1,5 +1,4 @@
 require "bundler/setup"
-#require "jekyll/task/i18n"
 
 # Tasks triggered by GitHub Actions
 # https://github.com/yasslab/yasslab.jp/actions
@@ -103,6 +102,7 @@ task :clean do
   system 'bundle exec jekyll clean'
 end
 
+#require "jekyll/task/i18n"
 #Jekyll::Task::I18n.define do |task|
 #  task.locales = ["ja"]
 #  task.translator_name  = "Yohei Yasukawa"
