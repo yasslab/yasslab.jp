@@ -51,8 +51,12 @@ jobs:
       uses: akhileshns/heroku-deploy@v3.4.6
       with:
         branch:          'master'
+        usedocker:       false
         heroku_api_key:   ${{ secrets.HEROKU_API_KEY }}
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
-        usedocker:       false
+        healthcheck:     'https://yasslab.jp/health'
+        checkstring:     '✅ yasslab.jp works fine! ;)'
+        delay:           0 # Make this action wait the given seconds before the health check
+        
 
