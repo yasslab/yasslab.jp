@@ -90,6 +90,7 @@ exclude:
   - package-lock.json
   - test
   - spec
+  - tasks
   - .jekyll-cache
 
 # Enable Incremental Regeneration feature (experimental)
