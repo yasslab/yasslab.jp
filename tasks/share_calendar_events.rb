@@ -123,6 +123,6 @@ if msg.empty?
 else
   # Send a message to Idobata
   puts "🆕 Found today's event(s)."
-  Idobata.hook_url = ENV['IDOBATA_LOUNGE']
+  Idobata.hook_url = ENV['IDOBATA_CALENDAR']
   Idobata::Message.create(source: msg, format: :html) unless msg.empty?
 end

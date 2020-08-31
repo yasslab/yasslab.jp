@@ -45,7 +45,7 @@ jobs:
     - name: "Share today's event summary from given calendar"
       run: bundle exec rake share_calendar_events
       env:
-        IDOBATA_LOUNGE:      ${{ secrets.IDOBATA_LOUNGE  }}
+        IDOBATA_CALENDAR:    ${{ secrets.IDOBATA_CALENDAR  }}
         GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
         GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
         GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
