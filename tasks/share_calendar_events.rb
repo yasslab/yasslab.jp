@@ -3,7 +3,7 @@
 
 now   = Time.now
 range = (950..959)
-unless range.include? now.strftime('%H%M').to_i
+unless range.cover? now.strftime('%H%M').to_i
   puts "⏰ Current Time: #{now.strftime('%H:%M')} (TZ=#{ENV['TZ']})"
   puts "😪 This task runs only (%04d..%04d)." % [range.first, range.last]
   return
