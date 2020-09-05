@@ -7,7 +7,7 @@ require 'idobata'
 require 'active_support/all'
 
 Idobata.hook_url = ENV['IDOBATA_SHARE']
-TIME_INTERVAL    = 10
+TIME_INTERVAL    = 10 # minutes ago from now
 RSS_LIST         = [
 # { title: "Name short title of the RSS", url: "URL of RSS to fetch and share with team" },
   { title: 'YassLab',   label: "info",    url: "https://b.hatena.ne.jp/YassLab/rss"},
@@ -18,15 +18,16 @@ RSS_LIST         = [
 
 msg = ""
 RSS_LIST.each { |rss|
-  # NOTE: Set cron as "Every 30 minutes" in GitHub Actions to correspond
+  # NOTE: Set cron as "Every 10 minutes" in GitHub Actions to correspond
   if rss[:url].include? "qiita.com" # Atom feed that ends with '*.atom'
     articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
       # NOTE: This feed doesn't contain timezone, so need to convert it into JST (+09:00)
-      (Time.now - (item.published.content - 9.hours)) / 60 < TIME_INTERVAL # * 1000 # for debug
+      (Time.now - (item.published.content - 9.hours)) < TIME_INTERVAL * 60 # seconds
     end
   else # RSS feed that ends with '*.rss'
     articles = RSS::Parser.parse(rss[:url]).items.select do |item|
-      (Time.now - item.date) / 60 < TIME_INTERVAL
+      # Time comparision by seconds (integer)
+      (Time.now.round - item.date).to_i < TIME_INTERVAL * 60
     end
   end
 
@@ -47,4 +48,3 @@ else
   puts "🆕 Found new article(s)."
   Idobata::Message.create(source: msg, format: :html) unless msg.empty?
 end
-
