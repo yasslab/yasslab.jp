@@ -335,6 +335,7 @@ layout: plain_without_thumbnail
 	  <span class="emoji">📜</span>
 	  プレスリリース</a></h2>
         <ul>
+	  <li><a href="https://prtimes.jp/main/html/rd/p/000000003.000063969.html" target="_blank" rel="noopener">【プログラミングスクール合同コンテスト】editch 10/11(日) 13:00-16:30 オンラインイベント開催！</a></li>
 	  <li><a href="https://prtimes.jp/main/html/rd/p/000000002.000057664.html" target="_blank" rel="noopener">就職直結型プログラミングスクール「RUNTEQ」、Railsチュートリアルを運営する YassLab 社と業務提携し、さらなるWebエンジニアの拡大を促進へ</a></li>
 	  <li><a href="https://prtimes.jp/main/html/rd/p/000000055.000004979.html" target="_blank" rel="noopener">シェアウィズ、Ruby on Rails 6.0に対応したRailsチュートリアル解説動画の質問対応版を提供開始</a></li>
 	  <li><a href="https://prtimes.jp/main/html/rd/p/000000005.000043589.html" target="_blank" rel="noopener">コミュニティ型IT学習環境の「TechCommit」、Railsチュートリアルと業務提携でITエンジニアの創出促進へ</a></li>
