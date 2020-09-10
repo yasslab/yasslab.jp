@@ -84,17 +84,17 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 <div id="howto"></div>
 <br>
 
-## [イベント枠提供までの手続き](#howto)
+## [イベント枠提供までの流れ](#howto)
 
-イベント枠を提供するまでの手続きは大きく分けて２つあります。内容をご確認していただき、準備が整いましたら最下部の[お問い合わせ先](#contact)より次の旨を添えてご連絡ください 📮 ✉️💨
+イベント枠提供までの手続きは大きく分けて２つあります。いずれの場合においても下記の流れは共通ですので、事前にご確認していただき、準備ができましたら[申請フォーム](#submit)よりお申し込みください 📮 
 
-- 件名または本文に『Doorkeeper スポンサーシップ希望』と記載
+- 申請者のお名前、メールアドレス (管理者として招待メールを送付します)
 - 立ち上げようとするコミュニティの名称 (審査対象となります)
 - 立ち上げようとするコミュニティの概要 (審査対象となります)
-- 『[利用規約](#term-of-service)に同意しました』と記載
-- 下記 A. または B. のいずれの方法で手続きを進めるかを記載
-   - CoderDojo 専用の Doorkeeper アカウントはまだ作っていない → [A. に進む](#new-account)
-   - CoderDojo 専用の Doorkeeper アカウントが既に用意してある → [B. に進む](#existing-account)
+- [利用規約](#term-of-service)および[プライバシーポリシー](/ja/privacy)への同意
+- Doorkeeper アカウントを既に持っているかどうかについて記載
+   - 当該コミュニティ専用の Doorkeeper アカウントはまだ持っていない → [A. に進む](#new-account)
+   - 当該コミュニティ専用の Doorkeeper アカウントを既に持っている　 → [B. に進む](#existing-account)
 
 コミュニティの名称または概要によっては、追加での質問をさせていただいたり、場合によってはお断りすることもあります。あらかじめご了承していただけると幸いです。
 
@@ -127,14 +127,14 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 
 まずは、[主催しているコミュニティのページ](https://manage.doorkeeper.jp/user/administered_groups)から当該コミュニティをクリックし、コミュニティ管理画面に行ってください。その後、コミュニティ管理画面から『設定』→『管理者』→『新しい管理者を招待』と進み、YassLab アカウント (`doorkeeper@yasslab.jp`) を追加してください。すると弊社のアカウント宛にメールで通知が来るので、弊社の担当者が３営業日以内に承諾いたします。
 
-![管理者の追加例](/img/doorkeeper_ss-2.png)
+![管理者の追加例](/img/doorkeeper_howto-1.png)
 
 
 ### 2. オーナーの変更
 
 弊社アカウントが管理者になった後、同画面から『オーナーの変更』をクリックし、YassLab アカウントに対して『オーナー権限を委譲』してください。
 
-![オーナーの変更例](/img/doorkeeper_ss-3.png)
+![オーナーの変更例](/img/doorkeeper_howto-2.png)
 
 以上で手続きは完了です。以降、弊社が購入したイベント枠を利用することが可能になります 🎫 ✨
 
@@ -294,25 +294,14 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 - [Doorkeeperを使用しているコミュニティの主催者をCo-Edoが支援します](http://blog.coworking.tokyo.jp/2016/08/doorkeeper.html) - コワーキングスペース萱場町 Co-Edo
 - [主催者の皆さまにご利用料をお支払いいただく理由](https://www.doorkeeper.jp/news/2016/7/25/why-charge-organisers) - Doorkeeper
 
-<div id="contact"></div>
+<div id="submit"></div>
 <br>
 
+## [お申し込みフォーム](#submit)
 
-## [お問い合わせ先](#contact)
+本スポンサーシップへのお申し込みを希望される場合は、下記フォームより申請してください。何かご不明な点などありましたら {{ site.company.email }} までご連絡ください。
 
-本スポンサーシップに関するご意見やご質問、および申込み希望などがありましたら、下記のお問い合わせ先までお気軽にご連絡ください。申込み希望の場合、上記の利用規約に同意したという一文も付記していただけると助かります。
-
-- メール: {{ site.company.email }}
-- 担当者: YassLab (株) 安川 要平
-- 所在地: 東京都新宿区高田馬場1-28-10 三慶ビル4階 CASE Shinjuku
-
-<div id="license"></div>
-
-## [ライセンス](#license)
-
-<p class="text-center"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="/img/spinner.svg" data-src="/img/CC-BY-SA.png" alt="CC BY-SA International" class="lazyload"></a></p>
-
-本スポンサーシップの内容は[クリエイティブ・コモンズ 表示-継承 4.0 国際](https://creativecommons.org/licenses/by-sa/4.0/deed.ja) (CC BY-SA 4.0) ライセンスに基づいて公開しています。Doorkeeperスポンサーシップの提供をご検討している法人・個人のご参考になれば幸いです 🙇
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW02y23Gkp9r_xAm3D8WEuaWfvoatlo27nMLFMQbvMFwLz5A/viewform?embedded=true" width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" frameborder="no">読み込んでいます…</iframe>
 
 <br>
 
