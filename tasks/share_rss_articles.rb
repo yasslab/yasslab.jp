@@ -7,7 +7,7 @@ require 'idobata'
 require 'active_support/all'
 
 Idobata.hook_url = ENV['IDOBATA_SHARE']
-TIME_INTERVAL    = 10 # minutes ago from now
+TIME_INTERVAL    = 10 # minutes
 RSS_LIST         = [
 # { title: "Name short title of the RSS", url: "URL of RSS to fetch and share with team" },
   { title: 'YassLab',   label: "info",    url: "https://b.hatena.ne.jp/YassLab/rss"},
@@ -27,7 +27,7 @@ RSS_LIST.each { |rss|
   else # RSS feed that ends with '*.rss'
     articles = RSS::Parser.parse(rss[:url]).items.select do |item|
       # Time comparision by seconds (integer)
-      (Time.now.round - item.date).to_i < TIME_INTERVAL * 60
+      (Time.now.round - item.date).to_i < TIME_INTERVAL * 60 # seconds
     end
   end
 

@@ -11,7 +11,7 @@ Idobata.hook_url = ENV['IDOBATA_HEALTH']
 ACCESS_TOKEN     = ENV['HEALTH_PLANET_TOKEN']
 LABEL_COLOR      = ENV['LABEL_COLOR'] || "label-success"
 USER_NAME        = ENV['USER_NAME']   || "yasulab"
-TIME_INTERVAL    = 10
+TIME_INTERVAL    = 10 # minutes
 
 # To generate ACCESS_TOKEN, see `sample_token_getter.rb`.
 # cf. https://github.com/yasslab/hp2idobata
