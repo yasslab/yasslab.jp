@@ -1,7 +1,8 @@
 ---
-layout: default
-title:  Calendar
-lang:   en
+layout:  default
+title:   Calendar
+lang:    en
+sitemap: false
 ---
 
 # 🗓 Calendar
