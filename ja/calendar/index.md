@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  予定表
+sitemap: false
 ---
 
 # 🗓 予定表
