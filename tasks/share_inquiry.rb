@@ -32,7 +32,7 @@ PASSWORD         = ENV['GMAIL_PASSWORD']
 
 #emailsの引数には:all,:read,:unreadがある.
 mails = @gmail.inbox.emails(:unread).each do |mail|
-  text = ""
+  text = ''
   is_html_format = false
 
   #text  += "<li>件名:   #{mail.subject}</li>"
@@ -62,12 +62,15 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
   end
 
   # puts text[3..].split('</b>').first # for debug print: mail.subject
-  post = text.gsub("\n", "").gsub("'", "\"")
+  post = text.gsub("\n", "").gsub("'", "\"").gsub(/<!--(.*?)-->/, '')
   is_html_format ?
     Idobata::Message.create(source: post, format: :html) :
     Idobata::Message.create(source: post, format: :markdown)
   mail.mark(:read)
 end
 
-mails.empty? ? puts("✅ No inquiries found.") : puts("🆕 Found unread inquiry.")
+mails.empty? ?
+  puts("✅ No inquiries found.") :
+  puts("🆕 Found unread inquiry.")
+
 @gmail.logout
