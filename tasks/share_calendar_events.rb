@@ -113,7 +113,7 @@ end
 
 events.sort_by{|h| h[:start].delete(':').to_i }.each do |hash|
   next if hash[:summary].include? "Private"
-  msg += "<span class='label label-info'>#{hash[:start]}</span> - #{hash[:summary]}<br />"
+  msg += "<span class='label label-info'>#{hash[:start]}</span> #{hash[:summary]}<br>"
 end
 msg.gsub!("00:00", "&nbsp;メモ&nbsp;")
 
