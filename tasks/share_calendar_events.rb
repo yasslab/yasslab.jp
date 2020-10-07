@@ -1,14 +1,6 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 
-now   = Time.now
-range = (950..1000)
-unless range.cover? now.strftime('%H%M').to_i
-  puts "⏰ Current Time: #{now.strftime('%H:%M')} (TZ=#{ENV['TZ']})"
-  puts "😪 This task runs only (%04d..%04d)." % [range.first, range.last]
-  return
-end
-
 require 'google/apis/calendar_v3'
 require 'googleauth'
 require 'googleauth/stores/file_token_store'

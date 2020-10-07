@@ -1,0 +1,36 @@
+name: Scheduler (10:00am)
+
+# https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
+on:
+  schedule:
+    - cron:  '0 10 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: 'Set up Ruby'
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+        #ruby-version: 2.7 # Not necessary if .ruby-version is given
+    - name: "Install Ruby gems with 'actions' group"
+      run: |
+        bundle config set with 'actions'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
+    - name: 'Share daily updates in Gumroad by using Emoji'
+      run: bundle exec rake share_gumroad_updates
+      env:
+        IDOBATA_GUMROAD:      ${{ secrets.IDOBATA_GUMROAD }}
+        GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
+    - name: "Share today's event summary from given calendar"
+      run: bundle exec rake share_calendar_events
+      env:
+        IDOBATA_CALENDAR:    ${{ secrets.IDOBATA_CALENDAR  }}
+        GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
+        GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
+        GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}

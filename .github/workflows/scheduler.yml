@@ -26,11 +26,6 @@ jobs:
       run:  bundle exec rake share_rss_articles
       env:
         IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
-    - name: 'Share daily updates in Gumroad by using Emoji'
-      run: bundle exec rake share_gumroad_updates
-      env:
-        IDOBATA_GUMROAD:      ${{ secrets.IDOBATA_GUMROAD }}
-        GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
     - name: 'Share opt-in Health Planet user record (yasulab)'
       run: bundle exec rake share_health_planet USER_NAME=yasulab LABEL_COLOR=label-info
       env:
@@ -42,13 +37,6 @@ jobs:
         IDOBATA_MAILS:       ${{ secrets.IDOBATA_MAILS  }}
         GMAIL_PASSWORD:      ${{ secrets.GMAIL_PASSWORD }}
         GMAIL_USERNAME:      ${{ secrets.GMAIL_USERNAME }}
-    - name: "Share today's event summary from given calendar"
-      run: bundle exec rake share_calendar_events
-      env:
-        IDOBATA_CALENDAR:    ${{ secrets.IDOBATA_CALENDAR  }}
-        GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
-        GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
-        GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
 
     - name: 'Upsert recent articles from note.com'
       run: |
