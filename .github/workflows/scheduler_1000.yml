@@ -3,7 +3,7 @@ name: Scheduler (10:00am)
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
   schedule:
-    - cron:  '0 10 * * *'
+    - cron:  '23 1 * * *'
 
 jobs:
   build:
