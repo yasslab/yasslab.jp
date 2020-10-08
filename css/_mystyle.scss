@@ -933,12 +933,26 @@ table.caption{
 }
 .flex-container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
   padding: 0;
-  .item { }
-}
-ul.flex-container li {
-  list-style-type: none;
+  .item {
+    list-style: none;
+    width: 25%;
+    padding: 6px 0;
+    a {
+      display: block;
+      padding: 6px;
+    }
+    img {
+      margin-bottom: 0;
+      max-width:100%;
+      height: auto;
+      vertical-align: bottom;
+    }
+  }
 }
 
 //ブランドページへの誘導ダイアログ
