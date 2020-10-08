@@ -1,9 +1,10 @@
 name: Scheduler (10:00am)
 
+# NOTE: GitHub Action's scheduler is always set to UTC+0. So 10am should be set at 1am for JST (UTC+9)
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 on:
   schedule:
-    - cron:  '28 1 * * *'
+    - cron:  '0 1 * * *'
 
 jobs:
   build:
