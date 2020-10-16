@@ -176,7 +176,7 @@ title:  弊社をご検討されている皆さんへ
 	  <li><a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）</a></li>
 	</ul>
 
-	<a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000" alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）'><img class='lazyload' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
+	<a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000"><img class='lazyload' alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
 
 	<div id="references"></div>
 	<br><br>
