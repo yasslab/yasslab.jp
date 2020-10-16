@@ -24,16 +24,16 @@ jobs:
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
+    - name: 'Get commit info'
+      run: |
+        echo ::set-env name=COMMIT_MESSAGE::$(git log --format=%B -n 1 ${{ github.event.after }})
+        echo ::set-env name=COMMIT_SHORT_SHA::$(git rev-parse --short=8 ${{ github.sha }})
+
     - name: 'Generate files and test them statically'
       run: |
         bundle exec rake assets:precompile
         bundle exec rake test SKIP_BUILD=1
         bundle exec rspec spec/qiita.rb
-
-    - name: 'Get commit info'
-      run: |
-        echo ::set-env name=COMMIT_MESSAGE::$(git log --format=%B -n 1 ${{ github.event.after }})
-        echo ::set-env name=COMMIT_SHORT_SHA::$(git rev-parse --short=8 ${{ github.sha }})
 
     - name: 'Notify test results to Idobata (Failed)'
       if:   ${{ failure() }}
