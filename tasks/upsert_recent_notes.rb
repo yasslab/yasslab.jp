@@ -21,7 +21,7 @@ rss.items.each_with_index do |item, index|
   next  if urls.include? item.link
 
   news << <<NEW_ARTICLES
-- title: #{item.title}
+- title: #{item.title.gsub(': ', '：')}
   date:  #{item.pubDate.strftime("%Y-%m-%d")}
   url:   #{item.link}
 
