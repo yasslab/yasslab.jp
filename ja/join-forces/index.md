@@ -171,7 +171,7 @@ title:  弊社をご検討されている皆さんへ
 	<div id="media"></div>
 
 	<h2 class="text-center mt-10 mb-5" style='margin-top: 100px'><a href="#media">メディア</a></h2>
-	<p>弊社の働き方や採用フローが『エンジニアHub』に掲載されました！こちらも合わせてご参考になれば嬉しいです。</p>
+	<p>弊社のリモートワーク制度や採用フローが、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>と<a href='https://hatenacorp.jp/'>株式会社はてな</a>が運営する<b>『エンジニアHub』に掲載</b>されました！こちらも合わせてご参考になれば嬉しいです 🙏💖</p>
 	<ul style='list-style: none;'>
 	  <li><a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）</a></li>
 	</ul>
