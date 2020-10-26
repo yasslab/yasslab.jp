@@ -1,0 +1,31 @@
+name: Scheduler (Every 10 minutes)
+
+# Spec: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
+# For debug: https://crontab.guru/
+on:
+  schedule:
+    - cron:  '*/10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: 'Set up Ruby'
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+        #ruby-version: 2.7 # Not necessary if .ruby-version is given
+    - name: "Install Ruby gems with 'actions' group"
+      run: |
+        bundle config set with 'actions'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
+    - name: 'Share inquiry from yasslab.jp'
+      run: bundle exec rake share_inquiry
+      env:
+        IDOBATA_MAILS:  ${{ secrets.IDOBATA_MAILS  }}
+        GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+        GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}

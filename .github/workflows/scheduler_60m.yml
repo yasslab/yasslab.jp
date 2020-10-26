@@ -1,0 +1,30 @@
+name: Scheduler (Every 1 hour)
+
+# Spec: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
+# For debug: https://crontab.guru/
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: 'Set up Ruby'
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+        #ruby-version: 2.7 # Not necessary if .ruby-version is given
+    - name: "Install Ruby gems with 'actions' group"
+      run: |
+        bundle config set with 'actions'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
+    - name: 'Share opt-in Health Planet user record (yasulab)'
+      run: bundle exec rake share_health_planet USER_NAME=yasulab LABEL_COLOR=label-info
+      env:
+        IDOBATA_HEALTH:      ${{ secrets.IDOBATA_HEALTH }}
+        HEALTH_PLANET_TOKEN: ${{ secrets.HEALTH_PLANET_TOKEN }}
