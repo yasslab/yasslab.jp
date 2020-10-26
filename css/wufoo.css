@@ -14,8 +14,9 @@ body{
   font-size: 14px;
   font-family: 'Noto Sans JP','Hiragino Kaku Gothic Pro',Meiryo,sans-serif;
 }
-.wufoo input {
-  padding: 5px;
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+  padding: .3rem;
+  box-sizing: border-box;
 }
 
 .error span.choice__text.notranslate {
