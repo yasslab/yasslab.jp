@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700);
+
+body{
+  background-color: transparent !important;
+  color:#fff;
+}
+
+#container, html.embed{
+  background-color: transparent !important;
+}
+
+.wufoo {
+  font-size: 14px;
+  font-family: 'Noto Sans JP','Hiragino Kaku Gothic Pro',Meiryo,sans-serif;
+}
+.wufoo input {
+  padding: 5px;
+}
+
+.error span.choice__text.notranslate {
+  color: #444;
+}
+
+.wufoo li.buttons {
+  text-align: center;
+}
+
+.wufoo input.btTxt.submit {
+  display: inline-block;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem 2.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  background-color: #fff;
+  border-radius: .25rem;
+}
+
+.entry_content a {
+  word-break: break-all;
+}
+
+li span.req {
+  display: none !important;
+}
