@@ -310,7 +310,7 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 
 本スポンサーシップへのお申し込みを希望される場合は、下記フォームより申請してください。何かご不明な点などありましたら {{ site.company.email }} までご連絡ください。
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW02y23Gkp9r_xAm3D8WEuaWfvoatlo27nMLFMQbvMFwLz5A/viewform?embedded=true" width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" frameborder="no">読み込んでいます…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW02y23Gkp9r_xAm3D8WEuaWfvoatlo27nMLFMQbvMFwLz5A/viewform?embedded=true" width="100%" height="1780" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" frameborder="no">読み込んでいます…</iframe>
 
 <br>
 
