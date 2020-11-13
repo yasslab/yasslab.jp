@@ -331,19 +331,13 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#press">
-	  <span class="emoji">📜</span>
+        <h2><a href="#press"><span class="emoji">📜</span>
 	  プレスリリース</a></h2>
-        <ul>
-	  <li><a href="https://prtimes.jp/main/html/rd/p/000000003.000063969.html" target="_blank" rel="noopener">【プログラミングスクール合同コンテスト】editch 10/11(日) 13:00-16:30 オンラインイベント開催！</a></li>
-	  <li><a href="https://prtimes.jp/main/html/rd/p/000000002.000057664.html" target="_blank" rel="noopener">就職直結型プログラミングスクール「RUNTEQ」、Railsチュートリアルを運営する YassLab 社と業務提携し、さらなるWebエンジニアの拡大を促進へ</a></li>
-	  <li><a href="https://prtimes.jp/main/html/rd/p/000000055.000004979.html" target="_blank" rel="noopener">シェアウィズ、Ruby on Rails 6.0に対応したRailsチュートリアル解説動画の質問対応版を提供開始</a></li>
-	  <li><a href="https://prtimes.jp/main/html/rd/p/000000005.000043589.html" target="_blank" rel="noopener">コミュニティ型IT学習環境の「TechCommit」、Railsチュートリアルと業務提携でITエンジニアの創出促進へ</a></li>
-          <li><a href="https://www.members.co.jp/company/news/2018/0806_2.html" target="_blank" rel="noopener">常駐型デジタルプロフェッショナルサービスのメンバーズキャリア、技術顧問体制を強化～新たに2名が技術顧問に就任、社員育成によるサービス向上を目指す～</a></li>
-          <li><a href="https://prtimes.jp/main/html/rd/p/000000036.000015015.html" target="_blank" rel="noopener">オンラインプログラミング学習のProgateが「Ruby on Rails チュートリアル」のコンテンツ提供でYassLabと提携</a> </li>
-          <li><a href="https://prtimes.jp/main/html/rd/p/000000004.000021148.html" target="_blank" rel="noopener">転職特化型Rubyプログラミングスクールの「ポテパンキャンプ」、Railsチュートリアルと業務提携しエンジニア創出を促す</a></li>
-          <li><a href="https://prtimes.jp/main/html/rd/p/000000013.000016641.html" target="_blank" rel="noopener">プログラミングスクールの「DIVE INTO CODE」、Railsチュートリアルと公式提携した「DIC Railsチュートリアルコース」を発表</a></li>
-        </ul>
+	<ul>
+	  {% for press in site.data.press  %}
+	  <li><a href="{{ press.url }}" target="_blank" rel="noopener">{{ press.title }}</a></li>
+	  {% endfor %}
+	</ul>
 
       </div><!--//col-->
     </div><!--//row-->
