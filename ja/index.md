@@ -117,18 +117,18 @@ layout: plain_without_thumbnail
 
       </div><!--//col-->
     </div><!--//row-->
-
-   <div class="row">
+    
+    <div class="row">
       <div class="col-md-6">
-        <div class="developmentSupport__more text-center">
-            <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社概要を見る</a>
-          </div>
-        </div><!--//col-->
-        <div class="col-md-6">
-        <div class="developmentSupport__more text-center">
-            <a href="/ja/works" class="btn btn-primary btn-block mt-2">過去の実績を見る</a>
-          </div>
-        </div><!--//col-->
+	<div class="developmentSupport__more text-center">
+          <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社概要を見る</a>
+	</div>
+      </div><!--//col-->
+      <div class="col-md-6">
+	<div class="developmentSupport__more text-center">
+          <a href="/ja/works" class="btn btn-primary btn-block mt-2">過去の実績を見る</a>
+	</div>
+      </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
   <div id="for-team"></div>
