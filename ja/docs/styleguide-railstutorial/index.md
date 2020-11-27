@@ -61,8 +61,10 @@ title:  Railsチュートリアルの配色ガイドライン
     flex-wrap: wrap;
   }
 </style>
-<div id='copy' style='color:#fff;opacity:0;'>
-</div>
+
+<div id='copy' style='color:#fff;opacity:0;'></div>
+
+<script type='text/javascript' src="/js/bootstrap-notify.min.js"></script>
 <script type="text/javascript">
   function Copy(color) {
     var div = document.getElementById('copy');
@@ -71,5 +73,18 @@ title:  Railsチュートリアルの配色ガイドライン
     div.appendChild(text);
     window.getSelection().selectAllChildren(div);
     document.execCommand('copy');
+
+    // Bootstrap Notify: https://github.com/mouse0270/bootstrap-notify/releases/tag/3.1.3
+    $.notify({
+      // options
+      message: 'コピーしました'
+    },{
+      // settings
+      type: 'info',
+      placement: {
+	from: "bottom",
+	align: "right"
+      },
+    });
   }
 </script>
