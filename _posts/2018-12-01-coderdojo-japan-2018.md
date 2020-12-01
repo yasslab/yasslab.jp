@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  ☯️ 開発目線で見る最近の CoderDojo Japan 2018
+title:  ☯️ 2018年運用目線で見る coderdojo.jp 開発
 thumbnail: coderdojo-japan.png
 author: yasulab
 categories: [Blog]
 tags: [CoderDojo, Rails]
 ---
+
+<br>
 
 <div class="video" style="margin-bottom: 30px;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fts1ogmYJ6M?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
