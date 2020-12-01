@@ -164,14 +164,6 @@ layout: plain_without_thumbnail
           {% include member.html username='nanophate'  link_to='twitter'
              caption='<a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家' %}
 
-	  {% comment %}
-	  {% include member.html username='AnaTofuZ'   link_to='twitter'
-             caption='Perlが好きなエンジニア。<a href="https://ie.u-ryukyu.ac.jp/%E5%AD%A6%E7%A7%91%E7%B4%B9%E4%BB%8B/%E7%A0%94%E7%A9%B6%E5%AE%A4%E7%B4%B9%E4%BB%8B/%E4%B8%A6%E5%88%97%E7%A0%94%E7%A9%B6%E5%AE%A4%EF%BC%88%E6%B2%B3%E9%87%8E%E7%A0%94%EF%BC%89/">並列研 (河野研)</a>' %}
-          {% include member.html username='aokabin_' link_to='twitter' offset='offset-md-4'
-          caption='<a href="https://www.ryukyu-frogs.com/">Ryukyufrogs</a>5期生のエンジニア。沖縄高専卒' %}
-	  {% endcomment %}
-
-
 	  {% include member.html username='yasulab'   link_to='twitter'
 	  caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
 	  {% include member.html username='hachi8833' link_to='twitter'
@@ -189,14 +181,6 @@ layout: plain_without_thumbnail
 	  caption='専門学校講師。Team LENS。Webデザイナー' %}
     {% include member.html username='YukiMihashi' link_to='twitter'
 	  caption='Webデザイナー' %}
-
-	  {% comment %}
-	  {% include member.html username='nalabjp'   link_to='twitter' offset='offset-md-2'
-	  caption='Railsエンジニア。スノーボードと沖縄が好き' %}
-
-	  {% include member.html username='shishi4tw' link_to='twitter'
-	  caption='プログラマー。 <a href="https://twitter.com/hashtag/shinjukurb">Shinjuku.rb</a> 発起人' %}
-	  {% endcomment %}
 
         </div>
 	<div class="text-center pt-5" style="margin: 30px 0;">
