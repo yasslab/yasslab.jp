@@ -177,8 +177,10 @@ layout: plain_without_thumbnail
 	  {% include member.html username='hachi8833' link_to='twitter'
 	  caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
 
-	  {% include member.html username='crafter_gene' link_to='twitter'
-	  caption='品質管理が得意。趣味は広くそこそこ深く' %}
+	  <!-- {% include member.html username='crafter_gene' link_to='twitter'
+	  caption='品質管理が得意。趣味は広くそこそこ深く' %} -->
+    {% include member.html username='rakudaSanDesu' link_to='twitter'
+	  caption='エンジニアとして歩き始めたらくだ🐫' %}
 	  {% include member.html username='Yuppyhappytoyou' link_to='twitter'
 	  caption='楽しいこと大好き✌️
 	  エンジニアママ😚 ' %}
