@@ -27,7 +27,7 @@ title:  事業実績
 	   data-id="ee19ff2514724ee2b345068cfd37581c"
 	   data-ratio="1.33333333333333"
 	   src="//speakerdeck.com/assets/embed.js"></script>
-	  (スライドが表示されない場合は<a href="https://speakerdeck.com/yasslab/learn-by-your-own-projects" target="_blank">コチラ</a>から)
+	  (別イベントで再演 & 収録した <a href="https://www.youtube.com/watch?v=Fr2NGuc7R94" target="_blank" rel='noopener'>YouTube 動画</a>もあります)
         </div><!--//col-md-8  offset-md--->
       </div><!--//col12-->
     </div><!--//row-->
