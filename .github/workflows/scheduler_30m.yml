@@ -31,11 +31,23 @@ jobs:
     - name: 'Upsert recent articles from note.com'
       run: |
         bundle exec rake upsert_recent_notes
+        echo "NEW_NOTE=false" >> $GITHUB_ENV
         if [ -n "$(git status --porcelain)" ]; then
-          echo "NEW_NOTE=true"  >> $GITHUB_ENV
-        else
-          echo "NEW_NOTE=false" >> $GITHUB_ENV
+          if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/news.yml > /dev/null ); then
+            git config user.name  Yohei\ Yasukawa
+            git config user.email yohei@yasslab.jp
+            git remote set-url origin https://yasulab:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git checkout master
+            git add _data/news.yml
+            git commit -m '🤖 Upsert note article(s) by GitHub Actions'
+            git push origin master
+            echo "NEW_NOTE=true" >> $GITHUB_ENV
+          else
+            echo "Detected YAML syntax error in '_data/news.yml' so not going to deploy."
+          fi
         fi
+      env:
+        GITHUB_TOKEN:
 
     - name: 'No recent articles found'
       if: ${{ env.NEW_NOTE == 'false' }}
