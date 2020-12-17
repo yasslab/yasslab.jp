@@ -40,7 +40,7 @@ jobs:
             git add _data/news.yml
             git commit -m '🤖 Upsert note article(s) by GitHub Actions'
             git push origin master
-            git push heroku master
+            git push ${{ secrets.HEROKU_GIT_URL }} master
           else
             echo "Detected YAML syntax error in '_data/news.yml' so not deployed."
           fi
