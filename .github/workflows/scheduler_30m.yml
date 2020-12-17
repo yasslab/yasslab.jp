@@ -40,11 +40,12 @@ jobs:
             git add _data/news.yml
             git commit -m '🤖 Upsert note article(s) by GitHub Actions'
             git push origin master
-            git push ${{ secrets.HEROKU_GIT_URL }} master
+            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
           else
             echo "Detected YAML syntax error in '_data/news.yml' so not deployed."
           fi
         fi
       env:
         GITHUB_TOKEN:
-        HEROKU_GIT_URL: ${{ secrets.HEROKU_GIT_URL }}
+        HEROKU_API_KEY:  ${{ secrets.HEROKU_API_KEY }}
+        HEROKU_APP_NAME: 'yasslab-jp'
