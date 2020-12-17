@@ -31,16 +31,21 @@ jobs:
     - name: 'Upsert recent articles from note.com'
       run: |
         bundle exec rake upsert_recent_notes
+        echo "NEW_NOTE=false"  >> $GITHUB_ENV
         if [ -n "$(git status --porcelain)" ]; then
+          echo "NEW_NOTE=true" >> $GITHUB_ENV
+          echo "trueCOMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"        >> $GITHUB_ENV
           git config user.name  Yohei\ Yasukawa
           git config user.email yohei@yasslab.jp
           git remote set-url origin https://yasulab:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git remote set-url heroku https://heroku:${{ HEROKU_API_KEY }}@git.heroku.com/${{ HEROKU_APP_NAME }}.git
           git checkout master
           if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/news.yml > /dev/null ); then
             git add _data/news.yml
             git commit -m '🤖 Upsert note article(s) by GitHub Actions'
             git push origin master
-            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
+            git pull heroku master
+            git push heroku master
           else
             echo "Detected YAML syntax error in '_data/news.yml' so not deployed."
           fi
