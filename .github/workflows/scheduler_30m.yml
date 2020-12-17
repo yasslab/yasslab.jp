@@ -34,7 +34,6 @@ jobs:
         echo "NEW_NOTE=false"  >> $GITHUB_ENV
         if [ -n "$(git status --porcelain)" ]; then
           echo "NEW_NOTE=true" >> $GITHUB_ENV
-          echo "trueCOMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"        >> $GITHUB_ENV
           git config user.name  Yohei\ Yasukawa
           git config user.email yohei@yasslab.jp
           git remote set-url origin https://yasulab:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
