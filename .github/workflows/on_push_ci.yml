@@ -28,6 +28,7 @@ jobs:
       run: |
         echo "COMMIT_MESSAGE=`git log --format=%B -n 1 ${{ github.event.after }}`" >> $GITHUB_ENV
         echo "COMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"        >> $GITHUB_ENV
+        echo "COMMIT_ACTOR_NAME=`echo ${{ github.actor }} | cut -d '[' -f 1`"      >> $GITHUB_ENV
 
     - name: 'Generate files and test them statically'
       run: |
@@ -44,7 +45,7 @@ jobs:
         message: |
           <div>
           CI build for <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-danger'>Failure</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
-          <img src='https://github.com/${{ github.actor }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
+          <img src='https://avatars.githubusercontent.com/${{ env.COMMIT_ACTOR_NAME }}' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ github.actor }}'>${{ github.actor }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
           </div>
 
     - name: 'Notify test results to Idobata (Success)'
