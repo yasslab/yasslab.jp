@@ -216,7 +216,7 @@ GEM
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
     webrobots (0.1.2)
-    yaml (0.1.0)
+    yaml (0.1.1)
     yell (2.2.2)
     zeitwerk (2.4.2)
 
