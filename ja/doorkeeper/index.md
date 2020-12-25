@@ -57,7 +57,7 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 # スポンサー
 
 <div class="row justify-content-start no-gutters">
-  <div class="col-xs-3"><a href="https://yasslab.jp/"><img src="/img/spinner.svg" data-src="https://yasslab.jp/img/logos/500x500.png" alt="YassLab 株式会社" class="lazyload"></a></div>
+  <div class="col-xs-3"><a href="https://yasslab.jp/"><img src="https://yasslab.jp/img/logos/500x500.png" alt="YassLab 株式会社" class="lazyload"></a></div>
   <div class="col-xs-9"><b><a href="https://yasslab.jp/">YassLab 株式会社</a></b>
     <br><br>
     本イベントページは学びを支援する <a href="https://yasslab.jp/">YassLab 株式会社</a>が提供しております。詳細はコミュニティ運営者向け資料『<a href="https://yasslab.jp/ja/doorkeeper/">Doorkeeper スポンサーシップ</a>』をご参照ください。
