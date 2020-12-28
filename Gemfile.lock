@@ -189,7 +189,7 @@ GEM
     rspec-mocks (3.10.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
-    rspec-support (3.10.0)
+    rspec-support (3.10.1)
     ruby2_keywords (0.0.2)
     safe_yaml (1.0.5)
     sanitize (5.2.1)
