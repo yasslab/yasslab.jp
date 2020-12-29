@@ -26,9 +26,10 @@ jobs:
 
     - name: 'Get commit info'
       run: |
-        echo "COMMIT_MESSAGE=`git log --format=%B -n 1 ${{ github.event.after }}`"    >> $GITHUB_ENV
-        echo "COMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"           >> $GITHUB_ENV
         echo "COMMIT_ACTOR_NAME=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
+        echo "COMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"           >> $GITHUB_ENV
+        echo "COMMIT_MESSAGE=`git log --format=%B -n 1 ${{ github.event.after }}`"    >> $GITHUB_ENV
+        
     - name: 'Generate files and test them statically'
       run: |
         bundle exec rake assets:precompile
