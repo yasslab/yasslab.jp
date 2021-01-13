@@ -164,25 +164,27 @@ layout: plain_without_thumbnail
           {% include member.html username='nanophate'  link_to='twitter'
              caption='<a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家' %}
 
-    {% include member.html username='yasulab'   link_to='twitter'
-    caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
-    {% include member.html username='hachi8833' link_to='twitter'
-    caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
+	  {% include member.html username='yasulab'   link_to='twitter'
+	     caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
+	  {% include member.html username='hachi8833' link_to='twitter'
+	     caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
 
-    <!-- {% include member.html username='crafter_gene' link_to='twitter'
-    caption='品質管理が得意。趣味は広くそこそこ深く' %} -->
-    {% include member.html username='rakudaSanDesu' link_to='twitter'
-    caption='エンジニアとして歩き始めたらくだ🐫' %}
-    {% include member.html username='Yuppyhappytoyou' link_to='twitter'
-    caption='楽しいこと大好き✌️
-    エンジニアママ😚 ' %}
+	  {% include member.html username='Yuppyhappytoyou' link_to='twitter'
+	     caption='楽しいこと大好き✌️ エンジニアママ😚 ' %}
+	  {% include member.html username='YukiMihashi' link_to='twitter'
+	     caption='Webデザイナー。お絵かきとCSSが好き' %}
 
-    {% include member.html username='megane9988' link_to='twitter'
-    caption='(株) mgn代表。Team LENS。LT職人' %}
-    {% include member.html username='shoko_webdesign' link_to='twitter'
-    caption='専門学校講師。Team LENS。Webデザイナー' %}
-    {% include member.html username='YukiMihashi' link_to='twitter'
-    caption='Webデザイナー' %}
+	  {% include member.html username='rakudaSanDesu' link_to='twitter'
+	     caption='エンジニアとして歩き始めたらくだ🐫' offset='' %}
+	  {% include member.html username='megane9988' link_to='twitter'
+	     caption='(株) mgn代表。Team LENS。LT職人' %}
+	  {% include member.html username='shoko_webdesign' link_to='twitter'
+	     caption='専門学校講師。Team LENS。Webデザイナー' %}
+
+	  <!--
+	  {% include member.html username='crafter_gene' link_to='twitter'
+	     caption='品質管理が得意。趣味は広くそこそこ深く' offset='' %}
+	  -->
 
         </div>
   <div class="text-center pt-5" style="margin: 30px 0;">
