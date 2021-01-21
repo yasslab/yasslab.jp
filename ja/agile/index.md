@@ -20,54 +20,53 @@ title:  月額制の Ruby/Rails 開発支援サービス
 	<blockquote style="padding-top: 10px; font-style: normal;"><center><h2 style="padding-bottom: 0px; margin-bottom: 0px;"><b>【重要：新規受付停止のお知らせ】</b></h2></center>
 	  <p>長い間ご愛顧いただきありがとうございました！YassLab 社では月間２万以上のアクティブな利用者と、社員研修やスクール、大学・大学院などでも続々と採用されている<a href="/ja/#products">自社プロダクト</a>に注力するため、開発支援事業を停止する決断をいたしました。</p>
 	  <p style="padding: 20px 0px;">今後は<a href="/ja/#products">実践的なプロダクト開発がオンラインで学べるサービス</a>の開発に注力し、現在お困りの様々な個人・法人の学習環境をサポートするべく邁進していきます。社員研修やオンライン学習でお困りの場合は、お気軽にご連絡いただけると幸いです。</p>
-	  
+
 	</blockquote>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
-  <div id="skills"><br></div>
 </section>
 
-<section class="entry_content pt-5">
+<section class="entry_content pt-5" id="skills">
   <div class="container">         
     <div class="row text-center">
       <div class="col-md-12">
         <h2 class="mb-5"><a href="#skills">得意なスキル・サービス</a></h2>
       </div>
-      
+
       <div class="col">
 	<a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
           <img src="/img/spinner.svg" data-src="/img/icons/ruby.png" width="80%" alt="Ruby logo" class="lazyload" /></a><br>
           Ruby / Rails
       </div> <!--//col-->
-      
+
       <div class="col">
         <img src="/img/spinner.svg" data-src="/img/icons/test.png" width="80%" alt="test icon" class="lazyload" /><br>Test
-      </div>  <!--//col--> 
-      
+      </div>  <!--//col-->
+
       <div class="col">
         <a href="https://github.com/" target="_blank" rel="noopener">
           <img src="/img/spinner.svg" data-src="/img/icons/git.png" width="80%" alt="Git logo" class="lazyload" /></a><br>Git / GitHub
-      </div>  <!--//col--> 
-      
-      <div class="w-100"></div> 
+      </div>  <!--//col-->
+
+      <div class="w-100"></div>
 
       <div class="col">
         <img src="/img/spinner.svg" data-src="/img/icons/cloud.png" width="80%" alt="cloud icon" class="lazyload" /><br>Heroku / AWS
       </div> <!--//col-->
-      
+
       <div class="col">
         <img src="/img/spinner.svg" data-src="/img/icons/gear.png" width="80%" alt="Continuous Integration image" class="lazyload" /><br>Continuous Integration
-      </div>  <!--//col--> 
-      
+      </div>  <!--//col-->
+
       <div class="col">
         <img src="/img/spinner.svg" data-src="/img/icons/agile.png" width="80%" alt="Agile Web Development image" class="lazyload" /><br>Agile Web Development
       </div>  <!--//col-->  
-      
+
       <div class="col-md-12">
         <p id="style" class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
       </div>
-      
+
     </div><!--//row-->
   </div><!--//container-->
 </section>
@@ -78,13 +77,13 @@ title:  月額制の Ruby/Rails 開発支援サービス
       <div class="col-md-12 text-center">
         <h2 class="mb-5"><a href="#style">契約スタイル</a></h2>
         <p>弊社では、IPAが公開しているアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにしております。</p>
-        
+
         <div>
 	  <img src="/img/spinner.svg" data-src="/img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" class="lazyload" />
 	  <br><br>
           <center>参考: <a href="https://www.ipa.go.jp/files/000005404.pdf">アジャイル開発向けモデル契約案について</a> (IPA)</center>
 	</div>
-        
+
         <p>この契約の特徴は次の通りです:</p>
         <ul>
           <li>基本契約でNDAや著作権の譲渡などを取り扱います</li>
@@ -92,16 +91,16 @@ title:  月額制の Ruby/Rails 開発支援サービス
           <li>準委任契約となり、成果物は作業報告書になります</li>
         </ul>
 	<p>上記のモデル契約書を具体化した契約書が、次の契約書になります。特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。</p>
-        
+
         <p><a href="https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a" target="_blank" rel="noopener">IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)</a></p>
-        
-        <p id="price">なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
+
+        <p>なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
 </section>
 
-<section class="entry_content pt-5">
+<section class="entry_content pt-5" id="price">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -115,17 +114,16 @@ title:  月額制の Ruby/Rails 開発支援サービス
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
-  <div id="schedule"></div>
 </section>
 
-<section class="entry_content pt-5 pb-5">
+<section class="entry_content pt-5 pb-5" id="schedule">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
         <h2 class="mb-5"><a href="#schedule">現在のスケジュール</a></h2>
 
 	{% include agile-schedule.html %}
-        
+
         <table class="caption" style="margin-top: 30px;">
           <tr>
             <th><img src="/img/spinner.svg" data-src="/img/agile-available.png" alt="Available" class="lazyload" /></th>
@@ -153,7 +151,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
 	<div id="mc_embed_signup">
 	  <form action="https://yasslab.us7.list-manage.com/subscribe/post?u=87929ed80d217471e88115dc6&amp;id=bcd0bfb7da" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	    <div id="mc_embed_signup_scroll">
-	      
+
 	      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="example@your-company.co.jp" required>
 	      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_87929ed80d217471e88115dc6_bcd0bfb7da" tabindex="-1" value=""></div>
 	      <div class="clear"><input type="submit" value="登録する" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
@@ -161,14 +159,13 @@ title:  月額制の Ruby/Rails 開発支援サービス
 	  </form>
 	</div>
 	-->
-	
+
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
-  <div id="faq"></div>
 </section>
 
-<section class="entry_content pt-5 pb-5 frequently-asked-questions">
+<section class="entry_content pt-5 pb-5 frequently-asked-questions" id="faq">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -177,7 +174,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
           <dt>１ヶ月だけの個別契約も可能ですか？</dt>
           <dd>はい、可能です。ただし翌月以降の契約の更新は保証されません。<br>一定期間の継続した開発支援をご希望の場合は、２〜６ヶ月単位でお申し込みください。まずは１〜２ヶ月のみ、その後に３ヶ月または６ヶ月単位で更新していく事例が多いです。</dd>
 	  <br><br>
-	  
+
 	  <dt>対応可能な時間帯は決まっていますか？</dt>
 	  <dd>基本的には 10:00〜19:00 としております (休憩１時間、打ち合わせや作業報告書の作成時間なども含まれます)。朝会がこの時間帯より早く始まるなどの理由で、対応時間を変更したい場合は<a href="#contact">お問い合わせ</a>ください。</dd>
 	  <br><br>
@@ -185,17 +182,16 @@ title:  月額制の Ruby/Rails 開発支援サービス
 	  <dt>各社との調整はどのように決まりますか？</dt>
 	  <dd>『金額の高さ』や『期間の長さ』で決めさせて頂くことが多いです。複数社から同じ金額、同じ期間を提示して頂いた場合は、『過去に取引をしたことがあるか』『弊社が価値を出しやすい内容か』などを考慮することもあります。</dd>
 	  <br><br>
-	  
+
 	  <dt>弊社のオフィスに常駐できますか？</dt>
 	  <dd>オンラインでの開発支援を基本としており、オフィス常駐は行っておりません。代わりに、定期的なオンラインミーティングを推奨しております。東京近辺であれば、具体的な進め方をご説明しに伺うことも可能です。</dd>
         </dl>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
-  <div id="clients"></div>
 </section>
 
-<section class="entry_content pt-5 catchCopy">
+<section class="entry_content pt-5 catchCopy" id="clients">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -204,14 +200,13 @@ title:  月額制の Ruby/Rails 開発支援サービス
 	<p>YassLab 社が展開する各種事業 (開発支援サービス含む) のこれまでの取引先をまとめております。カッコ内は取引の概略です。こちらも合わせてご参考にしていただけると幸いです。</p>
 
 	{% include clients.html %}
-        
+
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
-  <div id="references"></div>
 </section>
 
-<section class="entry_content pt-5">
+<section class="entry_content pt-5" id="references">
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2 company">
