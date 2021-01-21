@@ -65,18 +65,18 @@ layout: plain_without_thumbnail
       </div>
     </div>
   </div>
-  <div id="news"></div>
+  <div></div>
 </section>
 
-<article>
+<section id="news">
   <div id="main_content_wrap" class="outer container" style="margin-top: 20px;">
     <section id="main_content" class="inner row justify-content-md-center pb-5 mb-5">
       <div class="col-12 col-md-9 entry_content text-center">
-  {% include recent_news.html %}
+        {% include recent_news.html %}
       </div>
     </section>
   </div>
-</article>
+</section>
 
 <section id="services" class="service entry_content" >
   <div class="container">
@@ -131,7 +131,6 @@ layout: plain_without_thumbnail
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
-  <div id="for-team"></div>
 </section>
 
 {% include services_for_team.html    %}
@@ -149,10 +148,9 @@ layout: plain_without_thumbnail
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
-  <div id="members"></div>
 </section>
 
-<section class="members" style="margin-top: 50px;">
+<section id="members" class="members" style="margin-top: 50px;">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -195,10 +193,9 @@ layout: plain_without_thumbnail
       </div>
     </div>
   </div>
-  <div id="stats"></div>
 </section>
 
-<section class="sns">
+<section class="sns" id="stats">
   <div class="container">
     <div class="row gutter-10">
       <div class="col-6">
