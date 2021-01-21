@@ -64,7 +64,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
       </div>  <!--//col-->  
 
       <div class="col-md-12">
-        <p "style" class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
+        <p id="style" class="mt-5">上記の他、フロントエンドの技術 (HTML, CSS, JavaScript, jQuery, Vue.js) なども扱えますが、フロントエンドのみの開発支援は行っておりません。ご注意ください。</p>
       </div>
 
     </div><!--//row-->
