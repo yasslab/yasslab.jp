@@ -7,7 +7,7 @@ require 'idobata'
 require 'active_support/all'
 
 Idobata.hook_url = ENV['IDOBATA_SHARE']
-TIME_INTERVAL    = 10 # minutes
+TIME_INTERVAL    = 30 # minutes
 RSS_LIST         = [
 # { title: "Name short title of the RSS", url: "URL of RSS to fetch and share with team" },
   { title: 'YassLab',   label: "info",    url: "https://b.hatena.ne.jp/YassLab/rss"},
