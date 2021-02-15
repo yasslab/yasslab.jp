@@ -8,7 +8,7 @@ end
 
 ruby '2.7.2'
 
-gem "jekyll", "~> 4.0"
+gem "jekyll", "~> 4.2"
 #gem "jekyll", github: "jekyll/jekyll"
 
 #gem 'rack-jekyll', "~> 0.5"

@@ -251,7 +251,7 @@ DEPENDENCIES
   google-api-client
   html-proofer
   idobata
-  jekyll (~> 4.0)
+  jekyll (~> 4.2)
   jekyll-include-cache
   jekyll-sitemap
   liquid-c
