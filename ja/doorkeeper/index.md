@@ -208,8 +208,8 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
            left_path='nilquebe-event'
            center_name='Otona Programming'
            center_path='otona-programming'
-           right_name='CoderDojo 阿倍野'
-           right_path='coderdojo-abeno'
+           right_name='CoEdo.rb'
+           right_path='coedo-rails'
 %}
 
 {% include community.html
@@ -276,10 +276,28 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 %}
 
 {% include community.html
-           left_name=''
-           left_path='empty'
+           left_name='CoderDojo 西尾'
+           left_path='coderdojo-nishio'
            center_name='CoderDojo 板橋'
            center_path='coderdojo-itabashi'
+           right_name='CoderDojo 喜多方'
+           right_path='coderdojo-kitakata'
+%}
+
+{% include community.html
+           left_name='CoderDojo 練馬'
+           left_path='b131707eb3b4171febffd8e03c'
+           center_name='CoderDojo 品川御殿山'
+           center_path='96f0e766f80c12df6bb9a66003'
+           right_name='CoderDojo 幸田'
+           right_path='coderdojo-coda'
+%}
+
+{% include community.html
+           left_name='CoderDojo 阿倍野'
+           left_path='coderdojo-abeno'
+           center_name='CoderDojo 日立'
+           center_path='coderdojo-hitachi'
            right_name=''
            right_path='empty'
 %}
