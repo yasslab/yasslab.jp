@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  🔐 Railsエンジニアのためのウェブセキュリティ入門に参加
+title:  🔐 RailsエンジニアのためのWebセキュリティ入門
 thumbnail: bg-sky.jpg
 author: yasulab
 categories: [blog]
 tags: [セキュリティ, Rails, Railsチュートリアル]
 ---
 
-[銀座Rails#8](https://ginza-rails.connpass.com/event/121889/)で行われた徳丸 浩さん ([@ockeghem](https://twitter.com/ockeghem)) の講演『Railsエンジニアのためのウェブセキュリティ入門』に参加してきました! 🏃💨
+[銀座Rails#8](https://ginza-rails.connpass.com/event/121889/)で行われた徳丸 浩さん ([@ockeghem](https://twitter.com/ockeghem)) の講演『RailsエンジニアのためのWebセキュリティ入門』に参加してきました! 🏃💨
 
 <div style="margin-bottom: 50px;">
   <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">本日19時から銀座にてですが、キャンセルのためお席の余裕ができたようです。Railesアプリのセキュリティについてトークします / “銀座Rails#8 @リンクアンドモチベーション - connpass” <a href="https://t.co/1DBQfEBoXk">https://t.co/1DBQfEBoXk</a></p>&mdash; 徳丸 浩 (@ockeghem) <a href="https://twitter.com/ockeghem/status/1120955276339757056?ref_src=twsrc%5Etfw">April 24, 2019</a></blockquote>
@@ -15,10 +15,10 @@ tags: [セキュリティ, Rails, Railsチュートリアル]
 
 徳丸さんとは[エンジニアのための法律勉強会](https://koyhogetech.hatenablog.com/entry/20150528/coedo-lawstudy)で初めてお会いし、最近だと[ウェブ・セキュリティ試験](https://prtimes.jp/main/html/rd/p/000000076.000018759.html)の運営団体『[BOSS-CON JAPAN](https://www.boss-con.jp/aboutus/)』経由でご一緒することがあります。といってもYassLab社は[Rails技術者認定試験に協力](https://railscp.com/text/)しているものの、PHPやPythonなどの他の試験にはほとんど関わっていないので、『徳丸さん達が隣で面白いことをやっているなー』『どこかでRuby/Railsの話も聞いてみたいなー』というぐらいでしたが 😅
 
-そんな徳丸さんが今回『Railsエンジニアのためのウェブセキュリティ入門』のお話をされるとのことなので参加してきたのですが、思っていた以上に濃い内容でした。本記事ではその一部を皆さんにご紹介しようと思います 📝💨
+そんな徳丸さんが今回『RailsエンジニアのためのWebセキュリティ入門』のお話をされるとのことなので参加してきたのですが、思っていた以上に濃い内容でした。本記事ではその一部を皆さんにご紹介しようと思います 📝💨
 
 
-## 題材にRailsチュートリアル...!!
+## 題材はなんと<br>Railsチュートリアル...!!
 
 ![railstutorial.jp](/img/news/secure-tutorial.jpg)
 
@@ -36,7 +36,7 @@ tags: [セキュリティ, Rails, Railsチュートリアル]
 
 <div style="margin-bottom: 100px;">
   <iframe src="//www.slideshare.net/slideshow/embed_code/key/FPA7OdXSywr7SA" width="595" height="320" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-  <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ockeghem/ruby-on-rails-security-142250872" title="Railsエンジニアのためのウェブセキュリティ入門" target="_blank" rel="noopener">Railsエンジニアのためのウェブセキュリティ入門</a> </strong> from <strong><a href="https://www.slideshare.net/ockeghem" target="_blank" rel="noopener">Hiroshi Tokumaru</a></strong> </div>
+  <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ockeghem/ruby-on-rails-security-142250872" title="RailsエンジニアのためのWebセキュリティ入門" target="_blank" rel="noopener">RailsエンジニアのためのWebセキュリティ入門</a> </strong> from <strong><a href="https://www.slideshare.net/ockeghem" target="_blank" rel="noopener">Hiroshi Tokumaru</a></strong> </div>
 </div>
 
 
@@ -82,7 +82,7 @@ Railsチュートリアルでも[暗号化とハッシュ化の違い](https://r
 徳丸さんの講演の最後では、RailsチュートリアルやRailsガイドの『[Railsセキュリティガイド](https://railsguides.jp/security.html)』 をオススメしていただけました 😻 (嬉しい!)
 
 <div style="margin-bottom: 50px;">
-  <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">徳丸さんの講演『Railsエンジニアのためのウェブセキュリティ入門』で <a href="https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Railsチュートリアル</a> が紹介されてたー！やったー！嬉しい！！😻✨ <a href="https://twitter.com/hashtag/ginzarails?src=hash&amp;ref_src=twsrc%5Etfw">#ginzarails</a> <br><br>&gt; Rails Tutorial を勉強しましょう <a href="https://t.co/kEMpH2weKx">pic.twitter.com/kEMpH2weKx</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1121016150182096896?ref_src=twsrc%5Etfw">April 24, 2019</a></blockquote>
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">徳丸さんの講演『RailsエンジニアのためのWebセキュリティ入門』で <a href="https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Railsチュートリアル</a> が紹介されてたー！やったー！嬉しい！！😻✨ <a href="https://twitter.com/hashtag/ginzarails?src=hash&amp;ref_src=twsrc%5Etfw">#ginzarails</a> <br><br>&gt; Rails Tutorial を勉強しましょう <a href="https://t.co/kEMpH2weKx">pic.twitter.com/kEMpH2weKx</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1121016150182096896?ref_src=twsrc%5Etfw">April 24, 2019</a></blockquote>
 </div>
 
 とはいえセキュリティに関するトピックは『１回対策したら終わり』というわけではなく、日々の情報のキャッチアップも重要です。例えば [RubyKaigi 2019](https://yasslab.jp/ja/news/rubykaigi-2019-report) でアナウンスされた [RubyGems.org](https://rubygems.org/) の MFA 設定がありましたが、皆さんはもう設定されましたか? 🔐✅
