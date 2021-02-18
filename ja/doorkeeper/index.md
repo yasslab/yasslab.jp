@@ -288,7 +288,7 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
            left_name='CoderDojo 練馬'
            left_path='b131707eb3b4171febffd8e03c'
            center_name='CoderDojo 品川御殿山'
-           center_path='96f0e766f80c12df6bb9a66003'
+           center_path='cgotenyama'
            right_name='CoderDojo 幸田'
            right_path='coderdojo-coda'
 %}
