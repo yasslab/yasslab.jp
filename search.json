@@ -1,0 +1,13 @@
+---
+layout: null
+---
+
+[
+  {% for news in site.data.news %}
+  {
+    "title"       : "{{ news.title | escape     }}",
+    "date"        : "{{ news.date  | date: '%Y' }}",
+    "url"         : "{{ news.url }}"
+  } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

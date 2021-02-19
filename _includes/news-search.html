@@ -1,0 +1,25 @@
+<!-- News Search -->
+<div class="search-position">
+  <div class="search-block">
+    <div class="search-block-input">
+      <span class="search-icon"></span>
+    </div>
+    <input class="search-input" type="text" name="" value="" placeholder="キーワードで検索する (例: Ruby, Rails, CoderDojo)" id="search-input">
+
+  </div>
+  <div class="search-block-result">
+    <ul id="search-results"></ul>
+  </div>
+</div>
+
+<script src="/js/simple-jekyll-search.js"></script>
+<script>
+ SimpleJekyllSearch({
+   searchInput:          document.getElementById('search-input'),
+   resultsContainer:     document.getElementById('search-results'),
+   json:                 '/search.json',
+   searchResultTemplate: '<li class="news-item"><span class="news-date">{date}年</span> <span><a href="{url}">{title}</a></span></li>',
+   noResultsText:        '検索結果が見つかりませんでした。'
+ });
+</script>
+<!-- News Search -->
