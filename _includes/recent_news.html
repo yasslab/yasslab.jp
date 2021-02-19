@@ -2,6 +2,8 @@
 <!--<div class="text-secondary center mb-4">(note 記事まとめ)</div>-->
 
 <ul class="news-recent">
+  {% include news-search.html %}
+
   {% for news in site.data.news limit:10 %}
   {% include news.html %}
   {% endfor %}
