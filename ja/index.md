@@ -120,14 +120,14 @@ layout: plain_without_thumbnail
 
     <div class="row">
       <div class="col-md-6">
-  <div class="developmentSupport__more text-center">
+	<div class="developmentSupport__more text-center">
           <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社概要を見る</a>
-  </div>
+	</div>
       </div><!--//col-->
       <div class="col-md-6">
-  <div class="developmentSupport__more text-center">
+	<div class="developmentSupport__more text-center">
           <a href="/ja/works" class="btn btn-primary btn-block mt-2">過去の実績を見る</a>
-  </div>
+	</div>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
@@ -154,7 +154,7 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3><a href="#members"><span class="emoji">👥</span>
+        <h3><a href="#members"><i class="fad fa-user-friends"></i> 
     メンバー紹介</a></h3>
         <div class="row">
           {% include member.html username='himajin315' link_to='twitter'
@@ -185,10 +185,10 @@ layout: plain_without_thumbnail
 	  -->
 
         </div>
-  <div class="text-center pt-5" style="margin: 30px 0;">
+	<div class="text-center pt-5" style="margin: 30px 0;">
           <a href="/ja/join-forces" class="btn btn-primary">
-      採用情報を見る
-    </a>
+	    採用情報を見る
+	  </a>
         </div>
       </div>
     </div>
@@ -233,18 +233,18 @@ layout: plain_without_thumbnail
     <div class="row">
       <div class="col-12">
         <h2><a href="#community" style="color: white;">
-    <span class="emoji">💎</span>
-    コミュニティ活動</a></h2>
+	  <i class="fas fa-gem"></i> コミュニティ活動</a></h2>
         <p class="text-md-center">YassLab 社ではコミュニティを Hub とした様々な繋がりを大切にしています。<br class="ignore-sp">コミュニティの一員として、継続的にできることを積極的に提案します。</p>
         <div class="row">
           <div class="col-md-4">
-      <figure>
+	    <figure>
               <a href="https://jr.mitou.org/" target="_blank" rel="noopener">
                 <img src="/img/spinner.svg" data-src="/img/logos/mitoujr.png" alt="未踏ジュニア - 独創的アイデアと卓越した技術を持つ小中高生クリエイター支援プログラム" class="lazyload" loading="lazy">
               </a>
               <figcaption><a href="https://jr.mitou.org/#sponsors">Webサービス開発教材の提供</a></figcaption>
             </figure>
-      <!--
+	    
+	    <!--
             <figure>
               <a href="https://ruby.okinawa/" target="_blank" rel="noopener">
                 <img src="/img/spinner.svg" data-src="/img/logos/okinawarb.gif"
@@ -252,7 +252,7 @@ layout: plain_without_thumbnail
               </a>
               <figcaption><a href="https://ruby.okinawa/okrk02/">沖縄Ruby会議などの運営支援</a></figcaption>
             </figure>
-      -->
+	    -->
           </div>
           <div class="col-md-4">
             <figure>
@@ -275,54 +275,22 @@ layout: plain_without_thumbnail
           </div>
         </div>
 
-  <!--
-  <div class="text-center pt-5">
-          <a href="/ja/about">
-            <button class="btn btn-primary">会社概要を見る</button>
-          </a>
-        </div>
-  -->
-
       </div>
     </div>
   </div>
 </section>
-
-<!--
-<section class="partner">
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <a href="https://jr.mitou.org/" target="_blank" rel="noopener">
-          <img src="/img/spinner.svg" data-src="/img/logos/mitoujr.png" alt="未踏ジュニア" class="lazyload" loading="lazy">
-        </a>
-      </div>
-      <div class="col-4">
-        <a href="https://franliber.co.jp/" target="_blank" rel="noopener">
-          <img src="/img/spinner.svg" data-src="/img/logos/franliber.png" alt="FranLiber" class="bd-bk lazyload" loading="lazy">
-        </a>
-      </div>
-      <div class="col-4">
-        <a href="https://railscp.com/" target="_blank" rel="noopener">
-          <img src="/img/spinner.svg" data-src="/img/logos/railscp.png" alt="（社）Rails技術者認定試験運営委員会" class="bd-bk lazyload" loading="lazy">
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
--->
 
 <section class="press" id="press">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#press"><span class="emoji">📜</span>
-    プレスリリース</a></h2>
-  <ul>
-    {% for press in site.data.press  %}
-    <li><a href="{{ press.url }}" target="_blank" rel="noopener">{{ press.title }}</a></li>
-    {% endfor %}
-  </ul>
+        <h2><a href="#press">
+	  <i class="fad fa-rocket"></i> プレスリリース</a></h2>
+	<ul>
+	  {% for press in site.data.press  %}
+	  <li><a href="{{ press.url }}" target="_blank" rel="noopener">{{ press.title }}</a></li>
+	  {% endfor %}
+	</ul>
 
       </div><!--//col-->
     </div><!--//row-->
