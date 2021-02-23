@@ -66,7 +66,7 @@ end
 # http://joenyland.me/blog/how_to_test_a_jekyll_site/
 require 'html-proofer'
 task test: [:build] do
-  sh "bundle exec rake assets:precompile" unless ENV['SKIP_BUILD'] == '1'
+  sh "bundle exec rake assets:precompile" unless ENV['SKIP_BUILD'] == 'true'
 
   require './test/custom_checks'
   options = {
@@ -94,11 +94,11 @@ task test: [:build] do
 end
 
 task build: [:clean] do
-  system 'bundle exec jekyll build' unless ENV['SKIP_BUILD'] == '1'
+  system 'bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true'
 end
 
 task :clean do
-  system 'bundle exec jekyll clean' unless ENV['SKIP_BUILD'] == '1'
+  system 'bundle exec jekyll clean' unless ENV['SKIP_BUILD'] == 'true'
 end
 
 #require "jekyll/task/i18n"

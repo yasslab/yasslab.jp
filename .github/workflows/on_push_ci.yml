@@ -33,7 +33,7 @@ jobs:
     - name: 'Generate files and test them statically'
       run: |
         bundle exec rake assets:precompile
-        bundle exec rake test SKIP_BUILD=1
+        bundle exec rake test SKIP_BUILD=true
         bundle exec rspec spec/qiita.rb
 
     - name: 'Notify test results to Idobata (Failed)'
