@@ -43,6 +43,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem "jekyll-include-cache"
   gem 'jekyll-sitemap'
+  gem 'jekyll-minifier'
 end
 
 group :development, :test do
