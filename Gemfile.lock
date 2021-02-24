@@ -111,6 +111,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
+    jekyll-feed (0.15.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -252,6 +254,7 @@ DEPENDENCIES
   html-proofer
   idobata
   jekyll (~> 4.2)
+  jekyll-feed
   jekyll-include-cache
   jekyll-sitemap
   liquid-c
