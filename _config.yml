@@ -12,7 +12,7 @@ defaults:
 
 # Use sass for designing
 sass:
-  style:     compact
+  style:     compressed
   sass_dir:  css
   sourcemap: always
   load_paths:
