@@ -36,7 +36,7 @@ jobs:
           if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/news.yml > /dev/null ); then
             git config user.name  Yohei\ Yasukawa
             git config user.email yohei@yasslab.jp
-            git remote set-url origin https://yasulab:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
             git checkout master
             git add _data/news.yml
             git commit -m '🤖 Upsert note article(s) by GitHub Actions'
