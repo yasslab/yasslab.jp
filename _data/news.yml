@@ -41,7 +41,6 @@
 - title: '📖 Railsの教科書で予習/復習しよう'
   date:  2020-12-24
   url:   https://note.com/yasslab/n/nfdb22574b09f
-  this_year: 2020
 
 - title: '🗺 RubyとRailsの学習ガイドを公開'
   date:  2020-12-22
@@ -502,7 +501,6 @@
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第3章)
   date: 2019-12-26
   url: https://note.com/yasslab/n/n5650deb74908
-  this_year: 2019
 
 - title: 📕 Railsガイド『Proプラン』過去バージョン閲覧機能
   date: 2019-12-25
@@ -830,7 +828,6 @@
   date: 2018-12-25
   url: /ja/news/migrate-dojocast-from-jekyll-to-rails
   is_internal?: true
-  this_year: 2018
 
 - title: ☯️ 開発目線で見る最近の CoderDojo Japan 2018
   date: 2018-12-01
