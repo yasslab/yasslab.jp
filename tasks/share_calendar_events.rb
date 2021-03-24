@@ -13,7 +13,7 @@ OOB_URI          = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'Ruby Quickstart'
 SCOPE = Google::Apis::CalendarV3::AUTH_CALENDAR_READONLY
 
-# Notify '#sandbox' if given
+# Notify to '#sandbox' if given argument is matched.
 (ARGV[0] == 'SANDBOX') ?
   Idobata.hook_url = ENV['IDOBATA_CALENDAR_SANDBOX'] :
   Idobata.hook_url = ENV['IDOBATA_CALENDAR']
