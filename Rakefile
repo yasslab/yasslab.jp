@@ -31,6 +31,12 @@ desc "Share today's summary from given calendar"
 task :share_calendar_events do |task, args|
   ruby "tasks/share_calendar_events.rb"
 end
+namespace :share_calendar_events do
+  desc "Share today's summary from given calendar (Sandbox)"
+  task :sandbox do |task, args|
+    ruby "tasks/share_calendar_events.rb SANDBOX"
+  end
+end
 
 desc "Share inquiry from yasslab.jp"
 task :share_inquiry do |task, args|
