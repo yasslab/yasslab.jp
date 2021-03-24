@@ -9,7 +9,7 @@ thumbnail: bg-sky.jpg
 <ul style="list-style: none; padding-top: 10px; padding-bottom: 70px;
 	   margin-left: -30px; width: 105%;">
 
-  <!-- Show this year before the top of news in each year-->
+  <!-- Show this year before the first news in each year-->
   {% assign this_year = site.data.news.first.date | date: '%Y' | to_integer %}
 
   {% for news in site.data.news %}
