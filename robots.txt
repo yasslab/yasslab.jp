@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /ja/invoice
 Disallow: /ja/calendar
 Disallow: /en/calendar
+Disallow: /health.html
 
 Sitemap: https://yasslab.jp/sitemap.xml
 
