@@ -21,8 +21,7 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2><a href="#vision">創って学ぶ、学んで創る</a></h2>
-        <p class="text-md-center" style="text-align: center;">誰もがプロダクトを創り、磨き、語れる時代に。</p>
+        <h3><a href="#vision">誰もがプロダクトを創り、<br class="ignore-pc">磨き、語れる時代に。</a></h3>
       </div>
     </div>
   </div>
