@@ -48,7 +48,7 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 
 <br>
 
-##### [CoderDojo Japan のスポンサー紹介例](https://coderdojo-japan.doorkeeper.jp/events/91507) (オススメ)
+##### [CoderDojo Japan のスポンサー紹介例](https://coderdojo-japan.doorkeeper.jp/events/121111) (オススメ)
 
 <p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/spinner.svg" data-src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%" class="lazyload"></a></p>
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
