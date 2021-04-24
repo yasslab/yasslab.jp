@@ -54,7 +54,7 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
 ```
-# スポンサー
+<h1>スポンサー</h1>
 
 <div class="row justify-content-start no-gutters">
   <div class="col-xs-3"><a href="https://yasslab.jp/"><img src="https://yasslab.jp/img/logos/500x500.png" alt="YassLab 株式会社" class="lazyload"></a></div>
