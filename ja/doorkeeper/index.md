@@ -18,9 +18,9 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 
 そこで、Doorkeeper とコミュニティ、および弊社が共に発展していけるよう、Doorkeeper からの許諾を得た上で、弊社では次のような仕組みで Doorkeeper スポンサーシップの取り組みを始めました。
 
-![スポンサーシップ提供例](/img/doorkeeper_sample.gif)
+<img src="/img/spinner.svg" data-src="/img/doorkeeper_sample.png" alt="Doorkeeper スポンサーシップの利用イメージ" class="lazyload">
 
-<p class="text-center">図. Okinawa Ruby User Group (<a href="http://ruby.okinawa/">Okinawa.rb</a>) に対するスポンサーシップの提供例</p>
+<p class="text-center">図. Doorkeeper スポンサーシップの利用イメージ</p>
 
 上記の仕組みで支援することで、将来にわたって長期的に良いサービスを提供したい Doorkeeper にとっても、Doorkeeper を利用したいコミュニティにとっても、また、コミュニティ支援を周知していきたい弊社にとっても良い関係性を築けるのではないかと考えております。
 
@@ -73,7 +73,7 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
 ```
-# スポンサー
+<h1>スポンサー</h1>
 
 本イベントページは学びを支援する [YassLab 株式会社](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け資料『[Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper/)』をご参照ください。
 [![YassLab 株式会社](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)
@@ -127,14 +127,14 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 
 まずは、[主催しているコミュニティのページ](https://manage.doorkeeper.jp/user/administered_groups)から当該コミュニティをクリックし、コミュニティ管理画面に行ってください。その後、コミュニティ管理画面から『設定』→『管理者』→『新しい管理者を招待』と進み、YassLab アカウント (`doorkeeper@yasslab.jp`) を追加してください。すると弊社のアカウント宛にメールで通知が来るので、弊社の担当者が３営業日以内に承諾いたします。
 
-![管理者の追加例](/img/doorkeeper_howto-1.png)
+<img src="/img/spinner.svg" data-src="/img/doorkeeper_howto-1.png" alt="Doorkeeper 管理者の追加例" class="lazyload">
 
 
 ### 2. オーナーの変更
 
 弊社アカウントが管理者になった後、同画面から『オーナーの変更』をクリックし、YassLab アカウントに対して『オーナー権限を委譲』してください。
 
-![オーナーの変更例](/img/doorkeeper_howto-2.png)
+<img src="/img/spinner.svg" data-src="/img/doorkeeper_howto-2.png" alt="Doorkeeper オーナーの変更例" class="lazyload">
 
 以上で手続きは完了です。以降、弊社が購入したイベント枠を利用することが可能になります 🎫 ✨
 
