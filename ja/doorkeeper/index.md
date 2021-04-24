@@ -53,7 +53,7 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 <p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/91507"><img src="/img/spinner.svg" data-src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%" class="lazyload"></a></p>
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
-```
+```html
 <h1>スポンサー</h1>
 
 <div class="row justify-content-start no-gutters">
@@ -72,8 +72,8 @@ _(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doo
 <p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/spinner.svg" data-src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%" class="lazyload"></a></p>
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
-```
-<h1>スポンサー</h1>
+```markdown
+# スポンサー
 
 本イベントページは学びを支援する [YassLab 株式会社](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け資料『[Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper/)』をご参照ください。
 [![YassLab 株式会社](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)
