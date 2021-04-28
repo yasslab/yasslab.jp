@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: lockfile-only
+  ignore:
+  - dependency-name: faraday-net_http_persistent
+    versions:
+    - 1.1.0
+  - dependency-name: declarative-option
+    versions:
+    - 0.1.1
+  - dependency-name: google-apis-core
+    versions:
+    - 0.3.0
+  - dependency-name: googleauth
+    versions:
+    - 0.16.0
+  - dependency-name: puma
+    versions:
+    - 5.2.0
