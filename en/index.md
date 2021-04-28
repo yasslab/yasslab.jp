@@ -48,7 +48,7 @@ lang:   en
 
 ## About us {#about}
 
-We're mainly working on Ruby/Rails web development, education, and open-source activities. We have two offices in Okinawa and Tokyo, Japan, and we work remotely using GitHub, Zoom/Appear, Idobata, etc.
+We are 100% remote team. We work remotely using tech services like GitHub, Zoom, and Google Workspace, etc.
 
 <div class="row">
   <div class="col-md-12">
@@ -104,7 +104,7 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 - HR Advisor: Yoshinobu Oka ([oka-sr.jp](http://oka-sr.jp/))
 - Tax Advisor: Hiroyuki Hayahi ([hay-kaikei.com](http://www.hay-kaikei.com/))
 - Legal Advisor: Rie Nojima ([Shin Toshin Law Office](https://www.s-law.jp/))
-- Member of: 
+- We are supporting: 
   - [Rails Programmer Certification Test Steering Committee](https://www.railscp.com/aboutus/) (Technical Adviser)
   - [Business OSS Consortium Japan](https://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
   - [OSS Gate](https://oss-gate.github.io/) (Doorkeeper sponsor)
@@ -118,7 +118,6 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 
 <h2 id="contact">Contact</h2>
 
-Mail: _yohei@yasslab.jp_     
 SNS: [GitHub](https://github.com/yasslab) ([Most stars](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), [Qiita](http://qiita.com/organizations/yasslab), [Facebook](https://www.facebook.com/yasslab.jp), [Twitter](https://twitter.com/YassLab), [Google+](https://plus.google.com/+YassLab), [Wantedly](https://www.wantedly.com/companies/YassLab).
 Office: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
 
