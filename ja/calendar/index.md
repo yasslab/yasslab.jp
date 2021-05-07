@@ -14,7 +14,7 @@ sitemap: false
   </div>
 </div>
 
-<blockquote style="margin-top: 30px; padding-top: 10px; font-style: normal;">オンラインをご希望の場合は<br class="ignore-pc"> <a href="https://zoom.us/jp-jp/meetings.html">Zoom</a> または <a href="https://whereby.com/">Whereby</a> を用意できます。</blockquote>
+<blockquote style="margin-top: 30px; padding-top: 10px; font-style: normal;">オンラインをご希望の場合は<br class="ignore-pc"> <a href="https://zoom.us/jp-jp/meetings.html">Zoom</a> または <a href="https://apps.google.com/meet/?hl=ja">Google Meet</a> を用意できます。</blockquote>
 
 ## 🏢 YassLab (株) オフィス
 
