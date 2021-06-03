@@ -16,16 +16,16 @@ rss = RSS::Parser.parse(YASSLAB_NOTE_RSS, false)
 # Parse RSS and get yaml text
 urls = YAML.load_file(NEWS_YAML).map{|h| h['url']}
 news = ''
-rss.items.each_with_index do |item, index|
+rss.items.each.with_index(1) do |item, index|
   break if index >= number_of_fetching_articles
   next  if urls.include? item.link
 
-  news << <<NEW_ARTICLES
-- title: '#{item.title}'
-  date:  #{item.pubDate.strftime("%Y-%m-%d")}
-  url:   #{item.link}
+  news << <<~NEW_ARTICLE
+    - title: '#{item.title}'
+      date:  #{item.pubDate.strftime("%Y-%m-%d")}
+      url:   #{item.link}
 
-NEW_ARTICLES
+    NEW_ARTICLE
 end
 
 if news.empty?
