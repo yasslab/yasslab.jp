@@ -307,8 +307,8 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
            left_path='cd-hisumi'
            center_name='藤井寺'
            center_path='coderdojo-fujiidera'
-           right_name=''
-           right_path='empty'
+           right_name='柏原'
+           right_path='coderdojo-kashiwara'
 %}
 
 <!--
