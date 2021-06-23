@@ -3,6 +3,7 @@ Disallow: /ja/invoice
 Disallow: /ja/calendar
 Disallow: /en/calendar
 Disallow: /health.html
+Disallow: /google3a4de0d83c05ed13.html
 
 Sitemap: https://yasslab.jp/sitemap.xml
 
