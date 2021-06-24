@@ -26,11 +26,9 @@ module Jekyll
       end
 
       if text.strip == "items"
-        element = page.search('dl.op-CounterItem:nth-child(1) > dd:nth-child(2)').first
-        @items = element.children.text.to_i
+        @items = page.search('p.op-CounterItem_count').first.text.to_i
       elsif text.strip == "likes"
-        element = page.search('dl.op-CounterItem:nth-child(3) > dd:nth-child(2)').first
-        @items = element.children.text.to_i
+        @items = page.search('p.op-CounterItem_count').last.text.to_i
       else
         @items = QIITA_PRESET_ITEMS
       end
