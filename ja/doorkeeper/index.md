@@ -303,16 +303,16 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
 %}
 
 {% include community.html
-           left_name='東住吉'
+           left_name='CoderDojo 東住吉'
            left_path='cd-hisumi'
-           center_name='藤井寺'
+           center_name='CoderDojo 藤井寺'
            center_path='coderdojo-fujiidera'
-           right_name='柏原'
+           right_name='CoderDojo 柏原'
            right_path='coderdojo-kashiwara'
 %}
 
 {% include community.html
-           left_name='足立'
+           left_name='CoderDojo 足立'
            left_path='coderdojoadachi'
            center_name=''
            center_path='empty'
