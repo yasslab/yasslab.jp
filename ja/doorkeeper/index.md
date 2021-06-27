@@ -311,6 +311,15 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
            right_path='coderdojo-kashiwara'
 %}
 
+{% include community.html
+           left_name='足立'
+           left_path='coderdojoadachi'
+           center_name=''
+           center_path='empty'
+           right_name=''
+           right_path='empty'
+%}
+
 <!--
 {% include community.html
            left_name=''
