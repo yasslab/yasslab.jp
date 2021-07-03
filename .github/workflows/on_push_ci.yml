@@ -68,9 +68,9 @@ jobs:
       with:
         fetch-depth: 1
     - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.6
-        bundler-cache: true
+      #with:
+        #bundler-cache: true
+        #ruby-version: 2.7 # Not necessary if .ruby-version is given
     - name: 'Deploy to Heroku if test suite passed'
       uses: akhileshns/heroku-deploy@v3.4.6
       with:
@@ -80,3 +80,4 @@ jobs:
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
+
