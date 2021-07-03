@@ -35,7 +35,7 @@ jobs:
         bundle exec rspec spec/qiita.rb
 
     - name: 'Notify test results to Idobata (Failed)'
-      if:   failure() && (env.IDOBATA_SECRETS != null)
+      if:   failure() && (env.IDOBATA_GITHUB_ACTIONS != null)
       uses: mahaker/actions-idobata@v1.1.1
       with:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
@@ -47,7 +47,7 @@ jobs:
           </div>
 
     - name: 'Notify test results to Idobata (Success)'
-      if:   success() && (env.IDOBATA_SECRETS != null)
+      if:   success() && (env.IDOBATA_GITHUB_ACTIONS != null)
       uses: mahaker/actions-idobata@v1.1.1
       with:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
