@@ -8,7 +8,7 @@ name: Scheduler (Daily)
 # '0 1 * * *'  == 10am in JST (UTC+9)
 on:
   schedule:
-    - cron:  '30 0 * * *'
+    - cron:  '30 23 * * *'
 
 jobs:
   build:
