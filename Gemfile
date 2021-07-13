@@ -6,11 +6,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.7.3'
-
 gem 'jekyll'
 gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
 gem 'rake'           # for running scripts
+gem "webrick", "~> 1.7"
+
 gem 'nokogiri'       # for qiita.rb
 gem 'redcarpet'      # for rendering markdown files
 gem 'html-proofer'   # Static check run all environment
