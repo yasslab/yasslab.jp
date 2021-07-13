@@ -14,9 +14,8 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2-beta
     - uses: ruby/setup-ruby@v1
-      #with:
-        #bundler-cache: true
-        #ruby-version: 2.7 # Not necessary if .ruby-version is given
+      with:
+        bundler-cache: true
     - name: 'Install dependencies'
       run: |
         npm install
@@ -67,9 +66,8 @@ jobs:
       with:
         fetch-depth: 1
     - uses: ruby/setup-ruby@v1
-      #with:
-        #bundler-cache: true
-        #ruby-version: 2.7 # Not necessary if .ruby-version is given
+      with:
+        bundler-cache: true
     - name: 'Deploy to Heroku if test suite passed'
       uses: akhileshns/heroku-deploy@v3.4.6
       with:
