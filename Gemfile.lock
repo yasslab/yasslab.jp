@@ -298,10 +298,8 @@ DEPENDENCIES
   redcarpet
   rspec
   sanitize
+  webrick (~> 1.7)
   yaml
 
-RUBY VERSION
-   ruby 2.7.3p183
-
 BUNDLED WITH
-   2.1.4
+   2.2.23
