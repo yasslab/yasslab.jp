@@ -8,11 +8,8 @@ end
 
 ruby '2.7.3'
 
-gem "jekyll", "~> 4.2"
-#gem "jekyll", github: "jekyll/jekyll"
-
-#gem 'rack-jekyll', "~> 0.5"
-gem 'rack-jekyll', github: "adaoraul/rack-jekyll"
+gem 'jekyll'
+gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
 gem 'rake'           # for running scripts
 gem 'nokogiri'       # for qiita.rb
 gem 'redcarpet'      # for rendering markdown files
@@ -25,7 +22,7 @@ gem 'rack-contrib'   # for managing CSP (cf. /config.ru)
 
 # To enhance building time with Jekyll 4.0.0+
 # https://github.com/yasslab/yasslab.jp/pull/123
-gem "liquid-c"
+gem 'liquid-c'
 
 # To run tasks triggered by GitHub Actions
 group :actions, optional: true do
@@ -41,7 +38,7 @@ end
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
-  gem "jekyll-include-cache"
+  gem 'jekyll-include-cache'
   gem 'jekyll-sitemap'
   gem 'jekyll-minifier'
 end
