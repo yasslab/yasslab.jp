@@ -27,6 +27,7 @@ gem 'liquid-c'
 # To run tasks triggered by GitHub Actions
 group :actions, optional: true do
   gem 'idobata'           # All: Notify
+  gem 'rss'               # RSS: Fetch RSS
   gem 'sanitize'          # RSS: Remove HTML tags
   gem 'activesupport'     # RSS: Time Calculation
   gem 'yaml'              # note: Upsert articles
