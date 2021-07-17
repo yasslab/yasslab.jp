@@ -26,4 +26,4 @@ YassLab株式会社に所属する社員の[過半数以上の同意](https://gi
 <h2 id="附則" style="padding-bottom: 50px;"><a href="#附則">附則</a></h2>
 
 - 本協定は2020年6月30日に策定されました。
-- 本協定の更新履歴は [GitHub のコミット履歴](https://github.com/yasslab/yasslab.jp/commits/master/ja/docs/breaktime-agreement/index.md) から辿ることができます。
+- 本協定の更新履歴は [GitHub のコミット履歴](https://github.com/yasslab/yasslab.jp/commits/main/ja/docs/breaktime-agreement/index.md) から辿ることができます。

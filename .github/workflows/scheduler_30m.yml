@@ -37,10 +37,10 @@ jobs:
             git config user.name  Yohei\ Yasukawa
             git config user.email yohei@yasslab.jp
             git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-            git checkout master
+            git checkout main
             git add _data/news.yml
             git commit -m '🤖 Upsert note article(s) by GitHub Actions'
-            git push origin master
+            git push origin main
             echo "NEW_NOTE=true" >> $GITHUB_ENV
           else
             echo "Detected YAML syntax error in '_data/news.yml' so not going to deploy."
@@ -58,7 +58,7 @@ jobs:
       if: ${{ env.NEW_NOTE == 'true' }}
       uses: akhileshns/heroku-deploy@v3.4.6
       with:
-        branch:          'master'
+        branch:          'main'
         usedocker:       false
         heroku_api_key:   ${{ secrets.HEROKU_API_KEY }}
         heroku_app_name: 'yasslab-jp'

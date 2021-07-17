@@ -2,9 +2,9 @@ name: Test & Deploy
 #on: [push]
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   test:
@@ -58,7 +58,7 @@ jobs:
           </div>
 
   deploy:
-    if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/master' }}
+    if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
     needs: test
     runs-on: ubuntu-latest
     steps:
@@ -71,7 +71,7 @@ jobs:
     - name: 'Deploy to Heroku if test suite passed'
       uses: akhileshns/heroku-deploy@v3.4.6
       with:
-        branch:          'master'
+        branch:          'main'
         usedocker:       false
         heroku_api_key:   ${{ secrets.HEROKU_API_KEY }}
         heroku_app_name: 'yasslab-jp'

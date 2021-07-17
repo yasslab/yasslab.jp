@@ -13,7 +13,7 @@ tags: [CoderDojo, Rails]
 - [☯️ CoderDojo Japan の各種機能と実装について【2017年版】](https://qiita.com/yasulab/items/1d12e6b295c0a9e577f1)
 - [☯️ CoderDojo Japan のバックエンドを更新しました 【2016年版】](https://coderdojo.jp/news/2016/12/12/new-backend)
 
-2018年から少しアプローチを変えて**スクリーンキャスト風に GitHub 上の[コミットログ](https://github.com/coderdojo-japan/coderdojo.jp/commits/master)や[開発背景](https://github.com/coderdojo-japan/coderdojo.jp/pulls?utf8=%E2%9C%93&q=is%3Aclosed+)などを説明**してみたのですが、これが中々面白かったので、今回も動画を使って**開発の裏側にあるアレコレ**をまとめてみました 👀💭✨
+2018年から少しアプローチを変えて**スクリーンキャスト風に GitHub 上の[コミットログ](https://github.com/coderdojo-japan/coderdojo.jp/commits/main)や[開発背景](https://github.com/coderdojo-japan/coderdojo.jp/pulls?utf8=%E2%9C%93&q=is%3Aclosed+)などを説明**してみたのですが、これが中々面白かったので、今回も動画を使って**開発の裏側にあるアレコレ**をまとめてみました 👀💭✨
 
 動画もなるべく小分けして、説明している内容や詳細へのリンクも箇条書きでまとめておいたので、興味あるトピックから気軽に眺めてみていただければ 😉💖
 

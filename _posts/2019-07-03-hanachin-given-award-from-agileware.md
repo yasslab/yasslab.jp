@@ -18,7 +18,7 @@ tags: [提携, Rails]
 ## 🔧 hanachin さんが<br>貢献している様子の一部
 
 画像をクリックすると GitHub のページが見れます 👀
-[![hanachin_commit](/img/news/redmine-plugin-org.png)](https://github.com/agileware-jp/redmine-plugin-orb/commits/master)
+[![hanachin_commit](/img/news/redmine-plugin-org.png)](https://github.com/agileware-jp/redmine-plugin-orb/commits/main)
 <div align='center'>
   図: 公開リポジトリ <a href="http://redmine.jp/overview/">agileware-jp/redmine-plugin-org</a> より引用
 </div>

@@ -17,7 +17,7 @@ https://yasslab.jp/
 ~~多分これが一番簡単だと思います...!!~~   
 :new: **自動化されました!!** :wrench::robot::dash::sparkles:
 
-1. ブラウザ上で [_data/news.yml](https://github.com/yasslab/yasslab.jp/blob/master/_data/news.yml) を開く
+1. ブラウザ上で [_data/news.yml](https://github.com/yasslab/yasslab.jp/blob/main/_data/news.yml) を開く
 2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
 3. お知らせ情報を追記する
    - `title:` リンク先の記事のタイトル

@@ -83,7 +83,7 @@
 - 5月 [2018年度未踏ジュニア開始](https://prtimes.jp/main/html/rd/p/000000004.000022934.html)。PM・協賛として継続参加
 - 5月 Railsチュートリアル[GW集中解説セミナー@Co-Edo](https://coedo-dev.doorkeeper.jp/events/72968)を実施
 - 4月 freee主催のイベントで[社員10名、事務員0名の事例](https://www.freee.co.jp/blog/freeebu_2018meetup01.html)を公開
-- 4月 [AIIT](https://aiit.ac.jp/) で弊社初の試み[Railsチュートリアルの反転授業](https://aiit.ac.jp/master_program/isa/lecture/pdf/h30/3_2_m.pdf)が開講
+- 4月 [AIIT](https://aiit.ac.jp/) で弊社初の試み[Railsチュートリアルの反転授業](https://note.com/yasslab/n/nb3710ebaf686?magazine_key=md778735d3f77)が開講
 - 4月 Mixiが運営する「COSMiKA」に[インタビュー記事](https://cosmika.jp/spaces/25/interview)が掲載
 - 4月 株式会社Progateとの[業務提携をプレスリリース](https://prtimes.jp/main/html/rd/p/000000036.000015015.html)
 - 3月 株式会社ポテパンとの[業務提携をプレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000021148.html)
@@ -120,7 +120,7 @@
 - 6月 [Hackers Champloo](http://hackers-champloo.org/2017/) で [Okinawa.rb](http://ruby.okinawa/) の発表をしました
 - 5月 [CoderDojoを支えるRails CMS](https://speakerdeck.com/yasulab/case-study-rails-cms-for-coderdojo)が[関西Ruby会議2017](http://regional.rubykaigi.org/kansai2017/)に採択
 - 5月 [Rails集中解説セミナー](https://coedo-rails.doorkeeper.jp/events/59059) (GW 5日間集中セミナー) を実施
-- 4月 [産業技術大学院大学](http://aiit.ac.jp/master_program/isa/lecture/#t03)でRailsチュートリアルの講義が開講
+- 4月 [産業技術大学院大学](https://note.com/yasslab/n/nb3710ebaf686?magazine_key=md778735d3f77)でRailsチュートリアルの講義が開講
 - 4月 ニコニコ超会議の[超技術書典](http://www.chokaigi.jp/2017/booth/cho_gijutsusyoten.html)にてブースを出展
 - 4月 [技術書典２](https://techbookfest.org/event/tbf02)にて弊社ブースを出展
 - 4月 [Railsガイドの電子書籍版 (5.0対応)](https://gumroad.com/l/railsguidesjp_ebook) の販売を開始
