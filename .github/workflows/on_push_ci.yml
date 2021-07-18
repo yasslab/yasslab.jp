@@ -24,6 +24,12 @@ jobs:
       with:
         bundler-cache: true
 
+    - name: 🧪 Install dependencies
+      run: |
+        npm install
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
     - name: 🔧 Build & Test
       run: |
         bundle exec rake assets:precompile
