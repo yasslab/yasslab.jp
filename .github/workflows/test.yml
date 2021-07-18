@@ -84,13 +84,17 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: ☑️ Checkout code
+      uses: actions/checkout@v2
       with:
         fetch-depth: 1
-    - uses: ruby/setup-ruby@v1
+
+    - name: 💎 Setup Ruby
+      uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
-    - name: 'Deploy to Heroku if test suite passed'
+
+    - name: 🚀 Deploy to Heroku
       uses: akhileshns/heroku-deploy@v3.4.6
       with:
         branch:          'main'
