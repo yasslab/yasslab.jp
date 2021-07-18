@@ -16,7 +16,7 @@ jobs:
       with:
         fetch-depth: 2
 
-    - name: ✳️ Setup Node.js
+    - name: 🌳️ Setup Node.js
       uses: actions/setup-node@v2-beta
 
     - name: 💎 Setup Ruby
