@@ -4,6 +4,7 @@
 require 'idobata'
 require 'gmail' # for more info -> http://dcparker.github.com/ruby-gmail/
 require 'kconv'
+require 'pry'
 
 Signal.trap(:INT){
   puts "logout Gmail ..."
@@ -25,7 +26,7 @@ end
 Idobata.hook_url = ENV['IDOBATA_MAILS']
 USERNAME         = ENV['GMAIL_USERNAME']
 PASSWORD         = ENV['GMAIL_PASSWORD']
-
+MAX_POST_SIZE    = 99998
 
 # login, confirm, then send/cancel and logout
 @gmail = Gmail.new(USERNAME, PASSWORD)
@@ -63,9 +64,14 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
 
   # puts text[3..].split('</b>').first # for debug print: mail.subject
   post = text.gsub("\n", "").gsub("'", "\"").gsub(/<!--(.*?)-->/, '')
+
+  # Truncate text if it exceeds MAX_POST_SIZE
+  post = post[0..(MAX_POST_SIZE)] if post.size > MAX_POST_SIZE
+
   is_html_format ?
     Idobata::Message.create(source: post, format: :html) :
     Idobata::Message.create(source: post, format: :markdown)
+
   mail.mark(:read)
 end
 
