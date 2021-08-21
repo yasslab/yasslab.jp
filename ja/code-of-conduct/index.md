@@ -6,7 +6,6 @@ title:  コントリビューター行動規範
 # コントリビューター<br class="ignore-sp">行動規範
 
 <div align="right" style="padding-bottom: 30px;">
-  最終更新日: 2019/01/24<br />
   See <a href="/en/code-of-conduct">English version</a>
 </div>
 
@@ -58,6 +57,6 @@ title:  コントリビューター行動規範
 
 [homepage]: https://www.contributor-covenant.org
 
-<br /><br />
+<br><br>
 
 <div id="contact"></div>

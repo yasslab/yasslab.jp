@@ -8,7 +8,6 @@ lang:   en
 
 
 <div align="right" style="padding-bottom: 30px;">
-  Last Update: 2019/01/24<br>
   See <a href="/ja/code-of-conduct">Japanese version</a>
 </div>
 
@@ -63,6 +62,6 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 
 [homepage]: https://www.contributor-covenant.org
 
-<br /><br />
+<br><br>
 
 <div id="contact"></div>
