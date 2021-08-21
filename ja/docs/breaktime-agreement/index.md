@@ -9,7 +9,7 @@ title:  休憩時間の労使協定
 
 <blockquote style="padding-top: 15px;">就業規則の<a href="/ja/docs/work-regulations/#4-勤%E3%80%80務">第４条『勤務』</a>の休憩時間に関する労使間協定です。</blockquote>
 
-YassLab株式会社に所属する社員の[過半数以上の同意](https://github.com/yasslab/yasslab.jp/pull/348)により、下記の通り、労働基準法で定められた『休憩時間の一斉付与』の原則除外の労使間協定 (以下、本協定) を結ぶものとします。
+YassLab株式会社に所属する社員の過半数以上の同意により、下記の通り、労働基準法で定められた『休憩時間の一斉付与』の原則除外の労使間協定 (以下、本協定) を結ぶものとします。
 
 <br>
 
@@ -26,4 +26,3 @@ YassLab株式会社に所属する社員の[過半数以上の同意](https://gi
 <h2 id="附則" style="padding-bottom: 50px;"><a href="#附則">附則</a></h2>
 
 - 本協定は2020年6月30日に策定されました。
-- 本協定の更新履歴は [GitHub のコミット履歴](https://github.com/yasslab/yasslab.jp/commits/main/ja/docs/breaktime-agreement/index.md) から辿ることができます。

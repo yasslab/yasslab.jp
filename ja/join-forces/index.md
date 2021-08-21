@@ -149,27 +149,8 @@ title:  弊社をご検討されている皆さんへ
 	<p>もちろん結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、なるべく OSS のプロジェクトを題材にしているので、その後の就職/転職活動で OSS に貢献した実績を活かすこともできます。</p>
 
 	<p>実践的であればあるほど実績としての価値も高いので、Ruby on Rails アプリケーションである <a href="#coderdojojp">CoderDojo Japan の開発</a>を題材として使うことが多いです。とはいえ、それ以外にも多様な OSS プロダクトを <a href="https://github.com/yasslab">GitHub 上から公開</a>しております。応募時のご参考になれば嬉しいです 😆</p>
-	
-	<!--
-	     ### 1. Gitlate - 継続的翻訳システム
-	     
-	   - 開発目的: 大型書籍や巨大ドキュメントの翻訳を自動化する
-	   - 使用技術: Ruby, Rails, Vuejs, Gitメカニズム, アルゴリズム (Jaro-Winklerなど), Gengo API, Google Cloud Computing (Translate API), Engine Yard
-	   - 関連情報:
-	   - スライド: [How We Continuously Translate Tech Docs](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
-	   - yasslab/gitlate (Private)
-	     
-	     ### 5. YassLab Website
-	     
-	   - 開発目的: 会社情報や実績紹介を分かりやすく掲載する (日英対応)
-	   - 使用技術: Ruby, Jekyll, Web Design, GitHub Pages
-	   - 関連情報: 
-	   - [{{ absolute_url }}/]({{ absolute_url }}/)
-	   - [yasslab/yasslab.jp](https://github.com/yasslab/yasslab.jp) (OSS)
-	-->
 
 	<div id="media"></div>
-
 	<h2 class="text-center mt-10 mb-5" style='margin-top: 100px'><a href="#media">メディア</a></h2>
 	<p>弊社のリモートワーク制度や採用フローが、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>と<a href='https://hatenacorp.jp/'>株式会社はてな</a>が運営する<b>『エンジニアHub』に掲載</b>されました！こちらも合わせてご参考になれば嬉しいです 🙏💖</p>
 	<ul style='list-style: none;'>
