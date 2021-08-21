@@ -10,7 +10,7 @@ title:  コントリビューター行動規範
   See <a href="/en/code-of-conduct">English version</a>
 </div>
 
-本規範は、別段の定めがある場合を除き、YassLab 株式会社 (以下、当社) が [GitHub Organization](https://github.com/yasslab) 上から公開しているあらゆるリポジトリに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。本規範の変更履歴は [GitHub](https://github.com/yasslab/yasslab.github.io/commits/main/js/code-of-conduct/index.md) からご確認できます。
+本規範は、別段の定めがある場合を除き、YassLab 株式会社 (以下、当社) が [GitHub Organization](https://github.com/yasslab) 上から公開しているあらゆるリポジトリに適用されます。本規範の内容は更新されることがあり、本ページでの変更を持って公表とさせていただきます。
 
 内容について気になる点などありましたら、本ページ下部にある[フォーム](#contact)よりお問い合わせください。
 
@@ -55,8 +55,7 @@ title:  コントリビューター行動規範
 ## 帰属
 
 この行動規範は
-[https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct/) にある
-[Contributor Covenant][homepage] バージョン 1.4 を参考に作成されました。
+[https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct/) にある [Contributor Covenant][homepage] バージョン 1.4 を参考に作成されました。
 
 [homepage]: https://www.contributor-covenant.org
 
