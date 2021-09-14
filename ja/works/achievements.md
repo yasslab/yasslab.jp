@@ -1,10 +1,3 @@
-### [2020](#2020)
-
-[note](https://note.com/) から許諾を頂き『**[お知らせ](/ja/news)**』ページに移行しました。   
-2020年以降の活動実績については下記をご参照ください。
-
-お知らせ - YassLab 株式会社   
-[https://yasslab.jp/ja/news](https://yasslab.jp/ja/news)
 
 ### [2019](#2019)
 

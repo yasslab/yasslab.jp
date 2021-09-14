@@ -37,9 +37,18 @@ title:  事業実績
         <div class="text-center">
           <h2 id="achievements" class="mb-5 mt-5"><a href="#achievements">活動実績</a></h2>
         </div>
-        
-        <p>以下、これまでの活動実績を箇条書きでまとめております。<br class="ignore-sp">
+        <p id='2020'>以下、これまでの活動実績を箇条書きでまとめております。<br class="ignore-sp">
 	  取引先として弊社をご検討する際などにお役立てください。</p>
+
+	<h3><a href='#2020'>2020年〜現在</a></h3>
+	<p>
+	  <a href="https://note.com/">note</a> から許諾を頂き『<strong><a href="/ja/news">お知らせ</a></strong>』ページに移行しました。<br>
+	  2020年以降の活動実績については下記をご参照ください。
+	</p>
+	<p>
+	  お知らせ - YassLab 株式会社<br>
+	  <a href="/ja/news">https://yasslab.jp/ja/news</a>
+	</p>
 
 	{%- capture achievements -%}{% include_relative achievements.md %}{%- endcapture -%}
 	<div class="achievements" style="margin-bottom: 100px;">
