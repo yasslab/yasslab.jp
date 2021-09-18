@@ -46,7 +46,7 @@ layout: plain_without_thumbnail
             </a>
             <p>SNS 開発が題材の大型チュートリアル。プロダクト開発の<span style="background-color: #AA4536; color: white; border-radius: 2px;">
         0→1
-      </span>を創りながら学びます。<a href="https://railstutorial.jp/screencast">解説動画</a>や<a href="https://railstutorial.jp/#service">質問対応</a>、法人向け<a href="https://railstutorial.jp/training">研修支援</a>や<a href="https://railstutorial.jp/partner">協業サービス</a>も提供</p>
+      </span>を創りながら学びます。<a href="https://railstutorial.jp/screencast">解説動画</a>や<a href="https://railstutorial.jp/#service">質問対応</a>、法人向け<a href="https://railstutorial.jp/business">研修支援</a>や<a href="https://railstutorial.jp/partner">協業サービス</a>も提供</p>
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank" rel="noopener">
