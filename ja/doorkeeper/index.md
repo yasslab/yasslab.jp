@@ -6,7 +6,11 @@ thumbnail: bg-dark.jpg
 
 [YassLab 株式会社](/)が提供する Doorkeeper スポンサーシップに興味を持って頂きありがとうございます! 本ページでは YassLab 社が実施する Doorkeeper 有償アカウント提供の取り組み『Doorkeeper スポンサーシップ』に関する目的や条件、手続き、利用規約などをまとめています。コミュニティ運営者の皆さまが本スポンサーシップを検討する際のご参考になれば幸いです。
 
-_(※ 本スポンサーシップは、[Doorkeeper 株式会社](https://www.doorkeeper.jp/about)の代表取締役 Paul McMahon 氏から事前の承諾を得て実施しております。)_
+
+<center>
+  ※
+  本スポンサーシップは <a href='https://www.doorkeeper.jp/about'>Doorkeeper</a> 創業者 <a href='https://twitter.com/pwim'>@pwim</a> 氏から事前の承諾を得て実施しています。
+</center>
 
 <div id="background"></div>
 
