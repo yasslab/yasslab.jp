@@ -24,6 +24,10 @@ jobs:
       with:
         bundler-cache: true
 
+    - name: 🧪 Install dependencies
+      run: |
+        npm install
+
     - name: 🔧 Build & Test
       run: |
         bundle exec rake assets:precompile
