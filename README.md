@@ -69,6 +69,6 @@ This website uses [Bootstrap](https://getbootstrap.jp/), created by Twitter lice
 
 ## Copyright
 
-Copyright &copy; [YassLab Inc.](https://yasslab.jp) 2012-2020
+Copyright &copy; [YassLab Inc.](https://yasslab.jp) 2012-2021
 
 [![YassLab 株式会社ロゴ](https://yasslab.jp/img/logos/800x200.png?cache=clear)](https://yasslab.jp/)
