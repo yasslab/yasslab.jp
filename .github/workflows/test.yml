@@ -24,19 +24,13 @@ jobs:
       with:
         bundler-cache: true
 
-    - name: 🧪 Install dependencies
-      run: |
-        npm install
-        bundle config set path 'vendor/bundle'
-        bundle install --jobs 4 --retry 3
-
     - name: 🔧 Build & Test
       run: |
         bundle exec rake assets:precompile
         bundle exec rake test SKIP_BUILD=true
         bundle exec rspec spec/qiita.rb
 
-    - name: 🔔 Notify results using composite features
+    - name: 🔔 Notify results
       uses: yasslab/idobata_notify@v0.3 # https://github.com/yasslab/idobata_notify
       if: always()
       with:
