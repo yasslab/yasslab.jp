@@ -65,7 +65,7 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
 
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
-    <img src="/img/spinner.svg" data-src="/img/photos/yasulab.jpg" alt="Photo of Yohei Yasukawa" class="rounded-circle lazyload" loading="lazy">
+    <img src="/img/spinner.svg" data-src="/img/photos/yasulab.jpg" alt="Photo of Yohei Yasukawa" class="rounded-circle lazyload" loading="lazy" width='300px' height='300px'>
   </div>
   <div class="profile__role text-center mb-2">CEO of YassLab Inc.</div>
   <h4 class="text-center mb-3 h3deco-none">Yohei Yasukawa</h4>
