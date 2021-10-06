@@ -90,7 +90,9 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 100% remote-work company that focuses on Ruby/Rails projects [above](#top).
 
-Beyond the company projects, he is also known as one of co-founders of [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01), [CoderDojo Japan](https://coderdojo.jp/), and [MITOU for U-17](https://jr.mitou.org/index_en.html) projects. For such enthusiastic contributions to IT and Education fields in Japan, he was selected as one of persons possessing outstanding capabilities by [METI](http://www.meti.go.jp/english/press/2018/0510_001.html)-launched [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html), [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) speakers, and [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award.
+Beyond the company projects, he is also known as one of co-founders of [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01), [CoderDojo Japan](https://coderdojo.jp/), and [MITOU for U-17](https://jr.mitou.org/english) projects. For such enthusiastic contributions to IT and Education fields in Japan, he was selected as one of persons possessing outstanding capabilities by [METI](http://www.meti.go.jp/english/press/2018/0510_001.html)-launched [The MITOH Program](https://www.ipa.go.jp/english/humandev/third.html), [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) speakers, and [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award.
+
+<br>
 
 ### Company Profile {#company}
 
@@ -114,11 +116,34 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
   - [CoderDojo Japan](https://coderdojo.jp/) (Web Develpment Sponsor)
   - [Mitou Foundation](https://www.mitou.org/) (Project Manager at [Mitou Jr.](https://jr.mitou.org/))
 
+<div class="col-md-12 profile mt-5" id="profile">
+  <div class="profile__image text-center mb-2">
+    <img src="/img/spinner.svg" data-src="/img/yasslab.png" alt="Logo of YassLab Inc." class="rounded-circle lazyload" loading="lazy" width='300px' height='300px'>
+  </div>
+  <h4 class="text-center mb-3 h3deco-none">Official Accounts</h4>
+  <ul class="profile__sns mb-3">
+    <li class="profile__sns__icon">
+      <a href="https://www.facebook.com/yasslab.jp" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook"></a>
+    </li>
+    <li class="profile__sns__icon">
+      <a href="https://twitter.com/YassLab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter"></a>
+    </li>
+    <li class="profile__sns__icon">
+      <a href="https://github.com/yasslab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub"></a>
+    </li>
+    <li class="profile__sns__icon">
+      <a href="https://qiita.com/organizations/yasslab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
+    </li>
+    <li class="profile__sns__icon">
+      <a href="https://youtube.com/yasslab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/youtube.png" alt="YouTube"></a>
+    </li>
+  </ul>
+</div>
+
 <br />
 
 <h2 id="contact">Contact</h2>
 
-SNS: [GitHub](https://github.com/yasslab) ([Most stars](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayasslab+fork%3Atrue&type=Repositories&ref=searchresults)), [Qiita](http://qiita.com/organizations/yasslab), [Facebook](https://www.facebook.com/yasslab.jp), [Twitter](https://twitter.com/YassLab), [Google+](https://plus.google.com/+YassLab), [Wantedly](https://www.wantedly.com/companies/YassLab).
 Office: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
 
 If interested, feel free to contact us.
