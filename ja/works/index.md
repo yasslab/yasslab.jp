@@ -21,13 +21,13 @@ title:  事業実績
 
 	<h2><a href="#story">創業ストーリー</a></h2>
 	<div class="col-md-12 text-center" style="padding-bottom: 30px;">
-	  早稲田大学の講演で使われたスライド資料です。<br class="ignore-sp">過去〜現在までの流れが時系列でまとめられています。</div>
+	  早稲田大学の講演で使われたスライド資料です。<br class="ignore-sp">創業初期を時系列でまとめています。</div>
 	<div class="col-md-8 offset-md-2" style="padding-bottom: 30px;">
 	  <script async class="speakerdeck-embed"
 	   data-id="ee19ff2514724ee2b345068cfd37581c"
 	   data-ratio="1.33333333333333"
 	   src="//speakerdeck.com/assets/embed.js"></script>
-	  (別イベントで再演 & 収録した <a href="https://www.youtube.com/watch?v=Fr2NGuc7R94" target="_blank" rel='noopener'>YouTube 動画</a>もあります)
+	  (<a href="https://www.youtube.com/watch?v=Fr2NGuc7R94" target="_blank" rel='noopener'>YouTube で見る</a>)
         </div><!--//col-md-8  offset-md--->
       </div><!--//col12-->
     </div><!--//row-->
@@ -37,13 +37,11 @@ title:  事業実績
         <div class="text-center">
           <h2 id="achievements" class="mb-5 mt-5"><a href="#achievements">活動実績</a></h2>
         </div>
-        <p id='2020'>以下、これまでの活動実績を箇条書きでまとめております。<br class="ignore-sp">
-	  取引先として弊社をご検討する際などにお役立てください。</p>
+        <p id='2020'>以下、これまでの活動実績を箇条書きでまとめております。<br class="ignore-sp">取引先として弊社をご検討する際などにお役立てください。</p>
 
 	<h3><a href='#2020'>2020年〜現在</a></h3>
 	<p>
-	  <a href="https://note.com/">note</a> から許諾を頂き『<strong><a href="/ja/news">お知らせ</a></strong>』ページに移行しました。<br>
-	  2020年以降の活動実績については下記をご参照ください。
+	  <a href="https://note.com/">note</a> から許諾を頂き『<strong><a href="/ja/news">お知らせ</a></strong>』ページに移行しました。<br class="ignore-sp">2020年以降の活動実績については下記をご参照ください。
 	</p>
 	<p>
 	  お知らせ - YassLab 株式会社<br>
