@@ -42,7 +42,7 @@ title:  事業実績
 
 	<h3><a href='#2020'>2020年〜現在</a></h3>
 	<p>
-	  <a href="https://note.com/">note</a> から許諾を頂き『<strong><a href="/ja/news">お知らせ</a></strong>』ページに移行しました。<br class="ignore-sp">2020年以降の活動実績については下記をご参照ください。
+	  <strong><a href="/ja/news">お知らせページ</a></strong>に移行しました。<br class="ignore-sp">2020年以降の活動実績については下記をご参照ください。
 	</p>
 	<p>
 	  お知らせ - YassLab 株式会社<br>
