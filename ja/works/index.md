@@ -20,8 +20,9 @@ title:  事業実績
         </div>
 
 	<h2><a href="#story">創業ストーリー</a></h2>
-	<div class="col-md-12 text-center" style="padding-bottom: 30px;">
-	  早稲田大学の講演で使われたスライド資料です。<br class="ignore-sp">創業初期を時系列でまとめています。</div>
+	<div class="col-md-12 text-center" style="padding-bottom: 30px; font-size: 95%;">
+	  早稲田大学の講演で使ったスライド資料です。<br class="ignore-sp">創業初期を時系列でまとめています。
+	</div>
 	<div class="col-md-8 offset-md-2" style="padding-bottom: 30px;">
 	  <script async class="speakerdeck-embed"
 	   data-id="ee19ff2514724ee2b345068cfd37581c"
