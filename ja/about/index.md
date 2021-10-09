@@ -36,14 +36,14 @@ title:  会社概要
 	
         <!--<p class="mb-4">チームとして掲げている『{{ site.company.vision }}』というフレーズは、こういったコミュニティと会社が一緒に成長できる継続的なカタチを表した言葉です。</p>-->
         <p class="mb-4">価値が還流できる仕組みを模索しつつ、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>
+
+	<div class="video" style="margin-top: 100px;">
+	  <iframe class="lazyload" src="/img/spinner.svg" data-src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0&autoplay=0&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+	</div>
       </div>
     </div>
   </div>
 </section>
-
-<div class="video" style="margin-top: 100px;">
-  <iframe class="lazyload" src="/img/spinner.svg" data-src="https://www.youtube.com/embed/oo1dVd_sNwA?rel=0&autoplay=1&showinfo=0&controls=0&fs=0&modestbranding=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
 
 <section class="entry_content pt-5 mb-5">
   <div class="container">
@@ -78,7 +78,9 @@ title:  会社概要
     
     <div class="row">
       <div class="col-md-8 offset-md-2 mt-5">
-	<div class="text-left">
+	<script async class="speakerdeck-embed" data-id="bd676f0bd2ae455190c129ad8e83de9d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+	<div class="text-left" style='margin-top: 50px;'>
 	  {%- capture yasulab -%}{% include profile_yasulab.md %}{%- endcapture -%}
 	  {{ yasulab | markdownify }}
 	</div>
@@ -112,11 +114,6 @@ title:  会社概要
           <h2 class="mt-5 mb-5">会社情報</h2>
         </div>
 	
-	<div class="video">
-	  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
-       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	</div>
-
 	<div class="offset-md-1">
 	  {% include profile_company.html benefits=true %}
 	</div>
