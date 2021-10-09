@@ -78,7 +78,7 @@ title:  会社概要
     
     <div class="row">
       <div class="col-md-8 offset-md-2 mt-5">
-	<div class="text-left" style='margin-top: 50px;'>
+	<div class="text-left">
 	  {%- capture yasulab -%}{% include profile_yasulab.md %}{%- endcapture -%}
 	  {{ yasulab | markdownify }}
 	</div>
