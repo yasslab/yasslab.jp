@@ -78,8 +78,6 @@ title:  会社概要
     
     <div class="row">
       <div class="col-md-8 offset-md-2 mt-5">
-	<script async class="speakerdeck-embed" data-id="bd676f0bd2ae455190c129ad8e83de9d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
 	<div class="text-left" style='margin-top: 50px;'>
 	  {%- capture yasulab -%}{% include profile_yasulab.md %}{%- endcapture -%}
 	  {{ yasulab | markdownify }}

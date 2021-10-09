@@ -4,6 +4,6 @@ YassLab (株) 代表取締役。一般社団法人 CoderDojo Japan 代表理事�
 
 全国に234ヶ所以上ある子どものためのプログラミング道場『[CoderDojo](https://coderdojo.jp/)』を日本で始めた１人であり、小中高生クリエータ支援プログラム『[未踏ジュニア](https://jr.mitou.org/)』の共同発起人。
 
-<a href="https://bit.ly/yohei-yasukawa" target='_blank' rel='noopener'>
-  <button class="btn btn-primary btn-block btn-padding external-link">未踏名鑑で見る</button>
+<a href="https://speakerdeck.com/yasulab/who-am-i" target='_blank' rel='noopener'>
+  <button class="btn btn-primary btn-block btn-padding external-link">スライド資料で見る</button>
 </a>
