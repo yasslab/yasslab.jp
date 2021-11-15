@@ -118,14 +118,19 @@ layout: plain_without_thumbnail
     </div><!--//row-->
 
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4">
 	<div class="developmentSupport__more text-center">
           <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社概要を見る</a>
 	</div>
       </div><!--//col-->
-      <div class="col-md-6">
+      <div class="col-md-4">
 	<div class="developmentSupport__more text-center">
           <a href="/ja/works" class="btn btn-primary btn-block mt-2">過去の実績を見る</a>
+	</div>
+      </div><!--//col-->
+      <div class="col-md-4">
+	<div class="developmentSupport__more text-center">
+          <a href="https://railstutorial.jp/business" class="btn btn-primary btn-block mt-2" target='_blank' rel='noopener'>導入相談を見る</a>
 	</div>
       </div><!--//col-->
     </div><!--//row-->
