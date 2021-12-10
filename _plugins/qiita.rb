@@ -26,9 +26,9 @@ module Jekyll
       end
 
       if text.strip == "items"
-        @items = page.search('p.op-CounterItem_count').first.text.to_i
+        @items = page.search('p.op-CounterItem_count')[0].text.to_i
       elsif text.strip == "likes"
-        @items = page.search('p.op-CounterItem_count').last.text.to_i
+        @items = page.search('p.op-CounterItem_count')[1].text.to_i
       else
         @items = QIITA_PRESET_ITEMS
       end
