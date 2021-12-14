@@ -11,7 +11,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     acme_challenge (0.1.0)
-    activesupport (6.1.4.1)
+    activesupport (6.1.4.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -107,7 +107,7 @@ GEM
       domain_name (~> 0.5)
     http_parser.rb (0.6.0)
     httpclient (2.8.3)
-    i18n (1.8.10)
+    i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     idobata (0.0.9)
       faraday (>= 0.8.8)
@@ -269,7 +269,7 @@ GEM
     webrobots (0.1.2)
     yaml (0.1.1)
     yell (2.2.2)
-    zeitwerk (2.4.2)
+    zeitwerk (2.5.1)
 
 PLATFORMS
   ruby
