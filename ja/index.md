@@ -173,15 +173,14 @@ layout: plain_without_thumbnail
 
 	  {% include member.html username='Yuppyhappytoyou' link_to='twitter'
 	     caption='楽しいこと大好き✌️ エンジニアママ😚 ' %}
-	  {% include member.html username='YukiMihashi' link_to='twitter'
-	     caption='Webデザイナー。お絵かきとCSSが好き' %}
-
 	  {% include member.html username='rakudaSanDesu' link_to='twitter'
 	     caption='エンジニアとして歩き始めたらくだ🐫' offset='' %}
-	  {% include member.html username='shishi4tw' link_to='twitter' offset=''
-	     caption='プログラマー。<a href="https://twitter.com/shinjukurb">Shinjuku.rb</a> ファウンダー' %}
 
 	  <!--
+	  {% include member.html username='YukiMihashi' link_to='twitter'
+	     caption='Webデザイナー。お絵かきとCSSが好き' %}
+	  {% include member.html username='shishi4tw' link_to='twitter' offset=''
+	     caption='プログラマー。<a href="https://twitter.com/shinjukurb">Shinjuku.rb</a> ファウンダー' %}
 	  {% include member.html username='crafter_gene' link_to='twitter'
 	     caption='品質管理が得意。趣味は広くそこそこ深く' offset='' %}
 	  {% include member.html username='megane9988' link_to='twitter'
