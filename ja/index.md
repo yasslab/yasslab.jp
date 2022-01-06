@@ -262,7 +262,7 @@ layout: plain_without_thumbnail
           <div class="col-md-4">
             <figure>
               <a href="/ja/doorkeeper/">
-                <img src="/img/spinner.svg" data-src="/img/logos/doorkeeper.gif"
+                <img src="/img/spinner.svg" data-src="/img/logos/doorkeeper.png"
          alt="Doorkeeper スポンサーシップ" class="lazyload" loading="lazy">
               </a>
               <figcaption><a href="/ja/doorkeeper/">イベント管理サービス代の補助</a></figcaption>
@@ -275,7 +275,7 @@ layout: plain_without_thumbnail
          alt="CoderDojo Japan - 子どものためのプログラミング道場"
          class="lazyload" loading="lazy">
               </a>
-              <figcaption><a href="/ja/agile">Webサービスの開発支援</a></figcaption>
+              <figcaption><a href="/ja/about/#culture">Webサービスの開発支援</a></figcaption>
             </figure>
           </div>
         </div>
