@@ -302,7 +302,7 @@ DEPENDENCIES
   rspec
   rss
   sanitize
-  webrick (~> 1.7)
+  webrick
   yaml
 
 BUNDLED WITH
