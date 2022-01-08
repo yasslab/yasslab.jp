@@ -1,10 +1,7 @@
 source 'http://rubygems.org'
 
 # Replace 'git' with 'https' protocol
-git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-  "https://github.com/#{repo_name}.git"
-end
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'jekyll',  "4.2.0"
 gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
