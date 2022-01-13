@@ -4,8 +4,8 @@ source 'http://rubygems.org'
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'jekyll',  "4.2.0"
-gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
-gem 'rake'           # for running scripts
+gem 'rack-jekyll'
+gem 'rake'           # for running tasks
 gem "webrick"
 
 gem 'nokogiri'       # for qiita.rb
@@ -26,7 +26,7 @@ gem 'liquid-c'
 gem "psych", "< 4.0.0"
 
 # To run tasks triggered by GitHub Actions
-group :actions, optional: true do
+group :actions, optional: false do
   gem 'idobata'           # All: Notify
   gem 'rss'               # RSS: Fetch RSS
   gem 'sanitize'          # RSS: Remove HTML tags
