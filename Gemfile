@@ -21,6 +21,10 @@ gem 'rack-contrib'   # for managing CSP (cf. /config.ru)
 # https://github.com/yasslab/yasslab.jp/pull/123
 gem 'liquid-c'
 
+# Workaround: Psych:Module unsafe_load error
+# cf. https://google.com/search?q=method+%22unsafe_load%22+for+Psych
+gem "psych", "< 4.0.0"
+
 # To run tasks triggered by GitHub Actions
 group :actions, optional: true do
   gem 'idobata'           # All: Notify
