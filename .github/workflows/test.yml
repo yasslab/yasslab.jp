@@ -75,6 +75,7 @@ jobs:
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
+        rollbackonhealthcheckfailed: true
 
     - name: 🔔 Notify if failed on deployment
       env:
