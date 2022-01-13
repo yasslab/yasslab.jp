@@ -28,11 +28,15 @@ jobs:
       run: |
         npm install
 
-    - name: 🔧 Build & Test
+    - name: 🔧 Test building
       run: |
         bundle exec rake assets:precompile
         bundle exec rake test SKIP_BUILD=true
         bundle exec rspec spec/qiita.rb
+
+    - name: ⏱ Test tasks
+      run: |
+        bundle exec rake share_calendar_events:test
 
     - name: 🔔 Notify results
       env:
