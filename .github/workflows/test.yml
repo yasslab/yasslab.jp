@@ -24,6 +24,12 @@ jobs:
       with:
         bundler-cache: true
 
+    - name: "🧪 Install gems with 'actions' group"
+      run: |
+        bundle config set with 'actions'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
     - name: 🧪 Install dependencies
       run: |
         npm install
