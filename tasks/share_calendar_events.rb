@@ -13,10 +13,18 @@ OOB_URI          = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'Ruby Quickstart'
 SCOPE = Google::Apis::CalendarV3::AUTH_CALENDAR_READONLY
 
-# Notify to '#sandbox' if given argument is matched.
-(ARGV[0] == 'SANDBOX') ?
-  Idobata.hook_url = ENV['IDOBATA_CALENDAR_SANDBOX'] :
+# Notify to '#sandbox' if given arguments are matched.
+is_test = false
+case ARGV[0]
+when 'SANDBOX' then
+  Idobata.hook_url = ENV['IDOBATA_CALENDAR_SANDBOX']
+when 'TEST' then
+  Idobata.hook_url = ENV['IDOBATA_CALENDAR_SANDBOX']
+  is_test = true
+else
+  # Notify in production.
   Idobata.hook_url = ENV['IDOBATA_CALENDAR']
+end
 
 # TODO: Want to load from ENV but needs to call YAML::Store for auth
 module Google
@@ -114,11 +122,11 @@ events.sort_by{|h| h[:start].delete(':').to_i }.each do |hash|
 end
 msg.gsub!("00:00", "&nbsp;メモ&nbsp;")
 
-if msg.empty?
-  # Show in log of GitHub Actions
+if is_test
+  puts "✅ Test passed successfully."
+elsif msg.empty?
   puts "✅ No events found today."
 else
-  # Send a message to Idobata
   puts "🆕 Found today's event(s)."
   Idobata::Message.create(source: msg, format: :html) unless msg.empty?
 end
