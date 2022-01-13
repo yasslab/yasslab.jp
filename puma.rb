@@ -1,3 +1,5 @@
+require 'yaml'
+
 # web: bundle exec puma -t 8:32 -w 3 -p $PORT
 # Example settings: https://github.com/puma/puma-heroku/blob/master/lib/puma/plugin/heroku.rb
 workers_count = Integer(ENV['WEB_CONCURRENCY'] || 1)
