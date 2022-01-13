@@ -9,7 +9,8 @@ name: Scheduler (Daily)
 # '59 23 * * *' task will be completed after 9am in JST
 on:
   schedule:
-    - cron:  '59 23 * * *'
+    - cron:  '*/3 * * * *'
+#    - cron:  '59 23 * * *'
 
 jobs:
   build:
