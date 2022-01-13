@@ -44,7 +44,6 @@ jobs:
       run: |
         bundle exec rake share_calendar_events:test
       env:
-        IDOBATA_CALENDAR:    ${{ secrets.IDOBATA_CALENDAR  }}
         GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
         GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
         GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
