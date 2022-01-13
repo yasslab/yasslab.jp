@@ -86,4 +86,4 @@ jobs:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
         format: 'markdown'
         message: |
-          <span class='label label-danger'>本番環境</span> @yasulab :warning: デプロイに失敗したためロールバックされました: [https://yasslab.jp/](https://yasslab.jp/) ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
+          <span class='label label-danger'>本番環境</span> @yasulab :warning: デプロイに失敗したためロールバックされました: https://yasslab.jp/ ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
