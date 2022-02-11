@@ -5,7 +5,7 @@ require 'open-uri'
 module Jekyll
   QIITA_ORGANIZATION_URL = 'https://qiita.com/organizations/yasslab'
   QIITA_PRESET_ITEMS     = 80
-  QIITA_PRESET_LIKES     = 7000
+  QIITA_PRESET_LIKES     = 6930
 
   class QiitaStats < Liquid::Tag
     def initialize(tag_name, text, tokens)
@@ -25,6 +25,8 @@ module Jekyll
         page  = Nokogiri::HTML(File.read '_data/qiita_org_sample.html')
       end
 
+      @items = QIITA_PRESET_ITEMS
+      return
       if text.strip == "items"
         @items = page.search('p.op-CounterItem_count')[0].text.to_i
       elsif text.strip == "likes"
