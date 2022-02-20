@@ -21,7 +21,7 @@ sass:
 # Variables for pages, news, feeds, etc
 company:
   vision: "Having a Good Life by Creating ;)"
-  size: 8
+  size: 6
   email: info@yasslab.jp
   capital: 500
   name:  YassLab
