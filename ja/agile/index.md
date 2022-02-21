@@ -18,8 +18,9 @@ title:  月額制の Ruby/Rails 開発支援サービス
         </div>
 	<img src="/img/spinner.svg" data-src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload">
 	<blockquote style="padding-top: 10px; font-style: normal;"><center><h2 style="padding-bottom: 0px; margin-bottom: 0px;"><b>【重要：新規受付停止のお知らせ】</b></h2></center>
-	  <p>長い間ご愛顧いただきありがとうございました！YassLab 社では月間２万以上のアクティブな利用者と、社員研修やスクール、大学・大学院などでも続々と採用されている<a href="/ja/#products">自社プロダクト</a>に注力するため、開発支援事業を停止する決断をいたしました。</p>
-	  <p style="padding: 20px 0px;">今後は<a href="/ja/#products">実践的なプロダクト開発がオンラインで学べるサービス</a>の開発に注力し、現在お困りの様々な個人・法人の学習環境をサポートするべく邁進していきます。社員研修やオンライン学習でお困りの場合は、お気軽にご連絡いただけると幸いです。</p>
+	  <p>長い間ご愛顧いただきありがとうございました！YassLab 社では2020年2月より、<a href='https://www.google.co.jp/search?q=Rails&lr=lang_ja'>Google 検索で上位に表示</a>され、社員研修やスクール、大学・大学院などでも採用されている<a href="https://railstutorial.jp/">Railsチュートリアル</a>や<a href='https://railsguides.jp/'>Railsガイド</a>に注力するため、開発支援事業を停止する決断をいたしました。</p>
+	  <p style="padding: 20px 0px;">今後は<a href="/ja/#products">プロダクト開発が学べるサービス</a>を通して、さまざまな個人・法人の学習環境をサポートするべく邁進していきます。<a href='https://railstutorial.jp/business'>社員研修の内製化支援</a>は引き続き実施しておりますので、お役に立てそう場面があればぜひ気軽にご連絡いただけると幸いです。</p>
+	  <p>詳細な背景については note 記事「<a href='https://note.com/yasslab/n/nac0e9e427b5a?magazine_key=m9eead39a562b'>⏰ 勤務時間を、１時間短く</a>」をご参照ください。</p>
 
 	</blockquote>
       </div><!--//col-->
