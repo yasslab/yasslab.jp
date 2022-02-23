@@ -41,6 +41,7 @@ jobs:
         bundle exec rspec spec/qiita.rb
 
     - name: ⏱ Test tasks
+      if: ${{ github.actor }} != *'dependabot'*
       run: |
         bundle exec rake share_calendar_events:test
       env:
