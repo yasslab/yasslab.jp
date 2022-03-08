@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-ruby '3.1.1'
+ruby '3.0.1'
 
 # Replace 'git' with 'https' protocol
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
