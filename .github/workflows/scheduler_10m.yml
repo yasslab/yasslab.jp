@@ -12,20 +12,29 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: 'Set up Ruby'
+    - name: '💎 Set up Ruby'
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
         #ruby-version: 2.7 # Not necessary if .ruby-version is given
-    - name: "Install Ruby gems with 'actions' group"
+
+    - name: "🧪 Install Ruby gems with 'actions' group"
       run: |
         bundle config set with 'actions'
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    - name: 'Share inquiry from yasslab.jp'
+    - name: '📮 Notify inquiry from yasslab.jp'
       run: bundle exec rake share_inquiry
       env:
         IDOBATA_MAILS:  ${{ secrets.IDOBATA_MAILS  }}
         GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
         GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+
+    - name: '🔔 Notify if any step is broken'
+      env:
+        IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+      uses: yasslab/idobata_notify@main
+      if: failure() && (env.IDOBATA_GITHUB_ACTIONS != null)
+      with:
+        idobata_hook_url: ${{ env.IDOBATA_GITHUB_ACTIONS }}

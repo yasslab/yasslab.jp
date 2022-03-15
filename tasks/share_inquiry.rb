@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 #coding: utf-8
 
+exit false
+
 require 'idobata'
 require 'gmail' # for more info -> http://dcparker.github.com/ruby-gmail/
 require 'kconv'
