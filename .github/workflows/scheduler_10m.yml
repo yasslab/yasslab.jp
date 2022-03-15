@@ -24,14 +24,14 @@ jobs:
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    - name: 📮 Notify inquiry from yasslab.jp
+    - name: 📮 Notify inquiry if received
       run: bundle exec rake share_inquiry
       env:
         IDOBATA_MAILS:  ${{ secrets.IDOBATA_MAILS  }}
         GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
         GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
 
-    - name: 🚨 Notify if failed on exec tasks
+    - name: 🚨 Notify if tasks in GitHub Actions failed
       env:
         IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
       if: failure() && (env.IDOBATA_GITHUB_ACTIONS != null)
@@ -40,4 +40,4 @@ jobs:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
         format: 'markdown'
         message: |
-          <span class='label label-danger'>GitHub Actions</span> @yasulab :warning: GitHub Actions のタスク実行に失敗しました >< :sweat_drops: https://yasslab.jp/ ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
+          <span class='label label-danger'>failed</span> @yasulab :warning: GitHub Actions のタスク実行に失敗しました >< :sweat_drops: https://yasslab.jp/ ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
