@@ -19,26 +19,39 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 1
-    - name: 'Set up Ruby'
+    - name: 💎 Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
         #ruby-version: 2.7 # Not necessary if .ruby-version is given
-    - name: "Install Ruby gems with 'actions' group"
+
+    - name: 🧪 Install Ruby gems with 'actions' group
       run: |
         bundle config set with 'actions'
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    - name: 'Share daily updates in Gumroad by using Emoji'
+    - name: 🔔 Notify daily updates in Gumroad by using Emoji
       run: bundle exec rake share_gumroad_updates
       env:
         IDOBATA_GUMROAD:      ${{ secrets.IDOBATA_GUMROAD }}
         GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
-    - name: "Share today's event summary from given calendar"
+
+    - name: 📅 Share event summary today from given calendar
       run: bundle exec rake share_calendar_events
       env:
         IDOBATA_CALENDAR:    ${{ secrets.IDOBATA_CALENDAR  }}
         GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
         GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
         GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
+
+    - name: 🚨 Notify if tasks in GitHub Actions failed
+      env:
+        IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+      if: failure() && (env.IDOBATA_GITHUB_ACTIONS != null)
+      uses: mahaker/actions-idobata@v1.1.2
+      with:
+        hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+        format: 'markdown'
+        message: |
+          <span class='label label-danger'>failed</span> @yasulab :warning: GitHub Actions のタスク実行に失敗しました >< :sweat_drops: ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))

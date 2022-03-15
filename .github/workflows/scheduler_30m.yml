@@ -12,23 +12,23 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: 'Set up Ruby'
+    - name: 💎 Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
         #ruby-version: 2.7 # Not necessary if .ruby-version is given
-    - name: "Install Ruby gems with 'actions' group"
+    - name: 🧪 Install Ruby gems with 'actions' group
       run: |
         bundle config set with 'actions'
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    - name: 'Share fetched articles from RSS'
+    - name: 🔔 Notify fetched articles from RSS
       run:  bundle exec rake share_rss_articles
       env:
         IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
 
-    - name: 'Upsert recent articles from note.com'
+    - name: 📜 Upsert recent articles from note.com
       run: |
         bundle exec rake upsert_recent_notes
         echo "NEW_NOTE=false" >> $GITHUB_ENV
@@ -49,12 +49,12 @@ jobs:
       env:
         GITHUB_TOKEN:
 
-    - name: 'No recent articles found'
+    - name: ✅ No recent articles found
       if: ${{ env.NEW_NOTE == 'false' }}
       run: |
         echo "No recent articles found in note."
 
-    - name: 'Deploy to Heroku if recent article(s) found'
+    - name: 🚀 Deploy to Heroku if recent article(s) found
       if: ${{ env.NEW_NOTE == 'true' }}
       uses: akhileshns/heroku-deploy@v3.4.6
       with:
@@ -64,3 +64,14 @@ jobs:
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
+
+    - name: 🚨 Notify if tasks in GitHub Actions failed
+      env:
+        IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+      if: failure() && (env.IDOBATA_GITHUB_ACTIONS != null)
+      uses: mahaker/actions-idobata@v1.1.2
+      with:
+        hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+        format: 'markdown'
+        message: |
+          <span class='label label-danger'>failed</span> @yasulab :warning: GitHub Actions のタスク実行に失敗しました >< :sweat_drops: ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
