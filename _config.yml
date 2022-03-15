@@ -17,6 +17,7 @@ sass:
   sourcemap: always
   load_paths:
     - node_modules
+    - css/bootstrap/scss
 
 # Variables for pages, news, feeds, etc
 company:
