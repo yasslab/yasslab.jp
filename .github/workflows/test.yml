@@ -40,14 +40,14 @@ jobs:
         bundle exec rake test SKIP_BUILD=true
         bundle exec rspec spec/qiita.rb
 
-    - name: ⏱ Test tasks
-      if: ${{ github.actor }} != *'dependabot'*
-      run: |
-        bundle exec rake share_calendar_events:test
-      env:
-        GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
-        GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
-        GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
+#    - name: ⏱ Test tasks
+#      if: ${{ github.actor }} != *'dependabot'*
+#      run: |
+#        bundle exec rake share_calendar_events:test
+#      env:
+#        GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
+#        GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
+#        GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
 
     - name: 🔔 Notify results
       env:
