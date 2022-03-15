@@ -40,4 +40,4 @@ jobs:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
         format: 'markdown'
         message: |
-          <span class='label label-danger'>failed</span> @yasulab :warning: GitHub Actions のタスク実行に失敗しました >< :sweat_drops: https://yasslab.jp/ ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
+          <span class='label label-danger'>failed</span> @yasulab :warning: GitHub Actions のタスク実行に失敗しました >< :sweat_drops: ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
