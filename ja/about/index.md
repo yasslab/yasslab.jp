@@ -1,6 +1,7 @@
 ---
 layout: plain
 title:  会社概要
+description: 会社の事業やこれまでの取引先、役員情報などをまとめているページです。
 ---
 
 <section class="entry_content pt-5 mb-5">

@@ -23,9 +23,17 @@
     <meta name="apple-mobile-web-app-title" content="{{ site.data.translations.companyName[lang] }}"/>
     <meta name="application-name"           content="{{ site.data.translations.companyName[lang] }}"/>
     <meta name="author"                     content="{{ site.data.translations.companyName[lang] }}"/>
+
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}"/>
+    <meta name="description"         content="{{ page.description }}"/>
+    <meta property="og:description"  content="{{ page.description }}"/>
+    {% else %}
     <meta name="twitter:description" content="{{ site.data.translations.companyDescription[lang] }}"/>
     <meta name="description"         content="{{ site.data.translations.companyDescription[lang] }}"/>
     <meta property="og:description"  content="{{ site.data.translations.companyDescription[lang] }}"/>
+    {% endif %}
+
     {% if lang == "en" %}
     <meta name="keywords" content="Ruby Rails Tutorial Guides Programming RemoteWork"/>
     {% else %}

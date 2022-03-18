@@ -1,6 +1,7 @@
 ---
 layout: plain
 title:  事業実績
+description: これまでの活動実績や沿革、創業ストーリーなどをまとめているページです。
 ---
 
 <section class="entry_content pt-5">
