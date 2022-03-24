@@ -78,7 +78,7 @@ title:  弊社をご検討されている皆さんへ
 	<ul>
 	  <li>Webサイト: <a href="https://railstutorial.jp/">https://railstutorial.jp/</a></li>
 	  <li>ハッシュタグ: <a href="http://twitter.com/hashtag/Railsチュートリアル">#Railsチュートリアル - Twitter</a></li>
-	  <li>技術スタック: Ruby, Rails, LaTeX, <a href="https://github.com/softcover/softcover">softcover</a>, <a href='https://github.co.jp/features/actions'>GitHub Actions</a>, Heroku</li>
+	  <li>技術スタック: Ruby, Rails, LaTeX, <a href="https://github.com/softcover/softcover">softcover</a>, <a href='https://github.co.jp/features/actions'>GitHub Actions</a>, <a href='https://ja.wikipedia.org/wiki/Docker'>Docker</a>, <a href='https://jp.heroku.com/'>Heroku</a></li>
 	  <li>参考リンク集:
 	    <ul>
 	      <li><a href="https://github.com/yasslab/sample_apps">yasslab/sample_apps</a> (OSS)</li>
@@ -98,7 +98,7 @@ title:  弊社をご検討されている皆さんへ
 	<ul>
 	  <li>Webサイト: <a href="https://railsguides.jp/">https://railsguides.jp/</a></li>
 	  <li>ハッシュタグ: <a href="http://twitter.com/hashtag/Railsガイド">#Railsガイド - Twitter</a></li>
-	  <li>技術スタック: Ruby, Rails, Jekyll, <a href="https://github.com/kmuto/review">Re:VIEW</a>, <a href='https://github.co.jp/features/actions'>GitHub Actions</a>, Heroku</li>
+	  <li>技術スタック: Ruby, Rails, Jekyll, <a href="https://github.com/kmuto/review">Re:VIEW</a>, <a href='https://github.co.jp/features/actions'>GitHub Actions</a>, <a href='https://ja.wikipedia.org/wiki/Docker'>Docker</a>, <a href='https://jp.heroku.com/'>Heroku</a></li>
 	  <li>参考リンク集:
 	    <ul>
 	      <li><a href="https://github.com/yasslab/railsguides.jp">yasslab/railsguides.jp</a> (OSS)</li>
@@ -118,7 +118,7 @@ title:  弊社をご検討されている皆さんへ
 	<ul>
 	  <li>Webサイト: <a href="https://coderdojo.jp/">https://coderdojo.jp/</a></li>
 	  <li>ハッシュタグ: <a href="http://twitter.com/hashtag/CoderDojo">#CoderDojo - Twitter</a></li>
-	  <li>技術スタック: Ruby, Rails, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), <a href='https://github.co.jp/features/actions'>GitHub Actions</a>, Heroku</li>
+	  <li>技術スタック: Ruby, Rails, <a href="https://scrivito.com/">Scrivito</a> (Rails CMS), <a href='https://github.co.jp/features/actions'>GitHub Actions</a>, <a href='https://ja.wikipedia.org/wiki/Docker'>Docker</a>, <a href='https://jp.heroku.com/'>Heroku</a></li>
 	  <li>参考リンク集:
 	    <ul>
 	      <li><a href="https://github.com/coderdojo-japan/coderdojo.jp">coderdojo-japan/coderdojo.jp</a> (OSS)</li>
