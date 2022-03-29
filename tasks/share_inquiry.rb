@@ -63,7 +63,11 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
   end
 
   # puts text[3..].split('</b>').first # for debug print: mail.subject
-  post = text.gsub("\n", "").gsub("'", "\"").gsub(/<!--(.*?)-->/, '')
+  post = text.gsub(/((\n|\r))/, '')
+    .gsub(/\s\s+/, ' ')
+    .gsub("'", "\"")
+    .gsub(/<!--(.*?)-->/, '')
+    .gsub(/<style((.|\n|\r)*?)<\/style>/, '')
 
   # Truncate text if it exceeds MAX_POST_SIZE
   post = post[0..(MAX_POST_SIZE)] if post.size > MAX_POST_SIZE
