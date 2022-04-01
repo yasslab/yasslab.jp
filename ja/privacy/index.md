@@ -13,7 +13,7 @@ YassLab 株式会社<br>
 
 ## はじめに
 
-YassLab 株式会社（以下、当社）では、利用者が安心して当社が運営するWebサイト（<a href='/'>yasslab.jp</a>・<a href='https://railstutorial.jp/'>railstutorial.jp</a>・<a href='https://railsguides.jp/'>railsguides.jp</a> など）をご利用していただけるよう、個人情報の保護に関する法律その他の個人情報保護関連法令及びガイドラインを遵守するとともに、以下の方針に基づいて利用者の個人情報の保護に努めます。
+YassLab 株式会社（以下、当社）では、利用者が安心して当社が運営するWebサイト（<a href='/'>yasslab.jp</a>・<a href='https://railstutorial.jp/'>railstutorial.jp</a>・<a href='https://railsguides.jp/'>railsguides.jp</a> など）をご利用していただけるよう、個人情報の保護に関する法律その他の個人情報保護関連法令およびガイドラインを遵守するとともに、以下の方針に基づいて利用者の個人情報の保護に努めます。
 
 
 ## 個人情報の取得
