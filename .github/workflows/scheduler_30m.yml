@@ -36,9 +36,10 @@ jobs:
           if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/news.yml > /dev/null ); then
             git config --global user.name  "Yohei Yasukawa"
             git config --global user.email "yohei@yasslab.jp"
+            git checkout main
             git add _data/news.yml
             git commit -m '🤖 Upsert note article(s) by GitHub Actions'
-            git push
+            git push origin main
             echo "NEW_NOTE=true" >> $GITHUB_ENV
           else
             echo "Detected YAML syntax error in '_data/news.yml' so not going to deploy."
