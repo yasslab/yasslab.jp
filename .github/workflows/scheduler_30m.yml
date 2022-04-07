@@ -34,13 +34,11 @@ jobs:
         echo "NEW_NOTE=false" >> $GITHUB_ENV
         if [ -n "$(git status --porcelain)" ]; then
           if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/news.yml > /dev/null ); then
-            git config user.name  Yohei\ Yasukawa
-            git config user.email yohei@yasslab.jp
-            git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-            git checkout main
+            git config --global user.name  "Yohei Yasukawa"
+            git config --global user.email "yohei@yasslab.jp"
             git add _data/news.yml
             git commit -m '🤖 Upsert note article(s) by GitHub Actions'
-            git push origin main
+            git push
             echo "NEW_NOTE=true" >> $GITHUB_ENV
           else
             echo "Detected YAML syntax error in '_data/news.yml' so not going to deploy."
