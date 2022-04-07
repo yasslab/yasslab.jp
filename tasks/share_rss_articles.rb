@@ -18,14 +18,15 @@ RSS_LIST         = [
 
 msg = ""
 RSS_LIST.each { |rss|
-  # NOTE: Set cron as "Every 10 minutes" in GitHub Actions to correspond
+  # NOTE: Set TIME_INTERVAL value to cron scheduler in GitHub Actions to correspond this code.
+  #       Passing 'false' to parse() means parsing the given RSS even if it is NOT valid RSS.
   if rss[:url].include? "qiita.com" # Atom feed that ends with '*.atom'
     articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
       # NOTE: This feed doesn't contain timezone, so need to convert it into JST (+09:00)
       (Time.now - (item.published.content - 9.hours)) < TIME_INTERVAL * 60 # seconds
     end
   else # RSS feed that ends with '*.rss'
-    articles = RSS::Parser.parse(rss[:url]).items.select do |item|
+    articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
       # Time comparision by seconds (integer)
       (Time.now.round - item.date).to_i < TIME_INTERVAL * 60 # seconds
     end
