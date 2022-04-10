@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require 'rss'
+require 'retryable'
 require 'sanitize'
 require 'idobata'
 require 'active_support/all'
@@ -17,18 +18,22 @@ RSS_LIST         = [
 
 
 msg = ""
+articles = []
 RSS_LIST.each { |rss|
-  # NOTE: Set TIME_INTERVAL value to cron scheduler in GitHub Actions to correspond this code.
-  #       Passing 'false' to parse() means parsing the given RSS even if it is NOT valid RSS.
-  if rss[:url].include? "qiita.com" # Atom feed that ends with '*.atom'
-    articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
-      # NOTE: This feed doesn't contain timezone, so need to convert it into JST (+09:00)
-      (Time.now - (item.published.content - 9.hours)) < TIME_INTERVAL * 60 # seconds
-    end
-  else # RSS feed that ends with '*.rss'
-    articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
-      # Time comparision by seconds (integer)
-      (Time.now.round - item.date).to_i < TIME_INTERVAL * 60 # seconds
+  # Retry 3 times to HTTP connections at maximum
+  Retryable.retryable(tries: 3, on: [Timeout::Error]) do
+    # NOTE: Set TIME_INTERVAL value to cron scheduler in GitHub Actions to correspond this code.
+    #       Passing 'false' to parse() means parsing the given RSS even if it is NOT valid RSS.
+    if rss[:url].include? "qiita.com" # Atom feed that ends with '*.atom'
+      articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
+        # NOTE: This feed doesn't contain timezone, so need to convert it into JST (+09:00)
+        (Time.now.round - item.published.content + 9.hours) < TIME_INTERVAL * 60 # seconds
+      end
+    else # RSS feed that ends with '*.rss'
+      articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
+        # Time comparision by seconds (integer)
+        (Time.now.round - item.date).to_i < TIME_INTERVAL * 60 # seconds
+      end
     end
   end
 
