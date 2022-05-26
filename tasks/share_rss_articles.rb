@@ -11,9 +11,10 @@ Idobata.hook_url = ENV['IDOBATA_SHARE']
 TIME_INTERVAL    = 30 # minutes
 RSS_LIST         = [
 # { title: "Name short title of the RSS", url: "URL of RSS to fetch and share with team" },
-  { title: 'YassLab',   label: "info",    url: "https://b.hatena.ne.jp/YassLab/rss"},
-  { title: 'Qiita',     label: 'success', url: 'https://qiita.com/organizations/yasslab/activities.atom'},
-  { title: 'TechRacho', label: 'warning', url: "https://techracho.bpsinc.jp/category/ruby-rails-related/feed"},
+  { title: 'Ruby Weekly', label: 'danger',  url: 'https://rubyweekly.com/rss/'},
+  { title: 'YassLab',     label: 'info',    url: 'https://b.hatena.ne.jp/YassLab/rss'},
+  { title: 'Qiita',       label: 'success', url: 'https://qiita.com/organizations/yasslab/activities.atom'},
+  { title: 'TechRacho',   label: 'warning', url: "https://techracho.bpsinc.jp/category/ruby-rails-related/feed"},
 ]
 
 
@@ -42,6 +43,8 @@ RSS_LIST.each { |rss|
       p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-#{rss[:label]}'>#{rss[:title]}</span><br> #{a.description}"
     elsif rss[:url].include? "qiita.com"
       p "<a href='#{a.link.href}'>#{a.title.content}</a> by <a href='https://qiita.com/#{a.author.name.content}'>#{a.author.name.content}</a> <span class='label label-#{rss[:label]}'>Qiita</span>"
+    elsif rss[:url].include? 'rubyweekly.com'
+      p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-#{rss[:label]}'>#{rss[:title]}</span><br> #{a.description}"
     else # e.g. TechRacho articles
       p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-#{rss[:label]}'>#{rss[:title]}</span><br> #{Sanitize.fragment(a.description)[0..110] + '...'}"
     end
