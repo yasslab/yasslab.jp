@@ -16,9 +16,6 @@ jobs:
       with:
         fetch-depth: 2
 
-    - name: 🌳️ Setup Node.js
-      uses: actions/setup-node@v2
-
     - name: 💎 Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -29,10 +26,6 @@ jobs:
         bundle config set with 'actions'
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
-
-    - name: 🧪 Install dependencies
-      run: |
-        npm install
 
     - name: 🔧 Test building
       run: |
