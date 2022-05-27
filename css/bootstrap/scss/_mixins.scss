@@ -3,6 +3,9 @@
 // Used in conjunction with global variables to enable certain theme features.
 
 // Vendor
+// TODO: This doesn't fail on local server,
+//       but it failes on GitHub Actions.
+//       https://github.com/yasslab/yasslab.jp/runs/6619590898?check_suite_focus=true#step:5:14
 //@import "vendor/rfs";
 @import "mixins/rfs";
 
