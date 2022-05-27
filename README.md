@@ -65,9 +65,9 @@ Nota Inc. 様の許諾をいただき、
 This website uses icons created by [Font Awesome](http://fontawesome.io/), licensed under SIL OFL 1.1, and [Twemoji](https://github.com/twitter/twemoji), created by Twitter, licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 
-## About CSS
+## About CSS/JavaScript
 
-This website uses [Bootstrap](https://getbootstrap.jp/), created by Twitter licensed under the [MIT License](http://opensource.org/licenses/MIT).
+This website uses [Bootstrap](https://getbootstrap.jp/), [jQuery](https://jquery.org/license/), and [SimpleJekyllSearch](https://github.com/christian-fei/Simple-Jekyll-Search) licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 
 ## Copyright
