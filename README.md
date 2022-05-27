@@ -30,11 +30,9 @@ https://yasslab.jp/
 
 
 ## 開発手順
-ローカル環境で開発・デザインをするときは [Jekyll](https://jekyllrb.com) と [Node.js](https://nodejs.org/) が必要です。   
+ローカル環境で開発・デザインをするときは [Jekyll](https://jekyllrb.com) が必要です。   
 準備ができたら次の手順でセットアップし、ローカルサーバーを立ち上げてください。
 
-1. `$ npm install`
-    - (初回のみ) npm ライブラリのインストール
 1. `$ bundle install`
     - (初回のみ) gem ライブラリのインストール
 2. `$ bundle exec jekyll server`
@@ -43,6 +41,11 @@ https://yasslab.jp/
 
 成功すれば [yasslab.jp](https://yasslab.jp/) と同じ画面が表示されます。
 その後、開発・修正したいファイルを適宜編集していきます。(再起動は不要)
+
+<!--
+NOTE: フロントエンドに npm を導入したいときは下記PRを参考にしてください。
+      https://github.com/yasslab/yasslab.jp/pull/609
+-->
 
 ## About Images
 Nota Inc. 様の許諾をいただき、  
