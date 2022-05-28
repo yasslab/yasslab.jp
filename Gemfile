@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 ruby '3.1.2'
 
 # Replace 'git' with 'https' protocol
