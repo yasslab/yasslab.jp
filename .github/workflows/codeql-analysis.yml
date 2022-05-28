@@ -18,8 +18,9 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ main ]
   schedule:
-    - cron:  '*/10 * * * *' # For debugging
-#    - cron: '19 8 * * 3'
+    - cron: '0 8 * * 1'
+#    - cron:  '*/10 * * * *' # For debugging
+
 
 jobs:
   analyze:
