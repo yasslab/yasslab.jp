@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
-ruby '3.0.1'
+ruby '3.1.2'
 
 # Replace 'git' with 'https' protocol
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'jekyll',  "4.2.0"
+gem 'jekyll',  "4.2.2"
 gem 'rack-jekyll'
 gem 'rake'           # for running tasks
 gem "webrick"
