@@ -8,13 +8,8 @@ sitemap: false
 
 打ち合わせの日程候補を挙げる際などでご活用して頂けると嬉しいです。午前中の場合は10:00am以前、もしくは10:15am以降だと助かります 🙏
 
-<div class="gc_wrapper">
-  <div class="responsive-iframe-container small-container"> 
-  <iframe src="https://calendar.google.com/calendar/b/2/embed?title=YassLab%20%28%E6%A0%AA%29%20%E4%BA%88%E5%AE%9A%E8%A1%A8&amp;height=600&amp;wkst=2&amp;bgcolor=%23F2F2F2&amp;src=ja.japanese%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=yasslab.jp_ac8rsip6rn0a77egdea47tc6t8%40group.calendar.google.com&amp;showTitle=0&amp;showTabs=0&amp;showPrint=0&amp;showDate=1&amp;color=%23182C57&amp;ctz=Asia%2FTokyo" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-  </div>
-</div>
+{% include calendar_embed.html %}
 
-<blockquote style="margin-top: 30px; padding-top: 10px; font-style: normal;">オンラインをご希望の場合は<br class="ignore-pc"> <a href="https://zoom.us/jp-jp/meetings.html">Zoom</a> または <a href="https://apps.google.com/meet/?hl=ja">Google Meet</a> を用意できます。</blockquote>
 
 ## 🏢 YassLab (株) オフィス
 
