@@ -7,15 +7,14 @@ sitemap: false
 
 # 🗓 Calendar
 
-This is our schedule. Hope this helpful for scheduling a meeting. We have a 5-min daily meetup from 10:05-10:10am in business days, so we are glad if you avoid that time slot when requesting for an appointment.
+We are available at free time slots below. So let us know your preference in Japan Standard Time.
 
 {% include calendar_embed.html %}
 
 
 ## 🏢 Office
 
-Online meeting is welcome! But offline meeting is also available if it is around Tokyo area, including our Tokyo office. If you are near hear, maybe our office is a good place to have a meeting.
- 🏢🏃💨
+In-person meeting is also welcome! If you are around Tokyo, feel free to drop by our office. 🏢🏃💨
 
 Office: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
 
