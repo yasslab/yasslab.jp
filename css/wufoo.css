@@ -51,3 +51,7 @@ body{
 li span.req {
   display: none !important;
 }
+
+.recaptcha-text{
+  display: none !important;
+}
