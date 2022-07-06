@@ -17,6 +17,8 @@ https://yasslab.jp/
 ~~多分これが一番簡単だと思います...!!~~   
 :new: **自動化されました!!** :wrench::robot::dash::sparkles:
 
+<details><summary>お知らせ記事を手動で追加する方法</summary>
+
 1. ブラウザ上で [_data/news.yml](https://github.com/yasslab/yasslab.jp/blob/main/_data/news.yml) を開く
 2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
 3. お知らせ情報を追記する
@@ -27,6 +29,8 @@ https://yasslab.jp/
 5. 修正内容を確認し、問題なければ Create pull request をクリックする
 
 以上で完了です。追記されたお知らせは他のメンバーによって再確認され、問題なければ提案された内容が反映されます。もし問題があっても他のメンバーが気付いて修正することもできるので、まずはお気軽に提案してみてください ;)
+
+</details>
 
 
 ## 開発手順
