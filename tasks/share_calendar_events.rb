@@ -96,7 +96,7 @@ service.authorization = authorize
 calendar_ids = ENV['GOOGLE_CALENDAR_IDS'].split(',')
 responses    = []
 calendar_ids.each do |calendar_id|
-  today    = (Date.today).strftime('%Y-%m-%dT00:00:00+09:00')
+  today    = (Date.today + 0).strftime('%Y-%m-%dT00:00:00+09:00')
   tomorrow = (Date.today + 1).strftime('%Y-%m-%dT00:00:00+09:00')
   responses << service.list_events(
                         calendar_id,
