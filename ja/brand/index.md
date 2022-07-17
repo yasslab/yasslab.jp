@@ -50,9 +50,18 @@ description: YassLab 社のロゴ画像や名称を使用する際の注意点�
 
 #  ロゴデータ ダウンロード
 
-[![Screenshot: 公開ロゴデータ - Dropbox](/img/logos-on-dropbox.png)](https://www.dropbox.com/sh/mvjm7ascrn85awb/AADIoBdfQN7YUv3O3jAGfpVGa?dl=0)
+<center>
+  <a href="https://drive.google.com/drive/folders/1kp3jX7n-c1JIpzlRigfZQFPM2bwGtrOF" target='_blank' rel='noopener'>
+    <img src="/img/logos-on-drive.min.png" data-src="/img/logos-on-drive.png" width="100%"
+     alt="公開ロゴデータ - Google Drive" class="lazyload" loading="lazy">
+  </a>
 
-<center><a href="https://www.dropbox.com/sh/mvjm7ascrn85awb/AADIoBdfQN7YUv3O3jAGfpVGa?dl=0">YassLab 株式会社 公開ロゴデータ - Dropbox</a></center>
+  <a href="https://drive.google.com/drive/folders/1kp3jX7n-c1JIpzlRigfZQFPM2bwGtrOF" target='_blank' rel='noopener'>
+    <button class="btn btn-primary external-link">
+      公開ロゴデータをダウンロードする
+    </button>
+  </a>
+</center>
 
 <br>
 
