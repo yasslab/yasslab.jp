@@ -24,19 +24,19 @@ jobs:
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    - name: 🔔 Notify opt-in Health Planet user record (yasulab)
-      run: bundle exec rake share_health_planet USER_NAME=yasulab LABEL_COLOR=label-info
-      env:
-        IDOBATA_HEALTH:      ${{ secrets.IDOBATA_HEALTH }}
-        HEALTH_PLANET_TOKEN: ${{ secrets.HEALTH_PLANET_TOKEN }}
+#    - name: 🔔 Notify opt-in Health Planet user record (yasulab)
+#      run: bundle exec rake share_health_planet USER_NAME=yasulab LABEL_COLOR=label-info
+#      env:
+#        IDOBATA_HEALTH:      ${{ secrets.IDOBATA_HEALTH }}
+#        HEALTH_PLANET_TOKEN: ${{ secrets.HEALTH_PLANET_TOKEN }}
 
-    - name: 🚨 Notify if tasks in GitHub Actions failed
-      env:
-        IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
-      if: failure() && (env.IDOBATA_GITHUB_ACTIONS != null)
-      uses: mahaker/actions-idobata@v1.1.2
-      with:
-        hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
-        format: 'markdown'
-        message: |
-          <span class='label label-danger'>failed</span> @yasulab :warning: GitHub Actions のタスク実行に失敗しました >< :sweat_drops: ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
+#    - name: 🚨 Notify if tasks in GitHub Actions failed
+#      env:
+#        IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+#      if: failure() && (env.IDOBATA_GITHUB_ACTIONS != null)
+#      uses: mahaker/actions-idobata@v1.1.2
+#      with:
+#        hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+#        format: 'markdown'
+#        message: |
+#          <span class='label label-danger'>failed</span> @yasulab :warning: GitHub Actions のタスク実行に失敗しました >< :sweat_drops: ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
