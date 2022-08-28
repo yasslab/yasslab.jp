@@ -82,26 +82,23 @@ task test: [:build] do
   require './test/custom_checks'
   options = {
     allow_hash_href:  true,
-    assume_extension: true,
-    check_opengraph:  true,
-    check_favicon:    true,
-    check_html:       true,
-    # checks_to_ignore: %w(ImageCheck), # for debugging
     disable_external: true,
-    file_ignore: [
-      /node_modules/,
-      "./_site/ja/workshops/raspi/index.html",
-      "./_site/en/workshops/raspi/index.html",
-      "./_site/ja/workshops/tickle/index.html",
-      "./_site/google02f5cc9ed3681f94.html",
-      "./_site/health.html",
+
+    checks: ['Links', 'Images', 'OpenGraph', 'Favicon', 'QiitaTeam'],
+    # NOTE: 'Scripts' raises error on protocol-relative URLs, which contradict SpeakerDeck's default
+    # e.g.: https://github.com/gjtorikian/html-proofer/issues/750
+    check_internal_hash: false, # NOTE: This raises error on correct internal hashes in Japanese
+    enforce_https:    false,    # NOTE: Some websites in article not HTTPS
+    ignore_files: [
+      '_site/health.html',
       /google(.*)\.html/,
     ],
-    url_ignore:  %w(coderdojo.com linkedin.com),
-    http_status_ignore: [0, 500, 999],
+    ignore_urls:  %w(coderdojo.com linkedin.com),
+    ignore_status_codes: [0, 500, 999],
+    #swap_urls: { %r(^src=\"\/\/speakerdeck.com) => 'src="https://speakerdeck.com' },
   }
 
-  HTMLProofer.check_directory('./_site', options).run
+  HTMLProofer.check_directory('_site/', options).run
 end
 
 task build: [:clean] do
