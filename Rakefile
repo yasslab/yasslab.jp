@@ -89,7 +89,7 @@ task test: [:build] do
     #check_html:       true,    # TODO: Check 'Html' is deleted???
     check_internal_hash: false, # TODO: This should be true later
     disable_external: true,
-    enforce_https:    false,    # TODO: This should be true later
+    enforce_https:    false,    # NOTE: Some websites in article not HTTPS
     ignore_files: [
       '_site/health.html',
       /google(.*)\.html/,
