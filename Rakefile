@@ -87,7 +87,7 @@ task test: [:build] do
     # e.g.: https://github.com/gjtorikian/html-proofer/issues/750
     checks: ['Links', 'Images', 'OpenGraph', 'Favicon'],
     #check_html:       true,    # TODO: Check 'Html' is deleted???
-    check_internal_hash: false, # TODO: This should be true later
+    check_internal_hash: false, # NOTE: This raises error on correct internal hashes in Japanese
     disable_external: true,
     enforce_https:    false,    # NOTE: Some websites in article not HTTPS
     ignore_files: [
