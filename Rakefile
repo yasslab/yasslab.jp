@@ -82,7 +82,9 @@ task test: [:build] do
   require './test/custom_checks'
   options = {
     allow_hash_href:  true,
-    # TODO: Add 'QiitaTeamCheck', 'Scripts', 'Favicon' later
+    # TODO: Add 'QiitaTeamCheck', 'Favicon' later
+    # NOTE: 'Scripts' raises error on protocol-relative URLs, which contradict SpeakerDeck's default
+    # e.g.: https://github.com/gjtorikian/html-proofer/issues/750
     checks: ['Links', 'Images', 'OpenGraph'],
     #check_html:       true,    # TODO: Check 'Html' is deleted???
     check_internal_hash: false, # TODO: This should be true later
@@ -97,7 +99,7 @@ task test: [:build] do
       "./_site/health.html",
       /google(.*)\.html/,
     ],
-    ignore_urls:  %w(coderdojo.com linkedin.com speakerdeck.com),
+    ignore_urls:  %w(coderdojo.com linkedin.com),
     ignore_status_codes: [0, 500, 999],
     #swap_urls: { %r(^src=\"\/\/speakerdeck.com) => 'src="https://speakerdeck.com' },
   }
