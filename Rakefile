@@ -82,13 +82,13 @@ task test: [:build] do
   require './test/custom_checks'
   options = {
     allow_hash_href:  true,
-    # TODO: Add 'QiitaTeamCheck' later
+    disable_external: true,
+
+    checks: ['Links', 'Images', 'OpenGraph', 'Favicon', 'QiitaTeam'],
     # NOTE: 'Scripts' raises error on protocol-relative URLs, which contradict SpeakerDeck's default
     # e.g.: https://github.com/gjtorikian/html-proofer/issues/750
-    checks: ['Links', 'Images', 'OpenGraph', 'Favicon'],
     #check_html:       true,    # TODO: Check 'Html' is deleted???
     check_internal_hash: false, # NOTE: This raises error on correct internal hashes in Japanese
-    disable_external: true,
     enforce_https:    false,    # NOTE: Some websites in article not HTTPS
     ignore_files: [
       '_site/health.html',
