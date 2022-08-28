@@ -82,13 +82,13 @@ task test: [:build] do
   require './test/custom_checks'
   options = {
     allow_hash_href:  true,
-    assume_extension: true,
-    check_opengraph:  true,
-    check_favicon:    true,
-    check_html:       true,
-    # checks_to_ignore: %w(ImageCheck), # for debugging
+    # TODO: Add 'QiitaTeamCheck', 'Scripts', 'Favicon' later
+    checks: ['Links', 'Images', 'OpenGraph'],
+    #check_html:       true,    # TODO: Check 'Html' is deleted???
+    check_internal_hash: false, # TODO: This should be true later
     disable_external: true,
-    file_ignore: [
+    enforce_https:    false,    # TODO: This should be true later
+    ignore_files: [
       /node_modules/,
       "./_site/ja/workshops/raspi/index.html",
       "./_site/en/workshops/raspi/index.html",
@@ -97,11 +97,12 @@ task test: [:build] do
       "./_site/health.html",
       /google(.*)\.html/,
     ],
-    url_ignore:  %w(coderdojo.com linkedin.com),
-    http_status_ignore: [0, 500, 999],
+    ignore_urls:  %w(coderdojo.com linkedin.com speakerdeck.com),
+    ignore_status_codes: [0, 500, 999],
+    #swap_urls: { %r(^src=\"\/\/speakerdeck.com) => 'src="https://speakerdeck.com' },
   }
 
-  HTMLProofer.check_directory('./_site', options).run
+  HTMLProofer.check_directory('_site/', options).run
 end
 
 task build: [:clean] do
