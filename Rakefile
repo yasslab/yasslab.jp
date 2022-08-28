@@ -91,11 +91,6 @@ task test: [:build] do
     disable_external: true,
     enforce_https:    false,    # TODO: This should be true later
     ignore_files: [
-      /node_modules/,
-      '_site/ja/workshops/raspi/index.html',
-      '_site/en/workshops/raspi/index.html',
-      '_site/ja/workshops/tickle/index.html',
-      '_site/google02f5cc9ed3681f94.html',
       '_site/health.html',
       /google(.*)\.html/,
     ],
