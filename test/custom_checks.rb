@@ -9,7 +9,7 @@ class QiitaTeam < ::HTMLProofer::Check
       link = create_element(node)
       next if link.ignore?
 
-      if link.href.include? 'yasslab.qiita.com'
+      if link.href.match? /yasslab\.qiita\.com/
         return add_failure("Links to Qiita:Team does NOT work for visitors.", line: link.line)
       end
     end
