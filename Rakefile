@@ -86,7 +86,7 @@ task test: [:build] do
 
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'QiitaTeam'],
     check_internal_hash: false, # NOTE: This raises error on correct internal hashes in Japanese
-    enforce_https:    false,    # NOTE: Some websites in article not HTTPS
+    enforce_https:       false, # NOTE: Some websites in article not HTTPS
     ignore_files: [
       '_site/health.html',
       /google(.*)\.html/,
