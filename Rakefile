@@ -84,18 +84,20 @@ task test: [:build] do
     allow_hash_href:  true,
     disable_external: true,
 
-    checks: ['Links', 'Images', 'OpenGraph', 'Favicon', 'QiitaTeam'],
-    # NOTE: 'Scripts' raises error on protocol-relative URLs, which contradict SpeakerDeck's default
-    # e.g.: https://github.com/gjtorikian/html-proofer/issues/750
+    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'QiitaTeam'],
     check_internal_hash: false, # NOTE: This raises error on correct internal hashes in Japanese
     enforce_https:    false,    # NOTE: Some websites in article not HTTPS
     ignore_files: [
       '_site/health.html',
       /google(.*)\.html/,
     ],
-    ignore_urls:  %w(coderdojo.com linkedin.com),
+    ignore_urls: [
+      # NOTE: 'Scripts' raises error on protocol-relative URLs,
+      #       but it contradicts SpeakerDeck's default embed option.
+      # e.g.: https://github.com/gjtorikian/html-proofer/issues/750
+      %r{^//speakerdeck.com},
+    ],
     ignore_status_codes: [0, 500, 999],
-    #swap_urls: { %r(^src=\"\/\/speakerdeck.com) => 'src="https://speakerdeck.com' },
   }
 
   HTMLProofer.check_directory('_site/', options).run
