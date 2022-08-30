@@ -26,6 +26,9 @@ gem 'liquid-c'
 gem "psych", "< 4.0.0"
 
 # To run tasks triggered by GitHub Actions
+gem 'net-imap'          # Basics to access Web like notifications
+gem 'net-smtp'          # Basics to access Web like notifications
+gem 'net-pop'           # Basics to access Web like notifications
 gem 'idobata'           # All: Notify
 gem 'rss'               # RSS: Fetch RSS
 gem 'sanitize'          # RSS: Remove HTML tags
