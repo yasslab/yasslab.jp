@@ -21,7 +21,7 @@ layout: plain_without_thumbnail
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3><a href="#vision">誰もが創り、語れる時代に。</a></h3>
+        <h3><a href="#vision">誰もが創り、語れる時代に</a></h3>
       </div>
     </div>
   </div>
