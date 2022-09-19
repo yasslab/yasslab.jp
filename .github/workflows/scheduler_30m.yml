@@ -33,7 +33,7 @@ jobs:
         bundle exec rake upsert_recent_notes
         echo "NEW_NOTE=false" >> $GITHUB_ENV
         if [ -n "$(git status --porcelain)" ]; then
-          if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/news.yml > /dev/null ); then
+          if ( ruby -ryaml -e "p YAML.unsafe_load(STDIN.read)" < _data/news.yml > /dev/null ); then
             git config --global user.name  "Yohei Yasukawa"
             git config --global user.email "yohei@yasslab.jp"
             git checkout main
