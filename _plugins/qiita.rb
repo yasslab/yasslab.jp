@@ -26,10 +26,10 @@ module Jekyll
       end
 
       if text.strip == "items"
-        @items = page.at("//a[@href='/organizations/yasslab']").text.split('Posts').first
+        @items = page.at("//a[@href='/organizations/yasslab']").text.delete("^0-9")
         # OUTDATED: @items = page.search('p.op-CounterItem_count')[0].text.to_i
       elsif text.strip == "likes"
-        @items = page.at("//a[@href='/organizations/yasslab']").next.text.split('LGTM').first
+        @items = page.at("//a[@href='/organizations/yasslab']").next.text.delete("^0-9")
         # OUTDATED: @items = page.search('p.op-CounterItem_count')[1].text.to_i
       else
         @items = QIITA_PRESET_ITEMS
