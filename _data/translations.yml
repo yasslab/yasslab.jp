@@ -3,8 +3,8 @@ companyName:
   en: 'YassLab Inc.'
 
 companyDescription:
-  ja: 'RailsチュートリアルやRailsガイド、coderdojo.jp の開発・運営をしています。法人向け研修支援、スクール向けコンテンツ、開発支援サービスも提供しています。'
-  en: '100% Remote Work company based in Okinawa & Tokyo. We support your Product Development by contents and services.'
+  ja: 'Ruby on RailsチュートリアルやRailsガイドの開発・運営をしています。社員研修の内製化支援サービスや、教育機関・スクール向けのコンテンツ支援サービスも提供しています。'
+  en: 'Creating 2,400+ pages learning contents to start learning web development from zero to deploy using Ruby/Rails. Products: Rails Tutorial and Rails Guides in Japanese.'
 
 companyAddress:
   ja: '東京都新宿区高田馬場1-28-10 三慶ビル4階 <a href="https://case-shinjuku.com/access" style="color: #c0c6ce;">CASE Shinjuku</a>'
