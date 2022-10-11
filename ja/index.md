@@ -6,7 +6,7 @@ layout: plain_without_thumbnail
   <div class="jumbotron">
     <picture>
       <!--<source media="(max-width: 600px)" srcset="/img/cover-photo-mobile.jpg">-->
-      <img src="/img/cover-photo.min.jpg" data-src="/img/cover-photo.jpg" width="100%"
+      <img src="/img/cover-photo.min.webp" data-src="/img/cover-photo.webp" width="100%"
        alt="{{ site.company.vision }}" class="lazyload" loading="lazy">
     </picture>
 
@@ -37,7 +37,7 @@ layout: plain_without_thumbnail
         <div class="row">
           <div class="col-md-4 offset-md-1">
             <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
-        <img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-tutorial.png"
+        <img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-tutorial.webp"
                alt="Ruby on Rails チュートリアル" loading="lazy"></a>
         <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
     <h4>Railsチュートリアル</h4></a>
@@ -50,7 +50,7 @@ layout: plain_without_thumbnail
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank" rel="noopener">
-              <img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-guides.png"
+              <img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-guides.webp"
          alt="Ruby on Rails ガイド" loading="lazy">
             </a>
       <a href="https://railsguides.jp/" target="_blank" rel="noopener"><h4>Railsガイド</h4></a>
@@ -245,7 +245,7 @@ layout: plain_without_thumbnail
           <div class="col-md-4">
 	    <figure>
               <a href="https://jr.mitou.org/" target="_blank" rel="noopener">
-                <img src="/img/spinner.svg" data-src="/img/logos/mitoujr.png" alt="未踏ジュニア - 独創的アイデアと卓越した技術を持つ小中高生クリエイター支援プログラム" class="lazyload" loading="lazy">
+                <img src="/img/spinner.svg" data-src="/img/logos/mitoujr.webp" alt="未踏ジュニア - 独創的アイデアと卓越した技術を持つ小中高生クリエイター支援プログラム" class="lazyload" loading="lazy">
               </a>
               <figcaption><a href="https://jr.mitou.org/#sponsors">Webサービス開発教材の提供</a></figcaption>
             </figure>
@@ -263,7 +263,7 @@ layout: plain_without_thumbnail
           <div class="col-md-4">
             <figure>
               <a href="/ja/doorkeeper/">
-                <img src="/img/spinner.svg" data-src="/img/logos/doorkeeper.png"
+                <img src="/img/spinner.svg" data-src="/img/logos/doorkeeper.webp"
          alt="Doorkeeper スポンサーシップ" class="lazyload" loading="lazy">
               </a>
               <figcaption><a href="/ja/doorkeeper/">イベント管理サービス代の補助</a></figcaption>
@@ -272,7 +272,7 @@ layout: plain_without_thumbnail
           <div class="col-md-4">
             <figure>
               <a href="/ja/about/#culture" target="_blank" rel="noopener">
-                <img src="/img/spinner.svg" data-src="/img/logos/coderdojo-japan.gif"
+                <img src="/img/spinner.svg" data-src="/img/logos/coderdojo-japan.webp"
          alt="CoderDojo Japan - 子どものためのプログラミング道場"
          class="lazyload" loading="lazy">
               </a>

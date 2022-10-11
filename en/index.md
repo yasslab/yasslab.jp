@@ -52,7 +52,7 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
 
 <div class="row">
   <div class="col-md-12">
-    <img src="/img/spinner.svg" data-src="/img/team.png" alt="YassLab Team Photos" class="mt-3 mb-5 lazyload" loading="lazy">
+    <img src="/img/spinner.svg" data-src="/img/team.webp" alt="YassLab Team Photos" class="mt-3 mb-5 lazyload" loading="lazy">
   </div><!--//col12-->
 </div><!--//row-->
 
@@ -65,7 +65,7 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
 
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
-    <img src="/img/spinner.svg" data-src="/img/photos/yasulab.jpg" alt="Photo of Yohei Yasukawa" class="rounded-circle lazyload" loading="lazy" width='300px' height='300px'>
+    <img src="/img/spinner.svg" data-src="/img/photos/yasulab.webp" alt="Photo of Yohei Yasukawa" class="rounded-circle lazyload" loading="lazy" width='300px' height='300px'>
   </div>
   <div class="profile__role text-center mb-2">CEO of YassLab Inc.</div>
   <h4 class="text-center mb-3 h3deco-none">Yohei Yasukawa</h4>
@@ -96,7 +96,7 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 
 ### Company Profile {#company}
 
-![YassLab](/img/logos/800x200.png)
+![YassLab](/img/logos/800x200.webp)
 
 - Name: YassLab Inc.
 - Owner: Yohei Yasukawa
@@ -117,7 +117,7 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
-    <img src="/img/spinner.svg" data-src="/img/yasslab.png" alt="Logo of YassLab Inc." class="rounded-circle lazyload" loading="lazy" width='300px' height='300px'>
+    <img src="/img/spinner.svg" data-src="/img/yasslab.webp" alt="Logo of YassLab Inc." class="rounded-circle lazyload" loading="lazy" width='300px' height='300px'>
   </div>
   <h4 class="text-center mb-3 h3deco-none">Official Accounts</h4>
   <ul class="profile__sns mb-3">

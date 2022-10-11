@@ -80,7 +80,7 @@ thumbnail: bg-dark.jpg
 # スポンサー
 
 本イベントページは学びを支援する [YassLab 株式会社](https://yasslab.jp/) が提供しております。詳細はコミュニティ運営者向け資料『[Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper/)』をご参照ください。
-[![YassLab 株式会社](https://yasslab.jp/img/logos/800x200.png)](https://yasslab.jp/)
+[![YassLab 株式会社](https://yasslab.jp/img/logos/800x200.webp)](https://yasslab.jp/)
 ```
 
 <br>

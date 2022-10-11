@@ -10,7 +10,7 @@ title:  弊社をご検討されている皆さんへ
         <div class="text-center">
           <h1 class="text-center mb-5">弊社をご検討されている<br class="ignore-pc">皆さんへ</h1>
         </div>
-        <img src="/img/spinner.svg" data-src="/img/team.png" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload" loading="lazy">
+        <img src="/img/spinner.svg" data-src="/img/team.webp" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload" loading="lazy">
       </div><!--//col12-->
     </div><!--//row-->
     
