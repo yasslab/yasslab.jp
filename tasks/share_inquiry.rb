@@ -42,11 +42,14 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
   #text  += "<li>送信者: #{mail.from.first.to_a.first}</li>"
   #text  += "<li>受信者: #{mail.to}</li>" # この情報はいらない？
 
+  # 件名と送信先を取得
   if mail.subject.nil?
     text += "<b>件名なし</b><br>"
   else
     text += "<b>#{mail.subject.toutf8}</b><br>"
   end
+  text += "(<small>from: #{mail.from[0].mailbox}@#{mail.from[0].host} /
+                     to: #{mail.to[0].mailbox  }@#{mail.to[0].host  } )</small><br>"
 
   begin
     #件名、日付、From、To、本文処理
