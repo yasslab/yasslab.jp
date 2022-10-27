@@ -46,10 +46,17 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
   if mail.subject.nil?
     text += "<b>件名なし</b><br>"
   else
-    text += "<b>#{mail.subject.toutf8}</b><br>"
+    text += "<b>#{ mail.subject.toutf8 }</b><br>"
   end
-  text += "(<small>from: #{mail.from[0].mailbox}@#{mail.from[0].host} /
-                     to: #{mail.to[0].mailbox  }@#{mail.to[0].host  } )</small><br>"
+  mail_from = "#{ mail.from[0].mailbox  }@#{ mail.from[0].host }"
+  mail_to   = if !mail.to.nil?
+                "#{ mail.to[0].mailbox  }@#{ mail.to[0].host }"
+              elsif !mail.cc.nil?
+                "#{ mail.cc[0].mailbox  }@#{ mail.cc[0].host }"
+              else
+                "#{ mail.bcc[0].mailbox }@#{ mail.bcc[0].host }"
+              end
+  text += "(<small>from: #{mail_from} → to: #{mail_to} )</small><br>"
 
   begin
     #件名、日付、From、To、本文処理
