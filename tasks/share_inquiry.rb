@@ -49,14 +49,18 @@ mails = @gmail.inbox.emails(:unread).each do |mail|
     text += "<b>#{ mail.subject.toutf8 }</b><br>"
   end
   mail_from = "#{ mail.from[0].mailbox  }@#{ mail.from[0].host }"
+  mail_type = 'To'
   mail_to   = if !mail.to.nil?
+                mail_type = 'To'
                 "#{ mail.to[0].mailbox  }@#{ mail.to[0].host }"
               elsif !mail.cc.nil?
+                mail_type = 'CC'
                 "#{ mail.cc[0].mailbox  }@#{ mail.cc[0].host }"
               else
+                mail_type = 'BCC'
                 "#{ mail.bcc[0].mailbox }@#{ mail.bcc[0].host }"
               end
-  text += "(<small>from: #{mail_from} → to: #{mail_to} )</small><br>"
+  text += "<small><span class='label label-info'>From</span> #{mail_from} → <span class='label label-info'>#{mail_type}</span> #{mail_to}</small><br>"
 
   begin
     #件名、日付、From、To、本文処理
