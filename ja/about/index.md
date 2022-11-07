@@ -12,11 +12,11 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
         <h1>YassLab 社のやること</h1><br>
 
         <p class="mb-4">
-          YassLab 社では誰もがプロダクトを創り・磨き・語れる時代を目指して、様々なサービスを提供しています。</p>
+          YassLab 社では誰もがプロダクトを創り、語れる時代を目指して、様々な学習サービス・<a href='https://www.meti.go.jp/shingikai/mono_info_service/digital_jinzai/pdf/002_02_02.pdf'>リスキリング</a>事業を提供しています。</p>
         <p class="mb-4">
-          <a href="/ja/#tutorial">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>はその一例です。弊社のみが利益を上げるのではなく、社員や顧客などの様々な関係者が価値を享受できるカタチを模索し、その中で継続できるビジネスに YassLab 社は挑戦しています。
-	  例えばRailsチュートリアルのような著作物であれば<a href="https://railstutorial.jp/#foreword">原著者の許諾</a>のもと実現可能なビジネスを、Railsガイドのような <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA</a> で公開されている著作物であればライセンスにしたがって実現可能なビジネスを模索し、実践します。</p>
-        <p class="mb-4">価値が還流できる仕組みを設計し、その上で実現可能なビジネスに挑戦するチームが YassLab 社です。</p>
+          <a href="/ja/#products">RailsチュートリアルやRailsガイド</a>はその一例です。弊社のみが利益を上げるのではなく、社員や顧客などの様々な関係者が価値を享受できるカタチを模索し、その中で継続できるビジネスに YassLab 社は挑戦しています。
+	  例えばRailsチュートリアルのような著作物であれば<a href="https://railstutorial.jp/#foreword">原著者の許諾</a>のもと実現可能なビジネスを、Railsガイドのような <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA</a> で公開されている著作物であればライセンスにしたがって持続可能な仕組みを模索し、<a href='https://kotobank.jp/word/%E7%A4%BE%E4%BC%9A%E5%AE%9F%E8%A3%85-2879325'>社会実装</a>します。</p>
+        <p class="mb-4">価値が還流できる仕組みの設計と実装に挑戦するチーム、それが YassLab 社です。</p>
         <img src="/img/spinner.svg" data-src="/img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5 lazyload">
 	
         <h2 class="text-center mb-5" id="culture">価値が還流できる仕組みの例</h2>
