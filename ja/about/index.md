@@ -16,10 +16,10 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
         <p class="mb-4">
           <a href="/ja/#products">RailsチュートリアルやRailsガイド</a>はその一例です。弊社のみが利益を上げるのではなく、社員や顧客などの様々な関係者が価値を享受できるカタチを模索し、その中で継続できるビジネスに YassLab 社は挑戦しています。
 	  例えばRailsチュートリアルのような著作物であれば<a href="https://railstutorial.jp/#foreword">原著者の許諾</a>のもと実現可能なビジネスを、Railsガイドのような <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA</a> で公開されている著作物であればライセンスにしたがって持続可能な仕組みを模索し、<a href='https://kotobank.jp/word/%E7%A4%BE%E4%BC%9A%E5%AE%9F%E8%A3%85-2879325'>社会実装</a>します。</p>
-        <p class="mb-4">価値が還流できる仕組みの設計と実装に挑戦するチーム、それが YassLab 社です。</p>
+        <p class="mb-4">価値が循環できる仕組みの設計と実装に挑戦するチーム、それが YassLab 社です。</p>
         <img src="/img/spinner.svg" data-src="/img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5 lazyload">
 	
-        <h2 class="text-center mb-5" id="culture">価値が還流できる仕組みの例</h2>
+        <h2 class="text-center mb-5" id="culture">価値が循環できる仕組みの例</h2>
         <p class="mb-4">YassLab 社では様々なコミュニティとも連携し、成長できるカタチを実践しています。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
         <p class="mb-4">CoderDojo Japan との連携はうまく回っているカタチの１つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いの価値を交換し合うカタチで行なっています。</p>
 
