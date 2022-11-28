@@ -118,11 +118,11 @@ thumbnail: bg-dark.jpg
 
 ### [B. 既存のコミュニティを追加する場合](#existing-account)
 
-Doorkeeper では、コミュニティのオーナーが決済をする仕組みになっております。そのため弊社が購入したイベント枠を使用するためには、弊社の Doorkeeper アカウント (YassLab) をオーナーに設定する必要があります。したがって、弊社がイベント枠を代理で決済するためには、
+**Doorkeeper では、コミュニティのオーナーが決済をする仕組み**になっております。そのため弊社が購入したイベント枠を使用するためには、弊社の Doorkeeper アカウント (YassLab) をオーナーに設定する必要があります。したがって、弊社がイベント枠を代理で決済するためには、
 
 ```
 1. YassLab アカウントを管理者として追加する
-2. オーナーを YassLab アカウントに変更する
+2. オーナー (決済者) を YassLab アカウントに変更する
 ```
 
 の２つの手続きが必要です。以下に、その具体的な手順を示します。
@@ -322,6 +322,15 @@ Doorkeeper では、コミュニティのオーナーが決済をする仕組み
            center_path='coderdojo-takizawa'
            right_name='CoderDojo 新所沢'
            right_path='coderdojo-shintokorozawa'
+%}
+
+{% include community.html
+           left_name=''
+           left_path='empty'
+           center_name='CoderDojo 二本松'
+           center_path='dojonihonmatsu'
+           right_name=''
+           right_path='empty'
 %}
 
 <!--
