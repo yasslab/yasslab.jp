@@ -261,7 +261,7 @@ GEM
     unicode-display_width (1.8.0)
     webrick (1.7.0)
     webrobots (0.1.2)
-    yaml (0.2.0)
+    yaml (0.2.1)
     yell (2.2.2)
     zeitwerk (2.6.1)
 
