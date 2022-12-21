@@ -20,7 +20,9 @@ on:
   schedule:
     - cron: '0 8 * * 1'
 #    - cron:  '*/10 * * * *' # For debugging
-
+  # Allows you to run this workflow manually from the Actions tab
+  # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
+  workflow_dispatch:
 
 jobs:
   analyze:

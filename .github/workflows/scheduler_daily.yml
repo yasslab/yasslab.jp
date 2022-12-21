@@ -10,6 +10,9 @@ name: Scheduler (Daily)
 on:
   schedule:
     - cron:  '59 23 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
+  workflow_dispatch:
 
 jobs:
   build:

@@ -5,6 +5,9 @@ name: Scheduler (Every 10 minutes)
 on:
   schedule:
     - cron:  '*/10 * * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
+  workflow_dispatch:
 
 jobs:
   build:
