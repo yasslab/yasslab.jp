@@ -85,11 +85,11 @@ YassLab 株式会社（以下、当社）では、当社が運営するWebサイ
 当社では、個人情報の取得に関する変更、利用目的の変更、またはその他プライバシーポリシーを変更した際には、当社コーポレートサイト（<a href='/'>yasslab.jp</a>）への掲載または電子メールなどにより利用者に通知するものといたします。
 
 - これまでの変更履歴
-  - 改定: 2022年12月27日
-  - 改定: 2022年4月1日
-  - 改定: 2019年1月28日
-  - 改定: 2017年6月2日
-  - 制定: 2012年6月1日 
+  - 改定: 2022年12月27日 ([更新箇所](https://note.com/yasslab/n/ne7e5a10c50ad))
+  - 改定: 2022年04月01日 ([更新箇所](https://note.com/yasslab/n/n6ed4879dfed8))
+  - 改定: 2019年01月28日 ([更新箇所](https://github.com/yasslab/yasslab.jp/compare/e923b46c106af50319ae261bff9bf241df7baa9e..1f5b03a2#diff-92548c8e8d8407989094e27fb53fb42ecc4f178394852df9a9cda90845c8150a))
+  - 改定: 2017年06月02日 ([更新箇所](https://github.com/yasslab/yasslab.jp/commit/e923b46c106af50319ae261bff9bf241df7baa9e))
+  - 制定: 2012年06月01日 ([初版内容](https://github.com/yasslab/yasslab.jp/commit/ad2eb30d284960e5b7f123f6a8bdfa87b5225b8f))
 
 ## ご意見などへの対応
 
