@@ -70,7 +70,7 @@ YassLab 株式会社（以下、当社）では、当社が運営するWebサイ
 - [Google Analytics 利用規約](https://marketingplatform.google.com/about/analytics/terms/jp/)
 - [Google - ポリシーと規約](https://policies.google.com/?hl=ja)
 
-なお Google 社より、Google Analytics を用いたデータ使用を無効にできるツール「[Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout/?hl=en)」が提供されております。こちらも合わせてご参考になれば幸いです。
+なお Google 社より、Google Analytics を用いたデータ使用を無効にできるツール「[Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout/?hl=ja)」が提供されております。こちらも合わせてご参考になれば幸いです。
 
 
 ## SSL・Stripe の使用について {#ssl}
