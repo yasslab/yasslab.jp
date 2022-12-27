@@ -6,7 +6,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem 'jekyll',  "4.3.1"
 gem 'rack-jekyll'
 gem 'rake'           # for running tasks
-gem "webrick"
 
 gem 'nokogiri'       # for qiita.rb
 gem 'redcarpet'      # for rendering markdown files
