@@ -27,6 +27,7 @@ end
 Idobata.hook_url = ENV['IDOBATA_MAILS']
 USERNAME         = ENV['GMAIL_USERNAME']
 PASSWORD         = ENV['GMAIL_PASSWORD']
+#SLACK_EMAIL      = ENV['SLACK_EMAIL']
 MAX_POST_SIZE    = 99998
 
 # login, confirm, then send/cancel and logout
