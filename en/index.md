@@ -13,7 +13,6 @@ lang:   en
 ## [Recent news](#news) {#news}
 
 - [Interviewed by CoderDojo Foundation](https://coderdojo.com/2020/06/18/how-the-coderdojo-community-in-japan-has-adapted-to-change/) on how the CoderDojo community in Japan has adapted to change.
-- Become an official partner of [Scrivito](https://scrivito.com/partners), the professional cloud-based Rails CMS.
 - Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
 - Introduced as one of contributoring companies to Ruby by [Matz Keynote](https://www.youtube.com/watch?v=E9bO1uqs4Oc&feature=youtu.be&t=3904) at RubyKaigi
 - Interviewed by [HackerSpace Film](https://www.facebook.com/photo.php?fbid=10153341493740869&set=t.715330868&type=3&theater) for our [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
@@ -108,12 +107,11 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 - We are supporting: 
   - [Rails Programmer Certification Test Steering Committee](https://www.railscp.com/aboutus/) (Technical Adviser)
   - [Business OSS Consortium Japan](https://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
-  - [OSS Gate](https://oss-gate.github.io/) (Doorkeeper sponsor)
+  - [OSS Gate](https://oss-gate.github.io/) (Doorkeeper Sponsor)
+  - [RubyKaigi](http://rubykaigi.org/) (Translation Supporter)
   - [RyukyuFrogs](https://www.ryukyu-frogs.com/) (Technical Supporter)
-  - [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
-  - [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)
-  - [CoderDojo Japan](https://coderdojo.jp/) (Web Develpment Sponsor)
-  - [Mitou Foundation](https://www.mitou.org/) (Project Manager at [Mitou Jr.](https://jr.mitou.org/))
+  - [CoderDojo Japan Association](https://coderdojo.jp/) ([Web Develpment](https://github.com/coderdojo-japan) Partner)
+  - [Mitou Junior](https://jr.mitou.org/english/) (Providing learning resources for young creators)
 
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
