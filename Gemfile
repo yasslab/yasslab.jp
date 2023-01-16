@@ -28,7 +28,9 @@ gem "psych", "< 4.0.0"
 gem 'net-imap'          # Basics to access Web like notifications
 gem 'net-smtp'          # Basics to access Web like notifications
 gem 'net-pop'           # Basics to access Web like notifications
-gem 'idobata'           # All: Notify
+gem 'idobata'                 # All: Notify (To be removed)
+gem 'slack-incoming-webhooks' # All: Notify
+
 gem 'rss'               # RSS: Fetch RSS
 gem 'sanitize'          # RSS: Remove HTML tags
 gem 'activesupport'     # RSS: Time Calculation

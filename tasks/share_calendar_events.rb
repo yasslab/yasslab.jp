@@ -5,7 +5,8 @@ require 'google/apis/calendar_v3'
 require 'googleauth'
 require 'googleauth/stores/file_token_store'
 
-require 'idobata'
+require 'slack/incoming/webhooks'
+
 require 'fileutils'
 require 'multi_json'
 
@@ -17,13 +18,13 @@ SCOPE = Google::Apis::CalendarV3::AUTH_CALENDAR_READONLY
 is_test = false
 case ARGV[0]
 when 'SANDBOX' then
-  Idobata.hook_url = ENV['IDOBATA_CALENDAR_SANDBOX']
+  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR_SANDBOX']
 when 'TEST' then
-  Idobata.hook_url = ENV['IDOBATA_CALENDAR_SANDBOX']
+  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR_SANDBOX']
   is_test = true
 else
   # Notify in production.
-  Idobata.hook_url = ENV['IDOBATA_CALENDAR']
+  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR']
 end
 
 # TODO: Want to load from ENV but needs to call YAML::Store for auth
@@ -118,9 +119,10 @@ end
 
 events.sort_by{|h| h[:start].delete(':').to_i }.each do |hash|
   next if hash[:summary].include? "Private"
-  msg += "<span class='label label-info'>#{hash[:start]}</span> #{hash[:summary]}<br>"
+  #msg += "<span class='label label-info'>#{hash[:start]}</span> #{hash[:summary]}<br>"
+  msg += "• `#{hash[:start]}` #{hash[:summary]}\n"
 end
-msg.gsub!("00:00", "&nbsp;メモ&nbsp;")
+msg.gsub!("00:00", " メモ ")
 
 if is_test
   puts "✅ Test passed successfully."
@@ -128,5 +130,5 @@ elsif msg.empty?
   puts "✅ No events found today."
 else
   puts "🆕 Found today's event(s)."
-  Idobata::Message.create(source: msg, format: :html) unless msg.empty?
+  slack.post msg
 end
