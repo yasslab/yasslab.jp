@@ -16,10 +16,6 @@ gem 'acme_challenge' # for authentication w/ LetsEncrypt
 gem 'rack-rewrite'   # for redirection like http->https
 gem 'rack-contrib'   # for managing CSP (cf. /config.ru)
 
-# To enhance building time with Jekyll 4.0.0+
-# https://github.com/yasslab/yasslab.jp/pull/123
-gem 'liquid-c'
-
 # Workaround: Psych:Module unsafe_load error
 # cf. https://google.com/search?q=method+%22unsafe_load%22+for+Psych
 gem "psych", "< 4.0.0"
