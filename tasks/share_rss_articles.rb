@@ -4,17 +4,17 @@
 require 'rss'
 require 'retryable'
 require 'sanitize'
-require 'idobata'
+require 'slack/incoming/webhooks'
 require 'active_support/all'
 
-Idobata.hook_url = ENV['IDOBATA_SHARE']
+slack            = Slack::Incoming::Webhooks.new ENV['SLACK_SHARE']
 TIME_INTERVAL    = 30 # minutes
 RSS_LIST         = [
 # { title: "Name short title of the RSS", url: "URL of RSS to fetch and share with team" },
-  { title: 'Ruby Weekly', label: 'danger',  url: 'https://rubyweekly.com/rss/'},
-  { title: 'YassLab',     label: 'info',    url: 'https://b.hatena.ne.jp/YassLab/rss'},
-  { title: 'Qiita',       label: 'success', url: 'https://qiita.com/organizations/yasslab/activities.atom'},
-  { title: 'TechRacho',   label: 'warning', url: "https://techracho.bpsinc.jp/category/ruby-rails-related/feed"},
+  { title: 'Ruby Weekly',     url: 'https://rubyweekly.com/rss/'},
+  { title: 'Hatena Bookmark', url: 'https://b.hatena.ne.jp/YassLab/rss'},
+  { title: 'Qiita',           url: 'https://qiita.com/organizations/yasslab/activities.atom'},
+  { title: 'TechRacho',       url: "https://techracho.bpsinc.jp/category/ruby-rails-related/feed"},
 ]
 
 
@@ -40,20 +40,20 @@ RSS_LIST.each { |rss|
 
   msg << articles.map {|a|
     if rss[:url].include? 'b.hatena.ne.jp'
-      p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-#{rss[:label]}'>#{rss[:title]}</span><br> #{a.description}"
+      p "<#{a.link}|#{a.title}> by `#{rss[:title]}`\n> #{a.description}"
     elsif rss[:url].include? "qiita.com"
-      p "<a href='#{a.link.href}'>#{a.title.content}</a> by <a href='https://qiita.com/#{a.author.name.content}'>#{a.author.name.content}</a> <span class='label label-#{rss[:label]}'>Qiita</span>"
+      p "<#{a.link.href}|#{a.title.content}> by <https://qiita.com/#{a.author.name.content}|#{a.author.name.content}> `Qiita`"
     elsif rss[:url].include? 'rubyweekly.com'
-      p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-#{rss[:label]}'>#{rss[:title]}</span><br> #{a.description}"
+      p "<#{a.link}|#{a.title}> by `#{rss[:title]}`\n> #{a.description}"
     else # e.g. TechRacho articles
-      p "<a href='#{a.link}'>#{a.title}</a> by <span class='label label-#{rss[:label]}'>#{rss[:title]}</span><br> #{Sanitize.fragment(a.description)[0..110] + '...'}"
+      p "<#{a.link}|#{a.title}> by `#{rss[:title]}`\n> #{Sanitize.fragment(a.description)[0..110] + '...'}"
     end
-  }.join("<br>")
+  }.join("\n")
 }
 
 if msg.empty?
   puts "✅ No recent updates ;)"
 else
   puts "🆕 Found new article(s)."
-  Idobata::Message.create(source: msg, format: :html) unless msg.empty?
+  slack.post msg unless msg.empty?
 end
