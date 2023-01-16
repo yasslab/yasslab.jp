@@ -4,7 +4,7 @@
 require 'open-uri'
 require 'date'
 require 'json'
-require 'idobata'
+require 'slack/incoming/webhooks'
 
 EMOJI_EYES = ":eyes: "
 EMOJI_BAGS = ":moneybag: "
@@ -23,8 +23,8 @@ class Gumroad
   end
 end
 
-Idobata.hook_url = ENV['IDOBATA_GUMROAD']
-gumroad          = Gumroad.new(ENV['GUMROAD_ACCESS_TOKEN'])
+slack   = Slack::Incoming::Webhooks.new ENV['SLACK_GUMROAD']
+gumroad = Gumroad.new(ENV['GUMROAD_ACCESS_TOKEN'])
 
 sales_data   = {}  #example: {"success":true,"sales":[....],"next_page_url":[]}
 sales_count  = 0
@@ -47,5 +47,5 @@ if sales_emojis.empty?
   puts "✅ No update found in the last 24 hours."
 else
   puts "🆕 Found new updates in the last 24 hours."
-  Idobata::Message.create(source: sales_emojis)
+  slack.post sales_emojis
 end
