@@ -30,11 +30,10 @@ jobs:
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    # TODO: This should be directed to Slack.
-    #- name: 🔔 Notify fetched articles from RSS
-    #  run:  bundle exec rake share_rss_articles
-    #  env:
-    #    IDOBATA_SHARE: ${{ secrets.IDOBATA_SHARE }}
+    - name: 🔔 Notify fetched articles from RSS
+      run:  bundle exec rake share_rss_articles
+      env:
+        SLACK_SHARE: ${{ secrets.SLACK_SHARE }}
 
     - name: 📜 Upsert recent articles from note.com
       run: |
