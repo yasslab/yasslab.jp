@@ -36,11 +36,11 @@ jobs:
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    #- name: 🔔 Notify daily updates in Gumroad by using Emoji
-    #  run: bundle exec rake share_gumroad_updates
-    #  env:
-    #    IDOBATA_GUMROAD:      ${{ secrets.IDOBATA_GUMROAD }}
-    #    GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
+    - name: 🔔 Notify daily updates in Gumroad by using Emoji
+      run: bundle exec rake share_gumroad_updates
+      env:
+        SLACK_GUMROAD:        ${{ secrets.SLACK_GUMROAD }}
+        GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
 
     - name: 📅 Share event summary today from given calendar
       run: bundle exec rake share_calendar_events
