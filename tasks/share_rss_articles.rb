@@ -40,13 +40,13 @@ RSS_LIST.each { |rss|
 
   msg << articles.map {|a|
     if rss[:url].include? 'b.hatena.ne.jp'
-      p "<#{a.link}|#{a.title}> by `#{rss[:title]}`\n> #{a.description}"
+      p "<#{a.link}|#{a.title}> by `<https://b.hatena.ne.jp/YassLab|#{rss[:title]}>`\n> #{a.description}"
     elsif rss[:url].include? "qiita.com"
       p "<#{a.link.href}|#{a.title.content}> by <https://qiita.com/#{a.author.name.content}|#{a.author.name.content}> `Qiita`"
     elsif rss[:url].include? 'rubyweekly.com'
-      p "<#{a.link}|#{a.title}> by `#{rss[:title]}`\n> #{a.description}"
+      p "<#{a.link}|#{a.title}> by `<https://rubyweekly.com/|#{rss[:title]}>`\n> #{a.description}"
     else # e.g. TechRacho articles
-      p "<#{a.link}|#{a.title}> by `#{rss[:title]}`\n> #{Sanitize.fragment(a.description)[0..110] + '...'}"
+      p "<#{a.link}|#{a.title}> by `<https://techracho.bpsinc.jp/category/ruby-rails-related|#{rss[:title]}>`\n> #{Sanitize.fragment(a.description)[0..110] + '...'}"
     end
   }.join("\n")
 }
