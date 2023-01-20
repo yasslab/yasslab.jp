@@ -106,7 +106,7 @@ calendar_ids.each do |calendar_id|
 end
 
 # Generate a message
-msg    = ""
+msg    = "本日の予定だよ！٩(ˊᗜˋ*)و \n"
 events = []
 responses.each do |response|
   response.items.each do |event|
