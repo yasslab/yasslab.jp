@@ -106,7 +106,8 @@ calendar_ids.each do |calendar_id|
 end
 
 # Generate a message
-msg    = "本日の予定だよ！٩(ˊᗜˋ*)و \n"
+prefix = "本日の予定だよ！٩(ˊᗜˋ*)و \n"
+msg    = ""
 events = []
 responses.each do |response|
   response.items.each do |event|
@@ -130,5 +131,5 @@ elsif msg.empty?
   puts "✅ No events found today."
 else
   puts "🆕 Found today's event(s)."
-  slack.post msg
+  slack.post prefix + msg
 end
