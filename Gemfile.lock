@@ -232,7 +232,7 @@ GEM
     ruby2_keywords (0.0.5)
     rubyntlm (0.6.3)
     safe_yaml (1.0.5)
-    sanitize (6.0.0)
+    sanitize (6.0.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     sassc (2.4.0)
