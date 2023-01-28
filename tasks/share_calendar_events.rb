@@ -114,14 +114,13 @@ responses.each do |response|
     next if event.start.nil?
     start = "00:00"  if event.start.date
     start = start    || event.start.date_time.strftime("%H:%M")
-    events << { start: start, summary: event.summary }
+    events << { start: start, summary: event.summary.gsub(/\B@(\w+)/, '<@\1>') }
   end
 end
 
-events.sort_by{|h| h[:start].delete(':').to_i }.each do |hash|
-  next if hash[:summary].include? "Private"
-  #msg += "<span class='label label-info'>#{hash[:start]}</span> #{hash[:summary]}<br>"
-  msg += "• `#{hash[:start]}` #{hash[:summary]}\n"
+events.sort_by{|e| e[:start].delete(':').to_i }.each do |event|
+  next if event[:summary].include? "Private"
+  msg += "• `#{event[:start]}` #{event[:summary]}\n"
 end
 msg.gsub!("00:00", " メモ ")
 
