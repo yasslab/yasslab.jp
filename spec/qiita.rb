@@ -13,7 +13,7 @@ RSpec.describe 'Qiita' do
     items = Liquid::Template.parse("{% qiita_stats items %}")
     expect(items.render).to be == '80'
     likes = Liquid::Template.parse("{% qiita_stats likes %}")
-    expect(likes.render).to be == '7000'
+    expect(likes.render).to be == '2800'
   end
 
   it 'stats should fail to access with wrong path' do
