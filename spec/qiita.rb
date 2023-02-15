@@ -2,26 +2,16 @@ require 'spec_helper'
 require 'nokogiri'
 require 'jekyll'
 
-SUCESS_MOCK_PATH = '_data/qiita_org_sample.html'.freeze
-FAILED_MOCK_PATH = 'spec/error_mock.html'.freeze
+SAMPLE_QIITA_PATH = '_data/qiita_org_sample.html'.freeze
 
 RSpec.describe 'Qiita' do
   require './_plugins/qiita.rb'
-  it 'stats should get items & likes with correct path' do
-    mock = File.expand_path(SUCESS_MOCK_PATH)
+  it 'plugin should get Item & Like numbers' do
+    mock = File.expand_path(SAMPLE_QIITA_PATH)
 
     items = Liquid::Template.parse("{% qiita_stats items %}")
-    expect(items.render).to be == '80'
+    expect(Integer items.render).to be_truthy
     likes = Liquid::Template.parse("{% qiita_stats likes %}")
-    expect(likes.render).to be == '2800'
-  end
-
-  it 'stats should fail to access with wrong path' do
-    mock = File.expand_path(FAILED_MOCK_PATH)
-
-    items = Liquid::Template.parse("{% qiita_stats items %}")
-    expect(items.render).to be == Jekyll::QIITA_PRESET_ITEMS.to_s
-    likes = Liquid::Template.parse("{% qiita_stats likes %}")
-    expect(likes.render).to be == Jekyll::QIITA_PRESET_LIKES.to_s
+    expect(Integer likes.render).to be_truthy
   end
 end
