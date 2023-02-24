@@ -50,6 +50,40 @@ jobs:
         GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
         GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
 
+    - name: ♨️ Fetch Japanese holidays to cache
+      run: |
+        bundle exec rake fetch_japanese_holidays
+        echo "NEW_HOLIDAY=false" >> $GITHUB_ENV
+        if [ -n "$(git status --porcelain)" ]; then
+          git config --global user.name  "Yohei Yasukawa"
+          git config --global user.email "yohei@yasslab.jp"
+          git checkout main
+          git add holidays.json
+          git commit -m '🤖 Upsert holiday data by GitHub Actions'
+          git push origin main
+          echo "NEW_HOLIDAY=true" >> $GITHUB_ENV
+        else
+          echo "No new holiday(s) found."
+        fi
+      env:
+        GITHUB_TOKEN:
+
+    - name: ✅ No recent articles found
+      if: ${{ env.NEW_HOLIDAY == 'false' }}
+      run: |
+        echo "No new holiday(s) found."
+
+    - name: 🚀 Deploy to Heroku if recent article(s) found
+      if: ${{ env.NEW_HOLIDAY == 'true' }}
+      uses: akhileshns/heroku-deploy@v3.4.6
+      with:
+        branch:          'main'
+        usedocker:       false
+        heroku_api_key:   ${{ secrets.HEROKU_API_KEY }}
+        heroku_app_name: 'yasslab-jp'
+        heroku_email:    'yohei@yasslab.jp'
+        healthcheck:     'https://yasslab.jp/health'
+
     #- name: 🚨 Notify if tasks in GitHub Actions failed
     #  env:
     #    IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
