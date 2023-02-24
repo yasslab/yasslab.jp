@@ -48,6 +48,7 @@ jobs:
             git commit -m '🤖 Upsert note article(s) by GitHub Actions'
             git push origin main
             echo "NEW_NOTE=true" >> $GITHUB_ENV
+            echo "Found new article(s) in note."
           else
             echo "Detected YAML syntax error in '_data/news.yml' so not going to deploy."
           fi

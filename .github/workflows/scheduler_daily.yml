@@ -62,13 +62,14 @@ jobs:
           git commit -m '🤖 Upsert holiday data by GitHub Actions'
           git push origin main
           echo "NEW_HOLIDAY=true" >> $GITHUB_ENV
+          echo "Found new holiday(s)."
         else
           echo "No new holiday(s) found."
         fi
       env:
         GITHUB_TOKEN:
 
-    - name: ✅ No recent articles found
+    - name: ✅ No new holidays found
       if: ${{ env.NEW_HOLIDAY == 'false' }}
       run: |
         echo "No new holiday(s) found."
