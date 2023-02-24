@@ -63,7 +63,7 @@ jobs:
 
     - name: 🚀 Deploy to Heroku if recent article(s) found
       if: ${{ env.NEW_NOTE == 'true' }}
-      uses: akhileshns/heroku-deploy@v3.4.6
+      uses: akhileshns/heroku-deploy@v3.12.13
       with:
         branch:          'main'
         usedocker:       false
