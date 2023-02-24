@@ -17,6 +17,11 @@ task :share_gumroad_updates do |task, args|
   ruby "tasks/share_gumroad_updates.rb"
 end
 
+desc "Fetch and cache holidays from Japanese Cabinet Office (CAO)"
+task :fetch_japanese_holidays do |task, args|
+  ruby "tasks/fetch_japanese_holidays.rb"
+end
+
 desc "Share opt-in Health Planet user record"
 task :share_health_planet do |task, args|
   ruby "tasks/share_health_planet.rb"
