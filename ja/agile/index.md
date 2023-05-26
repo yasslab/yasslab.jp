@@ -82,7 +82,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
         <div>
 	  <img src="/img/spinner.svg" data-src="/img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" class="lazyload" />
 	  <br><br>
-          <center>参考: <a href="https://www.ipa.go.jp/files/000005404.pdf">アジャイル開発向けモデル契約案について</a> (IPA)</center>
+          <center>参考: <a href="https://www.ipa.go.jp/digital/model/agile20200331.html">アジャイル開発向けモデル契約案について</a> (IPA)</center>
 	</div>
 
         <p>この契約の特徴は次の通りです:</p>

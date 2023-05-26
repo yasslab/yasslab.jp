@@ -49,7 +49,7 @@
 - 12月 [Rails DM Day 4](https://techplay.jp/event/702297) に司会進行スポンサーとして協賛・参加
 - 12月 NPO法人[CANVASフェロー会](http://canvas.ws/workshop/19877)でコミュニティ運営を発表
 - 11月 技術顧問として [MC Open Lab. #6](https://www.memberscareer.co.jp/coworkers/now/detail/?p=821) で反転学習を発表
-- 11月 [IPA未踏事業](https://www.ipa.go.jp/jinzai/mitou/portal_index.html)八合目合宿にOB・OGとして招待参加
+- 11月 [IPA未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)八合目合宿にOB・OGとして招待参加
 - 11月 未踏ジュニアPMとして安川が [Edvation×Summit に登壇](https://www.youtube.com/playlist?list=PLNObH2jlC6lcEV1hwnEGMDEujOwYCjEAz&disable_polymer=true)
 - **11月 Railsチュートリアル『[法人プラン](https://railstutorial.jp/business)』をリリース**
 - **11月 [RubyWorld Conference](https://2018.rubyworld-conf.org/program/) で[動画を用いた反転学習](https://speakerdeck.com/yasslab/more-interactive-way-of-learning-rails)を講演**
@@ -64,7 +64,7 @@
 - 8月 株式会社メンバーズ (東証1部) グループ会社[技術顧問就任](https://www.members.co.jp/company/news/2018/0806_2.html)
 - 8月 事業速度向上のため、オフィス隣に役員向け社宅を設置
 - 7月 MIT 主催の [Scratch Conference](https://scratch.mit.edu/conference) に参加
-- 7月 [IPA未踏事業](https://www.ipa.go.jp/jinzai/mitou/portal_index.html)ブースト会議にOB・OGとして招待参加
+- 7月 [IPA未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)ブースト会議にOB・OGとして招待参加
 - 7月 [琉球大学enPiT](https://ie.u-ryukyu.ac.jp/enpit/)にRailsチュートリアル解説動画を提供
 - 7月 [GMOペパボ](https://pepabo.com/)でRailsチュートリアル翻訳・組版技術を講演
 - 6月 [Hackers Champloo 2018](http://hackers-champloo.org/2018/) に協賛 (ゴールドスポンサー)
@@ -85,7 +85,7 @@
 - 2月 [経済同友会](https://www.doyukai.or.jp/)DC育成分科会にてアドバイザーとして参加
 - 2月 社員数増加に伴い、[就業規則](/ja/docs/work-regulations)と[賃金規程](/ja/docs/wage-regulations)を制定・公開
 - 2月 [Developers Summit 2018](https://event.shoeisha.jp/devsumi/20180215/session/1663) (U-30 代表枠) として登壇
-- 1月 [IPA未踏事業](https://www.ipa.go.jp/jinzai/mitou/portal_index.html)中間合宿にOB・OGとして招待参加
+- 1月 [IPA未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)中間合宿にOB・OGとして招待参加
 - 1月 [社会保険労務士法人](https://oka-sr.jp/)代表の岡氏が[顧問社労士](/ja/about/#company)に就任
 - 1月 [Hay未来の税理士法人](http://www.hay-kaikei.com/)代表の林氏が[顧問税理士](/ja/about/#company)に就任
 - **1月 個人事業から法人成りし、[YassLab 株式会社](https://twitter.com/yasulab/status/958189005194985472)を設立**
@@ -185,7 +185,7 @@
 - 4月 RailsアプリケーションのHeroku移行の開発支援を開始
 - **4月 国際的な子どもプログラミング道場『[CoderDojo](https://coderdojo.com/)』の日本代表 ([CoderDojo Community Committee](http://kata.coderdojo.com/wiki/CoderDojo_Community_Committee)) に弊社安川が就任**
 - 3月 リクルート主催『[Application Developer Festival](https://recruit-holdings.co.jp/news_data/release/2015/0302_15663.html)』で講演
-- 3月 [未踏会議/未踏ナイト](https://www.ipa.go.jp/jinzai/mitou/2014/mitoukaigi.html)で[継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)をブース展示
+- 3月 [未踏会議/未踏ナイト](https://logmi.jp/events/60)で[継続的翻訳システム](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)をブース展示
 - 2月 初期から参画したシェアハウスの[ギークハウス沖縄](http://text.geeoki.com/post/112124574627/%E8%A7%A3%E6%95%A3%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F)を解散
 - 1月 [Nilquebe](http://nilquebe.com/) と共同で[Rails集中解説セミナー@神戸](http://railstutorial.jp/seminars)を開講
 
@@ -225,7 +225,7 @@
 - 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[TWO CARTOON FOXES](http://rubykaigi.org/2013/talk/S51)で翻訳に貢献
 - 5月 [RubyKaigi 2013](http://rubykaigi.org/2013)の[Community Appeal](http://rubykaigi.org/2013/talk/S62)で[Okinawa.rb](https://speakerdeck.c/yasulab/invitation-to-okinawa-dot-rb)を紹介
 - 5月 シェアハウス『ギークハウス沖縄』が[読売新聞に掲載](https://www.facebook.com/photo.php?fbid=10151408573325869&set=a.10150840241290869&type=3&theater)
-- 5月 弊社安川が2012年度[IPA未踏スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html)に[認定](https://www.facebook.com/photo.php?fbid=10151945267180869&set=a.10150840241290869&type=3&theater)
+- 5月 弊社安川が2012年度[IPA未踏スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/it/supercreator-list.html)に[認定](https://www.facebook.com/photo.php?fbid=10151945267180869&set=a.10150840241290869&type=3&theater)
 - **4月 [Railsチュートリアル公開](https://github.com/yasslab/railstutorial.jp/commit/b79f70d)。[Social Translating](https://speakerdeck.com/yasulab/social-translating-the-way-of-translating-rails-tutorial-and-ruby-hacking-guide) 手法を起案**
 - 2月 [東京Ruby会議 (3日目)](http://tokyo10.rubykaigi.info/) で[Railsハッカソン@沖縄](https://speakerdeck.com/yasulab/report-of-rails-hackathon-in-okinawa)を発表
 - 1月 (株) ネクスウェイのオンライン郵送サービス開発支援開始
@@ -246,7 +246,7 @@
 - 6月 CoderDojo の立ち上げが [The Nikkei Asian Review に掲載](https://www.facebook.com/photo.php?fbid=10150896080380869&set=a.10150840241290869&type=3&theater)
 - 5月 立ち上げ時に関わったギークハウス沖縄が[琉球新報に掲載](https://www.facebook.com/photo.php?fbid=10150840241430869&set=a.10150840241290869&type=3&theater)
 - **5月 アジア初の CoderDojo 発起。[日経流通新聞 (日経MJ) 掲載](https://www.facebook.com/photo.php?fbid=10150840261690869&set=a.10150840241290869&type=3&theater)**
-- **4月 未踏事業に[思いを叶える視覚駆動バケットリスト](http://www.ipa.go.jp/jinzai/mitou/2012/2012_1/gaiyou/f-1.html)が採択**
+- **4月 未踏事業に[思いを叶える視覚駆動バケットリスト](https://www.ipa.go.jp/jinzai/mitou/it/2012/f-1.html)が採択**
 - 3月 レキサスアカデミー最終成果報告会が[沖縄タイムスに掲載](https://www.facebook.com/photo.php?fbid=10150840286395869&set=a.10150840241290869&type=3&theater)
 - 3月 震災対策アプリが[日経新聞『転ばぬ先のアプリ』に掲載](https://www.facebook.com/photo.php?fbid=10150840311565869&set=a.10150840241290869&type=3&theater)
 - 3月 ファミリーマート販売[災害時帰宅支援ポケットMAPに掲載](https://www.facebook.com/photo.php?fbid=10150840334640869&set=a.10150840241290869&type=3&theater)

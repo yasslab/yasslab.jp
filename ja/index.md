@@ -168,7 +168,7 @@ layout: plain_without_thumbnail
              caption='<a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家' %}
 
 	  {% include member.html username='yasulab'   link_to='twitter'
-	     caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/kinkyou/creator.html">未踏スーパークリエータ</a>。代表取締役' %}
+	     caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/it/supercreator-list.html">未踏スーパークリエータ</a>。代表取締役' %}
 	  {% include member.html username='hachi8833' link_to='twitter'
 	     caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
 
