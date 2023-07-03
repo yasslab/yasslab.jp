@@ -27,7 +27,7 @@
 - 4月 DIVE INTO CODE 主催 [Demo Day 6th](https://diveintocode.doorkeeper.jp/events/83984) に審査員として参加
 - 4月 『[DojoCast](https://coderdojo.jp/podcasts)』の [Apple Podcasts アプリ対応](https://twitter.com/CoderDojoJapan/status/1112927872803430400)をリリース
 - 4月 coderdojo.jp から[2018年の統計情報](https://twitter.com/CoderDojoJapan/status/1112581734967570432)を公開
-- 4月 新たに社員が加わり、[社員数が12名](/ja/#members)になりました
+- 4月 新たに社員が加わり、[従業員数が12名](/ja/#members)になりました
 - 3月 JP_Stripes Connect 2019 の[LTセッションで登壇](https://yasslab.jp/ja/news/jp-stripes-connect-2019)
 - **3月 Railsガイド『[Proプラン](https://yasslab.jp/ja/news/release-pro-plan)』をリリースしました**
 - 3月 フクオカRuby大賞で[AWS賞を受賞](https://yasslab.jp/ja/news/aws-award-at-fukuoka-ruby-2019)しました
@@ -83,7 +83,7 @@
 - 3月 経産省主催「[未来の教室WS](http://www.meti.go.jp/press/2018/06/20180625003/20180625003-3.pdf)」に招待参加
 - 3月 弊社安川が[沖縄Ruby会議02](http://ruby.okinawa/okrk02/)を実行委員長として主催
 - 2月 [経済同友会](https://www.doyukai.or.jp/)DC育成分科会にてアドバイザーとして参加
-- 2月 社員数増加に伴い、[就業規則](/ja/docs/work-regulations)と[賃金規程](/ja/docs/wage-regulations)を制定・公開
+- 2月 従業員数増加に伴い、[就業規則](/ja/docs/work-regulations)と[賃金規程](/ja/docs/wage-regulations)を制定・公開
 - 2月 [Developers Summit 2018](https://event.shoeisha.jp/devsumi/20180215/session/1663) (U-30 代表枠) として登壇
 - 1月 [IPA未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)中間合宿にOB・OGとして招待参加
 - 1月 [社会保険労務士法人](https://oka-sr.jp/)代表の岡氏が[顧問社労士](/ja/about/#company)に就任
@@ -118,7 +118,7 @@
 - 4月 [技術書典２](https://techbookfest.org/event/tbf02)にて弊社ブースを出展
 - 4月 [Railsガイドの電子書籍版 (5.0対応)](https://gumroad.com/l/railsguidesjp_ebook) の販売を開始
 - 4月 [Railsチュートリアルの電子書籍版 (5.0対応)](https://gumroad.com/l/railstutorialjp_ebook) の販売を開始
-- 4月 新たなエンジニアが加わり、社員数が5名になりました
+- 4月 新たなエンジニアが加わり、従業員数が5名になりました
 - 3月 シンガポールの国際カンファレンス[FOSSASIA 2017](http://2017.fossasia.org/)で登壇
 - 2月 [Ruby Business Users Conference 2017](http://www.rubybusiness-conf.org/) に採択されました
 - 2月 名古屋Ruby会議03で「[CoderDojo と Rails CMS](https://speakerdeck.com/yasulab/coderdojo-to-rails-cms)」を発表
@@ -155,10 +155,10 @@
 - 4月 海外向けの新規規事の開発支援を開始 (〜12月)
 - 4月 Rails-based CMS を開発する[ドイツの Scrivito と提携](https://scrivito.com/partners)
 - **4月 海外サイトの [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) に弊社安川が掲載**
-- 4月 新しいメンバーを迎え、社員数が4人になりました
+- 4月 新しいメンバーを迎え、従業員数が4人になりました
 - 3月 [第5期 Railsチュートリアル解説セミナー](https://coedo-rails.doorkeeper.jp/events/37506)を実施
 - 3月 [未踏会議/未踏ナイト](http://www.meti.go.jp/press/2015/02/20160212002/20160212002.html)で [CoderDojo Japan の活動を紹介](https://www.youtube.com/watch?v=O8ULPyEwDww)
-- 2月 新しいメンバーを迎え、社員数が3人になりました
+- 2月 新しいメンバーを迎え、従業員数が3人になりました
 - 1月 日経SW [1月](http://ec.nikkeibp.co.jp/item/backno/SW1212.html)/[2月](http://ec.nikkeibp.co.jp/item/backno/SW1213.html)/[3月号](http://ec.nikkeibp.co.jp/item/backno/SW1214.html)で「イチからわかるRails」を連載
 - 1月 [Creators MeetUp](http://cmu.connpass.com/event/24504/) で[技術文書の継続的翻訳](https://speakerdeck.com/yasulab/ji-shu-wen-shu-falsefan-yi-deben-qi-dasitemita)を発表
 - 1月 Railsによる建築系新規Webサービスの開発支援を開始
