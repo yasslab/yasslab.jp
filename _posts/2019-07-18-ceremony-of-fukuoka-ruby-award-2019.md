@@ -32,13 +32,15 @@ YassLab 株式会社が提供する『[Railsチュートリアル法人プラン
   <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Railsチュートリアル</a> 『法人プラン』が <a href="https://twitter.com/hashtag/AWS?src=hash&amp;ref_src=twsrc%5Etfw">#AWS</a> 賞を受賞したので FUKUOKA Ruby Award 2019 授賞式に来ました! 😆💎✨  <br><br>💎 FUKUOKA Ruby Award: <a href="https://t.co/WQMoWITLEX">https://t.co/WQMoWITLEX</a><br><br>📹 法人プラン: <a href="https://t.co/vvG21r7lrt">https://t.co/vvG21r7lrt</a> <a href="https://t.co/9JvgXOIx5k">pic.twitter.com/9JvgXOIx5k</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1151312883738804224?ref_src=twsrc%5Etfw">July 17, 2019</a></blockquote>
 </div>
 
+<!--
 表彰式の様子も動画で撮ったので、よければこちらもぜひ 😉
 
 <div class="video" style="margin-bottom: 100px;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/AhMZkUDxaRU?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+-->
 
-そして上記動画で受け取った表彰状がコチラになります 🏆
+そして受け取った表彰状がコチラになります 🏆
 
 ![AWS賞_表彰状](https://i.gyazo.com/7b337dfbfb29ebb337a1ac7faf3d2933.jpg)
 
