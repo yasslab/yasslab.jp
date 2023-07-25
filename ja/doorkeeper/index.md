@@ -1,6 +1,6 @@
 ---
 layout: doorkeeper
-title:  DoorKeeper スポンサーシップ
+title:  Doorkeeper スポンサーシップ
 thumbnail: bg-dark.jpg
 ---
 
