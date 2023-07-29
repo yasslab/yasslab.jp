@@ -39,7 +39,7 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
 - 沖縄のIT系コミュニティ (例: [Okinawa Ruby User Group](https://okinawarb.doorkeeper.jp/)、[Okinawa Frontend](https://okinawa-frontend.doorkeeper.jp/)、[IGDA 琉球大学](https://igda-ryukyus.doorkeeper.jp/))
 - 他、弊社との関連性が高いコミュニティ (例: [OSS Gate](https://oss-gate.github.io/)、[Nilquebe](https://nilquebe.com/)、[Otona Programming](https://otona-programming.doorkeeper.jp/))
 
-もし枠が余っていれば上記以外のコミュニティも支援できると思いますが、枠の数には限りがあるため、基本的には上記のコミュニティを優先して支援していけたらと考えております。ご理解して頂けると幸いです 🙇
+もし枠が余っていれば上記以外のコミュニティも支援できると思いますが、枠の数には限りがあるため、基本的には上記のコミュニティを優先して支援していけたらと考えております。ご理解いただけると幸いです 🙇
 
 <div id="example"></div>
 
