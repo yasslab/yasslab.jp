@@ -25,7 +25,7 @@ lang:   en
 
 - Web Services and Mobile Applications:
    - [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs), Automate Translating Frequently-updated Tech Docs.
-   - [Snapwhim](http://www.snapwhim.com/), Visual Bucket List.
+   - [Snapwhim](https://yasslab.jp/public/snapwhim), Visual Bucket List.
    - [ScreenX TV](http://screenx.tv/), Real-time Terminal Broadcasting Tools.
    - [Whistle on Android](https://play.google.com/store/apps/details?id=org.sorarier.whistle), Android app developed for [2011 Tōhoku earthquake and tsunami](http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami).
 - Education, Workshops, and Materials:
