@@ -1,0 +1,5 @@
+Contact: mailto:info@yasslab.jp
+Expires: 2033-12-31T14:59:00.000Z
+Preferred-Languages: ja, en
+Policy: https://yasslab.jp/ja/privacy
+Hiring: https://yasslab.jp/ja/join-forces
