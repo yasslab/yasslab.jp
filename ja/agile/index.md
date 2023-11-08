@@ -92,7 +92,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
         <ul>
           <li>基本契約でNDAや著作権の譲渡などを取り扱います</li>
 	  <li>個別契約で稼働数や金額の調整などを取り扱います</li>
-          <li>準委任契約となり、成果物は作業報告書になります</li>
+          <li>準委任契約となり、成果物は<a href='https://drive.google.com/drive/folders/1Z3Ji3Hyo_zsB6qP2LYoFoOHfLNhqaUSf?usp=sharing'>作業報告書</a>になります</li>
         </ul>
 	<p>上記のモデル契約書を具体化した契約書が、次の契約書になります。特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。</p>
 
