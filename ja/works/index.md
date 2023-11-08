@@ -15,8 +15,9 @@ description: これまでの活動実績や沿革、創業ストーリーなど�
           <ol>
 	    <li><b><a href="https://railstutorial.jp/">Railsチュートリアル</a></b>の運営: <a href="http://railstutorial.jp/#text">書籍</a>・<a href="https://railstutorial.jp/screencast">動画</a>・<a href="https://railstutorial.jp/#learn-by">質問対応</a>など</li>
 	    <li><b><a href="https://railsguides.jp/">Railsガイド</a></b>の運営: <a href="https://railsguides.jp/ebook">書籍</a>・<a href="https://railsguides.jp/pro">Proプラン</a>・<a href="https://railsguides.jp/sponsors">協賛プラン</a>など</li>
-	    <li>法人向け: <a href="https://railstutorial.jp/business">研修の内製化支援</a>・<a href="https://railstutorial.jp/partner">教材のライセンス契約</a>など</li>
+	    <li>法人向け: <a href="https://railstutorial.jp/business">研修の内製化支援</a>、<a href="https://railstutorial.jp/partner">教材提供</a>、<a href='/ja/agile'>受託開発</a>など</li>
           </ol>
+
 	  <div id="story"></div>
         </div>
 
