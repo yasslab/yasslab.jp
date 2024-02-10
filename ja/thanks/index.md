@@ -10,7 +10,7 @@ contact_hidden: true
       <h1>お問い合わせ<br class="ignore-sp">ありがとうございました<br class="ignore-sp">📩💖</h1>
 
       <p>お問い合わせありがとうございます。弊社が運営する各サービスの導入・購入に関するお問い合わせについては３営業日以内にご返信いたしますね。</p>
-      <p>返信が無い場合は、お手数をおかけしますが以下の各サービスにある FAQ をご参照いただけると幸いです ✅</p>
+      <p>返信が無い場合は、お手数をおかけしますが<a href='#for-team'>以下の各サービス</a>にある FAQ をご参照いただけると幸いです ✅</p>
 
       <div align="right" style="padding-bottom: 100px;" id="for-team">
 	YassLab 株式会社<br>
