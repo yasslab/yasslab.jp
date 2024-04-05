@@ -58,8 +58,8 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 
 ### 関連 URL
 
-- [Ruby on Railsガイド - 協賛プラン](https://railsguides.jp/sponsors) <small>より引用</small>
-- [Ruby on Railsチュートリアル - YouTube](https://www.youtube.com/watch?v=nbI4WfXwXHk) <small>より引用</small>
+- [Ruby on Railsガイド - 協賛プラン](https://railsguides.jp/sponsors)
+- [Ruby on Railsチュートリアル - YouTube](https://www.youtube.com/watch?v=nbI4WfXwXHk)
 - [Ruby on Railsチュートリアル - 活用事例まとめ](https://railstutorial.jp/message)
 
 
