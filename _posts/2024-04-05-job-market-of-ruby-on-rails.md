@@ -22,7 +22,7 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 
 - [Rails技術者認定試験 - 2024年1月22日のプレスリリース](https://railsce.com/archives/1082) <small>よりグラフ化</small>
 - [Ruby on Railsの求人数が3年で4倍に増えた - blogs.itmedia.co.jp](https://blogs.itmedia.co.jp/yoshimasa/2024/01/ruby_on_rails34rails7basic33.html)
-- [Top Ruby Companies (※ Rubyを利用している上場企業一覧)](https://toprubycompanies.info/)
+- [Top Ruby Companies](https://toprubycompanies.info/) <small>(※ Rubyを利用している上場企業一覧)</small>
 
 <br>
 
