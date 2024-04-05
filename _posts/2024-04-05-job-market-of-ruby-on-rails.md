@@ -45,7 +45,9 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 ## [📊 Railsチュートリアル / Railsガイドの公開データ](#stats) {#stats}
 
 <div style="margin-bottom: 100px;">
-  <script async class="speakerdeck-embed" data-id="9dda1c62a9b546bcb15e2941d0f77534" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  <script async class="speakerdeck-embed"
+   data-slide="10" data-ratio="1.33333333333333" data-id="9dda1c62a9b546bcb15e2941d0f77534"
+   src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
 <div class="video" style="margin-bottom: 60px;">
