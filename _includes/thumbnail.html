@@ -1,5 +1,9 @@
 {% if page.thumbnail %}
-  {% if page.thumbnail contains 'http' %}
+  {% if page.url contains '/ja/news' %}
+  <div style="color: #fff; padding: 100px 0; margin-bottom: 0; border-radius: 0px;
+	      background: url(/img/bg-sky.jpg);">
+  </div>
+  {% elsif page.thumbnail contains 'http' %}
   <div style="color: #fff; padding: 100px 0; margin-bottom: 0; border-radius: 0px ;
 	      background: url({{ page.thumbnail }});"></div>
   {% else %}
