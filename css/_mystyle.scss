@@ -801,13 +801,14 @@ footer {
 
   }*/
   h2{
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
+
+    margin-bottom:3rem;
     padding: 0 25px;
-  @include media-breakpoint-up(sm) {
-    padding: 0 55px;
-  }
-  margin-bottom:3rem;
+    @include media-breakpoint-up(sm) {
+      padding: 0 55px;
+    }
   }
 
   h2:before, h2:after{
