@@ -765,12 +765,12 @@ footer {
   }
   line-height: 1.5;
   h1 {
-  position: relative;
-  line-height: 1.4;
-  padding:0.25em 1em;
-  margin-bottom:3rem;
-  display: inline-block;
-  top:0;
+    position: relative;
+    line-height: 1.4;
+    padding:0.25em 1em;
+    margin-bottom:3rem;
+    display: inline-block;
+    top:0;
   }
 
   h1:before,h1:after{
@@ -806,9 +806,12 @@ footer {
 
     margin-bottom:3rem;
     padding: 0 25px;
-    @include media-breakpoint-up(sm) {
-      padding: 0 55px;
-    }
+    @include media-breakpoint-up(sm) { padding: 0 55px; }
+
+    scroll-snap-type:  y proximity;
+    scroll-snap-align: center;
+    scroll-margin-top: 60px;
+    @include media-breakpoint-up(sm) { scroll-margin-top: 100px; }
   }
 
   h2:before, h2:after{
@@ -836,6 +839,11 @@ footer {
   h3{
     margin: 20px 0 10px 0;
     /*font-weight: bold;*/
+
+    scroll-snap-type:  y proximity;
+    scroll-snap-align: center;
+    scroll-margin-top: 60px;
+    @include media-breakpoint-up(sm) { scroll-margin-top: 100px; }
   }
   p{ line-height: 2.2em; }
   p,ul{
