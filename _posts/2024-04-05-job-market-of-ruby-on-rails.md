@@ -7,7 +7,7 @@ categories: [blog]
 tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 ---
 
-本ページでは Ruby on Rails の求人数の推移や、求人に関する統計レポート、また[Railsチュートリアル](https://railstutorial.jp/)・[Railsガイド](https://railsguides.jp/)から公開されているデータなどを、その出典と共にまとめています。
+本ページでは Ruby on Rails の求人数の推移や、求人に関する統計レポート、また[Railsチュートリアル](https://railstutorial.jp/)・[Railsガイド](https://railsguides.jp/)から公開されている利用動向・活用事例などを、その出典と共にまとめています。
 
 ## [🗾 日本の Rails 求人データ](#japan) {#japan}
 
