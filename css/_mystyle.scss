@@ -809,8 +809,7 @@ footer {
 
     scroll-snap-type:  y proximity;
     scroll-snap-align: center;
-    scroll-margin-top: 60px;
-    @include media-breakpoint-up(sm) { scroll-margin-top: 100px; }
+    scroll-margin-top: 100px;
   }
 
   h2:before, h2:after{
@@ -841,8 +840,7 @@ footer {
 
     scroll-snap-type:  y proximity;
     scroll-snap-align: center;
-    scroll-margin-top: 60px;
-    @include media-breakpoint-up(sm) { scroll-margin-top: 100px; }
+    scroll-margin-top: 100px;
   }
   p{ line-height: 2.2em; }
   p,ul{
