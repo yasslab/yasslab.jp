@@ -64,7 +64,7 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 
 - [Ruby on Railsガイド - 協賛プラン](https://railsguides.jp/sponsors)
 - [Ruby on Railsチュートリアル - YouTube](https://www.youtube.com/watch?v=nbI4WfXwXHk)
-- [Ruby on Railsチュートリアル - 活用事例まとめ](https://railstutorial.jp/message)
+- [Ruby on Railsチュートリアル - コラム『Ruby/Railsの実績』](https://railstutorial.jp/message) <small>(※ 最近の活用事例などをまとめています)</small>
 
 
 他にも興味深いデータが見つかったら、随時追記していきますね...!! 📝💨
