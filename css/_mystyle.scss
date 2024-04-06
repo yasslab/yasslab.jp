@@ -287,7 +287,8 @@ html {
 
 .mainVisual > .jumbotron {
   position: relative;
-  padding:0;
+  padding: 0;
+  @include media-breakpoint-down(sm) { margin-top: 60px; }
   margin-bottom: 0;
   img{ border-radius: 0px; }
   .logo-catch{
@@ -623,9 +624,9 @@ html {
 .siteHeader {
   position: fixed;
   z-index: 1030;
-  top: 0;
+  top:   0;
   right: 0;
-  left: 0;
+  left:  0;
   
   h1{
     padding:0;
