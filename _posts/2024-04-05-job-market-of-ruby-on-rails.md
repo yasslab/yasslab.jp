@@ -29,7 +29,11 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 
 ## [🌐 海外の Rails 求人データ](#overseas) {#overseas}
 
-[!['Rails' 求人数の推移](/img/news/job-market-rails-2.png)](/img/news/job-market-rails-2.png)
+!['Rails' 求人数の推移](/img/news/job-market-rails-2.png)
+
+<div class="infogram-embed" data-id="875df761-ea4a-4b02-b76e-24a5c200efe2" data-type="interactive" data-title="Demand for Coding Skills"></div><script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script>
+
+<br>
 
 <div class="center" style="margin-bottom: 60px;" align="center">
   <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">👀✨<br><br>海外でRuby on Railsの人気が再燃 ー 採用市場で最も求められているスキルのひとつに <a href="https://t.co/7ALzJFVXJX">https://t.co/7ALzJFVXJX</a> <br><br>&gt; 「Ruby on Railsの復権」（The Ruby on Rails Resurgence）という記事によると、Ruby on Railsの人気が再燃 ... Railsのスキルを持つエンジニアは約1.64倍もの面接機会を得ている</p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1775808738861150546?ref_src=twsrc%5Etfw">April 4, 2024</a></blockquote>
