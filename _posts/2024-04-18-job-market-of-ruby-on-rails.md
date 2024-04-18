@@ -10,6 +10,18 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 
 本ページでは Ruby on Rails の求人数の推移や、求人に関する統計レポート、また[Railsチュートリアル](https://railstutorial.jp/)・[Railsガイド](https://railsguides.jp/)から公開されている利用動向・活用事例などを、その出典と共にまとめています。
 
+<br>
+
+### [📺 YouTube で取り上げて頂きました! 🆕](#youtube) {#youtube}
+
+<div class="video" style="margin-bottom: 60px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3zzzHkiBzes?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="center" style="margin-bottom: 60px;" align="center">
+  <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">モローさん (<a href="https://twitter.com/it_bosatsu_moro?ref_src=twsrc%5Etfw">@it_bosatsu_moro</a>) のYouTubeチャンネルで対談してきました!🎤👥<br><br>📊Ruby/Rails求人数の推移グラフ<br>🌐海外の調査レポート<br>💎Top Ruby Companies <a href="https://t.co/lVNY6SPeq3">https://t.co/lVNY6SPeq3</a><br><br>などのデータ中心に話したのでよければぜひ...!!🙏💖 <a href="https://twitter.com/hashtag/Rails%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Railsチュートリアル</a> <a href="https://twitter.com/hashtag/Rails%E3%82%AC%E3%82%A4%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#Railsガイド</a><a href="https://t.co/q6jkOdIOFR">https://t.co/q6jkOdIOFR</a> <a href="https://t.co/ZWf1A2mLCO">https://t.co/ZWf1A2mLCO</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1780553142515749191?ref_src=twsrc%5Etfw">April 17, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
 ## [🗾 日本の Rails 求人データ](#japan) {#japan}
 
 [!['Rails' 求人数の推移](/img/news/job-market-rails-1.jpg)](/img/news/job-market-rails-1.jpg)
