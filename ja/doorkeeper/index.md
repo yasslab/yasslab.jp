@@ -325,12 +325,12 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
 %}
 
 {% include community.html
-           left_name=''
-           left_path='empty'
-           center_name='CoderDojo 二本松'
-           center_path='dojonihonmatsu'
-           right_name=''
-           right_path='empty'
+           left_name='CoderDojo 二本松'
+           left_path='dojonihonmatsu'
+           center_name='CoderDojo 松本'
+           center_path='coderdojo-matsumoto'
+           right_name='CoderDojo 立川'
+           right_path='coderdojotachikawa'
 %}
 
 <!--
