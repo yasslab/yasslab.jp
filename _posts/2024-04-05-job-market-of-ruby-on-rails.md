@@ -60,7 +60,7 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 <br>
 
 
-## [📊 Railsチュートリアル /<br class="ignore-pc"> Railsガイドの公開データ](#stats) {#stats}
+## [📊 Railsチュートリアル /<br> Railsガイドの公開データ](#stats) {#stats}
 
 <div style="margin-bottom: 100px;">
   <script async class="speakerdeck-embed"
