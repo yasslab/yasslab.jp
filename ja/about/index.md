@@ -85,6 +85,13 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
 	</div>
       </div>
     </div>
+
+    <script defer class="speakerdeck-embed" data-id="9622f3ecd9254aab920298d6f136697a" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+    <div  style='margin: 30px auto 100px;'>
+      <a href="https://speakerdeck.com/yasulab/who-am-i" target='_blank' rel='noopner'>
+	<button class="btn btn-primary btn-block btn-padding external-link">スライド資料を見る</button>
+      </a>
+    </div>
   </div>
   <div id="clients"></div>
 </section>
