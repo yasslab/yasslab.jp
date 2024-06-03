@@ -4,12 +4,15 @@ title:  会社概要
 description: 会社の事業やこれまでの取引先、役員情報などをまとめているページです。
 ---
 
-<section class="entry_content pt-5 mb-5">
+<section class="entry_content pt-5 mb-5" id="vision">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center" id="vision">
+      <div class="col-md-12 text-center">
 
-        <h1>YassLab 社のやること</h1><br>
+        <h1>
+	  <a href='#vision'>YassLab 社のやること</a>
+	</h1>
+	<br>
 
         <p class="mb-4">
           YassLab 社では誰もがプロダクトを創り、語れる時代を目指して、様々な学習サービス・<a href='https://www.meti.go.jp/shingikai/mono_info_service/digital_jinzai/pdf/002_02_02.pdf'>リスキリング</a>事業を提供しています。</p>
@@ -19,7 +22,9 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
         <p class="mb-4">価値が循環できる仕組みの設計と実装に挑戦するチーム、それが YassLab 社です。</p>
         <img src="/img/spinner.svg" data-src="/img/company_image.png" alt="YassLabセミナーイメージ" class="mt-3 mb-5 lazyload">
 	
-        <h2 class="text-center mb-5" id="culture">価値が循環できる仕組みの例</h2>
+        <h2 class="text-center mb-5" id="culture">
+	  <a href='#culture'>価値が循環できる仕組みの例</a>
+	</h2>
         <p class="mb-4">YassLab 社では様々なコミュニティとも連携し、成長できるカタチを実践しています。コミュニティから得た価値を享受するだけのやり方は好みではありませんし、一方で、コミュニティが成長するために自分たちの時間や資産を無尽蔵に提供することが継続的なカタチに繋がるとも思えません。YassLab 社では互いに可能な範囲で協力しつつ、かつ、互いにとってメリットのあるカタチを大切にします。</p>
         <p class="mb-4">CoderDojo Japan との連携はうまく回っているカタチの１つです。<a href="/ja/agile">YassLab 社の開発支援サービス</a>は有償ですが、CoderDojo Japan への開発支援は互いの価値を交換し合うカタチで行なっています。</p>
 
@@ -46,12 +51,13 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
   </div>
 </section>
 
-<section class="entry_content pt-5 mb-5">
+<section class="entry_content pt-5 mb-5" id="ceo">
   <div class="container">
     <div class="row">
-
-      <div class="col-md-12 profile mt-5" id="profile">
-	<h2 class="text-center mt-5 mb-5">代表者<br class="ignore-pc">プロフィール</h2>
+      <div class="col-md-12 profile mt-5">
+	<h2 class="text-center mt-5 mb-5">
+	  <a href='#ceo'>代表者<br class="ignore-pc">プロフィール</a>
+	</h2>
         <div class="profile__image text-center mb-2">
           <img src="/img/spinner.svg" data-src="/img/photos/yasulab.webp" alt="安川 要平" class="rounded-circle lazyload" width="300px">
         </div>
@@ -93,10 +99,9 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
       </a>
     </div>
   </div>
-  <div id="clients"></div>
 </section>
 
-<section class="entry_content pt-5 catchCopy">
+<section class="entry_content pt-5 catchCopy" id="clients">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -112,12 +117,14 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
   <div id="references"></div>
 </section>
 
-<section class="entry_content pt-5">
+<section class="entry_content pt-5" id="company">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 offset-md-2 company" id="company">
+      <div class="col-md-8 offset-md-2 company">
         <div class="text-center">
-          <h2 class="mt-5 mb-5">会社情報</h2>
+          <h2 class="mt-5 mb-5">
+	    <a href='#company'>会社情報</a>
+	  </h2>
         </div>
 	
 	<div class="offset-md-1">
