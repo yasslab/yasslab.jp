@@ -126,7 +126,7 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
 	    <a href='#company'>会社情報</a>
 	  </h2>
         </div>
-	
+	<img src='/img/logo_800x200.png' />
 	<div class="offset-md-1">
 	  {% include profile_company.html benefits=true %}
 	</div>
