@@ -56,7 +56,7 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
     <div class="row">
       <div class="col-md-12 profile mt-5">
 	<h2 class="text-center mt-5 mb-5">
-	  <a href='#ceo'>代表者<br class="ignore-pc">プロフィール</a>
+	  <a href='#ceo'>代表<br class="ignore-pc">プロフィール</a>
 	</h2>
         <div class="profile__image text-center mb-2">
           <img src="/img/spinner.svg" data-src="/img/photos/yasulab.webp" alt="安川 要平" class="rounded-circle lazyload" width="300px">
