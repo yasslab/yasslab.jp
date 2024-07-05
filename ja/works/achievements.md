@@ -87,7 +87,7 @@
 - 2月 [Developers Summit 2018](https://event.shoeisha.jp/devsumi/20180215/session/1663) (U-30 代表枠) として登壇
 - 1月 [IPA未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)中間合宿にOB・OGとして招待参加
 - 1月 [社会保険労務士法人](https://oka-sr.jp/)代表の岡氏が[顧問社労士](/ja/about/#company)に就任
-- 1月 [Hay未来の税理士法人](http://www.hay-kaikei.com/)代表の林氏が[顧問税理士](/ja/about/#company)に就任
+- 1月 [Hay未来の税理士法人](https://www.mirai-no.co.jp/)代表の林氏が[顧問税理士](/ja/about/#company)に就任
 - **1月 個人事業から法人成りし、[YassLab 株式会社](https://twitter.com/yasulab/status/958189005194985472)を設立**
 
 

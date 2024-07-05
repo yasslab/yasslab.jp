@@ -103,7 +103,7 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 - Date:  Since January 11, 2018
 - Trademark: [No. 5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
 - HR Advisor: Yoshinobu Oka ([oka-sr.jp](https://oka-sr.jp/))
-- Tax Advisor: Hiroyuki Hayahi ([hay-kaikei.com](https://www.hay-kaikei.com/))
+- Tax Advisor: Hiroyuki Hayahi ([mirai-no.co.jp](https://www.mirai-no.co.jp/))
 - We are supporting: 
   - [Rails Programmer Certification Test Steering Committee](https://www.railscp.com/aboutus/) (Technical Adviser)
   - [Business OSS Consortium Japan](https://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
