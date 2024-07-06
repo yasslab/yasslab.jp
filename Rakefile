@@ -88,6 +88,7 @@ task test: [:build] do
   options = {
     allow_hash_href:  true,
     disable_external: ENV['TEST_EXTERNAL_LINKS'] != 'true',
+    enforce_https:    true,
 
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'QiitaTeam'],
     check_internal_hash: false, # NOTE: This raises error on correct internal hashes in Japanese
