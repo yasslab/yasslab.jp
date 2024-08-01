@@ -13,7 +13,7 @@ lang:   en
 ## [Recent news](#news) {#news}
 
 - [Interviewed by CoderDojo Foundation](https://coderdojo.com/2020/06/18/how-the-coderdojo-community-in-japan-has-adapted-to-change/) on how the CoderDojo community in Japan has adapted to change.
-- Introduced as [CoderDojo Heroes](https://coderdojo.com/news/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
+- Introduced as [CoderDojo Heroes](https://coderdojo.com/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
 - Introduced as one of contributoring companies to Ruby by [Matz Keynote](https://www.youtube.com/watch?v=E9bO1uqs4Oc&feature=youtu.be&t=3904) at RubyKaigi
 - Interviewed by [HackerSpace Film](https://www.facebook.com/photo.php?fbid=10153341493740869&set=t.715330868&type=3&theater) for our [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
 - Talk about how we continuously translate, compose, and run Japanese RailsTutorial & Japanese RailsGuides at RubyWorld Conference [2013](http://2013.rubyworld-conf.org/en/) / [2015](http://2015.rubyworld-conf.org/en/) / [2018](https://2018.rubyworld-conf.org/program/).
@@ -89,7 +89,7 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
 
 He obtained the degree of Master in Information and Computer Science from Waseda University, and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 100% remote-work company that focuses on Ruby/Rails projects [above](#top).
 
-Beyond the company projects, he is also known as one of co-founders of [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01), [CoderDojo Japan](https://coderdojo.jp/), and [MITOU for U-17](https://jr.mitou.org/english) projects. For such enthusiastic contributions to IT and Education fields in Japan, he was selected as one of persons possessing outstanding capabilities by [METI](http://www.meti.go.jp/english/press/2018/0510_001.html)-launched [The MITOH Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) speakers, and [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award.
+Beyond the company projects, he is also known as one of co-founders of [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01), [CoderDojo Japan](https://coderdojo.jp/), and [MITOU for U-17](https://jr.mitou.org/english) projects. For such enthusiastic contributions to IT and Education fields in Japan, he was selected as one of persons possessing outstanding capabilities by [METI](https://www.meti.go.jp/english/)-launched [The MITOH Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) speakers, and [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award.
 
 <br>
 
@@ -106,7 +106,7 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 - Tax Advisor: Hiroyuki Hayahi ([mirai-no.co.jp](https://www.mirai-no.co.jp/))
 - We are supporting: 
   - [Rails Programmer Certification Test Steering Committee](https://www.railscp.com/aboutus/) (Technical Adviser)
-  - [Business OSS Consortium Japan](https://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
+  - [Business OSS Consortium Japan](https://railsce.com/si) (Certified Rails Integrator)
   - [OSS Gate](https://oss-gate.github.io/) (Doorkeeper Sponsor)
   - [RubyKaigi](http://rubykaigi.org/) (Translation Supporter)
   - [RyukyuFrogs](https://www.ryukyu-frogs.com/) (Technical Supporter)

@@ -80,7 +80,7 @@
 - 4月 Mixiが運営する「COSMiKA」に[インタビュー記事](https://cosmika.jp/spaces/25/interview)が掲載
 - 4月 株式会社Progateとの[業務提携をプレスリリース](https://prtimes.jp/main/html/rd/p/000000036.000015015.html)
 - 3月 株式会社ポテパンとの[業務提携をプレスリリース](https://prtimes.jp/main/html/rd/p/000000004.000021148.html)
-- 3月 経産省主催「[未来の教室WS](http://www.meti.go.jp/press/2018/06/20180625003/20180625003-3.pdf)」に招待参加
+- 3月 経産省主催「[未来の教室WS](https://www.learning-innovation.go.jp/verify_years/2018年度/)」に招待参加
 - 3月 弊社安川が[沖縄Ruby会議02](http://ruby.okinawa/okrk02/)を実行委員長として主催
 - 2月 [経済同友会](https://www.doyukai.or.jp/)DC育成分科会にてアドバイザーとして参加
 - 2月 従業員数増加に伴い、[就業規則](/ja/docs/work-regulations)と[賃金規程](/ja/docs/wage-regulations)を制定・公開
@@ -217,7 +217,7 @@
 - 11月 [RubyWorld Conference 2013](http://2013.rubyworld-conf.org/ja/)にRailsチュートリアル採択
 - **11月 弊社安川が[TEDxRyukyu 2013](http://www.tedxryukyu.com/speaker.html)で『[経験と教育](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』を発表**
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)常任講師 (３期目)
-- 9月 [Okinawa Future School Conference](https://sites.google.com/a/ois-edu.com/okifsc/bios) で登壇とWS実施
+- 9月 [Okinawa Future School Conference](https://www.ois-edu.com/OkiFSC/) で登壇とWS実施
 - 8月 英訳に関わった[Ruby Hacking Guide](http://ruby-hacking-guide.github.io/)が[Hacker Newsに掲載](https://news.ycombinator.com/item?id=6197222)
 - 6月 未踏IT人材の1人として[日経工業新聞で紹介](https://www.facebook.com/photo.php?fbid=10151582012115869&set=a.10150840241290869&type=3&theater)される
 - 6月 ビジネス支援アプリ開発支援 (テストを2h→15mに高速化)

@@ -75,7 +75,7 @@ Our basic price is **1,000,000 yen/month.**
 - Legal Advisor: [Tokyo Sanno Law Office](http://www.ynmlaw.com/english/) Rie Nojima
 - Member of: 
     - [Rails Programmer Certification Test Steering Committee](http://www.railscp.com/aboutus/) (Technical Adviser)
-    - [Business OSS Consortium Japan](http://www.boss-con.jp/railspartner/) (Certified Rails Integrator)
+    - [Business OSS Consortium Japan](https://railsce.com/boss-con-japan) (Certified Rails Integrator)
 	- [RyukyuFrogs](http://www.ryukyu-frogs.com/) (Technical Supporter)
 	- [RubyKaigi](http://rubykaigi.org/) (Translation Staff/Supporter)
 	- [Scrivito](https://scrivito.com/partners) (Implementation/Consulting Partners)

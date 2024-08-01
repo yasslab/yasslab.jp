@@ -102,6 +102,7 @@ task test: [:build] do
       #       but it contradicts SpeakerDeck's default embed option.
       # e.g.: https://github.com/gjtorikian/html-proofer/issues/750
       %r{^//speakerdeck.com},
+      /kit.fontawesome.com/,
     ],
     ignore_status_codes: [0, 500, 999],
   }
