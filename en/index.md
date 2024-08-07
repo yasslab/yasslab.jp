@@ -101,7 +101,9 @@ Beyond the company projects, he is also known as one of co-founders of [Okinawa.
 - Owner: Yohei Yasukawa
 - Size:  {{ site.company.size }} people (including part-timers)
 - Date:  Since January 11, 2018
-- Trademark: [No. 5982564](https://www.j-platpat.inpit.go.jp/web/TR/JPT_5982564/A6156E75F65DAF34797EEE3AEF4EB33C)
+- Registered Invoice Issuer: [T4011101082872](https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=4011101082872)
+- Corporate Number: [4011101082872](https://www.houjin-bangou.nta.go.jp/en/henkorireki-johoto.html?selHouzinNo=4011101082872)
+- Trademark Number: [5982564](https://www.j-platpat.inpit.go.jp/c1801/TR/JPT_5982564/00/en)
 - HR Advisor: Yoshinobu Oka ([oka-sr.jp](https://oka-sr.jp/))
 - Tax Advisor: Hiroyuki Hayahi ([mirai-no.co.jp](https://www.mirai-no.co.jp/))
 - We are supporting: 
