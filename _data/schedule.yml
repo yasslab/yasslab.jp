@@ -1,14 +1,16 @@
-# Enum status:
-# reserved:  'ありがとうございました'
-# adjusting: 'お問い合わせください'
-# available: 'ご相談お待ちしております'
+# Enum type:
+# - reserved:  'ありがとうございました'
+# - adjusting: 'お問い合わせください'
+# - available: 'ご相談お待ちしております'
 
-- starting_month: 8
+- initial_month: 8
   plus_0: reserved
   plus_1: reserved
   plus_2: reserved
   plus_3: reserved
   plus_4: reserved
   plus_5: reserved
-
-
+  is_auto_update: true
+  # initial_month の値を、ビルド時点の月に自動的に上書きする。
+  # plus_n がしばらく固定されている場合に true (自動更新) にし、
+  # plus_n が毎月変動する可能性がある場合は false にして手動で更新する。

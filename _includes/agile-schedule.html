@@ -1,27 +1,33 @@
 {% assign schedule = site.data.schedule | first %}
+{% if schedule.is_auto_update == true %}
+  {% assign initial_month = "now" | date: "%m" | to_i }} %}
+{% else %}
+  {% assign initial_month = schedule.initial_month %}
+{% endif %}
+
 <table class="month-sche">
   <tr>
-    <th>{{ schedule.starting_month | plus: 0 
+    <th>{{ initial_month | plus: 0 
       | replace: 13, 1 | replace: 14, 2
       | replace: 15, 3 | replace: 16, 4
       | replace: 17, 5 | replace: 18, 6 }}月</th>
-    <th>{{ schedule.starting_month | plus: 1
+    <th>{{ initial_month | plus: 1
       | replace: 13, 1 | replace: 14, 2
       | replace: 15, 3 | replace: 16, 4
       | replace: 17, 5 | replace: 18, 6 }}月</th>
-    <th>{{ schedule.starting_month | plus: 2
+    <th>{{ initial_month | plus: 2
       | replace: 13, 1 | replace: 14, 2
       | replace: 15, 3 | replace: 16, 4
       | replace: 17, 5 | replace: 18, 6 }}月</th>
-    <th>{{ schedule.starting_month | plus: 3
+    <th>{{ initial_month | plus: 3
       | replace: 13, 1 | replace: 14, 2
       | replace: 15, 3 | replace: 16, 4
       | replace: 17, 5 | replace: 18, 6 }}月</th>
-    <th>{{ schedule.starting_month | plus: 4
+    <th>{{ initial_month | plus: 4
       | replace: 13, 1 | replace: 14, 2
       | replace: 15, 3 | replace: 16, 4
       | replace: 17, 5 | replace: 18, 6 }}月</th>
-    <th>{{ schedule.starting_month | plus: 5
+    <th>{{ initial_month | plus: 5
       | replace: 13, 1 | replace: 14, 2
       | replace: 15, 3 | replace: 16, 4
       | replace: 17, 5 | replace: 18, 6 }}月</th>
