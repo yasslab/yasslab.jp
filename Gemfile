@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Replace 'git' with 'https' protocol
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'jekyll',  "4.3.1"
+gem 'jekyll',  "4.3.3"
 gem 'rack-jekyll'
 gem 'rake'           # for running tasks
 
