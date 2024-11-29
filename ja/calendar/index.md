@@ -32,7 +32,6 @@ sitemap: false
 
 ## 📨 お問い合わせ
 
-担当者: 安川 要平
-メール: {{ site.company.email }}
+`{{ site.company.email }}` または以下のフォームより、気軽にお問い合わせください。
 
 <div id="contact"></div>
