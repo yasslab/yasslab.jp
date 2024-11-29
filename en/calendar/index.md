@@ -25,6 +25,6 @@ Office: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Taka
 
 ## 📨 Contact
 
-
+Feel free to contact us!
 
 <div id="contact"></div>
