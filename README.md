@@ -79,6 +79,6 @@ This website uses [Bootstrap](https://getbootstrap.jp/), [jQuery](https://jquery
 
 ## Copyright
 
-Copyright &copy; [YassLab Inc.](https://yasslab.jp) 2012-2022
+Copyright &copy; [YassLab Inc.](https://yasslab.jp) 2012..(Time.now)
 
 [![YassLab 株式会社ロゴ](https://yasslab.jp/img/logos/800x200.png?cache=clear)](https://yasslab.jp/)
