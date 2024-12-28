@@ -4,7 +4,7 @@ ruby file: '.ruby-version'
 # Replace 'git' with 'https' protocol
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'jekyll',  "4.3.3"
+gem 'jekyll',  '4.3.4'
 gem 'rack-jekyll'
 gem 'rake'           # for running tasks
 gem 'csv'            # not-default gem from Ruby 3.4.0
