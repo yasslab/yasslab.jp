@@ -1,4 +1,4 @@
-name: Scheduler (Every 30 minutes)
+name: Scheduler for RSS
 
 # Spec: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 # For debug: https://crontab.guru/
