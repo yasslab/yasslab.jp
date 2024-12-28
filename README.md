@@ -1,4 +1,4 @@
-[![Test & Deploy](https://github.com/yasslab/yasslab.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A%22Test+%26+Deploy%22) [![Scheduler Status](https://github.com/yasslab/yasslab.jp/workflows/Scheduler/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A%22Scheduler%22)
+[![Test & Deploy](https://github.com/yasslab/yasslab.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/yasslab/yasslab.jp/actions?query=workflow%3A%22Test+%26+Deploy%22) [![Scheduler (Every 30 minutes)](https://github.com/yasslab/yasslab.jp/actions/workflows/scheduler_30m.yml/badge.svg)](https://github.com/yasslab/yasslab.jp/actions/workflows/scheduler_30m.yml) [![Scheduler (Daily)](https://github.com/yasslab/yasslab.jp/actions/workflows/scheduler_daily.yml/badge.svg)](https://github.com/yasslab/yasslab.jp/actions/workflows/scheduler_daily.yml)
 
 [![Cover Photo of YassLab Inc.](https://yasslab.jp/img/cover-photo_ss_v2.png)](https://yasslab.jp/ja/)
 
