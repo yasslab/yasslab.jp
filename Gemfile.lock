@@ -302,7 +302,7 @@ GEM
     uri (1.0.2)
     webrick (1.9.0)
     webrobots (0.1.2)
-    yaml (0.3.0)
+    yaml (0.4.0)
     yell (2.2.2)
     zeitwerk (2.6.16)
 
