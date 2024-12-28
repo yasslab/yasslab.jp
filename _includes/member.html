@@ -4,8 +4,8 @@
       <img src="/img/spinner.svg" data-src="/img/photos/{{ include.username }}.webp" alt="{{ include.username }}" class="rounded-circle lazyload">
     </div>
     <div class="cardMember__content">
-      <a href="https://{{ include.link_to }}.com/{{ include.username }}" class="cardMember__account" target="_blank" rel="noopener">@{{ include.username }}</a>
-      <p class="cardMember_summary">{{ include.caption }}</p>
+      <span style='font-size: smaller;'><a href="https://{{ include.link_to }}.com/{{ include.username }}" class="cardMember__account" target="_blank" rel="noopener">@{{ include.username }}</a></span>
+      <p class="cardMember_summary" style='margin-top: 10px;'>{{ include.caption }}</p>
     </div>
   </div>
 </div>
