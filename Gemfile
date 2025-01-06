@@ -8,6 +8,7 @@ gem 'jekyll',  '4.3.4'
 gem 'rack-jekyll'
 gem 'rake'           # for running tasks
 gem 'csv'            # not-default gem from Ruby 3.4.0
+gem 'mutex_m'        # not-default gem from Ruby 3.4.0
 gem 'ostruct'        # not-default gem from Ruby 3.5.0
 
 gem 'nokogiri'       # for qiita.rb

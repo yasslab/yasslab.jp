@@ -179,6 +179,7 @@ GEM
     mini_portile2 (2.8.7)
     minitest (5.25.2)
     multi_json (1.15.0)
+    mutex_m (0.3.0)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.4)
       connection_pool (~> 2.2)
@@ -313,6 +314,7 @@ DEPENDENCIES
   jekyll-sitemap
   mechanize
   multi_json
+  mutex_m
   net-imap
   net-pop
   net-smtp
