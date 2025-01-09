@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
     - name: ☑️ Checkout code
@@ -63,7 +63,7 @@ jobs:
 
     - name: 🚀 Deploy to Heroku if recent article(s) found
       if: ${{ env.NEW_NOTE == 'true' }}
-      uses: akhileshns/heroku-deploy@v3.12.13
+      uses: akhileshns/heroku-deploy@v3.12.15
       with:
         branch:          'main'
         usedocker:       false
