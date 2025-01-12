@@ -1,3 +1,4 @@
+@use "sass:map";
 // The dropdown wrapper (`<div>`)
 .dropup,
 .dropright,
@@ -35,7 +36,7 @@
   @include box-shadow($dropdown-box-shadow);
 }
 
-@each $breakpoint in map-keys($grid-breakpoints) {
+@each $breakpoint in map.keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
