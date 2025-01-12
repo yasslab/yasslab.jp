@@ -1,9 +1,11 @@
+@use "sass:color";
+
 // Button variants
 //
 // Easily pump out default styles, as well as :hover, :focus, :active,
 // and disabled options for all buttons
 
-@mixin button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%)) {
+@mixin button-variant($background, $border, $hover-background: color.adjust($background, $lightness: -7.5%, $space: hsl), $hover-border: color.adjust($border, $lightness: -10%, $space: hsl), $active-background: color.adjust($background, $lightness: -10%, $space: hsl), $active-border: color.adjust($border, $lightness: -12.5%, $space: hsl)) {
   color: color-yiq($background);
   @include gradient-bg($background);
   border-color: $border;

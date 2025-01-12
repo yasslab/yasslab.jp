@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Variables
 //
 // Variables should follow the `$component-state-property-size` formula for
@@ -152,7 +154,7 @@ $body-color:                $gray-900 !default;
 
 $link-color:                theme-color("primary") !default;
 $link-decoration:           none !default;
-$link-hover-color:          darken($link-color, 15%) !default;
+$link-hover-color:          color.adjust($link-color, $lightness: -15%, $space: hsl) !default;
 $link-hover-decoration:     underline !default;
 
 // Paragraphs
@@ -321,7 +323,7 @@ $table-head-color:            $gray-700 !default;
 $table-dark-bg:               $gray-900 !default;
 $table-dark-accent-bg:        rgba($white, .05) !default;
 $table-dark-hover-bg:         rgba($white, .075) !default;
-$table-dark-border-color:     lighten($gray-900, 7.5%) !default;
+$table-dark-border-color:     color.adjust($gray-900, $lightness: 7.5%, $space: hsl) !default;
 $table-dark-color:            $body-bg !default;
 
 $table-striped-order:         odd !default;
@@ -417,7 +419,7 @@ $input-border-radius-lg:                $border-radius-lg !default;
 $input-border-radius-sm:                $border-radius-sm !default;
 
 $input-focus-bg:                        $input-bg !default;
-$input-focus-border-color:              lighten($component-active-bg, 25%) !default;
+$input-focus-border-color:              color.adjust($component-active-bg, $lightness: 25%, $space: hsl) !default;
 $input-focus-color:                     $input-color !default;
 $input-focus-width:                     $input-btn-focus-width !default;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
@@ -472,7 +474,7 @@ $custom-control-indicator-checked-box-shadow:   none !default;
 $custom-control-indicator-focus-box-shadow:     0 0 0 1px $body-bg, $input-btn-focus-box-shadow !default;
 
 $custom-control-indicator-active-color:         $component-active-color !default;
-$custom-control-indicator-active-bg:            lighten($component-active-bg, 35%) !default;
+$custom-control-indicator-active-bg:            color.adjust($component-active-bg, $lightness: 35%, $space: hsl) !default;
 $custom-control-indicator-active-box-shadow:    none !default;
 
 $custom-checkbox-indicator-border-radius:       $border-radius !default;
@@ -525,7 +527,7 @@ $custom-range-thumb-border:           0 !default;
 $custom-range-thumb-border-radius:    1rem !default;
 $custom-range-thumb-box-shadow:       0 .1rem .25rem rgba($black, .1) !default;
 $custom-range-thumb-focus-box-shadow: 0 0 0 1px $body-bg, $input-btn-focus-box-shadow !default;
-$custom-range-thumb-active-bg:        lighten($component-active-bg, 35%) !default;
+$custom-range-thumb-active-bg:        color.adjust($component-active-bg, $lightness: 35%, $space: hsl) !default;
 
 $custom-file-height:                $input-height !default;
 $custom-file-focus-border-color:    $input-focus-border-color !default;
@@ -570,7 +572,7 @@ $dropdown-divider-bg:               $gray-200 !default;
 $dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175) !default;
 
 $dropdown-link-color:               #305280 !default;
-$dropdown-link-hover-color:         darken($gray-900, 5%) !default;
+$dropdown-link-hover-color:         color.adjust($gray-900, $lightness: -5%, $space: hsl) !default;
 $dropdown-link-hover-bg:            $gray-100 !default;
 
 $dropdown-link-active-color:        $component-active-color !default;
@@ -735,7 +737,7 @@ $popover-border-color:              rgba($black, .2) !default;
 $popover-border-radius:             $border-radius-lg !default;
 $popover-box-shadow:                0 .25rem .5rem rgba($black, .2) !default;
 
-$popover-header-bg:                 darken($popover-bg, 3%) !default;
+$popover-header-bg:                 color.adjust($popover-bg, $lightness: -3%, $space: hsl) !default;
 $popover-header-color:              $headings-color !default;
 $popover-header-padding-y:          .5rem !default;
 $popover-header-padding-x:          .75rem !default;
@@ -748,7 +750,7 @@ $popover-arrow-width:               1rem !default;
 $popover-arrow-height:              .5rem !default;
 $popover-arrow-color:               $popover-bg !default;
 
-$popover-arrow-outer-color:         fade-in($popover-border-color, .05) !default;
+$popover-arrow-outer-color:         color.adjust($popover-border-color, $alpha: .05) !default;
 
 
 // Badges
