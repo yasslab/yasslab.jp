@@ -36,9 +36,6 @@
 @import "bootstrap/scss/tooltip";
 @import "bootstrap/scss/popover";
 @import "bootstrap/scss/carousel";
+@import "bootstrap/scss/utilities";
 @import "bootstrap/scss/print";
 @import "mystyle";
-
-// TODO: Need to exec like:
-// $ sass-migrator module --migrate-deps
-@import "bootstrap/scss/utilities";
