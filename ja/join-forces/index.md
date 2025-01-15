@@ -35,7 +35,7 @@ title:  弊社をご検討されている皆さんへ
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="mt-5 mb-5"><a href="#remote">YassLab 社の特徴</a></h2>
+        <h2 class="mt-5 mb-5"><a href="#remote">🏝 YassLab 社の特徴</a></h2>
 	<script async class="speakerdeck-embed"
 	 data-id="cf1cd6f115924b4cace9b825fe474198"
 	 data-ratio="1.33333333333333"
@@ -43,7 +43,7 @@ title:  弊社をご検討されている皆さんへ
         <p id="daily-life" class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="ignore-sp">(関連動画: <a href="https://www.youtube.com/playlist?list=PLNLYzHXJU2-_jeyeLbEaXUgqGHGgJPKas">YassLab 社とリモートワーク - YouTube</a>)</p>
 	
 	
-	<h2 class="text-center mt-5 mb-5"><a href="#daily-life">YassLab 社の日常</a></h2>
+	<h2 class="text-center mt-5 mb-5"><a href="#daily-life">💻 YassLab 社の日常</a></h2>
 	<div class="video">
 	  <iframe width="560" height="315" data-src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
 	   class="lazyload" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -63,7 +63,7 @@ title:  弊社をご検討されている皆さんへ
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="mt-5 mb-5"><a href="#products">開発・運営しているサービス</a></h2>
+        <h2 class="mt-5 mb-5"><a href="#products">💎 開発・運営しているサービス</a></h2>
         <p>YassLab 社では主に『Railsチュートリアル』『Railsガイド』などの開発・運営をしておりますが、いずれも複数のリポジトリが協調的に動作して成り立っています。</p>
       </div>
 
@@ -72,7 +72,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railstutorial">
-	    1. Ruby on Railsチュートリアル
+	    🎓 Ruby on Railsチュートリアル
 	    <small>(自社開発)</small>
 	  </a>
 	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/spinner.svg" data-src="/img/header-railstutorial.png" class="lazyload" loading="lazy" /></a></div>
@@ -96,7 +96,7 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railsguides">
-	    2. Ruby on Railsガイド
+	    📕 Ruby on Railsガイド
 	    <small>(自社開発)</small>
 	  </a>
 	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/spinner.svg" data-src="/img/header-railsguides.png" class="lazyload" loading="lazy" /></a></div>
@@ -119,8 +119,8 @@ title:  弊社をご検討されている皆さんへ
 
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#coderdojojp">
-	    3. coderdojo.jp の開発
-	    <small>(準委任開発)</small>
+	    ☯️ coderdojo.jp の開発
+	    <small><small>(準委任開発)</small></small>
 	  </a>
 	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/spinner.svg" data-src="/img/header-coderdojo-japan.png" class="lazyload" loading="lazy" /></a></div>
 	</h3>
@@ -133,14 +133,15 @@ title:  弊社をご検討されている皆さんへ
 	      <li><a href="https://github.com/coderdojo-japan">GitHub - CoderDojo Japan</a></li>
 	      <li><a href="https://github.com/coderdojo-japan/coderdojo.jp">GitHub - coderdojo-japan/coderdojo.jp</a> (OSS)</li>
 	      <li><a href="https://github.com/coderdojo-japan/map.coderdojo.jp">GitHub - coderdojo-japan/map.coderdojo.jp</a> (OSS)</li>
-	      <li>スライド: <a href="https://speakerdeck.com/coderdojojapan/partnership-with-coderdojo-japan">📜 全国200ヶ所以上ある CoderDojo と法人提携例</a></li>
-	      <li>関連記事: <a href="https://coderdojo.jp/partnership">🤝 パートナーシップのご案内 - CoderDojo Japan</a></li>
-	      <li id="flow">最新情報: <a href="https://note.com/yasslab/m/m7ed183f728c3">☯️ coderdojo.jp 開発マガジン - note</a></li>
-	    </ul>
+	      <li><a href="https://github.com/coderdojo-japan">coderdojo-japan - GitHub</a> (OSS)</li>
+	      <li>スライド: <a href='https://speakerdeck.com/coderdojojapan/partnership-with-coderdojo-japan'>📜 子どものためのプログラミング道場『CoderDojo』〜法人提携例</a></li>
+	      <li>関連記事: <a href='/ja/about/#culture'>☯️ コミュニティとも連携し、成長できるカタチの実践 - YassLab</a></li>
+ 	      <li id="flow">最新情報: <a href="https://note.com/yasslab/m/m7ed183f728c3">☯️ coderdojo.jp 開発マガジン - note</a></li>
+ 	    </ul>
 	  </li>
 	</ul>
 
-	<h2 class="text-center mt-5 mb-5"><a href="#flow">応募から採用までの流れ</a></h2>
+	<h2 class="text-center" style="margin-top: 100px;"><a href="#flow">応募から採用までの流れ</a></h2>
 	<p>会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっている OSS で一緒に開発するスタイルを採用しています。</p>
 
 	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/spinner.svg" data-src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" class="lazyload" loading="lazy" /></a></p>
