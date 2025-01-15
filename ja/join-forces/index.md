@@ -31,7 +31,7 @@ title:  弊社をご検討されている皆さんへ
   </div><!--//container-->
 </section>
 
-<section class="entry_content pt-5 bg-gray">
+<section class="entry_content pt-5">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
