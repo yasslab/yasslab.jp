@@ -35,23 +35,38 @@ title:  弊社をご検討されている皆さんへ
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2 class="mt-5 mb-5"><a href="#remote">🏝 YassLab 社の特徴</a></h2>
+        <h2 class="mt-5 mb-5"><a href="#remote">
+	  🏝
+	  YassLab 社の事業</a>
+	</h2>
+	<script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+	<br><br>
+	<div>
+	  <a href="/ja/#products">
+            <button class="btn btn-primary">各サービスの近況を見る</button>
+	  </a>
+	</div>
+	<!--
 	<script async class="speakerdeck-embed"
 	 data-id="cf1cd6f115924b4cace9b825fe474198"
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
-        <p id="daily-life" class="text-center">弊社が採用する完全リモートワーク制度の説明スライドです。<br class="ignore-sp">(関連動画: <a href="https://www.youtube.com/playlist?list=PLNLYzHXJU2-_jeyeLbEaXUgqGHGgJPKas">YassLab 社とリモートワーク - YouTube</a>)</p>
-	
-	
-	<h2 class="text-center mt-5 mb-5"><a href="#daily-life">💻 YassLab 社の日常</a></h2>
+	-->
+
+	<h2 class="mb-5" style='margin-top: 100px;'><a href="#daily-life">
+	  💻
+	  YassLab 社の日常</a>
+	</h2>
 	<div class="video">
 	  <iframe width="560" height="315" data-src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
 	   class="lazyload" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
-	<p class="text-center">
-	  YassLab 社の雰囲気を30秒で紹介する動画です。<br class="ignore-sp">
-	  過去の講演動画も <a href="https://www.youtube.com/YassLab">YouTube</a> で公開してます 📺</p>
-	<br>
+	<br><br>
+	<div>
+	  <a href="https://www.youtube.com/YassLab">
+            <button class="btn btn-primary external-link">他の YouTube 動画を見る</button>
+	  </a>
+	</div>
 	<br>
       </div><!--//col-->
     </div><!--//row-->
@@ -169,6 +184,12 @@ title:  弊社をご検討されている皆さんへ
 	</ul>
 
 	<a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000"><img class='lazyload' alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
+	<div>
+	  <a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000">
+            <button class="btn btn-primary external-link">リモートワークの記事を見る</button>
+	  </a>
+	</div>
+
 
 	<div id="references"></div>
 	<br><br>
