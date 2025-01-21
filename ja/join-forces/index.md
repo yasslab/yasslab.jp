@@ -156,7 +156,10 @@ title:  弊社をご検討されている皆さんへ
 	  </li>
 	</ul>
 
-	<h2 class="text-center" style="margin-top: 100px;"><a href="#flow">応募から採用までの流れ</a></h2>
+	<h2 class="text-center" style="margin-top: 100px;"><a href="#flow">
+	  🤝
+	  応募から採用までの流れ
+	</a></h2>
 	<p>会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっている OSS で一緒に開発するスタイルを採用しています。</p>
 
 	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/spinner.svg" data-src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" class="lazyload" loading="lazy" /></a></p>
@@ -178,14 +181,18 @@ title:  弊社をご検討されている皆さんへ
 
 	<div>
 	  <a href="https://github.com/yasslab">
-            <button class="btn btn-primary external-link">GitHub 上の公開プロダクトを見る</button>
+            <button class="btn btn-primary external-link">GitHub の公開プロダクトを見る</button>
 	  </a>
 	</div>
 
 
 	<div id="media"></div>
-	<h2 class="text-center mt-10 mb-5" style='margin-top: 100px'><a href="#media">メディア</a></h2>
-	<p>弊社のリモートワーク制度や採用フローが、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>と<a href='https://hatenacorp.jp/'>株式会社はてな</a>が運営する<b>『エンジニアHub』に掲載</b>されました！こちらも合わせてご参考になれば嬉しいです 🙏💖</p>
+	<h2 class="text-center mt-10 mb-5" style='margin-top: 140px'><a href="#media">
+	  📜
+	  リモートワークの詳細<br>
+	  (寄稿記事)
+	</a></h2>
+	<p>弊社のリモートワーク制度や採用フローが、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>と<a href='https://hatenacorp.jp/'>株式会社はてな</a>が運営する<b>『エンジニアHub』に掲載</b>されました！リモートワークの雰囲気を掴むご参考になれば嬉しいです 🙏💖</p>
 	<ul style='list-style: none;'>
 	  <li><a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）</a></li>
 	</ul>
@@ -210,7 +217,9 @@ title:  弊社をご検討されている皆さんへ
     <div class="row">
       <div class="col-md-8 offset-md-2 company">
 	<div class="text-center">
-          <h2 class="mb-5"><a href="#references">他、参考情報</a></h2>
+          <h2 class="mb-5"><a href="#references">
+	    🏢他、会社情報など
+	  </a></h2>
 	</div>
 	<div class="offset-md-1">
 	  {% include profile_company.html benefits=true %}
