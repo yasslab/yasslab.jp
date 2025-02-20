@@ -6,9 +6,21 @@
   </div>
 </div>
 
-<blockquote style="margin-top: 30px; padding-top: 10px; font-style: normal;">
+<style>
+  blockquote {
+    margin-top: 30px;
+    padding-top: 10px;
+    font-style: normal;
+    text-align: left;
+  }
+  blockquote::before {
+    content: '\002714';
+  }
+</style>
+
+<blockquote>
   {% if lang == 'ja' %}
-  オンラインをご希望の場合は<br class="ignore-pc"> <a href="https://explore.zoom.us/ja/products/meetings/">Zoom</a> または <a href="https://apps.google.com/meet/?hl=ja">Google Meet</a> を用意できます。
+  オンラインをご希望の場合は <a href="https://explore.zoom.us/ja/products/meetings/">Zoom</a> または <a href="https://apps.google.com/meet/?hl=ja">Google Meet</a> をご用意いたします。現地希望の場合は以下をご参照ください。
   {% else %}
   We have <a href="https://explore.zoom.us/en/products/meetings/">Zoom</a> and <a href="https://apps.google.com/meet/?hl=en">Google Meet</a> licenses for online meetings.
   {% endif %}
