@@ -65,21 +65,26 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
         <h4 class="text-center mb-3 h3deco-none">安川 要平</h4>
         <ul class="profile__sns mb-3">
           <li class="profile__sns__icon">
-            <a href="https://www.facebook.com/yasulab" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook" class="lazyload"></a>
+            <a href="https://www.facebook.com/yasulab" target="_blank"><img src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook" class="lazyload"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://twitter.com/yasulab" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter" class="lazyload"></a>
+            <a href="https://x.com/yasulab" target="_blank"><img src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="X (Twitter)" class="lazyload"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://github.com/yasulab" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub" class="lazyload"></a>
+            <a href="https://github.com/yasulab" target="_blank"><img src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub" class="lazyload"></a>
           </li>
           <li class="profile__sns__icon">
-            <a href="https://www.linkedin.com/in/yasulab/" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/linkedin.png" alt="LinkedIn" class="lazyload"></a>
+            <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img src="/img/spinner.svg" data-src="/img/icons/linkedin.png" alt="LinkedIn" class="lazyload"></a>
           </li>
 	  <li class="profile__sns__icon">
-	    <a href="https://qiita.com/yasulab" target="_blank" rel="noopener"><img src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita" class="lazyload"></a>
+	    <a href="https://qiita.com/yasulab" target="_blank"><img src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita" class="lazyload"></a>
 	  </li>
         </ul>
+	<br>
+	<a href='https://researchmap.jp/yasulab' target='_blank'>
+	  <img title='researchmap - データベース型研究者総覧サイト' alt='researchmap' class='lazyload'
+	       style='border-radius: 0px;' src='/img/spinner.svg' data-src='/img/researchmap.gif' />
+	</a>
       </div>
     </div>
     
