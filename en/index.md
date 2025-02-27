@@ -60,7 +60,7 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
 </div>
 <br><br>
 
-<hr>
+<hr id='ceo'>
 
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
@@ -85,11 +85,20 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
       <a href="https://qiita.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
     </li>
   </ul>
+  
+  <a href='https://researchmap.jp/yasulab?lang=en' target='_blank'>
+    <img title="researchmap - Researcher Database by Japan's National Institute of Informatics (NII)" alt='researchmap logo' class='lazyload'
+     style='border-radius: 0px; margin: 15px auto 50px;' src='/img/spinner.svg' data-src='/img/researchmap.gif' />
+  </a>
 </div>
 
-He obtained the degree of Master in Information and Computer Science from Waseda University, and studied at Monmouth College in Illinois, USA. He founded YassLab company in 2012, 100% remote-work company that focuses on Ruby/Rails projects [above](#top).
+He earned a Master of Engineering in Computer Science from [Waseda University](https://en.wikipedia.org/wiki/Waseda_University) and studied abroad at [Monmouth College](https://en.wikipedia.org/wiki/Monmouth_College) in Illinois, USA. Upon returning to Japan, he founded YassLab, a fully remote company specializing in the development of web-based learning materials&mdash;most notably the [Japanese Rails Tutorial and Japanese Rails Guides](#products)&mdash;and providing these resources as corporate services for [universities and employee training programs](#partners).
 
-Beyond the company projects, he is also known as one of co-founders of [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)/[Okinawa RubyKaigi](http://regional.rubykaigi.org/okrk01), [CoderDojo Japan](https://coderdojo.jp/), and [MITOU for U-17](https://jr.mitou.org/english) projects. For such enthusiastic contributions to IT and Education fields in Japan, he was selected as one of persons possessing outstanding capabilities by [METI](https://www.meti.go.jp/english/)-launched [The MITOH Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), [TEDxRyukyu](https://www.facebook.com/media/set/?set=a.10151746335815869.1073741827.715330868&type=1&l=348760b95c) speakers, and [Outstanding Performance Awards](http://myfukuoka.com/news/ruby-news/2014-fukuoka-ruby-award-winners/) at Fukuoka Ruby Award.
+In addition to his work at YassLab, he co-founded [CoderDojo Japan](https://coderdojo.jp/english), one of [the official regional bodies](https://codeclub.org/en/our-partners#:~:text=CoderDojo%20Japan) within the [CoderDojo](https://help.coderdojo.com/cdkb/s/article/What-is-CoderDojo) community&mdash;a worldwide movement of free, volunteer-led, community-based programming clubs (Dojos) for young people. Today, the CoderDojo community in Japan includes [over 200 Dojos](https://coderdojo.jp/#dojos) nationwide, hosting approximately [1,200 events annually](https://coderdojo.jp/stats), welcoming [more than 62,100 kids to learn to code](https://map.coderdojo.jp/world), and collaborating with [over 25 corporate partners](https://coderdojo.jp/#partners).
+
+Motivated by a desire to provide more opportunities for young people to learn not just "*how*" to create but also "*what*" to create, [he and his colleagues](https://www.mitou.org/index_en.html#:~:text=Founders) launched the [MITOU Junior](https://jr.mitou.org/english) program in 2016. As of January 2025, this initiative has supported [over 110 projects by more than 130 creators](https://jr.mitou.org/english/stats) under the age of 17, selected from over 850 applications. The program is now recognized as part of the [MITOU Programs](https://www.ipa.go.jp/en/it-talents/mitou/index.html) ecosystem by the [Information-technology Promotion Agency, Japan (IPA)](https://www.ipa.go.jp/en/).
+
+<center><a href='https://researchmap.jp/yasulab?lang=en' target='_blank'>&raquo; Check more info</a></center>
 
 <br>
 

@@ -81,7 +81,7 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
 	  </li>
         </ul>
 	<br>
-	<a href='https://researchmap.jp/yasulab' target='_blank'>
+	<a href='https://researchmap.jp/yasulab?lang=ja' target='_blank'>
 	  <img title='researchmap - データベース型研究者総覧サイト' alt='researchmap' class='lazyload'
 	       style='border-radius: 0px;' src='/img/spinner.svg' data-src='/img/researchmap.gif' />
 	</a>
