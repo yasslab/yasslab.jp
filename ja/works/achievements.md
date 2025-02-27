@@ -249,7 +249,7 @@
 - **4月 未踏事業に[思いを叶える視覚駆動バケットリスト](https://www.ipa.go.jp/jinzai/mitou/it/2012/f-1.html)が採択**
 - 3月 レキサスアカデミー最終成果報告会が[沖縄タイムスに掲載](https://www.facebook.com/photo.php?fbid=10150840286395869&set=a.10150840241290869&type=3&theater)
 - 3月 震災対策アプリが[日経新聞『転ばぬ先のアプリ』に掲載](https://www.facebook.com/photo.php?fbid=10150840311565869&set=a.10150840241290869&type=3&theater)
-- 3月 ファミリーマート販売『[災害時帰宅支援ポケットMAP](https://www.facebook.com/photo.php?fbid=10150840334640869&set=a.10150840241290869&type=3&theater)』に掲載
+- 3月 [ファミリーマート販売](https://www.family.co.jp/company/news_releases/2012/20120302_02.html)『[災害時帰宅支援ポケットMAP](https://www.facebook.com/photo.php?fbid=10150840334640869&set=a.10150840241290869&type=3&theater)』に掲載
 - 1月 シリコンバレーの Belmont でシェアオフィス立ち上げ
 - 他、CMSを使ったECサイトの構築、Nifty Cloud C4SAのRuby/Rails/Perlコンテキストの開発、ソーシャルiOSアプリの開発など
 
