@@ -215,7 +215,7 @@
 - 12月 子ども向け学習コンテンツのタブレット端末変換器を開発
 - 11月 達人出版会より[Railsチュートリアルの電書籍版](http://tatsu-zine.com/books/railstutorial)を出版
 - 11月 [RubyWorld Conference 2013](http://2013.rubyworld-conf.org/ja/)にRailsチュートリアル採択
-- **11月 弊社安川が[TEDxRyukyu 2013](https://www.ted.com/tedx/events/564)で『[経験と教育](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』を発表**
+- **11月 弊社安川が[TEDxRyukyu 2013](https://www.ted.com/tedx/events/10185)で『[経験と教育](https://speakerdeck.com/yasslab/learn-by-your-own-projects)』を発表**
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)常任講師 (３期目)
 - 9月 [Okinawa Future School Conference](https://www.ois-edu.com/OkiFSC/) で登壇とWS実施
 - 8月 英訳に関わった[Ruby Hacking Guide](http://ruby-hacking-guide.github.io/)が[Hacker Newsに掲載](https://news.ycombinator.com/item?id=6197222)
