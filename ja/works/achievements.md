@@ -260,10 +260,10 @@
 - 10月 第１期レキサスアカデミーが[沖縄メディアに掲載](https://www.facebook.com/photo.php?fbid=10150840280880869&set=a.10150840241290869&type=3&theater)
 - 10月 [沖縄型若年層向けIT高度人材育成事業](https://github.com/yasslab/weekend_fabrication)の立ち上げに参画
 - **9月 [Okinawa.rb](https://ruby.okinawa/) (Okinawa Ruby User Group) を立ち上げる**
-- 9月 [震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto)が[早稲田大学Ambient GCOE最優秀賞](https://www.facebook.com/photo.php?fbid=10150840346665869&set=a.10150840241290869&type=3&theater)受賞
-- 6月 [Android Bazaar and Conference](http://www.android-group.jp/abc2011s/conference.html)で[震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri:hoitusuru-on-android-5mo-dlda-cheng-madeniyatutakoto)を講演
+- 9月 [震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo)が[早稲田大学Ambient GCOE最優秀賞](https://www.facebook.com/photo.php?fbid=10150840346665869&set=a.10150840241290869&type=3&theater)受賞
+- 6月 [Android Bazaar and Conference](http://www.android-group.jp/abc2011s/conference.html)で[震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo)を講演
 - 6月 米国留学を終え日本に帰国。様々な事業の試行錯誤を開始
-- **3月 震災直後に[震災対策アプリ](https://play.google.com/store/apps/details?id=org.sorarier.whistle&hl=en)を開発・公開。3ヶ月で5万 DL**
+- **3月 震災直後に[震災対策アプリ](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo)を開発・公開。3ヶ月で5万 DL**
     - **&nbsp;後日30万ダウンロードを達成 ([当時の開発のスライド資料](https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo))**
 
 
