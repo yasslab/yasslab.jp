@@ -107,9 +107,9 @@ Motivated by a desire to provide more opportunities for young people to learn no
 ![YassLab](/img/logos/800x200.webp)
 
 - Name: YassLab Inc.
-- Owner: Yohei Yasukawa
-- Size:  {{ site.company.size }} people (including part-timers)
-- Date:  Since January 11, 2018
+- Owner: [Yohei Yasukawa](#ceo)
+- Size:  {{ site.company.size }} members <small>(including part-timers)</small>
+- Registered Date: June 1, 2012 <small>(Incorporated on January 11, 2018)</small>
 - Registered Invoice: [T4011101082872](https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=4011101082872)
 - Corporate Number: [4011101082872](https://www.houjin-bangou.nta.go.jp/en/henkorireki-johoto.html?selHouzinNo=4011101082872)
 - Trademark Number: [5982564](https://www.j-platpat.inpit.go.jp/c1801/TR/JPT_5982564/00/en)
