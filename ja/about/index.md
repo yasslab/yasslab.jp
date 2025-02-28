@@ -128,7 +128,7 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
       <div class="col-md-8 offset-md-2 company">
         <div class="text-center">
           <h2 class="mt-5 mb-5">
-	    <a href='#company'>会社情報</a>
+	    <a href='#company'>会社情報・登録情報</a>
 	  </h2>
         </div>
 	<img src='/img/logo_800x200.png'
