@@ -10,7 +10,7 @@ lang:   en
 (NOTE: Please jump to [SlideShare's page](http://www.slideshare.net/yasulab/works-of-yasslab) if you cannot see the slides above.)
 -->
 
-## [Recent news](#news) {#news}
+## [📰 Recent news](#news) {#news}
 
 - [Interviewed by CoderDojo Foundation](https://coderdojo.com/2020/06/18/how-the-coderdojo-community-in-japan-has-adapted-to-change/) on how the CoderDojo community in Japan has adapted to change.
 - Introduced as [CoderDojo Heroes](https://coderdojo.com/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
@@ -45,7 +45,7 @@ lang:   en
 <br />
 -->
 
-## About us {#about}
+## [👥 About us](#team) {#team}
 
 We are 100% remote team. We work remotely using tech services like GitHub, Zoom, and Google Workspace, etc.
 
@@ -102,7 +102,7 @@ Motivated by a desire to provide more opportunities for young people to learn no
 
 <br>
 
-### Company Profile {#company}
+## [🏢 Company Profile](#company) {#company}
 
 ![YassLab](/img/logos/800x200.webp)
 
@@ -110,7 +110,7 @@ Motivated by a desire to provide more opportunities for young people to learn no
 - Owner: Yohei Yasukawa
 - Size:  {{ site.company.size }} people (including part-timers)
 - Date:  Since January 11, 2018
-- Registered Invoice Issuer: [T4011101082872](https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=4011101082872)
+- Registered Invoice: [T4011101082872](https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=4011101082872)
 - Corporate Number: [4011101082872](https://www.houjin-bangou.nta.go.jp/en/henkorireki-johoto.html?selHouzinNo=4011101082872)
 - Trademark Number: [5982564](https://www.j-platpat.inpit.go.jp/c1801/TR/JPT_5982564/00/en)
 - HR Advisor: Yoshinobu Oka ([oka-sr.jp](https://oka-sr.jp/))
@@ -150,7 +150,8 @@ Motivated by a desire to provide more opportunities for young people to learn no
 
 <br />
 
-<h2 id="contact">Contact</h2>
+
+## [📮 Contact](#contact) {#contact}
 
 Office: [CASE Shinjuku](http://case-shinjuku.com/english/), Sankei Bldg 4F, Takadanobaba 1-28-10, Shinjuku-ku, Tokyo, 169-0075
 
