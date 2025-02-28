@@ -215,7 +215,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
     <div class="row">
       <div class="col-md-8 offset-md-2 company">
 	<div class="text-center">
-          <h2 class="mb-5"><a href="#references">会社情報</a></h2>
+          <h2 class="mb-5"><a href="#references">会社情報・登録情報</a></h2>
 	</div>
 	<div class="offset-md-1">
 	  {% include profile_company.html %}

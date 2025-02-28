@@ -82,7 +82,7 @@ description: これまでの活動実績や沿革、創業ストーリーなど�
     <div class="row">
       <div class="col-md-8 offset-md-2 company" id="company">
         <div class="text-center">
-          <h2 class="mt-5 mb-5">会社情報</h2>
+          <h2 class="mt-5 mb-5">会社情報・登録情報</h2>
         </div>
 	
 	<div class="video">
