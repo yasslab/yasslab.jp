@@ -108,7 +108,7 @@ Motivated by a desire to provide more opportunities for young people to learn no
 
 - Name: YassLab Inc.
 - Owner: [Yohei Yasukawa](#ceo)
-- Size:  {{ site.company.size }} members <small>(including part-timers)</small>
+- Size:  {{ site.data.members | size }} members <small>(including part-timers)</small>
 - Registered Date: June 1, 2012 <small>(Incorporated on January 11, 2018)</small>
 - Registered Invoice: [T4011101082872](https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=4011101082872)
 - Corporate Number: [4011101082872](https://www.houjin-bangou.nta.go.jp/en/henkorireki-johoto.html?selHouzinNo=4011101082872)

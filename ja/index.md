@@ -161,24 +161,25 @@ layout: plain_without_thumbnail
       <div class="col-12">
         <h3><a href="#members"><i class="fad fa-user-friends"></i> 
     メンバー紹介</a></h3>
+
         <div class="row">
-          {% include member.html username='himajin315' link_to='twitter'
-             caption='プロの手相占い師兼エンジニア。<a href="https://ie.u-ryukyu.ac.jp/enpit/">enPiT</a>講師' %}
-          {% include member.html username='nanophate'  link_to='twitter'
-             caption='<a href="https://sechack365.nict.go.jp/">SecHack365</a> 採択者。バイリンガル、写真家' %}
-
-	  {% include member.html username='yasulab'   link_to='twitter'
-	     caption='IPA認定<a href="https://www.ipa.go.jp/jinzai/mitou/it/supercreator-list.html">未踏スーパークリエータ</a>。代表取締役' %}
-	  {% include member.html username='hachi8833' link_to='twitter'
-	     caption='<a href="https://techracho.bpsinc.jp/">TechRacho</a>ライター。翻訳家、Go言語が好き' %}
-
-	  {% include member.html username='Yuppyhappytoyou' link_to='twitter'
-	     caption='楽しいこと大好き✌️ エンジニアママ😚 ' %}
-	  {% include member.html username='rakudaSanDesu' link_to='twitter'
-	     caption='エンジニアとして歩き始めたらくだ🐫' offset='' %}
-	  {% include member.html username='nalabjp'   link_to='twitter'
-             caption='Railsエンジニア。スノーボードと沖縄が好き' %}
+	  {% for member in site.data.members %}
+	  <div class="col-6 col-md-4 {{ member.add_style }}">
+	    <div class="card cardMember">
+	      <div class="cardMember__thumbnail">
+		<img src="/img/spinner.svg" data-src="/img/photos/{{ member.username }}.webp" alt="{{ member.username }}" class="rounded-circle lazyload">
+	      </div>
+	      <div class="cardMember__content">
+		<span style='font-size: smaller;'>
+		  <a href="{% if member.link_to %}{{ include.link_to }}{% else %}https://x.com/{{ member.username }}{% endif %}"
+		   class="cardMember__account" target="_blank">@{{ member.username }}</a></span>
+		<p class="cardMember_summary" style='margin-top: 10px;'>{{ member.profile_ja | markdownify }}</p>
+	      </div>
+	    </div>
+	  </div>
+	  {% endfor %}
         </div>
+
 	<div class="text-center pt-5" style="margin: 30px 0;">
           <a href="/ja/join-forces" class="btn btn-primary">
 	    採用情報を見る

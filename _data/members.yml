@@ -1,0 +1,34 @@
+#- username:    Handle/Nickname
+#  profile_ja:  JP Text
+#  profile_en:  EN Text
+#  link_to:     (Optional) Overide default link to X
+#  add_style:   (Optional) Add inline CSS style
+
+- username:   himajin315
+  profile_ja: 'プロの手相占い師兼エンジニア。[enPiT](https://ie.u-ryukyu.ac.jp/enpit/)講師'
+  profile_en: ''
+
+- username:   nanophate
+  profile_ja: '[SecHack365](https://sechack365.nict.go.jp/) 採択者。バイリンガル、写真家'
+  profile_en: ''
+
+- username:   yasulab
+  profile_ja: 'IPA認定[未踏スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/it/supercreator-list.html)。代表取締役'
+  profile_en: ''
+
+- username:   hachi8833
+  profile_ja: '[TechRacho](https://techracho.bpsinc.jp/)ライター。翻訳家、Go言語が好き'
+  profile_en: ''
+
+- username:   Yuppyhappytoyou
+  profile_ja: '楽しいこと大好き✌️ エンジニアママ😚 '
+  profile_en: ''
+
+- username:   rakudaSanDesu
+  profile_ja: 'エンジニアとして歩き始めたらくだ🐫'
+  profile_en: ''
+
+- username:   nalabjp
+  profile_ja: 'Railsエンジニア。スノーボードと沖縄が好き'
+  profile_en: ''
+
