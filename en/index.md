@@ -10,16 +10,6 @@ lang:   en
 (NOTE: Please jump to [SlideShare's page](http://www.slideshare.net/yasulab/works-of-yasslab) if you cannot see the slides above.)
 -->
 
-## [📰 Recent news](#news) {#news}
-
-- [Interviewed by CoderDojo Foundation](https://coderdojo.com/2020/06/18/how-the-coderdojo-community-in-japan-has-adapted-to-change/) on how the CoderDojo community in Japan has adapted to change.
-- Introduced as [CoderDojo Heroes](https://coderdojo.com/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/) by CoderDojo's official blog
-- Introduced as one of contributoring companies to Ruby by [Matz Keynote](https://www.youtube.com/watch?v=E9bO1uqs4Oc&feature=youtu.be&t=3904) at RubyKaigi
-- Interviewed by [HackerSpace Film](https://www.facebook.com/photo.php?fbid=10153341493740869&set=t.715330868&type=3&theater) for our [Continuous Translation System](https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs)
-- Talk about how we continuously translate, compose, and run Japanese RailsTutorial & Japanese RailsGuides at RubyWorld Conference [2013](http://2013.rubyworld-conf.org/en/) / [2015](http://2015.rubyworld-conf.org/en/) / [2018](https://2018.rubyworld-conf.org/program/).
-
-<br>
-
 <!--
 ## [Past works](#works) {#works}
 
@@ -108,7 +98,7 @@ Motivated by a desire to provide more opportunities for young people to learn no
 
 - Name: YassLab Inc.
 - Owner: [Yohei Yasukawa](#ceo)
-- Size:  {{ site.data.members | size }} members <small>(including part-timers)</small>
+- Team Size:  [{{ site.data.members | size }} members](#members) <small>(including part-timers)</small>
 - Registered Date: June 1, 2012 <small>(Incorporated on January 11, 2018)</small>
 - Registered Invoice: [T4011101082872](https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=4011101082872)
 - Corporate Number: [4011101082872](https://www.houjin-bangou.nta.go.jp/en/henkorireki-johoto.html?selHouzinNo=4011101082872)

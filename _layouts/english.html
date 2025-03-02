@@ -112,7 +112,7 @@
 </section>
 -->
 
-<section class="community entry_content" id="community">
+<section id="community" class="community entry_content">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -158,6 +158,64 @@
     </div>
   </div>
 </section>
+
+<!--
+<div id="news" class="outer container">
+  <section id="main_content" class="inner row justify-content-md-center pt-5">
+    <div class="col-12 col-md-9 entry_content text-center">
+      <h2>
+	<a href="#news">
+	  📰
+	  Recent news
+	</a>
+      </h2>
+      
+      <ul>
+	<li><a href="https://coderdojo.com/2020/06/18/how-the-coderdojo-community-in-japan-has-adapted-to-change/">Interviewed by CoderDojo Foundation</a> on how the CoderDojo community in Japan has adapted to change.</li>
+	<li>Introduced as <a href="https://coderdojo.com/2016/03/30/coderdojo-heroes-yohei-yasukawa-co-founder-of-coderdojo-japan/">CoderDojo Heroes</a> by CoderDojo’s official blog</li>
+	<li>Introduced as one of contributoring companies to Ruby by <a href="https://www.youtube.com/watch?v=E9bO1uqs4Oc&amp;feature=youtu.be&amp;t=3904">Matz Keynote</a> at RubyKaigi</li>
+	<li>Interviewed by <a href="https://www.facebook.com/photo.php?fbid=10153341493740869&amp;set=t.715330868&amp;type=3&amp;theater">HackerSpace Film</a> for our <a href="https://speakerdeck.com/yasulab/how-we-continuously-translate-tech-docs">Continuous Translation System</a></li>
+	<li>Talk about how we continuously translate, compose, and run Japanese RailsTutorial &amp; Japanese RailsGuides at RubyWorld Conference <a href="http://2013.rubyworld-conf.org/en/">2013</a> / <a href="http://2015.rubyworld-conf.org/en/">2015</a> / <a href="https://2018.rubyworld-conf.org/program/">2018</a>.</li>
+      </ul>
+    </div>
+  </section>
+</div>
+-->
+
+<section id="members" class="members" style="margin-top: 100px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3><a href="#members"><i class="fad fa-user-friends"></i> Team Members</a></h3>
+
+        <div class="row">
+	  {% for member in site.data.members %}
+	  <div class="col-6 col-md-4 {{ member.add_style }}">
+	    <div class="card cardMember">
+	      <div class="cardMember__thumbnail">
+		<img src="/img/spinner.svg" data-src="/img/photos/{{ member.username }}.webp" alt="{{ member.username }}" class="rounded-circle lazyload">
+	      </div>
+	      <div class="cardMember__content">
+		<span style='font-size: smaller;'>
+		  <a href="{% if member.link_to %}{{ include.link_to }}{% else %}https://x.com/{{ member.username }}{% endif %}"
+		   class="cardMember__account" target="_blank">@{{ member.username }}</a></span>
+		<!--<p class="cardMember_summary" style='margin-top: 10px;'>{{ member.profile_ja | markdownify }}</p>-->
+	      </div>
+	    </div>
+	  </div>
+	  {% endfor %}
+        </div>
+
+	<div class="text-center pt-5" style="margin: 30px 0;">
+          <a href="/ja/join-forces" class="btn btn-primary">
+	    Join us? <small>(See details in Japanese)</small>
+	  </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer container">
