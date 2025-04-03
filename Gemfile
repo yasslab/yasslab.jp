@@ -52,10 +52,6 @@ end
 
 group :development, :test do
   gem 'rspec'
-
-  # Gems for debugging
-  gem 'pry'
-  gem 'pry-byebug'
 end
 
 group :production do
