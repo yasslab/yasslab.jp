@@ -190,7 +190,7 @@ title:  弊社をご検討されている皆さんへ
 	<h2 class="text-center mt-10 mb-5" style='margin-top: 140px'><a href="#media">
 	  📜
 	  リモートワークの詳細<br>
-	  (寄稿記事)
+	  (寄稿記事・体験談)
 	</a></h2>
 	<p>弊社のリモートワーク制度や採用フローが、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>と<a href='https://hatenacorp.jp/'>株式会社はてな</a>が運営する<b>『エンジニアHub』に掲載</b>されました！リモートワークの雰囲気を掴むご参考になれば嬉しいです 🙏💖</p>
 	<ul style='list-style: none;'>
@@ -204,6 +204,18 @@ title:  弊社をご検討されている皆さんへ
 	  </a>
 	</div>
 
+	<p style='padding-top: 100px;'>上記の寄稿記事にも、入社時の体験談を公開していただけている事例もありますので、以下も合わせてご参考になれば嬉しいです 🙇✨</p>
+	<ul style='list-style: none;'>
+	  <li><a href='https://note.com/yuppymam/n/n7fb71b9eb6b6'>📜
+	    プログラミング独学でも道は切り開ける - note</a></li>
+	  <li><a href='https://www.youtube.com/watch?v=G_syAUv1Edg'>📺
+	    未経験から就職！プログラミング学習時間を計測してみた話 - YouTube</a></li>
+	  <li><a href='https://toyokeizai.net/articles/-/325207'>📰
+	    初心者プログラマーが飛躍的に上達できたコツ - 週刊東洋経済</a></li>
+	  <a href='https://toyokeizai.net/articles/-/325207'>
+	    <img class='cover lazyload' src='/img/spinner.svg' data-src='https://i.gyazo.com/1e3196e084f8f4983b789497e14caa69.png' src='/img/spinner.svg' loading="lazy" />
+	  </a>
+	</ul>
 
 	<div id="references"></div>
 	<br><br>

@@ -151,6 +151,15 @@ img {
   transition: opacity 300ms;
 }
 
+img.cover {
+  opacity: 1.0;
+  transition: opacity 0.5s;
+  width: 70%;
+  &:hover { opacity: 0.8; }
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+}
 
 // 引用文
 blockquote {
