@@ -194,12 +194,12 @@ title:  弊社をご検討されている皆さんへ
 	</a></h2>
 	<p>弊社のリモートワーク制度や採用フローが、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>と<a href='https://hatenacorp.jp/'>株式会社はてな</a>が運営する<b>『エンジニアHub』に掲載</b>されました！リモートワークの雰囲気を掴むご参考になれば嬉しいです 🙏💖</p>
 	<ul style='list-style: none;'>
-	  <li><a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）</a></li>
+	  <li><a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）</a></li>
 	</ul>
 
-	<a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000"><img class='lazyload' alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
+	<a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/"><img class='lazyload' alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
 	<div>
-	  <a href="https://employment.en-japan.com/engineerhub/entry/2020/07/21/103000">
+	  <a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">
             <button class="btn btn-primary external-link">リモートワークの記事を見る</button>
 	  </a>
 	</div>
