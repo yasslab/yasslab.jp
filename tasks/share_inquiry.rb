@@ -5,7 +5,6 @@ require 'idobata'
 require 'gmail' # for more info -> http://dcparker.github.com/ruby-gmail/
 require 'kconv'
 require 'net/imap'
-#require 'pry'
 
 Signal.trap(:INT){
   puts "logout Gmail ..."

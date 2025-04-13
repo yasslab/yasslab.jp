@@ -1,4 +1,3 @@
-require 'pry' if ENV['JEKYLL_ENV'] == 'development'
 require 'net/http'
 
 module Jekyll
