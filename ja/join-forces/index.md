@@ -213,7 +213,7 @@ title:  弊社をご検討されている皆さんへ
 	  <li><a href='https://toyokeizai.net/articles/-/325207'>📰
 	    初心者プログラマーが飛躍的に上達できたコツ - 週刊東洋経済</a></li>
 	  <a href='https://toyokeizai.net/articles/-/325207'>
-	    <img class='cover lazyload' src='/img/spinner.svg' data-src='https://i.gyazo.com/1e3196e084f8f4983b789497e14caa69.png' src='/img/spinner.svg' loading="lazy" />
+	    <img class='cover lazyload' alt="体験談記事のカード (自作)" src='/img/spinner.svg' data-src='https://i.gyazo.com/1e3196e084f8f4983b789497e14caa69.png' src='/img/spinner.svg' loading="lazy" />
 	  </a>
 	</ul>
 
