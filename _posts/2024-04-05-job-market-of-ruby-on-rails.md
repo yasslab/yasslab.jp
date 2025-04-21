@@ -8,13 +8,13 @@ categories: [blog]
 tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 ---
 
-本ページでは Ruby on Rails の求人数の推移や、求人に関する統計レポート、また[Railsチュートリアル](https://railstutorial.jp/)・[Railsガイド](https://railsguides.jp/)から公開されている利用動向・活用事例などを、その出典と共にまとめています。
+本ページでは Ruby on Rails に関する[求人数の推移](#japan)や、[海外の統計レポート](#overseas)、[国際カンファレンスの参加者数の推移](#conferences)、[Railsチュートリアル](https://railstutorial.jp/)・[Railsガイド](https://railsguides.jp/)の[利用動向](#users)などの多角的なデータを、その出典と共にまとめています。
 
 <br>
 
 ### [📺 YouTube で取り上げて頂きました! 🆕](#youtube) {#youtube}
 
-<div class="video" style="margin-bottom: 60px;">
+<div class="video" style="margin-top: 50px; margin-bottom: 60px;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/3zzzHkiBzes?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -24,7 +24,7 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 
 ## [🗾 日本の Rails 求人データ](#japan) {#japan}
 
-[!['Rails' 求人数の推移](/img/news/job-market-rails-1.jpg)](/img/news/job-market-rails-1.jpg)
+[!['Rails' 求人数の推移](/img/news/job-market-rails-1.webp)](/img/news/job-market-rails-1.webp)
 
 <div class="center" style="margin-bottom: 60px;" align="center">
   <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">📊 &quot;Rails&quot; 求人数をグラフ化してみました! 🆕✨<br><br>定期的に観測しないとvこういったデータはグラフ化できないので <a href="https://twitter.com/_yoshimasa?ref_src=twsrc%5Etfw">@_yoshimasa</a> さんのデータ公開メッチャありがたいです...!! 🙏✨ (ありがとうございます!!! 💖)<br><br>出典: <a href="https://t.co/ybqypImdtD">https://t.co/ybqypImdtD</a> <a href="https://t.co/nSVvpJ1ZfQ">pic.twitter.com/nSVvpJ1ZfQ</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1749631318118600814?ref_src=twsrc%5Etfw">January 23, 2024</a></blockquote>
@@ -41,7 +41,7 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 
 ## [🌐 海外の Rails 求人データ](#overseas) {#overseas}
 
-!['Rails' 求人数の推移](/img/news/job-market-rails-2.png)
+!['Rails' 求人数の推移](/img/news/job-market-rails-2.webp)
 
 <div class="infogram-embed" data-id="875df761-ea4a-4b02-b76e-24a5c200efe2" data-type="interactive" data-title="Demand for Coding Skills"></div><script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script>
 
@@ -59,8 +59,26 @@ tags: [Ruby, Rails, 求人, 市場, 統計, データ]
 
 <br>
 
+## [💎 国際会議「RubyKaigi」の<br>現地参加者数の推移](#conferences) {#conferences}
 
-## [📊 Railsチュートリアル /<br> Railsガイドの公開データ](#stats) {#stats}
+[!['RubyKaigi' 現地参加者数の推移](/img/news/job-market-rails-3.webp)](/img/news/job-market-rails-3.webp)
+
+<div class="center" style="margin-bottom: 60px;" align="center">
+  <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">RubyKaigi 現地参加者数の推移をグラフにしました!! (2025年度 令和最新版)📈✨ <a href="https://twitter.com/hashtag/rubykaigi?src=hash&amp;ref_src=twsrc%5Etfw">#rubykaigi</a> <a href="https://t.co/K9snpO8yxD">https://t.co/K9snpO8yxD</a> <a href="https://t.co/C0UUZFGeeA">pic.twitter.com/C0UUZFGeeA</a></p>&mdash; 安川要平/Yohei Yasukawa (@yasulab) <a href="https://twitter.com/yasulab/status/1913156853602693215?ref_src=twsrc%5Etfw">April 18, 2025</a></blockquote>
+</div>
+
+
+
+
+### 関連 URL
+
+- [RubyKaigi - An International Confernece on the Ruby programming language](https://rubykaigi.org/)
+- [RubyKaigi Introduction - Speaker Deck](https://speakerdeck.com/a_matsuda/rubykaigi-introduction)
+- [RubyKaigi - ruby-no-kai](https://scrapbox.io/ruby-no-kai/RubyKaigi)
+
+<br>
+
+## [📊 Railsチュートリアル /<br> Railsガイドの公開データ](#users) {#users}
 
 <div style="margin-bottom: 100px;">
   <script async class="speakerdeck-embed"
