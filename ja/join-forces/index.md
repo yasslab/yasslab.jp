@@ -188,9 +188,8 @@ title:  弊社をご検討されている皆さんへ
 
 	<div id="media"></div>
 	<h2 class="text-center mt-10 mb-5" style='margin-top: 140px'><a href="#media">
-	  📜
-	  リモートワークの詳細<br>
-	  (体験談・寄稿記事)
+	  🎤
+	  入社の体験談まとめ
 	</a></h2>
 
 	<p style='padding-top: 30px;'>上記の例以外にも、入社時の体験談を記事や動画として公開していただけている事例があります。</p>
