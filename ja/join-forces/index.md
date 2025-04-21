@@ -190,21 +190,10 @@ title:  弊社をご検討されている皆さんへ
 	<h2 class="text-center mt-10 mb-5" style='margin-top: 140px'><a href="#media">
 	  📜
 	  リモートワークの詳細<br>
-	  (寄稿記事・体験談)
+	  (体験談・寄稿記事)
 	</a></h2>
-	<p>弊社のリモートワーク制度や採用フローが、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>と<a href='https://hatenacorp.jp/'>株式会社はてな</a>が運営する<b>『エンジニアHub』に掲載</b>されました！リモートワークの雰囲気を掴むご参考になれば嬉しいです 🙏💖</p>
-	<ul style='list-style: none;'>
-	  <li><a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）</a></li>
-	</ul>
 
-	<a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/"><img class='lazyload' alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
-	<div>
-	  <a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">
-            <button class="btn btn-primary external-link">リモートワークの記事を見る</button>
-	  </a>
-	</div>
-
-	<p style='padding-top: 100px;'>上記の寄稿記事にも、入社時の体験談を公開していただけている事例もありますので、以下も合わせてご参考になれば嬉しいです 🙇✨</p>
+	<p style='padding-top: 30px;'>上記の例以外にも、入社時の体験談を記事や動画として公開していただけている事例があります。</p>
 	<ul style='list-style: none;'>
 	  <li><a href='https://note.com/yuppymam/n/n7fb71b9eb6b6'>📜
 	    プログラミング独学でも道は切り開ける - note</a></li>
@@ -216,6 +205,18 @@ title:  弊社をご検討されている皆さんへ
 	    <img class='cover lazyload' alt="体験談記事のカード (自作)" src='/img/spinner.svg' data-src='https://i.gyazo.com/1e3196e084f8f4983b789497e14caa69.png' src='/img/spinner.svg' loading="lazy" />
 	  </a>
 	</ul>
+
+	<p>また弊社のリモートワーク制度や採用フローは、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>が運営する『AMBI (アンビ)』にも寄稿記事として掲載されています。こちらも合わせてご参考になれば嬉しいです 🙇✨</p>
+	<ul style='list-style: none;'>
+	  <li><a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - AMBI</a></li>
+	</ul>
+
+	<a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/"><img class='lazyload' alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
+	<div>
+	  <a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">
+            <button class="btn btn-primary external-link">寄稿記事を見る</button>
+	  </a>
+	</div>
 
 	<div id="references"></div>
 	<br><br>
