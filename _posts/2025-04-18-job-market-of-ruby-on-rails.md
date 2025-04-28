@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  📊 日本と海外の Ruby on Rails 求人データまとめ
+title:  📊 日本と海外の Ruby on Rails 求人データなど、統計情報まとめ
 description: 本ページでは Ruby on Rails の求人数の推移や、求人に関する統計レポート、またRailsチュートリアル・Railsガイドから公開されている利用動向・活用事例などを、その出典と共にまとめています。
 thumbnail: news/job-market-rails-1.jpg
 author: yasulab
