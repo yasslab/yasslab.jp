@@ -14,12 +14,37 @@
 
 <script src="/js/simple-jekyll-search.js"></script>
 <script>
- SimpleJekyllSearch({
+ const sjs = SimpleJekyllSearch({
    searchInput:          document.getElementById('search-input'),
    resultsContainer:     document.getElementById('search-results'),
    json:                 '/search.json',
    searchResultTemplate: '<li class="news-item"><span class="news-date">{date}年</span> <span><a href="{url}">{title}</a></span></li>',
-   noResultsText:        '検索結果が見つかりませんでした。'
+   noResultsText:        '検索結果が見つかりませんでした。',
+   limit:                20,
+
+   // Mark hit keywords
+   templateMiddleware: function(prop, value, template) {
+     const query = document.getElementById('search-input').value.trim();
+     if (query && typeof value === 'string') {
+       // 加工対象を限定する
+       const highlightTargets = ['title', 'date'];
+
+       if (highlightTargets.includes(prop)) {
+	 const keywords = query.split(/\s+/).filter(Boolean);
+	 if (keywords.length === 0) return value;
+
+	 const regex = new RegExp('(' + keywords.map(escapeRegExp).join('|') + ')', 'gi');
+	 return value.replace(regex, '<mark>$1</mark>');
+       }
+     }
+
+     return value; // 加工対象じゃないならそのまま返す
+   }
  });
+
+ // 正規表現エスケープ用の関数
+ function escapeRegExp(string) {
+   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+ }
 </script>
 <!-- News Search -->
