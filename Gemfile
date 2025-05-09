@@ -43,6 +43,7 @@ gem 'retryable'         # Retry on errors like HTTP
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
+  gem 'jekyll-redirect-from'
   gem 'jekyll-include-cache'
   gem 'jekyll-sitemap'
 
