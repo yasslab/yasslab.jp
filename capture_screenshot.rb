@@ -7,6 +7,12 @@ def normalize_url(url)
   "https://#{url}"
 end
 
+def build_url(domain, path)
+  # パスの先頭に / がない場合は追加
+  path = "/#{path}" unless path.start_with?('/')
+  normalize_url("#{domain}#{path}")
+end
+
 def capture(url, path, options)
   driver = nil
   begin
@@ -46,7 +52,7 @@ end
 # コマンドライン引数の解析
 options = {}
 OptionParser.new do |opts|
-  opts.banner = "Usage: ruby capture_screenshot.rb URL1 URL2 [options]"
+  opts.banner = "Usage: ruby capture_screenshot.rb PATH DOMAIN1 DOMAIN2 [options]"
   opts.on("-h", "--height HEIGHT", "スクリーンショットの高さ（デフォルト: 1000）") do |h|
     options[:height] = h.to_i
   end
@@ -68,13 +74,15 @@ options[:sleep]  ||= 0
 options[:timeout] ||= 10
 
 # 引数の検証
-if ARGV.size != 2
-  puts "Error: 2つのURLを指定してください"
-  puts "Usage: ruby capture_screenshot.rb URL1 URL2 [options]"
+if ARGV.size != 3
+  puts "Error: ファイルパスと2つのドメインを指定してください"
+  puts "Usage: ruby capture_screenshot.rb PATH DOMAIN1 DOMAIN2 [options]"
   exit 1
 end
 
-url1, url2 = ARGV.map { |url| normalize_url(url) }
+path, domain1, domain2 = ARGV
+url1 = build_url(domain1, path)
+url2 = build_url(domain2, path)
 
 # 一時ファイル名の生成
 timestamp = Time.now.strftime("%Y%m%d_%H%M%S")
@@ -84,6 +92,8 @@ diff_file = "/tmp/diff_#{timestamp}.png"
 
 # 並行処理でスクリーンショットを取得
 puts "Capturing screenshots in parallel..."
+puts "URL1: #{url1}"
+puts "URL2: #{url2}"
 start_time = Time.now
 
 threads = []
