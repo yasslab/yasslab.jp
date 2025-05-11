@@ -34,8 +34,8 @@ end.parse!
 
 # デフォルト値の設定
 options[:height] ||= 1000
-options[:width] ||= 1280
-options[:sleep] ||= 3
+options[:width]  ||= 1280
+options[:sleep]  ||= 3
 
 # 引数の検証
 if ARGV.size != 2
@@ -75,7 +75,14 @@ puts "Capture completed in #{end_time - start_time} seconds"
 # 差分の比較
 puts "\nComparing screenshots..."
 result = `compare -metric AE #{file1} #{file2} #{diff_file} 2>&1`
-puts "Difference: #{result}"
+diff = result.to_f
+
+# Differenceを表示し、基準を超えたら「(OK)」、そうでないなら「(NG)」と表示
+if diff < 1_000_000
+  puts "Difference: #{result} (OK)"
+else
+  puts "Difference: #{result} (NG)"
+end
 
 # ファイルサイズの表示
 puts "\nFile sizes:"
@@ -84,4 +91,4 @@ puts `ls -lh #{file1} #{file2} #{diff_file}`
 puts "\nFiles saved in /tmp:"
 puts "Screenshot 1: #{file1}"
 puts "Screenshot 2: #{file2}"
-puts "Diff image: #{diff_file}" 
+puts "Diff image: #{diff_file}"
