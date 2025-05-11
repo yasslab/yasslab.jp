@@ -2,6 +2,11 @@
 require 'selenium-webdriver'
 require 'optparse'
 
+def normalize_url(url)
+  return url if url.start_with?('http://', 'https://')
+  "https://#{url}"
+end
+
 def capture(url, path, options)
   driver = nil
   begin
@@ -44,7 +49,7 @@ if ARGV.size != 2
   exit 1
 end
 
-url1, url2 = ARGV
+url1, url2 = ARGV.map { |url| normalize_url(url) }
 
 # 一時ファイル名の生成
 timestamp = Time.now.strftime("%Y%m%d_%H%M%S")
