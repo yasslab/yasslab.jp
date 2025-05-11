@@ -19,30 +19,9 @@ def capture(url, path, options)
     driver_options = Selenium::WebDriver::Chrome::Options.new
     driver_options.add_argument('--headless')
     driver_options.add_argument("--window-size=#{options[:width]},#{options[:height]}")
-    # パフォーマンス最適化のための設定を追加
-    driver_options.add_argument('--disable-gpu')
-    driver_options.add_argument('--no-sandbox')
-    driver_options.add_argument('--disable-dev-shm-usage')
-    driver_options.add_argument('--disable-extensions')
-    driver_options.add_argument('--disable-software-rasterizer')
-    driver_options.add_argument('--disable-features=VizDisplayCompositor')
-    driver_options.add_argument('--disable-features=IsolateOrigins,site-per-process')
-    
     driver = Selenium::WebDriver.for :chrome, options: driver_options
-    
-    # ページ読み込みの最適化
-    driver.manage.timeouts.page_load = options[:timeout]
-    driver.manage.timeouts.implicit_wait = 1
-    
     driver.get(url)
-    
-    # ページの読み込み完了を待機
-    wait = Selenium::WebDriver::Wait.new(timeout: options[:timeout])
-    wait.until { driver.execute_script('return document.readyState') == 'complete' }
-    
-    # 追加の待機時間（必要な場合のみ）
-    sleep options[:sleep] if options[:sleep] > 0
-    
+    sleep options[:sleep]
     driver.save_screenshot(path)
   ensure
     driver&.quit
@@ -59,19 +38,15 @@ OptionParser.new do |opts|
   opts.on("-w", "--width WIDTH", "スクリーンショットの幅（デフォルト: 1280）") do |w|
     options[:width] = w.to_i
   end
-  opts.on("-s", "--sleep SECONDS", "ページ読み込み待ち時間（デフォルト: 0）") do |s|
+  opts.on("-s", "--sleep SECONDS", "ページ読み込み待ち時間（デフォルト: 3）") do |s|
     options[:sleep] = s.to_i
-  end
-  opts.on("-t", "--timeout SECONDS", "ページ読み込みタイムアウト（デフォルト: 10）") do |t|
-    options[:timeout] = t.to_i
   end
 end.parse!
 
 # デフォルト値の設定
 options[:height] ||= 1000
 options[:width]  ||= 1280
-options[:sleep]  ||= 0
-options[:timeout] ||= 10
+options[:sleep]  ||= 3
 
 # 引数の検証
 if ARGV.size != 3
