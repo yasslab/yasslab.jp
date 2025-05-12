@@ -24,11 +24,25 @@ sitemap: false
 
 ## 🎓 事業紹介
 
-会社の紹介資料です。打ち合わせ前のご参考になれば幸いです 😌
+会社の紹介資料です。打ち合わせ時のご参考になれば幸いです 😌
 
 <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
+<div class="row" style='padding-top: 50px;'>
+  <div class="col-md-6">
+    <div class="developmentSupport__more text-center">
+      <a href="/ja/#products" class="btn btn-primary btn-block mt-2">サービスを見る</a>
+    </div>
+  </div><!--//col-->
+  <div class="col-md-6">
+    <div class="developmentSupport__more text-center">
+      <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社情報を見る</a>
+    </div>
+  </div><!--//col-->
+</div><!--//row-->
+
 <br><br>
+
 
 ## 📨 お問い合わせ
 
