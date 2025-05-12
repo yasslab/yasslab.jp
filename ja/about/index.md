@@ -106,22 +106,6 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
   </div>
 </section>
 
-<section class="entry_content pt-5 catchCopy" id="clients">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-	<h2 class="text-center mt-5 mb-5"><a href="#clients">これまでの取引先</a></h2>
-
-	<p>YassLab 社が展開する各種事業のこれまでの取引先をまとめております。カッコ内は取引の概略です。</p>
-
-	{% include clients.html %}
-        
-      </div><!--//col-->
-    </div><!--//row-->
-  </div><!--//container-->
-  <div id="references"></div>
-</section>
-
 <section class="entry_content pt-5" id="company">
   <div class="container">
     <div class="row">
@@ -139,4 +123,20 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
       </div>
     </div>
   </div>
+</section>
+
+<section class="entry_content pt-5 catchCopy" id="clients">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+	<h2 class="text-center mt-5 mb-5"><a href="#clients">これまでの取引先</a></h2>
+
+	<p>YassLab 社が展開する各種事業のこれまでの取引先をまとめております。カッコ内は取引の概略です。</p>
+
+	{% include clients.html %}
+        
+      </div><!--//col-->
+    </div><!--//row-->
+  </div><!--//container-->
+  <div id="references"></div>
 </section>

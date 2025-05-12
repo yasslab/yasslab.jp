@@ -36,7 +36,7 @@ sitemap: false
   </div><!--//col-->
   <div class="col-md-6">
     <div class="developmentSupport__more text-center">
-      <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社情報を見る</a>
+      <a href="/ja/about#company" class="btn btn-primary btn-block mt-2">会社情報を見る</a>
     </div>
   </div><!--//col-->
 </div><!--//row-->
