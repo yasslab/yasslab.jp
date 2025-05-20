@@ -1,14 +1,20 @@
 name: Review Request Notify
+
 on:
   pull_request:
     types: [review_requested]
     branches:
       - "*"
+  # Allows you to run this workflow manually from the Actions tab
+  # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
+  workflow_dispatch:
+
 jobs:
   event:
     runs-on: ubuntu-latest
     steps:
-      - uses: yasslab/review_request_notify@main
+      - name: 🔔 Review Request Notify to Slack
+        uses: yasslab/review_request_notify@main
         with:
-          channel-id: ${{ secrets.CHANNEL_NAME }}
+          channel-id: ${{ secrets.SLACK_CHANNEL_NAME }}
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
