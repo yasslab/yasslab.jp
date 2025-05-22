@@ -147,17 +147,20 @@ GEM
     idobata (0.0.9)
       faraday (>= 0.8.8)
     io-event (1.9.0)
-    jekyll (4.3.4)
+    jekyll (4.4.1)
       addressable (~> 2.4)
+      base64 (~> 0.2)
       colorator (~> 1.0)
+      csv (~> 3.0)
       em-websocket (~> 0.5)
       i18n (~> 1.0)
       jekyll-sass-converter (>= 2.0, < 4.0)
       jekyll-watch (~> 2.0)
+      json (~> 2.6)
       kramdown (~> 2.3, >= 2.3.1)
       kramdown-parser-gfm (~> 1.0)
       liquid (~> 4.0)
-      mercenary (>= 0.3.6, < 0.5)
+      mercenary (~> 0.3, >= 0.3.6)
       pathutil (~> 0.9)
       rouge (>= 3.0, < 5.0)
       safe_yaml (~> 1.0)
@@ -413,12 +416,11 @@ DEPENDENCIES
   acme_challenge
   activesupport
   barnes
-  csv
   gmail
   google-api-client
   html-proofer
   idobata
-  jekyll (= 4.3.4)
+  jekyll (~> 4.4)
   jekyll-feed
   jekyll-include-cache
   jekyll-redirect-from
@@ -446,7 +448,7 @@ DEPENDENCIES
   yaml
 
 RUBY VERSION
-   ruby 3.4.1p0
+   ruby 3.4.4p34
 
 BUNDLED WITH
    2.6.2
