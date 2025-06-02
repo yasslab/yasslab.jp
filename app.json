@@ -14,7 +14,7 @@
     "website": "https://yasslab.jp/",
     "buildpacks": [
 	{
-	    "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+	    "url": "https://github.com/heroku/metrics"
 	},
 	{
 	    "url": "https://github.com/heroku/heroku-buildpack-ruby"
