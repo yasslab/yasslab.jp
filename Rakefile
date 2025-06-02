@@ -7,6 +7,11 @@ task :upsert_recent_notes, :number_of_articles do |task, args|
   ruby "tasks/upsert_recent_notes.rb #{args[:number_of_articles]}"
 end
 
+desc "Upsert recent press from YassLab's PR TIMES RSS"
+task :upsert_recent_press, :number_of_articles do |task, args|
+  ruby "tasks/upsert_recent_press.rb #{args[:number_of_articles]}"
+end
+
 desc "Share fetched recent articles from registered RSS"
 task :share_rss_articles do |task, args|
   ruby "tasks/share_rss_articles.rb"
