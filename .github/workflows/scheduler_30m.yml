@@ -24,31 +24,33 @@ jobs:
       with:
         bundler-cache: true
         #ruby-version: 2.7 # Not necessary if .ruby-version is given
+
     - name: 🧪 Install Ruby gems with 'actions' group
       run: |
         bundle config set with 'actions'
         bundle config set path 'vendor/bundle'
-        bundle install --jobs 4 --retry 3
+        bundle install
 
     - name: 🔔 Notify fetched articles from RSS
       run:  bundle exec rake share_rss_articles
       env:
         SLACK_SHARE: ${{ secrets.SLACK_SHARE }}
 
-    - name: 📜 Upsert recent articles from note.com
+    - name: 📜 Upsert recent news from RSS
       run: |
         bundle exec rake upsert_recent_notes
-        echo "NEW_NOTE=false" >> $GITHUB_ENV
+        bundle exec rake upsert_recent_press
+        echo "HAS_NEWS=false" >> $GITHUB_ENV
         if [ -n "$(git status --porcelain)" ]; then
           if ( ruby -ryaml -e "p YAML.unsafe_load(STDIN.read)" < _data/news.yml > /dev/null ); then
             git config --global user.name  "Yohei Yasukawa"
             git config --global user.email "yohei@yasslab.jp"
             git checkout main
-            git add _data/news.yml
-            git commit -m '🤖 Upsert note article(s) by GitHub Actions'
+            git add _data/news.yml _data/press.yml
+            git commit -m '🤖 Upsert news by GitHub Actions'
             git push origin main
-            echo "NEW_NOTE=true" >> $GITHUB_ENV
-            echo "Found new article(s) in note."
+            echo "HAS_NEWS=true" >> $GITHUB_ENV
+            echo "Found news."
           else
             echo "Detected YAML syntax error in '_data/news.yml' so not going to deploy."
           fi
@@ -57,12 +59,12 @@ jobs:
         GITHUB_TOKEN:
 
     - name: ✅ No recent articles found
-      if: ${{ env.NEW_NOTE == 'false' }}
+      if: ${{ env.HAS_NEWS == 'false' }}
       run: |
-        echo "No recent articles found in note."
+        echo "No recent news found."
 
-    - name: 🚀 Deploy to Heroku if recent article(s) found
-      if: ${{ env.NEW_NOTE == 'true' }}
+    - name: 🚀 Deploy to Heroku if recent news found
+      if: ${{ env.HAS_NEWS == 'true' }}
       uses: akhileshns/heroku-deploy@v3.13.15
       with:
         branch:          'main'
