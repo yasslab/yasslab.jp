@@ -22,7 +22,7 @@ rss.items.each.with_index(1) do |item, index|
 
   news << <<~NEW_ARTICLE
     - title: '#{item.title}'
-      date:  #{item.pubDate.strftime("%Y-%m-%d")}
+      date:  #{item.dc_date.strftime("%Y-%m-%d")}
       url:   #{item.link}
 
     NEW_ARTICLE
