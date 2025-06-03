@@ -1,179 +1,180 @@
 - name: 筑波大学
   image: /img/partners/tsukuba.webp
-  link_to: https://note.com/yasslab/n/na8c64dbde6ef
   width: 100%
+  link_to: https://note.com/yasslab/n/na8c64dbde6ef
 
 - name: 琉球大学
   image: /img/partners/ryukyu.webp
-  link_to: /ja/news/univ-of-ryukyus-with-railstutorial
   width: 100%
+  link_to: /ja/news/univ-of-ryukyus-with-railstutorial
 
 - name: 工学院大学
   image: /img/partners/kogakuin.webp
-  link_to: https://x.com/yasulab/status/1836991281077309590
   width: 100%
+  link_to: https://x.com/yasulab/status/1836991281077309590
+# link_to: http://syllabus.sc.kogakuin.ac.jp/syllabus/daigaku/2019/1J13/3H15.html
 
 - name: 産業技術大学院大学
   image: /img/partners/aiit.webp
-  link_to: https://note.com/yasslab/n/nb3710ebaf686
   width: 100%
+  link_to: https://note.com/yasslab/n/nb3710ebaf686
 
 - name: マネーフォワード
   image: /img/partners/money-forward.webp
-  link_to: https://note.com/yasslab/n/n8e602147ec9a
   width: 100%
+  link_to: https://note.com/yasslab/n/n8e602147ec9a
 
 - name: メンバーズグループ
   image: /img/partners/members-career.webp
-  link_to: /ja/news/railstutorial-at-members-career
   width: 100%
+  link_to: /ja/news/railstutorial-at-members-career
 
 - name: Nilquebe
   image: /img/partners/nilquebe.webp
-  link_to: /ja/news/partnership-with-nilquebe
   width: 100%
+  link_to: /ja/news/partnership-with-nilquebe
 
 - name: TechCommit
   image: /img/partners/tech-commit.webp
-  link_to: /ja/news/partnership-with-techtraining
   width: 100%
+  link_to: /ja/news/partnership-with-techtraining
 
 - name: ジョブキタ
   image: /img/partners/haj.webp
-  link_to: /ja/news/partnership-with-haj-empowerment
   width: 100%
+  link_to: /ja/news/partnership-with-haj-empowerment
 
 - name: Progate
   image: /img/partners/progate.webp
-  link_to: https://prtimes.jp/main/html/rd/p/000000036.000015015.html
   width: 100%
+  link_to: https://prtimes.jp/main/html/rd/p/000000036.000015015.html
 
 - name: ShareWis
   image: /img/partners/share-wis.webp
-  link_to: https://note.com/yasslab/n/n8383778e38a3
   width: 100%
+  link_to: https://note.com/yasslab/n/n8383778e38a3
 
 - name: CODE BASE
   image: /img/partners/codebase.webp
-  link_to: /ja/news/partnership-with-codebase
   width: 90%
+  link_to: /ja/news/partnership-with-codebase
 
 - name: 大阪電気通信大学
   image: /img/partners/osakac.webp
-  link_to: https://www.osakac.ac.jp/news/2016/922
   width: 90%
+  link_to: https://www.osakac.ac.jp/news/2016/922
 
 - name: Carbon Ads
   image: /img/partners/carbon.webp
-  link_to: https://note.com/yasslab/n/n4afda49ed786
   width: 80%
+  link_to: https://note.com/yasslab/n/n4afda49ed786
 
 - name: Rails技術者認定試験運営委員会
   image: /img/partners/railscp.webp
-  link_to: /ja/news/rails5-basic-with-tutorial
   width: 60%
+  link_to: /ja/news/rails5-basic-with-tutorial
 
 - name: 株式会社システムインテグレータ
   image: /img/partners/system-integrator.webp
-  link_to: https://note.com/yasslab/n/n0bfc4f042e5f
   width: 100%
+  link_to: https://note.com/yasslab/n/n0bfc4f042e5f
 
 - name: 八戸工業大学
   image: /img/partners/hachinohe.webp
-  link_to: https://note.com/yasslab/n/ne721c54c9efa
   width: 80%
+  link_to: https://note.com/yasslab/n/ne721c54c9efa
 
 - name: 岐阜大学
   image: /img/partners/gifu_university.webp
-  link_to: https://note.com/yasslab/n/n1a8d85751ec0
   width: 60%
+  link_to: https://note.com/yasslab/n/n1a8d85751ec0
 
 - name: 近畿大学
   image: /img/partners/kinki_university.webp
-  link_to: https://note.com/yasslab/n/nf10eb75f1b36
   width: 80%
+  link_to: https://note.com/yasslab/n/nf10eb75f1b36
 
 - name: 未踏ジュニア
   image: /img/partners/mitoujr.webp
-  link_to: https://note.com/yasslab/n/n2351d74949f1
   width: 100%
+  link_to: https://note.com/yasslab/n/n2351d74949f1
 
 - name: Techpit
   image: /img/partners/techpit.webp
-  link_to: https://note.com/yasslab/n/nc1a50a052661
   width: 80%
+  link_to: https://note.com/yasslab/n/nc1a50a052661
 
 - name: GMO ペパボ
   image: /img/partners/gmo_pepabo.webp
-  link_to: https://note.com/yasslab/n/n4fb0f88e6b20
   width: 80%
+  link_to: https://note.com/yasslab/n/n4fb0f88e6b20
 
 - name: ソニックガーデン
   image: /img/partners/sonic_garden.webp
-  link_to: https://note.com/yasslab/n/n629e561f3def
   width: 80%
+  link_to: https://note.com/yasslab/n/n629e561f3def
 
 - name: Rubyプロコン
   image: /img/partners/ruby_procon.webp
-  link_to: https://note.com/yasslab/n/n4740c60cbd56
   width: 80%
+  link_to: https://note.com/yasslab/n/n4740c60cbd56
 
 - name: Classi
   image: /img/partners/classi.webp
-  link_to: https://note.com/yasslab/n/n99e5e5504439
   width: 80%
+  link_to: https://note.com/yasslab/n/n99e5e5504439
 
 - name: SmartHR
   image: /img/partners/smarthr.webp
-  link_to: https://note.com/yasslab/n/nffe088dad214
   width: 80%
+  link_to: https://note.com/yasslab/n/nffe088dad214
 
 - name: YOUTRUST
   image: /img/partners/youtrust.webp
-  link_to: https://note.com/yasslab/n/n3262a7d2d58b
   width: 80%
+  link_to: https://note.com/yasslab/n/n3262a7d2d58b
 
 - name: 高田馬場経済新聞
   image: /img/partners/babakei.webp
-  link_to: https://takadanobaba.keizai.biz/headline/1021/
   width: 80%
+  link_to: https://takadanobaba.keizai.biz/headline/1021/
 
 - name: note株式会社
   image: /img/partners/note.webp
-  link_to: https://note.com/yasslab/n/n91e8b17a1cb6
   width: 80%
+  link_to: https://note.com/yasslab/n/n91e8b17a1cb6
 
 - name: ヴェルク株式会社
   image: /img/partners/velc.webp
-  link_to: https://note.com/yasslab/n/ndcf3fea14ee4
   width: 80%
+  link_to: https://note.com/yasslab/n/ndcf3fea14ee4
 
 - name: エゾウィン株式会社
   image: /img/partners/ezowin.webp
-  link_to: https://note.com/yasslab/n/naab29a9160c5
   width: 80%
+  link_to: https://note.com/yasslab/n/naab29a9160c5
 
 - name: 株式会社FROGS
   image: /img/partners/frogs.png
-  link_to: https://note.com/yasslab/n/nf65faaa42732
   width: 80%
+  link_to: https://note.com/yasslab/n/nf65faaa42732
 
 - name: 虎の穴ラボ株式会社
   image: /img/partners/toranoana-lab.webp
-  link_to: https://note.com/yasslab/n/n0b2e6e7d5bbb
   width: 80%
+  link_to: https://note.com/yasslab/n/n0b2e6e7d5bbb
 
 - name: 株式会社GA technologies
   image: /img/partners/ga-technologies.webp
-  link_to: https://note.com/yasslab/n/ncae34ca79919
   width: 80%
+  link_to: https://note.com/yasslab/n/ncae34ca79919
 
 - name: JPHACKS
   image: /img/partners/jphacks.webp
-  link_to: https://note.com/yasslab/n/na9327c85764e
   width: 80%
+  link_to: https://note.com/yasslab/n/na9327c85764e
 
 - name: プレーリーカード
   image: /img/partners/prairie-card.webp
-  link_to: https://note.com/yasslab/n/nf0380f24936c
   width: 80%
+  link_to: https://note.com/yasslab/n/nf0380f24936c
