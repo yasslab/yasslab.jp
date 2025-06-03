@@ -139,7 +139,7 @@ layout: plain_without_thumbnail
 </section>
 
 {% include services_for_team.html    %}
-{% include partners_and_clients.html %}
+{% include clients_and_partners.html %}
 
 <section class="aboutVisual entry_content" id="remote-team">
   <div class="container">
