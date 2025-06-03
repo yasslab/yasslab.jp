@@ -12,7 +12,8 @@
         <li class="item">
           <a href="{{ cp.link_to }}" target='_blank'>
             <img  src="/img/spinner.svg" class="lazyload"
-	     data-src="{{ cp.image }}" alt="{{ cp.name }}" width="{{ cp.width }}">
+	     data-src="{{ cp.image }}" alt="{{ cp.name }}"
+	     {% if cp.width %}width="{{ cp.width }}"{% endif %}>
           </a>
         </li>
         {% endfor %}
