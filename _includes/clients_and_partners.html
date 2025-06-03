@@ -11,7 +11,8 @@
         {% for pc in site.data.clients_and_partners %}
         <li class="item">
           <a href="{{ pc.link_to }}" target='_blank'>
-            <img src="/img/spinner.svg" data-src="{{ pc.image }}" alt="{{ pc.name }}" width="{{ pc.width }}" class="lazyload">
+            <img  src="/img/spinner.svg" class="lazyload"
+	     data-src="{{ pc.image }}" alt="{{ pc.name }}" width="{{ pc.width }}">
           </a>
         </li>
         {% endfor %}
