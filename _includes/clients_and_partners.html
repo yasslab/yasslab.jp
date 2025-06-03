@@ -13,7 +13,8 @@
           <a href="{{ cp.link_to }}" target='_blank'>
             <img  src="/img/spinner.svg" class="lazyload"
 	     data-src="{{ cp.image }}" alt="{{ cp.name }}"
-	     width="{{ cp.width | default: '100%' }}">
+	     width="{{ cp.width | default: '100%' }}"
+	     style="padding: 10px; box-sizing: border-box;">
           </a>
         </li>
         {% endfor %}
