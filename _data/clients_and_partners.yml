@@ -139,26 +139,6 @@
   width: 80%
   link_to: https://takadanobaba.keizai.biz/headline/1021/
 
-- name: note株式会社
-  image: /img/partners/note.webp
-  width: 80%
-  link_to: https://note.com/yasslab/n/n91e8b17a1cb6
-
-- name: ヴェルク株式会社
-  image: /img/partners/velc.webp
-  width: 80%
-  link_to: https://note.com/yasslab/n/ndcf3fea14ee4
-
-- name: エゾウィン株式会社
-  image: /img/partners/ezowin.webp
-  width: 80%
-  link_to: https://note.com/yasslab/n/naab29a9160c5
-
-- name: 株式会社FROGS
-  image: /img/partners/frogs.png
-  width: 80%
-  link_to: https://note.com/yasslab/n/nf65faaa42732
-
 - name: 虎の穴ラボ株式会社
   image: /img/partners/toranoana-lab.webp
   width: 80%
@@ -178,6 +158,26 @@
   image: /img/partners/prairie-card.webp
   width: 80%
   link_to: https://note.com/yasslab/n/nf0380f24936c
+
+- name: note株式会社
+  image: /img/partners/note.webp
+  width: 80%
+  link_to: https://note.com/yasslab/n/n91e8b17a1cb6
+
+- name: ヴェルク株式会社
+  image: /img/partners/velc.webp
+  width: 80%
+  link_to: https://note.com/yasslab/n/ndcf3fea14ee4
+
+- name: エゾウィン株式会社
+  image: /img/partners/ezowin.webp
+  width: 80%
+  link_to: https://note.com/yasslab/n/naab29a9160c5
+
+- name: 株式会社FROGS
+  image: /img/partners/frogs.png
+  width: 80%
+  link_to: https://note.com/yasslab/n/nf65faaa42732
 
 - name: 福岡デザイン＆テクノロジー専門学校
   image: /img/partners/fca.webp
