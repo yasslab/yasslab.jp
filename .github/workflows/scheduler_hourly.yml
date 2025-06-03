@@ -4,7 +4,7 @@ name: Scheduler for RSS
 # For debug: https://crontab.guru/
 on:
   schedule:
-    - cron:  '30 * * * *'    # Run every 60 minutes (1.hour)
+    - cron:  '30 * * * *'    # Run every 60 minutes (hourly). Avoid 00:00 for stable date handling.
     #- cron:  '*/30 * * * *' # Run every 30 minutes
   # Allows you to run this workflow manually from the Actions tab
   # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
