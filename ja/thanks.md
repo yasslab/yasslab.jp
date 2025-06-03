@@ -21,7 +21,7 @@ contact_hidden: true
 </div>
 
 {% include services_for_team.html    %}
-{% include partners_and_clients.html %}
+{% include clients_and_partners.html %}
 <div id="main_content_wrap" class="outer container" style="margin-bottom: 150px">
   <section id="main_content" class="inner row justify-content-md-center pt-5">
     <div class="col-12 col-md-9 entry_content text-center">

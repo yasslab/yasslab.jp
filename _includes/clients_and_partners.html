@@ -1,0 +1,24 @@
+<section id="clients_and_partners">
+  <div class="container tutorial">
+    <h3><a href="#clients_and_partners"><i class="fad fa-handshake-alt"></i>
+      {% if page.lang == 'en' %}Partners & Customers{% else %}利用実績・提携法人{% endif %}</a></h3>
+    <div class="col-12 text-center" style="margin-top: 10px;">
+      <ul class="flex-container">
+        {% for pc in site.data.clients_and_partners %}
+        <li class="item">
+          <a href="{{ pc.link_to }}" target='_blank' rel='noopener'>
+            <img src="/img/spinner.svg" data-src="{{ pc.image }}" alt="{{ pc.name }}" width="{{ pc.width }}" class="lazyload">
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="tutorial">
+        <a href="https://railstutorial.jp/business">
+          <button class="btn btn-primary external-link">
+	    {% if page.lang == 'en' %}See details (Japanese){% else %}サービス概要・導入事例を見る{% endif %}</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

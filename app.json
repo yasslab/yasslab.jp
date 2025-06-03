@@ -13,12 +13,8 @@
     "success_url": "/",
     "website": "https://yasslab.jp/",
     "buildpacks": [
-	{
-	    "url": "https://github.com/heroku/metrics"
-	},
-	{
-	    "url": "https://github.com/heroku/heroku-buildpack-ruby"
-	}
+	{ "url": "https://github.com/heroku/heroku-buildpack-metrics" },
+	{ "url": "https://github.com/heroku/heroku-buildpack-ruby"    }
     ],
     "env": {
 	"JEKYLL_ENV":            "staging",
