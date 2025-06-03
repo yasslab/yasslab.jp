@@ -8,11 +8,11 @@
     </h3>
     <div class="col-12 text-center" style="margin-top: 10px;">
       <ul class="flex-container">
-        {% for pc in site.data.clients_and_partners %}
+        {% for cp in site.data.clients_and_partners %}
         <li class="item">
-          <a href="{{ pc.link_to }}" target='_blank'>
+          <a href="{{ cp.link_to }}" target='_blank'>
             <img  src="/img/spinner.svg" class="lazyload"
-	     data-src="{{ pc.image }}" alt="{{ pc.name }}" width="{{ pc.width }}">
+	     data-src="{{ cp.image }}" alt="{{ cp.name }}" width="{{ cp.width }}">
           </a>
         </li>
         {% endfor %}
