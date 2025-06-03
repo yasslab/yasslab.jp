@@ -13,7 +13,7 @@
           <a href="{{ cp.link_to }}" target='_blank'>
             <img  src="/img/spinner.svg" class="lazyload"
 	     data-src="{{ cp.image }}" alt="{{ cp.name }}"
-	     {% if cp.width %}width="{{ cp.width }}"{% endif %}>
+	     width="{{ cp.width | default: '100%' }}">
           </a>
         </li>
         {% endfor %}
