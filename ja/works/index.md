@@ -70,7 +70,7 @@ description: これまでの活動実績や沿革、創業ストーリーなど�
 
 	<p>YassLab 社が展開する各種事業のこれまでの取引先をまとめております。カッコ内は取引の概略です。</p>
 
-	{% include clients.html %}
+	{% include agile-clients.html %}
         
       </div><!--//col-->
     </div><!--//row-->

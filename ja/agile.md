@@ -203,7 +203,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
 
 	<p>YassLab 社が展開する各種事業 (開発支援サービス含む) のこれまでの取引先をまとめております。カッコ内は取引の概略です。こちらも合わせてご参考にしていただけると幸いです。</p>
 
-	{% include clients.html %}
+	{% include agile-clients.html %}
 
       </div><!--//col-->
     </div><!--//row-->

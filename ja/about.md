@@ -133,7 +133,7 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
 
 	<p>YassLab 社が展開する各種事業のこれまでの取引先をまとめております。カッコ内は取引の概略です。</p>
 
-	{% include clients.html %}
+	{% include agile-clients.html %}
         
       </div><!--//col-->
     </div><!--//row-->
