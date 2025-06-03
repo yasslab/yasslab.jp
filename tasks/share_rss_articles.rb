@@ -8,7 +8,7 @@ require 'slack/incoming/webhooks'
 require 'active_support/all'
 
 slack            = Slack::Incoming::Webhooks.new ENV['SLACK_SHARE']
-TIME_INTERVAL    = 30 # minutes
+TIME_INTERVAL    = 60 # minutes
 RSS_LIST         = [
 # { title: "Name short title of the RSS", url: "URL of RSS to fetch and share with team" },
   { title: 'Ruby Weekly',     url: 'https://rubyweekly.com/rss/'},
