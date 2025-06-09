@@ -284,7 +284,7 @@ title:  就業規則
   </tr>
 </table>
 
-２．休憩は原則として一斉に取得するものとする。ただし、労使協定を締結した場合はこの限りではない。(関連: [休憩時間の労使協定](/ja/docs/breaktime-agreement/))
+２．休憩は原則として一斉に取得するものとする。ただし、労使協定を締結した場合はこの限りではない。(関連: [休憩時間の労使協定](/ja/docs/breaktime-agreement))
 
 ３．パソコン環境が用意された場所に到着するまでを通勤とし、パソコンの電源を付けた時刻を勤務開始時刻とする。始業時刻以前にパソコンの電源を付けていた場合は、始業時刻から勤務していることとする。
 
@@ -495,7 +495,7 @@ title:  就業規則
 {% include numbering-chapter.html title='賃金・退職金等' %}
 
 {% include numbering-section.html title='賃金' %}
-賃金の種類、計算および支給方法等給与に関する事項は、「[賃金規程](/ja/docs/wage-regulations/)」に別に定める。
+賃金の種類、計算および支給方法等給与に関する事項は、「[賃金規程](/ja/docs/wage-regulations)」に別に定める。
 
 {% include numbering-section.html title='退職金' %}
 退職金は支給しない。
