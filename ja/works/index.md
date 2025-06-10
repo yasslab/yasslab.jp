@@ -50,6 +50,12 @@ description: これまでの活動実績や沿革、創業ストーリーなど�
 	  お知らせ - YassLab 株式会社<br>
 	  <a href="/ja/news">https://yasslab.jp/ja/news</a>
 	</p>
+	<div class="text-center" style="margin-bottom: 100px;">
+          <a href="/ja/news" class="btn btn-primary">
+	    お知らせページを見る
+	  </a>
+        </div>
+
 
 	{%- capture achievements -%}{% include_relative achievements.md %}{%- endcapture -%}
 	<div class="achievements" style="margin-bottom: 100px;">
