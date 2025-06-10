@@ -167,11 +167,12 @@ layout: plain_without_thumbnail
 	  <div class="col-6 col-md-4 {{ member.add_style }}">
 	    <div class="card cardMember">
 	      <div class="cardMember__thumbnail">
-		<img src="/img/spinner.svg" data-src="/img/photos/{{ member.username }}.webp" alt="{{ member.username }}" class="rounded-circle lazyload">
+		<img src="/img/spinner.svg" data-src="/img/photos/{{ member.username }}.webp"
+		     alt="{{ member.username }}" class="rounded-circle lazyload">
 	      </div>
 	      <div class="cardMember__content">
 		<span style='font-size: smaller;'>
-		  <a href="{% if member.link_to %}{{ include.link_to }}{% else %}https://x.com/{{ member.username }}{% endif %}"
+		  <a href="{% if member.link_to %}{{ member.link_to }}{% else %}https://x.com/{{ member.username }}{% endif %}"
 		   class="cardMember__account" target="_blank">@{{ member.username }}</a></span>
 		<p class="cardMember_summary" style='margin-top: 10px;'>{{ member.profile_ja | markdownify }}</p>
 	      </div>
