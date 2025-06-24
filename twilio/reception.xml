@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Response>
-  <Gather numDigits="1" timeout="5" action="https://yasslab.jp/twilio/record.xml">
+  <Gather numDigits="1" timeout="5" action="https://yasslab.jp/twilio/record.xml" method="GET">
     <Say language="ja-JP" voice="woman">
       お電話ありがとうございます。ヤスラボ株式会社です。
 
