@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Say language="ja-JP" voice="man">
+  <Pause length="2"/>
+  <Say language="ja-JP" voice="woman">
     お電話ありがとうございます。ヤスラボ株式会社です。
     弊社へのお問い合わせについては、公式ウェブサイトにある、
     お問い合わせフォームよりご連絡いただけると幸いです。
   </Say>
   <Pause length="2"/>
-  <Say language="en-US" voice="man">
+  <Say language="en-US" voice="woman">
     Thank you for calling YassLab Inc. 
     We are not available by phone for now.
     Please use our contact form in our official website, thank you.
