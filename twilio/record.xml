@@ -2,7 +2,8 @@
 
 <Response>
   <Say language="ja-JP" voice="woman">
-    ピー、という音の後に、メッセージをお残しください。
+    メッセージの録音ですね。了解しました。
+    それでは、ピー、という発信音の後に、メッセージをお残しください。
   </Say>
   <Record maxLength="60" />
   <Say language="ja-JP" voice="woman">
