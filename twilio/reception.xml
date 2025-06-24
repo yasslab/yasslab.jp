@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <Response>
-  <Pause length="2"/>
+  <Gather numDigits="1" timeout="5" action="https://yasslab.jp/twilio/record.xml">
+    <Say language="ja-JP" voice="woman">
+      お電話ありがとうございます。ヤスラボ株式会社です。
+
+      弊社へのお問い合わせについては、公式ウェブサイトにある、
+      お問い合わせフォームよりご連絡いただけると幸いです。
+
+      メッセージを録音される場合は、1、を、
+      お問い合わせフォームの詳細をお聞きになる場合は、そのままお待ちください。
+    </Say>
+  </Gather>
+
+  <!-- タイムアウト後（何も押さなかった場合） -->
   <Say language="ja-JP" voice="woman">
-    お電話ありがとうございます。ヤスラボ株式会社です。
-    弊社へのお問い合わせについては、公式ウェブサイトにある、
-    お問い合わせフォームよりご連絡いただけると幸いです。
+    公式ウェブサイトは、ブラウザから yasslab.jp にアクセスし、
+    ページ下部にあるお問い合わせフォームよりご連絡ください。
+    Y-A-S-S-L-A-B ドット J-P です。
+
+    お電話、ありがとうございました。
   </Say>
-  <Pause length="2"/>
-  <Say language="en-US" voice="woman">
-    Thank you for calling YassLab Inc. 
-    We are not available by phone for now.
-    Please use our contact form in our official website, thank you.
-  </Say>
+
   <Hangup/>
 </Response>
