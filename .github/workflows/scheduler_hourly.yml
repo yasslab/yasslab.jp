@@ -1,4 +1,4 @@
-name: Scheduler for Houly Tasks (RSS)
+name: Scheduler for Houly Tasks
 
 # Spec: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 # For debug: https://crontab.guru/
