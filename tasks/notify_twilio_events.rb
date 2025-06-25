@@ -5,14 +5,15 @@ require 'net/http'
 require 'tempfile'
 
 # 環境変数の確認
+yasslab_tel   = ENV['TWILIO_YASSLAB_TEL']
 account_sid   = ENV['TWILIO_ACCOUNT_SID']
 auth_token    = ENV['TWILIO_AUTH_TOKEN']
 slack_webhook = ENV['TWILIO_SLACK_WEBHOOK']
 openai_token  = ENV['OPENAI_ACCESS_TOKEN']
 
-unless account_sid && auth_token && slack_webhook
+unless yasslab_tel && account_sid && auth_token && slack_webhook
   puts "Error: Missing required environment variables"
-  puts "Required: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_SLACK_WEBHOOK"
+  puts "Required: TWILIO_YASSLAB_TEL, TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_SLACK_WEBHOOK"
   exit 1
 end
 
@@ -42,6 +43,9 @@ recordings.each do |recording|
   from_number = call.from
   to_number   = call.to
   recording_url = "https://api.twilio.com/2010-04-01/Accounts/#{account_sid}/Recordings/#{recording.sid}.mp3"
+  
+  # YassLab への着信のみを処理
+  next unless to_number == yasslab_tel
   
   # OpenAIで文字起こし（トークンがある場合のみ）
   transcription = nil
