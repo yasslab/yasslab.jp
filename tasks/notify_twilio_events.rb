@@ -16,11 +16,12 @@ task :notify_twilio_events do
   
   # Twilioクライアントの初期化
   client = Twilio::REST::Client.new(account_sid, auth_token)
-  
-  # 過去24時間の録音を取得（GitHub Actionsテスト用）
-  one_day_ago = Time.now - 86400
-  puts "Checking for recordings after #{one_day_ago}..."
-  recordings = client.recordings.list(date_created_after: one_day_ago)
+
+  # Detect Twilio events
+  #one_day_ago = Time.now - 86400 # 過去24時間の録音を取得（テスト用）
+  one_hour_ago = Time.now - 3600  # 過去1時間の録音を取得
+  puts "Checking for recordings after #{one_hour_ago}..."
+  recordings = client.recordings.list(date_created_after: one_hour_ago)
   
   if recordings.empty?
     puts "No new recordings found in the last hour"
