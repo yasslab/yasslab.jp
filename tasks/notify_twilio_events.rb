@@ -39,6 +39,7 @@ task :notify_twilio_events do
     duration = recording.duration
     created_at = recording.date_created.localtime('+09:00')
     from_number = call.from
+    to_number = call.to
     recording_url = "https://api.twilio.com/2010-04-01/Accounts/#{account_sid}/Recordings/#{recording.sid}.mp3"
     
     # Slackメッセージの作成
@@ -78,6 +79,7 @@ task :notify_twilio_events do
       :telephone_receiver: *新しい録音メッセージ*
       
       :phone: 発信元: #{from_number}
+      :dart: 発信先: #{to_number}
       :stopwatch: 録音時間: #{duration}秒
       :calendar: 受信日時: #{created_at.strftime('%Y年%m月%d日 %H:%M')}
       :id: 録音ID: #{recording.sid}
