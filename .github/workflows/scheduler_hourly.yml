@@ -43,6 +43,7 @@ jobs:
         TWILIO_ACCOUNT_SID:   ${{ secrets.TWILIO_ACCOUNT_SID   }}
         TWILIO_AUTH_TOKEN:    ${{ secrets.TWILIO_AUTH_TOKEN    }}
         TWILIO_SLACK_WEBHOOK: ${{ secrets.TWILIO_SLACK_WEBHOOK }}
+        OPENAI_ACCESS_TOKEN:  ${{ secrets.OPENAI_ACCESS_TOKEN  }}
 
     - name: 📜 Upsert recent news from RSS
       run: |
