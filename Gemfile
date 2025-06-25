@@ -38,6 +38,7 @@ gem 'google-api-client' # GCal: Access to Calendar
 gem 'multi_json'        # GCal: Access to Calendar
 gem 'gmail'             # Share inquiry from form
 gem 'retryable'         # Retry on errors like HTTP
+gem 'twilio-ruby'       # Twilio: Voice recordings
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
