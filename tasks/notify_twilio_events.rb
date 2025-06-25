@@ -42,38 +42,6 @@ task :notify_twilio_events do
     to_number = call.to
     recording_url = "https://api.twilio.com/2010-04-01/Accounts/#{account_sid}/Recordings/#{recording.sid}.mp3"
     
-    # Slackメッセージの作成
-    attachments = [{
-      fallback: "新しい録音メッセージ - 発信元: #{from_number} - #{duration}秒",
-      color: 'good',
-      title: '新しい録音メッセージがあります',
-      fields: [
-        {
-          title: '📞 発信元',
-          value: from_number,
-          short: true
-        },
-        {
-          title: '⏱️ 録音時間',
-          value: "#{duration}秒",
-          short: true
-        },
-        {
-          title: '📅 受信日時',
-          value: created_at.strftime('%Y年%m月%d日 %H:%M'),
-          short: true
-        },
-        {
-          title: '🆔 録音ID',
-          value: recording.sid,
-          short: true
-        }
-      ],
-      text: "録音を再生するには、以下の情報でアクセスしてください：\nURL: #{recording_url}\nユーザー名: #{account_sid}\nパスワード: Twilioコンソールで確認",
-      footer: 'Twilio Voice',
-      ts: Time.now.to_i
-    }]
-    
     # Slackメッセージを作成
     message = <<~MSG
       :telephone_receiver: *新しい録音メッセージ*
@@ -85,7 +53,7 @@ task :notify_twilio_events do
       :id: 録音ID: #{recording.sid}
       
       録音URL: #{recording_url}
-      (認証情報はTwilioコンソールで確認してください)
+      (認証情報はTwilioコンソールでご確認ください)
     MSG
     
     # Slackに送信
