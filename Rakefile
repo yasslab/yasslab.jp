@@ -60,8 +60,7 @@ end
 
 desc "Notify recent Twilio events to Slack"
 task :notify_twilio_events do |task, args|
-  load "tasks/notify_twilio_events.rb"
-  Rake::Task["notify_twilio_events"].invoke
+  ruby "tasks/notify_twilio_events.rb"
 end
 
 # NOTE: This before-hooked task affects on the tasks above.
