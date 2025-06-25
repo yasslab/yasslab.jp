@@ -1,7 +1,8 @@
 # Claude Code
 CLAUDE*.md
 
-# Ignore direnv
+# Ignore dotenv/direnv
+.env
 .envrc
 
 ### https://raw.github.com/github/gitignore/master/Global/OSX.gitignore
