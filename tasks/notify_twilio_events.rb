@@ -7,13 +7,13 @@ task :notify_twilio_events do
   account_sid   = ENV['TWILIO_ACCOUNT_SID']
   auth_token    = ENV['TWILIO_AUTH_TOKEN']
   slack_webhook = ENV['TWILIO_SLACK_WEBHOOK']
-  
+
   unless account_sid && auth_token && slack_webhook
     puts "Error: Missing required environment variables"
     puts "Required: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_SLACK_WEBHOOK"
     exit 1
   end
-  
+
   # Twilioクライアントの初期化
   client = Twilio::REST::Client.new(account_sid, auth_token)
 
@@ -22,26 +22,24 @@ task :notify_twilio_events do
   one_hour_ago = Time.now - 3600  # 過去1時間の録音を取得
   puts "Checking for recordings after #{one_hour_ago}..."
   recordings = client.recordings.list(date_created_after: one_hour_ago)
-  
+
   if recordings.empty?
     puts "No new recordings found in the last hour"
     exit 0
   end
-  
+
   # Slack通知の準備
   slack = Slack::Incoming::Webhooks.new(slack_webhook)
-  
+
   recordings.each do |recording|
-    # 通話情報を取得
-    call = client.calls(recording.call_sid).fetch
-    
-    # 録音情報の整理
-    duration = recording.duration
-    created_at = recording.date_created.localtime('+09:00')
+    # Twilio イベント情報の取得・整理
+    call        = client.calls(recording.call_sid).fetch
+    duration    = recording.duration
+    created_at  = recording.date_created.localtime('+09:00')
     from_number = call.from
-    to_number = call.to
+    to_number   = call.to
     recording_url = "https://api.twilio.com/2010-04-01/Accounts/#{account_sid}/Recordings/#{recording.sid}.mp3"
-    
+
     # Slackメッセージを作成
     message = <<~MSG
       :telephone_receiver: *新しい録音メッセージ*
@@ -55,14 +53,13 @@ task :notify_twilio_events do
       録音URL: #{recording_url}
       (認証情報はTwilioコンソールでご確認ください)
     MSG
-    
+
     # Slackに送信
     response = slack.post message
-    
+
     puts "Slack response: #{response.code} - #{response.body}"
-    
-    puts "Notified recording #{recording.sid} to Slack"
+    puts "Notified event: #{recording.sid} to Slack"
   end
-  
+
   puts "Successfully notified #{recordings.length} recording(s) to Slack"
 end
