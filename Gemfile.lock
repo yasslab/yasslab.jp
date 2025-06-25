@@ -50,11 +50,14 @@ GEM
       http_parser.rb (~> 0)
     ethon (0.16.0)
       ffi (>= 1.15.0)
+    event_stream_parser (1.0.0)
     eventmachine (1.2.7)
     faraday (2.13.1)
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
+    faraday-multipart (1.1.1)
+      multipart-post (~> 2.0)
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
     ffi (1.17.2)
@@ -229,6 +232,7 @@ GEM
     mini_portile2 (2.8.9)
     minitest (5.25.5)
     multi_json (1.15.0)
+    multipart-post (2.4.1)
     mutex_m (0.3.0)
     net-http (0.6.0)
       uri
@@ -322,6 +326,10 @@ GEM
     rspec-support (3.13.4)
     rss (0.3.1)
       rexml
+    ruby-openai (8.1.0)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
     ruby-rc4 (0.1.5)
     rubyntlm (0.6.5)
       base64
@@ -455,6 +463,7 @@ DEPENDENCIES
   retryable
   rspec
   rss
+  ruby-openai
   sanitize
   slack-incoming-webhooks
   twilio-ruby
