@@ -29,8 +29,8 @@ end
 client = Twilio::REST::Client.new(account_sid, auth_token)
 
 # 過去の録音を取得
-time_range = Time.now - 3600   # 本番用：過去1時間
-#time_range = Time.now - 86400  # テスト用：過去24時間
+#time_range = Time.now - 3600   # 本番用：過去1時間
+time_range = Time.now - 86400  # テスト用：過去24時間
 
 puts "Checking for recordings after #{time_range}..."
 recordings = client.recordings.list(date_created_after: time_range)
