@@ -9,11 +9,19 @@ yasslab_tel   = ENV['TWILIO_YASSLAB_TEL']
 account_sid   = ENV['TWILIO_ACCOUNT_SID']
 auth_token    = ENV['TWILIO_AUTH_TOKEN']
 slack_webhook = ENV['TWILIO_SLACK_WEBHOOK']
-openai_token  = ENV['OPENAI_ACCESS_TOKEN']
+openai_token  = ENV['OPENAI_ACCESS_TOKEN']  # Optional: Start transcribing if set
 
-unless yasslab_tel && account_sid && auth_token && slack_webhook
-  puts "Error: Missing required environment variables"
-  puts "Required: TWILIO_YASSLAB_TEL, TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_SLACK_WEBHOOK"
+# 必須環境変数のチェック
+missing_vars = []
+missing_vars << "TWILIO_YASSLAB_TEL"   unless yasslab_tel
+missing_vars << "TWILIO_ACCOUNT_SID"   unless account_sid
+missing_vars << "TWILIO_AUTH_TOKEN"    unless auth_token
+missing_vars << "TWILIO_SLACK_WEBHOOK" unless slack_webhook
+
+if missing_vars.any?
+  puts "Error: Missing required environment variables:"
+  missing_vars.each { |var| puts "  - #{var}" }
+  puts "\nPlease set the above environment variables and try again."
   exit 1
 end
 
