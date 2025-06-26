@@ -5,18 +5,18 @@ require 'net/http'
 require 'tempfile'
 
 # 環境変数の確認
-yasslab_tel   = ENV['TWILIO_YASSLAB_TEL']
-account_sid   = ENV['TWILIO_ACCOUNT_SID']
-auth_token    = ENV['TWILIO_AUTH_TOKEN']
-slack_webhook = ENV['TWILIO_SLACK_WEBHOOK']
-openai_token  = ENV['OPENAI_ACCESS_TOKEN']  # Optional: Start transcribing if set
+tel_numbers    = ENV['TWILIO_TEL_NUMBERS']
+account_sid    = ENV['TWILIO_ACCOUNT_SID']
+auth_token     = ENV['TWILIO_AUTH_TOKEN']
+slack_webhooks = ENV['TWILIO_SLACK_WEBHOOKS']
+openai_token   = ENV['OPENAI_ACCESS_TOKEN']  # Optional: Start transcribing if set
 
 # 必須環境変数のチェック
 missing_vars = []
-missing_vars << "TWILIO_YASSLAB_TEL"   unless yasslab_tel
-missing_vars << "TWILIO_ACCOUNT_SID"   unless account_sid
-missing_vars << "TWILIO_AUTH_TOKEN"    unless auth_token
-missing_vars << "TWILIO_SLACK_WEBHOOK" unless slack_webhook
+missing_vars << "TWILIO_TEL_NUMBERS"    unless tel_numbers
+missing_vars << "TWILIO_ACCOUNT_SID"    unless account_sid
+missing_vars << "TWILIO_AUTH_TOKEN"     unless auth_token
+missing_vars << "TWILIO_SLACK_WEBHOOKS" unless slack_webhooks
 
 if missing_vars.any?
   puts "Error: Missing required environment variables:"
@@ -40,8 +40,17 @@ if recordings.empty?
   exit 0
 end
 
-# Slack通知の準備
-slack = Slack::Incoming::Webhooks.new(slack_webhook)
+# 番号とWebhookのマッピングを準備
+tel_numbers_array = tel_numbers.split(',').map(&:strip)
+slack_webhooks_array = slack_webhooks.split(',').map(&:strip)
+
+# 番号と対応するWebhookのマッピングを作成
+number_to_webhook = {}
+tel_numbers_array.each_with_index do |number, index|
+  # 対応するWebhookがあれば使用、なければ最後のWebhookを使用
+  webhook = slack_webhooks_array[index] || slack_webhooks_array.last
+  number_to_webhook[number] = webhook
+end
 
 recordings.each do |recording|
   # Twilio イベント情報の取得・整理
@@ -52,8 +61,12 @@ recordings.each do |recording|
   to_number   = call.to
   recording_url = "https://api.twilio.com/2010-04-01/Accounts/#{account_sid}/Recordings/#{recording.sid}.mp3"
   
-  # YassLab への着信のみを処理
-  next unless to_number == yasslab_tel
+  # 設定された番号への着信かチェック
+  next unless number_to_webhook.has_key?(to_number)
+  
+  # 対応するSlack Webhookを取得
+  slack_webhook = number_to_webhook[to_number]
+  slack = Slack::Incoming::Webhooks.new(slack_webhook)
   
   # OpenAIで文字起こし（トークンがある場合のみ）
   transcription = nil

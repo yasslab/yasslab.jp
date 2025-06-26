@@ -40,11 +40,11 @@ jobs:
     - name: 📞 Notify Twilio events to Slack
       run: bundle exec rake notify_twilio_events
       env:
-        TWILIO_YASSLAB_TEL:   ${{ secrets.TWILIO_YASSLAB_TEL   }}
-        TWILIO_ACCOUNT_SID:   ${{ secrets.TWILIO_ACCOUNT_SID   }}
-        TWILIO_AUTH_TOKEN:    ${{ secrets.TWILIO_AUTH_TOKEN    }}
-        TWILIO_SLACK_WEBHOOK: ${{ secrets.TWILIO_SLACK_WEBHOOK }}
-        OPENAI_ACCESS_TOKEN:  ${{ secrets.OPENAI_ACCESS_TOKEN  }}
+        TWILIO_TEL_NUMBERS:    ${{ secrets.TWILIO_TEL_NUMBERS    }}
+        TWILIO_ACCOUNT_SID:    ${{ secrets.TWILIO_ACCOUNT_SID    }}
+        TWILIO_AUTH_TOKEN:     ${{ secrets.TWILIO_AUTH_TOKEN     }}
+        TWILIO_SLACK_WEBHOOKS: ${{ secrets.TWILIO_SLACK_WEBHOOKS }}
+        OPENAI_ACCESS_TOKEN:   ${{ secrets.OPENAI_ACCESS_TOKEN   }}
 
     - name: 📜 Upsert recent news from RSS
       run: |
