@@ -116,6 +116,9 @@ task test: [:build] do
   }
 
   HTMLProofer.check_directory('_site/', options).run
+  
+  # Run RSpec tests
+  sh 'bundle exec rspec spec/*.rb'
 end
 
 task build: [:clean] do

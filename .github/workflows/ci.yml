@@ -34,7 +34,6 @@ jobs:
       run: |
         bundle exec rake assets:precompile
         bundle exec rake test SKIP_BUILD=true
-        bundle exec rspec spec/qiita.rb
 
 #    - name: ⏱ Test tasks
 #      if: ${{ github.actor }} != *'dependabot'*

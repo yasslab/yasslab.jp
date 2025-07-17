@@ -1,6 +1,7 @@
 #- username:    Handle/Nickname
 #  profile_ja:  JP Text
 #  profile_en:  EN Text
+#  github:      (Optional) If different from username
 #  link_to:     (Optional) Overide default link to X
 #  add_style:   (Optional) Add inline CSS style
 
@@ -25,6 +26,7 @@
 #  profile_en: ''
 
 - username:   rakudaSanDesu
+  github:     rakuda-san-desu
   profile_ja: 'エンジニアとして歩き始めたらくだ🐫'
   profile_en: ''
 
@@ -33,6 +35,7 @@
   profile_en: ''
 
 - username:   nacchan
+  github:     nacchan99
   profile_ja: '新米Railsエンジニア。自然と音楽がパワーの源🌿🎧'
   profile_en: ''
   link_to:    'https://x.com/nacchan_program'
