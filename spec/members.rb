@@ -17,18 +17,18 @@ RSpec.describe '/members.json' do
     expect(@members).not_to be_empty
   end
 
-  it 'each member has a username' do
+  it 'each member has a username_github' do
     @members.each do |member|
-      expect(member).to have_key('username')
-      expect(member['username']).to be_a(String)
-      expect(member['username']).not_to be_empty
+      expect(member).to have_key('username_github')
+      expect(member['username_github']).to be_a(String)
+      expect(member['username_github']).not_to be_empty
     end
   end
 
   context 'GitHub API validation' do
     it 'all members have valid GitHub accounts' do
       @members.each do |member|
-        uri = URI("https://api.github.com/users/#{member['username']}")
+        uri = URI("https://api.github.com/users/#{member['username_github']}")
         response = Net::HTTP.get_response(uri)
         data = JSON.parse(response.body)
         
@@ -38,7 +38,7 @@ RSpec.describe '/members.json' do
         
         # Valid GitHub user should have login field
         expect(data).to have_key('login')
-        expect(data['login'].downcase).to eq(member['username'].downcase)
+        expect(data['login'].downcase).to eq(member['username_github'].downcase)
       end
     end
   end

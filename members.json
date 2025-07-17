@@ -5,7 +5,7 @@ layout: null
 [
   {% for member in site.data.members %}
   {
-    "username": "{{ member.github | default: member.username | escape }}"
+    "username_github": "{{ member.github | default: member.username | escape }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
