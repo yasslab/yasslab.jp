@@ -25,6 +25,14 @@ RSpec.describe '/members.json' do
     end
   end
 
+  it 'each member has a username_slack' do
+    @members.each do |member|
+      expect(member).to have_key('username_slack')
+      expect(member['username_slack']).to be_a(String)
+      expect(member['username_slack']).not_to be_empty
+    end
+  end
+
   context 'GitHub API validation' do
     it 'all members have valid GitHub accounts' do
       @members.each do |member|

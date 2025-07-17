@@ -2,6 +2,7 @@
 #  profile_ja:  JP Text
 #  profile_en:  EN Text
 #  github:      (Optional) If different from username
+#  slack:       (Optional) If different from username
 #  link_to:     (Optional) Overide default link to X
 #  add_style:   (Optional) Add inline CSS style
 
@@ -27,6 +28,7 @@
 
 - username:   rakudaSanDesu
   github:     rakuda-san-desu
+  slack:      rakuda
   profile_ja: 'エンジニアとして歩き始めたらくだ🐫'
   profile_en: ''
 
