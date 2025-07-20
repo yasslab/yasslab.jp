@@ -5,7 +5,8 @@ use AcmeChallenge, ENV['ACME_CHALLENGE'] if ENV['ACME_CHALLENGE']
 # $ rackup config.ru
 require 'rack/rewrite'
 use Rack::Rewrite do
-  r301 %r{/ja/posts(.*)}, '/ja/news$1'
+  r301 %r{/ja/posts(.*)},       '/ja/news$1'
+  r301 %r{/ja/doorkeeper/(.*)}, '/ja/doorkeeper'
 
   if ENV['RACK_ENV'] == 'production'
     r301 %r{.*}, 'https://yasslab.jp$&', scheme: 'http'
