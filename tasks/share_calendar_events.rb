@@ -102,7 +102,9 @@ calendar_ids.each do |calendar_id|
   responses << service.list_events(
                         calendar_id,
                         time_min: today,
-                        time_max: tomorrow)
+                        time_max: tomorrow,
+                        single_events: true,
+                        order_by: 'startTime')
 end
 
 # Generate a message
@@ -111,6 +113,9 @@ msg    = ""
 events = []
 responses.each do |response|
   response.items.each do |event|
+    # Skip cancelled events (e.g., deleted instances of recurring events)
+    next if event.status == 'cancelled'
+    
     next if event.start.nil?
     start = "00:00"  if event.start.date
     start = start    || event.start.date_time.strftime("%H:%M")
