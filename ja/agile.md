@@ -135,7 +135,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
           </tr>
           <tr>
             <th><img src="/img/spinner.svg" data-src="/img/agile-adjusting.png" alt="Adjusting" class="lazyload" /></th>
-            <td>各社と予定調整中です。まだ間に合いますので、お気軽に<a href="#contact">お問い合わせ</a>ください。</td>
+            <td>各社と予定調整中です。まだ受付中ですので、お気軽に<a href="#contact">お問い合わせ</a>ください。</td>
           </tr>
           <tr>
             <th><img src="/img/spinner.svg" data-src="/img/agile-reserved.png"  alt="Reserved" class="lazyload" /></th>
