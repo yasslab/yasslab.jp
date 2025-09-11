@@ -198,9 +198,9 @@ title:  弊社をご検討されている皆さんへ
 	    プログラミング独学でも道は切り開ける - note</a></li>
 	  <li><a href='https://www.youtube.com/watch?v=G_syAUv1Edg'>📺
 	    未経験から就職！プログラミング学習時間を計測してみた話 - YouTube</a></li>
-	  <li><a href='https://toyokeizai.net/articles/-/325207'>📰
+	  <li><a href='https://toyokeizai.net/articles/-/325207?page=3'>📰
 	    初心者プログラマーが飛躍的に上達できたコツ - 週刊東洋経済</a></li>
-	  <a href='https://toyokeizai.net/articles/-/325207'>
+	  <a href='https://toyokeizai.net/articles/-/325207?page=3'>
 	    <img class='cover lazyload' alt="体験談記事のカード (自作)" src='/img/spinner.svg' data-src='https://i.gyazo.com/1e3196e084f8f4983b789497e14caa69.png' src='/img/spinner.svg' loading="lazy" />
 	  </a>
 	</ul>
