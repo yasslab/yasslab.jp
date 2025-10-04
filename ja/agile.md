@@ -92,13 +92,18 @@ title:  月額制の Ruby/Rails 開発支援サービス
         <ul>
           <li>基本契約でNDAや著作権の譲渡などを取り扱います</li>
 	  <li>個別契約で稼働数や金額の調整などを取り扱います</li>
-          <li>準委任契約となり、成果物は<a href='https://drive.google.com/drive/folders/1Z3Ji3Hyo_zsB6qP2LYoFoOHfLNhqaUSf?usp=sharing'>作業報告書</a>になります</li>
+          <li>準委任契約となり、成果物は<a href='https://drive.google.com/drive/folders/1Z3Ji3Hyo_zsB6qP2LYoFoOHfLNhqaUSf?usp=sharing' target="_blank">作業報告書</a>になります</li>
         </ul>
-	<p>上記のモデル契約書を具体化した契約書が、次の契約書になります。特に、ユーザとベンダの定義、個別契約書と作業報告書の関係性などを具体化しています。</p>
 
-        <p><a href="https://www.dropbox.com/sh/zqrdkmie0dambh1/AAD8ilSwPIBzrT09qu_9f4B3a" target="_blank" rel="noopener">IPAのモデル契約をベースにした基本/個別契約書の例 (作成: YassLab 株式会社)</a></p>
+	<p>上記のモデル契約書を具体化した契約書が、次の契約書になります。</p>
+        <p>
+	  <a href='https://drive.google.com/drive/folders/1Z3Ji3Hyo_zsB6qP2LYoFoOHfLNhqaUSf?usp=sharing' target="_blank">
+	    &raquo; 作業報告書・契約書の例を見る
+	  </a>
+	  <small> (作成: YassLab 株式会社)</small>
+	</p>
 
-        <p>なお、本契約スタイルと似た契約であれば、上記の契約書でなくても問題ありません。</p>
+        <p>なお上記はあくまで具体例の１つとなりますので、個別のカスタマイズや御社のテンプレートなどでも柔軟に対応可能です。</p>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
