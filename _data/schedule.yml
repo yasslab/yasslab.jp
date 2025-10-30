@@ -3,13 +3,13 @@
 # - adjusting: 'お問い合わせください'
 # - available: 'ご相談お待ちしております'
 
-- initial_month: 8
+- initial_month: 11
   plus_0: reserved
   plus_1: reserved
   plus_2: reserved
-  plus_3: adjusting
-  plus_4: available
-  plus_5: available
+  plus_3: reserved
+  plus_4: reserved
+  plus_5: reserved
   is_auto_update: false
   #is_auto_update: true
   # initial_month の値を、ビルド時点の月に自動的に上書きする。
