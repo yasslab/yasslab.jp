@@ -48,7 +48,7 @@ lang:   en
 		<a href="https://railsguides.jp/" target="_blank" rel="noopener">
 		  <button class="btn btn-ruby">railsguides.jp</button></a>
 		<h4>for developers</h4>
-		<p>Enhance your web service by using 1,600+ pages contents on Ruby on Rails in Japanese.</p>
+		<p>Enhance your web service by using 2,000+ pages contents on Ruby on Rails in Japanese.</p>
             </div>
           </div>
 	</div>
