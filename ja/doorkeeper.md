@@ -333,6 +333,15 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
            right_path='coderdojotachikawa'
 %}
 
+{% include community.html
+           left_name='CoderDojo 南会津'
+           left_path='coderdojo-minamiaizu'
+           center_name=''
+           center_path='empty'
+           right_name=''
+           right_path='empty'
+%}
+
 <!--
 {% include community.html
            left_name=''
