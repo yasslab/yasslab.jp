@@ -93,14 +93,32 @@ YassLab 社ではプロダクト開発をする様々な方々に『[Railsチュ
 
 今後ともよろしくお願いします...!! (＞人＜ )✨
 
------
+<br>
 
-<br>🐣 合わせて読みたい: 銀座rails #8 - Togetter
+## [📝](#refs) 合わせて読みたい {#refs}
+
+銀座rails #8 - Togetter
 [https://togetter.com/li/1341460](https://togetter.com/li/1341460)
 
+(対談動画) 徳丸先生に聴くセキュリティの学び方 - note
+[https://note.com/yasslab/n/nd514c04e1849](https://note.com/yasslab/n/nd514c04e1849)
+
+<iframe width="620" height="348" src="https://www.youtube.com/embed/PtQF99y0AFM" title="徳丸先生 「体系的に学ぶ ⇄ 具体的に学ぶ」【切り抜き】" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br>
+
 -----
 
-<br>📣 【PR】YassLab 社では社員研修に特化したRailsチュートリアルの『[法人プラン](https://railstutorial.jp/business)』、Rails開発の生産性を高めるRailsガイドの『[Proプラン](https://railsguides.jp/pro)』を提供しています。ぜひお試しして頂けると嬉しいです ;)
+<br>📣 【PR】YassLab 社では、
+
+- 社員研修に特化したRailsチュートリアルの『[研修支援](https://railstutorial.jp/business)』
+- 多くのエンジニアにリーチできるRailsガイド『[協賛プラン](https://railsguides.jp/sponsor)』
+
+といったサービスも提供しています。無料の導入相談もしているので、よければぜひ! 😆
+
+<a href="/ja/#products" class="btn btn-primary btn-block mt-2">サービス概要を見る</a>
+
+<br>
 
 [![YassLab Inc.](/img/logos/800x200.png)](/)
 
