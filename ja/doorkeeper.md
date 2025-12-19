@@ -336,8 +336,8 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
 {% include community.html
            left_name='CoderDojo 南会津'
            left_path='coderdojo-minamiaizu'
-           center_name=''
-           center_path='empty'
+           center_name='Coolest Projects Japan'
+           center_path='coolestprojectsjapan'
            right_name=''
            right_path='empty'
 %}
