@@ -311,7 +311,7 @@ GEM
       uber (< 0.2.0)
     retriable (3.1.2)
     retryable (3.0.5)
-    rexml (3.4.1)
+    rexml (3.4.4)
     rouge (4.5.2)
     rspec (3.13.2)
       rspec-core (~> 3.13.0)
@@ -326,7 +326,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.6)
-    rss (0.3.1)
+    rss (0.3.2)
       rexml
     ruby-openai (8.3.0)
       event_stream_parser (>= 0.3.0, < 2.0.0)
