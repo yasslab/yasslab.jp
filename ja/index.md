@@ -82,11 +82,14 @@ layout: plain_without_thumbnail
     <div class="row">
       <div class="col-12">
         <h3><a href="#services" style="color: white;">《サービス紹介》</a><br></h3>
-  <h4 style="color: white;">『学び』を支える様々なサービスをご提供しています</h4>
+	<h4 style="color: white;">『学び』を支える様々なサービスをご提供しています</h4>
 
-  <div class="slides">
-    <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-  </div>
+	<div class="slides">
+	  <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+	</div>
+
+      </div><!--//col-->
+    </div><!--//row-->
 
   <!--
         <div class="row mb-5">
@@ -114,27 +117,25 @@ layout: plain_without_thumbnail
         </div>
   -->
 
-      </div><!--//col-->
-    </div><!--//row-->
-
+    <!--
     <div class="row">
       <div class="col-md-6">
 	<div class="developmentSupport__more text-center">
           <a href="/ja/about" class="btn btn-primary btn-block mt-2">会社概要を見る</a>
 	</div>
-      </div><!--//col-->
+      </div>
       <div class="col-md-6">
 	<div class="developmentSupport__more text-center">
           <a href="/ja/works" class="btn btn-primary btn-block mt-2">活動実績を見る</a>
 	</div>
-      </div><!--//col-->
-      <!--
+      </div>
       <div class="col-md-4">
 	<div class="developmentSupport__more text-center">
           <a href="https://railstutorial.jp/business" class="btn btn-primary btn-block mt-2" target='_blank' rel='noopener'>導入相談を見る</a>
 	</div>
-      </div>--> <!--//col-->
-    </div><!--//row-->
+      </div>
+    </div>
+    -->
   </div><!--//container-->
 </section>
 
