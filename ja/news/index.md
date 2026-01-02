@@ -16,7 +16,11 @@ thumbnail: bg-sky.jpg
   {% for news in site.data.news %}
     {% assign news_year = news.date | date: '%Y' | to_integer %}
     {% if this_year == news_year %}
-      <div style="text-align: center"><h2>{{ this_year }}年</h2></div>
+      <div style="text-align: center">
+        <h2 id="{{ this_year }}">
+	  <a href='#{{ this_year }}'>{{ this_year }}年</a>
+	</h2>
+      </div>
       {% assign this_year = this_year | minus: 1 %}
     {% endif %}
 
