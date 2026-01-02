@@ -25,5 +25,12 @@ thumbnail: bg-sky.jpg
 </ul>
 
 <hr>
+<h6 class="news-toc">
+  <a href="/ja/works/#achievements">&raquo; 2018年以前の活動を見る</a>
+</h6>
+<hr>
 
-{% include recent_tweets.html %}
+<br>
+<br>
+<br>
+
