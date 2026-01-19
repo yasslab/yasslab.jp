@@ -98,7 +98,7 @@ task test: [:build] do
   options = {
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'QiitaTeam'],
     allow_hash_href:     true,
-    check_internal_hash: false, # NOTE: This raises error on correct internal hashes in Japanese
+    check_internal_hash: true, # NOTE: Enable to detect dead anchor links
     disable_external:    ENV['TEST_EXTERNAL_LINKS'] != 'true',
     enforce_https:       false, # NOTE: Some websites in article not HTTPS
     ignore_files: [
