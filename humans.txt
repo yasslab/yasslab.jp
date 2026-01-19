@@ -1,15 +1,18 @@
 #!/usr/bin/env ruby
 
-puts eval(%( [1_2_5_1_6,1_2_4_7_3,1_2_5_2_1,
+puts eval(%([1_2_5_1_6, 1_2_4_7_3, 1_2_5_2_1,
 1  ##  ##                 ##          ##    _
 2   ####   ##   #### #### ##      ##  ##    _
 5    ##      #  #    #    ##        # ##    _
 0    ##    ###  #### #### ##      ### ####  _
 8    ##   #  #     #    # ##     #  # ##  # ]
 .    ##    ###  #### #### ######  ### ####  m
-ap{|c|c.chr('utf-8')}).gsub(/\s|#/,'')).join
+ap{|c| c.chr('utf-8')}).gsub(/\s|#/,'')).join
 
 __END__
 
 Team members - YassLab Inc.
 https://yasslab.jp/#members
+
+NOTE: Run this file with Ruby like this.
+$ curl https://yasslab.jp/humans.txt | ruby
