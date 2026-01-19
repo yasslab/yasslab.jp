@@ -19,12 +19,13 @@
   }
 
   if ("{{ page.redirect_to }}" != ""){
-    location.replace("{{ page.redirect_to }}");
+    // アンカーを保持: /#members → /ja/members or /en/#members
+    location.replace("{{ page.redirect_to }}" + location.hash);
   }
   else if (getBrowserLanguage().indexOf("ja") != -1) {
-      location.replace("/ja/");
+    location.replace("/ja/" + location.hash);
   }
   else {
-      location.replace("/en/");
+    location.replace("/en/" + location.hash);
   }   
 </script>

@@ -11,8 +11,5 @@ ap{|c|c.chr('utf-8')}).gsub(/\s|#/,'')).join
 
 __END__
 
-YassLab Inc.
-https://github.com/orgs/yasslab/people
-
-YassLab - Having a Good Life by Creating ;)
-https://yasslab.jp/
+Team members - YassLab Inc.
+https://yasslab.jp/#members
