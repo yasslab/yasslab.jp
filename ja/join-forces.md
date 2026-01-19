@@ -140,7 +140,7 @@ title:  弊社をご検討されている皆さんへ
 	      <li><a href="https://github.com/coderdojo-japan/map.coderdojo.jp">GitHub - coderdojo-japan/map.coderdojo.jp</a> (OSS)</li>
 	      <li><a href="https://github.com/coderdojo-japan">coderdojo-japan - GitHub</a> (OSS)</li>
 	      <li>スライド: <a href='https://speakerdeck.com/coderdojojapan/partnership-with-coderdojo-japan'>📜 子どものためのプログラミング道場『CoderDojo』〜法人提携例</a></li>
-	      <li>関連記事: <a href='/ja/about/#culture'>☯️ コミュニティとも連携し、成長できるカタチの実践 - YassLab</a></li>
+	      <li>関連記事: <a href='/ja/about#culture'>☯️ コミュニティとも連携し、成長できるカタチの実践 - YassLab</a></li>
  	      <li id="flow">最新情報: <a href="https://note.com/yasslab/m/m7ed183f728c3">☯️ coderdojo.jp 開発マガジン - note</a></li>
  	    </ul>
 	  </li>

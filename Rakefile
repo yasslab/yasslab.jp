@@ -96,7 +96,7 @@ task test: [:build] do
 
   require './test/custom_checks'
   options = {
-    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'QiitaTeam'],
+    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'QiitaTeam', 'TrailingSlash'],
     allow_hash_href:     true,
     check_internal_hash: true, # NOTE: Enable to detect dead anchor links
     disable_external:    ENV['TEST_EXTERNAL_LINKS'] != 'true',
