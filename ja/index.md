@@ -1,7 +1,6 @@
 ---
 layout: plain_without_thumbnail
 ---
-
 <section class="mainVisual">
   <div class="jumbotron">
     <picture>
@@ -9,14 +8,12 @@ layout: plain_without_thumbnail
       <img src="/img/cover-photo.min.webp" data-src="/img/cover-photo.webp" width="100%"
        alt="{{ site.company.vision }}" class="lazyload" loading="lazy">
     </picture>
-
     <div class="logo-catch">
       <!-- <img src="/img/spinner.svg" data-src="/img/icons/yasslab.svg" width="270" alt="YassLab Logo" class="lazyload" loading="lazy"> -->
       <h1>{{ site.company.vision }}</h1>
     </div>
   </div>
 </section>
-
 <section class="catchCopy entry_content" id="vision">
   <div class="container">
     <div class="row">
@@ -26,14 +23,12 @@ layout: plain_without_thumbnail
     </div>
   </div>
 </section>
-
 <section class="products entry_content" id="products">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <h3 style="line-height: 1.0em;"><a href="#products">《プロダクト開発の学びを支える》</a></h3>
   <p class="text-center"><a href="/ja/works/#story">創りながら学ぶ</a>ための書籍・動画・検索サービス</p>
-
         <div class="row">
           <div class="col-md-4 offset-md-1">
             <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
@@ -57,7 +52,6 @@ layout: plain_without_thumbnail
             <a href="https://railsguides.jp/" target="_blank" rel="noopener">
               <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
-
             <p>プロダクト開発の生産性を高める、Ruby on Rails に特化した<span style="background-color: #AA4536; color: white; border-radius: 2px;"> 2,000 </span>ページ超えの大型リファレンスガイド。<a href="https://railsguides.jp/ebook">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、法人向け<a href="https://railsguides.jp/sponsors">協賛プラン</a>も提供</p>
           </div>
         </div>
@@ -66,8 +60,7 @@ layout: plain_without_thumbnail
   </div>
   <div></div>
 </section>
-
-<section id="news">
+<section>
   <div id="main_content_wrap" class="outer container" style="margin-top: 20px;">
     <section id="main_content" class="inner row justify-content-md-center pb-5 mb-5">
       <div class="col-12 col-md-9 entry_content text-center">
@@ -76,21 +69,17 @@ layout: plain_without_thumbnail
     </section>
   </div>
 </section>
-
 <section id="services" class="service entry_content" >
   <div class="container">
     <div class="row">
       <div class="col-12">
         <h3><a href="#services" style="color: white;">《サービス紹介》</a><br></h3>
 	<h4 style="color: white;">『学び』を支える様々なサービスをご提供しています</h4>
-
 	<div class="slides">
 	  <script async class="speakerdeck-embed" data-id="6e92c58f2c664d89b10b54d6db00d750" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 	</div>
-
       </div><!--//col-->
     </div><!--//row-->
-
   <!--
         <div class="row mb-5">
           <div class="col-4">
@@ -116,7 +105,6 @@ layout: plain_without_thumbnail
           </div>
         </div>
   -->
-
     <!--
     <div class="row">
       <div class="col-md-6">
@@ -138,10 +126,8 @@ layout: plain_without_thumbnail
     -->
   </div><!--//container-->
 </section>
-
 {% include services_for_team.html    %}
 {% include clients_and_partners.html %}
-
 <section class="aboutVisual entry_content" id="remote-team">
   <div class="container">
     <div class="row">
@@ -155,20 +141,17 @@ layout: plain_without_thumbnail
     </div><!--//row-->
   </div><!--//container-->
 </section>
-
 <section id="members" class="members" style="margin-top: 50px;">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <h3><a href="#members"><i class="fad fa-user-friends"></i> 
     メンバー紹介</a></h3>
-
         <div class="row">
 	  {% for member in site.data.members %}
 	    {% include member.html lang='ja' %}
 	  {% endfor %}
         </div>
-
 	<div class="text-center pt-5" style="margin: 30px 0;">
           <a href="/ja/join-forces" class="btn btn-primary">
 	    採用情報を見る
@@ -178,7 +161,6 @@ layout: plain_without_thumbnail
     </div>
   </div>
 </section>
-
 <section class="sns" id="stats">
   <div class="container">
     <div class="row gutter-10">
@@ -211,7 +193,6 @@ layout: plain_without_thumbnail
     </div>
   </div>
 </section>
-
 <section class="community entry_content" id="community">
   <div class="container">
     <div class="row">
@@ -227,7 +208,6 @@ layout: plain_without_thumbnail
               </a>
               <figcaption><a href="https://jr.mitou.org/#sponsors">Webサービス開発教材の提供</a></figcaption>
             </figure>
-	    
 	    <!--
             <figure>
               <a href="https://ruby.okinawa/" target="_blank" rel="noopener">
@@ -258,12 +238,10 @@ layout: plain_without_thumbnail
             </figure>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 </section>
-
 <section class="press" id="press">
   <div class="container">
     <div class="row">
@@ -275,10 +253,8 @@ layout: plain_without_thumbnail
 	  <li><a href="{{ press.url }}" target="_blank" rel="noopener">{{ press.title }}</a></li>
 	  {% endfor %}
 	</ul>
-
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
 </section>
-
 <div id="contact"></div>

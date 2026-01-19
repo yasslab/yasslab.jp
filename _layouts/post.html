@@ -1,6 +1,5 @@
 {% include header.html    %}
 {% include thumbnail.html %}
-
 <!-- MAIN CONTENT -->
 <article>
   <div id="main_content_wrap" class="outer container">
@@ -13,11 +12,9 @@
 	    {% include author.html show_screenname=true width=35 %}
 	  </span>
 	</div>
-	
 	<div class="pull-right" style="margin-top: 25px;">
 	  {% include social_buttons.html %}
 	</div>
-
 	<div style="margin-top: 100px;">
 	  {{ content }}
 	</div>
@@ -30,23 +27,15 @@
 	  <span>{% include author.html show_caption=true %}</span>
 	</div>
 	<br><br><br><br><br><br>
-	<div id="news"></div>
 	<br><br>
-
-	
 	<hr>
-
 	<div id="posts" style="padding-top: 15px; padding-bottom: 80px;">
 	  {% include recent_news.html %}
 	</div>
-
 	<hr>
-
 	{% include recent_tweets.html %}
-
       </div>
     </section>
   </div>
 </article>
-
 {% include footer.html contact_hidden="true" %}
