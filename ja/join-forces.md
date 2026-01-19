@@ -2,7 +2,6 @@
 layout: plain
 title:  弊社をご検討されている皆さんへ
 ---
-
 <section class="entry_content pt-5">
   <div class="container">
     <div class="row">
@@ -13,7 +12,6 @@ title:  弊社をご検討されている皆さんへ
         <img src="/img/spinner.svg" data-src="/img/team.webp" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload" loading="lazy">
       </div><!--//col12-->
     </div><!--//row-->
-    
     <div class="row"> 
       <div class="col-md-8 offset-md-2">
         <p>次のような方々に向けて社内の情報をまとめています。</p>
@@ -23,14 +21,12 @@ title:  弊社をご検討されている皆さんへ
           <li>YassLab 社の<a href="#remote">リモートワーク</a>に興味がある</li>
         </ul>
 	<p>以下、弊社の特徴や活動の雰囲気、事業内容などをご紹介していきます。弊社をご検討されている方々のご参考になれば嬉しいです。</p>
-
 	<blockquote style="font-style: normal;"><a href="/ja/#members">YassLab 社メンバー</a>からの推薦を受けた方を優先しております。あらかじめご理解・ご了承していただけると幸いです 🙏</blockquote>
       </div><!--//col-->
     </div><!--//row-->
     <div id="remote"></div>
   </div><!--//container-->
 </section>
-
 <section class="entry_content pt-5">
   <div class="container">
     <div class="row">
@@ -52,7 +48,7 @@ title:  弊社をご検討されている皆さんへ
 	 data-ratio="1.33333333333333"
 	 src="//speakerdeck.com/assets/embed.js"></script>
 	-->
-
+	<div id="daily-life"></div>
 	<h2 class="mb-5" style='margin-top: 100px;'><a href="#daily-life">
 	  💻
 	  YassLab 社の日常</a>
@@ -73,7 +69,6 @@ title:  弊社をご検討されている皆さんへ
     <div id="products"></div>
   </div><!--//container-->
 </section>
-
 <section class="entry_content pt-5">
   <div class="container">
     <div class="row">
@@ -81,10 +76,8 @@ title:  弊社をご検討されている皆さんへ
         <h2 class="mt-5 mb-5"><a href="#products">💎 開発・運営しているサービス</a></h2>
         <p>YassLab 社では主に『Railsチュートリアル』『Railsガイド』などの開発・運営をしておりますが、いずれも複数のリポジトリが協調的に動作して成り立っています。</p>
       </div>
-
       <div class="col-md-12 text-center">
 	<p id="railstutorial">各サービスで使っている技術などについては一部公開しており、それらの情報を下記にまとめておきました。弊社をご検討している方々にとってご参考になれば嬉しいです 🙏💖</p>
-
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railstutorial">
 	    🎓 Ruby on Railsチュートリアル
@@ -92,7 +85,6 @@ title:  弊社をご検討されている皆さんへ
 	  </a>
 	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/spinner.svg" data-src="/img/header-railstutorial.png" class="lazyload" loading="lazy" /></a></div>
 	</h3>
-	
 	<ul>
 	  <li>Webサイト: <a href="https://railstutorial.jp/">https://railstutorial.jp/</a></li>
 	  <li>ハッシュタグ: <a href="http://twitter.com/hashtag/Railsチュートリアル">#Railsチュートリアル</a></li>
@@ -108,7 +100,6 @@ title:  弊社をご検討されている皆さんへ
 	    </ul>
 	  </li>
 	</ul>
-
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#railsguides">
 	    📕 Ruby on Railsガイド
@@ -131,7 +122,6 @@ title:  弊社をご検討されている皆さんへ
 	    </ul>
 	  </li>
 	</ul>
-
 	<h3 class="text-center mt-5 pt-5 mb-5">
 	  <a href="#coderdojojp">
 	    ☯️ coderdojo.jp の開発
@@ -155,43 +145,32 @@ title:  弊社をご検討されている皆さんへ
  	    </ul>
 	  </li>
 	</ul>
-
 	<h2 class="text-center" style="margin-top: 100px;"><a href="#flow">
 	  🤝
 	  応募から採用までの流れ
 	</a></h2>
 	<p>会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっている OSS で一緒に開発するスタイルを採用しています。</p>
-
 	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/spinner.svg" data-src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" class="lazyload" loading="lazy" /></a></p>
 	<center>OSSリポジトリ上でチーム開発する例 (<a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287">詳細</a>)</center>
-
 	<p>例えば2018年2月21日にパートタイムで入社した <a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> さんの場合、まずは CoderDojo Japan の開発を１ヶ月ほど一緒に進めてみて、その後、契約を更新するかどうか判断するというステップを踏みました。</p>
-
 	<ul>
 	  <li><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/261">@AnaTofuZ さんの最初のPR</a></li>
 	  <li><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287">１ヶ月ほど経ち、チーム開発に慣れてきたPR</a></li>
 	  <li><a href="https://github.com/coderdojo-japan/coderdojo.jp/pulls?q=is%3Apr+author%3AAnaTofuZ+created%3A%3E2018-02-21+sort%3Acreated-asc">他、当該OSSリポジトリ上で行われた各種PRの一覧</a></li>
 	</ul>
-
 	<p>弊社は完全リモートワーク制で開発を進めていることもあり、実際に体験してみないと伝えきれない雰囲気も多いです。一緒に何かを進める過程でそれぞれの長所/短所を知り、その上で継続するのであれば、お互いに納得感を持って働くことにも繋がると思います。</p>
-
 	<p>もちろん結果として契約の更新に繋がらない場合もありますが、その場合であっても期間中の給与は会社から支払われます。また、なるべく OSS のプロジェクトを題材にしているので、その後の就職/転職活動で OSS に貢献した実績を活かすこともできます。</p>
-
 	<p>実践的であればあるほど実績としての価値も高いので、OSS の Ruby on Rails アプリケーションである <a href="#coderdojojp">CoderDojo Japan の開発</a>を題材として使うことが多いです。とはいえ、それ以外にも多様な公開プロダクトを <a href="https://github.com/yasslab">GitHub 上から公開</a>しております。応募時のご参考になれば嬉しいです 😆</p>
-
 	<div>
 	  <a href="https://github.com/yasslab">
             <button class="btn btn-primary external-link">GitHub の公開プロダクトを見る</button>
 	  </a>
 	</div>
-
-
 	<div id="media"></div>
 	<h2 class="text-center mt-10 mb-5" style='margin-top: 140px'><a href="#media">
 	  🎤
 	  入社の体験談まとめ
 	</a></h2>
-
 	<p style='padding-top: 30px;'>上記の例以外にも、入社時の体験談を記事や動画として公開していただけている事例があります。</p>
 	<ul style='list-style: none;'>
 	  <li><a href='https://note.com/yuppymam/n/n7fb71b9eb6b6'>📜
@@ -204,26 +183,22 @@ title:  弊社をご検討されている皆さんへ
 	    <img class='cover lazyload' alt="体験談記事のカード (自作)" src='/img/spinner.svg' data-src='https://i.gyazo.com/1e3196e084f8f4983b789497e14caa69.png' src='/img/spinner.svg' loading="lazy" />
 	  </a>
 	</ul>
-
 	<p>また弊社のリモートワーク制度や採用フローは、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>が運営する『AMBI (アンビ)』にも寄稿記事として掲載されています。こちらも合わせてご参考になれば嬉しいです 🙇✨</p>
 	<ul style='list-style: none;'>
 	  <li><a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - AMBI</a></li>
 	</ul>
-
 	<a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/"><img class='lazyload' alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
 	<div>
 	  <a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">
             <button class="btn btn-primary external-link">寄稿記事を見る</button>
 	  </a>
 	</div>
-
 	<div id="references"></div>
 	<br><br>
       </div><!--//col-->
     </div><!--//row-->
   </div><!--//container-->
 </section>
-
 <section class="entry_content pt-5">
   <div class="container">
     <div class="row">
