@@ -35,10 +35,10 @@ description: 会社の事業やこれまでの取引先、役員情報などを�
 	
         <ol>
           <li>CoderDojo Japan: <a href="https://coderdojo.jp/kata">道場情報</a>や<a href="https://coderdojo.jp/stats">統計情報</a>など、Webサービスを通してコミュニティに価値を提供</li>
-          <li>YassLab: <a href="/ja/join-forces/#flow">採用フローの一環</a>として、オープンかつ実践的な場で互いの文化を確認する機会を提供</li>
+          <li>YassLab: <a href="/ja/join-forces#flow">採用フローの一環</a>として、オープンかつ実践的な場で互いの文化を確認する機会を提供</li>
         </ol>
 	
-        <p class="mb-4">例えば CoderDojo の統計情報ページは、CoderDojo コミュニティへの支援を検討する企業や<a href="https://www.facebook.com/groups/coderdojo.jp/permalink/1651340498312676/">メディアの情報源として活用</a>され、YassLab 社にとっては応募者と一緒に<a href="/ja/join-forces/#flow">実践的な開発をするオープンな場</a>にもなっています。</p>
+        <p class="mb-4">例えば CoderDojo の統計情報ページは、CoderDojo コミュニティへの支援を検討する企業や<a href="https://www.facebook.com/groups/coderdojo.jp/permalink/1651340498312676/">メディアの情報源として活用</a>され、YassLab 社にとっては応募者と一緒に<a href="/ja/join-forces#flow">実践的な開発をするオープンな場</a>にもなっています。</p>
 	
         <!--<p class="mb-4">チームとして掲げている『{{ site.company.vision }}』というフレーズは、こういったコミュニティと会社が一緒に成長できる継続的なカタチを表した言葉です。</p>-->
         <p class="mb-4">価値が還流できる仕組みを模索しつつ、弊社自身も社会の大切な仕組みの１つになりたいと考えています。</p>

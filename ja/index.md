@@ -28,7 +28,7 @@ layout: plain_without_thumbnail
     <div class="row">
       <div class="col-12">
         <h3 style="line-height: 1.0em;"><a href="#products">《プロダクト開発の学びを支える》</a></h3>
-  <p class="text-center"><a href="/ja/works/#story">創りながら学ぶ</a>ための書籍・動画・検索サービス</p>
+  <p class="text-center"><a href="/ja/works#story">創りながら学ぶ</a>ための書籍・動画・検索サービス</p>
         <div class="row">
           <div class="col-md-4 offset-md-1">
             <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
@@ -229,12 +229,12 @@ layout: plain_without_thumbnail
           </div>
           <div class="col-md-4">
             <figure>
-              <a href="/ja/about/#culture" target="_blank" rel="noopener">
+              <a href="/ja/about#culture" target="_blank" rel="noopener">
                 <img src="/img/spinner.svg" data-src="/img/logos/coderdojo-japan.webp"
          alt="CoderDojo Japan - 子どものためのプログラミング道場"
          class="lazyload" loading="lazy">
               </a>
-              <figcaption><a href="/ja/about/#culture">Webサービスの開発支援</a></figcaption>
+              <figcaption><a href="/ja/about#culture">Webサービスの開発支援</a></figcaption>
             </figure>
           </div>
         </div>
