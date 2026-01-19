@@ -6,7 +6,7 @@ RSpec.describe '/members.json' do
   before(:all) do
     # Build Jekyll site
     system('bundle exec jekyll build')
-    
+
     # Load members.json
     members_json_path = File.join(File.dirname(__FILE__), '..', '_site', 'members.json')
     @members = JSON.parse(File.read(members_json_path))
@@ -37,13 +37,26 @@ RSpec.describe '/members.json' do
     it 'all members have valid GitHub accounts' do
       @members.each do |member|
         uri = URI("https://api.github.com/users/#{member['username_github']}")
-        response = Net::HTTP.get_response(uri)
+
+        # Net::HTTPインスタンスを作成してSSL設定を明示的に行う
+        # OpenSSL 3.x のCRL検証問題に対応
+        http = Net::HTTP.new(uri.host, uri.port)
+        http.use_ssl = true
+        http.verify_mode = OpenSSL::SSL::VERIFY_PEER
+
+        # CRL検証を無効化するため、証明書ストアを明示的に設定
+        store = OpenSSL::X509::Store.new
+        store.set_default_paths
+        http.cert_store = store
+
+        request = Net::HTTP::Get.new(uri.request_uri)
+        response = http.request(request)
         data = JSON.parse(response.body)
-        
+
         # Valid GitHub user should not have "message": "Not Found"
         expect(data).not_to have_key('message')
         expect(data['message']).not_to eq('Not Found') if data.has_key?('message')
-        
+
         # Valid GitHub user should have login field
         expect(data).to have_key('login')
         expect(data['login'].downcase).to eq(member['username_github'].downcase)
