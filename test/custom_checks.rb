@@ -17,7 +17,8 @@ class QiitaTeam < ::HTMLProofer::Check
 end
 
 class TrailingSlash < ::HTMLProofer::Check
-  # Internal links with trailing slash before anchor may return 404 in production (Rack::TryStatic)
+  # Internal links with trailing slash may return 404 in production (Rack::TryStatic)
+  # Example: /ja/docs/work-regulations/ (bad) vs /ja/docs/work-regulations (good)
   # Example: /ja/docs/work-regulations/#4-勤務 (bad) vs /ja/docs/work-regulations#4-勤務 (good)
 
   def run
@@ -26,20 +27,30 @@ class TrailingSlash < ::HTMLProofer::Check
       next if link.ignore?
       next if link.href.nil?
 
-      # 内部リンクのみチェック（\A で文字列先頭のみマッチ - セキュア）
-      next unless link.href.match?(/\A\//)
+      # 外部リンクを除外（http/httpsで始まるものをスキップ）
+      next if link.href.start_with?('http://', 'https://')
 
-      # アンカーを含むリンクのみチェック
-      next unless link.href.include?('#')
+      # アンカーがある場合はパス部分のみを取得、ない場合はhref全体
+      base_path = link.href.include?('#') ? link.href.split('#').first : link.href
 
-      # アンカーより前の部分を取得
-      base_path = link.href.split('#').first
+      # trailing slashで終わる内部リンクをチェック
+      next unless base_path.end_with?('/')
 
-      # trailing slash で終わり、2階層以上のパスの場合のみチェック（\z で文字列末尾のみマッチ - セキュア）
-      # /ja/ や /en/ のような1階層ディレクトリは除外（これらは問題ない）
-      # /ja/docs/work-regulations/ のような2階層以上は検出（.htmlファイルへのtrailing slashは404の可能性）
-      if base_path.match?(/\/\z/) && base_path != '/' && base_path.count('/') > 2
-        return add_failure("Internal link has trailing slash before anchor: #{link.href} (Rack::TryStatic may return 404 in production)", line: link.line)
+      # ルートパス（/）は除外
+      next if base_path == '/'
+
+      # 絶対パスの場合は _site からの相対パスに変換
+      file_path = if base_path.start_with?('/')
+                    File.join('_site', base_path, 'index.html')
+                  else
+                    # 相対パスの場合は現在のファイルからの相対位置を計算
+                    current_dir = File.dirname(@path)
+                    File.join(current_dir, base_path, 'index.html')
+                  end
+
+      # ファイルが存在しない場合はエラー
+      unless File.exist?(file_path)
+        add_failure("Link with trailing slash '#{link.href}' points to non-existent path (expected: #{file_path})", line: link.line)
       end
     end
   end
