@@ -86,7 +86,7 @@ Motivated by a desire to provide more opportunities for young people to learn no
 - HR Advisor: Yoshinobu Oka ([oka-sr.jp](https://oka-sr.jp/))
 - Tax Advisor: Hiroyuki Hayahi ([mirai-no.co.jp](https://www.mirai-no.co.jp/))
 - We are supporting: 
-  - [Rails Programmer Certification Test Steering Committee](https://www.railscp.com/aboutus/) (Technical Adviser)
+  - [Rails Programmer Certification Test Steering Committee](https://railsce.com/aboutus) (Technical Adviser)
   - [Business OSS Consortium Japan](https://railsce.com/si) (Certified Rails Integrator)
   - [OSS Gate](https://oss-gate.github.io/) (Doorkeeper Sponsor)
   - [RubyKaigi](http://rubykaigi.org/) (Translation Supporter)

@@ -7,7 +7,7 @@ categories: [press]
 tags: [Railsチュートリアル]
 ---
 
-**[Rails5 ベーシック試験 (旧: ブロンズ試験)](https://railscp.com/2019/06/25/rails5basic/)** の参考教材として、弊社の『 [**Railsチュートリアル**](https://railstutorial.jp/) 』が継続して採用されました。
+**[Rails5 ベーシック試験 (旧: ブロンズ試験)](https://railsce.com/archives/804)** の参考教材として、弊社の『 [**Railsチュートリアル**](https://railstutorial.jp/) 』が継続して採用されました。
 
 
 ## Rails5 ベーシック試験とは？
@@ -26,7 +26,7 @@ tags: [Railsチュートリアル]
 > - 本試験では実行環境については問わない。
 
 
-詳細は[Rails技術者認定試験運営委員会のニュース記事](https://railscp.com/2019/06/25/rails5basic/)をご参照ください。
+詳細は[Rails技術者認定試験運営委員会のニュース記事](https://railsce.com/archives/804)をご参照ください。
 
 
 ## 他、各種メディアの発表
@@ -42,11 +42,9 @@ tags: [Railsチュートリアル]
 
 ## YassLab社との関わり
 
-弊社との合意・提携のもと、Rails5 ベーシック試験を運営する一般社団法人BOSS-CON JAPANに対して『[Railsチュートリアル](https://railstutorial.jp/)』を提供しています。弊社からの教材提供に伴い、弊社代表の安川が次の２つに就任しています。
+弊社との合意・提携のもと、Rails5 ベーシック試験を運営する[Rails技術者認定試験運営委員会](https://railsce.com/)に対して『[Railsチュートリアル](https://railstutorial.jp/)』を提供しています。弊社からの教材提供に伴い、弊社代表の安川がテクニカルアドバイザーに就任しています。
 
-
-1. [Rails技術者認定試験運営委員会 - テクニカルアドバイザー](https://railscp.com/aboutus/)
-2. [一般社団法人BOSS-CON JAPAN - 顧問理事](https://www.boss-con.jp/aboutus/)
+1. [Rails技術者認定試験運営委員会 - テクニカルアドバイザー](https://railsce.com/aboutus)
 
 <br>
 
