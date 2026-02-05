@@ -338,8 +338,8 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
            left_path='coderdojo-minamiaizu'
            center_name='Coolest Projects Japan'
            center_path='coolestprojectsjapan'
-           right_name=''
-           right_path='empty'
+           right_name='CoderDojo 西条'
+           right_path='coderdojo-saijo'
 %}
 
 <!--
