@@ -132,6 +132,9 @@ title:  月額制の Ruby/Rails 開発支援サービス
         <h2 class="mb-5"><a href="#schedule">現在のスケジュール</a></h2>
 
 	{% include agile-schedule.html %}
+	<p class='text-center'>
+	  更新日: {% updated_at _data/schedule.yml %}
+	</p>
 
         <table class="caption" style="margin-top: 30px;">
           <tr>
