@@ -10,6 +10,7 @@
   plus_3: reserved
   plus_4: reserved
   plus_5: adjusting
+  updated_at: 2026/02/28
   is_auto_update: false
   #is_auto_update: true
   # initial_month の値を、ビルド時点の月に自動的に上書きする。
