@@ -25,8 +25,10 @@ GEM
       io-event (~> 1.11)
       metrics (~> 0.12)
       traces (~> 0.18)
-    barnes (0.0.9)
-      multi_json (~> 1)
+    barnes (0.1.0)
+      json
+      logger
+      ostruct
       statsd-ruby (~> 1.1)
     base64 (0.3.0)
     benchmark (0.5.0)
