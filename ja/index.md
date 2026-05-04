@@ -1,6 +1,7 @@
 ---
 layout: plain_without_thumbnail
 ---
+
 <section class="mainVisual">
   <div class="jumbotron">
     <picture>
@@ -14,6 +15,7 @@ layout: plain_without_thumbnail
     </div>
   </div>
 </section>
+
 <section class="catchCopy entry_content" id="vision">
   <div class="container">
     <div class="row">
@@ -23,6 +25,7 @@ layout: plain_without_thumbnail
     </div>
   </div>
 </section>
+
 <section class="products entry_content" id="products">
   <div class="container">
     <div class="row">
@@ -60,6 +63,7 @@ layout: plain_without_thumbnail
   </div>
   <div></div>
 </section>
+
 <section>
   <div id="main_content_wrap" class="outer container" style="margin-top: 20px;">
     <section id="main_content" class="inner row justify-content-md-center pb-5 mb-5">
@@ -69,6 +73,7 @@ layout: plain_without_thumbnail
     </section>
   </div>
 </section>
+
 <section id="services" class="service entry_content" >
   <div class="container">
     <div class="row">
@@ -126,8 +131,10 @@ layout: plain_without_thumbnail
     -->
   </div><!--//container-->
 </section>
+
 {% include services_for_team.html    %}
 {% include clients_and_partners.html %}
+
 <section class="aboutVisual entry_content" id="remote-team">
   <div class="container">
     <div class="row">
