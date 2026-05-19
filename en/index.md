@@ -4,7 +4,7 @@ lang:   en
 ---
 <!--
 ## Summary of Works {#summary}
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/cEwD6bvg84VeWA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/cEwD6bvg84VeWA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 (NOTE: Please jump to [SlideShare's page](http://www.slideshare.net/yasulab/works-of-yasslab) if you cannot see the slides above.)
 -->
 <!--
@@ -70,10 +70,15 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
   </a>
 </div>
 He earned a Master of Engineering in Computer Science from [Waseda University](https://en.wikipedia.org/wiki/Waseda_University) and studied abroad at [Monmouth College](https://en.wikipedia.org/wiki/Monmouth_College) in Illinois, USA. Upon returning to Japan, he founded YassLab, a fully remote company specializing in the development of web-based learning materials&mdash;most notably the [Japanese Rails Tutorial and Japanese Rails Guides](#products)&mdash;and providing these resources as corporate services for [universities and employee training programs](#clients_and_partners).
+
 In addition to his work at YassLab, he co-founded [CoderDojo Japan](https://coderdojo.jp/english), one of [the official regional bodies](https://codeclub.org/en/our-partners#:~:text=CoderDojo%20Japan) within the [CoderDojo](https://help.coderdojo.com/cdkb/s/article/What-is-CoderDojo) community&mdash;a worldwide movement of free, volunteer-led, community-based programming clubs (Dojos) for young people. Today, the CoderDojo community in Japan includes [over 200 Dojos](https://coderdojo.jp/#dojos) nationwide, hosting approximately [1,200 events annually](https://coderdojo.jp/stats), welcoming [more than 62,100 kids to learn to code](https://map.coderdojo.jp/world), and collaborating with [over 25 corporate partners](https://coderdojo.jp/#partners).
+
 Motivated by a desire to provide more opportunities for young people to learn not just "*how*" to create but also "*what*" to create, [he and his colleagues](https://www.mitou.org/index_en.html#:~:text=Founders) launched the [MITOU Junior](https://jr.mitou.org/english) program in 2016. As of January 2025, this initiative has supported [over 110 projects by more than 130 creators](https://jr.mitou.org/english/stats) under the age of 17, selected from over 850 applications. The program is now recognized as part of the [MITOU Programs](https://www.ipa.go.jp/en/it-talents/mitou/index.html) ecosystem by the [Information-technology Promotion Agency, Japan (IPA)](https://www.ipa.go.jp/en/).
-<center><a href='https://researchmap.jp/yasulab?lang=en' target='_blank'>&raquo; Check more info</a></center>
+
+<center><a href='https://researchmap.jp/yasulab?lang=en' target='_blank' class='btn btn-primary'>&raquo; Check more info</a></center>
+
 <br>
+
 ## [🏢 Company Profile](#company) {#company}
 ![YassLab](/img/logos/800x200.webp)
 - Name: YassLab Inc.
@@ -85,7 +90,7 @@ Motivated by a desire to provide more opportunities for young people to learn no
 - Trademark Number: [5982564](https://www.j-platpat.inpit.go.jp/c1801/TR/JPT_5982564/00/en)
 - HR Advisor: Yoshinobu Oka ([oka-sr.jp](https://oka-sr.jp/))
 - Tax Advisor: Hiroyuki Hayahi ([mirai-no.co.jp](https://www.mirai-no.co.jp/))
-- We are supporting: 
+- We are supporting:
   - [Rails Programmer Certification Test Steering Committee](https://railsce.com/aboutus) (Technical Adviser)
   - [Business OSS Consortium Japan](https://railsce.com/si) (Certified Rails Integrator)
   - [OSS Gate](https://oss-gate.github.io/) (Doorkeeper Sponsor)
