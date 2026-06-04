@@ -1,5 +1,6 @@
-# Claude Code
+# Claude Code / Codex
 CLAUDE*.md
+AGENTS*.md
 
 # Ignore dotenv/direnv
 .env
