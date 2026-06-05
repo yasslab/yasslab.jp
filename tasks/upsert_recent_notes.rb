@@ -39,20 +39,11 @@ rescue URI::InvalidURIError
   nil
 end
 
-def image_extension(image_url)
-  extension = File.extname(URI(image_url).path).downcase
-  return extension if %w[.jpg .jpeg .png .webp .gif].include?(extension)
-
-  '.jpg'
-rescue URI::InvalidURIError
-  '.jpg'
-end
-
 def download_note_image(agent, note_url, image_url)
   key = note_key(note_url)
   return nil unless key && image_url
 
-  filename = "note-#{key}#{image_extension(image_url)}"
+  filename = "note-#{key}.png"
   file_path = File.join(NEWS_IMAGE_DIR, filename)
   public_path = "#{NEWS_IMAGE_PATH}/#{filename}"
 
@@ -146,14 +137,12 @@ rss.items.each.with_index(1) do |item, index|
   break if index > number_of_fetching_articles
   next  if urls.include? item.link
 
-  cover = local_note_image(agent, item.link, note_image_url(agent, item.link))
-  cover_line = cover ? "  cover: #{yaml_single_quote(cover)}\n" : ''
+  local_note_image(agent, item.link, note_image_url(agent, item.link))
 
   news << <<~NEW_ARTICLE
     - title: #{yaml_single_quote(item.title)}
       date:  #{item.pubDate.strftime("%Y-%m-%d")}
       url:   #{item.link}
-    #{cover_line}
 
     NEW_ARTICLE
 end

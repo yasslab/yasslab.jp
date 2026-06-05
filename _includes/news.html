@@ -2,7 +2,10 @@
   {% assign news_target = ' target="_blank"' %}
 {% endif %}
 
-{% assign news_image = news.cover %}
+{% if news.url contains 'note.com/yasslab/' %}
+  {% assign note_id    = news.url | split: '/' | last %}
+  {% assign news_image = '/img/news/note-' | append: note_id | append: '.png' %}
+{% endif %}
 {% unless news.url contains '://' or news_image %}
   {% assign news_post = site.posts | where: 'url', news.url | first %}
   {% if news_post.thumbnail %}
