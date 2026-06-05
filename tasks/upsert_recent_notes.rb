@@ -70,12 +70,6 @@ rescue => e
   nil
 end
 
-def local_note_image(agent, note_url, image_url)
-  return image_url if image_url&.start_with?('/')
-
-  download_note_image(agent, note_url, image_url)
-end
-
 # How many articles you want to output? (Default: 3)
 number_of_fetching_articles = (ARGV[0] || '3').to_i
 
@@ -91,7 +85,7 @@ rss.items.each.with_index(1) do |item, index|
   break if index > number_of_fetching_articles
   next  if urls.include? item.link
 
-  local_note_image(agent, item.link, note_image_url(agent, item.link))
+  download_note_image(agent, item.link, note_image_url(agent, item.link))
 
   news << <<~NEW_ARTICLE
     - title: #{yaml_single_quote(item.title)}
