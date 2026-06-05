@@ -49,19 +49,19 @@ We are 100% remote team. We work remotely using tech services like GitHub, Zoom,
   <h4 class="text-center mb-3 h3deco-none">Yohei Yasukawa</h4>
   <ul class="profile__sns mb-3">
     <li class="profile__sns__icon">
-      <a href="https://www.facebook.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook"></a>
+      <a href="https://www.facebook.com/yasulab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://twitter.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter"></a>
+      <a href="https://twitter.com/yasulab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://github.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub"></a>
+      <a href="https://github.com/yasulab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://www.linkedin.com/in/yasulab/" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/linkedin.png" alt="LinkedIn"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://qiita.com/yasulab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
+      <a href="https://qiita.com/yasulab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
     </li>
   </ul>
   <a href='https://researchmap.jp/yasulab?lang=en' target='_blank'>
@@ -105,19 +105,19 @@ Motivated by a desire to provide more opportunities for young people to learn no
   <h4 class="text-center mb-3 h3deco-none">Official Accounts</h4>
   <ul class="profile__sns mb-3">
     <li class="profile__sns__icon">
-      <a href="https://www.facebook.com/yasslab.jp" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook"></a>
+      <a href="https://www.facebook.com/yasslab.jp" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://twitter.com/YassLab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter"></a>
+      <a href="https://twitter.com/YassLab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://github.com/yasslab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub"></a>
+      <a href="https://github.com/yasslab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://qiita.com/organizations/yasslab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
+      <a href="https://qiita.com/organizations/yasslab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://youtube.com/yasslab" target="_blank" rel="noopener"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/youtube.png" alt="YouTube"></a>
+      <a href="https://youtube.com/yasslab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/youtube.png" alt="YouTube"></a>
     </li>
   </ul>
 </div>

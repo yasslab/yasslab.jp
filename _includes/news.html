@@ -1,13 +1,16 @@
-{% if news.is_internal? %}
-  {% assign news_target = '' %}
-  {% assign news_rel = '' %}
-{% else %}
+{% assign news_image  = false %}
+{% assign news_target = '' %}
+{% if news.url contains '://' %}
   {% assign news_target = ' target="_blank"' %}
-  {% assign news_rel = ' rel="noopener"' %}
 {% endif %}
 
-{% assign news_image = news.cover %}
-{% if news_image == nil and news.is_internal? %}
+{% if news.url contains 'note.com/yasslab/' %}
+  {% assign note_id        = news.url | split: '/' | last %}
+  {% assign note_prefix    = '/img/news/note-' | append: note_id | append: '.' %}
+  {% assign news_image_file = site.static_files | where_exp: "f", "f.path contains note_prefix" | first %}
+  {% if news_image_file %}{% assign news_image = news_image_file.path %}{% endif %}
+{% endif %}
+{% unless news.url contains '://' or news_image %}
   {% assign news_post = site.posts | where: 'url', news.url | first %}
   {% if news_post.thumbnail %}
     {% if news_post.thumbnail contains 'http' %}
@@ -16,10 +19,10 @@
       {% capture news_image %}/img/{{ news_post.thumbnail }}{% endcapture %}
     {% endif %}
   {% endif %}
-{% endif %}
+{% endunless %}
 
 <article class="news-item">
-  <a class="news-card" href="{{ news.url }}" data-proofer-ignore{{ news_target }}{{ news_rel }}>
+  <a class="news-card" href="{{ news.url }}" data-proofer-ignore{{ news_target }}>
     {% if news_image %}
     <span class="news-image">
       <img src="/img/spinner.svg" data-src="{{ news_image }}" alt="{{ news.title | escape }}" class="lazyload" loading="lazy">
