@@ -9,7 +9,6 @@ require 'uri'
 
 NEWS_YAML = '_data/news.yml'
 NEWS_IMAGE_DIR = 'img/news'
-NEWS_IMAGE_PATH = '/img/news'
 
 def yaml_single_quote(value)
   "'#{value.to_s.gsub("'", "''")}'"
@@ -47,13 +46,12 @@ end
 
 def download_note_image(agent, note_url, image_url)
   key = note_key(note_url)
-  return nil unless key && image_url
+  return unless key && image_url
 
-  filename = "note-#{key}#{image_extension(image_url)}"
+  filename  = "note-#{key}#{image_extension(image_url)}"
   file_path = File.join(NEWS_IMAGE_DIR, filename)
-  public_path = "#{NEWS_IMAGE_PATH}/#{filename}"
 
-  return public_path if File.exist?(file_path)
+  return if File.exist?(file_path)
 
   FileUtils.mkdir_p(NEWS_IMAGE_DIR)
   image_data = agent.get_file(image_url)
@@ -61,13 +59,10 @@ def download_note_image(agent, note_url, image_url)
     file.binmode
     file.write(image_data)
   end
-
-  public_path
 rescue Errno::EEXIST
-  public_path
+  # already exists, skip
 rescue => e
   warn "⚠️ Failed to save cover from #{image_url}: #{e.message}"
-  nil
 end
 
 # How many articles you want to output? (Default: 3)
