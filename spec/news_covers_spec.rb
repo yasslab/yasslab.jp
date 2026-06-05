@@ -6,10 +6,10 @@ describe 'news cover images' do
 
   it 'has a cover image file for every note.com article' do
     note_articles.each do |article|
-      note_id   = article['url'].split('/').last
-      cover_path = "img/news/note-#{note_id}.png"
-      expect(File.exist?(cover_path)).to be(true),
-        "Missing cover: #{cover_path}  (url: #{article['url']})"
+      note_id = article['url'].split('/').last
+      covers  = Dir["img/news/note-#{note_id}.*"]
+      expect(covers).not_to be_empty,
+        "Missing cover image for #{article['url']}"
     end
   end
 end

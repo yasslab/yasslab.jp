@@ -39,11 +39,18 @@ rescue URI::InvalidURIError
   nil
 end
 
+def image_extension(image_url)
+  ext = File.extname(URI(image_url).path).downcase
+  %w[.jpg .jpeg .png .webp .gif].include?(ext) ? ext : '.jpg'
+rescue URI::InvalidURIError
+  '.jpg'
+end
+
 def download_note_image(agent, note_url, image_url)
   key = note_key(note_url)
   return nil unless key && image_url
 
-  filename = "note-#{key}.png"
+  filename = "note-#{key}#{image_extension(image_url)}"
   file_path = File.join(NEWS_IMAGE_DIR, filename)
   public_path = "#{NEWS_IMAGE_PATH}/#{filename}"
 

@@ -3,8 +3,10 @@
 {% endif %}
 
 {% if news.url contains 'note.com/yasslab/' %}
-  {% assign note_id    = news.url | split: '/' | last %}
-  {% assign news_image = '/img/news/note-' | append: note_id | append: '.png' %}
+  {% assign note_id        = news.url | split: '/' | last %}
+  {% assign note_prefix    = '/img/news/note-' | append: note_id | append: '.' %}
+  {% assign news_image_file = site.static_files | where_exp: "f", "f.path contains note_prefix" | first %}
+  {% if news_image_file %}{% assign news_image = news_image_file.path %}{% endif %}
 {% endif %}
 {% unless news.url contains '://' or news_image %}
   {% assign news_post = site.posts | where: 'url', news.url | first %}
