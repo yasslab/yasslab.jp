@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ☯️ DojoCon Japan 2019 に協賛しました
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-dojocon-japan-2019-sponsorship.png
 author: Yuppyhappytoyou
 categories: [press]
 tags: [CoderDojo, 協賛]

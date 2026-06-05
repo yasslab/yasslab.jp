@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 Railsチュートリアル法人プランの一覧画面を改善
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-enhance-screencasts-design.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [Railsチュートリアル, 法人プラン, デザイン]

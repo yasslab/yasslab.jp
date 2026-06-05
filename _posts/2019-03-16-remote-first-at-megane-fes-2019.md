@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🗣 megane Fes 2019 でリモートワークについて発表
-thumbnail: bg-sky.jpg
+thumbnail: news/meganefes-2019-photo.jpg
 author: yasulab
 categories: [blog]
 tags: [リモートワーク, 登壇]

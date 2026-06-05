@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  📕 Railsガイド『Teamプラン』をリリース
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-guides.png
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド, リリース]
@@ -9,7 +9,7 @@ tags: [Railsガイド, リリース]
 
 YassLab 株式会社が運営するRailsガイドから新たに『[Teamプラン](https://railsguides.jp/team)』がリリースされました! 🆕🚀✨
 
-![カバー画像：Teamプラン](/img/news/guides-cover.png)
+![カバー画像：Teamプラン](/img/news/cover-guides.png)
 
 Railsガイドの全コンテンツが検索できて便利な『[Proプラン](https://railsguides.jp/pro)』の機能をチームで効率よく利用できるように『Teamプラン』を作りました。
 

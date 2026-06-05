@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 Railsチュートリアル開発背景を銀座Railsで発表しました
-thumbnail: bg-sky.jpg
+thumbnail: news/ginza-rails-speakers.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, 銀座Rails, Railsチュートリアル]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 Railsチュートリアル (6.0対応) がセミナー参加特典に
-thumbnail: bg-sky.jpg
+thumbnail: photos/rails-seminar-201910.png
 author: yasulab
 categories: [blog]
 tags: [Railsチュートリアル, 解説セミナー]

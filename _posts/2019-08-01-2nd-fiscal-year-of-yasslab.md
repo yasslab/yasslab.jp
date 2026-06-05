@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🏢 YassLab 社の第２期活動まとめ
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-2nd-fiscal-year-of-yasslab.png
 author: yasulab
 categories: [blog]
 tags: [ふりかえり, 決算]

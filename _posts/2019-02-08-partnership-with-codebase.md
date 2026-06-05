@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🤝 CODE BASE OKINAWAがRailsチュートリアルのパートナーに
-thumbnail: bg-sky.jpg
+thumbnail: partners/codebase.png
 author: yasulab
 categories: [Press]
 tags: [CODE BASE, Railsチュートリアル, 提携, 沖縄]

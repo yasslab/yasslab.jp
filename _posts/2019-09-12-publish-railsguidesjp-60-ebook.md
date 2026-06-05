@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  📕 Railsガイド電子書籍版 (6.0対応) を販売開始
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-publish-railsguidesjp-60-ebook.png
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド, Rails]

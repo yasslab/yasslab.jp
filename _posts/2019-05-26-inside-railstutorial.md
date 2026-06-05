@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 Railsチュートリアル開発経緯の取材記事が公開
-thumbnail: bg-sky.jpg
+thumbnail: news/inside-railstutorial-photo.png
 author: yasulab
 categories: [blog]
 tags: [Railsチュートリアル, インタビュー]

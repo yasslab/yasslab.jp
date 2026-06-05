@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 琉球大学でRailsチュートリアルが継続採用 (３年目)
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-univ-of-ryukyus-with-railstutorial.png
 author: yasulab
 categories: [blog]
 tags: [琉球大学, Railsチュートリアル, 法人プラン, ライセンス]

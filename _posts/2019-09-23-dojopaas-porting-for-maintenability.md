@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ☯️ DojoPaaS 内部システムを移行しました
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-dojopaas-porting-for-maintenability.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [CoderDojo, DojoPaaS, Ruby]

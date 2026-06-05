@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🤝 神戸ニルキューブがRailsチュートリアルのパートナーに
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-partnership-with-nilquebe.png
 author: Yuppyhappytoyou
 categories: [Press]
 tags: [Railsチュートリアル, 提携]

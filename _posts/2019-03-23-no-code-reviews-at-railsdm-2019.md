@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🗣 Rails DM 2019 で『コードレビューしない』を発表
-thumbnail: bg-sky.jpg
+thumbnail: news/no-code-photo.jpg
 author: yasulab
 categories: [blog]
 tags: [Rails DM, 登壇]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🗣 JP_Stripes Connect 2019 で決済事例を発表しました
-thumbnail: bg-sky.jpg
+thumbnail: news/ginza-rails.png
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails]

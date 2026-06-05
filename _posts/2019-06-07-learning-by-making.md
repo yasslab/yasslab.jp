@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 法人向けサービス活用例：マネーフォワード様
-thumbnail: bg-sky.jpg
+thumbnail: news/mf-lounge.jpg
 author: yasulab
 categories: [blog]
 tags: [Railsチュートリアル, 法人プラン, Railsガイド, Teamプラン, マネーフォワード, 事例紹介]

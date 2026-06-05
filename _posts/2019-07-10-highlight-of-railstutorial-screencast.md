@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 Railsチュートリアル解説動画の見所まとめ
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-highlight-of-railstutorial-screencast.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [Railsチュートリアル]

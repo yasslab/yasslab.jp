@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🏫 Rails5ベーシック試験教材にRailsチュートリアルが採用
-thumbnail: bg-sky.jpg
+thumbnail: news/railscp-topics.png
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsチュートリアル]
