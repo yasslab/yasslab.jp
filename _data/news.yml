@@ -231,7 +231,6 @@
 - title: '📊 日本と海外の Ruby on Rails 求人データまとめ'
   date: 2024-04-05
   url: /ja/news/job-market-of-ruby-on-rails
-  is_internal?: true
 
 - title: '💎 新宿 × Ruby「Shinjuku.rb」に協賛！'
   date:  2024-03-09
@@ -1559,82 +1558,66 @@
 - title: 💎 RubyWorld Conference 2019 に採択されました
   date: 2019-09-25
   url: /ja/news/rubyworld-conference-2019-talk
-  is_internal?: true
 
 - title: ☯️ DojoPaaS 内部システムを移行しました
   date: 2019-09-23
   url: /ja/news/dojopaas-porting-for-maintenability
-  is_internal?: true
 
 - title: ☯️ DojoCon Japan 2019 に協賛しました
   date: 2019-09-21
   url: /ja/news/dojocon-japan-2019-sponsorship
-  is_internal?: true
 
 - title: 🎓 Railsチュートリアル (6.0対応) がセミナー参加特典に
   date: 2019-09-20
   url: /ja/news/early-access-for-rails60
-  is_internal?: true
 
 - title: 🎓 Railsチュートリアル法人プランの一覧画面を改善
   date: 2019-09-19
   url: /ja/news/enhance-screencasts-design
-  is_internal?: true
 
 - title: 🚧️ Railsチュートリアル改善に伴うメンテナンスのお知らせ
   date: 2019-09-18
   url: /ja/news/tutorial-maintenance
-  is_internal?: true
 
 - title: 🤝 神戸ニルキューブがRailsチュートリアルのパートナーに
   date: 2019-09-13
   url: /ja/news/partnership-with-nilquebe
-  is_internal?: true
 
 - title: 📕 Railsガイド電子書籍版 (6.0対応) を販売開始
   date: 2019-09-12
   url: /ja/news/publish-railsguidesjp-60-ebook
-  is_internal?: true
 
 - title: 🎓 Railsチュートリアル集中解説セミナー受付開始
   date: 2019-09-11
   url: /ja/news/railstutorial-seminar-2019-autumn
-  is_internal?: true
 
 - title: ☯️ 沖縄のプログラミングイベントに参加します
   date: 2019-09-10
   url: /ja/news/decadojo-in-okinawa
-  is_internal?: true
 
 - title: 📕 Railsガイドのロゴが日本語表記になりました
   date: 2019-09-09
   url: /ja/news/japanese-railsguides-logo
-  is_internal?: true
 
 - title: 💎 DEMODAY 7th 2019 -autumn- に審査員で参加します
   date: 2019-09-05
   url: /ja/news/judge-in-dive-into-code-demoday
-  is_internal?: true
 
 - title: 🤝 テクトレ社とRailsチュートリアルのライセンス契約締結
   date: 2019-09-04
   url: /ja/news/partnership-with-techtraining
-  is_internal?: true
 
 - title: 🏝️ Rails Girls Okinawa 2nd に協賛
   date: 2019-08-29
   url: /ja/news/we-suport-rails-girls-okinawa-2nd
-  is_internal?: true
 
 - title: 📕 RailsガイドのProプランで無料トライアルが可能に
   date: 2019-08-21
   url: /ja/news/add-trial-plan-for-pro-users
-  is_internal?: true
 
 - title: 🎓 Railsチュートリアルのページ遷移を改善しました
   date: 2019-08-20
   url: /ja/news/new-functional-design-for-railstutorialjp
-  is_internal?: true
 
 - title: 📕 RailsガイドがRails 6の各種ガイドに対応しました
   date: 2019-08-19
@@ -1644,12 +1627,10 @@
 - title: ⛰ 未踏ジュニア『困ったときのガイドライン』を公開
   date: 2019-08-18
   url: /ja/news/we-support-you-in-any-situation
-  is_internal?: true
 
 - title: ☯️ 大阪Ruby会議02で coderdojo.jp 開発事例を発表します
   date: 2019-08-17
   url: /ja/news/cfp-accepted-at-osaka-rubykaigi02
-  is_internal?: true
 
 - title: 📕 Railsガイドで検索結果一覧が見れるようになりました
   date: 2019-08-09
@@ -1659,17 +1640,14 @@
 - title: 🎓 琉球大学でRailsチュートリアルが継続採用 (３年目)
   date: 2019-08-08
   url: /ja/news/univ-of-ryukyus-with-railstutorial
-  is_internal?: true
 
 - title: 🤝 HAJエンパワーメントとRailsチュートリアルで業務提携
   date: 2019-08-06
   url: /ja/news/partnership-with-haj-empowerment
-  is_internal?: true
 
 - title: 🏢 YassLab 社の第２期活動まとめ
   date: 2019-08-01
   url: /ja/news/2nd-fiscal-year-of-yasslab
-  is_internal?: true
 
 - title: 💳 解説動画のカード決済がシンプルになりました
   date: 2019-07-30
@@ -1679,7 +1657,6 @@
 - title: 📭 各種サービスにフィードバック機能を追加しました
   date: 2019-07-24
   url: /ja/news/feature-request-form
-  is_internal?: true
 
 - title: 🏆 Railsチュートリアル法人プランがAWS賞を受賞
   date: 2019-07-18
@@ -1689,87 +1666,70 @@
 - title: 📕 Railsガイドの各タイトルが Twitter Card に対応
   date: 2019-07-12
   url: /ja/news/railsduides-twitter-card
-  is_internal?: true
 
 - title: 🎓 Railsチュートリアル解説動画の見所をまとめました
   date: 2019-07-10
   url: /ja/news/highlight-of-railstutorial-screencast
-  is_internal?: true
 
 - title: 🎖弊社メンバーが株式会社アジャイルウェアから表彰
   date: 2019-07-03
   url: /ja/news/hanachin-given-award-from-agileware
-  is_internal?: true
 
 - title: 🎓 Railsチュートリアルは、自分に合う学習スタイルで
   date: 2019-06-30
   url: /ja/news/learning-style-of-tutolial
-  is_internal?: true
 
 - title: 🏝 Stripe の Rails 開発事例を沖縄で発表しました
   date: 2019-06-29
   url: /ja/news/payment-implmentation-with-stripe
-  is_internal?: true
 
 - title: 🏫 Rails5ベーシック試験教材にRailsチュートリアルが採用
   date: 2019-06-25
   url: /ja/news/rails5-basic-with-tutorial
-  is_internal?: true
 
 - title: 📕 Railsガイド『Teamプラン』をリリース
   date: 2019-06-24
   url: /ja/news/release-team-plan
-  is_internal?: true
 
 - title: 🏝 沖縄発Rubyフルリモートワーク会社を支える仕組み
   date: 2019-06-08
   url: /ja/news/remote-work-from-okinawa
-  is_internal?: true
 
 - title: 🎓 法人向けサービス活用例：マネーフォワード様
   date: 2019-06-07
   url: /ja/news/learning-by-making
-  is_internal?: true
 
 - title: 🎓 Railsチュートリアル開発経緯の取材記事が公開
   date: 2019-05-26
   url: /ja/news/inside-railstutorial
-  is_internal?: true
 
 - title: 🔐 Railsエンジニアのためのウェブセキュリティ入門に参加
   date: 2019-04-25
   url: /ja/news/secure-programming-with-rails
-  is_internal?: true
 
 - title: 💎 RubyKaigi 2019 楽しかったよ!!
   date: 2019-04-21
   url: /ja/news/rubykaigi-2019-report
-  is_internal?: true
 
 - title: 🗣 esm アジャイル事業部で新年度のご挨拶と LT 発表
   date: 2019-04-11
   url: /ja/news/lightning-talk-at-esm-agile
-  is_internal?: true
 
 - title: 🎓 Railsチュートリアル開発背景を銀座Railsで発表しました
   date: 2019-03-29
   url: /ja/news/railstutorial-at-ginza-rails
-  is_internal?: true
 
 - title: 🎓 法人向けサービス活用事例：メンバーズキャリア様
   date: 2019-03-28
   url: /ja/news/railstutorial-at-members-career
-  is_internal?: true
 
 - title: 🗣 Rails DM 2019 で『コードレビューしない』を発表
   date: 2019-03-23
   url: /ja/news/no-code-reviews-at-railsdm-2019
-  is_internal?: true
 
 - title: 🗣 JP_Stripes Connect 2019 で決済事例を発表しました
   date: 2019-03-21
   url: /ja/news/jp-stripes-connect-2019
-  is_internal?: true
 
 - title: 📕 Railsガイド『Proプラン』をリリースしました!
   date: 2019-03-20
@@ -1779,64 +1739,51 @@
 - title: 💎 Rails DM 2019 に懇親会スポンサーとして協賛
   date: 2019-03-19
   url: /ja/news/railsdm-201903-sponsorship
-  is_internal?: true
 
 - title: 💎 RubyKaigi 2019 に Silver スポンサーとして協賛
   date: 2019-03-18
   url: /ja/news/rubykaigi-2019-sponsorship
-  is_internal?: true
 
 - title: 🗣 megane Fes 2019 でリモートワークについて発表
   date: 2019-03-16
   url: /ja/news/remote-first-at-megane-fes-2019
-  is_internal?: true
 
 - title: 🗣 情報処理学会 全国大会でリモートワーク事例を発表
   date: 2019-03-15
   url: /ja/news/work-life-balance-at-81st-ipsj
-  is_internal?: true
 
 - title: 🏆 フクオカRuby大賞で本審査に進出
   date: 2019-03-14
   url: /ja/news/aws-award-at-fukuoka-ruby-2019
-  is_internal?: true
 
 - title: 🏝 Hackers Champloo 2019 ゴールドスポンサー協賛
   date: 2019-03-10
   url: /ja/news/hackers-champloo-2019-gold-sponsor
-  is_internal?: true
 
 - title: 📕 Ruby on Railsガイドを 5.1→5.2 に更新しました
   date: 2019-03-04
   url: /ja/news/update-railsguidesjp-to-52
-  is_internal?: true
 
 - title: 🤝 タケユー・ウェブ株式会社が『Railsガイド』を支援
   date: 2019-02-22
   url: /ja/news/partnership-with-takeyuweb
-  is_internal?: true
 
 - title: 🤝 沖縄CODE BASEがRailsチュートリアルのパートナーに
   date: 2019-02-08
   url: /ja/news/partnership-with-codebase
-  is_internal?: true
 
 - title: 🤝 Scout APMがRailsガイドのサポーターになりました
   date: 2019-01-30
   url: /ja/news/scout-supports-railsguidesjp
-  is_internal?: true
 
 - title: 🎧 環境音などのノイズを軽減できる Krisp を試してみた
   date: 2019-01-23
   url: /ja/news/krisp-trial
-  is_internal?: true
 
 - title: 🛠 DojoCast を Jekyll から Rails に移行しました
   date: 2018-12-25
   url: /ja/news/migrate-dojocast-from-jekyll-to-rails
-  is_internal?: true
 
 - title: ☯️ 開発目線で見る最近の CoderDojo Japan 2018
   date: 2018-12-01
   url: /ja/news/coderdojo-japan-2018
-  is_internal?: true

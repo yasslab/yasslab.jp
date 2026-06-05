@@ -1,9 +1,9 @@
-{% unless news.is_internal? %}
+{% if news.url contains '://' %}
   {% assign news_target = ' target="_blank"' %}
-{% endunless %}
+{% endif %}
 
 {% assign news_image = news.cover %}
-{% if news_image == nil and news.is_internal? %}
+{% unless news.url contains '://' or news_image %}
   {% assign news_post = site.posts | where: 'url', news.url | first %}
   {% if news_post.thumbnail %}
     {% if news_post.thumbnail contains 'http' %}
@@ -12,7 +12,7 @@
       {% capture news_image %}/img/{{ news_post.thumbnail }}{% endcapture %}
     {% endif %}
   {% endif %}
-{% endif %}
+{% endunless %}
 
 <article class="news-item">
   <a class="news-card" href="{{ news.url }}" data-proofer-ignore{{ news_target }}>
