@@ -39,7 +39,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
       </div>
 
       <div class="col">
-	<a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
+	<a href="https://www.ruby-lang.org/" target="_blank">
           <img src="/img/spinner.svg" data-src="/img/icons/ruby.png" width="80%" alt="Ruby logo" class="lazyload" /></a><br>
           Ruby / Rails
       </div> <!--//col-->
@@ -49,7 +49,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
       </div>  <!--//col-->
 
       <div class="col">
-        <a href="https://github.com/" target="_blank" rel="noopener">
+        <a href="https://github.com/" target="_blank">
           <img src="/img/spinner.svg" data-src="/img/icons/git.png" width="80%" alt="Git logo" class="lazyload" /></a><br>Git / GitHub
       </div>  <!--//col-->
 

@@ -32,20 +32,20 @@ lang:   en
 
           <div class="row">
             <div class="col-md-4 offset-md-1">
-	      <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
+	      <a href="https://railstutorial.jp/" target="_blank">
 		<img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-tutorial.webp"
 		 alt="Ruby on Rails Tutorial in Japanese" loading="lazy"></a>
-		<a href="https://railstutorial.jp/" target="_blank" rel="noopener">
+		<a href="https://railstutorial.jp/" target="_blank">
 		  <button class="btn btn-ruby">railstutorial.jp</button></a>
 		<h4>for learners</h4>
 		<p>Learn web development from zero to deploy in order to start designing your own product.</p>
             </div>
 
             <div class="col-md-4 offset-md-2">
-              <a href="https://railsguides.jp/" target="_blank" rel="noopener">
+              <a href="https://railsguides.jp/" target="_blank">
 		<img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-guides.webp"
 	         alt="Ruby on Rails Guides in Japanese" loading="lazy"></a>
-		<a href="https://railsguides.jp/" target="_blank" rel="noopener">
+		<a href="https://railsguides.jp/" target="_blank">
 		  <button class="btn btn-ruby">railsguides.jp</button></a>
 		<h4>for developers</h4>
 		<p>Enhance your web service by using 2,000+ pages contents on Ruby on Rails in Japanese.</p>

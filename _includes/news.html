@@ -1,6 +1,5 @@
 {% unless news.is_internal? %}
   {% assign news_target = ' target="_blank"' %}
-  {% assign news_rel = ' rel="noopener"' %}
 {% endunless %}
 
 {% assign news_image = news.cover %}
@@ -16,7 +15,7 @@
 {% endif %}
 
 <article class="news-item">
-  <a class="news-card" href="{{ news.url }}" data-proofer-ignore{{ news_target }}{{ news_rel }}>
+  <a class="news-card" href="{{ news.url }}" data-proofer-ignore{{ news_target }}>
     {% if news_image %}
     <span class="news-image">
       <img src="/img/spinner.svg" data-src="{{ news_image }}" alt="{{ news.title | escape }}" class="lazyload" loading="lazy">

@@ -34,12 +34,12 @@ layout: plain_without_thumbnail
   <p class="text-center"><a href="/ja/works#story">創りながら学ぶ</a>ための書籍・動画・検索サービス</p>
         <div class="row">
           <div class="col-md-4 offset-md-1">
-            <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
+            <a href="https://railstutorial.jp/" target="_blank">
         <img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-tutorial.webp"
                alt="Ruby on Rails チュートリアル" loading="lazy"></a>
-        <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
+        <a href="https://railstutorial.jp/" target="_blank">
     <h4>Railsチュートリアル</h4></a>
-            <a href="https://railstutorial.jp/" target="_blank" rel="noopener">
+            <a href="https://railstutorial.jp/" target="_blank">
               <button class="btn btn-ruby">初級・中級者向け</button>
             </a>
             <p>SNS 開発が題材の大型チュートリアル。プロダクト開発の<span style="background-color: #AA4536; color: white; border-radius: 2px;">
@@ -47,12 +47,12 @@ layout: plain_without_thumbnail
 	    </span>を創りながら学びます。<a href="https://railstutorial.jp/screencast">解説動画</a>や<a href="https://railstutorial.jp/ebook">電子書籍</a>、法人向け<a href="https://railstutorial.jp/business">研修支援</a>や<a href="https://railstutorial.jp/partner">教材連携</a>サービスも提供</p>
           </div>
           <div class="col-md-4 offset-md-2">
-            <a href="https://railsguides.jp/" target="_blank" rel="noopener">
+            <a href="https://railsguides.jp/" target="_blank">
               <img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-guides.webp"
          alt="Ruby on Rails ガイド" loading="lazy">
             </a>
-      <a href="https://railsguides.jp/" target="_blank" rel="noopener"><h4>Railsガイド</h4></a>
-            <a href="https://railsguides.jp/" target="_blank" rel="noopener">
+      <a href="https://railsguides.jp/" target="_blank"><h4>Railsガイド</h4></a>
+            <a href="https://railsguides.jp/" target="_blank">
               <button class="btn btn-ruby">中級・上級者向け</button>
             </a>
             <p>プロダクト開発の生産性を高める、Ruby on Rails に特化した<span style="background-color: #AA4536; color: white; border-radius: 2px;"> 2,000 </span>ページ超えの大型リファレンスガイド。<a href="https://railsguides.jp/ebook">電子書籍</a>や<a href="https://railsguides.jp/pro">全文検索</a>、法人向け<a href="https://railsguides.jp/sponsors">協賛プラン</a>も提供</p>
@@ -124,7 +124,7 @@ layout: plain_without_thumbnail
       </div>
       <div class="col-md-4">
 	<div class="developmentSupport__more text-center">
-          <a href="https://railstutorial.jp/business" class="btn btn-primary btn-block mt-2" target='_blank' rel='noopener'>導入相談を見る</a>
+          <a href="https://railstutorial.jp/business" class="btn btn-primary btn-block mt-2" target='_blank'>導入相談を見る</a>
 	</div>
       </div>
     </div>
@@ -210,14 +210,14 @@ layout: plain_without_thumbnail
         <div class="row">
           <div class="col-md-4">
 	    <figure>
-              <a href="https://jr.mitou.org/" target="_blank" rel="noopener">
+              <a href="https://jr.mitou.org/" target="_blank">
                 <img src="/img/spinner.svg" data-src="/img/logos/mitoujr.webp" alt="未踏ジュニア - 独創的アイデアと卓越した技術を持つ小中高生クリエイター支援プログラム" class="lazyload" loading="lazy">
               </a>
               <figcaption><a href="https://jr.mitou.org/#sponsors">Webサービス開発教材の提供</a></figcaption>
             </figure>
 	    <!--
             <figure>
-              <a href="https://ruby.okinawa/" target="_blank" rel="noopener">
+              <a href="https://ruby.okinawa/" target="_blank">
                 <img src="/img/spinner.svg" data-src="/img/logos/okinawarb.gif"
          alt="Okinawa Ruby User Group" class="lazyload" loading="lazy">
               </a>
@@ -236,7 +236,7 @@ layout: plain_without_thumbnail
           </div>
           <div class="col-md-4">
             <figure>
-              <a href="/ja/about#culture" target="_blank" rel="noopener">
+              <a href="/ja/about#culture" target="_blank">
                 <img src="/img/spinner.svg" data-src="/img/logos/coderdojo-japan.webp"
          alt="CoderDojo Japan - 子どものためのプログラミング道場"
          class="lazyload" loading="lazy">
@@ -257,7 +257,7 @@ layout: plain_without_thumbnail
 	  <i class="fad fa-rocket"></i> プレスリリース</a></h2>
 	<ul>
 	  {% for press in site.data.press  %}
-	  <li><a href="{{ press.url }}" target="_blank" rel="noopener">{{ press.title }}</a></li>
+	  <li><a href="{{ press.url }}" target="_blank">{{ press.title }}</a></li>
 	  {% endfor %}
 	</ul>
       </div><!--//col-->
