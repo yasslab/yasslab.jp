@@ -3,9 +3,9 @@ require "shellwords"
 
 # Tasks triggered by GitHub Actions
 # https://github.com/yasslab/yasslab.jp/actions
-desc "Upsert recent note articles. Optional cover range: COVER_RANGE=10, 11..40, 11-40, or all"
+desc "Upsert recent note articles. Optional cover range arg: 10, 11..40, 11-40, or all"
 task :upsert_recent_notes, [:number_of_articles, :cover_range] do |task, args|
-  cover_range = args[:cover_range] || ENV['COVER_RANGE'] || ENV['IMAGE_RANGE']
+  cover_range = args[:cover_range]
   params = [args[:number_of_articles] || (cover_range ? '3' : nil), cover_range]
            .compact
            .map { |arg| arg.to_s.shellescape }
@@ -122,7 +122,7 @@ task test: [:build] do
   }
 
   HTMLProofer.check_directory('_site/', options).run
-  
+
   # Run RSpec tests
   sh 'bundle exec rspec spec/*.rb'
 end

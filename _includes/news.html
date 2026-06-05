@@ -1,10 +1,7 @@
-{% if news.is_internal? %}
-  {% assign news_target = '' %}
-  {% assign news_rel = '' %}
-{% else %}
+{% unless news.is_internal? %}
   {% assign news_target = ' target="_blank"' %}
   {% assign news_rel = ' rel="noopener"' %}
-{% endif %}
+{% endunless %}
 
 {% assign news_image = news.cover %}
 {% if news_image == nil and news.is_internal? %}

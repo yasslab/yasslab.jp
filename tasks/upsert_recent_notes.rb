@@ -87,9 +87,7 @@ def backfill_range(option)
     (0..)
   when /\A(\d+)\z/
     (0...Regexp.last_match(1).to_i)
-  when /\A(\d+)\.\.(\d+)\z/
-    (Regexp.last_match(1).to_i - 1)..(Regexp.last_match(2).to_i - 1)
-  when /\A(\d+)-(\d+)\z/
+  when /\A(\d+)(?:\.\.|-)(\d+)\z/
     (Regexp.last_match(1).to_i - 1)..(Regexp.last_match(2).to_i - 1)
   else
     raise ArgumentError, "Invalid cover range: #{option.inspect}. Use 10, 11..40, 11-40, or all."
@@ -130,12 +128,7 @@ def backfill_note_images(agent, range)
 end
 
 number_of_articles_arg = ARGV[0]
-cover_range_arg = ARGV[1] || ENV['COVER_RANGE'] || ENV['IMAGE_RANGE']
-
-if cover_range_arg.nil? && number_of_articles_arg&.match?(/\A(?:all|\d+\.\.\d+|\d+-\d+)\z/i)
-  cover_range_arg = number_of_articles_arg
-  number_of_articles_arg = nil
-end
+cover_range_arg = ARGV[1]
 
 # How many articles you want to output? (Default: 3)
 number_of_fetching_articles = (number_of_articles_arg || '3').to_i
