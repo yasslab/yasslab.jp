@@ -1,15 +1,38 @@
-<li class="news-item">  
-  <span class="news-date">{{ news.date | date: "%m/%d" }}</span>
-  <span class="news-title h5">
-    {% if news.is_internal? %}
-    <a href="{{ news.url }}" data-proofer-ignore>
-      {{ news.title }}
-    </a>
+{% if news.is_internal? %}
+  {% assign news_target = '' %}
+  {% assign news_rel = '' %}
+{% else %}
+  {% assign news_target = ' target="_blank"' %}
+  {% assign news_rel = ' rel="noopener"' %}
+{% endif %}
+
+{% assign news_image = news.cover %}
+{% if news_image == nil and news.is_internal? %}
+  {% assign news_post = site.posts | where: 'url', news.url | first %}
+  {% if news_post.thumbnail %}
+    {% if news_post.thumbnail contains 'http' %}
+      {% assign news_image = news_post.thumbnail %}
     {% else %}
-    <a href="{{ news.url }}" data-proofer-ignore target="_blank" rel="noopener">
-      {{ news.title }}
-      <img src="/img/icons/external-link-16.png" alt="外部リンク" class="lazyload" />
-    </a>
+      {% capture news_image %}/img/{{ news_post.thumbnail }}{% endcapture %}
     {% endif %}
-  </span>
-</li>
+  {% endif %}
+{% endif %}
+
+<article class="news-item">
+  <a class="news-card" href="{{ news.url }}" data-proofer-ignore{{ news_target }}{{ news_rel }}>
+    {% if news_image %}
+    <span class="news-image">
+      <img src="/img/spinner.svg" data-src="{{ news_image }}" alt="{{ news.title | escape }}" class="lazyload" loading="lazy">
+    </span>
+    {% else %}
+    <span class="news-image news-image-placeholder">
+      <span>{{ news.date | date: "%m/%d" }}</span>
+    </span>
+    {% endif %}
+    <span class="news-body">
+      <span class="news-title">
+        {{ news.title }}
+      </span>
+    </span>
+  </a>
+</article>

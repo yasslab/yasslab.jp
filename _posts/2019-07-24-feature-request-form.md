@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  📭 各種サービスにフィードバック機能を追加しました
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-feature-request-form.png
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド]

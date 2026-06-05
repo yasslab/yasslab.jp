@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🤝 テクトレ社とRailsチュートリアルのライセンス契約締結
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-partnership-with-techtraining.png
 author: Yuppyhappytoyou
 categories: [Press]
 tags: [Railsチュートリアル, 提携]

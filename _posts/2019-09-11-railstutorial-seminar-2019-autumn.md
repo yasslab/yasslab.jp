@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 Railsチュートリアル集中解説セミナー受付開始
-thumbnail: bg-sky.jpg
+thumbnail: photos/rails-seminar-201910.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [Railsチュートリアル, 解説セミナー]

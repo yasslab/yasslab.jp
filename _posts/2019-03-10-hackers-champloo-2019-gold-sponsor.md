@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🏝 Hackers Champloo 2019 ゴールドスポンサー協賛
-thumbnail: bg-sky.jpg
+thumbnail: news/hackers-champloo-2019-top.png
 author: yasulab
 categories: [Press]
 tags: [Hackers Champloo, 沖縄, 協賛]

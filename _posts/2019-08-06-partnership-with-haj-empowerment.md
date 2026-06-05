@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🤝 HAJエンパワーメントとRailsチュートリアルで業務提携
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-partnership-with-haj-empowerment.png
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails]

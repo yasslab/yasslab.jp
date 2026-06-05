@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  📕 Railsガイドの各タイトルが Twitter Card に対応
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-railsduides-twitter-card.png
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド]

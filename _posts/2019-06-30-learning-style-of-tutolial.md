@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 Railsチュートリアルは、自分に合う学習スタイルで
-thumbnail: bg-sky.jpg
+thumbnail: news/tutorial-user-voice.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [Railsチュートリアル]

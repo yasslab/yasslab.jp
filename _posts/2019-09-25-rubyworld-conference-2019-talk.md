@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  💎 RubyWorld Conference 2019 に採択されました
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-rubyworld-conference-2019-talk.jpg
 author: Yuppyhappytoyou
 categories: [press]
 tags: [登壇, Ruby]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ☯️ 大阪Ruby会議02で coderdojo.jp 開発事例を発表します
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-cfp-accepted-at-osaka-rubykaigi02.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [登壇, Rails, CoderDojo]

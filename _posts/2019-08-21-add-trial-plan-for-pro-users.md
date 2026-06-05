@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  📕 RailsガイドのProプランで無料トライアルが可能に
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-add-trial-plan-for-pro-users.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [Railsガイド, Proプラン]

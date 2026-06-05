@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🚧️ Railsチュートリアル改善に伴うメンテナンスのお知らせ
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-tutorial-maintenance.png
 author: nanophate
 categories: [blog]
 tags: [メンテナンス, Railsチュートリアル]

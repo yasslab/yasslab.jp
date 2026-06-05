@@ -2,14 +2,6 @@
 <h4><a href="#news"><i class="fad fa-newspaper"></i> 最近のお知らせ</a></h4>
 <!--<div class="text-secondary center mb-4">(note 記事まとめ)</div>-->
 
-<ul class="news-recent">
-  {% include news-search.html %}
-
-  {% for news in site.data.news limit:10 %}
-  {% include news.html %}
-  {% endfor %}
-</ul>
+{% include news-list.html limit=10 show_search=true %}
 
 <h6 class="news-toc"><a href="/ja/news/">&raquo; 過去の記事を読む</a></h6>
-
-

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  📕 Railsガイドのロゴを制作しました
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-japanese-railsguides-logo.png
 author: Yuppyhappytoyou
 categories: [press]
 tags: [Railsガイド]

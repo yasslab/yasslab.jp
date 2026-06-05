@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  📕 Ruby on Railsガイドを 5.1→5.2 に更新しました
-thumbnail: bg-sky.jpg
+thumbnail: news/railsguides-jp_51-52.png
 author: yasulab
 categories: [Press]
 tags: [Railsガイド, Rails]

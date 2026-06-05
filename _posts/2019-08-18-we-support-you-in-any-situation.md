@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ⛰ 未踏ジュニア『困ったときのガイドライン』を公開
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-we-support-you-in-any-situation.jpg
 author: yasulab
 categories: [blog]
 tags: [登壇, 未踏ジュニア]

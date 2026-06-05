@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎖弊社メンバーが株式会社アジャイルウェアから表彰
-thumbnail: bg-sky.jpg
+thumbnail: news/ss-agile-service.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [提携, Rails]

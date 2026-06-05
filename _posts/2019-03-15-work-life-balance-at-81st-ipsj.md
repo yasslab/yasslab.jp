@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🗣 情報処理学会 全国大会でリモートワーク事例を発表
-thumbnail: bg-sky.jpg
+thumbnail: news/ipsj-2019-banner.jpg
 author: yasulab
 categories: [Blog]
 tags: [リモートワーク, GitHub, 情報処理学会, 登壇]

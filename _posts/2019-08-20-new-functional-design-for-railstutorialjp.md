@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🎓 Railsチュートリアルのページ遷移を改善しました
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-new-functional-design-for-railstutorialjp.png
 author: yasulab
 categories: [blog]
 tags: [登壇, Rails]

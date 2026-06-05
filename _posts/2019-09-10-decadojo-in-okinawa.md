@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ☯️ 沖縄のプログラミングイベントに参加します
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-decadojo-in-okinawa.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [CoderDojo, イベント]

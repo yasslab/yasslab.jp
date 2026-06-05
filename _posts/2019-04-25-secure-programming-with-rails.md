@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  🔐 RailsエンジニアのためのWebセキュリティ入門
-thumbnail: bg-sky.jpg
+thumbnail: news/secure-tutorial.jpg
 author: yasulab
 categories: [blog]
 tags: [セキュリティ, Rails, Railsチュートリアル]

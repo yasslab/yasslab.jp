@@ -1,0 +1,28 @@
+{% assign news_limit = include.limit | default: site.data.news.size %}
+{% assign show_year = include.show_year | default: false %}
+
+<div class="news-recent">
+  {% if include.show_search %}
+  {% include news-search.html %}
+  {% endif %}
+
+  {% if show_year %}
+    {% assign this_year = site.data.news.first.date | date: '%Y' | to_integer %}
+  {% endif %}
+
+  {% for news in site.data.news limit:news_limit %}
+    {% if show_year %}
+      {% assign news_year = news.date | date: '%Y' | to_integer %}
+      {% if this_year == news_year %}
+      <div class="news-year-heading">
+        <h2 id="{{ this_year }}">
+          <a href="#{{ this_year }}">{{ this_year }}年</a>
+        </h2>
+      </div>
+      {% assign this_year = this_year | minus: 1 %}
+      {% endif %}
+    {% endif %}
+
+    {% include news.html %}
+  {% endfor %}
+</div>

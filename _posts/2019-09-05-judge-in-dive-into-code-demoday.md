@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  💎 DEMODAY 7th 2019 -autumn- に審査員で参加します
-thumbnail: bg-sky.jpg
+thumbnail: news/cover-judge-in-dive-into-code-demoday.png
 author: Yuppyhappytoyou
 categories: [blog]
 tags: [登壇, Rails]
