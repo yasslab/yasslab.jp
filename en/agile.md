@@ -9,7 +9,7 @@ lang:   en
 We provide a service to help a project that uses Ruby/Rails.   
 With our experienced developers, we will suport your project.
 
-_See this in Japanese? [Here](/ja/agile/) ;)_   
+_See this in Japanese? [Here](/ja/agile) ;)_   
 
 <img src="/img/spinner.svg" data-src="/img/team.webp" alt='Team Photo' width='100%' class="lazyload" />
 

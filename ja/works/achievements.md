@@ -142,7 +142,7 @@
 - **8月 弊社安川が[一般社団法人CoderDojo Japan代表理事](http://dojocon.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html)に就任**
 - 8月 教育xOSSカンファレンス [DojoCon Japan](https://dojocon2016.coderdojo.jp/) をスポンサード
 - 8月 「日経Kids+ 親子で始めるプログラミング」に[掲載](https://www.facebook.com/yasulab/posts/10153783123520869?pnref=story)
-- 8月 [Doorkeeperスポンサーシップ](/ja/doorkeeper/)の資料を CC BY-SA で公開
+- 8月 [Doorkeeperスポンサーシップ](/ja/doorkeeper)の資料を CC BY-SA で公開
 - 8月 [大阪電気通信大学と提携](http://www.osakac.ac.jp/news/2016/922)。Railsチュートリアル動画を提供
 - 8月 [筑波大学のenPiTと提携](https://www.evernote.com/shard/s18/sh/a68df4c8-689b-4f69-9d79-af868564134b/6195074c6ec4aaf2129d39e3b3a15ee5)。Railsチュートリアル動画を提供
 - 7月 主婦・ママ向けメディア 4yuuu! に[インタビュー記事掲載](https://4yuuu.com/articles/view/473532)

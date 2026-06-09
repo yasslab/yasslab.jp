@@ -227,11 +227,11 @@ layout: plain_without_thumbnail
           </div>
           <div class="col-md-4">
             <figure>
-              <a href="/ja/doorkeeper/">
+              <a href="/ja/doorkeeper">
                 <img src="/img/spinner.svg" data-src="/img/logos/doorkeeper.webp"
          alt="Doorkeeper スポンサーシップ" class="lazyload" loading="lazy">
               </a>
-              <figcaption><a href="/ja/doorkeeper/">イベント管理サービス代の補助</a></figcaption>
+              <figcaption><a href="/ja/doorkeeper">イベント管理サービス代の補助</a></figcaption>
             </figure>
           </div>
           <div class="col-md-4">
