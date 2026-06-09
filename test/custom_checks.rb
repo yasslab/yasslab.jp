@@ -30,7 +30,7 @@ class TrailingSlash < HTMLProofer::Check
       base_path = href.include?('#') ? href.split('#').first : href
 
       # trailing slashで終わる内部リンクをチェック
-      next unless base_path.end_with?('/')
+      next unless base_path&.end_with?('/')
 
       # ルートパス（/）は除外
       next if base_path == '/'
