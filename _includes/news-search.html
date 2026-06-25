@@ -4,7 +4,7 @@
     <div class="search-block-input">
       <span class="search-icon"></span>
     </div>
-    <input class="search-input" type="text" name="" value="" placeholder="キーワードで検索する (例: Ruby, Rails, Dojo)" id="search-input">
+    <input class="search-input" type="text" name="" value="" placeholder="{% if page.lang == 'en' %}Search by keyword (e.g. Ruby, Rails, Dojo){% else %}キーワードで検索する (例: Ruby, Rails, Dojo){% endif %}" id="search-input">
 
   </div>
   <div class="search-block-result">
@@ -18,8 +18,8 @@
    searchInput:          document.getElementById('search-input'),
    resultsContainer:     document.getElementById('search-results'),
    json:                 '/search.json',
-   searchResultTemplate: '<li class="news-item"><span class="news-date">{date}年</span> <span><a href="{url}">{title}</a></span></li>',
-   noResultsText:        '検索結果が見つかりませんでした。',
+   searchResultTemplate: '<li class="news-item"><span class="news-date">{date}{% if page.lang != 'en' %}年{% endif %}</span> <span><a href="{url}">{title}</a></span></li>',
+   noResultsText:        '{% if page.lang == 'en' %}No results found.{% else %}検索結果が見つかりませんでした。{% endif %}',
    limit:                20,
 
    // Mark hit keywords
