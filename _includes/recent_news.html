@@ -1,9 +1,14 @@
 <div id="news"></div>
-<h4><a href="#news"><i class="fad fa-newspaper"></i> 最近のお知らせ</a></h4>
+<h4><a href="#news"><i class="fad fa-newspaper"></i> {% if page.lang == 'en' %}Recent News{% else %}最近のお知らせ{% endif %}</a></h4>
 <!--<div class="text-secondary center mb-4">(note 記事まとめ)</div>-->
 
+{% comment %} Search index (/search.json) is Japanese-only, so hide it on English pages {% endcomment %}
+{% if page.lang == 'en' %}
+{% include news-list.html limit=10 %}
+{% else %}
 {% include news-list.html limit=10 show_search=true %}
+{% endif %}
 
 <div class="text-center mt-5 pt-3">
-  <a href="/ja/news/" class="btn btn-primary">&raquo; 過去の記事を読む</a>
+  <a href="/ja/news/" class="btn btn-primary">{% if page.lang == 'en' %}&raquo; Read past news{% else %}&raquo; 過去の記事を読む{% endif %}</a>
 </div>

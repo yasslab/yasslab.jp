@@ -1,7 +1,13 @@
 {% assign news_image  = false %}
 {% assign news_target = '' %}
+{% assign news_href   = news.url %}
 {% if news.url contains '://' %}
   {% assign news_target = ' target="_blank"' %}
+{% endif %}
+
+{% comment %} On English pages, link to note.com's auto-translated page via ?hl=en {% endcomment %}
+{% if page.lang == 'en' and news.url contains 'note.com/yasslab/' %}
+  {% assign news_href = news.url | append: '?hl=en' %}
 {% endif %}
 
 {% if news.url contains 'note.com/yasslab/' %}
@@ -22,7 +28,7 @@
 {% endunless %}
 
 <article class="news-item">
-  <a class="news-card" href="{{ news.url }}" data-proofer-ignore{{ news_target }}>
+  <a class="news-card" href="{{ news_href }}" data-proofer-ignore{{ news_target }}>
     {% if news_image %}
     <span class="news-image">
       <img src="/img/spinner.svg" data-src="{{ news_image }}" alt="{{ news.title | escape }}" class="lazyload" loading="lazy">
