@@ -9,9 +9,8 @@
 </h4>
 <!--<div class="text-secondary center mb-4">(note 記事まとめ)</div>-->
 
-{% comment %} TODO: Search index (/search.json) is Japanese-only, so need to impl it for English. {% endcomment %}
 {% include news-list.html limit=10 show_search=true %}
 
 <div class="text-center mt-5 pt-3">
-  <a href="/ja/news/" class="btn btn-primary">{% if page.lang == 'en' %}&raquo; Read past news{% else %}&raquo; 過去の記事を読む{% endif %}</a>
+  <a href="{% if page.lang == 'en' %}/en/news/{% else %}/ja/news/{% endif %}" class="btn btn-primary">{% if page.lang == 'en' %}&raquo; Read past news{% else %}&raquo; 過去の記事を読む{% endif %}</a>
 </div>

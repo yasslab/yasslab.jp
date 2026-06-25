@@ -16,7 +16,7 @@
       {% if this_year == news_year %}
       <div class="news-year-heading">
         <h2 id="{{ this_year }}">
-          <a href="#{{ this_year }}">{{ this_year }}年</a>
+          <a href="#{{ this_year }}">{{ this_year }}{% if page.lang != 'en' %}年{% endif %}</a>
         </h2>
       </div>
       {% assign this_year = this_year | minus: 1 %}
