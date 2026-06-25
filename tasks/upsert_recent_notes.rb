@@ -31,6 +31,31 @@ rescue => e
   nil
 end
 
+# note.com page titles look like "<title>｜YassLab 株式会社"; drop the company suffix.
+def clean_note_title(raw)
+  title = raw.to_s.strip
+  title = title.rpartition('｜').first.strip if title.include?('｜')
+  title.empty? ? nil : title
+end
+
+# Ensure a whitespace follows a leading emoji prefix, e.g. "📕Rails" -> "📕 Rails".
+def normalize_title(str)
+  return str if str.nil?
+  clusters = str.grapheme_clusters
+  run = 0
+  run += 1 while clusters[run] && clusters[run].match?(/\p{S}/)
+  return str if run.zero? || clusters[run].nil? || clusters[run].match?(/\p{Space}/)
+  clusters.insert(run, ' ').join
+end
+
+# Fetch the English title note.com auto-translates when ?hl=en is appended.
+def note_title_en(agent, url)
+  clean_note_title(agent.get("#{url}?hl=en").title)
+rescue => e
+  warn "⚠️ Failed to fetch English title from #{url}: #{e.message}"
+  nil
+end
+
 def note_key(url)
   URI(url).path.split('/').last
 rescue URI::InvalidURIError
@@ -88,13 +113,13 @@ if __FILE__ == $PROGRAM_NAME
     next  if urls.include? item.link
 
     download_note_image(agent, item.link, note_image_url(agent, item.link))
+    title    = normalize_title(item.title)
+    title_en = normalize_title(note_title_en(agent, item.link))
 
-    news << <<~NEW_ARTICLE
-      - title: #{yaml_single_quote(item.title)}
-        date:  #{item.pubDate.strftime("%Y-%m-%d")}
-        url:   #{item.link}
-
-    NEW_ARTICLE
+    news << "- title: #{yaml_single_quote(title)}\n"
+    news << "  title_en: #{yaml_single_quote(title_en)}\n" if title_en
+    news << "  date:  #{item.pubDate.strftime("%Y-%m-%d")}\n"
+    news << "  url:   #{item.link}\n\n"
   end
 
   if news.empty?

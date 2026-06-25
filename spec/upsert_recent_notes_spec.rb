@@ -23,3 +23,46 @@ describe '#fetch_count' do
     expect(fetch_count(nil, 10)).to eq 10
   end
 end
+
+# note.com page <title> is "<title>｜YassLab 株式会社"; clean_note_title strips
+# the company suffix so the English title (?hl=en) can be stored in news.yml.
+describe '#clean_note_title' do
+  it 'drops the ｜YassLab company suffix' do
+    expect(clean_note_title('🤝 OSS Gate 10th Anniversary Conference Support｜YassLab 株式会社'))
+      .to eq '🤝 OSS Gate 10th Anniversary Conference Support'
+  end
+
+  it 'keeps the title as-is when there is no separator' do
+    expect(clean_note_title('Plain Title')).to eq 'Plain Title'
+  end
+
+  it 'returns nil for blank input' do
+    expect(clean_note_title('')).to be_nil
+    expect(clean_note_title(nil)).to be_nil
+  end
+end
+
+describe '#normalize_title' do
+  it 'inserts a space after a glued emoji prefix' do
+    expect(normalize_title('📕Rails Guides now supports Rails 7.2'))
+      .to eq '📕 Rails Guides now supports Rails 7.2'
+  end
+
+  it 'leaves a properly spaced title unchanged' do
+    expect(normalize_title('🆙 Training: Feedback Feature Added'))
+      .to eq '🆙 Training: Feedback Feature Added'
+  end
+
+  it 'keeps a multi-emoji prefix that already has a space' do
+    expect(normalize_title('👤→👥 Creating teams is easier'))
+      .to eq '👤→👥 Creating teams is easier'
+  end
+
+  it 'leaves a non-emoji title unchanged' do
+    expect(normalize_title('Rails 8 release notes')).to eq 'Rails 8 release notes'
+  end
+
+  it 'passes nil through' do
+    expect(normalize_title(nil)).to be_nil
+  end
+end

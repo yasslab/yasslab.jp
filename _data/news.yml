@@ -1,1168 +1,1460 @@
 - title: '🤝 OSS Gate 10周年カンファレンス支援'
+  title_en: '🤝 OSS Gate 10th Anniversary Conference Support'
   date:  2026-06-25
   url:   https://note.com/yasslab/n/n12805ed831a0
 
 - title: '🆙 トレーニング：フィードバック機能追加'
+  title_en: '🆙 Training: Feedback Feature Added'
   date:  2026-05-22
   url:   https://note.com/yasslab/n/n93c30a02ea59
 
 - title: '📖 私設図書館「技術書ライブラリー」の開設を支援'
+  title_en: '📖 Supporting the Launch of a Private "Tech Book Library"'
   date:  2026-03-19
   url:   https://note.com/yasslab/n/na1e169dec096
 
 - title: '🎓 Rails 8 対応Webテキスト先行リリース'
+  title_en: '🎓 Early Release of Rails 8 Compatible Web Text'
   date:  2026-03-05
   url:   https://note.com/yasslab/n/nb468a637dc41
 
 - title: '☯️ Coolest Projects Japan 2026 に協賛'
+  title_en: '☯️ Sponsoring Coolest Projects Japan 2026'
   date:  2026-03-04
   url:   https://note.com/yasslab/n/nf7aa2d29718d
 
 - title: '🗣️ RailsTokyo#3 に登壇'
+  title_en: '🗣️ Speaking at RailsTokyo#3'
   date:  2026-01-29
   url:   https://note.com/yasslab/n/n850b1fce1a1b
 
 - title: '🤝 コミュニティ支援: OSS Gate'
+  title_en: '🤝 Community Support: OSS Gate'
   date:  2026-01-23
   url:   https://note.com/yasslab/n/n604e1b092f5c
 
 - title: '🆕 正規表現エディタ「Rubree」を紹介'
+  title_en: '🆕 Introducing Rubree, a Regular Expression Editor'
   date:  2025-12-03
   url:   https://note.com/yasslab/n/ncb57c9812545
 
 - title: '📕 Railsガイドが Rails 8.1 に対応'
+  title_en: '📕 Rails Guides Now Supports Rails 8.1'
   date:  2025-10-24
   url:   https://note.com/yasslab/n/nbbbbc52206ad
 
 - title: '🚧️ Railsガイド改善に伴うメンテナンスのお知らせ'
+  title_en: '🚧️ Maintenance Notice for Rails Guides Improvements'
   date:  2025-10-22
   url:   https://note.com/yasslab/n/n85fc874140d7
 
 - title: '🚧️ Railsチュートリアル改善に伴うメンテナンスのお知らせ'
+  title_en: '🚧️ Maintenance Notice for Rails Tutorial Improvements'
   date:  2025-10-22
   url:   https://note.com/yasslab/n/n470bd0a2381b
 
 - title: '🤝 プログラミングRuby第5版を支援'
+  title_en: '🤝 Supporting Programming Ruby 5th Edition'
   date:  2025-10-10
   url:   https://note.com/yasslab/n/n820afb5fd29a
 
 - title: '☯️ DojoCon Japan 2025 に協賛'
+  title_en: '☯️ Sponsoring DojoCon Japan 2025'
   date:  2025-10-07
   url:   https://note.com/yasslab/n/n7da9f43a4123
 
-- title: '🗣「生成AI時代のエンジニアの学び方」登壇'
+- title: '🗣 「生成AI時代のエンジニアの学び方」登壇'
+  title_en: '🗣 Speaking at "How Engineers Learn in the Age of Generative AI"'
   date:  2025-09-30
   url:   https://note.com/yasslab/n/nf86e466fe0b2
 
 - title: '🎓 JPHACKS 2025 に学習支援で協賛'
+  title_en: '🎓 Sponsoring JPHACKS 2025 with Learning Support'
   date:  2025-09-19
   url:   https://note.com/yasslab/n/n60d06b208fcd
 
 - title: '💎 2025 中高生Rubyプロコンに協賛'
+  title_en: '💎 Sponsoring the 2025 Ruby Programming Contest for Junior and Senior High School Students'
   date:  2025-09-17
   url:   https://note.com/yasslab/n/n6b4e1909687d
 
 - title: '🤖 ProプランにAIサポートが登場'
+  title_en: '🤖 AI Support Comes to the Pro Plan'
   date:  2025-08-27
   url:   https://note.com/yasslab/n/n01f1e07eb35c
 
 - title: '🔍 社員研修: 回答絞込み機能追加'
+  title_en: '🔍 Employee Training: Added Answer Filtering Feature'
   date:  2025-08-22
   url:   https://note.com/yasslab/n/n5a72311b6e86
 
 - title: '📖 Railsの教科書 Rails 8 対応版リリース'
+  title_en: '📖 "The Rails Textbook" Rails 8 Edition Released'
   date:  2025-08-08
   url:   https://note.com/yasslab/n/n9bc0f17e6e24
 
 - title: '🛤️ Rails技術者認定試験の参考教材として採用!'
+  title_en: '🛤️ Adopted as reference material for the Rails Certification Exam!'
   date:  2025-06-27
   url:   https://note.com/yasslab/n/n6856770ba7ff
 
 - title: '🆕 協賛プランでProプランが利用可能に！'
+  title_en: '🆕 Pro Plan is now available with Sponsorship Plans!'
   date:  2025-06-06
   url:   https://note.com/yasslab/n/n907fd73757af
 
 - title: '🤝 福岡テックでRailsチュートリアル採用'
+  title_en: '🤝 Rails Tutorial Adopted by Fukuoka Tech'
   date:  2025-06-02
   url:   https://note.com/yasslab/n/ndef8b27fdf8f
 
 - title: '🛤 「個人開発フレームワーク」で100万ユーロ/年を稼ぐまでの体験談'
+  title_en: 'Rails: A personal experience story of earning 1 million euros/year with a ''One-Person Framework'' (Translation)'
   date:  2025-04-28
   url:   https://note.com/yasslab/n/nc8bbbad17310
 
 - title: '🎥 対談：初めての TRICK 応募（佳作）'
+  title_en: '🎥 Dialogue: Our First TRICK Submission (Honorable Mention)'
   date:  2025-04-25
   url:   https://note.com/yasslab/n/naf04f6002e58
 
 - title: '🎓 Codespaces で学習中につまずいたら'
+  title_en: '🎓 If you get stuck while learning with Codespaces'
   date:  2025-04-23
   url:   https://note.com/yasslab/n/nd1a5227b70e1
 
 - title: '🛤 Rails 8はSQLiteで大幅に強化された「個人が扱えるフレームワーク」'
+  title_en: '🛤 Rails 8: A "Framework One Person Can Handle," Greatly Enhanced by SQLite (Translation)'
   date:  2025-02-05
   url:   https://note.com/yasslab/n/n89d6850e296d
 
 - title: '💞 協賛プラン導入事例: プレーリーカード'
+  title_en: '💞 Sponsorship Plan Case Study: Prairie Card'
   date:  2025-01-24
   url:   https://note.com/yasslab/n/nf0380f24936c
 
 - title: '🛤️ Rails Night にゲスト参加します！'
+  title_en: '🛤️ Joining Rails Night as a Guest!'
   date:  2025-01-22
   url:   https://note.com/yasslab/n/na19de03d1805
 
 - title: '📕 Railsガイドが Rails 8.0.1 に対応'
+  title_en: '📕 Rails Guides updated for Rails 8.0.1'
   date:  2025-01-08
   url:   https://note.com/yasslab/n/n8f0473c0f1cd
 
 - title: '🤝 りこぴあクリスマス会@東京に協賛'
+  title_en: '🤝 Sponsoring the Ricopia Christmas Party @ Tokyo'
   date:  2024-12-02
   url:   https://note.com/yasslab/n/nef25545e1706
 
 - title: '🎓 Ryukyufrogs に学習支援で協賛'
+  title_en: '🎓 Sponsoring Ryukyufrogs with Learning Support'
   date:  2024-11-18
   url:   https://note.com/yasslab/n/nf65faaa42732
 
 - title: '📕 Railsガイドが Rails 8.0 に対応'
+  title_en: '📕 Rails Guides now support Rails 8.0'
   date:  2024-11-13
   url:   https://note.com/yasslab/n/n7b043d76e1e2
 
 - title: '🎤 インタビュー収録「留学から起業まで」'
+  title_en: '🎤 Interview Recording: "From Studying Abroad to Founding a Company"'
   date:  2024-11-12
   url:   https://note.com/yasslab/n/na13db178a1e8
 
 - title: '💎 RubyWorld Conference 2024 に登壇'
+  title_en: '💎 Speaking at RubyWorld Conference 2024'
   date:  2024-11-08
   url:   https://note.com/yasslab/n/nc94f179d12cf
 
 - title: '🎓 JPHACKS 2024 に学習支援で協賛'
+  title_en: '🎓 Sponsoring JPHACKS 2024 with Learning Support'
   date:  2024-08-28
   url:   https://note.com/yasslab/n/na9327c85764e
 
-- title: '📕Railsガイドが Rails 7.2 に対応しました'
+- title: '📕 Railsガイドが Rails 7.2 に対応しました'
+  title_en: '📕 Rails Guides now supports Rails 7.2'
   date:  2024-08-16
   url:   https://note.com/yasslab/n/nb9877f81cee3
 
 - title: '💞 協賛プラン導入事例: 虎の穴ラボ'
+  title_en: '💞 Sponsor Plan Case Study: Toranoana Lab'
   date:  2024-08-14
   url:   https://note.com/yasslab/n/n0b2e6e7d5bbb
 
 - title: '🎁 AWS賞の副賞を受け取りました！'
+  title_en: '🎁 I received the AWS Award prize!'
   date:  2024-07-19
   url:   https://note.com/yasslab/n/n20b0dacad848
 
 - title: '💞 協賛プラン導入事例: GA technologies'
+  title_en: '💞 Sponsor Plan Case Study: GA technologies'
   date:  2024-07-10
   url:   https://note.com/yasslab/n/ncae34ca79919
 
 - title: '💞 協賛プラン導入事例: note'
+  title_en: '💞 Sponsorship Plan Case Study: note'
   date:  2024-07-08
   url:   https://note.com/yasslab/n/n91e8b17a1cb6
 
 - title: '🤝 りこぴあ交流会@東京に協賛！'
+  title_en: '🤝 Sponsoring the Ricopia Meetup @ Tokyo!'
   date:  2024-06-12
   url:   https://note.com/yasslab/n/nd347a5511e98
 
 - title: '🤖 AI サポートが GPT-4o に対応'
+  title_en: '🤖 AI Support Now Supports GPT-4o'
   date:  2024-06-10
   url:   https://note.com/yasslab/n/n3fe8947679f2
 
 - title: '💎 After RubyKaigi 2024 に LT 登壇'
+  title_en: '💎 Lightning Talk at After RubyKaigi 2024'
   date:  2024-05-24
   url:   https://note.com/yasslab/n/nc932535fbf20
 
 - title: '🏝 RubyKaigi 2024 アウトプットまとめ'
+  title_en: '🏝 RubyKaigi 2024 Output Roundup'
   date:  2024-05-23
   url:   https://note.com/yasslab/n/nba29abed6cfe
 
 - title: '🎓 大阪公立大学から紀要論文を公開'
+  title_en: '🎓 Bulletin paper published by Osaka Metropolitan University'
   date:  2024-05-15
   url:   https://note.com/yasslab/n/n3c2b9b2aa731
 
 - title: '🆙 Railsガイドから、アップグレード事例へ'
+  title_en: '🆙 From Rails Guides to Upgrade Case Studies'
   date:  2024-04-25
   url:   https://note.com/yasslab/n/n4b1511a292d6
 
 - title: '🎥 対談動画: Railsの今後の動向'
+  title_en: '🎥 Interview Video: Future Trends of Rails'
   date:  2024-04-19
   url:   https://note.com/yasslab/n/n12eb7852f903
 
 - title: '📊 日本と海外の Ruby on Rails 求人データまとめ'
+  title_en: '📊 Ruby on Rails Job Market Data in Japan and Abroad'
   date: 2024-04-05
   url: /ja/news/job-market-of-ruby-on-rails
 
 - title: '💎 新宿 × Ruby「Shinjuku.rb」に協賛！'
+  title_en: '💎 Sponsoring Shinjuku.rb, Shinjuku × Ruby!'
   date:  2024-03-09
   url:   https://note.com/yasslab/n/nfdd6eb2bcd74
 
 - title: '💞 協賛プラン導入事例: エゾウィン'
+  title_en: '💞 Sponsor Plan Case Study: Ezowin'
   date:  2024-02-26
   url:   https://note.com/yasslab/n/naab29a9160c5
 
 - title: '🏆 第16回 フクオカRuby大賞 AWS賞'
+  title_en: '🏆 16th FUKUOKA Ruby Award AWS Prize'
   date:  2024-02-05
   url:   https://note.com/yasslab/n/n47134bad56df
 
 - title: '🆙 Railsガイドが Rails 7.1.3 に対応'
+  title_en: '🆙 Rails Guides Now Supports Rails 7.1.3'
   date:  2024-01-24
   url:   https://note.com/yasslab/n/n94f9adfa3380
 
 - title: '🎓 Rails技術者認定試験の参考教材に掲載'
+  title_en: '🎓 Featured as Reference Material for the Rails Certification Exam'
   date:  2024-01-22
   url:   https://note.com/yasslab/n/n2f430d6c6732
 
 - title: '🏕 第5回 ソニックガーデンキャンプ開催'
+  title_en: '🏕 The 5th Sonic Garden Camp is Now Open'
   date:  2024-01-15
   url:   https://note.com/yasslab/n/nd1db39855c5b
 
 - title: '💎 RubyWorld Conference 2023 登壇動画'
+  title_en: '💎 RubyWorld Conference 2023 Presentation Videos'
   date:  2024-01-12
   url:   https://note.com/yasslab/n/nf75f4b9bbba4
 
 - title: '💎 Fukuoka Ruby フェスタ前夜祭に登壇'
+  title_en: '💎 Speaking at the Fukuoka Ruby Festa Eve'
   date:  2024-01-05
   url:   https://note.com/yasslab/n/n4026fd9ce678
 
 - title: '🎓 登壇『大学における生成 AI 活用事例』 @ 大阪公立大学'
+  title_en: '🎓 Talk: "Generative AI Use Cases in Universities" @ Osaka Metropolitan University 2nd Education Reform Forum'
   date:  2023-12-05
   url:   https://note.com/yasslab/n/n4dbe9692a0dd
 
 - title: '🆕 Codespaces に IRB の型機能追加'
+  title_en: '🆕 Added IRB type features to Codespaces'
   date:  2023-11-17
   url:   https://note.com/yasslab/n/n9be674f55a0e
 
 - title: '📖 読み物ガイドで新コンテンツ紹介 Vol.5'
+  title_en: '📖 New Content in the Reading Guide Vol.5'
   date:  2023-11-13
   url:   https://note.com/yasslab/n/n73c62875f50a
 
 - title: '🎥 対談：AIを取り入れたプロダクト開発'
+  title_en: '🎥 Dialogue: Product Development with AI'
   date:  2023-11-10
   url:   https://note.com/yasslab/n/n23a4ab4829a5
 
 - title: '📖 読み物ガイドで新コンテンツ紹介 Vol.4'
+  title_en: '📖 New Content in the Reading Guide Vol.4'
   date:  2023-11-08
   url:   https://note.com/yasslab/n/n8f6bcdbc826c
 
 - title: '📕 Railsガイドが Rails 7.1 に対応'
+  title_en: '📕 Rails Guides updated for Rails 7.1'
   date:  2023-10-06
   url:   https://note.com/yasslab/n/n5e07e57be2f0
 
 - title: '💎 Ruby Central のオープンソース活動を STF がサポート【翻訳】'
+  title_en: '💎 Sovereign Tech Fund (STF) Supports Ruby Central''s Open Source Work (Translation)'
   date:  2023-10-02
   url:   https://note.com/yasslab/n/n564130b898e9
 
 - title: '💻 WebテキストがCodespacesに対応'
+  title_en: '💻 Web Text now supports Codespaces'
   date:  2023-09-25
   url:   https://note.com/yasslab/n/n591ac8f82187
 
 - title: '💎 RubyWorld Conference 2023に登壇'
+  title_en: '💎 Speaking at RubyWorld Conference 2023'
   date:  2023-09-20
   url:   https://note.com/yasslab/n/ne0f9ddfdaf25
 
 - title: '💞 協賛プラン2週間コース事例: タイミー'
+  title_en: '💞 Sponsor Plan 2-Week Course Case Study: Timee'
   date:  2023-09-13
   url:   https://note.com/yasslab/n/nfe2752f64a55
 
 - title: '💡 AI にうまく質問するためのヒント公開'
+  title_en: '💡 Tips for Asking AI Good Questions Published'
   date:  2023-08-25
   url:   https://note.com/yasslab/n/n53982cb58686
 
 - title: '☯️ DojoCon Japan 2023 に協賛'
+  title_en: '☯️ Sponsoring DojoCon Japan 2023'
   date:  2023-07-25
   url:   https://note.com/yasslab/n/n0eedbb37463c
 
 - title: '💎 2023 Rubyプロコンに学習支援で協賛'
+  title_en: '💎 Sponsoring the 2023 Ruby Programming Contest with Learning Support'
   date:  2023-07-24
   url:   https://note.com/yasslab/n/n4740c60cbd56
 
 - title: '💞 協賛プラン2週間コース事例: エゾウィン'
+  title_en: '💞 Sponsor Plan 2-Week Course Case Study: Ezowin'
   date:  2023-07-19
   url:   https://note.com/yasslab/n/ncee046b96f91
 
 - title: '🎓 事例：合同オンライン研修 for 島根'
+  title_en: '🎓 Case Study: Joint Online Training for Shimane'
   date:  2023-07-11
   url:   https://note.com/yasslab/n/n8ab2cf66a4ba
 
 - title: '💞 協賛プランに「2週間コース」が登場'
+  title_en: '💞 A "2-Week Course" Joins the Sponsor Plan'
   date:  2023-07-06
   url:   https://note.com/yasslab/n/n4f9506ab853c
 
 - title: '🔔 社員研修 × AIサポートで効率的に学習'
+  title_en: '🔔 Efficient Learning with Employee Training × AI Support'
   date:  2023-07-05
   url:   https://note.com/yasslab/n/n466d7bd7e5b3
 
 - title: '🗺️ 学習ガイド2023年版をリリース'
+  title_en: '🗺️ 2023 Study Guide Released'
   date:  2023-06-29
   url:   https://note.com/yasslab/n/nf4a288878fdb
 
 - title: '🆙 ログイン不要で全バージョン閲覧可能に'
+  title_en: '🆙 All versions are now viewable without login'
   date:  2023-06-21
   url:   https://note.com/yasslab/n/nedb694ee294c
 
 - title: '📖 読み物ガイドで新コンテンツ紹介 vol.3'
+  title_en: '📖 New Content in the Reading Guide Vol.3'
   date:  2023-06-09
   url:   https://note.com/yasslab/n/ne72202d7422e
 
 - title: '🆕 協賛プランに選べる「年間コース」追加'
+  title_en: '🆕 An Optional "Annual Course" Added to the Sponsor Plan'
   date:  2023-06-07
   url:   https://note.com/yasslab/n/n06bd4f550ccc
 
 - title: '🏕 第4回ソニックガーデンキャンプ開催'
+  title_en: '🏕 The 4th Sonic Garden Camp is Now Open'
   date:  2023-05-30
   url:   https://note.com/yasslab/n/n81422db7a5f1
 
 - title: '💻 無料×オンライン！エゾ合宿2023開催'
+  title_en: '💻 Free & Online! Ezo Camp 2023 Held'
   date:  2023-05-22
   url:   https://note.com/yasslab/n/nef8ce3c04423
 
 - title: '💎 RubyKaigi 2023 - "Kaigi is back!"'
+  title_en: '💎 RubyKaigi 2023 - "Kaigi is back!"'
   date:  2023-05-15
   url:   https://note.com/yasslab/n/ndc0570e389aa
 
 - title: '📚 Rubyist Book Authors スタンプラリー'
+  title_en: '📚 Rubyist Book Authors Stamp Rally'
   date:  2023-05-09
   url:   https://note.com/yasslab/n/ncaae0a84c258
 
 - title: '💻 「JavaScript編」をリリースしました'
+  title_en: '💻 "JavaScript Edition" has been released'
   date:  2023-05-08
   url:   https://note.com/yasslab/n/n93a9acc4b821
 
 - title: '🎓 コードコピー機能を追加しました'
+  title_en: '🎓 Added code copy functionality'
   date:  2023-04-28
   url:   https://note.com/yasslab/n/n75fbc048bf60
 
 - title: '🗣️ ChatGPT Meetup で登壇します'
+  title_en: '🗣️ Speaking at ChatGPT Meetup Tokyo'
   date:  2023-04-17
   url:   https://note.com/yasslab/n/na3946028b44f
 
 - title: '📕 アセットパイプラインガイドを大幅更新'
+  title_en: '📕 Major update to the Asset Pipeline Guide'
   date:  2023-04-14
   url:   https://note.com/yasslab/n/n4fd9babaebfa
 
 - title: '🎁 AI サポート機能のお試し利用が可能に'
+  title_en: '🎁 AI Support Feature Now Available for Trial'
   date:  2023-04-12
   url:   https://note.com/yasslab/n/n2d75d1f7ab74
 
 - title: '💻 Codespaces 対応！環境構築が不要に'
+  title_en: '💻 Codespaces Support! No More Environment Setup Required'
   date:  2023-03-31
   url:   https://note.com/yasslab/n/n427c56266295
 
 - title: '🎓 『AI エラー解説』で、より学びやすく'
+  title_en: '🎓 Make learning easier with the ''AI Support Feature'''
   date:  2023-03-23
   url:   https://note.com/yasslab/n/n685429ea7c97
 
 - title: '🗺 地図アプリを作って学ぶ新コンテンツ'
+  title_en: '🗺 New Content: Learning by Building a Map App'
   date:  2023-03-21
   url:   https://note.com/yasslab/n/nbee4f37edbcd
 
 - title: '💞 協賛プラン導入事例: マネーフォワード'
+  title_en: '💞 Sponsor Plan Case Study: Money Forward'
   date:  2023-03-01
   url:   https://note.com/yasslab/n/nc0cc8b35bdcd
 
 - title: '🎥 Rubyist のためのカンタン動画制作'
+  title_en: '🎥 Easy Video Production for Rubyists'
   date:  2023-02-24
   url:   https://note.com/yasslab/n/na43b88385c8e
 
 - title: '🆕 読み物ガイドに新コンテンツ追加'
+  title_en: '📖 Introducing New Content in the Reading Guide Vol. 2'
   date:  2023-02-22
   url:   https://note.com/yasslab/n/n800cab7e79d6
 
 - title: '🏆 第15回 フクオカRuby大賞 入賞'
+  title_en: '🏆 15th FUKUOKA Ruby Award Winner'
   date:  2023-02-03
   url:   https://note.com/yasslab/n/n2460b881a49f
 
 - title: '💞 協賛プラン導入事例: ヴェルク'
+  title_en: '💞 Sponsor Plan Case Study: Verk'
   date:  2023-02-01
   url:   https://note.com/yasslab/n/ndcf3fea14ee4
 
 - title: '💎 福岡Rubyist会議03で登壇＆配信'
+  title_en: '💎 Speaking & Streaming at Fukuoka Rubyist Kaigi 03'
   date:  2023-01-17
   url:   https://note.com/yasslab/n/n66225a684788
 
 - title: '🔐 プライバシーポリシー改定のお知らせ (2022年12月版)'
+  title_en: '🔐 Privacy Policy Update Notice (December 2022)'
   date:  2022-12-27
   url:   https://note.com/yasslab/n/ne7e5a10c50ad
 
 - title: '💞 協賛プラン導入事例: コインチェック'
+  title_en: '💞 Sponsorship Plan Case Study: Coincheck'
   date:  2022-12-26
   url:   https://note.com/yasslab/n/n17a783594599
 
 - title: '💻 テキストエディタ編 VSCode に対応'
+  title_en: '💻 Text Editor Edition: Now Supporting VSCode'
   date:  2022-12-14
   url:   https://note.com/yasslab/n/n2bca010ea5bb
 
 - title: '🎞 解説動画の期間限定キャンペーン特典'
+  title_en: '🎞 Limited-time campaign benefits for the tutorial videos'
   date:  2022-12-02
   url:   https://note.com/yasslab/n/n0c2e3ddc6e21
 
 - title: '💞 協賛プラン導入事例: YOUTRUST'
+  title_en: '💞 Sponsor Plan Case Study: YOUTRUST'
   date:  2022-12-01
   url:   https://note.com/yasslab/n/n3262a7d2d58b
 
 - title: '💞 協賛プラン導入事例: ソニックガーデン'
+  title_en: '💞 Sponsor Plan Case Study: SonicGarden'
   date:  2022-11-22
   url:   https://note.com/yasslab/n/ne28dd018686b
 
 - title: '🎥 動画: 全学科1位にするための授業設計'
+  title_en: '🎥 Video: Course Design to Achieve the Top Ranking Across All Departments'
   date:  2022-11-19
   url:   https://note.com/yasslab/n/nf0d45c604186
 
 - title: '🏕 第3回ソニックガーデンキャンプ開催'
+  title_en: '🏕 The 3rd SonicGarden Camp Held'
   date:  2022-11-18
   url:   https://note.com/yasslab/n/n838e9da2d2ec
 
 - title: '🎥 動画：私が Rails 7 対応版を推す理由'
+  title_en: '🎥 Video: Why I Recommend the Rails 7 Compatible Version'
   date:  2022-11-17
   url:   https://note.com/yasslab/n/n126dba291965
 
 - title: '📖 Railsの教科書 Rails 7 対応版に更新'
+  title_en: '📖 Updated ''Rails Textbook'' to Rails 7 version'
   date:  2022-11-16
   url:   https://note.com/yasslab/n/n5c120e9ad6af
 
 - title: '🗣 iCARE Dev Meetup に登壇します'
+  title_en: '🗣 Speaking at iCARE Dev Meetup'
   date:  2022-11-15
   url:   https://note.com/yasslab/n/n6b9795232f18
 
 - title: '💎 RubyWorld Conference 2022 体験談'
+  title_en: '💎 RubyWorld Conference 2022 Experience Report'
   date:  2022-11-14
   url:   https://note.com/yasslab/n/n52740752462c
 
 - title: '🎓 Rails 7 対応Webテキスト先行リリース'
+  title_en: '🎓 Rails 7 compatible Web text released!'
   date:  2022-11-08
   url:   https://note.com/yasslab/n/n1ce48b4daa6a
 
 - title: '💞 協賛プラン導入事例: SmartHR 様'
+  title_en: '💞 Sponsorship Plan Case Study: SmartHR'
   date:  2022-10-20
   url:   https://note.com/yasslab/n/nffe088dad214
 
 - title: '📕 Railsガイド『協賛プラン』をリリース'
+  title_en: '📕 Rails Guides ''Sponsorship Plan'' Released'
   date:  2022-10-18
   url:   https://note.com/yasslab/n/n760b01d350d7
 
 - title: '☯️ DojoCon Japan 2022 に協賛しました'
+  title_en: '☯️ Sponsored DojoCon Japan 2022'
   date:  2022-10-12
   url:   https://note.com/yasslab/n/n947b4d4ce8ff
 
 - title: '💎 RubyWorld Conference 2022に登壇'
+  title_en: '💎 Speaking at RubyWorld Conference 2022'
   date:  2022-10-06
   url:   https://note.com/yasslab/n/n0778805cebbd
 
 - title: '🐳 devcontainerを使って開発してみよう'
+  title_en: '🐳 Let''s try developing using devcontainer'
   date:  2022-09-27
   url:   https://note.com/yasslab/n/n5dcbd7eb43c6
 
 - title: '📝 GitHub 編集ボタンで、提案しやすく'
+  title_en: '📝 Making it easier to suggest edits with the GitHub Edit button'
   date:  2022-09-24
   url:   https://note.com/yasslab/n/na6fbe1c74479
 
 - title: '⛩ OSS Gate 紹介動画を刷新しました'
+  title_en: '⛩ We have updated the OSS Gate introductory video'
   date:  2022-09-22
   url:   https://note.com/yasslab/n/n5134522bab8a
 
 - title: '💎 動画：RubyKaigi 2022 参加レポート'
+  title_en: '💎 Video: RubyKaigi 2022 Participation Report'
   date:  2022-09-19
   url:   https://note.com/yasslab/n/nac780aff78d5
 
 - title: '🎥 対談：ゼロから独学+職業訓練で転職'
+  title_en: '🎥 Interview: Career Change via Self-Study + Vocational Training from Scratch'
   date:  2022-08-22
   url:   https://note.com/yasslab/n/n2695322f653e
 
 - title: '💎 2022 Rubyプロコンに学習支援で協賛'
+  title_en: '💎 Sponsoring the 2022 Ruby Programming Contest with Learning Support'
   date:  2022-07-01
   url:   https://note.com/yasslab/n/nc401f198645d
 
-- title: '🗣Remote Work Tech Talk 登壇'
+- title: '🗣 Remote Work Tech Talk 登壇'
+  title_en: '🗣 Speaking at Remote Work Tech Talk #1'
   date:  2022-06-15
   url:   https://note.com/yasslab/n/n08d2b784837c
 
 - title: '🔍 Railsガイドが除外検索に対応'
+  title_en: '🔍 Rails Guides now supports exclusion search'
   date:  2022-06-02
   url:   https://note.com/yasslab/n/n2144479cf4d3
 
 - title: '🏕 第2回ソニックガーデンキャンプ開催'
+  title_en: '🏕 The 2nd SonicGarden Camp Held'
   date:  2022-05-06
   url:   https://note.com/yasslab/n/n77f946c5b573
 
 - title: '🏪 解説動画がコンビニ決済に対応'
+  title_en: '🏪 Explanatory videos now support convenience store payments'
   date:  2022-04-27
   url:   https://note.com/yasslab/n/n14134c093d8e
 
 - title: '🔐 プライバシーポリシー改定のお知らせ'
+  title_en: '🔐 Privacy Policy Update Notice (April 2022)'
   date:  2022-04-01
   url:   https://note.com/yasslab/n/n6ed4879dfed8
 
 - title: '💎 動画：Jekyll × GitHub でサイト制作'
+  title_en: '💎 Video: Website Creation with Jekyll × GitHub'
   date:  2022-03-26
   url:   https://note.com/yasslab/n/nf5837dabdf8c
 
 - title: '🧐 Rails考古学：2008年のRailsを知る'
+  title_en: '🧐 Rails Archaeology: Learning about Rails in 2008'
   date:  2022-03-24
   url:   https://note.com/yasslab/n/n5cb57c075650
 
 - title: '📕 Railsガイドが達人出版会で購入可能に'
+  title_en: '📕 Rails Guides are now available for purchase at Tatsujin Shuppan'
   date:  2022-03-22
   url:   https://note.com/yasslab/n/n667d42b4561c
 
 - title: '🎓 Webテキスト購入特典：トレーニング'
+  title_en: '🎓 Web Text Purchase Perk: Training'
   date:  2022-03-18
   url:   https://note.com/yasslab/n/na4c0d47c6ad3
 
 - title: '🏢 インタビュー記事 by CASE Shinjuku'
+  title_en: '🏢 Interview Article by CASE Shinjuku'
   date:  2022-03-11
   url:   https://note.com/yasslab/n/n86b9f3f08242
 
 - title: '🗺 読み物ガイドで新コンテンツ４本紹介'
+  title_en: '📖 Introducing New Content in the Reading Guide Vol. 1'
   date:  2022-03-07
   url:   https://note.com/yasslab/n/nf95474368cdf
 
 - title: '📝 トレーニング機能が個人も利用可能に'
+  title_en: '📝 Training feature now available for individuals'
   date:  2022-02-09
   url:   https://note.com/yasslab/n/nb62ba34bb9ea
 
 - title: '💎 登壇：Railsガイドのリリースの裏側'
+  title_en: '💎 Talk: Behind the Scenes of a Rails Guides Release'
   date:  2022-01-24
   url:   https://note.com/yasslab/n/nfb9a20e43c36
 
 - title: '📕 Railsガイドが Rails 7 に対応しました'
+  title_en: '📕 Rails Guides Now Supports Rails 7.0'
   date:  2021-12-23
   url:   https://note.com/yasslab/n/nd467228648f6
 
 - title: '🌐 AWSに自動デプロイする方法を学ぼう'
+  title_en: '🌐 Learn How to Auto-Deploy to AWS'
   date:  2021-11-25
   url:   https://note.com/yasslab/n/n571f1f69466d
 
 - title: '📕 Zeitwerk 移行ガイドを公開！'
+  title_en: '📕 Zeitwerk Migration Guide Released!'
   date:  2021-11-24
   url:   https://note.com/yasslab/n/nb36f251dd713
 
 - title: '💎 RubyWorld Conference に登壇'
+  title_en: '💎 Speaking at RubyWorld Conference'
   date:  2021-11-19
   url:   https://note.com/yasslab/n/n96db6c65c84f
 
 - title: '🏫 研修支援サービス導入: Classi 様'
+  title_en: '🏫 Training Support Service Adopted: Classi'
   date:  2021-11-15
   url:   https://note.com/yasslab/n/n99e5e5504439
 
 - title: '🎓 法人活用事例：ソニックガーデン様'
+  title_en: '🎓 Corporate Case Study: SonicGarden'
   date:  2021-11-11
   url:   https://note.com/yasslab/n/n629e561f3def
 
 - title: '💎 登壇「Ruby で学ぶ静的サイトジェネレーター」'
+  title_en: '💎 Talk: "Learning Static Site Generators with Ruby"'
   date:  2021-11-03
   url:   https://note.com/yasslab/n/nc9b253808d44
 
 - title: '🎤 対談動画まとめ「学習者の今」'
+  title_en: '🎤 Interview Video Summary: "Learners Today"'
   date:  2021-10-27
   url:   https://note.com/yasslab/n/na6b60c4b3e21
 
 - title: '🎓 GMOペパボ研修×Railsチュートリアル'
+  title_en: '🎓 GMO Pepabo Training × Rails Tutorial'
   date:  2021-10-26
   url:   https://note.com/yasslab/n/n4fb0f88e6b20
 
 - title: '✏️ トレーニングが Slack 通知に対応'
+  title_en: '✏️ Employee Training × Training Integration Added'
   date:  2021-10-15
   url:   https://note.com/yasslab/n/n98a5dae93f22
 
 - title: '🎨 「CSS & Design 編」をリリース'
+  title_en: '🎨 Released "CSS & Design Edition"'
   date:  2021-10-11
   url:   https://note.com/yasslab/n/n9022bf130c2c
 
 - title: '🔐 徳丸先生に聴くセキュリティの学び方'
+  title_en: '🔐 Learning Security from Mr. Tokumaru'
   date:  2021-10-08
   url:   https://note.com/yasslab/n/nd514c04e1849
 
 - title: '🎓 Railsチュートリアル×遠隔学習で登壇'
+  title_en: '🎓 Speaking at Rails Tutorial x Remote Learning'
   date:  2021-10-06
   url:   https://note.com/yasslab/n/n4077fbd3d604
 
 - title: '💎 Kaigi on Rails 登壇：学習者の「今」'
+  title_en: '💎 Kaigi on Rails Talk: The "Now" of Learners'
   date:  2021-09-24
   url:   https://note.com/yasslab/n/nf630eaa8a40b
 
 - title: '🛤 Kaigi on Rails のプレイベントに登壇'
+  title_en: '🛤 Speaking at the Kaigi on Rails Pre-Event'
   date:  2021-09-21
   url:   https://note.com/yasslab/n/n16794ddca0fc
 
 - title: '📕 Rails API へのリンクが同一バージョンに対応'
+  title_en: '📕 Rails API Links Now Match the Same Version'
   date:  2021-09-10
   url:   https://note.com/yasslab/n/nf5cf3cc8031d
 
 - title: '🆕 JavaScript編のベータ版を公開'
+  title_en: '🆕 Beta version of the JavaScript course released'
   date:  2021-08-27
   url:   https://note.com/yasslab/n/nad53242e1fbe
 
-- title: '🔤「明朝体ボタン」の場所が移動します'
+- title: '🔤 「明朝体ボタン」の場所が移動します'
+  title_en: '🔤 The "Mincho Font Button" Has Moved'
   date:  2021-07-30
   url:   https://note.com/yasslab/n/n336de6414218
 
 - title: '🎥 対談：作ったプロダクトがメディア掲載'
+  title_en: '🎥 Dialogue: Our Service Featured in the Media'
   date:  2021-07-26
   url:   https://note.com/yasslab/n/n33d9d94e1a50
 
 - title: '🎥 対談：プログラミング学習と学習時間'
+  title_en: '🎥 Conversation: Programming Learning and Study Time'
   date:  2021-07-22
   url:   https://note.com/yasslab/n/n268d2b5f7de2
 
 - title: '🤝 Techpitと完走者向け教材制作で連携'
+  title_en: '🤝 Partnering with Techpit to create learning materials for course graduates'
   date:  2021-07-16
   url:   https://note.com/yasslab/n/nc1a50a052661
 
 - title: '🎥 解説動画を無料視聴がカンタンに'
+  title_en: '🎥 Easily watch tutorial videos for free'
   date:  2021-07-15
   url:   https://note.com/yasslab/n/n9e08d61d85c4
 
 - title: '💎 Rubyプロコンに学習支援で協賛'
+  title_en: '💎 Sponsoring the Ruby Programming Contest with Learning Support'
   date:  2021-07-15
   url:   https://note.com/yasslab/n/n44dedd3d4af5
 
 - title: '🆙 学習ガイドの改訂版をリリース'
+  title_en: '🆙 Released Revised Edition of the Learning Guide'
   date:  2021-07-10
   url:   https://note.com/yasslab/n/n93da78308086
 
 - title: '🎥 解説動画の途中再生がデフォルトに'
+  title_en: '🎥 Resume playback for tutorial videos is now the default'
   date:  2021-07-09
   url:   https://note.com/yasslab/n/n35d88d916a58
 
 - title: '📕 リンク共有時に概要を分かりやすく'
+  title_en: '📕 Clearer Summaries When Sharing Links'
   date:  2021-07-08
   url:   https://note.com/yasslab/n/n8c404f526923
 
 - title: '🎓 U-17『未踏ジュニア』に教材を提供'
+  title_en: '🎓 Providing Materials to U-17 "MITOU Junior"'
   date:  2021-06-27
   url:   https://note.com/yasslab/n/n2351d74949f1
 
 - title: '🔰 基本コンテンツの単体購入が可能に'
+  title_en: '🔰 Basic content is now available for individual purchase'
   date:  2021-06-25
   url:   https://note.com/yasslab/n/n2868a9d46f67
 
 - title: '🎤 インタビュー記事「起業ノカタチ」の公開'
+  title_en: '🎤 Interview Article "The Shape of Founding a Company" Published'
   date:  2021-06-24
   url:   https://note.com/yasslab/n/n027e0d89b6e4
 
 - title: '🎓 新コンテンツCSS編サンプル版公開'
+  title_en: '🎓 Beta Version of New CSS Content Released'
   date:  2021-06-18
   url:   https://note.com/yasslab/n/n3671d0291f52
 
 - title: '✏️ トレーニングが１章１セットに対応'
+  title_en: '✏️ "Training" now supports one set per chapter'
   date:  2021-06-17
   url:   https://note.com/yasslab/n/n624ae2a6dca9
 
 - title: '🎥 対談動画: Ruby、Railsの魅力 （後編）'
+  title_en: '🎥 Dialogue Video: The Appeal of Ruby/Rails (Part 2)'
   date:  2021-06-08
   url:   https://note.com/yasslab/n/n7eed5e8499cf
 
 - title: '🎥 対談動画: Ruby、Railsの魅力 （前編）'
+  title_en: '🎥 Dialogue Video: The Appeal of Ruby/Rails (Part 1)'
   date:  2021-06-01
   url:   https://note.com/yasslab/n/n2904d62ad185
 
 - title: '📑 サイドバーから目次を開けます！'
+  title_en: '📑 You can now open the table of contents from the sidebar!'
   date:  2021-05-31
   url:   https://note.com/yasslab/n/n7571b5c1f7c1
 
 - title: '📕 Rails 6.1 対応電子書籍をリリース'
+  title_en: '📕 Released Rails 6.1 compatible e-book'
   date:  2021-05-27
   url:   https://note.com/yasslab/n/na7de5c50afe2
 
 - title: '🎥 「Railsの効率的な学び方」動画を公開'
+  title_en: '🎥 "Efficient Ways to Learn Rails" Video Released'
   date:  2021-05-24
   url:   https://note.com/yasslab/n/n870339e240d3
 
 - title: '🔔 お知らせ機能で最新情報をお届け'
+  title_en: '🔔 Get the Latest Updates via the Notification Feature'
   date:  2021-05-21
   url:   https://note.com/yasslab/n/n38c9317be32f
 
 - title: '📕 「Railsをはじめよう」がリニューアル'
+  title_en: '📕 "Getting Started with Rails" Renewed'
   date:  2021-04-30
   url:   https://note.com/yasslab/n/nd1b117b0c062
 
 - title: '🤝 近畿大学がRailsチュートリアルを採用'
+  title_en: '🤝 Kindai University Adopts Rails Tutorial'
   date:  2021-04-27
   url:   https://note.com/yasslab/n/nf10eb75f1b36
 
 - title: '📕 RailsガイドにWebpackerページを追加'
+  title_en: '📕 Added Webpacker page to Rails Guides'
   date:  2021-04-21
   url:   https://note.com/yasslab/n/n7adbcd2138b2
 
-- title: '🧑‍🏫スクール合同コンテストeditch vol.3の審査員をします'
+- title: '🧑‍🏫 スクール合同コンテストeditch vol.3の審査員をします'
+  title_en: '🧑‍🏫 Judging the editch vol.3 Joint School Contest'
   date:  2021-04-01
   url:   https://note.com/yasslab/n/ncb9e185468fe
 
 - title: '🔤 フォント変更予告のお知らせ'
+  title_en: '🔤 Advance Notice of a Font Change'
   date:  2021-03-31
   url:   https://note.com/yasslab/n/n011f5ec5c75d
 
 - title: '✏️ 研修に最適！「トレーニング」が登場'
+  title_en: '✏️ Perfect for training! "Training" is now available'
   date:  2021-03-29
   url:   https://note.com/yasslab/n/n5e4fd5c61c3b
 
 - title: '📄 「欧州で働き、米国で学ぶ」が記事になりました'
+  title_en: '📄 "Working in Europe, Studying in the US" Featured in an Article'
   date:  2021-03-10
   url:   https://note.com/yasslab/n/n9de4ba684a5a
 
 - title: '🆙 電子書籍版がリニューアル'
+  title_en: '🆙 E-book version has been renewed'
   date:  2021-02-12
   url:   https://note.com/yasslab/n/neb5e523e2dbb
 
 - title: '🗣 D-Biz Share インタビュー記事が公開'
+  title_en: '🗣 D-Biz Share Interview Article Published'
   date:  2021-02-09
   url:   https://note.com/yasslab/n/n899b03dd5159
 
 - title: '🔰 初心者シリーズHTML編リリース'
+  title_en: '🔰 Released ''HTML Course'''
   date:  2021-02-05
   url:   https://note.com/yasslab/n/n11158b704a86
 
 - title: '📊 数字で見る！Ruby/Rails学習者の動向'
+  title_en: '📊 By the Numbers! Trends Among Ruby/Rails Learners'
   date:  2021-02-01
   url:   https://note.com/yasslab/n/n4a2cbbe64eca
 
 - title: '🎥 対談: 3ヶ月でWebサービスを作った話'
+  title_en: '🎥 Dialogue: Building a Web Service in 3 Months'
   date:  2021-01-26
   url:   https://note.com/yasslab/n/n3ed59462cac8
 
 - title: '🧑‍🏫 スクール合同コンテストeditchの審査員をします'
+  title_en: '🧑‍🏫 I will be a judge for the joint programming school contest editch'
   date:  2021-01-25
   url:   https://note.com/yasslab/n/nb68715dbd0b3
 
 - title: '🏆 協業プランがフクオカRuby大賞 入賞'
+  title_en: '🏆 FUKUOKA Ruby Award Winner'
   date:  2021-01-22
   url:   https://note.com/yasslab/n/nb10f3da413bf
 
 - title: '📕 ガイド有料プランにダークモードを追加'
+  title_en: '📕 Dark Mode Added to the Guides Paid Plan'
   date:  2021-01-21
   url:   https://note.com/yasslab/n/ndaa975d1882a
 
 - title: '🗣 銀座Railsで学習者の動向を発表'
+  title_en: '🗣 Presenting learner trends at Ginza Rails'
   date:  2021-01-19
   url:   https://note.com/yasslab/n/nb0399beac4b1
 
 - title: '📖 Railsの教科書で予習/復習しよう'
+  title_en: '📖 Let''s prepare/review with the Rails Textbook'
   date:  2020-12-24
   url:   https://note.com/yasslab/n/nfdb22574b09f
 
 - title: '🗺 RubyとRailsの学習ガイドを公開'
+  title_en: '🗺 Ruby and Rails Learning Guide Released'
   date:  2020-12-22
   url:   https://note.com/yasslab/n/ne457fbece0f8
 
 - title: '💎 Railsチュートリアル開発秘話を公開'
+  title_en: '💎 The Story Behind Developing the Rails Tutorial'
   date:  2020-12-18
   url:   https://note.com/yasslab/n/n79c5dcc067fc
 
 - title: '🎓 Webテキストに、関連動画リンクを追加'
+  title_en: '🎓 Related Video Links Added to the Web Text'
   date:  2020-12-16
   url:   https://note.com/yasslab/n/n2e72b6193b37
 
 - title: '📕 Rails 6.1 リリースノートを公開'
+  title_en: '📕 Rails 6.1 Release Notes Published'
   date:  2020-12-15
   url:   https://note.com/yasslab/n/n05b5224057bc
 
 - title: '📕 小さな横幅でも目次を使いやすく'
+  title_en: '📕 Easier-to-Use Table of Contents on Narrow Screens'
   date:  2020-12-11
   url:   https://note.com/yasslab/n/n7547bf0b33bc
 
 - title: '🔰 Web基本セットの事前登録を開始'
+  title_en: '🔰 Pre-registration for Web Basics is now open'
   date:  2020-12-07
   url:   https://note.com/yasslab/n/n3b6603a68463
 
 - title: '🎓 解説動画の見所、まとめました'
+  title_en: '🎓 Highlights of the tutorial videos, summarized'
   date:  2020-12-06
   url:   https://note.com/yasslab/n/n1c9375a76ffa
 
 - title: '🔰 初めての方へ、メッセージを集約'
+  title_en: '🔰 A Message for First-Time Visitors'
   date:  2020-12-05
   url:   https://note.com/yasslab/n/nb3a6544672a8
 
 - title: '☯️ DojoCon Japan 2020 に協賛しました'
+  title_en: '☯️ Sponsored DojoCon Japan 2020'
   date:  2020-12-04
   url:   https://note.com/yasslab/n/n3db01819cc0b
 
 - title: '❤️ Rails Girls オンラインイベントに登壇'
+  title_en: '❤️ Speaking at a Rails Girls Online Event'
   date:  2020-12-03
   url:   https://note.com/yasslab/n/n85140ca15828
 
 - title: '☯️ 2020年 coderdojo.jp 開発ふりかえり'
+  title_en: '☯️ 2020 coderdojo.jp Development Retrospective'
   date:  2020-12-01
   url:   https://note.com/yasslab/n/nb42fb058d4a0
 
 - title: '📖 Railsガイド電子書籍版を更新'
+  title_en: '📖 Updating the Rails Guide E-book Edition'
   date:  2020-11-30
   url:   https://note.com/yasslab/n/nbaeac0b4eb70
 
 - title: '🎞 お役立ちコンテンツをマイページに'
+  title_en: '🎞 Useful content on your My Page'
   date:  2020-11-29
   url:   https://note.com/yasslab/n/n6b97bd66fd5e
 
 - title: '🎓 Webテキスト購入特典: Ruby解説動画'
+  title_en: '🎓 Web Text Purchase Bonus: Ruby Explanation Video'
   date:  2020-11-27
   url:   https://note.com/yasslab/n/n7a72ec68d797
 
 - title: 🔔 新着お知らせを、分かりやすく
+  title_en: '🔔 Making new notifications easier to understand'
   date:  2020-11-23
   url:   https://note.com/yasslab/n/n1f9edf451c98
 
 - title: 🗣 RubyWorld Conference 2020 登壇
+  title_en: '🗣 Speaking at RubyWorld Conference 2020'
   date:  2020-11-22
   url:   https://note.com/yasslab/n/n2df199064d46
 
 - title: 🏫  enPiT でリモートワークについて講演
+  title_en: '🏫 Lecture on Remote Work at enPiT'
   date:  2020-11-20
   url:   https://note.com/yasslab/n/n7168443441b9
 
 - title: ✉️ 本番環境のメール送信を一部変更
+  title_en: '📩 Partial Change to Production Email Sending'
   date:  2020-11-18
   url:   https://note.com/yasslab/n/n790ac7bc1158
 
 - title: 🗺 Railsチュートリアルの、旅のお供に
+  title_en: '🗺 A Companion for Your Rails Tutorial Journey'
   date:  2020-11-13
   url:   https://note.com/yasslab/n/ne75edeb57de7
 
 - title: 🎓 プロダクト開発の全体像を分かりやすく
+  title_en: '🎓 A clear overview of product development'
   date:  2020-11-12
   url:   https://note.com/yasslab/n/n30e8cf47a501
 
 - title: 📹 解説動画の進捗100%をお祝い
+  title_en: '📹 Celebrating 100% Progress on the Tutorial Videos'
   date:  2020-11-11
   url:   https://note.com/yasslab/n/n1c51014b400b
 
 - title: 🎓 利用者が素早く目的達成するために
+  title_en: '🎓 Helping users achieve their goals quickly'
   date:  2020-11-04
   url:   https://note.com/yasslab/n/ne87188b5b84c
 
 - title: 📑 マイページから好きな章に移動しよう
+  title_en: '📑 Navigate to your favorite chapters from My Page'
   date:  2020-10-27
   url:   https://note.com/yasslab/n/n2babba90e445
 
 - title: 🎨 演習問題をデザインで見分けやすく
+  title_en: '🎨 Making exercises easier to identify with design'
   date:  2020-10-26
   url:   https://note.com/yasslab/n/n0ffa24bba6fa
 
 - title: 📺 初心者が６ヶ月で創るプロダクト開発例
+  title_en: '📺 Examples of Products Beginners Build in 6 Months'
   date:  2020-10-23
   url:   https://note.com/yasslab/n/n45c6981b1d9d
 
 - title: ✅ ヘルプページでエラーを解決しよう
+  title_en: '✅ Let''s resolve errors on the help page'
   date:  2020-10-21
   url:   https://note.com/yasslab/n/n2745c816af8d
 
 - title: 📺 ライブ配信：DIVE INTO CODE×Railsチュートリアル
+  title_en: '📺 DIVE INTO CODE and Live Streaming'
   date:  2020-10-20
   url:   https://note.com/yasslab/n/n641efc99bf75
 
 - title: 🔰 初心者シリーズから進捗ツイート導入
+  title_en: '🔰 Introducing Progress Tweets to the Beginner Series'
   date:  2020-10-12
   url:   https://note.com/yasslab/n/n6e3ebce522b3
 
 - title: 🔔 お知らせ機能で最新情報を追いかけよう
+  title_en: '🔔 Catch the latest info with the notification feature'
   date:  2020-10-08
   url:   https://note.com/yasslab/n/n7f00031d69ab
 
 - title: 🤝 岐阜大学でRailsチュートリアルが採用
+  title_en: '🤝 Gifu University Adopts Rails Tutorial'
   date:  2020-10-07
   url:   https://note.com/yasslab/n/n1a8d85751ec0
 
 - title: 🔍 coderdojo.jp ヘッダーから検索可能に
+  title_en: '🔍 Search is now available from the coderdojo.jp header'
   date:  2020-10-05
   url:   https://note.com/yasslab/n/n23fc8e7299ed
 
 - title: 🎨 マイページから読みたいコンテンツへ
+  title_en: '🎨 To the content you want to read from My Page'
   date:  2020-10-01
   url:   https://note.com/yasslab/n/na64858f6478c
 
 - title: 🤝 協業プランに初心者シリーズを導入
+  title_en: '🤝 Beginner Series Added to the Partner Plan'
   date:  2020-09-30
   url:   https://note.com/yasslab/n/n7fdfdf639174
 
 - title: 🔰 初心者シリーズに目次を追加
+  title_en: '🔰 Table of Contents Added to the Beginner Series'
   date:  2020-09-29
   url:   https://note.com/yasslab/n/nc547c53a2e8d
 
 - title: 🔰 Railsチュートリアルの初心者シリーズ第１弾を公開
+  title_en: '🔰 New Content: "Development Basics Set" Released'
   date:  2020-09-18
   url:   https://note.com/yasslab/n/n32bbc2d1194c
 
 - title: 🎓 法人向けサービス活用事例：マネーフォワード様
+  title_en: '🎓 Corporate Case Study: Money Forward'
   date:  2020-09-15
   url:   https://note.com/yasslab/n/n8e602147ec9a
 
 - title: 🎓 法人向けサービス活用事例：メンバーズキャリア様
+  title_en: '🎓 Corporate Case Study: Members Career'
   date:  2020-09-14
   url:   https://note.com/yasslab/n/ncb2a5e66699b
 
 - title: 📕 Railsガイド『Proプラン』が同時ログインに対応
+  title_en: '📕 Rails Guides ''Pro Plan'' now supports simultaneous logins'
   date:  2020-09-09
   url:   https://note.com/yasslab/n/n0c9b31e3f55f
 
 - title: 👨‍🏫 プログラミングスクール合同コンテストの審査員をします
+  title_en: '👨‍🏫 Judging a Joint Programming School Contest'
   date:  2020-09-08
   url:   https://note.com/yasslab/n/n6b1bc06dea52
 
 - title: 🎥 『医者からエンジニアへの道』の動画を公開
+  title_en: '🎥 Video Released: ''The Path from Doctor to Engineer'''
   date:  2020-08-25
   url:   https://note.com/yasslab/n/na35a315f0e00
 
-- title: 🗣CODE-RAVE vol.2 オンラインに登壇します
+- title: '🗣 CODE-RAVE vol.2 オンラインに登壇します'
+  title_en: '🗣 Speaking at CODE-RAVE vol.2 Online'
   date:  2020-08-20
   url:   https://note.com/yasslab/n/n5853ade065a5
 
 - title: 🎤 対談インタビュー『医者からエンジニアへの道』のお知らせ
+  title_en: '🎤 Dialogue: "The Path from Doctor to Engineer"'
   date:  2020-08-17
   url:   https://note.com/yasslab/n/n00b3eefe3413
 
 - title: 🔰 Railsチュートリアル初心者シリーズ事前登録開始
+  title_en: '🔰 Launching the Beginner Series'
   date:  2020-08-06
   url:   https://note.com/yasslab/n/n8ac30e4a6d43
 
 - title: 🗺 ヘッダーから『Kata』ページ内へのアクセスが簡単に
+  title_en: '🗺 Easier Access to the "Kata" Page from the Header'
   date:  2020-07-31
   url:   https://note.com/yasslab/n/n8f85def92394
 
 - title: 🤝 Scratch Day 信州に法人として協賛
+  title_en: '🤝 Sponsoring Scratch Day Shinshu as a Company'
   date: 2020-07-30
   url: https://note.com/yasslab/n/nfed856f425da
 
 - title: ⚡️ リモートワークの知見をエンジニアHubに寄稿
+  title_en: '⚡️ Contributed Remote Work Insights to Engineer Hub'
   date: 2020-07-21
   url: https://note.com/yasslab/n/n62edc481a937
 
 - title: 📺 『未踏×留学オンライン座談会』に出演
+  title_en: '📺 Appearing on the "MITOU × Study Abroad Online Roundtable"'
   date: 2020-07-20
   url: https://note.com/yasslab/n/n88fc627fbcc4
 
 - title: 🎥 解説動画の一部をサンプルとして公開
+  title_en: '🎥 A Sample of Our Explainer Videos Released'
   date: 2020-07-15
   url: https://note.com/yasslab/n/nd6e077e24063
 
 - title: 📺 ITeens Lab のライブ配信に出演します
+  title_en: '📺 Appearing on ITeens Lab''s Live Stream'
   date: 2020-07-10
   url: https://note.com/yasslab/n/nc09becf7062d
 
 - title: 🤝 八戸工業大学がRailsチュートリアルを採用
+  title_en: '🤝 Hachinohe Institute of Technology Adopts Rails Tutorial'
   date: 2020-07-09
   url: https://note.com/yasslab/n/ne721c54c9efa
 
 - title: 🎓 Railsチュートリアルで社員研修：TOPSIC チームのオンライン対応成功事例
+  title_en: '🎓 Employee Training: TOPSIC Team Success Story'
   date: 2020-07-08
   url: https://note.com/yasslab/n/n0bfc4f042e5f
 
 - title: 👤→👥  個人アカウントからチーム作成が簡単に
+  title_en: '👤→👥 Creating teams from personal accounts is now easier'
   date: 2020-07-07
   url: https://note.com/yasslab/n/nda2ef783c132
 
 - title: ⏰ 勤務時間を、１時間短く
+  title_en: '⏰ Shortening Working Hours by One Hour'
   date: 2020-06-30
   url: https://note.com/yasslab/n/nac0e9e427b5a
 
 - title: 📊 coderdojo.jp の集計方法を改善
+  title_en: '📊 Improving the aggregation method for coderdojo.jp'
   date: 2020-06-22
   url: https://note.com/yasslab/n/n254b2d999ee3
 
 - title: 📕 Railsガイドの目次がハイライトに対応
+  title_en: '📕 Rails Guides Table of Contents Now Supports Highlighting'
   date: 2020-06-18
   url: https://note.com/yasslab/n/n3964f1c226a9
 
 - title: 📺 動画公開『英語学習〜海外発表までの流れ』
+  title_en: '📺 Video "From Learning English to Presenting Abroad" Released'
   date: 2020-06-17
   url: https://note.com/yasslab/n/nb89294b7a53d
 
 - title: 📕 Railsガイドの目次が見やすくなりました
+  title_en: '📕 The Rails Guide table of contents is now easier to view'
   date: 2020-06-15
   url: https://note.com/yasslab/n/n91913da24e09
 
 - title: 📕 Railsガイドのコードが見やすくなりました
+  title_en: '📕 The Rails Guide code is now easier to read'
   date: 2020-06-12
   url: https://note.com/yasslab/n/nfc76f05bf398
 
 - title: 🎓 Railsチュートリアルの目次がコンパクトに
+  title_en: '🎓 The Rails Tutorial Table of Contents Is Now Compact'
   date: 2020-06-12
   url: https://note.com/yasslab/n/n3d0a95367c61
 
 - title: 🎁 Webテキスト購入者向けにお試し特典を増枠
+  title_en: '🎁 Increased Trial Limit for Web Text Purchasers'
   date: 2020-06-09
   url: https://note.com/yasslab/n/ne0c6cb71affb
 
 - title: 🔰 coderdojo.jp にナビゲーションを追加
+  title_en: '🗺 Navigation Added to coderdojo.jp'
   date: 2020-06-08
   url: https://note.com/yasslab/n/nd2072fc032ca
 
 - title: 🎨 Railsチュートリアルのデザイン改善例の紹介
+  title_en: '🎨 Rails Tutorial Design Improvement Examples'
   date: 2020-06-04
   url: https://note.com/yasslab/n/n6e77cf70aa66
 
 - title: 📺 動画公開『欧州で働き、米国で学び、日本で繋ぐ』
+  title_en: '📺 Video Released: "Working in Europe, Learning in the US, Connecting in Japan"'
   date: 2020-06-01
   url: https://note.com/yasslab/n/nd6b0adbb4ad5
 
 - title: 🆙 Railsチュートリアルが Rails 6.0.3 に対応
+  title_en: '🆙 Rails Tutorial 6th Edition now supports Rails 6.0.3'
   date: 2020-05-26
   url: https://note.com/yasslab/n/n9bf2add5744a
 
 - title: 📖 達人出版会×Railsチュートリアル電子書籍版
+  title_en: '📖 Rails Tutorial eBook Published by Tatsu-zine'
   date: 2020-05-22
   url: https://note.com/yasslab/n/n36565e82a5ab
 
 - title: 🎓 Railsチュートリアル内の画像を見やすく
+  title_en: '🎓 Images in the Rails Tutorial Are Now Easier to See'
   date: 2020-05-21
   url: https://note.com/yasslab/n/ne1427625e022
 
 - title: 👥 法人プランで社員のサポートをしやすく
+  title_en: '👥 Supporting Employees with Training Support Services'
   date: 2020-05-20
   url: https://note.com/yasslab/n/n03ea6bb60a1d
 
 - title: 🎨 購入後の画面が分かりやすくなりました
+  title_en: '🎨 The post-purchase screen is now easier to understand'
   date: 2020-05-19
   url: https://note.com/yasslab/n/nf716de1c4bf3
 
 - title: 🎥 Webテキスト購入者向け動画お試し特典を追加
+  title_en: '🎥 Added a video trial benefit for Web text purchasers'
   date: 2020-05-16
   url: https://note.com/yasslab/n/n4f407ae4b622
 
 - title: 📺 未踏ジュニアのライブ配信に出演します
+  title_en: '📺 I will be appearing on the Mitou Junior live stream'
   date: 2020-05-15
   url: https://note.com/yasslab/n/neaa6826f969f
 
 - title: 🤝 Railsチュートリアルが『RUNTEQ』で採用
+  title_en: '🤝 Rails Tutorial Adopted by "RUNTEQ," a Job-Focused Programming School'
   date: 2020-05-14
   url: https://note.com/yasslab/n/n420f5d8b5da9
 
 - title: 🎓 Railsチュートリアル、チーム学習のコツ
+  title_en: '🎓 Tips for Team Learning with the Rails Tutorial'
   date: 2020-05-12
   url: https://note.com/yasslab/n/nb3710ebaf686
 
 - title: 🗣 ITエンジニアのキャリアを模索する会 Vol.4 に登壇
+  title_en: '🗣 Speaking at "Exploring IT Engineer Careers" Vol.4'
   date:  2020-05-11
   url:   https://note.com/yasslab/n/n5c4e151a6b5a
 
 - title: 🎓 Railsチュートリアルの脚注を読みやすく
+  title_en: '🎓 Rails Tutorial Footnotes Are Now Even Handier'
   date: 2020-05-08
   url: https://note.com/yasslab/n/n4be5b0c27b0b
 
 - title: 📖 Webテキストがチーム単位で購入可能に
+  title_en: '📖 Web Text now supports team-based purchasing'
   date: 2020-05-08
   url: https://note.com/yasslab/n/nc0ef09011f4f
 
 - title: 🎓 Railsチュートリアルと情報理工学で学ぶこと
+  title_en: '🎓 What You Learn with the Rails Tutorial and Computer Science'
   date: 2020-05-04
   url: https://note.com/yasslab/n/n21532c499863
 
 - title: 🎓 筑波大学で第6版Railsチュートリアルが採用
+  title_en: '🎓 University of Tsukuba Adopts the 6th Edition Rails Tutorial'
   date: 2020-05-01
   url: https://note.com/yasslab/n/na8c64dbde6ef
 
 - title: 🎓 Railsチュートリアルの訳注がマウスホバーに対応
+  title_en: '🎓 Rails Tutorial Translation Notes Now Support Mouse Hover'
   date: 2020-04-30
   url: https://note.com/yasslab/n/n5cea4f045bb8
 
 - title: 🎥 リモートワーク×チーム開発事例を YouTube 公開
+  title_en: '🎥 Remote Work × Team Development Case Released on YouTube'
   date: 2020-04-23
   url: https://note.com/yasslab/n/n49793705732e
 
 - title: 🎨 mgn チームとの継続的なデザイン改善事例を公開
+  title_en: '🎨 Case Study of Continuous Design Improvement with the mgn Team'
   date: 2020-04-22
   url: https://note.com/yasslab/n/n754b6e89af76
 
 - title: 🗣 IT エンジニアのキャリアを模索する会 Vol.3 に登壇
+  title_en: '🗣 Speaking at "Exploring IT Engineer Careers" Vol.3'
   date: 2020-04-21
   url: https://note.com/yasslab/n/nc5862392a020
 
 - title: 📖 第6版RailsチュートリアルWebテキスト版リリース
+  title_en: '📖 Released the 6th Edition of the Rails Tutorial "Web Text Version"'
   date:  2020-04-20
   url:   https://note.com/yasslab/n/n1543187c3ed6
 
 - title: 💖 法人向け GitHub Sponsors の審査に通りました
+  title_en: '💖 Approved for GitHub Sponsors for Organizations'
   date:  2020-04-13
   url:   https://note.com/yasslab/n/nfbadea74e9c9
 
 - title: 🎥 解説動画の一覧画面がさらに使いやすく
+  title_en: '🎥 The tutorial video list screen is now even easier to use'
   date: 2020-04-04
   url: https://note.com/yasslab/n/n7a946a7168a9
 
 - title: 📖 第6版Railsチュートリアル電子書籍の販売開始
+  title_en: '📖 Sales of the 6th Edition Rails Tutorial E-book Have Started'
   date: 2020-04-03
   url: https://note.com/yasslab/n/n9b6f89447adf
 
 - title: 🎓 Railsチュートリアル法人プランが人数支払い対応
+  title_en: '🎓 Rails Tutorial Corporate Plan Now Supports Per-User Billing'
   date: 2020-04-02
   url: https://note.com/yasslab/n/nbf74a1d417d2
 
 - title: 🎓 質問対応付Railsチュートリアル解説動画リリース
+  title_en: '🎓 Active Rubyists Answer Questions Online! ShareWis × Rails Tutorial Partnership'
   date: 2020-03-31
   url: https://note.com/yasslab/n/n8383778e38a3
 
 - title: 📅 近日オンライン開催の CoderDojo を見つけやすく
+  title_en: '📅 Making it easier to find upcoming online CoderDojo events.'
   date: 2020-03-30
   url: https://note.com/yasslab/n/nde85f7850628
 
 - title: 🎓 第4版の解説動画購入者向けWebテキスト追加特典
+  title_en: '🎁 Web Text Bonus Added for Purchasers of the 4th Edition Rails Tutorial Video (Up to Chapter 3)'
   date: 2020-03-28
   url: https://note.com/yasslab/n/na68f7236c645
 
 - title: 📕 Railsガイドが Carbon Ads for Open Source に採用
+  title_en: '📕 Rails Guides Eligible for Carbon Ads for Open Source'
   date: 2020-03-27
   url: https://note.com/yasslab/n/n4afda49ed786
 
 - title: 📹 Railsチュートリアルの歩き方を YouTube で公開
+  title_en: '📹 "How to Navigate the Rails Tutorial" Released on YouTube'
   date: 2020-03-26
   url: https://note.com/yasslab/n/n0ad9a665b8da
 
 - title: 🗣 筑波大学 enPiT でチーム開発について発表
+  title_en: '🗣 Presented on Team Development at University of Tsukuba enPiT'
   date: 2020-03-19
   url: https://note.com/yasslab/n/n52b9817b4fe5
 
 - title: 🚀 Railsチュートリアル第6版の解説動画をリリース
+  title_en: '🚀 Release of the 6th Edition of the Rails Tutorial Video Series (Rails 6 Support)'
   date: 2020-03-16
   url: https://note.com/yasslab/n/na27dfd2918f9
 
 - title: 🗣 リモートワーク×チーム開発について話します
+  title_en: '🗣 Talking About Remote Work × Team Development'
   date: 2020-03-12
   url: https://note.com/yasslab/n/ne0a996e54a90
 
 - title: 🗣 リモートワーク×技術力について話します
+  title_en: '🗣 Talking about Remote Work and Technical Skills'
   date: 2020-03-10
   url: https://note.com/yasslab/n/nff92669d45c8
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第11章)
+  title_en: '🎥 Highlights of the Rails Tutorial Explanation Video (Chapter 11)'
   date: 2020-03-06
   url: https://note.com/yasslab/n/nc0b3b12f1182
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第10章)
+  title_en: '🎥 Highlights of the Rails Tutorial Explanation Video (Chapter 10)'
   date: 2020-03-02
   url: https://note.com/yasslab/n/n2beb7c168911
 
 - title: 🗾 coderdojo.jp から地域別 CoderDojo 数をリリース
+  title_en: '🗾 Releasing the number of CoderDojos by region from coderdojo.jp'
   date: 2020-03-02
   url: https://note.com/yasslab/n/nbf084470eb5e
 
 - title: 📊 coderdojo.jp からタグ分布をリリース
+  title_en: '📊 Released Tag Distribution from coderdojo.jp'
   date: 2020-02-27
   url: https://note.com/yasslab/n/n34eb6541da2a
 
 - title: 🎓 Railsチュートリアル第6版を法人向けに提供開始
+  title_en: '🎓 Rails Tutorial 6th Edition Now Available for Corporate Use'
   date: 2020-02-25
   url: https://note.com/yasslab/n/nd71f64d0fc4d
 
 - title: 🚀 国際的エンジニアにリーチしやすい remotework.jp がリリースされました
+  title_en: '🚀 remotework.jp has been released, making it easier to reach international engineers'
   date: 2020-02-22
   url: https://note.com/yasslab/n/n1a3ca54a1844
 
 - title: 🎥 解説動画に進捗を表すプログレスバーが登場
+  title_en: '🎥 Progress bar added to tutorial videos'
   date: 2020-02-21
   url: https://note.com/yasslab/n/naa4ea6c96e4c
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第9章)
+  title_en: '🎥 Highlights of the Rails Tutorial Explanation Video (Chapter 9)'
   date: 2020-02-19
   url: https://note.com/yasslab/n/n56ad9b8d21cc
 
 - title: 🎧 リモート会議の環境音が軽減できる Krisp のススメ
+  title_en: '🎧 Recommendation for Krisp, which can reduce ambient noise in remote meetings'
   date: 2020-02-18
   url: https://note.com/yasslab/n/n7507bad73455
 
 - title: 🗣 CODE-RAVE vol.2 に登壇します
+  title_en: '🗣 Speaking at CODE-RAVE vol.2'
   date: 2020-02-14
   url: https://note.com/yasslab/n/n91ae220f7ade
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第8章)
+  title_en: '🎥 Highlights of the Rails Tutorial Screencast (Chapter 8)'
   date: 2020-02-05
   url: https://note.com/yasslab/n/n1862507f7be5
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第7章)
+  title_en: '🎥 Highlights of the Rails Tutorial Screencast (Chapter 7)'
   date: 2020-01-30
   url: https://note.com/yasslab/n/ne53c9e0ad6d8
 
@@ -1171,42 +1463,52 @@
 #   url: https://note.com/yasslab/n/ndf00cd0a7e09
 
 - title: 🎥 解説動画にサムネイル画像を追加しました
+  title_en: '🎓 Thumbnail Images Added to the Screencasts'
   date: 2020-01-28
   url: https://note.com/yasslab/n/na48402930211
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第6章)
+  title_en: '🎥 Highlights of the Rails Tutorial Screencast (Chapter 6)'
   date: 2020-01-20
   url: https://note.com/yasslab/n/n5ec9ac8eec0f
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第5章)
+  title_en: '🎥 Highlights of the Rails Tutorial Explanation Video (Chapter 5)'
   date: 2020-01-16
   url: https://note.com/yasslab/n/n03c4437830aa
 
 - title: 📕 Railsガイドが過去バージョン検索に対応
+  title_en: '📕 Rails Guides now supports searching past versions'
   date: 2020-01-15
   url: https://note.com/yasslab/n/ne591ce69cdca
 
 - title: ☯️  2019年版 CoderDojo 統計情報を公開しました
+  title_en: '☯️ 2019 CoderDojo Statistics Release'
   date: 2020-01-09
   url: https://note.com/yasslab/n/n94d6081be306
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第4章)
+  title_en: '🎥 Highlights of the Rails Tutorial Screencast (Chapter 4)'
   date: 2020-01-08
   url: https://note.com/yasslab/n/n94d7a19cdf9a
 
 - title: 🎥 Railsチュートリアル解説動画の見どころ (第3章)
+  title_en: '🎥 Highlights of the Rails Tutorial Screencast (Chapter 3)'
   date: 2019-12-26
   url: https://note.com/yasslab/n/n5650deb74908
 
 - title: 📕 Railsガイド『Proプラン』過去バージョン閲覧機能
+  title_en: '📕 You can now view past versions with the Rails Guides ''Pro Plan''!'
   date: 2019-12-25
   url: https://note.com/yasslab/n/nd8739a9c9533
 
 - title: 🎓 Railsチュートリアルのヘッダーデザインを改善
+  title_en: '🎓 The Rails Tutorial Header Design Has Changed'
   date: 2019-12-19
   url: https://note.com/yasslab/n/n3a8bb6c7042e
 
 - title: 💎 RubyWorld Conference で coderdojo.jp 開発事例講演
+  title_en: '💎 Talk on the coderdojo.jp Development Case at RubyWorld Conference 2019'
   date: 2019-12-17
   url: https://note.com/yasslab/n/n9439edba53bb
 
@@ -1215,265 +1517,331 @@
 #   url: https://note.com/yasslab/n/n649137f94d91
 
 - title: 🎓 Railsチュートリアル解説動画から進捗Tweetが可能に
+  title_en: '🎓 Tweet Your Progress from the Rails Tutorial Screencasts'
   date: 2019-12-05
   url: https://note.com/yasslab/n/n6c38d4702df5
 
 - title: ☯️ 2019年の coderdojo.jp 開発ハイライト
+  title_en: '☯️ 2019 coderdojo.jp Development Highlights'
   date: 2019-12-01
   url: https://note.com/yasslab/n/n572a17f68842
 
 - title: 🎓 Railsチュートリアル解説動画に途中再生・進捗管理
+  title_en: '🎓 Resume Playback and Progress Tracking Now Available for Rails Tutorial Explainer Videos'
   date: 2019-11-22
   url: https://note.com/yasslab/n/n65771c2e6944
 
 - title: 📕 Railsガイド『Proプラン』お試しがクレカ不要に
+  title_en: '📕 Rails Guides "Pro Plan" Trial No Longer Needs a Credit Card'
   date: 2019-11-14
   url: https://note.com/yasslab/n/nb6305f4502e5
 
 - title: 💎 DIVE INTO CODE の DEMODAY 7th にゲスト参加
+  title_en: '💎 Guest at DIVE INTO CODE''s DEMODAY 7th'
   date: 2019-10-30
   url: https://note.com/yasslab/n/n20f0937e2d3d
 
 - title: 🎓 Railsチュートリアル解説動画の視聴画面が大幅改善
+  title_en: '🎓 Major improvements to the Rails Tutorial video viewing screen'
   date: 2019-10-29
   url: https://note.com/yasslab/n/n37b3c8eb1211
 
 - title: 🎓 Railsチュートリアルの学習プランにテクトレを追加
+  title_en: '🎓 "TechTra" Added to the Rails Tutorial Learning Plans'
   date: 2019-10-25
   url: https://note.com/yasslab/n/n17e9987dd421
 
 - title: 📒 YassLab、note 始めました
+  title_en: '📒 YassLab Has Started a note Blog'
   date: 2019-10-10
   url: https://note.com/yasslab/n/nac74fa5c4550
 
 - title: 🚀 NASA 主催の世界同時ハッカソンに協賛しました
+  title_en: '🚀 Sponsored NASA''s Global Hackathon 🤝'
   date: 2019-10-04
   url: https://note.com/yasslab/n/n77abe4346f7f
 
 - title: 💎 RubyWorld Conference 2019 に採択されました
+  title_en: '💎 Accepted to Speak at RubyWorld Conference 2019'
   date: 2019-09-25
   url: /ja/news/rubyworld-conference-2019-talk
 
 - title: ☯️ DojoPaaS 内部システムを移行しました
+  title_en: '☯️ Migrated the DojoPaaS Internal System'
   date: 2019-09-23
   url: /ja/news/dojopaas-porting-for-maintenability
 
 - title: ☯️ DojoCon Japan 2019 に協賛しました
+  title_en: '☯️ Sponsored DojoCon Japan 2019'
   date: 2019-09-21
   url: /ja/news/dojocon-japan-2019-sponsorship
 
 - title: 🎓 Railsチュートリアル (6.0対応) がセミナー参加特典に
+  title_en: '🎓 Rails Tutorial (6.0) Now a Seminar Attendance Perk'
   date: 2019-09-20
   url: /ja/news/early-access-for-rails60
 
 - title: 🎓 Railsチュートリアル法人プランの一覧画面を改善
+  title_en: '🎓 Improved the Rails Tutorial Corporate Plan Dashboard'
   date: 2019-09-19
   url: /ja/news/enhance-screencasts-design
 
 - title: 🚧️ Railsチュートリアル改善に伴うメンテナンスのお知らせ
+  title_en: '🚧️ Maintenance Notice for Rails Tutorial Improvements'
   date: 2019-09-18
   url: /ja/news/tutorial-maintenance
 
 - title: 🤝 神戸ニルキューブがRailsチュートリアルのパートナーに
+  title_en: '🤝 Kobe Nilquebe Becomes a Rails Tutorial Partner'
   date: 2019-09-13
   url: /ja/news/partnership-with-nilquebe
 
 - title: 📕 Railsガイド電子書籍版 (6.0対応) を販売開始
+  title_en: '📕 Rails Guides eBook (6.0) Now on Sale'
   date: 2019-09-12
   url: /ja/news/publish-railsguidesjp-60-ebook
 
 - title: 🎓 Railsチュートリアル集中解説セミナー受付開始
+  title_en: '🎓 Registration Opens for the Rails Tutorial Intensive Seminar'
   date: 2019-09-11
   url: /ja/news/railstutorial-seminar-2019-autumn
 
 - title: ☯️ 沖縄のプログラミングイベントに参加します
+  title_en: '☯️ Joining a Programming Event in Okinawa'
   date: 2019-09-10
   url: /ja/news/decadojo-in-okinawa
 
 - title: 📕 Railsガイドのロゴが日本語表記になりました
+  title_en: '📕 The Rails Guides Logo Is Now in Japanese'
   date: 2019-09-09
   url: /ja/news/japanese-railsguides-logo
 
 - title: 💎 DEMODAY 7th 2019 -autumn- に審査員で参加します
+  title_en: '💎 Serving as a Judge at DEMODAY 7th 2019 -autumn-'
   date: 2019-09-05
   url: /ja/news/judge-in-dive-into-code-demoday
 
 - title: 🤝 テクトレ社とRailsチュートリアルのライセンス契約締結
+  title_en: '🤝 Signed a Rails Tutorial License Agreement with TechTraining'
   date: 2019-09-04
   url: /ja/news/partnership-with-techtraining
 
 - title: 🏝️ Rails Girls Okinawa 2nd に協賛
+  title_en: '🏝️ Sponsored Rails Girls Okinawa 2nd'
   date: 2019-08-29
   url: /ja/news/we-suport-rails-girls-okinawa-2nd
 
 - title: 📕 RailsガイドのProプランで無料トライアルが可能に
+  title_en: '📕 Free Trial Now Available on the Rails Guides Pro Plan'
   date: 2019-08-21
   url: /ja/news/add-trial-plan-for-pro-users
 
 - title: 🎓 Railsチュートリアルのページ遷移を改善しました
+  title_en: '🎓 Improved Page Navigation in the Rails Tutorial'
   date: 2019-08-20
   url: /ja/news/new-functional-design-for-railstutorialjp
 
 - title: 📕 RailsガイドがRails 6の各種ガイドに対応しました
+  title_en: '📕 Rails Guides now supports Rails 6'
   date: 2019-08-19
   url: https://note.com/yasslab/n/n0bbbd3a28c77
 
 - title: ⛰ 未踏ジュニア『困ったときのガイドライン』を公開
+  title_en: '⛰ MITOU Junior Publishes "Guidelines When in Trouble"'
   date: 2019-08-18
   url: /ja/news/we-support-you-in-any-situation
 
 - title: ☯️ 大阪Ruby会議02で coderdojo.jp 開発事例を発表します
+  title_en: '☯️ Presenting the coderdojo.jp Development Case at Osaka RubyKaigi 02'
   date: 2019-08-17
   url: /ja/news/cfp-accepted-at-osaka-rubykaigi02
 
 - title: 📕 Railsガイドで検索結果一覧が見れるようになりました
+  title_en: '📕 You can now view a list of search results in Rails Guides'
   date: 2019-08-09
   url: https://note.com/yasslab/n/n76e112c5906f
 
 - title: 🎓 琉球大学でRailsチュートリアルが継続採用 (３年目)
+  title_en: '🎓 University of the Ryukyus Adopts Rails Tutorial for a 3rd Year'
   date: 2019-08-08
   url: /ja/news/univ-of-ryukyus-with-railstutorial
 
 - title: 🤝 HAJエンパワーメントとRailsチュートリアルで業務提携
+  title_en: '🤝 Business Partnership with HAJ Empowerment on Rails Tutorial'
   date: 2019-08-06
   url: /ja/news/partnership-with-haj-empowerment
 
 - title: 🏢 YassLab 社の第２期活動まとめ
+  title_en: '🏢 Summary of YassLab''s 2nd Fiscal Year'
   date: 2019-08-01
   url: /ja/news/2nd-fiscal-year-of-yasslab
 
 - title: 💳 解説動画のカード決済がシンプルになりました
+  title_en: '💳 Card Payment for Rails Tutorial Screencasts Is Now Simpler'
   date: 2019-07-30
   url: https://note.com/yasslab/n/n25281f7543bd
 
 - title: 📭 各種サービスにフィードバック機能を追加しました
+  title_en: '📭 Added a Feedback Feature to Our Services'
   date: 2019-07-24
   url: /ja/news/feature-request-form
 
 - title: 🏆 Railsチュートリアル法人プランがAWS賞を受賞
+  title_en: '🏆 Rails Tutorial Corporate Service Wins an AWS Award'
   date: 2019-07-18
   url: https://note.com/yasslab/n/n6789eb1d7bf5
 
 - title: 📕 Railsガイドの各タイトルが Twitter Card に対応
+  title_en: '📕 Rails Guides Titles Now Support Twitter Cards'
   date: 2019-07-12
   url: /ja/news/railsduides-twitter-card
 
 - title: 🎓 Railsチュートリアル解説動画の見所をまとめました
+  title_en: '🎓 Highlights of the Rails Tutorial Screencasts'
   date: 2019-07-10
   url: /ja/news/highlight-of-railstutorial-screencast
 
-- title: 🎖弊社メンバーが株式会社アジャイルウェアから表彰
+- title: '🎖 弊社メンバーが株式会社アジャイルウェアから表彰'
+  title_en: '🎖 Our Member Honored by Agileware Inc.'
   date: 2019-07-03
   url: /ja/news/hanachin-given-award-from-agileware
 
 - title: 🎓 Railsチュートリアルは、自分に合う学習スタイルで
+  title_en: '🎓 Learn Rails Tutorial in the Style That Suits You'
   date: 2019-06-30
   url: /ja/news/learning-style-of-tutolial
 
 - title: 🏝 Stripe の Rails 開発事例を沖縄で発表しました
+  title_en: '🏝 Presented a Stripe Rails Development Case in Okinawa'
   date: 2019-06-29
   url: /ja/news/payment-implmentation-with-stripe
 
 - title: 🏫 Rails5ベーシック試験教材にRailsチュートリアルが採用
+  title_en: '🏫 Rails Tutorial Adopted as Rails 5 Basic Exam Material'
   date: 2019-06-25
   url: /ja/news/rails5-basic-with-tutorial
 
 - title: 📕 Railsガイド『Teamプラン』をリリース
+  title_en: '📕 Released the Rails Guides "Team Plan"'
   date: 2019-06-24
   url: /ja/news/release-team-plan
 
 - title: 🏝 沖縄発Rubyフルリモートワーク会社を支える仕組み
+  title_en: '🏝 How We Run a Fully Remote Ruby Company from Okinawa'
   date: 2019-06-08
   url: /ja/news/remote-work-from-okinawa
 
 - title: 🎓 法人向けサービス活用例：マネーフォワード様
+  title_en: '🎓 Corporate Service Case Study: Money Forward'
   date: 2019-06-07
   url: /ja/news/learning-by-making
 
 - title: 🎓 Railsチュートリアル開発経緯の取材記事が公開
+  title_en: '🎓 Interview on the Making of the Rails Tutorial Published'
   date: 2019-05-26
   url: /ja/news/inside-railstutorial
 
 - title: 🔐 Railsエンジニアのためのウェブセキュリティ入門に参加
+  title_en: '🔐 Joined "Intro to Web Security for Rails Engineers"'
   date: 2019-04-25
   url: /ja/news/secure-programming-with-rails
 
 - title: 💎 RubyKaigi 2019 楽しかったよ!!
+  title_en: '💎 RubyKaigi 2019 Was a Blast!!'
   date: 2019-04-21
   url: /ja/news/rubykaigi-2019-report
 
 - title: 🗣 esm アジャイル事業部で新年度のご挨拶と LT 発表
+  title_en: '🗣 New-Year Greetings and a Lightning Talk at ESM Agile Division'
   date: 2019-04-11
   url: /ja/news/lightning-talk-at-esm-agile
 
 - title: 🎓 Railsチュートリアル開発背景を銀座Railsで発表しました
+  title_en: '🎓 Presented the Rails Tutorial''s Backstory at Ginza Rails'
   date: 2019-03-29
   url: /ja/news/railstutorial-at-ginza-rails
 
 - title: 🎓 法人向けサービス活用事例：メンバーズキャリア様
+  title_en: '🎓 Corporate Service Case Study: Members Career'
   date: 2019-03-28
   url: /ja/news/railstutorial-at-members-career
 
 - title: 🗣 Rails DM 2019 で『コードレビューしない』を発表
+  title_en: '🗣 Presented "We Don''t Do Code Reviews" at Rails DM 2019'
   date: 2019-03-23
   url: /ja/news/no-code-reviews-at-railsdm-2019
 
 - title: 🗣 JP_Stripes Connect 2019 で決済事例を発表しました
+  title_en: '🗣 Presented a Payments Case at JP_Stripes Connect 2019'
   date: 2019-03-21
   url: /ja/news/jp-stripes-connect-2019
 
 - title: 📕 Railsガイド『Proプラン』をリリースしました!
+  title_en: '📕 Released the Rails Guides "Pro Plan"'
   date: 2019-03-20
   url: https://note.com/yasslab/n/n3bdca952d741
 
 - title: 💎 Rails DM 2019 に懇親会スポンサーとして協賛
+  title_en: '💎 After-Party Sponsor of Rails DM 2019'
   date: 2019-03-19
   url: /ja/news/railsdm-201903-sponsorship
 
 - title: 💎 RubyKaigi 2019 に Silver スポンサーとして協賛
+  title_en: '💎 Sponsored RubyKaigi 2019 as a Silver Sponsor'
   date: 2019-03-18
   url: /ja/news/rubykaigi-2019-sponsorship
 
 - title: 🗣 megane Fes 2019 でリモートワークについて発表
+  title_en: '🗣 Talked About Remote Work at megane Fes 2019'
   date: 2019-03-16
   url: /ja/news/remote-first-at-megane-fes-2019
 
 - title: 🗣 情報処理学会 全国大会でリモートワーク事例を発表
+  title_en: '🗣 Presented a Remote Work Case at the IPSJ National Convention'
   date: 2019-03-15
   url: /ja/news/work-life-balance-at-81st-ipsj
 
 - title: 🏆 フクオカRuby大賞で本審査に進出
+  title_en: '🏆 Advanced to the Finals of the Fukuoka Ruby Award'
   date: 2019-03-14
   url: /ja/news/aws-award-at-fukuoka-ruby-2019
 
 - title: 🏝 Hackers Champloo 2019 ゴールドスポンサー協賛
+  title_en: '🏝 Gold Sponsor of Hackers Champloo 2019'
   date: 2019-03-10
   url: /ja/news/hackers-champloo-2019-gold-sponsor
 
 - title: 📕 Ruby on Railsガイドを 5.1→5.2 に更新しました
+  title_en: '📕 Updated Ruby on Rails Guides from 5.1 to 5.2'
   date: 2019-03-04
   url: /ja/news/update-railsguidesjp-to-52
 
 - title: 🤝 タケユー・ウェブ株式会社が『Railsガイド』を支援
+  title_en: '🤝 Takeyu Web Inc. Supports the Rails Guides'
   date: 2019-02-22
   url: /ja/news/partnership-with-takeyuweb
 
 - title: 🤝 沖縄CODE BASEがRailsチュートリアルのパートナーに
+  title_en: '🤝 Okinawa CODE BASE Becomes a Rails Tutorial Partner'
   date: 2019-02-08
   url: /ja/news/partnership-with-codebase
 
 - title: 🤝 Scout APMがRailsガイドのサポーターになりました
+  title_en: '🤝 Scout APM Becomes a Rails Guides Supporter'
   date: 2019-01-30
   url: /ja/news/scout-supports-railsguidesjp
 
 - title: 🎧 環境音などのノイズを軽減できる Krisp を試してみた
+  title_en: '🎧 Tried Krisp, a Noise-Cancelling Tool for Ambient Sound'
   date: 2019-01-23
   url: /ja/news/krisp-trial
 
 - title: 🛠 DojoCast を Jekyll から Rails に移行しました
+  title_en: '🛠 Migrated DojoCast from Jekyll to Rails'
   date: 2018-12-25
   url: /ja/news/migrate-dojocast-from-jekyll-to-rails
 
 - title: ☯️ 開発目線で見る最近の CoderDojo Japan 2018
+  title_en: '☯️ A Developer''s Look at CoderDojo Japan in 2018'
   date: 2018-12-01
   url: /ja/news/coderdojo-japan-2018

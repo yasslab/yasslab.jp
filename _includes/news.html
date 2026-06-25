@@ -40,7 +40,7 @@
     {% endif %}
     <span class="news-body">
       <span class="news-title">
-        {{ news.title }}
+        {% if page.lang == 'en' and news.title_en %}{{ news.title_en }}{% else %}{{ news.title }}{% endif %}
       </span>
     </span>
   </a>
