@@ -66,33 +66,41 @@ rescue => e
 end
 
 # How many articles you want to output? (Default: 3)
-number_of_fetching_articles = (ARGV[0] || '3').to_i
-
-YASSLAB_NOTE_RSS = 'https://note.com/yasslab/rss'
-rss = RSS::Parser.parse(YASSLAB_NOTE_RSS, false)
-agent = Mechanize.new
-agent.user_agent_alias = 'Mac Safari'
-
-# Parse RSS and get yaml text
-urls = load_news_yaml.map{|h| h['url']}
-news = ''
-rss.items.each.with_index(1) do |item, index|
-  break if index > number_of_fetching_articles
-  next  if urls.include? item.link
-
-  download_note_image(agent, item.link, note_image_url(agent, item.link))
-
-  news << <<~NEW_ARTICLE
-    - title: #{yaml_single_quote(item.title)}
-      date:  #{item.pubDate.strftime("%Y-%m-%d")}
-      url:   #{item.link}
-
-  NEW_ARTICLE
+# Note: Rake passes an empty string ('') when no count is given, and '' is
+# truthy in Ruby, so `ARGV[0] || '3'` would keep '' and `''.to_i` is 0.
+def fetch_count(arg, default = 3)
+  arg.to_s.empty? ? default : arg.to_i
 end
 
-if news.empty?
-  puts "✅ No articles recently published."
-else
-  puts "🆕 Found new article(s)."
-  IO.write(NEWS_YAML, news + IO.read(NEWS_YAML))
+if __FILE__ == $PROGRAM_NAME
+  number_of_fetching_articles = fetch_count(ARGV[0])
+
+  YASSLAB_NOTE_RSS = 'https://note.com/yasslab/rss'
+  rss = RSS::Parser.parse(YASSLAB_NOTE_RSS, false)
+  agent = Mechanize.new
+  agent.user_agent_alias = 'Mac Safari'
+
+  # Parse RSS and get yaml text
+  urls = load_news_yaml.map{|h| h['url']}
+  news = ''
+  rss.items.each.with_index(1) do |item, index|
+    break if index > number_of_fetching_articles
+    next  if urls.include? item.link
+
+    download_note_image(agent, item.link, note_image_url(agent, item.link))
+
+    news << <<~NEW_ARTICLE
+      - title: #{yaml_single_quote(item.title)}
+        date:  #{item.pubDate.strftime("%Y-%m-%d")}
+        url:   #{item.link}
+
+    NEW_ARTICLE
+  end
+
+  if news.empty?
+    puts "✅ No articles recently published."
+  else
+    puts "🆕 Found new article(s)."
+    IO.write(NEWS_YAML, news + IO.read(NEWS_YAML))
+  end
 end
