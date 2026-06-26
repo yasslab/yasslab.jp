@@ -1,3 +1,5 @@
+@use "hover";
+
 @use "sass:color";
 
 // Tables
@@ -28,7 +30,7 @@
     $hover-background: color.adjust($background, $lightness: -5%, $space: hsl);
 
     .table-#{$state} {
-      @include hover() {
+      @include hover.hover() {
         background-color: $hover-background;
 
         > td,

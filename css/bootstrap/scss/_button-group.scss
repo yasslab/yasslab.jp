@@ -1,3 +1,9 @@
+@use "mixins/border-radius";
+@use "mixins/box-shadow";
+@use "mixins/buttons";
+@use "mixins/hover";
+@use "variables";
+
 // stylelint-disable selector-no-qualifying-type
 
 // Make the div behave like a button
@@ -13,7 +19,7 @@
 
     // Bring the hover, focused, and "active" buttons to the front to overlay
     // the borders properly
-    @include hover() {
+    @include hover.hover() {
       z-index: 1;
     }
     &:focus,
@@ -39,18 +45,18 @@
   // Prevent double borders when buttons are next to each other
   > .btn:not(:first-child),
   > .btn-group:not(:first-child) {
-    margin-left: -$btn-border-width;
+    margin-left: -(variables.$btn-border-width);
   }
 
   // Reset rounded corners
   > .btn:not(:last-child):not(.dropdown-toggle),
   > .btn-group:not(:last-child) > .btn {
-    @include border-right-radius(0);
+    @include border-radius.border-right-radius(0);
   }
 
   > .btn:not(:first-child),
   > .btn-group:not(:first-child) > .btn {
-    @include border-left-radius(0);
+    @include border-radius.border-left-radius(0);
   }
 }
 
@@ -58,8 +64,11 @@
 //
 // Remix the default button sizing classes into new ones for easier manipulation.
 
-.btn-group-sm > .btn { @extend .btn-sm; }
-.btn-group-lg > .btn { @extend .btn-lg; }
+// NOTE: `@extend .btn-sm/.btn-lg` is avoided here because `@use` scopes @extend
+// per module, so it cannot reach the `.btn-sm/.btn-lg` rules in the buttons module.
+// Re-apply the same button-size mixin instead (identical rendering).
+.btn-group-sm > .btn { @include buttons.button-size(variables.$btn-padding-y-sm, variables.$btn-padding-x-sm, variables.$btn-font-size-sm, variables.$btn-line-height-sm, variables.$btn-border-radius-sm); }
+.btn-group-lg > .btn { @include buttons.button-size(variables.$btn-padding-y-lg, variables.$btn-padding-x-lg, variables.$btn-font-size-lg, variables.$btn-line-height-lg, variables.$btn-border-radius-lg); }
 
 
 //
@@ -67,8 +76,8 @@
 //
 
 .dropdown-toggle-split {
-  padding-right: $btn-padding-x * .75;
-  padding-left: $btn-padding-x * .75;
+  padding-right: variables.$btn-padding-x * .75;
+  padding-left: variables.$btn-padding-x * .75;
 
   &::after,
   .dropup &::after,
@@ -81,25 +90,30 @@
   }
 }
 
-.btn-sm + .dropdown-toggle-split {
-  padding-right: $btn-padding-x-sm * .75;
-  padding-left: $btn-padding-x-sm * .75;
+// `.btn-group-sm/lg > .btn` selectors are listed explicitly because @use scopes
+// @extend per module (see the button-size note above): without `@extend .btn-sm/.btn-lg`
+// these split-button selectors would otherwise miss the sized padding.
+.btn-sm + .dropdown-toggle-split,
+.btn-group-sm > .btn + .dropdown-toggle-split {
+  padding-right: variables.$btn-padding-x-sm * .75;
+  padding-left: variables.$btn-padding-x-sm * .75;
 }
 
-.btn-lg + .dropdown-toggle-split {
-  padding-right: $btn-padding-x-lg * .75;
-  padding-left: $btn-padding-x-lg * .75;
+.btn-lg + .dropdown-toggle-split,
+.btn-group-lg > .btn + .dropdown-toggle-split {
+  padding-right: variables.$btn-padding-x-lg * .75;
+  padding-left: variables.$btn-padding-x-lg * .75;
 }
 
 
 // The clickable button for toggling the menu
 // Set the same inset shadow as the :active state
 .btn-group.show .dropdown-toggle {
-  @include box-shadow($btn-active-box-shadow);
+  @include box-shadow.box-shadow(variables.$btn-active-box-shadow);
 
   // Show no shadow for `.btn-link` since it has no other button styles.
   &.btn-link {
-    @include box-shadow(none);
+    @include box-shadow.box-shadow(none);
   }
 }
 
@@ -120,18 +134,18 @@
 
   > .btn:not(:first-child),
   > .btn-group:not(:first-child) {
-    margin-top: -$btn-border-width;
+    margin-top: -(variables.$btn-border-width);
   }
 
   // Reset rounded corners
   > .btn:not(:last-child):not(.dropdown-toggle),
   > .btn-group:not(:last-child) > .btn {
-    @include border-bottom-radius(0);
+    @include border-radius.border-bottom-radius(0);
   }
 
   > .btn:not(:first-child),
   > .btn-group:not(:first-child) > .btn {
-    @include border-top-radius(0);
+    @include border-radius.border-top-radius(0);
   }
 }
 

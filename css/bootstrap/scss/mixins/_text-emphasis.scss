@@ -1,3 +1,7 @@
+@use "variables";
+@use "deprecate";
+@use "hover";
+
 @use "sass:color";
 
 // stylelint-disable declaration-no-important
@@ -8,12 +12,12 @@
   #{$parent} {
     color: $color !important;
   }
-  @if $emphasized-link-hover-darken-percentage != 0 {
+  @if variables.$emphasized-link-hover-darken-percentage != 0 {
     a#{$parent} {
-      @include hover-focus() {
-        color: color.adjust($color, $lightness: -$emphasized-link-hover-darken-percentage, $space: hsl) !important;
+      @include hover.hover-focus() {
+        color: color.adjust($color, $lightness: -(variables.$emphasized-link-hover-darken-percentage), $space: hsl) !important;
       }
     }
   }
-  @include deprecate("`text-emphasis-variant()`", "v4.4.0", "v5", $ignore-warning);
+  @include deprecate.deprecate("`text-emphasis-variant()`", "v4.4.0", "v5", $ignore-warning);
 }
