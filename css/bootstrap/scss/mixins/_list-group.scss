@@ -1,3 +1,6 @@
+@use "variables";
+@use "hover";
+
 @use "sass:color";
 
 // List Groups
@@ -8,13 +11,13 @@
     background-color: $background;
 
     &.list-group-item-action {
-      @include hover-focus() {
+      @include hover.hover-focus() {
         color: $color;
         background-color: color.adjust($background, $lightness: -5%, $space: hsl);
       }
 
       &.active {
-        color: $white;
+        color: variables.$white;
         background-color: $color;
         border-color: $color;
       }
