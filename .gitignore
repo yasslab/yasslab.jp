@@ -119,3 +119,6 @@ vendor/
 
 ## css
 /dist/css/
+
+# CSS visual-regression snapshot (generated on demand by `rake css:snapshot`)
+test/css_snapshot.txt
