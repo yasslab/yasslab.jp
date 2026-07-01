@@ -333,7 +333,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.6)
-    rss (0.3.2)
+    rss (0.3.3)
       rexml
     ruby-openai (8.3.0)
       event_stream_parser (>= 0.3.0, < 2.0.0)
