@@ -5,7 +5,7 @@ _data/doorkeeper_communities.yml の name/path をフラットに並べ、1 行 
 <div class="community-icons">
   {% for community in site.data.doorkeeper_communities %}
   <div class="community-icon">
-    <a href="https://{{ community.path }}.doorkeeper.jp/" rel="nofollow">
+    <a href="https://{{ community.path }}.doorkeeper.jp/" target="_blank">
       <img width="200px" src="/img/spinner.svg" data-src="/img/logos/{{ community.path }}.png"
            alt="{{ community.name }}" class="lazyload">
       <span class="community-name">{{ community.name }}</span>
