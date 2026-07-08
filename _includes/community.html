@@ -1,57 +1,15 @@
-<table class="community-icon">
-  <thead>
-    <tr class="table table-condensed">
-      {% if include.left_name == '' %}
-      <th></th>
-      {% else %}
-      <th><a href="https://{{ include.left_path   }}.doorkeeper.jp/">{{ include.left_name }}</a></th>
-      {% endif %}
-      
-      {% if include.center_name == ''%}
-      <th></th>
-      {% else %}
-      <th><a href="https://{{ include.center_path }}.doorkeeper.jp/">{{ include.center_name }}</a></th>
-      {% endif %}
-      
-      {% if include.right_name == '' %}
-      <th></th>
-      {% else %}
-      <th><a href="https://{{ include.right_path  }}.doorkeeper.jp/">{{ include.right_name }}</a></th>
-      {% endif %}
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-	{% if include.left_name == '' %}
-	<img width="200px" src="/img/spinner.svg" data-src="/img/logos/empty.png" alt="募集中" class="lazyload">
-	{% else %}
-	<a href="https://{{ include.left_path }}.doorkeeper.jp" rel="nofollow">
-	  <img width="200px" src="/img/spinner.svg" data-src="/img/logos/{{ include.left_path }}.png"
-	   alt="{{ include.left_name }}" class="lazyload">
-	</a>
-	{% endif %}
-      </td>
-      <td>
-	{% if include.center_name == '' %}
-	<img width="200px" src="/img/spinner.svg" data-src="/img/logos/empty.png" alt="募集中" class="lazyload">
-	{% else %}
-	<a href="https://{{ include.center_path }}.doorkeeper.jp/" rel="nofollow">
-	  <img width="200px" src="/img/spinner.svg" data-src="/img/logos/{{ include.center_path }}.png"
-	   alt="{{ include.center_name }}" class="lazyload">
-	</a>
-	{% endif %}
-      </td>
-      <td>
-	{% if include.right_name == '' %}
-	<img width="200px" src="/img/spinner.svg" data-src="/img/logos/empty.png" alt="募集中" class="lazyload">
-	{% else %}
-	<a href="https://{{ include.right_path }}.doorkeeper.jp/" rel="nofollow">
-	  <img width="200px" src="/img/spinner.svg" data-src="/img/logos/{{ include.right_path }}.png"
-	   alt="{{ include.right_name }}" class="lazyload">
-	</a>
-	{% endif %}
-      </td>
-    </tr>
-  </tbody>
-</table>
+{%- comment -%}
+_data/doorkeeper_communities.yml の name/path をフラットに並べ、1 行 3 列で折り返す。
+並び替え・追加・削除は YAML の行を動かすだけ。3 件未満の行は左寄せになる。
+{%- endcomment -%}
+<div class="community-icons">
+  {% for community in site.data.doorkeeper_communities %}
+  <div class="community-icon">
+    <a href="https://{{ community.path }}.doorkeeper.jp/" rel="nofollow">
+      <img width="200px" src="/img/spinner.svg" data-src="/img/logos/{{ community.path }}.png"
+           alt="{{ community.name }}" class="lazyload">
+      <span class="community-name">{{ community.name }}</span>
+    </a>
+  </div>
+  {% endfor %}
+</div>

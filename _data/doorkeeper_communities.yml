@@ -1,0 +1,140 @@
+# Doorkeeper スポンサーシップで提携しているコミュニティ一覧
+#
+# ここに name / path を並べるだけで /ja/doorkeeper ページに表示されます。
+# 表示順はこのリストの順番どおりです。並び替え・追加・削除は行を移動するだけで OK。
+#   - name: 表示名（ロゴ下のリンクテキスト）
+#     path: Doorkeeper のサブドメイン（例: okinawarb → https://okinawarb.doorkeeper.jp/）
+#           ロゴ画像は /img/logos/<path>.png を参照します。
+
+- name: CoderDojo Japan
+  path: coderdojo-japan
+- name: DojoCon Japan
+  path: dojocon-japan
+- name: Coolest Projects Japan
+  path: coolestprojectsjapan
+
+- name: Okinawa.rb
+  path: okinawarb
+- name: Okinawa Frontend
+  path: okinawa-frontend
+- name: IGDA琉球大学 (琉ゲ部)
+  path: igda-ryukyus
+
+- name: OSS Gate
+  path: oss-gate
+- name: Nilquebe
+  path: nilquebe-event
+#- name: Otona Programming
+#  path: otona-programming
+- name: CoEdo.rb
+  path: coedo-rails
+
+- name: CoderDojo さいたま
+  path: coderdojo
+- name: CoderDojo 飯能
+  path: coderdojohanno
+- name: CoderDojo 豊橋
+  path: coderdojo-toyohashi
+
+- name: CoderDojo 中野
+  path: coderdojonakano
+- name: CoderDojo 南風原
+  path: coderdojo-haebaru
+- name: CoderDojo 調布
+  path: coderdojo-chofu
+
+- name: CoderDojo 安城
+  path: coderdojo-anjo
+- name: CoderDojo Aizu
+  path: coderdojo-aizu
+- name: CoderDojo 安曇野
+  path: coderdojo-azumino
+
+- name: CoderDojo 増田
+  path: coderdojo-masuda
+- name: CoderDojo 稲城
+  path: coderdojo-inagi
+- name: CoderDojo 多摩センター
+  path: coderdojo-tamacenter
+
+- name: CoderDojo 白河
+  path: coderdojo-shirakawa
+- name: CoderDojo 長岡京
+  path: coderdojo-nagaokakyo
+- name: CoderDojo 五反田
+  path: coderdojo-gotanda
+
+- name: CoderDojo 犬山
+  path: coderdojo-inuyama
+- name: CoderDojo 岡南
+  path: coderdojo-konan
+- name: CoderDojo あしや
+  path: coderdojo-ashiya
+
+- name: CoderDojo 新座志木
+  path: coderdojo-niizashiki
+- name: CoderDojo 那覇
+  path: coderdojo-naha
+- name: CoderDojo 一宮
+  path: coderdojo-ichinomiya
+
+- name: CoderDojo 上田
+  path: coderdojoueda
+- name: CoderDojo 京都四条
+  path: coderdojo-kyoto-shijo
+- name: CoderDojo 吉祥寺
+  path: coderdojo-kichijoji
+
+- name: CoderDojo 宇都宮
+  path: coderdojo-utsunomiya
+- name: CoderDojo 灘
+  path: coderdojo-nada
+- name: CoderDojo 松山
+  path: coderdojo-matsuyama
+
+- name: CoderDojo 西尾
+  path: coderdojo-nishio
+- name: CoderDojo 板橋
+  path: coderdojo-itabashi
+- name: CoderDojo 喜多方
+  path: coderdojo-kitakata
+
+- name: CoderDojo 練馬
+  path: coderdojo-nerima
+- name: CoderDojo 品川御殿山
+  path: cgotenyama
+- name: CoderDojo 幸田
+  path: coderdojo-coda
+
+- name: CoderDojo 阿倍野
+  path: coderdojo-abeno
+- name: CoderDojo 日立
+  path: coderdojo-hitachi
+- name: CoderDojo 八戸
+  path: coderdojo-hachinohe
+
+- name: CoderDojo 東住吉
+  path: cd-hisumi
+- name: CoderDojo 藤井寺
+  path: coderdojo-fujiidera
+- name: CoderDojo 柏原
+  path: coderdojo-kashiwara
+
+- name: CoderDojo 足立
+  path: coderdojoadachi
+- name: CoderDojo 滝沢
+  path: coderdojo-takizawa
+- name: CoderDojo 新所沢
+  path: coderdojo-shintokorozawa
+
+- name: CoderDojo 二本松
+  path: dojonihonmatsu
+- name: CoderDojo 松本
+  path: coderdojo-matsumoto
+- name: CoderDojo 立川
+  path: coderdojotachikawa
+
+- name: CoderDojo 南会津
+  path: coderdojo-minamiaizu
+- name: CoderDojo 西条
+  path: coderdojo-saijo
