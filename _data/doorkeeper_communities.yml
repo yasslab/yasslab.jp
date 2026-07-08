@@ -4,7 +4,7 @@
 # 表示順はこのリストの順番どおりです。並び替え・追加・削除は行を移動するだけで OK。
 #   - name: 表示名（ロゴ下のリンクテキスト）
 #     path: Doorkeeper のサブドメイン（例: okinawarb → https://okinawarb.doorkeeper.jp/）
-#           ロゴ画像は /img/logos/<path>.png を参照します。
+#           ロゴ画像は /img/logos/<path>.png を参照します。(<path>と同名のロゴ画像のみ有効）
 
 - name: CoderDojo Japan
   path: coderdojo-japan
