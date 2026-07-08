@@ -6,26 +6,25 @@
 	{% if page.lang == 'en' %}Partners & Customers{% else %}利用実績・提携法人{% endif %}
       </a>
     </h3>
-    <div style='color: grey;'>
+    <div class="cp-note">
       <small>
 	{% if page.lang == 'en' %}
 	( <i class="fas fa-mouse-pointer" aria-hidden="true"></i>
 	Click for details)
 	{% else %}
 	（ <i class="fas fa-mouse-pointer" aria-hidden="true"></i>
-	クリックで詳細が見れます）
+	クリックで取り組みの詳細が見れます）
 	{% endif %}
       </small>
     </div>
-    <div class="col-12 text-center" style="margin-top: 10px;">
+    <div class="col-12 text-center cp-logos">
       <ul class="flex-container">
         {% for cp in site.data.clients_and_partners %}
         <li class="item">
           <a href="{{ cp.link_to }}" target='_blank'>
             <img  src="/img/spinner.svg" class="lazyload"
 	     data-src="{{ cp.image }}" alt="{{ cp.name }}"
-	     width="{{ cp.width | default: '100%' }}"
-	     style="padding: 10px; box-sizing: border-box;">
+	     width="{{ cp.width | default: '100%' }}">
           </a>
         </li>
         {% endfor %}

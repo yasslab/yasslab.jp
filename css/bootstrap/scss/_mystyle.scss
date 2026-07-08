@@ -1149,6 +1149,11 @@ table.caption{
 .hide{
   display: none;
 }
+// 利用実績・提携法人セクション（旧インライン style から移設）
+#clients_and_partners {
+  .cp-note   { color: grey; }
+  .cp-logos  { margin-top: 10px; }
+}
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -1166,8 +1171,9 @@ table.caption{
     }
     img {
       margin-bottom: 0;
-      max-width:100%;
+      max-width: 100%;
       height: auto;
+      padding: 10px;   // 旧インライン style から移設（box-sizing はグローバル既定）
       vertical-align: bottom;
     }
   }
