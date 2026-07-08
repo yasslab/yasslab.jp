@@ -89,6 +89,23 @@ namespace :assets do
   end
 end
 
+# CSS visual-regression check (see tasks/css_visual_check.rb).
+# Compares the *rendering* of the compiled CSS (selector→declaration tuples),
+# ignoring byte-level differences like selector order that don't affect display.
+namespace :css do
+  desc 'Save the current compiled CSS as the visual-regression snapshot'
+  task :snapshot do
+    sh 'JEKYLL_ENV=production bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true'
+    ruby 'tasks/css_visual_check.rb snapshot'
+  end
+
+  desc 'Compare the current compiled CSS against the snapshot (fails on visual change)'
+  task :diff do
+    sh 'JEKYLL_ENV=production bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true'
+    ruby 'tasks/css_visual_check.rb diff'
+  end
+end
+
 # cf. How to test a Jekyll site
 # http://joenyland.me/blog/how_to_test_a_jekyll_site/
 require 'html-proofer'

@@ -60,7 +60,7 @@ i {
   }
 }
 .search-block-result {
-  margin-bottom: -20px; 
+  margin-bottom: -20px;
   ul {
     list-style: none;
     padding: 0;
@@ -639,7 +639,7 @@ html {
   top:   0;
   right: 0;
   left:  0;
-  
+
   h1{
     padding:0;
     margin:0 auto;
@@ -895,19 +895,36 @@ pre{border : 1px solid #cc0000;
   }
 }
 
-.community-icon{
-  /*border-top: 1px solid #ccc;
-  border-right: 1px solid #ccc;*/
+// DoorKeeper スポンサーシップ: 提携コミュニティ一覧
+// _data/doorkeeper_communities.yml をフラットに並べ、1 行 3 列で折り返す。
+// 3 件未満の行は justify-content: flex-start により左寄せになる。
+.community-icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin-bottom: 20px;
-  th,
-  td{
-    font-size: variables.$font-size-sm;
-    padding: 10px;
-    /*border-left:1px solid #ccc;
-    border-bottom:1px solid #ccc;*/
-    img{
-      max-width:80%;
-    }
+}
+.community-icon{
+  width: 33.33%;
+  // ロゴと名前は近づけ（近接でひとまとまりに見せる）、行間は広く取って
+  // 隣の行のロゴと名前が混ざって読めないようにする。
+  padding: 0 10px;
+  margin-bottom: 44px;
+  text-align: center;
+  font-size: variables.$font-size-sm;
+  // ロゴ表示領域の高さを固定し、object-fit: contain で縦横比を保って中央配置。
+  // ロゴの高さがバラついても名前のベースラインが行内で揃う。
+  img{
+    width: 80%;
+    height: 150px;
+    object-fit: contain;
+  }
+  .community-name{
+    display: block;
+    margin-top: 6px;
+  }
+  @include breakpoints.media-breakpoint-down(sm) {
+    width: 50%;
   }
 }
 
@@ -970,10 +987,6 @@ center {
   }
 }
 
-//DoorKeeperスポンサーシップ
-table.community-icon{
-  width:100%;
-}
 //開発支援ページの現在のスケジュール（WaitingList）
 table.month-sche{
   width:100%;
