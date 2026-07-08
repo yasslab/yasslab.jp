@@ -912,8 +912,12 @@ pre{border : 1px solid #cc0000;
   margin-bottom: 44px;
   text-align: center;
   font-size: variables.$font-size-sm;
+  // ロゴ表示領域の高さを固定し、object-fit: contain で縦横比を保って中央配置。
+  // ロゴの高さがバラついても名前のベースラインが行内で揃う。
   img{
-    max-width: 80%;
+    width: 80%;
+    height: 150px;
+    object-fit: contain;
   }
   .community-name{
     display: block;
