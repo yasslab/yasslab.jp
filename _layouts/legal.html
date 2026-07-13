@@ -21,12 +21,12 @@
        .entry_content p { margin-bottom: 15px; }
       </style>
       <div style="padding-bottom: 30px;">
-	📑
-	<a href="/ja">TOP</a> →
-	<a href="/ja/docs">公開資料</a> →
-	{{ page.title }}
+	{% include docs_breadcrumb.html %}
       </div>
       {{ content }}
+      <div style="padding-top: 30px;">
+	{% include docs_breadcrumb.html %}
+      </div>
     </div>
   </section>
 </div>

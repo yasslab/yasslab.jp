@@ -1,0 +1,9 @@
+{%- comment -%}
+公開資料（/ja/docs）ページのパンくずナビ。
+legal レイアウトの本文の上下で共有するため、定義はここ1箇所に集約する（DRY）。
+余白は呼び出し側の <div> で調整する。
+{%- endcomment -%}
+📑
+<a href="/ja">TOP</a> →
+<a href="/ja/docs">公開資料</a> →
+{{ page.title }}
