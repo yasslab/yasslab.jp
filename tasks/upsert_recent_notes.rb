@@ -56,6 +56,29 @@ rescue => e
   nil
 end
 
+# note.com は公開後に記事タイトルを編集することがある。`url` で特定した
+# エントリの title / title_en 行だけを書き換え、周囲の手書き YAML 整形
+# （インデント・キーのスペース幅・空行・他と揃えたクォート）を保つ。
+# title_en が nil のときは既存の title_en を変更しない。
+def update_entry_titles(yaml_text, url:, title:, title_en:)
+  lines = yaml_text.lines
+  idx = lines.index { |line| line.match?(/\A\s*url:\s+#{Regexp.escape(url)}\s*\z/) }
+  return yaml_text unless idx
+
+  # ブロックは直前の空行の次から始まる。title / title_en は url より前にある。
+  start = idx
+  start -= 1 while start.positive? && !lines[start - 1].strip.empty?
+
+  (start...idx).each do |i|
+    if lines[i] =~ /\A(\s*(?:-\s+)?)title:\s/
+      lines[i] = "#{$1}title: #{yaml_single_quote(title)}\n"
+    elsif title_en && lines[i] =~ /\A(\s*(?:-\s+)?)title_en:\s/
+      lines[i] = "#{$1}title_en: #{yaml_single_quote(title_en)}\n"
+    end
+  end
+  lines.join
+end
+
 def note_key(url)
   URI(url).path.split('/').last
 rescue URI::InvalidURIError
@@ -106,14 +129,26 @@ if __FILE__ == $PROGRAM_NAME
   agent.user_agent_alias = 'Mac Safari'
 
   # Parse RSS and get yaml text
-  urls = load_news_yaml.map{|h| h['url']}
+  existing_by_url = load_news_yaml.each_with_object({}) { |h, m| m[h['url']] = h }
   news = ''
+  content = IO.read(NEWS_YAML)
+  updated_count = 0
+
   rss.items.each.with_index(1) do |item, index|
     break if index > number_of_fetching_articles
-    next  if urls.include? item.link
+    title = normalize_title(item.title)
+
+    if (entry = existing_by_url[item.link])
+      # 既存記事: note.com 側でタイトルが変わったときだけ更新する。
+      next if entry['title'] == title
+
+      title_en = normalize_title(note_title_en(agent, item.link))
+      content  = update_entry_titles(content, url: item.link, title: title, title_en: title_en)
+      updated_count += 1
+      next
+    end
 
     download_note_image(agent, item.link, note_image_url(agent, item.link))
-    title    = normalize_title(item.title)
     title_en = normalize_title(note_title_en(agent, item.link))
 
     news << "- title: #{yaml_single_quote(title)}\n"
@@ -122,10 +157,11 @@ if __FILE__ == $PROGRAM_NAME
     news << "  url:   #{item.link}\n\n"
   end
 
-  if news.empty?
-    puts "✅ No articles recently published."
+  if news.empty? && updated_count.zero?
+    puts "✅ No articles recently published or updated."
   else
-    puts "🆕 Found new article(s)."
-    IO.write(NEWS_YAML, news + IO.read(NEWS_YAML))
+    puts "🆕 Found new article(s)."         unless news.empty?
+    puts "✏️ Updated #{updated_count} title(s)." if updated_count.positive?
+    IO.write(NEWS_YAML, news + content)
   end
 end
