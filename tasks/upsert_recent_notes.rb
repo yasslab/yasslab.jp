@@ -6,9 +6,35 @@ require 'yaml'
 require 'mechanize'
 require 'fileutils'
 require 'uri'
+require 'openai'
 
 NEWS_YAML = '_data/news.yml'
 NEWS_IMAGE_DIR = 'img/news'
+
+# note.com は記事ごとに英語版を持ったり持たなかったりする（API の
+# `translation.available_languages` が `["en-US"]` か `[]` かで分かれる）。
+# 英語版が無い記事は ?hl=en でも日本語タイトルを返すため、返ってきた文字列に
+# 日本語が残っているかどうかで「英訳されたか」を判定する。
+JAPANESE_CHARS = /[\p{Hiragana}\p{Katakana}\p{Han}]/
+
+# 英語版が無いときの下訳に使うモデル。1 記事あたりタイトル 1 行だけを訳す。
+OPENAI_TRANSLATION_MODEL = 'gpt-4o-mini'
+
+# 既存の title_en に揃えた訳語・語順を指示する。
+TRANSLATION_PROMPT = <<~PROMPT.freeze
+  Translate the Japanese news headline of YassLab Inc. into English.
+
+  - Output the translated headline only. No surrounding quotes, no explanation.
+  - Keep the leading emoji as-is, followed by a single space.
+  - Render 「」 and 『』 as double quotes.
+  - Use the established product names: Rails Tutorial (Railsチュートリアル),
+    Rails Guides (Railsガイド), CoderDojo Japan, YassLab Inc.
+  - Follow the existing house style: 「〜に協賛」-> "Sponsoring ...",
+    「〜を支援」-> "Supporting ...", 「〜に登壇」-> "Speaking at ...".
+  - Capitalize in title case, like the existing entries
+    ("Supporting the Launch of a Private "Tech Book Library"").
+  - Keep it short enough to fit on a news card.
+PROMPT
 
 def yaml_single_quote(value)
   "'#{value.to_s.gsub("'", "''")}'"
@@ -48,12 +74,62 @@ def normalize_title(str)
   clusters.insert(run, ' ').join
 end
 
+def japanese?(str)
+  str.to_s.match?(JAPANESE_CHARS)
+end
+
 # Fetch the English title note.com auto-translates when ?hl=en is appended.
 def note_title_en(agent, url)
   clean_note_title(agent.get("#{url}?hl=en").title)
 rescue => e
   warn "⚠️ Failed to fetch English title from #{url}: #{e.message}"
   nil
+end
+
+# note.com に英語版が無い記事のための下訳。返り値が nil のときは呼び出し側が
+# title_en ごと省略するので、英語ページは日本語タイトルへフォールバックする。
+# 日本語をそのまま title_en に書くより、キーが無い方が状態として正確。
+def draft_title_en(title)
+  token = ENV['OPENAI_ACCESS_TOKEN'].to_s
+  if token.empty?
+    warn "⚠️ OPENAI_ACCESS_TOKEN is not set; skipping the English draft for #{title.inspect}"
+    return nil
+  end
+
+  response = OpenAI::Client.new(access_token: token).chat(
+    parameters: {
+      model: OPENAI_TRANSLATION_MODEL,
+      temperature: 0,
+      messages: [
+        { role: 'system', content: TRANSLATION_PROMPT },
+        { role: 'user',   content: title.to_s }
+      ]
+    }
+  )
+
+  drafted = normalize_title(response.dig('choices', 0, 'message', 'content').to_s.strip)
+  if drafted.empty? || japanese?(drafted)
+    warn "⚠️ Discarded a non-English draft for #{title.inspect}: #{drafted.inspect}"
+    return nil
+  end
+  drafted
+rescue => e
+  warn "⚠️ Failed to draft an English title for #{title.inspect}: #{e.message}"
+  nil
+end
+
+# 英訳を [title_en, drafted] で返す。note.com 公式の英訳を最優先し、無ければ
+# 機械下訳、それも駄目なら [nil, false]。
+#
+# drafted が true のエントリには `title_en_draft: true` を付ける。この印は
+# 「note.com 公式の英訳ではなく YassLab 側で用意した英訳」を意味し、機械下訳も
+# 手動英訳も含む。レビュー対象を後から grep で洗い出すために使う。
+def resolve_title_en(agent, url, title)
+  from_note = normalize_title(note_title_en(agent, url))
+  return [from_note, false] if from_note && !japanese?(from_note)
+
+  drafted = draft_title_en(title)
+  drafted ? [drafted, true] : [nil, false]
 end
 
 # note.com は公開後に記事タイトルを編集することがある。`url` で特定した
@@ -76,6 +152,13 @@ def update_entry_titles(yaml_text, url:, title:, title_en:)
       lines[i] = "#{$1}title_en: #{yaml_single_quote(title_en)}\n"
     end
   end
+
+  # note.com 公式の英訳で差し替えたなら、YassLab 製という印は事実と合わなくなる。
+  if title_en
+    (start...idx).select { |i| lines[i].match?(/\A\s*title_en_draft:\s/) }
+                 .reverse_each { |i| lines.delete_at(i) }
+  end
+
   lines.join
 end
 
@@ -142,17 +225,23 @@ if __FILE__ == $PROGRAM_NAME
       # 既存記事: note.com 側でタイトルが変わったときだけ更新する。
       next if entry['title'] == title
 
+      # 既存の title_en は人がレビュー済みかもしれないので、機械下訳では
+      # 上書きしない。note.com 公式の英訳が得られたときだけ差し替える。
       title_en = normalize_title(note_title_en(agent, item.link))
+      title_en = nil if japanese?(title_en)
       content  = update_entry_titles(content, url: item.link, title: title, title_en: title_en)
       updated_count += 1
       next
     end
 
     download_note_image(agent, item.link, note_image_url(agent, item.link))
-    title_en = normalize_title(note_title_en(agent, item.link))
+    title_en, drafted = resolve_title_en(agent, item.link, title)
 
     news << "- title: #{yaml_single_quote(title)}\n"
-    news << "  title_en: #{yaml_single_quote(title_en)}\n" if title_en
+    if title_en
+      news << "  title_en: #{yaml_single_quote(title_en)}\n"
+      news << "  title_en_draft: true\n" if drafted
+    end
     news << "  date:  #{item.pubDate.strftime("%Y-%m-%d")}\n"
     news << "  url:   #{item.link}\n\n"
   end
