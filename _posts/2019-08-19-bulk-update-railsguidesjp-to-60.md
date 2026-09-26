@@ -9,7 +9,7 @@ tags: [Railsガイド, リリースノート]
 
 2019年8月15日の[Rails 6.0 リリース](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release/)に合わせて、Railsガイドの新規ガイドおよび既存ガイドを大幅に更新しました! 📜✨
 
-[![ガイド例：リリースノート](https://i.gyazo.com/c2db802b161dbfacd672e34b1b8815ee.png)](https://railsguides.jp/6_0_release_notes.html)
+[![ガイド例：リリースノート](/img/news/bulk-update-railsguidesjp-to-60-01.png)](https://railsguides.jp/6_0_release_notes.html)
 
 ## 更新箇所まとめ
 
@@ -36,8 +36,8 @@ tags: [Railsガイド, リリースノート]
 
 Rails 6.0 以前のバージョン (Rails 5.2, 5.1, 5.0 対応など) のRailsガイドについては、大幅アップデート前のスナップショットを電子書籍として提供しています。
 
-[![電子書籍ページ](https://i.gyazo.com/30deb983f7efc9b5f027650b367ec47a.png)](https://railsguides.jp/options.html)
-[![電子書籍バージョン](https://i.gyazo.com/384cb4f1ce81ec9afe3a5f6292a44624.png)](https://railsguides.jp/options.html)
+[![電子書籍ページ](/img/news/bulk-update-railsguidesjp-to-60-02.png)](https://railsguides.jp/options.html)
+[![電子書籍バージョン](/img/news/bulk-update-railsguidesjp-to-60-03.png)](https://railsguides.jp/options.html)
 
 『過去バージョンを読みたい』『電子書籍で読みたい』といった場合は下記リンクをご参照ください 📕✨
 

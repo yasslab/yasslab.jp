@@ -7,7 +7,7 @@ categories: [blog]
 tags: [登壇, Rails]
 ---
 
-![ITジョブトレ×Railsチュートリアル](https://i.gyazo.com/77891b0e4e44bc508179a4df9c3c4bfc.png)
+![ITジョブトレ×Railsチュートリアル](/img/news/partnership-with-haj-empowerment-01.png)
 
 北海道の求人メディア「[アルキタ](https://www.arukita.com/)」「[ジョブキタ](https://www.jobkita.jp/)」などを運営する[北海道アルバイト情報社](https://www.haj.co.jp)グループ[株式会社HAJエンパワーメント](https://www.haj-emp.co.jp/)が、Railsチュートリアルの公式パートナーになりました。
 
@@ -18,7 +18,7 @@ HAJエンパワーメントは札幌市中央区に拠点を置き、主に地�
 
 HAJエンパワーメントでは札幌の若者向けプログラミング教育事業「ITジョブトレ」を開始し、その中で弊社が開発・運営する[Railsチュートリアル](https://railstutorial.jp/)を活用していただける運びとなりました。
 
-![ITジョブトレの事業内容](https://i.gyazo.com/e3380f0c97c18b11621d10c08a3c4be7.png)
+![ITジョブトレの事業内容](/img/news/partnership-with-haj-empowerment-02.png)
 <div class="center">図: ITジョブトレの事業内容 (事前説明会の配布資料より抜粋)</div>
 
 <br>
@@ -27,9 +27,9 @@ HAJエンパワーメントでは札幌の若者向けプログラミング教�
 
 YassLab 社ではこれまでに [ShareWis](https://share-wis.com/courses/ruby-on-rails-tutorial-four-ver-five-one?utm_content=afc_U_XX4LLnOlKCIQohtlZf) や [POTEPAN CAMP](http://go.potepan.jp/l/340811/2018-03-29/26pqz5/) と共にオンライン学習に力を入れてきましたが、最近は[沖縄の CODE BASE](https://yasslab.jp/ja/news/partnership-with-codebase) や[神戸ニルキューブ](https://yasslab.jp/ja/news/partnership-with-nilquebe) など、地域に特化した事業会社との連携も進めています。
 
-[![Railsチュートリアル選べる学習プラン](https://i.gyazo.com/0fa42a38d19690018afd69e5b443c0b7.png)](https://railstutorial.jp/#service)
+[![Railsチュートリアル選べる学習プラン](/img/news/partnership-with-haj-empowerment-03.png)](https://railstutorial.jp/#service)
 
-[![利用実績・提携法人](https://i.gyazo.com/56be3f00f57b1b170664666ec4863d75.png)](https://railstutorial.jp/#partners)
+[![利用実績・提携法人](/img/news/partnership-with-haj-empowerment-04.png)](https://railstutorial.jp/#partners)
 
 オンラインでプロダクト開発が学べる機会を広く提供しつつ、オフラインで近くにいる人と一緒に学べる場についても、各拠点の方々と協力して進めていけたらと考えています。
 
@@ -40,7 +40,7 @@ YassLab社では『[Railsチュートリアル](https://railstutorial.jp/)』や
 
 「自分の地域の人達にも学びやすい環境を提供したい」と考えている法人の方々がいらっしゃれば、ぜひお気軽にお問い合わせください。
 
-[![Railsチュートリアル_ロゴ](https://i.gyazo.com/8d4dd2ce77e3b8adeb0a7157fbb902cb.png)](https://railstutorial.jp/contact)
+[![Railsチュートリアル_ロゴ](/img/news/partnership-with-haj-empowerment-05.png)](https://railstutorial.jp/contact)
 
 <div class="center">お問い合わせ <a href="https://railstutorial.jp/contact">https://railstutorial.jp/contact</a></div>
 

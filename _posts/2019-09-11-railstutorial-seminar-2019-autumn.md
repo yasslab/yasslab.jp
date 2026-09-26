@@ -79,6 +79,6 @@ Rails解説セミナーでは事前学習が大切です。セミナー開始日
 
 Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[パートナー提携](https://railstutorial.jp/contact#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽にお試しください😆
 
-[![Railsチュートリアル](https://i.gyazo.com/d89f3367fe2668e5cb3ae8b69be642e5.png)](https://railstutorial.jp)
+[![Railsチュートリアル](/img/news/partnership-with-techtraining-05.png)](https://railstutorial.jp)
 
 

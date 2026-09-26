@@ -44,5 +44,5 @@ Railsチュートリアルでは、テキスト版の各章の終わりに「こ
 
 Railsチュートリアル解説動画: [https://railstutorial.jp/screencast](https://railstutorial.jp/screencast)
 
-[![Railsチュートリアル](https://i.gyazo.com/d89f3367fe2668e5cb3ae8b69be642e5.png)](https://railstutorial.jp/screencast)
+[![Railsチュートリアル](/img/news/partnership-with-techtraining-05.png)](https://railstutorial.jp/screencast)
 

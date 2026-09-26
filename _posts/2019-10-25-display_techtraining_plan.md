@@ -22,7 +22,7 @@ Railsチュートリアルを終えた方向けには、TechCommit からの追�
 
 詳しいプラン内容や、新規加入・Railsチュートリアル学習パッケージの購入方法などは、[こちら🔽](https://www.tech-training.jp/blog/entries/36)のブログ記事をご覧下さい。
 
-[![Railsチュートリアルコラボ](https://i.gyazo.com/79b6ea8e39017b699e648c62a690f26e.png)](https://www.tech-training.jp/blog/entries/36)
+[![Railsチュートリアルコラボ](/img/news/partnership-with-techtraining-03.png)](https://www.tech-training.jp/blog/entries/36)
 
 ## Railsチュートリアル事業利用について
 
@@ -34,6 +34,6 @@ Railsチュートリアルでは、社員研修などに便利な「法人プラ
 
 [https://railstutorial.jp/contact](https://railstutorial.jp/contact)
 
-![Railsチュートリアル](https://i.gyazo.com/d89f3367fe2668e5cb3ae8b69be642e5.png)
+![Railsチュートリアル](/img/news/partnership-with-techtraining-05.png)
 
 

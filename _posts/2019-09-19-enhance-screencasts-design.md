@@ -25,4 +25,4 @@ tags: [Railsチュートリアル, 法人プラン, デザイン]
 
 解説動画が便利にお使いいただける各種サービス『[法人プラン](https://railstutorial.jp/business)』、『[お試しプラン](https://railstutorial.jp/trial)』、『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』、『[パートナー提携](https://railstutorial.jp/contact#license)』なども興味があればぜひお試しください😸🎓
 
-[![Railsチュートリアル](https://i.gyazo.com/d89f3367fe2668e5cb3ae8b69be642e5.png)](https://railstutorial.jp)
+[![Railsチュートリアル](/img/news/partnership-with-techtraining-05.png)](https://railstutorial.jp)
