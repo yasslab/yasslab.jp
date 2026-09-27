@@ -15,13 +15,13 @@ DIVE INTO CODE の公式ブログにて、弊社代表 [@yasulab](https://twitte
 
 ６thに続き2回目の参加となる @yasulab のインタビューは[コチラ](https://diveintocode.jp/blogs/Interview/YoheiYasukawa7th)から見れます👇
 
-[![DIVE INTO CODE 公式ブログ 10/25](https://i.gyazo.com/f6bc3dea0a07f0e6b1b1c94348132293.png)](https://diveintocode.jp/blogs/Interview/YoheiYasukawa7th)
+[![DIVE INTO CODE 公式ブログ 10/25](/img/news/demoday-7th-result-01.png)](https://diveintocode.jp/blogs/Interview/YoheiYasukawa7th)
 
 ## DEMODAYとは？
 
 [**DIVE INTO CODE**](https://diveintocode.jp/)の卒業生を中心に、実務経験1年未満の「駆け出しエンジニア」が出場応募権を得られるピッチイベントです。
 
-[![DEMODAY](https://i.gyazo.com/072cad8078fa0df7cb0ee7e9f17b79b4.png)](https://diveintocode.jp/demoday)
+[![DEMODAY](/img/news/demoday-7th-result-02.png)](https://diveintocode.jp/demoday)
 
 [「DEMODAY」のHP](https://diveintocode.jp/demoday) では過去の入賞作品などもご覧いただけるので、興味ある方はぜひ覗いてみてください👀
 
@@ -33,13 +33,13 @@ DIVE INTO CODE の公式ブログにて、弊社代表 [@yasulab](https://twitte
   <iframe width="560" height="315" src="https://www.youtube.com/embed/7ojPdNR8zng?rel=0&autoplay=0&showinfo=0&controls=1&fs=1&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-[![DIVE INTO CODE 公式ブログ 4/9](https://i.gyazo.com/7992576c6632e79e5c9de621a65ba239.png)](https://diveintocode.jp/blogs/Interview/YoheiYasukawa6th)
+[![DIVE INTO CODE 公式ブログ 4/9](/img/news/demoday-7th-result-03.png)](https://diveintocode.jp/blogs/Interview/YoheiYasukawa6th)
 
 ## Yuppy's 感想☕️
 
 DEMODAY に参加される方のプロダクトには、実際にお金を動かしているものが増えているとの事...👇!! 興味深いと思いました。
 
-[![DEMODAY 7thの印象](https://i.gyazo.com/eb0475b633626cfdc09cd7003e190be5.png)](https://diveintocode.jp/blogs/Interview/YoheiYasukawa7th)
+[![DEMODAY 7thの印象](/img/news/demoday-7th-result-04.png)](https://diveintocode.jp/blogs/Interview/YoheiYasukawa7th)
 
 弊社が関わっている [coderdojo.jp](https://coderdojo.jp/) の運営や[未踏ジュニア](https://jr.mitou.org/)の活動などもそうですが、**様々な分野でそれぞれが凄い！**ものを発表し、刺激し合える場が増えているのはとても嬉しく思います。
 

@@ -180,7 +180,7 @@ title:  弊社をご検討されている皆さんへ
 	  <li><a href='https://toyokeizai.net/articles/-/325207?page=3'>📰
 	    初心者プログラマーが飛躍的に上達できたコツ - 週刊東洋経済</a></li>
 	  <a href='https://toyokeizai.net/articles/-/325207?page=3'>
-	    <img class='cover lazyload' alt="体験談記事のカード (自作)" src='/img/spinner.svg' data-src='https://i.gyazo.com/1e3196e084f8f4983b789497e14caa69.png' src='/img/spinner.svg' loading="lazy" />
+	    <img class='cover lazyload' alt="体験談記事のカード (自作)" src='/img/spinner.svg' data-src='/img/news/join-forces-01.png' src='/img/spinner.svg' loading="lazy" />
 	  </a>
 	</ul>
 	<p>また弊社のリモートワーク制度や採用フローは、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>が運営する『AMBI (アンビ)』にも寄稿記事として掲載されています。こちらも合わせてご参考になれば嬉しいです 🙇✨</p>
