@@ -12,14 +12,14 @@ Railsチュートリアル解説動画の決済システムが Gumroad から St
 Gumroad の仕様上、これまでの決済システムでは購入時に所在地などを入力する必要がありました。Stripe を使った新しい決済システムでは、そういった皆様の大切な個人情報を共有することなく、メールアドレスとクレジットカードのみ (デビットカードでも可) で決済できるようになります 💳✨
 
 <div class="center" style="margin-bottom: 50px;">
-  <a href="https://railstutorial.jp/screencast"><img alt="Railsチュートリアル解説動画" src="https://i.gyazo.com/4c8a535a801c8cc5b275343aa98f79e1.png" /></a>
+  <a href="https://railstutorial.jp/screencast"><img alt="Railsチュートリアル解説動画" src="/img/news/change-payment-system-to-stripe-01.png" /></a>
 </div>
 
 ## 以前からの構想を実現
 
 YassLab 社が提供する新しいサービス『[法人プラン](https://railstutorial.jp/business)』『[Proプラン](https://railsguides.jp/pro)』『[Teamプラン](https://railsguides.jp/pro)』はすべて Stripe に移行しており、ようやく、[古くから動いている Gumroad の決済システム](https://qiita.com/yasulab/items/63cb3dea01ebc89fa81c)も移行できる体制になりました。
 
-[![Stripeを使った決済システム](https://i.gyazo.com/f5bbd1c240a7b10a96998fe1abeabc6d.jpg)](https://speakerdeck.com/yasulab/case-studies-of-rails-applications?slide=25)
+[![Stripeを使った決済システム](/img/news/change-payment-system-to-stripe-02.jpg)](https://speakerdeck.com/yasulab/case-studies-of-rails-applications?slide=25)
 <div class="center" style="margin-top: -20px;">
   📜 引用元: <a href="https://speakerdeck.com/yasulab/case-studies-of-rails-applications">プロダクトの成長と決済システム</a>
 </div>
@@ -30,12 +30,12 @@ YassLab 社が提供する新しいサービス『[法人プラン](https://rail
 
 これまででは特定のタグのみしか使えなかったためテキストが多かったですが、新しい購入ページでは CSS や JavaScript が使えるため、より分かりやすく、改善しやすい体制になりました ♻️🔧✨
 
-![CSS例: Three-block photos](https://i.gyazo.com/627cf8f1b32a791132d1cf18a5e45da5.png)
+![CSS例: Three-block photos](/img/news/change-payment-system-to-stripe-03.png)
 <div class="center" style="margin-top: -30px;">図: CSS を使ったレイアウトの例</div>
 
 <br>
 
-![JS例: よくある質問](https://i.gyazo.com/a1d4c5405a2a11c47656cc8bae03ecd0.png)
+![JS例: よくある質問](/img/news/change-payment-system-to-stripe-04.png)
 <div class="center" style="margin-top: -30px;">図: JavaScript を使ってスクロールを最小限に</div>
 
 <br>
@@ -44,12 +44,12 @@ YassLab 社が提供する新しいサービス『[法人プラン](https://rail
 
 上記に加え、「数量」や「住所」などの不要な入力欄もすべて削除しました。
 
-![数量は不要](https://i.gyazo.com/c5bc271cd1f16dc30b41f1d76c91a1e8.png)
+![数量は不要](/img/news/change-payment-system-to-stripe-05.png)
 <div class="center" style="margin-top: -30px;">図: 「数量」は<a href="https://railstutorial.jp/business">法人プラン</a>で解決したため不要</div>
 
 <br>
 
-![郵便番号も不要](https://i.gyazo.com/9a65faf313165b27036110a76b34aa54.png)
+![郵便番号も不要](/img/news/change-payment-system-to-stripe-06.png)
 <div class="center" style="margin-top: -30px;">図: 「住所」も Stripe に移行したため不要</div>
 
 <br>

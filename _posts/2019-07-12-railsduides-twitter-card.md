@@ -29,7 +29,7 @@ Twitter 投稿時に、見ていたページのタイトルが今までよりも
 
 <br>
 
-[![Teamプラン](https://i.gyazo.com/db329dc188f05536fc82ee5aa31d85bc.png)](https://railsguides.jp/team)
+[![Teamプラン](/img/news/railsduides-twitter-card-02.png)](https://railsguides.jp/team)
 
 - ダッシュボードからチームメンバー管理 👥
 - 決済の一元化 💰(クレジットカードにも対応💳)

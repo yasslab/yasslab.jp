@@ -116,7 +116,7 @@ Railsを利用する上で、知っておいたほうがいいことがギュッ
 
 Railsチュートリアルを進める上で **「 Git 」**につまづく方はかなり多いと思います。その「Git」について丁寧に説明されているのが **「第１章 後編 ９. Git によるバージョン管理」**です。ゲームのセーブ機能に例えて分かりやすく説明されています。
 
-![Gitによるバージョン管理](https://i.gyazo.com/e13c49b678195becab42ec6431bcc83e.png)
+![Gitによるバージョン管理](/img/news/highlight-of-railstutorial-screencast-04.png)
 
 初めてだとよく分からない部分も１行ずつ丁寧に教えてくれます。
 
@@ -129,7 +129,7 @@ Railsチュートリアルを進める上で **「 Git 」**につまづく方�
 
 **「MVC」**の流れを理解したい方は **「第２章 前編 １１. MVCの挙動に触れてみる」**を見てみましょう。
 
-![Railsのルーティング](https://i.gyazo.com/19f68c43655390035d6c771accddaf72.png)
+![Railsのルーティング](/img/news/highlight-of-railstutorial-screencast-06.png)
 
 MVC 全体の流れをスライド付きで説明してくれて、Rails ルーティングについての全体像についても分かります。この一通りの流れをrailsチュートリアルで少しずつやっていくので、初めての方はこの全てを今の段階では理解していなくても大丈夫です。**MVCの全体像を理解したい**方や、**Railsについてざっと復習したい**方におすすめです。
 
@@ -235,7 +235,7 @@ Railsは色々便利なのですが、formの中身はちゃんとHTMLで理解�
 
 プログラミングって、とりあえず同じ動きにするだけなら何通りも書き方がありますが、Rubyだと「if」文がこんなにシンプルに書けちゃうぞ、と関心させられるのが **「８章  前編 ５. ユーザーの検索と認証」32:25〜** からの説明です。
 
-![ユーザーの検索と検証](https://i.gyazo.com/29507ccf1c0830228d9221537b543d76.png)
+![ユーザーの検索と検証](/img/news/highlight-of-railstutorial-screencast-18.png)
 
 🔼結構難しいテクニックが使われているコードなのです。
 
@@ -280,7 +280,7 @@ Railsは色々便利なのですが、formの中身はちゃんとHTMLで理解�
 
 ９章の中でも特にしっかり理解するべきだと感じたのは **「 ５. ログイン状態の認証」**です。
 
-![ログイン状態の認証](https://i.gyazo.com/360045fd85637133bd4eb882250bc07b.png)
+![ログイン状態の認証](/img/news/highlight-of-railstutorial-screencast-25.png)
 
 この認証の流れはこの先も何度か出てくるので、ここを理解できるのとできないのとでは、今後大きな差が生まれてくるはずです。何度も理解できるまで繰り返し見ると効果的だと思います。
 
@@ -417,7 +417,7 @@ Ruby の「!」は、Railsにおける「!」とは全く関係の無いもの�
 
 １１章からはこれまでの基礎的な内容を活かした応用的なものになっていて、１０章までを理解しているのが前提になっています。難しいと感じる時は、自分が納得いくまで復習するのも一つの方法かなと思います。説明を聞いてもよくわからない場合は、前回の認証の理解ができていない可能性があるので「６章 後編 １０. パスワードの実装」、「９章 ５. ログイン状態の認証」を順番に振り返って見ると良さそうです。
 
-![Actionメーラー](https://i.gyazo.com/e4435b7267b1ea752e34c3edb77cce32.png)
+![Actionメーラー](/img/news/highlight-of-railstutorial-screencast-42.png)
 
 Action Mailer の正体についての解説 **「１１章 前編 １０. Action Mailer の実態と実装 」**も興味深いのでおすすめです。
 
@@ -426,7 +426,7 @@ Action Mailer の正体についての解説 **「１１章 前編 １０. Actio
 
 **「コールバック処理」**の時の、before_save と before_create の違いです。このふたつの違い説明できますか？
 
-![before_save,before_cretate](https://i.gyazo.com/7f7399724b7da0ee42b0ebaebd89df1a.png)
+![before_save,before_cretate](/img/news/highlight-of-railstutorial-screencast-43.png)
 
 **「１１章 前編 ７. メソッド参照用のメソッドを使う」**のところを見てみると、二つの違いについて明確に説明されています。細かい所なのですが、こういう所一つ一つをきちんと理解できると気持ちよく進めることができると思います。
 
@@ -688,7 +688,7 @@ Twitterでいうタイムラインのようなものですね。この部分で�
 ![SQL文](/img/news/highlight-of-railstutorial-screencast-77.png)
 この SQL 文を 読みやすく式展開して書いてみよう、の場面です。
 
-![SQL文を読みやすく式展開](https://i.gyazo.com/af43f51756f87e49e91ea8fe427d77b1.png)
+![SQL文を読みやすく式展開](/img/news/highlight-of-railstutorial-screencast-78.png)
 
 テキストだけだと難しく感じられる部分ですが、うまく解説動画を利用しながら理解していただければと思います。
 

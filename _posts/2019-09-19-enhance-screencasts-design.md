@@ -13,11 +13,11 @@ tags: [Railsチュートリアル, 法人プラン, デザイン]
 
 メイン画像を小さくし、動画一覧がすぐに見れるようになりました✨
 
-![動画一覧画面](https://i.gyazo.com/9a714e884d1c25820717489d4d33ac80.png)
+![動画一覧画面](/img/news/enhance-screencasts-design-01.png)
 
 <p style="margin-top: 75px;">更に、解説動画一覧に、動画の時間が表示されるようになりました⏱</p>
 
-![時間が分かりやすく](https://i.gyazo.com/8ef7e2442e6da789d8d081781274b0d5.png)
+![時間が分かりやすく](/img/news/enhance-screencasts-design-02.png)
 
 ## まとめ
 

@@ -33,10 +33,10 @@ DojoPaaS はさくらクラウドのサーバー作成 API を利用しており
 
 #### 移行に関するご相談
 
-![miya さんから承諾を得た様子](https://i.gyazo.com/d4c28a383b52079cd9e8cb1c8770339d.png)
+![miya さんから承諾を得た様子](/img/news/dojopaas-porting-for-maintenability-01.png)
 
 #### 移行作業の様子
-[![移行作業の様子](https://i.gyazo.com/f496cdb67ce9e1f2f106663c2a47eaea.png)](https://github.com/coderdojo-japan/dojopaas/issues/110#issuecomment-495046878)
+[![移行作業の様子](/img/news/dojopaas-porting-for-maintenability-02.png)](https://github.com/coderdojo-japan/dojopaas/issues/110#issuecomment-495046878)
 
   移行作業の具体的な様子は [coderdojo-japan/dojopaas#110](https://github.com/coderdojo-japan/dojopaas/issues/110) をご参照ください。現在は無事に内部システムが移行され、これまで通り DojoPaaS が動くことも確認済みです。
 

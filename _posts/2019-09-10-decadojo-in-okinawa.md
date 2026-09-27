@@ -7,18 +7,18 @@ categories: [blog]
 tags: [CoderDojo, イベント]
 ---
 
-[![浦添プログラミングフェスティバル](https://i.gyazo.com/decc5a10ce53dc73fdcaa9a68b625066.png)](http://www.coderdojo-urasoe.com/?p=1082)
-[![開催日時](https://i.gyazo.com/4b62d60e1d88a9ff8758616749218e97.png)](http://www.coderdojo-urasoe.com/?p=1082)
+[![浦添プログラミングフェスティバル](/img/news/decadojo-in-okinawa-01.png)](http://www.coderdojo-urasoe.com/?p=1082)
+[![開催日時](/img/news/decadojo-in-okinawa-02.png)](http://www.coderdojo-urasoe.com/?p=1082)
 
 [浦添プログラミングフェスティバル with DecaDojo!!](http://www.coderdojo-urasoe.com/?p=1082) に弊社代表の[@yasulab](https://twitter.com/yasulab)が特別参加します✨
 
-![特別参加者紹介](https://i.gyazo.com/b6f3d10d8a78302e22dcd4fbc782008a.png)
+![特別参加者紹介](/img/news/decadojo-in-okinawa-03.png)
 
 ## 開催概要
 
 当日は、浦添プログラミング道場の子たちの成果発表と沖縄初の『[DecaDojo](http://decadojo.coderdojo.jp/)』も開催されます。
 
-![開催概要](https://i.gyazo.com/517619d928aea713060d073c4e638483.png)
+![開催概要](/img/news/decadojo-in-okinawa-04.png)
 
 ### What's DecaDojo?
 
@@ -34,6 +34,6 @@ tags: [CoderDojo, イベント]
 
 当日は沖縄県の各Dojoも集まり楽しくなりそうですね😆近い方は是非足をお運びいただければと思います😊全国各地で広がり続けている [CoderDojo Japan](https://coderdojo.jp/) の活動をこれからも楽しみにしています👏
 
-[![CoderDojo Japan](https://i.gyazo.com/16e835fc905d8589acddb618e4c4b9ca.png)](https://coderdojo.jp/)
+[![CoderDojo Japan](/img/news/decadojo-in-okinawa-05.png)](https://coderdojo.jp/)
 
 CoderDojo Japan: [https://coderdojo.jp/](https://coderdojo.jp/)
