@@ -41,7 +41,7 @@ DojoCon Japan とは、子どものためのプログラミング道場『[Coder
 
 YassLab 社では [Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper)を提供しており、今回の協賛もその一環となっています ♻️  詳細は[コチラ](https://yasslab.jp/ja/doorkeeper)のページをご参照ください。
 
-![Doorkeeper スポンサーシップの仕組み](/img/news/dojocon-japan-2019-sponsorship-04.png)
+![Doorkeeper スポンサーシップの仕組み](/img/news/cover-dojocon-japan-2019-sponsorship.png)
 <p class="text-center">図: Doorkeeper スポンサーシップの仕組み</p>
 
 ## まとめ

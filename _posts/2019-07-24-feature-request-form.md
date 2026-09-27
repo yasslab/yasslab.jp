@@ -15,7 +15,7 @@ YassLab 社が開発・運営している『[Railsチュートリアル 法人�
 
 Railsチュートリアルの[法人プラン](https://railstutorial.jp/business)の場合は、管理者画面のダッシュボード下部に設置してあります。「こんな機能が欲しい」「こういった課題を解決したい」などのコメントがあれば遠慮なくお知らせください。
 
-![法人プランDashboard](/img/news/feature-request-form-01.png)
+![法人プランDashboard](/img/news/cover-feature-request-form.png)
 
 <div style="text-align: center; padding-bottom: 30px;"><b>・・・</b></div>
 

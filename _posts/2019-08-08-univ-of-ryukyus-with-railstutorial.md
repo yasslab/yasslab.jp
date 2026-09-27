@@ -25,7 +25,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
 
 こうした背景に弊社の沖縄の縁も重なり、実戦的な内容を重視する enPiT でRailsチュートリアルが採用されるに至りました。また、採用後も継続的にふりかえりと改善を積み重ね、最近は反転学習というスタイルを組み合わせることで、さらに多くの層が挫折せずにプロダクト開発を学べるようになることも分かってきました。
 
-[![一斉学習 vs. 反転学習](/img/news/univ-of-ryukyus-with-railstutorial-03.png)](https://speakerdeck.com/yasslab/aws-award-at-fukuoka-ruby-2019?slide=12)
+[![一斉学習 vs. 反転学習](/img/news/cover-univ-of-ryukyus-with-railstutorial.png)](https://speakerdeck.com/yasslab/aws-award-at-fukuoka-ruby-2019?slide=12)
 
 <div style="margin-bottom: 50px;">
   <script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

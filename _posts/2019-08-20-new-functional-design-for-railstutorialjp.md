@@ -9,7 +9,7 @@ tags: [登壇, Rails]
 
 Railsチュートリアル内のページ遷移が便利になり、次章や前章へすぐに移動できるようになったり、法人プランのユーザーが簡単にログインできるようになりました。
 
-[![新しいトップページ。次の章・前の章](/img/news/new-functional-design-for-railstutorialjp-01.png)](https://railstutorial.jp)
+[![新しいトップページ。次の章・前の章](/img/news/cover-new-functional-design-for-railstutorialjp.png)](https://railstutorial.jp)
 
 ## 法人プランとログイン問題
 

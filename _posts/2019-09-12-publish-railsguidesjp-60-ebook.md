@@ -10,7 +10,7 @@ tags: [Railsガイド, Rails]
 **1,400ページを超える** Rails 6.0 対応の『[Railsガイド電子書籍版](https://railsguides.jp/options.html)』がリリースされました📕🎉
 
 <div class="mx-auto w-50 mb-4">
-  <a href="https://gumroad.com/l/railsguidesjp_ebook"><img src="/img/news/publish-railsguidesjp-60-ebook-01.png" alt="Railsガイド電子書籍6.0"></a>
+  <a href="https://gumroad.com/l/railsguidesjp_ebook"><img src="/img/news/cover-publish-railsguidesjp-60-ebook.png" alt="Railsガイド電子書籍6.0"></a>
 </div>
 
 [![詳細情報](/img/news/publish-railsguidesjp-60-ebook-02.png)](https://railsguides.jp/options.html)
