@@ -7,12 +7,12 @@ categories: [press]
 tags: [Railsガイド]
 ---
 
-[![Proプランお試し](https://i.gyazo.com/18d55eacd2a0e88150397a68b199b1af.png)](https://railsguides.jp/pro)
+[![Proプランお試し](/img/news/no_register_credit_for_proplan_trial-01.png)](https://railsguides.jp/pro)
 
 これまで Proプランのトライアル期間の申し込みには、「クレジットカードの登録」が必要でしたが、今後は**<u>メールアドレスとパスワードの登録のみ</u>**でお試しいただけるようになりました。
 
 <div class="mx-auto w-50 mb-4">
-  <a href="https://railsguides.jp/pro"><img src="https://i.gyazo.com/cc988b2e244ac0efc00934a5e0d8e367.png" alt="Proプラン登録フォーム"></a>
+  <a href="https://railsguides.jp/pro"><img src="/img/news/no_register_credit_for_proplan_trial-02.png" alt="Proプラン登録フォーム"></a>
 </div>
 
 <div class="text-center mb-5">
@@ -23,7 +23,7 @@ tags: [Railsガイド]
 
 #### **ショートカットキーで素早く検索**🔍💨
 
-[![ショートカットキー紹介](https://i.gyazo.com/4467353c2e096f73c556e197978e50e2.png)](https://railsguides.jp/pro)
+[![ショートカットキー紹介](/img/news/no_register_credit_for_proplan_trial-03.png)](https://railsguides.jp/pro)
 
 「`/`」で素早く検索を開始。より生産的な開発をサポートします。
 
@@ -31,7 +31,7 @@ tags: [Railsガイド]
 
 #### **全文検索サービス**が更に便利に🔍
 
-[![検索機能紹介](https://i.gyazo.com/6e800ef1a4b3ca46de7aab04f66cfe4e.png)](https://yasslab.jp/ja/news/railsguides-static-search)
+[![検索機能紹介](/img/news/no_register_credit_for_proplan_trial-04.png)](https://yasslab.jp/ja/news/railsguides-static-search)
 
 <div class="text-center mb-5">
   クリックすると詳細が見れます👆
@@ -45,11 +45,11 @@ tags: [Railsガイド]
   にも対応しています🎉
 </div>
 
-[![Rails6.0対応](https://i.gyazo.com/9d4d480ec2b82aaeb8cfb03a9df3e356.png)](https://yasslab.jp/ja/news/bulk-update-railsguidesjp-to-60)
+[![Rails6.0対応](/img/news/no_register_credit_for_proplan_trial-05.png)](https://yasslab.jp/ja/news/bulk-update-railsguidesjp-to-60)
 
 更にお気軽に試せるようになったRailsガイドProプラン、ぜひ一度お試しください😉
 
 RailsガイドProプラン:[https://railsguides.jp/pro](https://railsguides.jp/pro)
-[![Railsガイド](https://i.gyazo.com/81dfcc32203e624da516500679dd8234.png)](https://railsguides.jp/pro)
+[![Railsガイド](/img/news/no_register_credit_for_proplan_trial-06.png)](https://railsguides.jp/pro)
 
 
