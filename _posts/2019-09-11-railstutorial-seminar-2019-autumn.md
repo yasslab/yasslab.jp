@@ -13,15 +13,15 @@ tags: [Railsチュートリアル, 解説セミナー]
 
 本イベントは『[Ruby on Rails チュートリアル：実例を使ってRailsを学ぼう](https://railstutorial.jp)』（以下、Railsチュートリアル）を計5日間で学ぶ、公式の集中セミナーです。独学では理解が難しい箇所も、対話形式で丁寧に解説していきます👨‍🏫🎓
 
-![解説風景](https://i.gyazo.com/e451b20649d2ed1f1ae2a4e8e7338eef.png)
+![解説風景](/img/news/railstutorial-seminar-2019-autumn-01.png)
 
 ## 主な内容
 
-[![講師紹介](https://i.gyazo.com/244853f58b290beec4714b2a01f5ce51.png)](https://twitter.com/yasulab)
+[![講師紹介](/img/news/railstutorial-seminar-2019-autumn-02.png)](https://twitter.com/yasulab)
 
 Rails解説セミナーでは事前学習が大切です。セミナー開始日までに準備を進めておき、当日に様々な疑問や質問をできるようにしておくと、より効果的な学習につながります🛤✨
 
-![主な内容](https://i.gyazo.com/db7c0ef3b32b2842cc65a5a8cc1f14b9.png)
+![主な内容](/img/news/railstutorial-seminar-2019-autumn-03.png)
 
 
 
@@ -29,7 +29,7 @@ Rails解説セミナーでは事前学習が大切です。セミナー開始日
 
 ５日分をまとめてお得に購入できる Railsパスポートや、それぞれの章ごとの参加、１日ごとの参加など、様々な参加方法があります。お好きな方法で申し込みいただければと思います😉
 
-![料金体制](https://i.gyazo.com/a9e4721bca3f635e44a0bb163b5f894f.png)
+![料金体制](/img/news/railstutorial-seminar-2019-autumn-04.png)
 
 <div align="center">
 
@@ -79,6 +79,6 @@ Rails解説セミナーでは事前学習が大切です。セミナー開始日
 
 Railsチュートリアルでは『[法人プラン](https://railstutorial.jp/business)』や『[お試しプラン](https://railstutorial.jp/trial)』、『[パートナー提携](https://railstutorial.jp/contact#license)』や『[解説動画・質問対応サービス](https://railstutorial.jp/#service)』なども提供しています。気になるプラン・サービスがあればぜひ気軽にお試しください😆
 
-[![Railsチュートリアル](https://i.gyazo.com/d89f3367fe2668e5cb3ae8b69be642e5.png)](https://railstutorial.jp)
+[![Railsチュートリアル](/img/news/partnership-with-techtraining-05.png)](https://railstutorial.jp)
 
 

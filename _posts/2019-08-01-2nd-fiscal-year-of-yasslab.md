@@ -15,7 +15,7 @@ YassLab 社の第２期は、主力事業である[開発支援事業](https://y
 
 このチームが立ち上がったことで、様々な新サービスを継続的にリリース・改善できるようになりました。
 
-[![学ぶ・創るを支えるサービス](https://i.gyazo.com/7a9effd9426027ea0f42ce500f9ace23.png)](https://www.google.co.jp/search?q=YassLab#lpc=lpc)
+[![学ぶ・創るを支えるサービス](/img/news/cover-2nd-fiscal-year-of-yasslab.png)](https://www.google.co.jp/search?q=YassLab#lpc=lpc)
 
 - [🏢 Railsチュートリアル 法人プラン](https://railstutorial.jp/business)
 - [👀 Railsチュートリアル お試しプラン](https://railstutorial.jp/trial)
@@ -74,7 +74,7 @@ YassLab 社の特徴の１つに様々な法人・コミュニティと連携し
 
 冒頭で述べた主力事業の[開発支援事業](https://yasslab.jp/ja/agile)と並行して自社開発も進めるということは、**主力事業の売上を減らして将来の売上にコミットする**という意思決定です。当然、これまでとは収支の動きが異なり、赤字を出しやすい体制になります。
 
-[![自社開発への投資と転換](https://i.gyazo.com/97f14f562338db9a9849a34fcec7dfcc.png)](https://speakerdeck.com/yasslab/case-studies-of-less-code-payments?slide=17)
+[![自社開発への投資と転換](/img/news/2nd-fiscal-year-of-yasslab-02.png)](https://speakerdeck.com/yasslab/case-studies-of-less-code-payments?slide=17)
 
 赤字の状態が続けば様々なリスクを負うことになり、恒常的に黒字だった頃とは異なる動きも起こるとは思います。もちろん「既存の事業だけをずっと続ける」という選択肢もありましたが、会社を次のレベルに成長させていくためには、新しいことにチャレンジし続けることが必要なステップだと決断しました。
 

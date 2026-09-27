@@ -10,7 +10,7 @@ tags: [CoderDojo, 協賛]
 [DojoCon Japan 2019](https://dojocon2019.coderdojo.jp/) の in-kind スポンサーとして YassLab 社が協賛しました 🤝✨
 
 <div class="mx-auto w-50 mb-4">
-  <img src="https://i.gyazo.com/93bdb10de2934795e555bf9d2a0435ae.png" alt="スポンサーシップ">
+  <img src="/img/news/dojocon-japan-2019-sponsorship-01.png" alt="スポンサーシップ">
 </div>
 
 <div style="margin-bottom: 50px;" align="center">
@@ -21,11 +21,11 @@ tags: [CoderDojo, 協賛]
 
 DojoCon Japan とは、子どものためのプログラミング道場『[CoderDojo](https://coderdojo.jp/)』コミュニティにおける年１回のカンファレンスです。日本の CoderDojo 主催者やメンター、プログラミングを学ぶ子ども達、また、CoderDojo の活動に賛同・協賛する個人・法人が全国各地から集まります。
 
-[![DojoCon会場](https://i.gyazo.com/287595c8c2d35f4612bc5926601d926c.png)](https://dojocon2019.coderdojo.jp/)
+[![DojoCon会場](/img/news/dojocon-japan-2019-sponsorship-02.png)](https://dojocon2019.coderdojo.jp/)
 
 2016年～2017年は大阪、2018年は東京で開催され、2019年は**名古屋**で4回目の開催となります 🎉
 
-[![開催概要](https://i.gyazo.com/156589b7cdf370a328432f5d97de080d.png)](https://dojocon2019.coderdojo.jp/)
+[![開催概要](/img/news/dojocon-japan-2019-sponsorship-03.png)](https://dojocon2019.coderdojo.jp/)
 
 参加希望の方で近辺で宿泊予定の方は、[お早めに宿の予約をしておく](https://dojocon2019.coderdojo.jp/posts/3/)と良さそうです😉 その他の詳しい内容は、[DojoCon Japan 2019 公式ページ](https://dojocon2019.coderdojo.jp/)よりご参照ください 💁‍♀️
 
@@ -41,7 +41,7 @@ DojoCon Japan とは、子どものためのプログラミング道場『[Coder
 
 YassLab 社では [Doorkeeper スポンサーシップ](https://yasslab.jp/ja/doorkeeper)を提供しており、今回の協賛もその一環となっています ♻️  詳細は[コチラ](https://yasslab.jp/ja/doorkeeper)のページをご参照ください。
 
-![Doorkeeper スポンサーシップの仕組み](https://i.gyazo.com/d9b979f41df958db37202b4be5b1f5f7.png)
+![Doorkeeper スポンサーシップの仕組み](/img/news/cover-dojocon-japan-2019-sponsorship.png)
 <p class="text-center">図: Doorkeeper スポンサーシップの仕組み</p>
 
 ## まとめ

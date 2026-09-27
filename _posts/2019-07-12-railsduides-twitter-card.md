@@ -20,7 +20,7 @@ Twitter 投稿時に、見ていたページのタイトルが今までよりも
 
 ## その他の便利なサービス
 
-[![Proプラン](https://i.gyazo.com/43da1e1a9800376ce069f49c506aaa6f.png)](https://railsguides.jp/pro)
+[![Proプラン](/img/news/railsduides-twitter-card-01.png)](https://railsguides.jp/pro)
 
 - Railsに特化した全文検索サービス 🔍
 - ショートカットキーで、より生産的に ⚙️
@@ -29,7 +29,7 @@ Twitter 投稿時に、見ていたページのタイトルが今までよりも
 
 <br>
 
-[![Teamプラン](https://i.gyazo.com/db329dc188f05536fc82ee5aa31d85bc.png)](https://railsguides.jp/team)
+[![Teamプラン](/img/news/railsduides-twitter-card-02.png)](https://railsguides.jp/team)
 
 - ダッシュボードからチームメンバー管理 👥
 - 決済の一元化 💰(クレジットカードにも対応💳)

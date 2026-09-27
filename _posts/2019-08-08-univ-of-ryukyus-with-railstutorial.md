@@ -7,7 +7,7 @@ categories: [blog]
 tags: [琉球大学, Railsチュートリアル, 法人プラン, ライセンス]
 ---
 
-![琉球大学_Railsチュートリアル](https://i.gyazo.com/7406086e6e52822e792c28bfb7225f1a.png)
+![琉球大学_Railsチュートリアル](/img/news/univ-of-ryukyus-with-railstutorial-01.png)
 
 琉球大学でRailsチュートリアルが採用されるようになってから３年目に入りました。
 
@@ -17,7 +17,7 @@ YassLab 社は[沖縄と東京のメンバー](https://yasslab.jp/ja/#members)�
 
 琉球大学は [enPiT](http://www.enpit.jp/) という『創りながら学ぶ』拠点の１つとなっており、そこでは基礎知識を身につけた学生を主な対象として、より実践的な知識を身につける機会が提供されています。
 
-[![enPiT](https://i.gyazo.com/71bcec22d6498d823564578062fb209f.png)](http://www.enpit.jp/)
+[![enPiT](/img/news/univ-of-ryukyus-with-railstutorial-02.png)](http://www.enpit.jp/)
 
 Railsチュートリアルもまた、Progate や大学１〜２年次の科目などで[基礎知識](https://railstutorial.jp/chapters/beginning?version=5.1#sec-prerequisites)を身につけた方々を主な対象として、より実戦に近い技術が学べる教材となっています。
 
@@ -25,7 +25,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
 
 こうした背景に弊社の沖縄の縁も重なり、実戦的な内容を重視する enPiT でRailsチュートリアルが採用されるに至りました。また、採用後も継続的にふりかえりと改善を積み重ね、最近は反転学習というスタイルを組み合わせることで、さらに多くの層が挫折せずにプロダクト開発を学べるようになることも分かってきました。
 
-[![一斉学習 vs. 反転学習](https://i.gyazo.com/1c47e531994e2f959cf6281c8f97e501.png)](https://speakerdeck.com/yasslab/aws-award-at-fukuoka-ruby-2019?slide=12)
+[![一斉学習 vs. 反転学習](/img/news/cover-univ-of-ryukyus-with-railstutorial.png)](https://speakerdeck.com/yasslab/aws-award-at-fukuoka-ruby-2019?slide=12)
 
 <div style="margin-bottom: 50px;">
   <script async class="speakerdeck-embed" data-id="6e2509dc377644c480c230ba57ff22e0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
@@ -33,7 +33,7 @@ Railsチュートリアルもまた、Progate や大学１〜２年次の科目�
 
 こうした実績の積み重ねもあり、現在は琉球大学だけでなく、筑波大学や産業技術大学院大学、工学院大学などの様々な場所でRailsチュートリアルを採用していただけています 🎓✨
 
-[![利用実績・提携法人](https://i.gyazo.com/c854a1e335ac52c452528842edb7128e.png)](https://railstutorial.jp/#partners)
+[![利用実績・提携法人](/img/news/univ-of-ryukyus-with-railstutorial-04.png)](https://railstutorial.jp/#partners)
 
 
 ## 大学生だけじゃなく、誰にでも

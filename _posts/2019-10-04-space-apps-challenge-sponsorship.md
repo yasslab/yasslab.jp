@@ -7,18 +7,18 @@ categories: [press]
 tags: [協賛]
 ---
 
-[![Space Apps Challenge Kushimoto](https://i.gyazo.com/ca8b8a4dd245e582c5702657727bcad1.png)](https://space-apps-kushimoto.github.io/)
+[![Space Apps Challenge Kushimoto](/img/news/space-apps-challenge-sponsorship-01.png)](https://space-apps-kushimoto.github.io/)
 
 NASA が毎年主催する世界同時ハッカソン『[Space Apps Challenge](https://www.spaceappschallenge.org/)』の [Kushimoto](https://space-apps-kushimoto.github.io/) 拠点にスポンサーとして協賛しました🤝
 
-[![スポンサーロゴ](https://i.gyazo.com/0747f27ae1ba4098d6358613d5a58bd4.png)](https://space-apps-kushimoto.github.io/sponsor/)
+[![スポンサーロゴ](/img/news/space-apps-challenge-sponsorship-02.png)](https://space-apps-kushimoto.github.io/sponsor/)
 
 
 ## Space Apps Challenge とは
 
 Space Apps Challenge とは、NASAが公開しているオープンデータを使用したアプリケーションの開発を競いあうもので、毎年、全世界中の各都市で同時に開催されているイベントです。
 
-[![LOCATIONS Map](https://i.gyazo.com/bf837140af106b1c833dae3dad0c0616.png)](https://2019.spaceappschallenge.org/locations/map)
+[![LOCATIONS Map](/img/news/space-apps-challenge-sponsorship-03.png)](https://2019.spaceappschallenge.org/locations/map)
 <div class="center" style="margin-bottom: 60px;">
   <a href="https://2019.spaceappschallenge.org/locations/map">2019年の開催都市マップ</a>
 </div>

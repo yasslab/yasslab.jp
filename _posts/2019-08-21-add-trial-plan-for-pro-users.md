@@ -9,7 +9,7 @@ tags: [Railsガイド, Proプラン]
 
 Railsガイド『Proプラン』が15日間無料でお試し利用できるようになりました 🎉
 
-[![Proプラン](https://i.gyazo.com/43da1e1a9800376ce069f49c506aaa6f.png)](https://railsguides.jp/pro)
+[![Proプラン](/img/news/railsduides-twitter-card-01.png)](https://railsguides.jp/pro)
 
 これまでは利用料金を支払った後に Proプランが利用できる形でしたが、今後は登録後の15日間はトライアル期間となり、トライアル期間中は料金が掛からない形となりました。**『使ってみてから決める』**ことができるため、これまでよりも気軽に始めることができます。
 
@@ -21,11 +21,11 @@ Railsガイド『Proプラン』が15日間無料でお試し利用できるよ�
 ## 🆓 トライアルの始め方
 [Proプランのページ](https://railsguides.jp/pro)から手順にしたがって登録を進めていくと、**自動的にトライアル期間が適用**されます。
 
-![トライアルflash](https://i.gyazo.com/88b0a123206bd349552ec88e16b4c857.png)
+![トライアルflash](/img/news/add-trial-plan-for-pro-users-01.png)
 
 トライアル期間中はマイページに上記のようなラベルが表示されるため、いつでも期日を確認することができます。トライアル**終了日の３日前にメールで通知**されるため、トライアル後も継続するかどうか、余裕を持って決めることができます。
 
-![メールのスクリーンショット](https://i.gyazo.com/61d28d2ce675e36549f728ec69285fc8.png)
+![メールのスクリーンショット](/img/news/add-trial-plan-for-pro-users-02.png)
 
 
 ## 🔖 まとめ
