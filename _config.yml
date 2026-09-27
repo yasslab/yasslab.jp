@@ -94,6 +94,7 @@ exclude:
   - spec
   - tasks
   - .jekyll-cache
+  - tmp
 
 # Enable Incremental Regeneration feature (experimental)
 # https://jekyllrb.com/docs/configuration/incremental-regeneration/
