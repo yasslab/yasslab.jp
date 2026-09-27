@@ -9,7 +9,7 @@ tags: [Railsチュートリアル]
 
 今までは、動画配信サービス Wistia のサイトからRailsチュートリアルの解説動画を視聴していましたが、法人プランと同様に railstutorial.jp から視聴することができるようになりました。
 
-[![Wistiaからrailstutorialjpに移行](https://i.gyazo.com/1bed781cfe2a7f14aa1c3ca335e65c84.png)](https://i.gyazo.com/1bed781cfe2a7f14aa1c3ca335e65c84.png)
+[![Wistiaからrailstutorialjpに移行](/img/news/screencast-on-railstutorialjp-01.png)](/img/news/screencast-on-railstutorialjp-01.png)
 
 
 ## 改善後の特徴
@@ -20,7 +20,7 @@ tags: [Railsチュートリアル]
 
 ページの横幅に合わせて、動画のサイズが変更されます。それにより、横に並べながらコードを書くことが簡単になります。
 
-[![並べて表示](https://i.gyazo.com/5998833afccbc186d59a02badf75d22e.jpg)](https://i.gyazo.com/5998833afccbc186d59a02badf75d22e.jpg)
+[![並べて表示](/img/news/screencast-on-railstutorialjp-02.png)](/img/news/screencast-on-railstutorialjp-02.png)
 
 <br>
 
@@ -28,7 +28,7 @@ tags: [Railsチュートリアル]
 
 解説動画ではさらにわかりやすくするため、スライドを使って説明するシーンがあります。そのスライドの資料をページ内に用意しています。
 
-[![スライドの資料](https://i.gyazo.com/06e32edde0b6156d0e8c59788fd14812.png)](https://i.gyazo.com/06e32edde0b6156d0e8c59788fd14812.png)
+[![スライドの資料](/img/news/screencast-on-railstutorialjp-03.png)](/img/news/screencast-on-railstutorialjp-03.png)
 
 
 ## 📜 すでに購入している方
