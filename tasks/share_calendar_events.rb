@@ -3,68 +3,40 @@
 
 require 'google/apis/calendar_v3'
 require 'googleauth'
-require 'googleauth/stores/file_token_store'
+require 'googleauth/token_store'
 
 require 'slack/incoming/webhooks'
 
-require 'fileutils'
 require 'multi_json'
+require 'yaml'
 
 OOB_URI          = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'Ruby Quickstart'
 SCOPE = Google::Apis::CalendarV3::AUTH_CALENDAR_READONLY
 
-# Notify to '#sandbox' if given arguments are matched.
-is_test = false
-case ARGV[0]
-when 'SANDBOX' then
-  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR_SANDBOX']
-when 'TEST' then
-  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR_SANDBOX']
-  is_test = true
-else
-  # Notify in production.
-  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR']
-end
+# Token store backed by the YAML in ENV["GOOGLE_TOKENS"]. Keeps the tokens in
+# memory so that they are never written to disk (not even temporarily).
+class EnvTokenStore < Google::Auth::TokenStore
+  def initialize(yaml)
+    @store = YAML.safe_load(yaml)
+  end
 
-# TODO: Want to load from ENV but needs to call YAML::Store for auth
-module Google
-  module Auth
-    module Stores
-      # Implementation of user token storage backed by a local YAML file
-      #class FileTokenStore < Google::Auth::TokenStore
-      class FileTokenStore
-        # @param [String, File] file
-        #  Path to storage file
-        #def initialize(options = {})
-        #  path   = options[:file]
-        #  @store = YAML::Store.new(path)
-        #end
+  def load(id)
+    @store[id]
+  end
 
-        # Implementation of user token storage backed by env variable with YAML format
-        def initialize(options = {})
-          token_path = options[:file]
-          @store = YAML::Store.new(token_path)
+  def store(id, token)
+    @store[id] = token
+  end
 
-          # TODO: Want to call like this but failed. Need to investigate YAML::Store
-          # @store = YAML.load(ENV["GOOGLE_TOKENS"].gsub("%", "\'"))
-        end
-        # Create a new store with the supplied file.
-      end
-    end
+  def delete(id)
+    @store.delete(id)
   end
 end
 
-TOKEN_PATH = File.join("./", 'tmp', "calendar-tokens.yaml")
 def authorize
-  client_id = Google::Auth::ClientId.from_hash(MultiJson.load(ENV["GOOGLE_SECRETS"]))
-
-  FileUtils.mkdir_p(File.dirname TOKEN_PATH)
-  File.open(TOKEN_PATH, "w") do |f|
-    y = ENV["GOOGLE_TOKENS"].gsub("%", "\'")
-    f.write y
-  end
-  token_store = Google::Auth::Stores::FileTokenStore.new(file: TOKEN_PATH)
+  client_id   = Google::Auth::ClientId.from_hash(MultiJson.load(ENV["GOOGLE_SECRETS"]))
+  token_store = EnvTokenStore.new(ENV["GOOGLE_TOKENS"].gsub("%", "\'"))
   authorizer  = Google::Auth::UserAuthorizer.new(client_id, SCOPE, token_store)
 
   user_id     = 'default' # Set 'key' of yaml file
@@ -81,12 +53,25 @@ def authorize
   #    user_id: user_id, code: code, base_url: OOB_URI)
   #end
 
-  # Override text before file deletion to delete completely
-  File.open(TOKEN_PATH, "w") {|f| f.write 'SECRETS!' }
-  File.delete(TOKEN_PATH)
-
   credentials
 end
+
+# Load the definitions above only when required from specs
+return unless __FILE__ == $PROGRAM_NAME
+
+# Notify to '#sandbox' if given arguments are matched.
+is_test = false
+case ARGV[0]
+when 'SANDBOX' then
+  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR_SANDBOX']
+when 'TEST' then
+  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR_SANDBOX']
+  is_test = true
+else
+  # Notify in production.
+  slack = Slack::Incoming::Webhooks.new ENV['SLACK_CALENDAR']
+end
+
 
 # Initialize the API
 service = Google::Apis::CalendarV3::CalendarService.new
@@ -115,7 +100,7 @@ responses.each do |response|
   response.items.each do |event|
     # Skip cancelled events (e.g., deleted instances of recurring events)
     next if event.status == 'cancelled'
-    
+
     next if event.start.nil?
     start = "00:00"  if event.start.date
     start = start    || event.start.date_time.strftime("%H:%M")
