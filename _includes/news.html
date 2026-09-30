@@ -31,7 +31,7 @@
   <a class="news-card" href="{{ news_href }}" data-proofer-ignore{{ news_target }}>
     {% if news_image %}
     <span class="news-image">
-      <img src="/img/spinner.svg" data-src="{{ news_image }}" alt="{{ news.title | escape }}" class="lazyload" loading="lazy">
+      <img src="{{ news_image }}" alt="{{ news.title | escape }}" loading="lazy">
     </span>
     {% else %}
     <span class="news-image news-image-placeholder">

@@ -19,7 +19,7 @@ description: YassLab 社のロゴ画像や名称を使用する際の注意点�
 掲載媒体の制約などで長方形ロゴが使用しづらい場面があれば、下記の正方形のロゴ画像をご使用ください。
 
 <div class="text-center">
-  <img src="/img/spinner.svg" data-src="/img/logos/500x500.png" alt="青背景で正方形のロゴ" width="40%" class="lazyload" />
+  <img src="/img/logos/500x500.png" alt="青背景で正方形のロゴ" width="40%" loading="lazy" />
 </div>
 
 <br>
@@ -31,7 +31,7 @@ description: YassLab 社のロゴ画像や名称を使用する際の注意点�
 ![白背景で長方形のロゴ](/img/logos/1076x389_white.jpg)
 
 <div class="text-center">
-  <img src="/img/spinner.svg" data-src="/img/logos/1000x1000_white.png" alt="白背景で正方形のロゴ" width="40%" class="lazyload" />
+  <img src="/img/logos/1000x1000_white.png" alt="白背景で正方形のロゴ" width="40%" loading="lazy" />
 </div>
 
 <br>
@@ -52,8 +52,8 @@ description: YassLab 社のロゴ画像や名称を使用する際の注意点�
 
 <center>
   <a href="https://drive.google.com/drive/folders/1kp3jX7n-c1JIpzlRigfZQFPM2bwGtrOF" target='_blank'>
-    <img src="/img/logos-on-drive.min.png" data-src="/img/logos-on-drive.png" width="100%"
-     alt="公開ロゴデータ - Google Drive" class="lazyload" loading="lazy">
+    <img src="/img/logos-on-drive.png" width="100%"
+     alt="公開ロゴデータ - Google Drive" loading="lazy">
   </a>
 
   <a href="https://drive.google.com/drive/folders/1kp3jX7n-c1JIpzlRigfZQFPM2bwGtrOF" target='_blank'>

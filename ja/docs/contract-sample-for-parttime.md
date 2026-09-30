@@ -9,7 +9,7 @@ title:  雇用契約書サンプル (パートタイム社員向け)
 
 <blockquote style="padding-top: 15px; font-style: normal;">パートタイム社員を対象とした雇用契約書のサンプルです。</blockquote>
 
-<img width="100%" src="/img/spinner.svg" data-src="/ja/docs/contract-sample-for-parttime.jpg" alt="雇用契約書サンプル (パートタイム社員向け)" class="lazyload" />
+<img width="100%" src="/ja/docs/contract-sample-for-parttime.jpg" alt="雇用契約書サンプル (パートタイム社員向け)" />
 
 ### 関連リンク
 
