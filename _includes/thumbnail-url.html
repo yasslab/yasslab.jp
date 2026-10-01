@@ -1,0 +1,12 @@
+{%- comment -%} ページ冒頭の背景画像の URL。thumbnail.html と、header.html の preload で使う {%- endcomment -%}
+{%- if page.thumbnail -%}
+  {%- if page.url contains '/ja/news' -%}
+/img/bg-sky.jpg
+  {%- elsif page.thumbnail contains 'http' -%}
+{{ page.thumbnail }}
+  {%- else -%}
+/img/{{ page.thumbnail }}
+  {%- endif -%}
+{%- else -%}
+/img/bg-sky.jpg
+{%- endif -%}
