@@ -168,8 +168,25 @@ rescue URI::InvalidURIError
   nil
 end
 
+# note.com の画像配信は format=webp を付けると WebP に変換して返す。
+# PNG のままだとトップページの「お知らせ」のサムネイルが 1 枚 40〜125 KB になる。
+NOTE_IMAGE_HOST = 'assets.st-note.com'
+
+def webp_image_url(image_url)
+  uri = URI(image_url)
+  return image_url unless uri.host == NOTE_IMAGE_HOST
+
+  query = URI.decode_www_form(uri.query.to_s).to_h.merge('format' => 'webp', 'quality' => '80')
+  uri.query = URI.encode_www_form(query)
+  uri.to_s
+rescue URI::InvalidURIError
+  image_url
+end
+
 def image_extension(image_url)
-  ext = File.extname(URI(image_url).path).downcase
+  uri    = URI(image_url)
+  format = URI.decode_www_form(uri.query.to_s).to_h['format']
+  ext    = format ? ".#{format.downcase}" : File.extname(uri.path).downcase
   %w[.jpg .jpeg .png .webp .gif].include?(ext) ? ext : '.jpg'
 rescue URI::InvalidURIError
   '.jpg'
@@ -179,6 +196,7 @@ def download_note_image(agent, note_url, image_url)
   key = note_key(note_url)
   return unless key && image_url
 
+  image_url = webp_image_url(image_url)
   filename  = "note-#{key}#{image_extension(image_url)}"
   file_path = File.join(NEWS_IMAGE_DIR, filename)
 

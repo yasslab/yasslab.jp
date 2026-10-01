@@ -226,3 +226,32 @@ describe '#normalize_title' do
     expect(normalize_title(nil)).to be_nil
   end
 end
+
+# note.com のカバー画像は PNG だと 1 枚 40〜125 KB あり、トップページの「お知らせ」に
+# 10 枚並ぶ。画像配信は format=webp を付けると WebP で返すので、それを保存する。
+describe '#webp_image_url' do
+  let(:og_image) do
+    'https://assets.st-note.com/production/uploads/images/311219212/' \
+      'rectangle_large_type_2_8f94ba52864b4e2b0d633f960783db7c.png?fit=bounds&quality=85&width=1280'
+  end
+
+  it 'asks the note.com image server for WebP, keeping the size parameters' do
+    query = URI.decode_www_form(URI(webp_image_url(og_image)).query).to_h
+    expect(query).to include('format' => 'webp', 'quality' => '80', 'fit' => 'bounds', 'width' => '1280')
+  end
+
+  it 'leaves images on other hosts unchanged' do
+    url = 'https://example.com/cover.png'
+    expect(webp_image_url(url)).to eq(url)
+  end
+end
+
+describe '#image_extension' do
+  it 'follows the format parameter of the image server' do
+    expect(image_extension('https://assets.st-note.com/a/b.png?format=webp&width=1280')).to eq('.webp')
+  end
+
+  it 'falls back to the extension in the path' do
+    expect(image_extension('https://example.com/cover.png')).to eq('.png')
+  end
+end
