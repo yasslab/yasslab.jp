@@ -6,11 +6,11 @@ layout: plain_without_thumbnail
   <div class="jumbotron">
     <picture>
       <!--<source media="(max-width: 600px)" srcset="/img/cover-photo-mobile.jpg">-->
-      <img src="/img/cover-photo.min.webp" data-src="/img/cover-photo.webp" width="100%"
-       alt="{{ site.company.vision }}" class="lazyload" loading="lazy">
+      <img src="/img/cover-photo.webp" width="100%"
+       alt="{{ site.company.vision }}">
     </picture>
     <div class="logo-catch">
-      <!-- <img src="/img/spinner.svg" data-src="/img/icons/yasslab.svg" width="270" alt="YassLab Logo" class="lazyload" loading="lazy"> -->
+      <!-- <img src="/img/icons/yasslab.svg" width="270" alt="YassLab Logo" loading="lazy"> -->
       <h1>{{ site.company.vision }}</h1>
     </div>
   </div>
@@ -35,7 +35,7 @@ layout: plain_without_thumbnail
         <div class="row">
           <div class="col-md-4 offset-md-1">
             <a href="https://railstutorial.jp/" target="_blank">
-        <img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-tutorial.webp"
+        <img class="books" src="/img/logos/rails-tutorial.webp"
                alt="Ruby on Rails チュートリアル" loading="lazy"></a>
         <a href="https://railstutorial.jp/" target="_blank">
     <h4>Railsチュートリアル</h4></a>
@@ -48,7 +48,7 @@ layout: plain_without_thumbnail
           </div>
           <div class="col-md-4 offset-md-2">
             <a href="https://railsguides.jp/" target="_blank">
-              <img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-guides.webp"
+              <img class="books" src="/img/logos/rails-guides.webp"
          alt="Ruby on Rails ガイド" loading="lazy">
             </a>
       <a href="https://railsguides.jp/" target="_blank"><h4>Railsガイド</h4></a>
@@ -89,22 +89,22 @@ layout: plain_without_thumbnail
         <div class="row mb-5">
           <div class="col-4">
             <figure id="ruby">
-              <img src="/img/spinner.svg" data-src="/img/icons/ruby-pale.png" width="80%" alt="Ruby logo"
-              class="lazyload" loading="lazy" />
+              <img src="/img/icons/ruby-pale.png" width="80%" alt="Ruby logo"
+              loading="lazy" />
               <figcaption>Ruby / Rails</figcaption>
             </figure>
           </div>
           <div class="col-4">
             <figure id="cloud">
-              <img src="/img/spinner.svg" data-src="/img/icons/cloud-pale.png" width="80%"
-             alt="cloud icon" class="lazyload" loading="lazy" />
+              <img src="/img/icons/cloud-pale.png" width="80%"
+             alt="cloud icon" loading="lazy" />
               <figcaption>Heroku / AWS</figcaption>
             </figure>
           </div>
           <div class="col-4">
             <figure id="agile">
-              <img src="/img/spinner.svg" data-src="/img/icons/agile-pale.png" width="80%"
-             alt="Agile Development image" class="lazyload" loading="lazy" />
+              <img src="/img/icons/agile-pale.png" width="80%"
+             alt="Agile Development image" loading="lazy" />
               <figcaption>Agile Development</figcaption>
             </figure>
           </div>
@@ -174,7 +174,7 @@ layout: plain_without_thumbnail
       <div class="col-6">
         <div class="card card__qiita">
           <div class="card__icon">
-            <a href="https://qiita.com/organizations/yasslab"><img src="/img/spinner.svg" data-src="/img/logos/qiita.png" alt="YassLab organization in Qiita" class="lazyload" loading="lazy"></a>
+            <a href="https://qiita.com/organizations/yasslab"><img src="/img/logos/qiita.png" alt="YassLab organization in Qiita" loading="lazy"></a>
           </div>
           <dl class="row">
             <dt class="col-md-6">投稿数</dt>
@@ -187,7 +187,7 @@ layout: plain_without_thumbnail
       <div class="col-6">
         <div class="card card__github">
           <div class="card__icon">
-            <a href="https://github.com/yasslab"><img src="/img/spinner.svg" data-src="/img/logos/github.png" alt="Yasslab organization in GitHub" class="lazyload" loading="lazy"></a>
+            <a href="https://github.com/yasslab"><img src="/img/logos/github.png" alt="Yasslab organization in GitHub" loading="lazy"></a>
           </div>
           <dl class="row">
             <dt class="col-md-6">リポジトリ数</dt>
@@ -211,15 +211,15 @@ layout: plain_without_thumbnail
           <div class="col-md-4">
 	    <figure>
               <a href="https://jr.mitou.org/" target="_blank">
-                <img src="/img/spinner.svg" data-src="/img/logos/mitoujr.webp" alt="未踏ジュニア - 独創的アイデアと卓越した技術を持つ小中高生クリエイター支援プログラム" class="lazyload" loading="lazy">
+                <img src="/img/logos/mitoujr.webp" alt="未踏ジュニア - 独創的アイデアと卓越した技術を持つ小中高生クリエイター支援プログラム" loading="lazy">
               </a>
               <figcaption><a href="https://jr.mitou.org/#sponsors">Webサービス開発教材の提供</a></figcaption>
             </figure>
 	    <!--
             <figure>
               <a href="https://ruby.okinawa/" target="_blank">
-                <img src="/img/spinner.svg" data-src="/img/logos/okinawarb.gif"
-         alt="Okinawa Ruby User Group" class="lazyload" loading="lazy">
+                <img src="/img/logos/okinawarb.gif"
+         alt="Okinawa Ruby User Group" loading="lazy">
               </a>
               <figcaption><a href="https://ruby.okinawa/okrk02/">沖縄Ruby会議などの運営支援</a></figcaption>
             </figure>
@@ -228,8 +228,8 @@ layout: plain_without_thumbnail
           <div class="col-md-4">
             <figure>
               <a href="/ja/doorkeeper">
-                <img src="/img/spinner.svg" data-src="/img/logos/doorkeeper.webp"
-         alt="Doorkeeper スポンサーシップ" class="lazyload" loading="lazy">
+                <img src="/img/logos/doorkeeper.webp"
+         alt="Doorkeeper スポンサーシップ" loading="lazy">
               </a>
               <figcaption><a href="/ja/doorkeeper">イベント管理サービス代の補助</a></figcaption>
             </figure>
@@ -237,9 +237,9 @@ layout: plain_without_thumbnail
           <div class="col-md-4">
             <figure>
               <a href="/ja/about#culture" target="_blank">
-                <img src="/img/spinner.svg" data-src="/img/logos/coderdojo-japan.webp"
+                <img src="/img/logos/coderdojo-japan.webp"
          alt="CoderDojo Japan - 子どものためのプログラミング道場"
-         class="lazyload" loading="lazy">
+         loading="lazy">
               </a>
               <figcaption><a href="/ja/about#culture">Webサービスの開発支援</a></figcaption>
             </figure>

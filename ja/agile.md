@@ -16,7 +16,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
           <h1 class="mb-5">月額制の<br class="ignore-sp">Ruby/Rails 開発支援</h1>
 	  <h3 class="mb-5" style='line-height: 1.8em'>経験豊富なチームで<br>御社の開発をサポートします</h3>
         </div>
-	<img src="/img/spinner.svg" data-src="/img/team.webp" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload">
+	<img src="/img/team.webp" alt="チーム開発イメージ" class="mt-3 mb-5">
 
 	<!--
 	<blockquote style="padding-top: 10px; font-style: normal;"><center><h2 style="padding-bottom: 0px; margin-bottom: 0px;"><b>新規受付停止のお知らせ</b></h2></center>
@@ -40,31 +40,31 @@ title:  月額制の Ruby/Rails 開発支援サービス
 
       <div class="col">
 	<a href="https://www.ruby-lang.org/" target="_blank">
-          <img src="/img/spinner.svg" data-src="/img/icons/ruby.png" width="80%" alt="Ruby logo" class="lazyload" /></a><br>
+          <img src="/img/icons/ruby.png" width="80%" alt="Ruby logo" loading="lazy" /></a><br>
           Ruby / Rails
       </div> <!--//col-->
 
       <div class="col">
-        <img src="/img/spinner.svg" data-src="/img/icons/test.png" width="80%" alt="test icon" class="lazyload" /><br>Test
+        <img src="/img/icons/test.png" width="80%" alt="test icon" loading="lazy" /><br>Test
       </div>  <!--//col-->
 
       <div class="col">
         <a href="https://github.com/" target="_blank">
-          <img src="/img/spinner.svg" data-src="/img/icons/git.png" width="80%" alt="Git logo" class="lazyload" /></a><br>Git / GitHub
+          <img src="/img/icons/git.png" width="80%" alt="Git logo" loading="lazy" /></a><br>Git / GitHub
       </div>  <!--//col-->
 
       <div class="w-100"></div>
 
       <div class="col">
-        <img src="/img/spinner.svg" data-src="/img/icons/cloud.png" width="80%" alt="cloud icon" class="lazyload" /><br>Heroku / AWS
+        <img src="/img/icons/cloud.png" width="80%" alt="cloud icon" loading="lazy" /><br>Heroku / AWS
       </div> <!--//col-->
 
       <div class="col">
-        <img src="/img/spinner.svg" data-src="/img/icons/gear.png" width="80%" alt="Continuous Integration image" class="lazyload" /><br>Continuous Integration
+        <img src="/img/icons/gear.png" width="80%" alt="Continuous Integration image" loading="lazy" /><br>Continuous Integration
       </div>  <!--//col-->
 
       <div class="col">
-        <img src="/img/spinner.svg" data-src="/img/icons/agile.png" width="80%" alt="Agile Web Development image" class="lazyload" /><br>Agile Web Development
+        <img src="/img/icons/agile.png" width="80%" alt="Agile Web Development image" loading="lazy" /><br>Agile Web Development
       </div>  <!--//col-->  
 
       <div class="col-md-12">
@@ -83,7 +83,7 @@ title:  月額制の Ruby/Rails 開発支援サービス
         <p>弊社では、IPAが公開しているアジャイル開発向けのモデル契約 (基本 + 個別契約) をベースにしております。</p>
 
         <div>
-	  <img src="/img/spinner.svg" data-src="/img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" class="lazyload" />
+	  <img src="/img/contract-img.gif" alt="基本/個別契約モデルの概要" width="100%" loading="lazy" />
 	  <br><br>
           <center>参考: <a href="https://www.ipa.go.jp/digital/model/agile20200331.html">アジャイル開発向けモデル契約案について</a> (IPA)</center>
 	</div>
@@ -138,15 +138,15 @@ title:  月額制の Ruby/Rails 開発支援サービス
 
         <table class="caption" style="margin-top: 30px;">
           <tr>
-            <th><img src="/img/spinner.svg" data-src="/img/agile-available.png" alt="Available" class="lazyload" /></th>
+            <th><img src="/img/agile-available.png" alt="Available" loading="lazy" /></th>
             <td>現在ご対応が可能です。ご相談お待ちしております。</td>
           </tr>
           <tr>
-            <th><img src="/img/spinner.svg" data-src="/img/agile-adjusting.png" alt="Adjusting" class="lazyload" /></th>
+            <th><img src="/img/agile-adjusting.png" alt="Adjusting" loading="lazy" /></th>
             <td>各社と予定調整中です。まだ受付中ですので、お気軽に<a href="#contact">お問い合わせ</a>ください。</td>
           </tr>
           <tr>
-            <th><img src="/img/spinner.svg" data-src="/img/agile-reserved.png"  alt="Reserved" class="lazyload" /></th>
+            <th><img src="/img/agile-reserved.png"  alt="Reserved" loading="lazy" /></th>
             <td>受付を停止しました。様々なお問い合わせ、ありがとうございました。</td>
           </tr>
         </table>

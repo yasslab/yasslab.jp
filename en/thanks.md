@@ -33,7 +33,7 @@ lang:   en
           <div class="row">
             <div class="col-md-4 offset-md-1">
 	      <a href="https://railstutorial.jp/" target="_blank">
-		<img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-tutorial.webp"
+		<img class="books" src="/img/logos/rails-tutorial.webp"
 		 alt="Ruby on Rails Tutorial in Japanese" loading="lazy"></a>
 		<a href="https://railstutorial.jp/" target="_blank">
 		  <button class="btn btn-ruby">railstutorial.jp</button></a>
@@ -43,7 +43,7 @@ lang:   en
 
             <div class="col-md-4 offset-md-2">
               <a href="https://railsguides.jp/" target="_blank">
-		<img class="books lazyload" src="/img/spinner.svg" data-src="/img/logos/rails-guides.webp"
+		<img class="books" src="/img/logos/rails-guides.webp"
 	         alt="Ruby on Rails Guides in Japanese" loading="lazy"></a>
 		<a href="https://railsguides.jp/" target="_blank">
 		  <button class="btn btn-ruby">railsguides.jp</button></a>

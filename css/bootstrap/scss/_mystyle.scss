@@ -144,16 +144,6 @@ img {
   border-radius: 5px;
 }
 
-/* Lazyload with fade animation */
-.lazyload,
-.lazyloading {
-  opacity: 0.6;
-}
-.lazyloaded {
-  opacity: 1;
-  transition: opacity 300ms;
-}
-
 img.cover {
   opacity: 1.0;
   transition: opacity 0.5s;

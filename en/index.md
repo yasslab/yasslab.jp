@@ -33,40 +33,40 @@ lang:   en
 We are 100% remote team. We work remotely using tech services like GitHub, Zoom, and Google Workspace, etc.
 <div class="row">
   <div class="col-md-12">
-    <img src="/img/spinner.svg" data-src="/img/team.webp" alt="YassLab Team Photos" class="mt-3 mb-5 lazyload" loading="lazy">
+    <img src="/img/team.webp" alt="YassLab Team Photos" class="mt-3 mb-5" loading="lazy">
   </div><!--//col12-->
 </div><!--//row-->
 <div class="video">
-  <iframe width="560" height="315" src="/img/spinner.svg" data-src="https://www.youtube.com/embed/mzOc4iUZtuE?rel=0" class="lazyload" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mzOc4iUZtuE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
 </div>
 <br><br>
 <hr id='ceo'>
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
-    <img src="/img/spinner.svg" data-src="/img/photos/yasulab.webp" alt="Photo of Yohei Yasukawa" class="rounded-circle lazyload" loading="lazy" width='300px' height='300px'>
+    <img src="/img/photos/yasulab.webp" alt="Photo of Yohei Yasukawa" class="rounded-circle" loading="lazy" width='300px' height='300px'>
   </div>
   <div class="profile__role text-center mb-2">CEO of YassLab Inc.</div>
   <h4 class="text-center mb-3 h3deco-none">Yohei Yasukawa</h4>
   <ul class="profile__sns mb-3">
     <li class="profile__sns__icon">
-      <a href="https://www.facebook.com/yasulab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook"></a>
+      <a href="https://www.facebook.com/yasulab" target="_blank"><img loading="lazy" src="/img/icons/facebook.png" alt="Facebook"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://twitter.com/yasulab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter"></a>
+      <a href="https://twitter.com/yasulab" target="_blank"><img loading="lazy" src="/img/icons/twitter.png" alt="Twitter"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://github.com/yasulab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub"></a>
+      <a href="https://github.com/yasulab" target="_blank"><img loading="lazy" src="/img/icons/github.png" alt="GitHub"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://www.linkedin.com/in/yasulab/" target="_blank"><img loading="lazy" src="/img/icons/linkedin.png" alt="LinkedIn"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://qiita.com/yasulab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
+      <a href="https://qiita.com/yasulab" target="_blank"><img loading="lazy" src="/img/icons/qiita.png" alt="Qiita"></a>
     </li>
   </ul>
   <a href='https://researchmap.jp/yasulab?lang=en' target='_blank'>
-    <img title="researchmap - Researcher Database by Japan's National Institute of Informatics (NII)" alt='researchmap logo' class='lazyload'
-     style='border-radius: 0px; margin: 15px auto 50px;' src='/img/spinner.svg' data-src='/img/researchmap.gif' />
+    <img title="researchmap - Researcher Database by Japan's National Institute of Informatics (NII)" alt='researchmap logo'
+     style='border-radius: 0px; margin: 15px auto 50px;' src='/img/researchmap.gif' loading="lazy" />
   </a>
 </div>
 He earned a Master of Engineering in Computer Science from [Waseda University](https://en.wikipedia.org/wiki/Waseda_University) and studied abroad at [Monmouth College](https://en.wikipedia.org/wiki/Monmouth_College) in Illinois, USA. Upon returning to Japan, he founded YassLab, a fully remote company specializing in the development of web-based learning materials&mdash;most notably the [Japanese Rails Tutorial and Japanese Rails Guides](#products)&mdash;and providing these resources as corporate services for [universities and employee training programs](#clients_and_partners).
@@ -100,24 +100,24 @@ Motivated by a desire to provide more opportunities for young people to learn no
   - [Mitou Junior](https://jr.mitou.org/english/) (Providing learning resources for young creators)
 <div class="col-md-12 profile mt-5" id="profile">
   <div class="profile__image text-center mb-2">
-    <img src="/img/spinner.svg" data-src="/img/yasslab.webp" alt="Logo of YassLab Inc." class="rounded-circle lazyload" loading="lazy" width='300px' height='300px'>
+    <img src="/img/yasslab.webp" alt="Logo of YassLab Inc." class="rounded-circle" loading="lazy" width='300px' height='300px'>
   </div>
   <h4 class="text-center mb-3 h3deco-none">Official Accounts</h4>
   <ul class="profile__sns mb-3">
     <li class="profile__sns__icon">
-      <a href="https://www.facebook.com/yasslab.jp" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/facebook.png" alt="Facebook"></a>
+      <a href="https://www.facebook.com/yasslab.jp" target="_blank"><img loading="lazy" src="/img/icons/facebook.png" alt="Facebook"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://twitter.com/YassLab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/twitter.png" alt="Twitter"></a>
+      <a href="https://twitter.com/YassLab" target="_blank"><img loading="lazy" src="/img/icons/twitter.png" alt="Twitter"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://github.com/yasslab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/github.png" alt="GitHub"></a>
+      <a href="https://github.com/yasslab" target="_blank"><img loading="lazy" src="/img/icons/github.png" alt="GitHub"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://qiita.com/organizations/yasslab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/qiita.png" alt="Qiita"></a>
+      <a href="https://qiita.com/organizations/yasslab" target="_blank"><img loading="lazy" src="/img/icons/qiita.png" alt="Qiita"></a>
     </li>
     <li class="profile__sns__icon">
-      <a href="https://youtube.com/yasslab" target="_blank"><img class="lazyload" loading="lazy" src="/img/spinner.svg" data-src="/img/icons/youtube.png" alt="YouTube"></a>
+      <a href="https://youtube.com/yasslab" target="_blank"><img loading="lazy" src="/img/icons/youtube.png" alt="YouTube"></a>
     </li>
   </ul>
 </div>

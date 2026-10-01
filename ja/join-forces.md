@@ -9,7 +9,7 @@ title:  弊社をご検討されている皆さんへ
         <div class="text-center">
           <h1 class="text-center mb-5">弊社をご検討されている<br class="ignore-pc">皆さんへ</h1>
         </div>
-        <img src="/img/spinner.svg" data-src="/img/team.webp" alt="チーム開発イメージ" class="mt-3 mb-5 lazyload" loading="lazy">
+        <img src="/img/team.webp" alt="チーム開発イメージ" class="mt-3 mb-5">
       </div><!--//col12-->
     </div><!--//row-->
     <div class="row"> 
@@ -54,8 +54,8 @@ title:  弊社をご検討されている皆さんへ
 	  YassLab 社の日常</a>
 	</h2>
 	<div class="video">
-	  <iframe width="560" height="315" data-src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
-	   class="lazyload" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ0y2eOLC4I?rel=0"
+	   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
 	</div>
 	<br><br>
 	<div>
@@ -83,7 +83,7 @@ title:  弊社をご検討されている皆さんへ
 	    🎓 Ruby on Railsチュートリアル
 	    <small>(自社開発)</small>
 	  </a>
-	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/spinner.svg" data-src="/img/header-railstutorial.png" class="lazyload" loading="lazy" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://railstutorial.jp/"><img alt="Ruby on Rails チュートリアル：実例を使って Rails を学ぼう" src="/img/header-railstutorial.png" loading="lazy" /></a></div>
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://railstutorial.jp/">https://railstutorial.jp/</a></li>
@@ -105,7 +105,7 @@ title:  弊社をご検討されている皆さんへ
 	    📕 Ruby on Railsガイド
 	    <small>(自社開発)</small>
 	  </a>
-	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/spinner.svg" data-src="/img/header-railsguides.png" class="lazyload" loading="lazy" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://railsguides.jp/"><img alt="Ruby on Rails ガイド：体系的に Rails を学ぼう" src="/img/header-railsguides.png" loading="lazy" /></a></div>
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://railsguides.jp/">https://railsguides.jp/</a></li>
@@ -127,7 +127,7 @@ title:  弊社をご検討されている皆さんへ
 	    ☯️ coderdojo.jp の開発
 	    <small><small>(準委任開発)</small></small>
 	  </a>
-	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/spinner.svg" data-src="/img/header-coderdojo-japan.png" class="lazyload" loading="lazy" /></a></div>
+	  <div style="padding-top: 30px;"><a href="https://coderdojo.jp/"><img alt="CoderDojo Japan - 子どものためのプログラミング道場" src="/img/header-coderdojo-japan.png" loading="lazy" /></a></div>
 	</h3>
 	<ul>
 	  <li>Webサイト: <a href="https://coderdojo.jp/">https://coderdojo.jp/</a></li>
@@ -150,7 +150,7 @@ title:  弊社をご検討されている皆さんへ
 	  応募から採用までの流れ
 	</a></h2>
 	<p>会社について詳しく知ってもらったり、あるいは会社側がその人を詳しく知るためには、一緒に何かをやってみるのが早いと考えています。そこで YassLab 社では、まずは弊社が携わっている OSS で一緒に開発するスタイルを採用しています。</p>
-	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/spinner.svg" data-src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" class="lazyload" loading="lazy" /></a></p>
+	<p><a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287"><img src="/img/figures/flow-sample.png" alt="チーム開発の例" width="100%" loading="lazy" /></a></p>
 	<center>OSSリポジトリ上でチーム開発する例 (<a href="https://github.com/coderdojo-japan/coderdojo.jp/pull/287">詳細</a>)</center>
 	<p>例えば2018年2月21日にパートタイムで入社した <a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> さんの場合、まずは CoderDojo Japan の開発を１ヶ月ほど一緒に進めてみて、その後、契約を更新するかどうか判断するというステップを踏みました。</p>
 	<ul>
@@ -180,14 +180,14 @@ title:  弊社をご検討されている皆さんへ
 	  <li><a href='https://toyokeizai.net/articles/-/325207?page=3'>📰
 	    初心者プログラマーが飛躍的に上達できたコツ - 週刊東洋経済</a></li>
 	  <a href='https://toyokeizai.net/articles/-/325207?page=3'>
-	    <img class='cover lazyload' alt="体験談記事のカード (自作)" src='/img/spinner.svg' data-src='/img/news/join-forces-01.png' src='/img/spinner.svg' loading="lazy" />
+	    <img class='cover' alt="体験談記事のカード (自作)" src='/img/news/join-forces-01.png' loading="lazy" />
 	  </a>
 	</ul>
 	<p>また弊社のリモートワーク制度や採用フローは、<a href='https://corp.en-japan.com/'>エン・ジャパン株式会社</a>が運営する『AMBI (アンビ)』にも寄稿記事として掲載されています。こちらも合わせてご参考になれば嬉しいです 🙇✨</p>
 	<ul style='list-style: none;'>
 	  <li><a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - AMBI</a></li>
 	</ul>
-	<a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/"><img class='lazyload' alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/spinner.svg' data-src='/img/engineer_hub.png' loading="lazy" /></a>
+	<a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/"><img alt='Web開発・オンボーディング・採用の実例に学ぶ、リモートワークのコミュニケーションと文書術 - エンジニアHub｜若手Webエンジニアのキャリアを考える！（エンジニアHub）' src='/img/engineer_hub.png' loading="lazy" /></a>
 	<div>
 	  <a href="https://en-ambi.com/itcontents/entry/2020/07/21/103000/">
             <button class="btn btn-primary external-link">寄稿記事を見る</button>

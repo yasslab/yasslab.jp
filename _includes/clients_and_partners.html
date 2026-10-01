@@ -22,9 +22,9 @@
         {% for cp in site.data.clients_and_partners %}
         <li class="item">
           <a href="{{ cp.link_to }}" target='_blank'>
-            <img  src="/img/spinner.svg" class="lazyload"
-	     data-src="{{ cp.image }}" alt="{{ cp.name }}"
-	     width="{{ cp.width | default: '100%' }}">
+            <img
+	     src="{{ cp.image }}" alt="{{ cp.name }}"
+	     width="{{ cp.width | default: '100%' }}" loading="lazy">
           </a>
         </li>
         {% endfor %}

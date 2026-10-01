@@ -22,7 +22,7 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
 
 そこで、Doorkeeper とコミュニティ、および弊社が共に発展していけるよう、Doorkeeper からの許諾を得た上で、弊社では次のような仕組みで Doorkeeper スポンサーシップの取り組みを始めました。
 
-<img src="/img/spinner.svg" data-src="/img/doorkeeper_sample.png" alt="Doorkeeper スポンサーシップの利用イメージ" class="lazyload">
+<img src="/img/doorkeeper_sample.png" alt="Doorkeeper スポンサーシップの利用イメージ" loading="lazy">
 
 <p class="text-center">図. Doorkeeper スポンサーシップの利用イメージ</p>
 
@@ -54,14 +54,14 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
 
 ##### [CoderDojo Japan のスポンサー紹介例](https://coderdojo-japan.doorkeeper.jp/events/121111) (オススメ)
 
-<p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/121111"><img src="/img/spinner.svg" data-src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%" class="lazyload"></a></p>
+<p class="imgfit text-center"><a href="https://coderdojo-japan.doorkeeper.jp/events/121111"><img src="/img/doorkeeper-sponsor-example-2.png" alt="CoderDojo Japan のスポンサー紹介例" width="100%" loading="lazy"></a></p>
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
 ```html
 <h1>スポンサー</h1>
 
 <div class="row justify-content-start no-gutters">
-  <div class="col-xs-3"><a href="https://yasslab.jp/"><img src="https://yasslab.jp/img/logos/500x500.png" alt="YassLab 株式会社" class="lazyload"></a></div>
+  <div class="col-xs-3"><a href="https://yasslab.jp/"><img src="https://yasslab.jp/img/logos/500x500.png" alt="YassLab 株式会社" loading="lazy"></a></div>
   <div class="col-xs-9"><b><a href="https://yasslab.jp/">YassLab 株式会社</a></b>
     <br><br>
     本イベントページは学びを支援する <a href="https://yasslab.jp/">YassLab 株式会社</a>が提供しております。詳細はコミュニティ運営者向け資料『<a href="https://yasslab.jp/ja/doorkeeper">Doorkeeper スポンサーシップ</a>』をご参照ください。
@@ -73,7 +73,7 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
 
 ##### [Okinawa.rb のスポンサー紹介例](https://okinawarb.doorkeeper.jp/events/77519)
 
-<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/spinner.svg" data-src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%" class="lazyload"></a></p>
+<p class="imgfit text-center"><a href="https://okinawarb.doorkeeper.jp/events/77519"><img src="/img/doorkeeper-sponsor-example-1.png" alt="Okinawa.rb のスポンサー紹介例" width="100%" loading="lazy"></a></p>
 <p class="imgfit text-center">コピペ用コード (改変も可)</p>
 
 ```markdown
@@ -131,14 +131,14 @@ description: 本ページでは Doorkeeper 有償アカウント提供の取り�
 
 まずは、[主催しているコミュニティのページ](https://manage.doorkeeper.jp/user/administered_groups)から当該コミュニティをクリックし、コミュニティ管理画面に行ってください。その後、コミュニティ管理画面から『設定』→『管理者』→『新しい管理者を招待』と進み、YassLab アカウント (`doorkeeper@yasslab.jp`) を追加してください。すると弊社のアカウント宛にメールで通知が来るので、弊社の担当者が３営業日以内に承諾いたします。
 
-<img src="/img/spinner.svg" data-src="/img/doorkeeper_howto-1.png" alt="Doorkeeper 管理者の追加例" class="lazyload">
+<img src="/img/doorkeeper_howto-1.png" alt="Doorkeeper 管理者の追加例" loading="lazy">
 
 
 ### 2. オーナーの変更
 
 弊社アカウントが管理者になった後、同画面から『オーナーの変更』をクリックし、YassLab アカウントに対して『オーナー権限を委譲』してください。
 
-<img src="/img/spinner.svg" data-src="/img/doorkeeper_howto-2.png" alt="Doorkeeper オーナーの変更例" class="lazyload">
+<img src="/img/doorkeeper_howto-2.png" alt="Doorkeeper オーナーの変更例" loading="lazy">
 
 以上で手続きは完了です。以降、弊社が購入したイベント枠を利用することが可能になります 🎫 ✨
 
