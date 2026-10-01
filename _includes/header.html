@@ -112,6 +112,10 @@
     <!-- Load Font Awesome and Twemoji libraries. -->
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/82f32b9df5.js" ></script>
     <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js"></script>
+    {% if page.layout == 'english' %}
+    <!-- 英語トップは .catchCopy の背景画像が LCP になる。CSS から読まれるので、すぐ下にある提携先のロゴより先に読み込ませる -->
+    <link rel="preload" as="image" href="/img/bg-coding.webp" fetchpriority="high">
+    {% endif %}
   </head>
 <body>
 
