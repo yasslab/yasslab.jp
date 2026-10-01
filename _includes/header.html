@@ -116,6 +116,11 @@
     <!-- 英語トップは .catchCopy の背景画像が LCP になる。CSS から読まれるので、すぐ下にある提携先のロゴより先に読み込ませる -->
     <link rel="preload" as="image" href="/img/bg-coding.webp" fetchpriority="high">
     {% endif %}
+    {% assign thumbnail_layouts = 'default,doorkeeper,legal,news,plain,post' | split: ',' %}
+    {% if thumbnail_layouts contains page.layout %}
+    <!-- ページ冒頭の背景画像 (thumbnail.html) を、遅延読み込みの画像より先に読み込ませる -->
+    <link rel="preload" as="image" href="{% include thumbnail-url.html %}" fetchpriority="high">
+    {% endif %}
   </head>
 <body>
 
