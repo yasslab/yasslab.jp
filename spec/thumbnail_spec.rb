@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'liquid'
 
 # ページ冒頭の背景画像 (_includes/thumbnail.html) と、その preload (_includes/header.html)。
 # どちらも _includes/thumbnail-url.html で URL を求める。背景画像はインラインの CSS で
@@ -16,13 +17,33 @@ RSpec.describe 'Page header background' do
   def background(path) = File.read(path)[BACKGROUND, 1]
   def preloads(path)   = File.read(path).scan(PRELOAD).flatten - [CATCH_COPY]
 
-  describe 'URL' do
-    it 'uses bg-sky.jpg under /ja/news even when the post has its own thumbnail' do
-      expect(background('_site/ja/news/railstutorial-seminar-2019-autumn.html')).to eq('/img/bg-sky.jpg')
+  # 今のサイトでは背景画像がすべて bg-sky.jpg になり、ビルドした成果物からは
+  # /img/<thumbnail> と外部 URL の分岐を確かめられない。テンプレートを直接描画する
+  describe 'thumbnail-url.html' do
+    def thumbnail_url(page)
+      Liquid::Template.parse(File.read('_includes/thumbnail-url.html')).render('page' => page)
     end
 
-    it 'uses the thumbnail under /img/ outside /ja/news' do
-      expect(background('_site/en/news/index.html')).to eq('/img/bg-sky.jpg')
+    it 'uses bg-sky.jpg under /ja/news even when the page has its own thumbnail' do
+      expect(thumbnail_url('url' => '/ja/news/x', 'thumbnail' => 'photos/x.png')).to eq('/img/bg-sky.jpg')
+    end
+
+    it 'uses an external thumbnail as-is' do
+      expect(thumbnail_url('url' => '/ja/x', 'thumbnail' => 'https://example.com/x.png')).to eq('https://example.com/x.png')
+    end
+
+    it 'uses the thumbnail under /img/ otherwise' do
+      expect(thumbnail_url('url' => '/ja/x', 'thumbnail' => 'photos/x.png')).to eq('/img/photos/x.png')
+    end
+
+    it 'falls back to bg-sky.jpg when the page has no thumbnail' do
+      expect(thumbnail_url('url' => '/ja/x')).to eq('/img/bg-sky.jpg')
+    end
+  end
+
+  describe 'URL in the built site' do
+    it 'uses bg-sky.jpg under /ja/news even when the post has its own thumbnail' do
+      expect(background('_site/ja/news/railstutorial-seminar-2019-autumn.html')).to eq('/img/bg-sky.jpg')
     end
 
     it 'falls back to bg-sky.jpg when the page has no thumbnail' do
