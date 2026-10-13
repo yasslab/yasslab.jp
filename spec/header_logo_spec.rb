@@ -22,4 +22,9 @@ RSpec.describe 'Header logo link' do
   it 'links to the Japanese top page from pages without lang' do
     expect(logo_href('_site/ja/about.html')).to eq('/ja/')
   end
+
+  # 404 は lang: en だが、日本語のページの 404 にも返す (config.ru)。/ でブラウザの言語に任せる
+  it 'links to the root from the 404 page' do
+    expect(logo_href('_site/404.html')).to eq('/')
+  end
 end
