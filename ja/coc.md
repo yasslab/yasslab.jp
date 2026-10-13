@@ -1,4 +1,4 @@
 ---
 layout:      redirect
-redirect_to: /ja/code-of-conduct
+redirect_to: /ja/conduct
 ---

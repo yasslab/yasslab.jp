@@ -1,4 +1,5 @@
 ---
 layout:      redirect
+lang:        en
 redirect_to: /en/conduct
 ---

@@ -1,4 +1,5 @@
 ---
 layout:      redirect
-redirect_to: /en/code-of-conduct
+lang:        en
+redirect_to: /en/conduct
 ---
