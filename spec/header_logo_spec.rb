@@ -1,0 +1,30 @@
+require 'spec_helper'
+
+# ヘッダーのロゴ (_includes/header.html) は、英語のページでは英語のトップへ戻す
+RSpec.describe 'Header logo link' do
+  before(:all) do
+    system('bundle exec jekyll build') unless File.exist?('_site/en/agile.html')
+  end
+
+  LOGO_LINK = %r{<a href="([^"]*)">\s*<img src="/img/icons/yasslab-white.svg"}
+
+  def logo_href(path) = File.read(path)[LOGO_LINK, 1]
+
+  it 'links to the English top page from /en/' do
+    expect(logo_href('_site/en/index.html')).to eq('/en/')
+  end
+
+  it 'links to the English top page from pages under /en/' do
+    expect(logo_href('_site/en/agile.html')).to eq('/en/')
+  end
+
+  # ja/about.md には lang が無い。header.html の既定値 (ja) でリンク先が決まる
+  it 'links to the Japanese top page from pages without lang' do
+    expect(logo_href('_site/ja/about.html')).to eq('/ja/')
+  end
+
+  # 404 は lang: en だが、日本語のページの 404 にも返す (config.ru)。/ でブラウザの言語に任せる
+  it 'links to the root from the 404 page' do
+    expect(logo_href('_site/404.html')).to eq('/')
+  end
+end

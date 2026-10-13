@@ -149,8 +149,9 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark container">
     <h1>
-      <a href="/">
-        <img src="/img/icons/yasslab-white.svg" width="150" alt="ホーム" id="navbarLogo" />
+      <!-- 404 は本文が英語 (lang: en) だが、日本語のページの 404 にも返すので / でブラウザの言語に任せる -->
+      <a href="{% if page.url == '/404' %}/{% else %}/{{ lang }}/{% endif %}">
+        <img src="/img/icons/yasslab-white.svg" width="150" alt="Logo image of YassLab" id="navbarLogo" />
       </a>
     </h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
