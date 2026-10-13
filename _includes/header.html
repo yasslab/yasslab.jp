@@ -149,8 +149,8 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark container">
     <h1>
-      <a href="/">
-        <img src="/img/icons/yasslab-white.svg" width="150" alt="ホーム" id="navbarLogo" />
+      <a href="{% if lang == 'en' %}/en/{% else %}/{% endif %}">
+        <img src="/img/icons/yasslab-white.svg" width="150" alt="{% if lang == 'en' %}Home{% else %}ホーム{% endif %}" id="navbarLogo" />
       </a>
     </h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
