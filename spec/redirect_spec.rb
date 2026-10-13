@@ -79,6 +79,16 @@ RSpec.describe 'Redirect pages with anchor preservation' do
       end
     end
 
+    # HTML-Proofer は JS 内の URL を見ないので、行き先のページが消えても気づけない
+    it 'redirects to a page that exists' do
+      redirect_pages.each do |url, data|
+        target = data['redirect_to'].to_s.sub(/#.*/, '')
+        next unless target.start_with?('/')
+        files = ["_site#{target}.html", "_site#{target}/index.html"]
+        expect(files.any? { File.exist?(it) }).to be(true), "#{url} → #{target} does not exist"
+      end
+    end
+
     # / はブラウザの言語で振り分ける入口なので、リンクしてよい
     it 'is not linked from other pages except /' do
       linked = Dir.glob('_site/**/*.html').flat_map { |path|
