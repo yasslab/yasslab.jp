@@ -18,7 +18,7 @@ RSpec.describe 'Header logo link' do
     expect(logo_href('_site/en/agile.html')).to eq('/en/')
   end
 
-  it 'links to the root from Japanese pages' do
-    expect(logo_href('_site/ja/about.html')).to eq('/')
+  it 'links to the Japanese top page from Japanese pages' do
+    expect(logo_href('_site/ja/about.html')).to eq('/ja/')
   end
 end
