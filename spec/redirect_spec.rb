@@ -57,8 +57,9 @@ RSpec.describe 'Redirect pages with anchor preservation' do
 
   describe 'All redirect pages' do
     # ソースの front matter から { URL => front matter } を作る (例: ja/coc.md → /ja/coc)
+    # CI は gem を vendor/bundle に入れるので、git で管理しているファイルだけを読む
     def redirect_pages
-      @redirect_pages ||= Dir.glob('**/*.{md,html}').reject { it.start_with?('_site/') }.filter_map {
+      @redirect_pages ||= `git ls-files '*.md' '*.html'`.split("\n").filter_map {
         front_matter = File.read(it)[/\A---\n(.*?)\n---/m, 1] or next
         data = YAML.safe_load(front_matter)
         ['/' + it.sub(/(index)?\.(md|html)\z/, ''), data] if data['layout'] == 'redirect'
