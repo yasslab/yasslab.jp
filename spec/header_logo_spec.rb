@@ -18,7 +18,8 @@ RSpec.describe 'Header logo link' do
     expect(logo_href('_site/en/agile.html')).to eq('/en/')
   end
 
-  it 'links to the Japanese top page from Japanese pages' do
+  # ja/about.md には lang が無い。header.html の既定値 (ja) でリンク先が決まる
+  it 'links to the Japanese top page from pages without lang' do
     expect(logo_href('_site/ja/about.html')).to eq('/ja/')
   end
 end
