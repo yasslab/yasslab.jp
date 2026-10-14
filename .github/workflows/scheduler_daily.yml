@@ -85,6 +85,13 @@ jobs:
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
 
+    - name: ✅ Verify the release on Heroku
+      if: ${{ env.NEW_HOLIDAY == 'true' }}
+      run: ruby tasks/verify_heroku_release.rb "$(git rev-parse HEAD)"
+      env:
+        HEROKU_API_KEY:  ${{ secrets.HEROKU_API_KEY }}
+        HEROKU_APP_NAME: 'yasslab-jp'
+
     #- name: 🚨 Notify if tasks in GitHub Actions failed
     #  env:
     #    IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
