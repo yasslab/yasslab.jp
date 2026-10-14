@@ -18,12 +18,20 @@ module HerokuRelease
     end
   end
 
+  # ヘッダーは new に渡す。後から Range を足すと、Net::HTTP は gzip を求めたまま、
+  # Content-Range 付きの応答を解凍せずに返す。new の時点で Range があれば gzip を求めない
+  def self.request(app_name, api_key, max:)
+    Net::HTTP::Get.new(
+      URI("https://api.heroku.com/apps/#{app_name}/releases"),
+      'Accept'        => 'application/vnd.heroku+json; version=3',
+      'Authorization' => "Bearer #{api_key}",
+      'Range'         => "version ..; order=desc, max=#{max}"
+    )
+  end
+
   def self.recent(app_name, api_key, max: 5)
-    uri = URI("https://api.heroku.com/apps/#{app_name}/releases")
-    request = Net::HTTP::Get.new(uri)
-    request['Accept']        = 'application/vnd.heroku+json; version=3'
-    request['Authorization'] = "Bearer #{api_key}"
-    request['Range']         = "version ..; order=desc, max=#{max}"
+    request  = request(app_name, api_key, max: max)
+    uri      = request.uri
     response = Net::HTTP.start(uri.host, uri.port, use_ssl: true) { |http| http.request(request) }
     raise "Heroku API returned #{response.code}" unless response.is_a?(Net::HTTPSuccess)
     JSON.parse(response.body)
