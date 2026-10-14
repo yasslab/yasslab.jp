@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
     - name: ☑️ Checkout code
@@ -47,12 +47,15 @@ jobs:
   deploy:
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     needs: test
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
     - name: ☑️ Checkout code
       uses: actions/checkout@v5
       with:
         fetch-depth: 1
+
+    - name: 🟪 Set up Heroku CLI
+      uses: ./.github/actions/setup-heroku-cli
 
     - name: 🚀 Deploy to Heroku
       uses: akhileshns/heroku-deploy@v3.15.15

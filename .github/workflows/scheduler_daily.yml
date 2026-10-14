@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
     - name: ☑️ Checkout code
@@ -73,6 +73,10 @@ jobs:
       if: ${{ env.NEW_HOLIDAY == 'false' }}
       run: |
         echo "No new holiday(s) found."
+
+    - name: 🟪 Set up Heroku CLI
+      if: ${{ env.NEW_HOLIDAY == 'true' }}
+      uses: ./.github/actions/setup-heroku-cli
 
     - name: 🚀 Deploy to Heroku if recent article(s) found
       if: ${{ env.NEW_HOLIDAY == 'true' }}
