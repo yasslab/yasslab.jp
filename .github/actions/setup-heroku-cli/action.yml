@@ -10,9 +10,14 @@ runs:
       shell: bash
       run: |
         curl -fsSL https://cli-assets.heroku.com/channels/stable/apt/release.key \
-          | sudo gpg --dearmor -o /usr/share/keyrings/heroku.gpg
+          | sudo gpg --batch --yes --dearmor -o /usr/share/keyrings/heroku.gpg
         echo "deb [signed-by=/usr/share/keyrings/heroku.gpg] https://cli-assets.heroku.com/channels/stable/apt ./" \
           | sudo tee /etc/apt/sources.list.d/heroku.list > /dev/null
-        sudo apt-get update -qq
+        # Heroku のリポジトリだけを更新する。スケジューラでは記事などを main に push した後で動くので、
+        # 無関係なリポジトリの不調で落ちると、コミットは入ったのに本番へ届かない
+        sudo apt-get update -qq \
+          -o Dir::Etc::sourcelist=/etc/apt/sources.list.d/heroku.list \
+          -o Dir::Etc::sourceparts=- \
+          -o APT::Get::List-Cleanup=0
         sudo apt-get install -y -qq heroku
         heroku --version
