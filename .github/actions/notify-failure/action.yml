@@ -10,9 +10,10 @@ inputs:
 runs:
   using: "composite"
   steps:
-    # yasslab/review_request_notify と同じ投稿の仕方に揃える
+    # yasslab/review_request_notify と同じ投稿の仕方に揃える。
+    # 組織の SLACK_BOT_TOKEN を渡すので、付け替えられるタグではなくコミットで固定する
     - name: 🚨 Notify failure to Slack
-      uses: slackapi/slack-github-action@v4.0.0
+      uses: slackapi/slack-github-action@dcb1066f776dd043e64d0e8ba94ca15cc7e1875d # v4.0.0
       with:
         method: chat.postMessage
         token: ${{ inputs.SLACK_BOT_TOKEN }}
