@@ -17,6 +17,8 @@ runs:
       with:
         method: chat.postMessage
         token: ${{ inputs.SLACK_BOT_TOKEN }}
+        # 既定 (false) では投稿に失敗してもステップは緑になり、通知が壊れても気付けない
+        errors: true
         # 本文は入れ子のブロックスカラーに入れ、YAML の特殊文字にならないようにする
         payload: |
           channel: ${{ inputs.channel-id }}
