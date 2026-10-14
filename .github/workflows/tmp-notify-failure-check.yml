@@ -1,0 +1,21 @@
+# 一時的: 失敗通知が Slack に届くかを確かめる。マージ前に消す
+name: Check failure notification
+on:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-22.04
+    steps:
+    - name: ☑️ Checkout code
+      uses: actions/checkout@v5
+
+    - name: 💥 Fail on purpose
+      run: exit 1
+
+    - name: 🚨 Notify failure to Slack
+      if: failure()
+      uses: ./.github/actions/notify-failure
+      with:
+        channel-id:      ${{ secrets.SLACK_CHANNEL_NAME }}
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
