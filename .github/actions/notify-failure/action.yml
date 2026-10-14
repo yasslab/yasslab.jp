@@ -1,0 +1,27 @@
+name: 'Notify failure to Slack'
+description: 'ジョブが失敗したことを、@yasulab 宛てに Slack へ知らせる'
+inputs:
+  channel-id:
+    description: 'Slack Channel ID to post message'
+    required: true
+  SLACK_BOT_TOKEN:
+    description: 'Slack token to post message'
+    required: true
+runs:
+  using: "composite"
+  steps:
+    # yasslab/review_request_notify と同じ投稿の仕方に揃える。
+    # 組織の SLACK_BOT_TOKEN を渡すので、付け替えられるタグではなくコミットで固定する
+    - name: 🚨 Notify failure to Slack
+      uses: slackapi/slack-github-action@dcb1066f776dd043e64d0e8ba94ca15cc7e1875d # v4.0.0
+      with:
+        method: chat.postMessage
+        token: ${{ inputs.SLACK_BOT_TOKEN }}
+        # 既定 (false) では投稿に失敗してもステップは緑になり、通知が壊れても気付けない
+        errors: true
+        # 本文は入れ子のブロックスカラーに入れ、YAML の特殊文字にならないようにする
+        payload: |
+          channel: ${{ inputs.channel-id }}
+          text: |
+            <@yasulab> GitHub Actions のジョブが失敗しました :rotating_light:
+            > :github: <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|${{ github.repository }} - ${{ github.workflow }} / ${{ github.job }}>

@@ -93,3 +93,10 @@ jobs:
       env:
         HEROKU_API_KEY:  ${{ secrets.HEROKU_API_KEY }}
         HEROKU_APP_NAME: 'yasslab-jp'
+
+    - name: 🚨 Notify failure to Slack
+      if: failure()
+      uses: ./.github/actions/notify-failure
+      with:
+        channel-id:      ${{ secrets.SLACK_CHANNEL_NAME }}
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
