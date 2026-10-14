@@ -28,3 +28,13 @@ RSpec.describe 'HerokuRelease.deployed?' do
     expect(HerokuRelease.deployed?(releases, sha)).to be false
   end
 end
+
+RSpec.describe 'HerokuRelease.request' do
+  # Net::HTTP は gzip を求めておきながら、Content-Range 付き (206) の応答は解凍しない。
+  # gzip のまま JSON.parse して落ちた (2026年10月14日の main の deploy ジョブ)
+  it 'does not ask for a compressed response' do
+    request = HerokuRelease.request('yasslab-jp', 'dummy', max: 5)
+    expect(request['Accept-Encoding']).to be_nil
+    expect(request['Range']).to eq('version ..; order=desc, max=5')
+  end
+end
