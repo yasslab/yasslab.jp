@@ -1,0 +1,18 @@
+# 一時的: ubuntu-24.04 でデプロイと定期実行に要るものが揃うかを確かめる。マージ前に消す
+name: Check ubuntu-24.04
+on:
+  pull_request:
+
+jobs:
+  deploy-tools:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v5
+    - uses: ./.github/actions/setup-heroku-cli
+    - name: heroku CLI and the runner's Ruby
+      run: |
+        which heroku
+        ruby -v
+        ruby -c tasks/verify_heroku_release.rb
+        ruby -r ./tasks/verify_heroku_release -e 'p HerokuRelease.request("yasslab-jp", "dummy", max: 5)["Accept-Encoding"]'
+
