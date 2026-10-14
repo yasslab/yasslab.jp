@@ -86,3 +86,10 @@ jobs:
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
+
+    - name: ✅ Verify the release on Heroku
+      if: ${{ env.HAS_NEWS == 'true' }}
+      run: ruby tasks/verify_heroku_release.rb "$(git rev-parse HEAD)"
+      env:
+        HEROKU_API_KEY:  ${{ secrets.HEROKU_API_KEY }}
+        HEROKU_APP_NAME: 'yasslab-jp'
