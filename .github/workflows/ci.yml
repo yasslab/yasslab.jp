@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - name: ☑️ Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 2
 
@@ -50,12 +50,12 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - name: ☑️ Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 1
 
     - name: 🚀 Deploy to Heroku
-      uses: akhileshns/heroku-deploy@v3.13.15
+      uses: akhileshns/heroku-deploy@v3.15.15
       with:
         branch:          'main'
         usedocker:       false

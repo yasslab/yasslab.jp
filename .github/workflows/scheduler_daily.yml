@@ -16,11 +16,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
     - name: ☑️ Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 2
 
@@ -76,7 +76,7 @@ jobs:
 
     - name: 🚀 Deploy to Heroku if recent article(s) found
       if: ${{ env.NEW_HOLIDAY == 'true' }}
-      uses: akhileshns/heroku-deploy@v3.12.13
+      uses: akhileshns/heroku-deploy@v3.15.15
       with:
         branch:          'main'
         usedocker:       false
