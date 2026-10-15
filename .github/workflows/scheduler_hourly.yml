@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
     - name: ☑️ Checkout code
@@ -75,6 +75,10 @@ jobs:
       if: ${{ env.HAS_NEWS == 'false' }}
       run: |
         echo "No recent news found."
+
+    - name: 🟪 Set up Heroku CLI
+      if: ${{ env.HAS_NEWS == 'true' }}
+      uses: ./.github/actions/setup-heroku-cli
 
     - name: 🚀 Deploy to Heroku if recent news found
       if: ${{ env.HAS_NEWS == 'true' }}
