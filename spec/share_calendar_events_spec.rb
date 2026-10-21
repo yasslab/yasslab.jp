@@ -34,3 +34,12 @@ describe '#authorize' do
     authorize
   end
 end
+
+# google-api-client 0.x の HTTPClient は同梱の古い証明書の束で検証し、
+# 鍵が侵害された eMudhra の中間 CA につながるルートも信頼する。
+# Faraday（Net::HTTP）なら OS の証明書の束で検証する
+describe Google::Apis::CalendarV3::CalendarService do
+  it 'Google API との通信を、同梱の束を持つ HTTPClient ではなく Faraday で行う' do
+    expect(described_class.new.client).to be_a(Faraday::Connection)
+  end
+end
