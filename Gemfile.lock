@@ -43,7 +43,7 @@ GEM
       json
     crass (1.0.7)
     csv (3.3.6)
-    date (3.5.1)
+    date (3.6.0)
     declarative (0.0.20)
     diff-lcs (1.6.2)
     domain_name (0.6.20260921)
@@ -202,7 +202,8 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
-    mail (2.8.1)
+    mail (2.9.1)
+      logger
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
