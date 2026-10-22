@@ -18,6 +18,9 @@ RSpec.describe 'config.ru' do
     text = +''
     body.each { |chunk| text << chunk }
     body.close if body.respond_to?(:close)
+    # Puma は大文字と小文字だけが違うヘッダーを畳まずに、両方とも返す
+    names = headers.to_h.keys.map(&:downcase)
+    expect(names).to eq(names.uniq), "重複したヘッダー: #{names.tally.select { |_, n| n > 1 }.keys}"
     headers = headers.to_h.transform_keys(&:downcase)
     [status, headers, text.force_encoding('UTF-8')]
   end
