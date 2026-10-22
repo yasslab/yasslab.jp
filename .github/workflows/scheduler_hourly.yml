@@ -91,6 +91,9 @@ jobs:
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
         rollbackonhealthcheckfailed: true
+        # --force を使わない。push が拒否されると、このアクションは --force で送り直すので、
+        # 後から動いた古い回が本番を古いコミットに戻しうる（spec/heroku_deploy_spec.rb で固定している）
+        dontuseforce:    true
 
     - name: ✅ Verify the release on Heroku
       if: ${{ env.HAS_NEWS == 'true' }}
