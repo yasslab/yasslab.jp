@@ -54,7 +54,7 @@ module Uptime
 
   def self.certificate_problem(host, expires_at, days: 14, now: Time.now)
     left = ((expires_at - now) / 86400).floor
-    "#{host} の証明書の期限まで残り #{left} 日です (#{expires_at.utc.strftime('%Y-%m-%d %H:%M')} UTC)" if left < days
+    "#{host} の証明書の期限まで残り #{left} 日です (#{expires_at.getlocal('+09:00').strftime('%Y-%m-%d %H:%M')} JST)" if left < days
   end
 end
 
