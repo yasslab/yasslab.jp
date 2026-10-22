@@ -45,7 +45,12 @@ jobs:
 #        GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
 
   deploy:
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    # workflow_dispatch は、Dependabot の自動マージ後に dependabot.yml から起動される
+    if: ${{ (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main' }}
+    # 続けてマージされた時に、Heroku へのデプロイが重ならないよう 1 つずつ動かす
+    concurrency:
+      group: deploy-main
+      cancel-in-progress: false
     needs: test
     runs-on: ubuntu-24.04
     steps:
