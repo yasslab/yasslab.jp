@@ -38,10 +38,11 @@ jobs:
   deploy:
     # workflow_dispatch は、Dependabot の自動マージ後に dependabot.yml から起動される
     if: ${{ (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main' }}
-    # 続けてマージされた時に、Heroku へのデプロイが重ならないよう 1 つずつ動かす
+    # 続けてマージされた時に、Heroku へのデプロイが重ならないよう 1 つずつ、待った順に動かす
     concurrency:
       group: deploy-main
       cancel-in-progress: false
+      queue: max
     needs: test
     runs-on: ubuntu-24.04
     steps:
@@ -63,6 +64,9 @@ jobs:
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
         rollbackonhealthcheckfailed: true
+        # --force を使わない。push が拒否されると、このアクションは --force で送り直すので、
+        # 後から動いた古い回が本番を古いコミットに戻しうる（spec/heroku_deploy_spec.rb で固定している）
+        dontuseforce:    true
 
     - name: ✅ Verify the release on Heroku
       run: ruby tasks/verify_heroku_release.rb "$(git rev-parse HEAD)"
