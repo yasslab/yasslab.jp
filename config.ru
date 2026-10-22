@@ -24,28 +24,25 @@ use Rack::TryStatic,
   try: ['.html', 'index.html', '/index.html', 'humans.txt'],
   header_rules: [
     [:all, {
-      'Strict-Transport-Security' => 'max-age=31536000; preload',
-      'X-Xss-Protection'          => '1; mode=block',
-      'X-Content-Type-Options'    => 'nosniff',
-      'X-Frame-Options'           => 'DENY',
-      'Content-Security-Policy'   => "default-src 'self' 'unsafe-inline' 'unsafe-eval' e.infogram.com cdn.jsdelivr.net *.google.com *.google-analytics.com *.googletagmanager.com stats.g.doubleclick.net *.googleusercontent.com *.facebook.net *.facebook.com *.twitter.com *.github.com *.cloudfront.net buttons.github.io *.hatena.ne.jp *.st-hatena.com *.wufoo.com *.mailchimp.com *.twimg.com *.fontawesome.com speakerdeck.com speakerd.herokuapp.com coderdojo.jp code.jquery.com fonts.googleapis.com fonts.gstatic.com cdnjs.cloudflare.com stackpath.bootstrapcdn.com public.slidesharecdn.com www.slideshare.net www.youtube.com www.w3.org d.line-scdn.net banners.itunes.apple.com; img-src * 'self' data: https:;"
+      'strict-transport-security' => 'max-age=31536000; preload',
+      'x-xss-protection'          => '1; mode=block',
+      'x-content-type-options'    => 'nosniff',
+      'x-frame-options'           => 'DENY',
+      'content-security-policy'   => "default-src 'self' 'unsafe-inline' 'unsafe-eval' e.infogram.com cdn.jsdelivr.net *.google.com *.google-analytics.com *.googletagmanager.com stats.g.doubleclick.net *.googleusercontent.com *.facebook.net *.facebook.com *.twitter.com *.github.com *.cloudfront.net buttons.github.io *.hatena.ne.jp *.st-hatena.com *.wufoo.com *.mailchimp.com *.twimg.com *.fontawesome.com speakerdeck.com speakerd.herokuapp.com coderdojo.jp code.jquery.com fonts.googleapis.com fonts.gstatic.com cdnjs.cloudflare.com stackpath.bootstrapcdn.com public.slidesharecdn.com www.slideshare.net www.youtube.com www.w3.org d.line-scdn.net banners.itunes.apple.com; img-src * 'self' data: https:;"
     }],
-    [['html'],    { 'Content-Type'  => 'text/html; charset=utf-8'}],
-    [['txt'],     { 'Content-Type'  => 'text/plain; charset=utf-8'}],
-    [['css'],     { 'Content-Type'  => 'text/css'}],
-    [['js'],      { 'Content-Type'  => 'text/javascript' }],
-    [['png'],     { 'Content-Type'  => 'image/png' }],
-    [['gif'],     { 'Content-Type'  => 'image/gif' }],
-    [['jpeg'],    { 'Content-Type'  => 'image/jpeg' }],
-    [['jpg'],     { 'Content-Type'  => 'image/jpeg' }],
-    [['zip'],     { 'Content-Type'  => 'application/zip' }],
-    [['pdf'],     { 'Content-Type'  => 'application/pdf' }],
-    [['/assets'], { 'Cache-Control' => 'public', 'Vary' => 'Accept-Encoding' }]
+    [['html'],    { 'content-type'  => 'text/html; charset=utf-8'}],
+    [['txt'],     { 'content-type'  => 'text/plain; charset=utf-8'}],
+    [['css'],     { 'content-type'  => 'text/css'}],
+    [['js'],      { 'content-type'  => 'text/javascript' }],
+    [['png'],     { 'content-type'  => 'image/png' }],
+    [['gif'],     { 'content-type'  => 'image/gif' }],
+    [['jpeg'],    { 'content-type'  => 'image/jpeg' }],
+    [['jpg'],     { 'content-type'  => 'image/jpeg' }],
+    [['zip'],     { 'content-type'  => 'application/zip' }],
+    [['pdf'],     { 'content-type'  => 'application/pdf' }],
+    [['/assets'], { 'cache-control' => 'public', 'vary' => 'Accept-Encoding' }]
   ]
 
   run lambda { |env|
-    [404, { 'Content-Type' => 'text/html' }, File.open('_site/404.html', File::RDONLY)]
+    [404, { 'content-type' => 'text/html' }, File.open('_site/404.html', File::RDONLY)]
   }
-
-require "rack/jekyll"
-run Rack::Jekyll.new
