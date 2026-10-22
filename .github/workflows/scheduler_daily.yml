@@ -36,20 +36,6 @@ jobs:
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    - name: 🔔 Notify daily updates in Gumroad by using Emoji
-      run: bundle exec rake share_gumroad_updates
-      env:
-        SLACK_GUMROAD:        ${{ secrets.SLACK_GUMROAD }}
-        GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
-
-    - name: 📅 Share event summary today from given calendar
-      run: bundle exec rake share_calendar_events
-      env:
-        SLACK_CALENDAR:      ${{ secrets.SLACK_CALENDAR  }}
-        GOOGLE_CALENDAR_IDS: ${{ secrets.GOOGLE_CALENDAR_IDS }}
-        GOOGLE_SECRETS:      ${{ secrets.GOOGLE_SECRETS  }}
-        GOOGLE_TOKENS:       ${{ secrets.GOOGLE_TOKENS   }}
-
     - name: ♨️ Fetch Japanese holidays to cache
       run: |
         bundle exec rake fetch_japanese_holidays

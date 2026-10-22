@@ -19,12 +19,6 @@ updates:
   - dependency-name: declarative-option
     versions:
     - 0.1.1
-  - dependency-name: google-apis-core
-    versions:
-    - 0.3.0
-  - dependency-name: googleauth
-    versions:
-    - 0.16.0
   - dependency-name: puma
     versions:
     - 5.2.0
