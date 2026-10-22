@@ -1,3 +1,6 @@
+# cooldown: 公開から 7 日経った版だけを提案する。自動マージから本番へのデプロイまで人が見ないので、
+# 乗っ取られたパッケージの悪い版を、取り下げられる前に配らないようにする
+# （cooldown は security updates には効かず、脆弱性の修正はすぐ PR が出る）
 version: 2
 updates:
 - package-ecosystem: bundler
@@ -5,6 +8,8 @@ updates:
   schedule:
     interval: weekly
     time: "20:00"
+  cooldown:
+    default-days: 7
   open-pull-requests-limit: 10
   versioning-strategy: lockfile-only
   ignore:
@@ -31,4 +36,6 @@ updates:
   schedule:
     interval: weekly
     time: "20:00"
+  cooldown:
+    default-days: 7
   open-pull-requests-limit: 10
