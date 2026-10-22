@@ -88,6 +88,7 @@ jobs:
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
+        rollbackonhealthcheckfailed: true
 
     - name: ✅ Verify the release on Heroku
       if: ${{ env.NEW_HOLIDAY == 'true' }}
