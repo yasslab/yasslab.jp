@@ -18,11 +18,6 @@ task :share_rss_articles do |task, args|
   ruby "tasks/share_rss_articles.rb"
 end
 
-desc "Share daily updates in Gumroad by using Emoji"
-task :share_gumroad_updates do |task, args|
-  ruby "tasks/share_gumroad_updates.rb"
-end
-
 desc "Fetch and cache holidays from Japanese Cabinet Office (CAO)"
 task :fetch_japanese_holidays do |task, args|
   ruby "tasks/fetch_japanese_holidays.rb"
@@ -37,22 +32,6 @@ end
 #   p args.user_name
 #   p args.label_color
 # end
-
-desc "Share today's summary from given calendar"
-task :share_calendar_events do |task, args|
-  ruby "tasks/share_calendar_events.rb"
-end
-namespace :share_calendar_events do
-  desc "Share today's summary from given calendar (Sandbox)"
-  task :sandbox do |task, args|
-    ruby "tasks/share_calendar_events.rb SANDBOX"
-  end
-
-  desc "Share today's summary from given calendar (Sandbox)"
-  task :test do |task, args|
-    ruby "tasks/share_calendar_events.rb TEST"
-  end
-end
 
 desc "Share inquiry from yasslab.jp"
 task :share_inquiry do |task, args|

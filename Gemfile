@@ -34,8 +34,6 @@ gem 'sanitize'          # RSS: Remove HTML tags
 gem 'activesupport'     # RSS: Time Calculation
 gem 'yaml'              # note: Upsert articles
 gem 'mechanize'         # note: Upsert articles
-gem 'google-apis-calendar_v3' # GCal: Access to Calendar
-gem 'multi_json'        # GCal: Access to Calendar
 gem 'gmail'             # Share inquiry from form
 gem 'retryable'         # Retry on errors like HTTP
 gem 'twilio-ruby'       # Twilio: Voice recordings
