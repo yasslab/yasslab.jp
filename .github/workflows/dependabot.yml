@@ -8,6 +8,7 @@ on:
 permissions:
   contents:      write
   pull-requests: write
+  actions:       write # マージ後に ci.yml を起動するため
 
 jobs:
   dependabot:
@@ -19,3 +20,17 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # 静的サイトで、Jekyll の更新も CI のビルドと HTMLProofer で確かめられるので、既定の rails,jekyll から jekyll を外す
           exclude-gems: rails
+
+      # GITHUB_TOKEN でのマージは push のワークフローを起動しないので、main の test と deploy を自分で起動する。
+      # workflow_dispatch は GITHUB_TOKEN からでも起動できる例外
+      # https://docs.github.com/en/actions/security-for-github-actions/security-guides/automatic-token-authentication#using-the-github_token-in-a-workflow
+      - name: 🚀 Run test and deploy on main after merging
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL:   ${{ github.event.pull_request.html_url }}
+        run: |
+          if [ "$(gh pr view "$PR_URL" --json state --jq .state)" = "MERGED" ]; then
+            gh workflow run ci.yml --repo "$GITHUB_REPOSITORY" --ref main
+          else
+            echo "Not merged, so not going to deploy."
+          fi
