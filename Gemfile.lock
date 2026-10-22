@@ -59,7 +59,7 @@ GEM
       faraday-net_http (>= 2.0, < 3.6)
       json
       logger
-    faraday-multipart (1.1.1)
+    faraday-multipart (1.2.0)
       multipart-post (~> 2.0)
     faraday-net_http (3.5.0)
       net-http (~> 0.5)
@@ -427,7 +427,7 @@ DEPENDENCIES
   yaml
 
 RUBY VERSION
-   ruby 3.4.4p34
+   ruby 4.0.8
 
 BUNDLED WITH
-   2.6.9
+   4.0.20
