@@ -24,7 +24,10 @@ updates:
     versions:
     - 5.2.0
 - package-ecosystem: github-actions
-  directory: "/"
+  # .github/actions/ の composite action で使う Actions も対象にする
+  directories:
+  - "/"
+  - "/.github/actions/*"
   schedule:
     interval: weekly
     time: "20:00"
