@@ -5,7 +5,6 @@ ruby file: '.ruby-version'
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'jekyll',        '~> 4.4'
-gem 'rack-jekyll'
 gem 'rake'           # for running tasks
 gem 'ostruct'        # not-default gem from Ruby 3.5.0
 
