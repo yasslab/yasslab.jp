@@ -3,9 +3,7 @@ updates:
 - package-ecosystem: bundler
   directory: "/"
   schedule:
-    # Jekyll serves static files only and no secrets handled by JavaScript.
-    # So this repository doesn't have to update gems frequently very much.
-    interval: monthly
+    interval: weekly
     time: "20:00"
   open-pull-requests-limit: 10
   versioning-strategy: lockfile-only
@@ -25,3 +23,9 @@ updates:
   - dependency-name: puma
     versions:
     - 5.2.0
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "20:00"
+  open-pull-requests-limit: 10
