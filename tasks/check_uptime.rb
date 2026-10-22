@@ -52,9 +52,9 @@ module Uptime
     Net::HTTP.start(host, 443, use_ssl: true, open_timeout: 10) { |http| http.peer_cert.not_after }
   end
 
-  def self.certificate_problem(host, expires_at, days: 14)
-    left = ((expires_at - Time.now) / 86400).floor
-    "#{host} の証明書の期限まで残り #{left} 日です (#{expires_at.utc} UTC)" if left < days
+  def self.certificate_problem(host, expires_at, days: 14, now: Time.now)
+    left = ((expires_at - now) / 86400).floor
+    "#{host} の証明書の期限まで残り #{left} 日です (#{expires_at.utc.strftime('%Y-%m-%d %H:%M')} UTC)" if left < days
   end
 end
 

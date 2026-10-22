@@ -56,12 +56,15 @@ RSpec.describe 'Uptime' do
   end
 
   describe '.certificate_problem' do
+    now = Time.utc(2026, 10, 22, 0, 0, 0)
+
     it 'reports a certificate that expires soon' do
-      expect(Uptime.certificate_problem('yasslab.jp', Time.now + 3 * 86400, days: 14)).to include('3')
+      expect(Uptime.certificate_problem('yasslab.jp', now + 3 * 86400, days: 14, now: now))
+        .to eq('yasslab.jp の証明書の期限まで残り 3 日です (2026-10-25 00:00 UTC)')
     end
 
     it 'returns nil for a certificate valid long enough' do
-      expect(Uptime.certificate_problem('yasslab.jp', Time.now + 30 * 86400, days: 14)).to be_nil
+      expect(Uptime.certificate_problem('yasslab.jp', now + 14 * 86400, days: 14, now: now)).to be_nil
     end
   end
 end
