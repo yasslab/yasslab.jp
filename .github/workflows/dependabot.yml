@@ -18,6 +18,8 @@ jobs:
       - uses: yasslab/dependabot_auto_merge@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          # 静的サイトで、Jekyll の更新も CI のビルドと HTMLProofer で確かめられるので、既定の rails,jekyll から jekyll を外す
+          exclude-gems: rails
 
       # GITHUB_TOKEN でのマージは push のワークフローを起動しないので、main の test と deploy を自分で起動する。
       # workflow_dispatch は GITHUB_TOKEN からでも起動できる例外
