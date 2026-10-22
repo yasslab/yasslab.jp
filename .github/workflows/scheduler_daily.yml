@@ -80,7 +80,7 @@ jobs:
 
     - name: 🚀 Deploy to Heroku if recent article(s) found
       if: ${{ env.NEW_HOLIDAY == 'true' }}
-      uses: akhileshns/heroku-deploy@v3.15.15
+      uses: akhileshns/heroku-deploy@v4
       with:
         branch:          'main'
         usedocker:       false

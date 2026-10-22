@@ -82,7 +82,7 @@ jobs:
 
     - name: 🚀 Deploy to Heroku if recent news found
       if: ${{ env.HAS_NEWS == 'true' }}
-      uses: akhileshns/heroku-deploy@v3.15.15
+      uses: akhileshns/heroku-deploy@v4
       with:
         branch:          'main'
         usedocker:       false
