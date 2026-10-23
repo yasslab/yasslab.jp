@@ -33,3 +33,9 @@ updates:
   cooldown:
     default-days: 7
   open-pull-requests-limit: 10
+  # akhileshns/heroku-deploy の `v4` はリリースではなく、2021年6月で止まった古いブランチ（Node.js 12）。
+  # Dependabot はこれを 3.15.15 より新しい版と読み違えて、v4 へ「上げる」PR を作ることがある。
+  # 本当に 4 系のリリースが出たら、この行を消してから上げる
+  ignore:
+  - dependency-name: akhileshns/heroku-deploy
+    versions: [">= 4"]
