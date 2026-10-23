@@ -55,7 +55,7 @@ jobs:
       uses: ./.github/actions/setup-heroku-cli
 
     - name: 🚀 Deploy to Heroku
-      uses: akhileshns/heroku-deploy@v3.15.15
+      uses: akhileshns/heroku-deploy@1b080913896a5d6d44a18e9e208f8eb1fee9b0f7 # v3.15.15
       with:
         branch:          'main'
         usedocker:       false
