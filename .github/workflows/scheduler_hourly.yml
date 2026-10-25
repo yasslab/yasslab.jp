@@ -10,6 +10,10 @@ on:
   # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
   workflow_dispatch:
 
+# 取ったニュースをコミットして main へ push するので contents だけ書き込みを渡し、ほかの権限は渡さない
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-24.04
