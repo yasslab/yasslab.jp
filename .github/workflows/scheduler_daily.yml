@@ -66,18 +66,17 @@ jobs:
 
     - name: 🚀 Deploy to Heroku if recent article(s) found
       if: ${{ env.NEW_HOLIDAY == 'true' }}
-      uses: akhileshns/heroku-deploy@1b080913896a5d6d44a18e9e208f8eb1fee9b0f7 # v3.15.15
+      # Heroku の API キーを第三者の action に渡さないよう、自前の action で git push する。
+      # 強制 push はしないので、後から動いた古い回は Heroku に拒否され、本番を古いコミットに戻さない
+      # （spec/heroku_deploy_spec.rb で、全経路が同じ版を SHA で固定して使うことを守っている）
+      uses: yasslab/heroku_deploy_action@c08735737346db5c70a7adcf8d5dcc251e547e34 # v1.0.0
       with:
         branch:          'main'
-        usedocker:       false
-        heroku_api_key:   ${{ secrets.HEROKU_API_KEY }}
+        heroku_api_key:  ${{ secrets.HEROKU_API_KEY }}
         heroku_app_name: 'yasslab-jp'
         heroku_email:    'yohei@yasslab.jp'
         healthcheck:     'https://yasslab.jp/health'
         rollbackonhealthcheckfailed: true
-        # --force を使わない。push が拒否されると、このアクションは --force で送り直すので、
-        # 後から動いた古い回が本番を古いコミットに戻しうる（spec/heroku_deploy_spec.rb で固定している）
-        dontuseforce:    true
 
     - name: ✅ Verify the release on Heroku
       if: ${{ env.NEW_HOLIDAY == 'true' }}
