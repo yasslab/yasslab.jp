@@ -20,12 +20,12 @@ jobs:
 
     steps:
     - name: ☑️ Checkout code
-      uses: actions/checkout@v7
+      uses: actions/checkout@v7.0.1
       with:
         fetch-depth: 2
 
     - name: 💎 Set up Ruby
-      uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@v1.335.0
       with:
         bundler-cache: true
         #ruby-version: 2.7 # Not necessary if .ruby-version is given
@@ -82,14 +82,14 @@ jobs:
 
     - name: 🟪 Set up Heroku CLI
       if: ${{ env.HAS_NEWS == 'true' }}
-      uses: ./.github/actions/setup-heroku-cli
+      uses: $/.github/actions/setup-heroku-cli
 
     - name: 🚀 Deploy to Heroku if recent news found
       if: ${{ env.HAS_NEWS == 'true' }}
       # Heroku の API キーを第三者の action に渡さないよう、自前の action で git push する。
       # 強制 push はしないので、後から動いた古い回は Heroku に拒否され、本番を古いコミットに戻さない
       # （spec/heroku_deploy_spec.rb で、全経路が同じ版を SHA で固定して使うことを守っている）
-      uses: yasslab/heroku_deploy_action@c08735737346db5c70a7adcf8d5dcc251e547e34 # v1.0.0
+      uses: yasslab/heroku_deploy_action@v1.0.0
       with:
         branch:          'main'
         heroku_api_key:  ${{ secrets.HEROKU_API_KEY }}
@@ -107,7 +107,7 @@ jobs:
 
     - name: 🚨 Notify failure to Slack
       if: failure()
-      uses: ./.github/actions/notify-failure
+      uses: $/.github/actions/notify-failure
       with:
         channel-id:      ${{ secrets.SLACK_CHANNEL_NAME }}
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
