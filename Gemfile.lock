@@ -302,8 +302,8 @@ GEM
     rubyntlm (0.6.8)
       base64
     safe_yaml (1.0.5)
-    sanitize (7.0.0)
-      crass (~> 1.0.2)
+    sanitize (7.0.1)
+      crass (~> 1.0.8)
       nokogiri (>= 1.16.8)
     sass-embedded (1.106.1)
       google-protobuf (~> 4.31)
