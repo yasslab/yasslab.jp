@@ -256,7 +256,7 @@ br.ignore-sp{
 
 // font setting
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700');
+// Noto Sans JP は LCP の画像と回線を取り合わないよう、ページの読み込み後に読む（_includes/header.html）
 @import url('https://fonts.googleapis.com/css?family=Oswald:600|Oxygen:700');//トップのキャッチコピー専用
 
 @mixin link() {
