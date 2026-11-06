@@ -36,6 +36,11 @@ def new_ruby_weekly_items(items, last_issue)
   numbered.select { |number, _| number > last_issue }.map(&:last)
 end
 
+# Each element is the list of article lines of one feed.
+def slack_message(feeds)
+  feeds.flatten.join("\n")
+end
+
 def last_ruby_weekly_issue(path)
   File.exist?(path) ? File.read(path).to_i : nil
 end
@@ -48,7 +53,7 @@ end
 if __FILE__ == $PROGRAM_NAME
   slack = Slack::Incoming::Webhooks.new ENV['SLACK_SHARE']
 
-  msg = ""
+  feeds    = []
   articles = []
   RSS_LIST.each { |rss|
     # Retry 3 times to HTTP connections at maximum
@@ -68,7 +73,7 @@ if __FILE__ == $PROGRAM_NAME
       end
     end
 
-    msg << articles.map {|a|
+    feeds << articles.map {|a|
       if rss[:url].include? 'b.hatena.ne.jp'
         p "<#{a.link}|#{a.title}> by `<https://b.hatena.ne.jp/YassLab|#{rss[:title]}>`\n> #{a.description}"
       elsif rss[:url].include? "qiita.com"
@@ -76,15 +81,15 @@ if __FILE__ == $PROGRAM_NAME
       else # e.g. TechRacho articles
         p "<#{a.link}|#{a.title}> by `<https://techracho.bpsinc.jp/category/ruby-rails-related|#{rss[:title]}>`\n> #{Sanitize.fragment(a.description)[0..110] + '...'}"
       end
-    }.join("\n")
+    }
   }
 
   # The description of Ruby Weekly is the whole newsletter HTML, so post only the title and link.
   weekly_items = Retryable.retryable(tries: 3, on: [Timeout::Error]) do
     new_ruby_weekly_items(RSS::Parser.parse(RUBY_WEEKLY_RSS, false).items, last_ruby_weekly_issue(RUBY_WEEKLY_STATE))
   end
-  weekly_msg = weekly_items.map { |a| p "<#{a.link}|#{a.title}> by `<https://rubyweekly.com/|Ruby Weekly>`" }.join("\n")
-  msg = [msg, weekly_msg].reject(&:empty?).join("\n")
+  feeds << weekly_items.map { |a| p "<#{a.link}|#{a.title}> by `<https://rubyweekly.com/|Ruby Weekly>`" }
+  msg = slack_message(feeds)
 
   if msg.empty?
     puts "✅ No recent updates ;)"
