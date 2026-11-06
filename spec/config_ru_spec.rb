@@ -1,5 +1,6 @@
 require 'spec_helper'
 require 'rack'
+require 'zlib'
 
 # 本番の配信 (config.ru) が、ビルドした _site をどう返すかを確かめる。
 # CI は Puma を起動しないので、ここで config.ru を組み立てて呼び出す
@@ -56,6 +57,47 @@ RSpec.describe 'config.ru' do
     expect(status).to eq(404)
     expect(headers['content-type']).to start_with('text/html')
     expect(body).to eq(File.read('_site/404.html'))
+  end
+
+  # 遅い回線では HTML と CSS の転送が LCP（カバー写真）を遅らせるので、文字のファイルは gzip で返す
+  context 'when the browser accepts gzip' do
+    def get_gzip(path)
+      env = Rack::MockRequest.env_for("https://yasslab.jp#{path}", 'HTTP_ACCEPT_ENCODING' => 'gzip, br')
+      status, headers, body = @app.call(env)
+      raw = +''.b
+      body.each { |chunk| raw << chunk }
+      body.close if body.respond_to?(:close)
+      [status, headers.to_h.transform_keys(&:downcase), raw]
+    end
+
+    {
+      '/ja/'          => '_site/ja/index.html',
+      '/css/main.css' => '_site/css/main.css',
+    }.each do |path, file|
+      it "compresses #{path}" do
+        status, headers, raw = get_gzip(path)
+        expect(status).to eq(200)
+        expect(headers['content-encoding']).to eq('gzip')
+        expect(headers['vary']).to include('Accept-Encoding')
+        expect(raw.bytesize).to be < File.size(file) / 2
+        expect(Zlib.gunzip(raw)).to eq(File.binread(file))
+      end
+    end
+
+    it 'keeps the security headers' do
+      _, headers, = get_gzip('/ja/')
+      expect(headers['content-security-policy']).to start_with("default-src 'self'")
+    end
+
+    it 'does not compress images (already compressed)' do
+      _, headers, = get_gzip('/img/cover-photo.webp')
+      expect(headers['content-encoding']).to be_nil
+    end
+  end
+
+  it 'serves uncompressed when the browser does not ask for gzip' do
+    _, headers, = get('https://yasslab.jp/css/main.css')
+    expect(headers['content-encoding']).to be_nil
   end
 
   it 'redirects old news URLs' do

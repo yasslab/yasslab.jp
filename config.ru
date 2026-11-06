@@ -17,6 +17,12 @@ use Rack::Rewrite do
   end
 end
 
+# 文字のファイルは gzip で返す（main.css は 143 KB → 25 KB）。画像などは圧縮済みなので含めない
+use Rack::Deflater, sync: false, include: %w[
+  text/html text/css text/javascript text/plain
+  application/json application/xml image/svg+xml
+]
+
 require 'rack/contrib/try_static'
 use Rack::TryStatic,
   urls: %w[/],
