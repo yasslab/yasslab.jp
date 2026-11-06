@@ -122,6 +122,18 @@
     <!-- ページ冒頭の背景画像 (thumbnail.html) を、遅延読み込みの画像より先に読み込ませる -->
     <link rel="preload" as="image" href="{% include thumbnail-url.html %}" fetchpriority="high">
     {% endif %}
+
+    <!-- 日本語の Web フォントは 800 KB を超え、遅い回線ではページ冒頭の画像（LCP）と回線を取り合う。
+         ページの読み込み後に読み、届くまでは代わりのフォントで表示する（display=swap） -->
+    <script>
+      window.addEventListener('load', function() {
+        var link = document.createElement('link');
+        link.rel  = 'stylesheet';
+        link.href = 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap';
+        document.head.appendChild(link);
+      });
+    </script>
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap"></noscript>
   </head>
 <body>
 
