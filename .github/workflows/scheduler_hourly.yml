@@ -38,7 +38,7 @@ jobs:
 
     # 前回投稿した Ruby Weekly の号を覚えておく（cache は同じ key を上書きできないので、run ごとに key を変える）
     - name: 📦 Restore the last posted Ruby Weekly issue
-      uses: actions/cache/restore@v6
+      uses: actions/cache/restore@v6.1.0
       with:
         path: tmp/ruby_weekly_last_issue
         key:  ruby-weekly-${{ github.run_id }}-${{ github.run_attempt }}
@@ -51,7 +51,7 @@ jobs:
 
     - name: 📦 Save the last posted Ruby Weekly issue
       if: ${{ always() && hashFiles('tmp/ruby_weekly_last_issue') != '' }}
-      uses: actions/cache/save@v6
+      uses: actions/cache/save@v6.1.0
       with:
         path: tmp/ruby_weekly_last_issue
         key:  ruby-weekly-${{ github.run_id }}-${{ github.run_attempt }}
