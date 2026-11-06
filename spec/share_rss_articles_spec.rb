@@ -6,6 +6,23 @@ require_relative '../tasks/share_rss_articles'
 # 「直近 60 分」の判定では拾えないので、前回投稿した号の番号と比べて新しい号を拾う。
 RubyWeeklyItem = Struct.new(:link, :title)
 
+# 同じ回に 2 つの RSS で新着があっても、記事ごとに行が分かれること
+describe '#slack_message' do
+  it 'joins articles from different feeds with a newline' do
+    hatena    = ["<https://example.com/a|A> by `Hatena Bookmark`\n> desc A"]
+    techracho = ["<https://example.com/b|B> by `TechRacho`\n> desc B"]
+    expect(slack_message([hatena, techracho])).to eq "#{hatena.first}\n#{techracho.first}"
+  end
+
+  it 'skips feeds without new articles' do
+    expect(slack_message([[], ['<https://example.com/a|A>'], []])).to eq '<https://example.com/a|A>'
+  end
+
+  it 'returns an empty string when no feed has new articles' do
+    expect(slack_message([[], []])).to eq ''
+  end
+end
+
 describe 'Ruby Weekly' do
   let(:items) do
     [
