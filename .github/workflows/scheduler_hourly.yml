@@ -36,10 +36,25 @@ jobs:
         bundle config set path 'vendor/bundle'
         bundle install
 
+    # 前回投稿した Ruby Weekly の号を覚えておく（cache は同じ key を上書きできないので、run ごとに key を変える）
+    - name: 📦 Restore the last posted Ruby Weekly issue
+      uses: actions/cache/restore@v6.1.0
+      with:
+        path: tmp/ruby_weekly_last_issue
+        key:  ruby-weekly-${{ github.run_id }}-${{ github.run_attempt }}
+        restore-keys: ruby-weekly-
+
     - name: 🔔 Notify fetched articles from RSS
       run:  bundle exec rake share_rss_articles
       env:
         SLACK_SHARE: ${{ secrets.SLACK_SHARE }}
+
+    - name: 📦 Save the last posted Ruby Weekly issue
+      if: ${{ always() && hashFiles('tmp/ruby_weekly_last_issue') != '' }}
+      uses: actions/cache/save@v6.1.0
+      with:
+        path: tmp/ruby_weekly_last_issue
+        key:  ruby-weekly-${{ github.run_id }}-${{ github.run_attempt }}
 
     - name: 📞 Notify Twilio events to Slack
       run: bundle exec rake notify_twilio_events
