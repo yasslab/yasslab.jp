@@ -56,7 +56,11 @@ jobs:
         path: tmp/ruby_weekly_last_issue
         key:  ruby-weekly-${{ github.run_id }}-${{ github.run_attempt }}
 
+    # ここから先の手順は、前の手順（外部の RSS など）が落ちても動かす。
+    # 着信通知は「過去 1 時間の録音」を読むので、飛ばすと次の回で取り戻せない。
+    # 落ちた手順があれば、最後の Slack 通知（failure()）で知らせる（spec/scheduler_hourly_spec.rb）
     - name: 📞 Notify Twilio events to Slack
+      if: ${{ !cancelled() }}
       run: bundle exec rake notify_twilio_events
       env:
         TWILIO_TEL_NUMBERS:    ${{ secrets.TWILIO_TEL_NUMBERS    }}
@@ -66,6 +70,8 @@ jobs:
         OPENAI_ACCESS_TOKEN:   ${{ secrets.OPENAI_ACCESS_TOKEN   }}
 
     - name: 📜 Upsert recent news from RSS
+      id: upsert
+      if: ${{ !cancelled() }}
       run: |
         bundle exec rake upsert_recent_notes
         bundle exec rake upsert_recent_press
@@ -91,16 +97,17 @@ jobs:
         OPENAI_ACCESS_TOKEN: ${{ secrets.OPENAI_ACCESS_TOKEN }}
 
     - name: ✅ No recent articles found
-      if: ${{ env.HAS_NEWS == 'false' }}
+      if: ${{ !cancelled() && steps.upsert.outcome == 'success' && env.HAS_NEWS == 'false' }}
       run: |
         echo "No recent news found."
 
     - name: 🟪 Set up Heroku CLI
-      if: ${{ env.HAS_NEWS == 'true' }}
+      if: ${{ !cancelled() && steps.upsert.outcome == 'success' && env.HAS_NEWS == 'true' }}
       uses: $/.github/actions/setup-heroku-cli
 
     - name: 🚀 Deploy to Heroku if recent news found
-      if: ${{ env.HAS_NEWS == 'true' }}
+      id: deploy
+      if: ${{ !cancelled() && steps.upsert.outcome == 'success' && env.HAS_NEWS == 'true' }}
       # Heroku の API キーを第三者の action に渡さないよう、自前の action で git push する。
       # 強制 push はしないので、後から動いた古い回は Heroku に拒否され、本番を古いコミットに戻さない
       # （spec/heroku_deploy_spec.rb で、全経路が同じ版を SHA で固定して使うことを守っている）
@@ -114,7 +121,7 @@ jobs:
         rollbackonhealthcheckfailed: true
 
     - name: ✅ Verify the release on Heroku
-      if: ${{ env.HAS_NEWS == 'true' }}
+      if: ${{ !cancelled() && steps.deploy.outcome == 'success' }}
       run: ruby tasks/verify_heroku_release.rb "$(git rev-parse HEAD)"
       env:
         HEROKU_API_KEY:  ${{ secrets.HEROKU_API_KEY }}
