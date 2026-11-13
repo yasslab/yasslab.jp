@@ -41,9 +41,12 @@ end
 
 # --- 3-line summary -----------------------------------------------------------
 # #share のメンバーが、リンクを開く前に記事の要点をつかめるように、記事ごとに 3 行でまとめる。
-# 要約できない時は RSS の description に戻して投稿は続け、最後に失敗を知らせる（投稿の後で exit 1）。
+# 要約できない時は RSS の description に戻して投稿は続ける。
+# 相手のサイトの拒否など、こちらで直せない取得の失敗は警告だけにし、
+# OpenAI 側の失敗（鍵・API・3 行でない）だけを投稿の後で exit 1 にして知らせる。
 SUMMARY_MODEL      = 'gpt-4o-mini'
 ARTICLE_TEXT_LIMIT = 6000 # characters sent to the model
+SUMMARY_LINE_LIMIT = 80   # characters per line shown in Slack
 SUMMARY_PROMPT     = <<~PROMPT.freeze
   あなたは技術記事を紹介する編集者です。渡された記事を、読む前に要点がつかめるよう日本語で 3 行にまとめてください。
   - ちょうど 3 行。1 行は 60 字以内
@@ -52,6 +55,7 @@ SUMMARY_PROMPT     = <<~PROMPT.freeze
 PROMPT
 
 class SummaryError < StandardError; end
+class ArticleUnavailable < StandardError; end
 
 def article_text(html)
   doc = Nokogiri::HTML(html)
@@ -65,6 +69,7 @@ def summarize_article(title, text, client:)
     parameters: {
       model: SUMMARY_MODEL,
       temperature: 0,
+      max_tokens: 400,
       messages: [
         { role: 'system', content: SUMMARY_PROMPT },
         { role: 'user',   content: "題名: #{title}\n\n#{text}" },
@@ -78,8 +83,20 @@ def summarize_article(title, text, client:)
   lines
 end
 
+# 要約は記事の本文から作るので、本文にモデルを操る文が入っていても Slack の
+# メンション（<!channel>）やリンクとして効かないよう、制御文字をエスケープして長さも切る
+# https://docs.slack.dev/messaging/formatting-message-text#escaping
+def slack_escape(text)
+  text.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
+end
+
+def summary_line(line)
+  line = "#{line[0, SUMMARY_LINE_LIMIT]}…" if line.length > SUMMARY_LINE_LIMIT
+  "> ・#{slack_escape(line)}"
+end
+
 def article_entry(head, summary, fallback)
-  return [head, *summary.map { |line| "> ・#{line}" }].join("\n") if summary
+  return [head, *summary.map { |line| summary_line(line) }].join("\n") if summary
   return "#{head}\n> #{fallback}" if fallback.present?
   head
 end
@@ -100,18 +117,36 @@ end
 
 SUMMARY_FAILURES = []
 
-# 記事を取って 3 行にまとめる。失敗したら nil を返し（呼び出し側は RSS の文に戻す）、理由を SUMMARY_FAILURES に残す
-def summary_for(url, title)
-  token = ENV['OPENAI_ACCESS_TOKEN'].to_s
-  raise SummaryError, 'OPENAI_ACCESS_TOKEN is not set' if token.empty?
-
+# 記事の本文を取る。相手のサイトの拒否（403 など）・通信の失敗・本文の無いページは
+# こちらで直せないので ArticleUnavailable にまとめる
+def fetch_article_text(url)
   agent = Mechanize.new { |a| a.open_timeout = 10; a.read_timeout = 20 }
   text  = article_text(agent.get(url).body)
-  raise SummaryError, 'no article text' if text.empty?
+  raise ArticleUnavailable, 'no article text' if text.empty?
+  text
+rescue ArticleUnavailable
+  raise
+rescue Mechanize::Error, Net::HTTPError, SocketError, SystemCallError, Timeout::Error, OpenSSL::SSL::SSLError => e
+  raise ArticleUnavailable, "#{e.class}: #{e.message}"
+end
 
-  summarize_article(title, text, client: OpenAI::Client.new(access_token: token, request_timeout: 60))
+def openai_client
+  token = ENV['OPENAI_ACCESS_TOKEN'].to_s
+  token.empty? ? nil : OpenAI::Client.new(access_token: token, request_timeout: 60)
+end
+
+# 記事を取って 3 行にまとめる。失敗したら nil を返す（呼び出し側は RSS の文に戻す）。
+# 取得の失敗は警告だけ、OpenAI 側の失敗は failures に残して最後に赤にする
+def summary_for(url, title, fetch: method(:fetch_article_text), client: openai_client, failures: SUMMARY_FAILURES)
+  text = fetch.call(url)
+  raise SummaryError, 'OPENAI_ACCESS_TOKEN is not set' if client.nil?
+
+  summarize_article(title, text, client: client)
+rescue ArticleUnavailable => e
+  warn "::warning::Could not read #{url} for a summary: #{e.message}"
+  nil
 rescue => e
-  SUMMARY_FAILURES << "Failed to summarize #{url}: #{e.class}: #{e.message}"
+  failures << "Failed to summarize #{url}: #{e.class}: #{e.message}"
   nil
 end
 

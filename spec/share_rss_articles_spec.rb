@@ -153,3 +153,47 @@ describe '3 行まとめ' do
     end
   end
 end
+
+describe '3 行まとめの安全と失敗の扱い' do
+  # 記事の本文にモデルを操る文が入っていても、Slack のメンションやリンクとして効かないようにする
+  it 'escapes Slack control characters in summary lines' do
+    expect(article_entry('head', ['<!channel> & <https://example.com|x>', 'b', 'c'], nil))
+      .to eq "head\n> ・&lt;!channel&gt; &amp; &lt;https://example.com|x&gt;\n> ・b\n> ・c"
+  end
+
+  it 'cuts a long summary line' do
+    line = article_entry('head', ['あ' * 200, 'b', 'c'], nil).lines[1].chomp
+    expect(line).to eq "> ・#{'あ' * SUMMARY_LINE_LIMIT}…"
+  end
+
+  describe '#summary_for' do
+    let(:failures) { [] }
+    let(:client)   { FakeChatClient.new("一\n二\n三") }
+
+    # 相手のサイトの拒否（403）や本文の無いページはこちらで直せないので、赤にせず RSS の文に戻す
+    it 'returns nil without a failure when the article cannot be fetched' do
+      fetch = ->(_url) { raise ArticleUnavailable, '403' }
+      expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: client, failures: failures)).to be_nil
+      expect(failures).to be_empty
+    end
+
+    # OpenAI 側の失敗（鍵・API・3 行でない）はこちらで直すものなので、失敗として残す
+    it 'records a failure when the model does not return three lines' do
+      fetch = ->(_url) { '本文' }
+      bad   = FakeChatClient.new('1 行だけ')
+      expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: bad, failures: failures)).to be_nil
+      expect(failures.size).to eq 1
+    end
+
+    it 'records a failure when the API key is missing' do
+      fetch = ->(_url) { '本文' }
+      expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: nil, failures: failures)).to be_nil
+      expect(failures.first).to include('OPENAI_ACCESS_TOKEN')
+    end
+
+    it 'returns the summary when everything works' do
+      fetch = ->(_url) { '本文' }
+      expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: client, failures: failures)).to eq %w[一 二 三]
+    end
+  end
+end

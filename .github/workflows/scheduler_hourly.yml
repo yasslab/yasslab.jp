@@ -46,6 +46,8 @@ jobs:
 
     - name: 🔔 Notify fetched articles from RSS
       run:  bundle exec rake share_rss_articles
+      # 記事の本文を取りに行くので、応答の遅いサイトで毎時の後続（着信通知など）を待たせすぎない
+      timeout-minutes: 15
       env:
         SLACK_SHARE: ${{ secrets.SLACK_SHARE }}
         # 記事ごとの 3 行まとめに使う。要約できない記事は RSS の文で投稿し、最後にこのステップを赤にする
