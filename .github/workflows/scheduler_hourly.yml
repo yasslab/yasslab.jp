@@ -48,6 +48,8 @@ jobs:
       run:  bundle exec rake share_rss_articles
       env:
         SLACK_SHARE: ${{ secrets.SLACK_SHARE }}
+        # 記事ごとの 3 行まとめに使う。要約できない記事は RSS の文で投稿し、最後にこのステップを赤にする
+        OPENAI_ACCESS_TOKEN: ${{ secrets.OPENAI_ACCESS_TOKEN }}
 
     - name: 📦 Save the last posted Ruby Weekly issue
       if: ${{ always() && hashFiles('tmp/ruby_weekly_last_issue') != '' }}

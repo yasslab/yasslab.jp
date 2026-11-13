@@ -82,3 +82,74 @@ describe 'Ruby Weekly' do
     expect(new_ruby_weekly_items(feed_items, 824).map(&:title)).to eq ['Patch Rails now']
   end
 end
+
+# #share のメンバーが、リンクを開く前に記事の要点をつかめるように 3 行でまとめる
+describe '3 行まとめ' do
+  # OpenAI::Client#chat と同じ形で、決まった返事を返す代役
+  FakeChatClient = Struct.new(:reply) do
+    attr_reader :parameters
+
+    def chat(parameters:)
+      @parameters = parameters
+      raise reply if reply.is_a?(Exception)
+      { 'choices' => [{ 'message' => { 'content' => reply } }] }
+    end
+  end
+
+  describe '#article_text' do
+    it 'reads the article body without scripts, styles and navigation' do
+      html = <<~HTML
+        <html><head><style>p{}</style><script>alert(1)</script></head>
+        <body><nav>メニュー</nav><header>ヘッダー</header>
+          <article><h1>題名</h1><p>本文の 1 段落目。</p>
+          <p>本文の   2 段落目。</p></article>
+        <footer>フッター</footer></body></html>
+      HTML
+      expect(article_text(html)).to eq '題名 本文の 1 段落目。 本文の 2 段落目。'
+    end
+
+    it 'falls back to the body when there is no article element' do
+      expect(article_text('<html><body><p>本文だけ</p></body></html>')).to eq '本文だけ'
+    end
+
+    it 'cuts long text to keep the request small' do
+      expect(article_text("<p>#{'あ' * 10_000}</p>").length).to eq ARTICLE_TEXT_LIMIT
+    end
+  end
+
+  describe '#summarize_article' do
+    it 'returns the three lines without bullets or numbers' do
+      client = FakeChatClient.new("・1 行目\n2. 2 行目\n- 3 行目\n")
+      expect(summarize_article('題名', '本文', client: client)).to eq ['1 行目', '2 行目', '3 行目']
+    end
+
+    it 'sends the title and the article text to the model' do
+      client = FakeChatClient.new("a\nb\nc")
+      summarize_article('題名', '本文', client: client)
+      expect(client.parameters[:model]).to eq SUMMARY_MODEL
+      expect(client.parameters[:messages].last[:content]).to include('題名', '本文')
+    end
+
+    # 3 行でない返事を流すと、#share の見た目が崩れる。要約は無かったことにして元の文に戻す
+    it 'raises when the reply is not three lines' do
+      client = FakeChatClient.new("1 行だけ")
+      expect { summarize_article('題名', '本文', client: client) }.to raise_error(SummaryError)
+    end
+  end
+
+  describe '#article_entry' do
+    let(:head) { '<https://example.com/a|A> by `TechRacho`' }
+
+    it 'puts the summary under the link as a quote' do
+      expect(article_entry(head, ['一', '二', '三'], 'desc')).to eq "#{head}\n> ・一\n> ・二\n> ・三"
+    end
+
+    it 'falls back to the feed description without a summary' do
+      expect(article_entry(head, nil, 'desc')).to eq "#{head}\n> desc"
+    end
+
+    it 'shows only the link when there is neither' do
+      expect(article_entry(head, nil, nil)).to eq head
+    end
+  end
+end
