@@ -196,4 +196,47 @@ describe '3 行まとめの安全と失敗の扱い' do
       expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: client, failures: failures)).to eq %w[一 二 三]
     end
   end
+
+  # 記事の取得で起きることはどれもこちらで直せないので、ArticleUnavailable にまとめて赤にしない
+  describe '#fetch_article_text' do
+    class FakeAgent
+      attr_reader :requested
+      def initialize(&block) = @block = block
+      def get(url) = (@requested = url; @block.call(url))
+    end
+
+    def html_page(url, html)
+      Mechanize::Page.new(URI(url), { 'content-type' => 'text/html' }, html, 200, Mechanize.new)
+    end
+
+    it 'returns the article text of an HTML page' do
+      agent = FakeAgent.new { |url| html_page(url, '<html><body><article>本文</article></body></html>') }
+      expect(fetch_article_text('https://example.com/a', agent: agent)).to eq '本文'
+    end
+
+    # net-http-persistent は接続の拒否を Net::HTTP::Persistent::Error（StandardError）に変えて投げる
+    it 'treats a refused connection as unavailable' do
+      agent = FakeAgent.new { raise Net::HTTP::Persistent::Error, 'connection refused: example.com:443' }
+      expect { fetch_article_text('https://example.com/a', agent: agent) }.to raise_error(ArticleUnavailable)
+    end
+
+    it 'treats an empty link as unavailable' do
+      agent = FakeAgent.new { |url| html_page(url, '<p>x</p>') }
+      expect { fetch_article_text(nil, agent: agent) }.to raise_error(ArticleUnavailable)
+      expect(agent.requested).to be_nil
+    end
+
+    # Mechanize は file:// も読むので、フィードの link からローカルのファイルを読ませない
+    it 'does not read a link other than http or https' do
+      agent = FakeAgent.new { |url| html_page('https://example.com/', '<p>secret</p>') }
+      expect { fetch_article_text('file:///etc/hosts', agent: agent) }.to raise_error(ArticleUnavailable)
+      expect(agent.requested).to be_nil
+    end
+
+    # PDF や画像の中身をモデルに渡さない
+    it 'treats a non-HTML page as unavailable' do
+      agent = FakeAgent.new { |url| Mechanize::File.new(URI(url), { 'content-type' => 'application/pdf' }, '%PDF-1.7', 200) }
+      expect { fetch_article_text('https://example.com/a.pdf', agent: agent) }.to raise_error(ArticleUnavailable)
+    end
+  end
 end

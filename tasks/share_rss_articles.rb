@@ -117,16 +117,22 @@ end
 
 SUMMARY_FAILURES = []
 
-# 記事の本文を取る。相手のサイトの拒否（403 など）・通信の失敗・本文の無いページは
-# こちらで直せないので ArticleUnavailable にまとめる
-def fetch_article_text(url)
-  agent = Mechanize.new { |a| a.open_timeout = 10; a.read_timeout = 20 }
-  text  = article_text(agent.get(url).body)
+# 記事の本文を取る。相手のサイトの拒否（403 など）・通信の失敗・HTML でないページ・本文の無いページは
+# こちらで直せないので ArticleUnavailable にまとめる。ここでは OpenAI を呼ばないので、例外は列挙せず全部まとめる
+# （net-http-persistent は接続の拒否を自前の Error に変えて投げるなど、列挙すると漏れる）
+def fetch_article_text(url, agent: Mechanize.new { |a| a.open_timeout = 10; a.read_timeout = 20 })
+  # Mechanize は file:// も読むので、フィードの link からローカルのファイルを読ませない
+  raise ArticleUnavailable, "not an http(s) link: #{url.inspect}" unless url.to_s.match?(%r{\Ahttps?://}i)
+
+  page = agent.get(url)
+  raise ArticleUnavailable, "not an HTML page: #{page.response['content-type']}" unless page.is_a?(Mechanize::Page)
+
+  text = article_text(page.body)
   raise ArticleUnavailable, 'no article text' if text.empty?
   text
 rescue ArticleUnavailable
   raise
-rescue Mechanize::Error, Net::HTTPError, SocketError, SystemCallError, Timeout::Error, OpenSSL::SSL::SSLError => e
+rescue StandardError => e
   raise ArticleUnavailable, "#{e.class}: #{e.message}"
 end
 
