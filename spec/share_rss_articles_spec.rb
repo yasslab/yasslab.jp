@@ -82,3 +82,161 @@ describe 'Ruby Weekly' do
     expect(new_ruby_weekly_items(feed_items, 824).map(&:title)).to eq ['Patch Rails now']
   end
 end
+
+# #share のメンバーが、リンクを開く前に記事の要点をつかめるように 3 行でまとめる
+describe '3 行まとめ' do
+  # OpenAI::Client#chat と同じ形で、決まった返事を返す代役
+  FakeChatClient = Struct.new(:reply) do
+    attr_reader :parameters
+
+    def chat(parameters:)
+      @parameters = parameters
+      raise reply if reply.is_a?(Exception)
+      { 'choices' => [{ 'message' => { 'content' => reply } }] }
+    end
+  end
+
+  describe '#article_text' do
+    it 'reads the article body without scripts, styles and navigation' do
+      html = <<~HTML
+        <html><head><style>p{}</style><script>alert(1)</script></head>
+        <body><nav>メニュー</nav><header>ヘッダー</header>
+          <article><h1>題名</h1><p>本文の 1 段落目。</p>
+          <p>本文の   2 段落目。</p></article>
+        <footer>フッター</footer></body></html>
+      HTML
+      expect(article_text(html)).to eq '題名 本文の 1 段落目。 本文の 2 段落目。'
+    end
+
+    it 'falls back to the body when there is no article element' do
+      expect(article_text('<html><body><p>本文だけ</p></body></html>')).to eq '本文だけ'
+    end
+
+    it 'cuts long text to keep the request small' do
+      expect(article_text("<p>#{'あ' * 10_000}</p>").length).to eq ARTICLE_TEXT_LIMIT
+    end
+  end
+
+  describe '#summarize_article' do
+    it 'returns the three lines without bullets or numbers' do
+      client = FakeChatClient.new("・1 行目\n2. 2 行目\n- 3 行目\n")
+      expect(summarize_article('題名', '本文', client: client)).to eq ['1 行目', '2 行目', '3 行目']
+    end
+
+    it 'sends the title and the article text to the model' do
+      client = FakeChatClient.new("a\nb\nc")
+      summarize_article('題名', '本文', client: client)
+      expect(client.parameters[:model]).to eq SUMMARY_MODEL
+      expect(client.parameters[:messages].last[:content]).to include('題名', '本文')
+    end
+
+    # 3 行でない返事を流すと、#share の見た目が崩れる。要約は無かったことにして元の文に戻す
+    it 'raises when the reply is not three lines' do
+      client = FakeChatClient.new("1 行だけ")
+      expect { summarize_article('題名', '本文', client: client) }.to raise_error(SummaryError)
+    end
+  end
+
+  describe '#article_entry' do
+    let(:head) { '<https://example.com/a|A> by `TechRacho`' }
+
+    it 'puts the summary under the link as a quote' do
+      expect(article_entry(head, ['一', '二', '三'], 'desc')).to eq "#{head}\n> ・一\n> ・二\n> ・三"
+    end
+
+    it 'falls back to the feed description without a summary' do
+      expect(article_entry(head, nil, 'desc')).to eq "#{head}\n> desc"
+    end
+
+    it 'shows only the link when there is neither' do
+      expect(article_entry(head, nil, nil)).to eq head
+    end
+  end
+end
+
+describe '3 行まとめの安全と失敗の扱い' do
+  # 記事の本文にモデルを操る文が入っていても、Slack のメンションやリンクとして効かないようにする
+  it 'escapes Slack control characters in summary lines' do
+    expect(article_entry('head', ['<!channel> & <https://example.com|x>', 'b', 'c'], nil))
+      .to eq "head\n> ・&lt;!channel&gt; &amp; &lt;https://example.com|x&gt;\n> ・b\n> ・c"
+  end
+
+  it 'cuts a long summary line' do
+    line = article_entry('head', ['あ' * 200, 'b', 'c'], nil).lines[1].chomp
+    expect(line).to eq "> ・#{'あ' * SUMMARY_LINE_LIMIT}…"
+  end
+
+  describe '#summary_for' do
+    let(:failures) { [] }
+    let(:client)   { FakeChatClient.new("一\n二\n三") }
+
+    # 相手のサイトの拒否（403）や本文の無いページはこちらで直せないので、赤にせず RSS の文に戻す
+    it 'returns nil without a failure when the article cannot be fetched' do
+      fetch = ->(_url) { raise ArticleUnavailable, '403' }
+      expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: client, failures: failures)).to be_nil
+      expect(failures).to be_empty
+    end
+
+    # OpenAI 側の失敗（鍵・API・3 行でない）はこちらで直すものなので、失敗として残す
+    it 'records a failure when the model does not return three lines' do
+      fetch = ->(_url) { '本文' }
+      bad   = FakeChatClient.new('1 行だけ')
+      expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: bad, failures: failures)).to be_nil
+      expect(failures.size).to eq 1
+    end
+
+    it 'records a failure when the API key is missing' do
+      fetch = ->(_url) { '本文' }
+      expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: nil, failures: failures)).to be_nil
+      expect(failures.first).to include('OPENAI_ACCESS_TOKEN')
+    end
+
+    it 'returns the summary when everything works' do
+      fetch = ->(_url) { '本文' }
+      expect(summary_for('https://example.com/a', 'A', fetch: fetch, client: client, failures: failures)).to eq %w[一 二 三]
+    end
+  end
+
+  # 記事の取得で起きることはどれもこちらで直せないので、ArticleUnavailable にまとめて赤にしない
+  describe '#fetch_article_text' do
+    class FakeAgent
+      attr_reader :requested
+      def initialize(&block) = @block = block
+      def get(url) = (@requested = url; @block.call(url))
+    end
+
+    def html_page(url, html)
+      Mechanize::Page.new(URI(url), { 'content-type' => 'text/html' }, html, 200, Mechanize.new)
+    end
+
+    it 'returns the article text of an HTML page' do
+      agent = FakeAgent.new { |url| html_page(url, '<html><body><article>本文</article></body></html>') }
+      expect(fetch_article_text('https://example.com/a', agent: agent)).to eq '本文'
+    end
+
+    # net-http-persistent は接続の拒否を Net::HTTP::Persistent::Error（StandardError）に変えて投げる
+    it 'treats a refused connection as unavailable' do
+      agent = FakeAgent.new { raise Net::HTTP::Persistent::Error, 'connection refused: example.com:443' }
+      expect { fetch_article_text('https://example.com/a', agent: agent) }.to raise_error(ArticleUnavailable)
+    end
+
+    it 'treats an empty link as unavailable' do
+      agent = FakeAgent.new { |url| html_page(url, '<p>x</p>') }
+      expect { fetch_article_text(nil, agent: agent) }.to raise_error(ArticleUnavailable)
+      expect(agent.requested).to be_nil
+    end
+
+    # Mechanize は file:// も読むので、フィードの link からローカルのファイルを読ませない
+    it 'does not read a link other than http or https' do
+      agent = FakeAgent.new { |url| html_page('https://example.com/', '<p>secret</p>') }
+      expect { fetch_article_text('file:///etc/hosts', agent: agent) }.to raise_error(ArticleUnavailable)
+      expect(agent.requested).to be_nil
+    end
+
+    # PDF や画像の中身をモデルに渡さない
+    it 'treats a non-HTML page as unavailable' do
+      agent = FakeAgent.new { |url| Mechanize::File.new(URI(url), { 'content-type' => 'application/pdf' }, '%PDF-1.7', 200) }
+      expect { fetch_article_text('https://example.com/a.pdf', agent: agent) }.to raise_error(ArticleUnavailable)
+    end
+  end
+end
