@@ -24,7 +24,7 @@ jobs:
         fetch-depth: 2
 
     - name: 💎 Setup Ruby
-      uses: ruby/setup-ruby@v1.335.0
+      uses: ruby/setup-ruby@v1.336.0
       with:
         bundler-cache: true
 
