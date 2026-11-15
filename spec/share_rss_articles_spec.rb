@@ -197,6 +197,30 @@ describe '3 行まとめの安全と失敗の扱い' do
     end
   end
 
+  # 手元で投稿せずに確かめる dry run
+  describe '#share_dry_run? / #lookback_seconds' do
+    it 'is a dry run only when SHARE_DRY_RUN is exactly 1' do
+      expect(share_dry_run?('SHARE_DRY_RUN' => '1')).to be true
+      expect(share_dry_run?('SHARE_DRY_RUN' => '0')).to be false
+      expect(share_dry_run?('SHARE_DRY_RUN' => 'false')).to be false
+      expect(share_dry_run?({})).to be false
+    end
+
+    it 'looks back TIME_INTERVAL by default' do
+      expect(lookback_seconds({})).to eq TIME_INTERVAL * 60
+      expect(lookback_seconds('SHARE_DRY_RUN' => '1')).to eq TIME_INTERVAL * 60
+    end
+
+    it 'widens the window only in a dry run' do
+      expect(lookback_seconds('SHARE_DRY_RUN' => '1', 'SHARE_LOOKBACK_HOURS' => '72')).to eq 72 * 3600
+    end
+
+    # 投稿する回で窓を広げると、過去の記事を #share に投稿し直してしまう
+    it 'refuses to widen the window when it posts' do
+      expect { lookback_seconds('SHARE_LOOKBACK_HOURS' => '72') }.to raise_error(ArgumentError, /SHARE_DRY_RUN/)
+    end
+  end
+
   # 記事の取得で起きることはどれもこちらで直せないので、ArticleUnavailable にまとめて赤にしない
   describe '#fetch_article_text' do
     class FakeAgent

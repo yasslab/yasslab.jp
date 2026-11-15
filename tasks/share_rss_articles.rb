@@ -117,6 +117,21 @@ end
 
 SUMMARY_FAILURES = []
 
+# 手元で投稿せずに確かめる dry run。Slack に投稿せず、Ruby Weekly の号も保存しない
+#   SHARE_DRY_RUN=1 SHARE_LOOKBACK_HOURS=72 OPENAI_ACCESS_TOKEN=... bundle exec rake share_rss_articles
+# 本番の workflow には書かない（spec/scheduler_hourly_spec.rb）
+def share_dry_run?(env = ENV)
+  env['SHARE_DRY_RUN'] == '1'
+end
+
+# 新着とみなす窓（秒）。広げるのは dry run の時だけ（投稿する回で広げると過去の記事を投稿し直す）
+def lookback_seconds(env = ENV)
+  hours = env['SHARE_LOOKBACK_HOURS']
+  return TIME_INTERVAL * 60 if hours.nil?
+  raise ArgumentError, 'SHARE_LOOKBACK_HOURS works only with SHARE_DRY_RUN=1' unless share_dry_run?(env)
+  Integer(hours) * 3600
+end
+
 # 記事の本文を取る。相手のサイトの拒否（403 など）・通信の失敗・HTML でないページ・本文の無いページは
 # こちらで直せないので ArticleUnavailable にまとめる。ここでは OpenAI を呼ばないので、例外は列挙せず全部まとめる
 # （net-http-persistent は接続の拒否を自前の Error に変えて投げるなど、列挙すると漏れる）
@@ -157,7 +172,9 @@ rescue => e
 end
 
 if __FILE__ == $PROGRAM_NAME
-  slack = Slack::Incoming::Webhooks.new ENV['SLACK_SHARE']
+  dry_run = share_dry_run?
+  window  = lookback_seconds
+  slack   = Slack::Incoming::Webhooks.new ENV['SLACK_SHARE'] unless dry_run
 
   feeds    = []
   articles = []
@@ -169,12 +186,12 @@ if __FILE__ == $PROGRAM_NAME
       if rss[:url].include? "qiita.com" # Atom feed that ends with '*.atom'
         articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
           # NOTE: This feed doesn't contain timezone, so need to convert it into JST (+09:00)
-          (Time.now.round - item.published.content + 9.hours) < TIME_INTERVAL * 60 # seconds
+          (Time.now.round - item.published.content + 9.hours) < window # seconds
         end
       else # RSS feed that ends with '*.rss'
         articles = RSS::Parser.parse(rss[:url], false).items.select do |item|
           # Time comparision by seconds (integer)
-          (Time.now.round - item.date).to_i < TIME_INTERVAL * 60 # seconds
+          (Time.now.round - item.date).to_i < window # seconds
         end
       end
     end
@@ -202,11 +219,11 @@ if __FILE__ == $PROGRAM_NAME
     puts "✅ No recent updates ;)"
   else
     puts "🆕 Found new article(s)."
-    slack.post msg
+    dry_run ? puts("🧪 SHARE_DRY_RUN=1 なので投稿しません") : slack.post(msg)
   end
 
   # Save after posting, so a failed post is retried in the next run.
-  save_ruby_weekly_issue(RUBY_WEEKLY_STATE, ruby_weekly_issue_number(weekly_items.last.link)) if weekly_items.any?
+  save_ruby_weekly_issue(RUBY_WEEKLY_STATE, ruby_weekly_issue_number(weekly_items.last.link)) if weekly_items.any? && !dry_run
 
   # 要約できなかった記事は元の文で投稿済み。理由が埋もれないよう、最後にこのステップを赤にして
   # workflow の失敗通知で知らせる（投稿と Ruby Weekly の号の保存は済ませてから落とす）
