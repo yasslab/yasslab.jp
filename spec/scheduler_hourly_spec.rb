@@ -32,4 +32,11 @@ RSpec.describe 'Scheduler for Hourly Tasks' do
   it 'still notifies Slack when any step failed' do
     expect(step.('Notify failure to Slack')['if']).to eq('failure()')
   end
+
+  # 手元で確かめるための dry run を本番で効かせない（投稿が止まる・過去の記事を投稿し直す）
+  it 'never runs the RSS step as a dry run' do
+    workflow_text = File.read(File.expand_path('../.github/workflows/scheduler_hourly.yml', __dir__))
+    expect(workflow_text).not_to include('SHARE_DRY_RUN')
+    expect(workflow_text).not_to include('SHARE_LOOKBACK_HOURS')
+  end
 end
