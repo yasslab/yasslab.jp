@@ -104,7 +104,8 @@ def summarize_article(title, text, client:)
   raise SummaryError, "expected a JSON object but got: #{content[0, 200].inspect}" unless reply.is_a?(Hash)
 
   lines = SUMMARY_KEYS.map do |key|
-    reply[key].to_s.gsub(/[[:space:]]+/, ' ').sub(/\A\s*(?:[・\-*•]|\d+[.)．、])\s*/, '').strip
+    # 番号は区切りの後に数字が続かない時だけ消す（「4.1.0 が…」のバージョン番号を残す）
+    reply[key].to_s.gsub(/[[:space:]]+/, ' ').sub(/\A\s*(?:[・\-*•]|\d+[.)．、](?!\d))\s*/, '').strip
   end
   raise SummaryError, "expected 3 lines but got #{lines.inspect}" if lines.any?(&:empty?)
   lines
