@@ -9,6 +9,19 @@ defaults:
       type: "posts"
     values:
       permalink: /ja/news/:title
+  # NOTE: 本文の無いファイルはサイトマップから外す（Search Console がソフト 404 と報告する）
+  - scope:
+      path: "google*.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "health.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "404.md"
+    values:
+      sitemap: false
 
 # Use sass for designing
 sass:
