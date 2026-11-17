@@ -118,22 +118,52 @@ describe '3 行まとめ' do
   end
 
   describe '#summarize_article' do
+    let(:three) { JSON.generate(line1: 'a', line2: 'b', line3: 'c') }
+
     it 'returns the three lines without bullets or numbers' do
-      client = FakeChatClient.new("・1 行目\n2. 2 行目\n- 3 行目\n")
+      client = FakeChatClient.new(JSON.generate(line1: '・1 行目', line2: '2. 2 行目', line3: "- 3 行目\n"))
       expect(summarize_article('題名', '本文', client: client)).to eq ['1 行目', '2 行目', '3 行目']
     end
 
     it 'sends the title and the article text to the model' do
-      client = FakeChatClient.new("a\nb\nc")
+      client = FakeChatClient.new(three)
       summarize_article('題名', '本文', client: client)
       expect(client.parameters[:model]).to eq SUMMARY_MODEL
       expect(client.parameters[:messages].last[:content]).to include('題名', '本文')
     end
 
-    # 3 行でない返事を流すと、#share の見た目が崩れる。要約は無かったことにして元の文に戻す
-    it 'raises when the reply is not three lines' do
-      client = FakeChatClient.new("1 行だけ")
+    # 「3 行」をプロンプトだけに頼ると、1 段落で返ることがあった（2026-11-16）。返事の形で 3 つを必須にする
+    it 'asks for three required lines with a strict JSON schema' do
+      client = FakeChatClient.new(three)
+      summarize_article('題名', '本文', client: client)
+      format = client.parameters[:response_format]
+      expect(format[:type]).to eq 'json_schema'
+      expect(format.dig(:json_schema, :strict)).to be true
+      expect(format.dig(:json_schema, :schema, :required)).to eq %w[line1 line2 line3]
+    end
+
+    it 'joins a line that contains a line break into one line' do
+      client = FakeChatClient.new(JSON.generate(line1: "前半\n後半", line2: 'b', line3: 'c'))
+      expect(summarize_article('題名', '本文', client: client)).to eq ['前半 後半', 'b', 'c']
+    end
+
+    # 形の崩れた返事を流すと、#share の見た目が崩れる。要約は無かったことにして元の文に戻す
+    it 'raises on a plain-text reply' do
+      client = FakeChatClient.new("1 行目\n2 行目\n3 行目")
       expect { summarize_article('題名', '本文', client: client) }.to raise_error(SummaryError)
+    end
+
+    it 'raises when a line is missing or empty' do
+      [JSON.generate(line1: 'a', line2: 'b'), JSON.generate(line1: 'a', line2: ' ', line3: 'c')].each do |reply|
+        expect { summarize_article('題名', '本文', client: FakeChatClient.new(reply)) }.to raise_error(SummaryError)
+      end
+    end
+
+    # 拒否されると content は nil、max_tokens で切れると JSON が途中で終わる
+    it 'raises on a refusal or a cut-off reply' do
+      [nil, '{"line1": "a", "line2'].each do |reply|
+        expect { summarize_article('題名', '本文', client: FakeChatClient.new(reply)) }.to raise_error(SummaryError)
+      end
     end
   end
 
@@ -168,7 +198,7 @@ describe '3 行まとめの安全と失敗の扱い' do
 
   describe '#summary_for' do
     let(:failures) { [] }
-    let(:client)   { FakeChatClient.new("一\n二\n三") }
+    let(:client)   { FakeChatClient.new(JSON.generate(line1: '一', line2: '二', line3: '三')) }
 
     # 相手のサイトの拒否（403）や本文の無いページはこちらで直せないので、赤にせず RSS の文に戻す
     it 'returns nil without a failure when the article cannot be fetched' do
