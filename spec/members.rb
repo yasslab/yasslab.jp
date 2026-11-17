@@ -50,6 +50,8 @@ RSpec.describe '/members.json' do
         http.cert_store = store
 
         request = Net::HTTP::Get.new(uri.request_uri)
+        # NOTE: 認証なしの GitHub API は IP ごとに 1 時間 60 回までで、共有の CI ランナーでは上限に当たって落ちる
+        request['Authorization'] = "Bearer #{ENV['GITHUB_TOKEN']}" if ENV['GITHUB_TOKEN']
         response = http.request(request)
         data = JSON.parse(response.body)
 

@@ -35,6 +35,8 @@ jobs:
         bundle install --jobs 4 --retry 3
 
     - name: 🔧 Test building
+      env:
+        GITHUB_TOKEN: ${{ github.token }} # spec/members.rb が GitHub API を認証付きで読むため（読み取りだけ）
       run: |
         bundle exec rake assets:precompile
         bundle exec rake test SKIP_BUILD=true
