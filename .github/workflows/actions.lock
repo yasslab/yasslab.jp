@@ -13,7 +13,7 @@ workflows:
         - 'yasslab/claude_review_action@main'
     '.github/workflows/codeql-analysis.yml':
         - 'actions/checkout@v7.0.1'
-        - 'github/codeql-action@v4.39.2'
+        - 'github/codeql-action@v4.39.3'
     '.github/workflows/dependabot.yml':
         - 'yasslab/dependabot_auto_merge@main'
     '.github/workflows/review.yml':
@@ -57,9 +57,9 @@ dependencies:
         commit: 'sha1-21025c705c08248db411dc16f3619e6b5f9ea21a'
         owner_id: 27347476
         repo_id: 371068214
-    'github/codeql-action@v4.39.2':
-        ref: 'v4.39.2'
-        commit: 'sha1-1fc58d04a4d4374f921bdac573c3811c240f9c26'
+    'github/codeql-action@v4.39.3':
+        ref: 'v4.39.3'
+        commit: 'sha1-33d7b85da1a04171e211befe2c739303b9a4c066'
         owner_id: 9919
         repo_id: 259445878
     'oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6':
