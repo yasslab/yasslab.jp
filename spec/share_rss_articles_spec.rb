@@ -125,6 +125,12 @@ describe '3 行まとめ' do
       expect(summarize_article('題名', '本文', client: client)).to eq ['1 行目', '2 行目', '3 行目']
     end
 
+    # Ruby や Rails のリリースの記事は、行頭がバージョン番号になりやすい
+    it 'keeps a version number at the start of a line' do
+      client = FakeChatClient.new(JSON.generate(line1: '4.1.0 が出た', line2: '8.1.4.1 で直った', line3: '3、最後'))
+      expect(summarize_article('題名', '本文', client: client)).to eq ['4.1.0 が出た', '8.1.4.1 で直った', '最後']
+    end
+
     it 'sends the title and the article text to the model' do
       client = FakeChatClient.new(three)
       summarize_article('題名', '本文', client: client)
