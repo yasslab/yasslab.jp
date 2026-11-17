@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require 'rss'
+require 'json'
 require 'retryable'
 require 'sanitize'
 require 'slack/incoming/webhooks'
@@ -54,6 +55,23 @@ SUMMARY_PROMPT     = <<~PROMPT.freeze
   - 行頭に記号や番号を付けない。前置きや締めの文を書かない
 PROMPT
 
+# 「3 行」をプロンプトだけに頼ると 1 段落で返ることがあった（2026-11-16）ので、返事の形で 3 つを必須にする
+# https://platform.openai.com/docs/guides/structured-outputs
+SUMMARY_KEYS   = %w[line1 line2 line3].freeze
+SUMMARY_FORMAT = {
+  type: 'json_schema',
+  json_schema: {
+    name: 'three_line_summary',
+    strict: true,
+    schema: {
+      type: 'object',
+      properties: SUMMARY_KEYS.to_h { |key| [key, { type: 'string' }] },
+      required: SUMMARY_KEYS,
+      additionalProperties: false,
+    },
+  },
+}.freeze
+
 class SummaryError < StandardError; end
 class ArticleUnavailable < StandardError; end
 
@@ -70,16 +88,25 @@ def summarize_article(title, text, client:)
       model: SUMMARY_MODEL,
       temperature: 0,
       max_tokens: 400,
+      response_format: SUMMARY_FORMAT,
       messages: [
         { role: 'system', content: SUMMARY_PROMPT },
         { role: 'user',   content: "題名: #{title}\n\n#{text}" },
       ],
     }
   )
-  lines = response.dig('choices', 0, 'message', 'content').to_s.lines
-    .map { |line| line.sub(/\A\s*(?:[・\-*•]|\d+[.)．、])\s*/, '').strip }
-    .reject(&:empty?)
-  raise SummaryError, "expected 3 lines but got #{lines.size}: #{lines.inspect}" unless lines.size == 3
+  content = response.dig('choices', 0, 'message', 'content').to_s
+  reply = begin
+    JSON.parse(content)
+  rescue JSON::ParserError # 拒否（content が nil）や max_tokens 切れもここに来る
+    raise SummaryError, "expected a JSON summary but got: #{content[0, 200].inspect}"
+  end
+  raise SummaryError, "expected a JSON object but got: #{content[0, 200].inspect}" unless reply.is_a?(Hash)
+
+  lines = SUMMARY_KEYS.map do |key|
+    reply[key].to_s.gsub(/[[:space:]]+/, ' ').sub(/\A\s*(?:[・\-*•]|\d+[.)．、])\s*/, '').strip
+  end
+  raise SummaryError, "expected 3 lines but got #{lines.inspect}" if lines.any?(&:empty?)
   lines
 end
 
