@@ -9,7 +9,7 @@ on:
   # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
   workflow_dispatch:
 
-# GITHUB_TOKEN は checkout にしか使わない（Heroku へは secrets の API キー、Slack へは secrets のトークンで送る）ので、読み取りだけにする
+# GITHUB_TOKEN は checkout と、spec/members.rb が公開のユーザー情報を読むことにしか使わない（Heroku へは secrets の API キー、Slack へは secrets のトークンで送る）ので、読み取りだけにする
 permissions:
   contents: read
 
@@ -35,6 +35,8 @@ jobs:
         bundle install --jobs 4 --retry 3
 
     - name: 🔧 Test building
+      env:
+        GITHUB_TOKEN: ${{ github.token }} # spec/members.rb が GitHub API を認証付きで読むため（読み取りだけ）
       run: |
         bundle exec rake assets:precompile
         bundle exec rake test SKIP_BUILD=true
